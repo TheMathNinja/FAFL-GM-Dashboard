@@ -49,6 +49,9 @@ jobs:
       - name: Refresh current scores and forecast
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Refresh Elo playoff bracket
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/bracket.py --league FAFL
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |

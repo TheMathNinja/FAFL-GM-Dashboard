@@ -49,7 +49,7 @@ class ModelTests(unittest.TestCase):
   self.assertEqual(completed_week(date(2026,9,14)),0)
   self.assertEqual(completed_week(date(2026,9,15)),1)
   self.assertEqual(completed_week(date(2026,9,22)),2)
-  self.assertEqual(completed_week(date(2026,12,8)),12)
+  self.assertEqual(completed_week(date(2026,12,8)),13)
   for day,good,bad in [('2026-09-17','0 9 * * 4','0 10 * * 4'),('2026-11-12','0 10 * * 4','0 9 * * 4')]:
    now=datetime.fromisoformat(day).replace(tzinfo=ZoneInfo('America/New_York'))
    self.assertEqual(schedule_decision(now,2026,'schedule',good)['should_run'],'true')

@@ -141,8 +141,11 @@
 <main class="fafl-main">
   <div class="fafl-context"><div><h2>Week __OUTLOOK__ Outlook</h2><div class="fafl-muted">Results through Week __WEEK__</div></div><div class="fafl-status"><span class="fafl-dot"></span>__STATUS__ scores</div></div>
   <div class="fafl-tabs" role="tablist" aria-label="Report view">
-    <button id="fafl-playoff-tab" role="tab" aria-controls="fafl-view" aria-selected="true" data-view="playoff">Playoff picture</button>
+    <button id="fafl-playoff-tab" role="tab" aria-controls="fafl-view" aria-selected="true" data-view="playoff">Playoff Picture</button>
+<button id="fafl-draft-tab" role="tab" aria-controls="fafl-view" aria-selected="false" data-view="draft">Draft Forecast</button>
+<button id="fafl-bracket-tab" role="tab" aria-controls="fafl-bracket" aria-selected="false" data-view="bracket">Playoff Bracket</button>
   </div>
+  <section id="fafl-bracket" role="tabpanel" aria-labelledby="fafl-bracket-tab" hidden><iframe title="Playoff Bracket" src="bracket.html" style="width:100%;height:1250px;border:0;display:block"></iframe></section>
   <section class="fafl-surface" id="fafl-view" role="tabpanel" aria-labelledby="fafl-playoff-tab">
     <div class="fafl-toolbar"><div class="fafl-conferences" aria-label="Conference"><button data-conf="NFC" aria-pressed="true">NFC</button><button data-conf="AFC" aria-pressed="false">AFC</button></div><div class="fafl-legend"><span><b>D</b>Division leader</span><span><b>W</b>Wild card</span></div></div>
     <div class="fafl-scroll"><table aria-label="Conference playoff picture"><thead id="fafl-head"></thead><tbody id="fafl-rows"></tbody></table></div>
@@ -157,6 +160,7 @@
 const root=document.getElementById('fafl-playoff-design');
 const data=__DATA__;
 const draft=__DRAFT__;
+for(const [conf,ts] of Object.entries(data)){if(!draft[conf]?.length){const current=[...ts].sort((a,b)=>(a.seed<=7)-(b.seed<=7)||(a.seed>7?a.pot-b.pot:b.seed-a.seed));const projected=[...ts].sort((a,b)=>(a.finish<=7)-(b.finish<=7)||(a.finish>7?a.projectedPotentialPoints-b.projectedPotentialPoints:b.finish-a.finish));draft[conf]=current.map((t,i)=>({...t,currentPick:i+1,pick:projected.indexOf(t)+1,potential:t.projectedPotentialPoints}));}}
 const popup=root.querySelector('#fafl-ppg-popup');
 let activeTrigger=null,hideTimer=null;
 function closePopup(){popup.hidden=true;if(activeTrigger)activeTrigger.setAttribute('aria-expanded','false');activeTrigger=null;}
@@ -211,6 +215,13 @@ const mast=root.querySelector('.fafl-mast');
 const rows=root.querySelector('#fafl-rows'),head=root.querySelector('#fafl-head');
 function initials(name){return name.split(' ').map(x=>x[0]).join('').slice(0,3)}
 function render(){
+ root.querySelector('#fafl-view').hidden=state.view==='bracket';
+ root.querySelector('#fafl-bracket').hidden=state.view!=='bracket';
+ root.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===state.view)));
+ root.querySelectorAll('.fafl-foot').forEach(el=>el.hidden=state.view==='bracket');
+ const dc=root.querySelector('#fafl-draft-controls');if(dc)dc.hidden=state.view!=='draft';
+ if(state.view==='bracket'){closePopup();return;}
+
  closePopup();
  root.querySelector('#fafl-view').style.maxWidth=state.view==='draft'?'700px':'100%';
  root.querySelector('#fafl-view').style.margin='0 auto';
@@ -245,6 +256,7 @@ function render(){
 root.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;render()}));
 root.querySelectorAll('[data-conf]').forEach(b=>b.addEventListener('click',()=>{state.conference=b.dataset.conf;render()}));
 
+window.addEventListener('message',e=>{const frame=root.querySelector('#fafl-bracket iframe');if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='bracket-height'&&Number.isFinite(e.data.height))frame.style.height=Math.max(600,e.data.height)+'px';});
 render();
 })();
 </script>

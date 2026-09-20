@@ -27,7 +27,7 @@ def completed_week(today=None):
  today=today or datetime.now(timezone.utc).date()
  september=date(SEASON,9,1);labor=september+timedelta(days=(-september.weekday())%7)
  first_tuesday=labor+timedelta(days=8)
- return min(12,max(0,(today-first_tuesday).days//7+1))
+ return min(17,max(0,(today-first_tuesday).days//7+1))
 
 def historical():
  d=pd.read_csv(ROOT/'data/historical_weekly.csv',dtype={'franchise_id':str,'division':str,'conference':str})
@@ -81,7 +81,9 @@ def fetch_current(week):
  rows=[]
  for w in range(1,week+1):
   result=export('weeklyResults',W=w)
-  for game in result['matchup']:
+  franchises={f['id']:f for game in result.get('matchup',[]) for f in game['franchise']}
+  franchises.update({f['id']:f for f in result.get('franchise',[])})
+  for game in [dict(franchise=list(franchises.values()))]:
    for f in game['franchise']:
     starters=[p for p in f.get('player',[]) if p['status']=='starter']
     if not starters:raise ValueError(f'Missing Week {w} lineup')
@@ -129,7 +131,7 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   name=f['name'];abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
   playoff=float(q[:,i].mean());division=float(dw[:,i].mean());bye=float((seed[:,i]==1).mean())
   clinch='b' if bye==1 else 'd' if division==1 else 'p' if playoff==1 else 'e' if playoff==0 else ''
-  r=dict(franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
+  r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
   rows.append(r);data['NFC' if divmap[f['division']]=='00' else 'AFC'].append(r)
  for r in rows:
   r['ranks']={}
@@ -155,10 +157,10 @@ def render(data,week,status,n_sims,updated):
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=3000);args=parser.parse_args()
  week=args.week if args.week is not None else completed_week()
- if not 1<=week<=12:raise ValueError('No completed regular-season week available')
+ if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
- meta,divmap,opp,current=fetch_current(week);data,details=forecast(historical(),current,meta,divmap,opp,week,args.simulations)
- stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,week,args.status,args.simulations,stamp)
+ meta,divmap,opp,current=fetch_current(week);data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,min(week,12),args.simulations)
+ stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,min(week,12),args.status,args.simulations,stamp)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
  (ROOT/'data/current_forecast.json').write_text(json.dumps(payload,indent=2,allow_nan=False),encoding='utf8')
  current.to_csv(ROOT/'data/current_weekly.csv',index=False)
