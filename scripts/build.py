@@ -138,7 +138,10 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   others=np.delete(actual,i,axis=1);own=actual[:,i,None]
   aw=int((own>others).sum());al=int((own<others).sum());at=int((own==others).sum())
   assert aw+al+at==31*week and aw+.5*at==today[4][0,i]
-  r.update(h2hRecord=record_text(hw,hl,ht),bonusRecord=record_text(w-hw,loss-hl,ties-ht),apRecord=record_text(aw,al,at),remainingSos=float(np.mean(today[4][0,opp[week:,i]]/(31*week))*100) if week<12 else None)
+  potential_others=np.delete(pot,i,axis=1);potential_own=pot[:,i,None]
+  pw=int((potential_own>potential_others).sum());pl=int((potential_own<potential_others).sum());pt=int((potential_own==potential_others).sum())
+  assert pw+pl+pt==31*week
+  r.update(potentialApRecord=record_text(pw,pl,pt),h2hRecord=record_text(hw,hl,ht),bonusRecord=record_text(w-hw,loss-hl,ties-ht),apRecord=record_text(aw,al,at),remainingSos=float(np.mean(today[4][0,opp[week:,i]]/(31*week))*100) if week<12 else None)
   rows.append(r);data['NFC' if divmap[f['division']]=='00' else 'AFC'].append(r)
  for r in rows:
   r['ranks']={}
