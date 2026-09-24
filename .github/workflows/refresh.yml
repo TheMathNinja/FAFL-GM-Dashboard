@@ -51,7 +51,10 @@ jobs:
         run: python scripts/build.py --status '${{ steps.schedule.outputs.score_status }}'
       - name: Refresh Elo playoff bracket
         if: steps.schedule.outputs.should_run == 'true'
-        run: python scripts/bracket.py --league FAFL
+        run: |
+          if ! python scripts/bracket.py --league FAFL; then
+            echo "::warning::FAFL Elo workbook is not current yet. Forecast publication will continue using the previously published Elo bracket."
+          fi
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |
