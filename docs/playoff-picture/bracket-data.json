@@ -15,7 +15,7 @@
           "seed": 1,
           "record": "2-0",
           "allPlayPct": 95.16129032258065,
-          "elo": 1542.94066,
+          "elo": 1542.940659781115,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -37,11 +37,11 @@
           "seed": 2,
           "record": "2-0",
           "allPlayPct": 79.03225806451613,
-          "elo": 1541.948108,
+          "elo": 1541.9481079934046,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 62.75194698211376
+          "odds": 62.75194689406377
         },
         {
           "name": "Arizona Cardinals",
@@ -49,11 +49,11 @@
           "seed": 7,
           "record": "1-1",
           "allPlayPct": 35.483870967741936,
-          "elo": 1474.280474,
+          "elo": 1474.2804744809441,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 37.24805301788628
+          "odds": 37.248053105936215
         }
       ],
       "remainingWeeks": 2,
@@ -71,11 +71,11 @@
           "seed": 3,
           "record": "1-1",
           "allPlayPct": 71.7741935483871,
-          "elo": 1553.293873,
+          "elo": 1553.2938732627083,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 55.15003374447354
+          "odds": 55.15003380540534
         },
         {
           "name": "Chicago Bears",
@@ -83,11 +83,11 @@
           "seed": 6,
           "record": "2-0",
           "allPlayPct": 51.61290322580645,
-          "elo": 1526.505877,
+          "elo": 1526.505876942096,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 44.8499662555264
+          "odds": 44.84996619459466
         }
       ],
       "remainingWeeks": 2,
@@ -105,11 +105,11 @@
           "seed": 4,
           "record": "1-1",
           "allPlayPct": 67.74193548387096,
-          "elo": 1513.661386,
+          "elo": 1513.661386190792,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.9314488898408
+          "odds": 49.93144887631273
         },
         {
           "name": "Carolina Panthers",
@@ -117,11 +117,11 @@
           "seed": 5,
           "record": "1-1",
           "allPlayPct": 62.903225806451616,
-          "elo": 1514.15618,
+          "elo": 1514.156180261294,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.06855111015929
+          "odds": 50.06855112368724
         }
       ],
       "remainingWeeks": 2,
@@ -139,11 +139,11 @@
           "seed": 8,
           "record": "1-1",
           "allPlayPct": 58.06451612903226,
-          "elo": 1548.40246,
+          "elo": 1548.402459561304,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 55.170078157488966
+          "odds": 55.170078023601185
         },
         {
           "name": "Tampa Bay Buccaneers",
@@ -151,11 +151,11 @@
           "seed": 9,
           "record": "0-2",
           "allPlayPct": 54.03225806451613,
-          "elo": 1512.348213,
+          "elo": 1512.3482135017064,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 44.829921842511034
+          "odds": 44.829921976398815
         }
       ],
       "remainingWeeks": 1,
@@ -184,11 +184,11 @@
           "seed": 10,
           "record": "1-1",
           "allPlayPct": 54.03225806451613,
-          "elo": 1481.712123,
+          "elo": 1481.7121223695162,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 46.46811647953413
+          "odds": 46.46811637290268
         },
         {
           "name": "New York Giants",
@@ -196,11 +196,11 @@
           "seed": 11,
           "record": "0-2",
           "allPlayPct": 48.38709677419355,
-          "elo": 1506.295105,
+          "elo": 1506.2951051141831,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 53.53188352046586
+          "odds": 53.53188362709733
         }
       ],
       "remainingWeeks": 1,
@@ -218,11 +218,11 @@
           "seed": 12,
           "record": "1-1",
           "allPlayPct": 35.483870967741936,
-          "elo": 1465.894766,
+          "elo": 1465.8947664973775,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.91163882077754
+          "odds": 49.91163884270492
         },
         {
           "name": "San Francisco 49ers",
@@ -230,11 +230,11 @@
           "seed": 13,
           "record": "1-1",
           "allPlayPct": 33.87096774193548,
-          "elo": 1466.508763,
+          "elo": 1466.5087633450103,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.08836117922245
+          "odds": 50.08836115729509
         }
       ],
       "remainingWeeks": 1,
@@ -252,11 +252,11 @@
           "seed": 14,
           "record": "1-1",
           "allPlayPct": 30.64516129032258,
-          "elo": 1482.817769,
+          "elo": 1482.8177693326938,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 37.33416538722818
+          "odds": 37.33416547624698
         },
         {
           "name": "Seattle Seahawks",
@@ -264,11 +264,11 @@
           "seed": 15,
           "record": "1-1",
           "allPlayPct": 16.129032258064516,
-          "elo": 1442.420629,
+          "elo": 1442.4206282339912,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 29.587862857035894
+          "odds": 29.587862740451985
         },
         {
           "name": "Minnesota Vikings",
@@ -276,11 +276,11 @@
           "seed": 16,
           "record": "0-2",
           "allPlayPct": 2.4193548387096775,
-          "elo": 1461.790739,
+          "elo": 1461.7907390632504,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 33.07797175573593
+          "odds": 33.07797178330103
         }
       ],
       "remainingWeeks": 1,
@@ -298,7 +298,7 @@
           "seed": 1,
           "record": "2-0",
           "allPlayPct": 91.93548387096774,
-          "elo": 1557.151444,
+          "elo": 1557.1514442431892,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -320,11 +320,11 @@
           "seed": 2,
           "record": "1-1",
           "allPlayPct": 74.19354838709677,
-          "elo": 1569.844492,
+          "elo": 1569.8444923526724,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 70.50127689958798
+          "odds": 70.5012769083982
         },
         {
           "name": "Baltimore Ravens",
@@ -332,11 +332,11 @@
           "seed": 7,
           "record": "2-0",
           "allPlayPct": 42.74193548387097,
-          "elo": 1457.155063,
+          "elo": 1457.1550632984618,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 29.498723100412022
+          "odds": 29.49872309160188
         }
       ],
       "remainingWeeks": 2,
@@ -354,11 +354,11 @@
           "seed": 3,
           "record": "2-0",
           "allPlayPct": 67.74193548387096,
-          "elo": 1525.904234,
+          "elo": 1525.9042341832399,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 53.09893972132088
+          "odds": 53.09893972064723
         },
         {
           "name": "Cleveland Browns",
@@ -366,11 +366,11 @@
           "seed": 6,
           "record": "2-0",
           "allPlayPct": 62.903225806451616,
-          "elo": 1509.872885,
+          "elo": 1509.8728851867631,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 46.901060278679104
+          "odds": 46.90106027935281
         }
       ],
       "remainingWeeks": 2,
@@ -388,11 +388,11 @@
           "seed": 4,
           "record": "2-0",
           "allPlayPct": 66.12903225806451,
-          "elo": 1523.430343,
+          "elo": 1523.4303427370332,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 54.17433850180223
+          "odds": 54.174338441812694
         },
         {
           "name": "Las Vegas Raiders",
@@ -400,11 +400,11 @@
           "seed": 5,
           "record": "2-0",
           "allPlayPct": 62.903225806451616,
-          "elo": 1501.767495,
+          "elo": 1501.7674950516455,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 45.82566149819778
+          "odds": 45.82566155818734
         }
       ],
       "remainingWeeks": 2,
@@ -422,11 +422,11 @@
           "seed": 8,
           "record": "1-1",
           "allPlayPct": 61.29032258064516,
-          "elo": 1496.321293,
+          "elo": 1496.3212929036467,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 40.911021429238716
+          "odds": 40.911021447870816
         },
         {
           "name": "Denver Broncos",
@@ -434,11 +434,11 @@
           "seed": 9,
           "record": "1-1",
           "allPlayPct": 60.483870967741936,
-          "elo": 1560.187757,
+          "elo": 1560.1877567697532,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 59.088978570761284
+          "odds": 59.08897855212918
         }
       ],
       "remainingWeeks": 1,
@@ -467,11 +467,11 @@
           "seed": 10,
           "record": "0-2",
           "allPlayPct": 46.774193548387096,
-          "elo": 1504.767498,
+          "elo": 1504.7674984480473,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 51.95354978048884
+          "odds": 51.95354973977424
         },
         {
           "name": "Los Angeles Chargers",
@@ -479,11 +479,11 @@
           "seed": 11,
           "record": "1-1",
           "allPlayPct": 46.774193548387096,
-          "elo": 1491.18593,
+          "elo": 1491.1859307313941,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 48.04645021951116
+          "odds": 48.04645026022576
         }
       ],
       "remainingWeeks": 1,
@@ -501,11 +501,11 @@
           "seed": 12,
           "record": "0-2",
           "allPlayPct": 32.25806451612903,
-          "elo": 1458.464055,
+          "elo": 1458.4640552933645,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.95906878525054
+          "odds": 50.959068860762194
         },
         {
           "name": "New England Patriots",
@@ -513,11 +513,11 @@
           "seed": 13,
           "record": "0-2",
           "allPlayPct": 31.451612903225808,
-          "elo": 1451.798945,
+          "elo": 1451.7989447684627,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.04093121474946
+          "odds": 49.04093113923781
         }
       ],
       "remainingWeeks": 1,
@@ -535,11 +535,11 @@
           "seed": 14,
           "record": "0-2",
           "allPlayPct": 29.03225806451613,
-          "elo": 1464.196059,
+          "elo": 1464.196058705814,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 35.40474692694829
+          "odds": 35.4047469305971
         },
         {
           "name": "Cincinnati Bengals",
@@ -547,11 +547,11 @@
           "seed": 15,
           "record": "0-2",
           "allPlayPct": 13.709677419354838,
-          "elo": 1471.201267,
+          "elo": 1471.2012665598133,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 36.86162820390613
+          "odds": 36.86162817672487
         },
         {
           "name": "Pittsburgh Steelers",
@@ -559,11 +559,11 @@
           "seed": 16,
           "record": "0-2",
           "allPlayPct": 12.903225806451612,
-          "elo": 1421.774116,
+          "elo": 1421.774115835313,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 27.733624869145583
+          "odds": 27.733624892678026
         }
       ],
       "remainingWeeks": 1,
