@@ -1,8 +1,8 @@
 {
   "season": 2026,
-  "through_week": 1,
+  "through_week": 2,
   "status": "official",
-  "updated_at": "2026-09-20 06:29 UTC",
+  "updated_at": "2026-09-24 13:57 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
@@ -20,68 +20,68 @@
     ],
     "coefficients": [
       [
-        194.35073863636362,
-        231.23267045454546
+        193.68206250000003,
+        229.88568749999996
       ],
       [
-        4.352046900522779,
-        4.7048892091103225
+        5.698250591696012,
+        6.269020436028395
       ],
       [
-        7.797570166764811,
-        7.41795450949228
+        7.940217415212702,
+        7.4112730117462275
       ],
       [
-        -3.5187489915425783,
-        -2.445984330686945
+        -4.140779743228762,
+        -2.8673408806671516
       ]
     ],
     "feature_means": [
-      238.6625,
+      241.68249999999998,
       0.5128320470574633,
       231.6459677419355
     ],
     "feature_sd": [
-      36.00710303190191,
+      27.830663844040803,
       0.1327727857391932,
       25.286046765168823
     ],
-    "weekly_sigma": 37.35061964267514
+    "weekly_sigma": 36.2741376194105
   },
   "conferences": {
     "NFC": [
       {
-        "pointsTotal": 269.8,
-        "franchise_id": "0004",
-        "name": "Washington Commanders",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "pointsTotal": 514.0,
+        "franchise_id": "0001",
+        "name": "Dallas Cowboys",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
         "seed": 1,
         "clinch": "",
         "qual": "y",
-        "record": "1-0",
-        "apPct": 1.0,
-        "ppg": "269.8",
-        "pot": 305.4,
-        "off": 163.3,
-        "deff": 106.5,
-        "wins": 11.821833333333334,
-        "predPct": 65.45116487455196,
-        "finish": 1,
-        "playoffSeed": "1",
-        "odds": "89%",
-        "div": "54%",
-        "bye": "41%",
-        "playoffProbability": 0.8943333333333333,
-        "divisionProbability": 0.5376666666666666,
-        "byeProbability": 0.41333333333333333,
-        "projectedPotentialPoints": 3050.4267268000444,
+        "record": "2-0",
+        "apPct": 0.9516129032258065,
+        "ppg": "257.0",
+        "pot": 289.65,
+        "off": 128.60000000000002,
+        "deff": 128.4,
+        "wins": 10.099833333333333,
+        "predPct": 56.889426523297494,
+        "finish": 4,
+        "playoffSeed": "4",
+        "odds": "65%",
+        "div": "17%",
+        "bye": "6%",
+        "playoffProbability": 0.6513333333333333,
+        "divisionProbability": 0.173,
+        "byeProbability": 0.05533333333333333,
+        "projectedPotentialPoints": 2877.6709386193024,
         "ranks": {
           "off": {
-            "rank": 2,
+            "rank": 6,
             "tied": false
           },
           "deff": {
-            "rank": 9,
+            "rank": 3,
             "tied": false
           },
           "pot": {
@@ -91,73 +91,273 @@
         }
       },
       {
-        "pointsTotal": 262.1,
-        "franchise_id": "0001",
-        "name": "Dallas Cowboys",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "pointsTotal": 461.6,
+        "franchise_id": "0011",
+        "name": "New Orleans Saints",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
         "seed": 2,
         "clinch": "",
-        "qual": "x",
-        "record": "1-0",
-        "apPct": 0.9354838709677419,
-        "ppg": "262.1",
-        "pot": 320.0,
-        "off": 142.70000000000002,
-        "deff": 119.4,
-        "wins": 8.945666666666666,
-        "predPct": 52.01926523297491,
-        "finish": 8,
-        "playoffSeed": "NA",
-        "odds": "47%",
-        "div": "11%",
-        "bye": "3%",
-        "playoffProbability": 0.4653333333333333,
-        "divisionProbability": 0.11166666666666666,
-        "byeProbability": 0.026333333333333334,
-        "projectedPotentialPoints": 2853.216482898605,
+        "qual": "y",
+        "record": "2-0",
+        "apPct": 0.7903225806451613,
+        "ppg": "230.8",
+        "pot": 307.0,
+        "off": 113.75,
+        "deff": 117.05000000000001,
+        "wins": 12.255,
+        "predPct": 63.69775985663083,
+        "finish": 2,
+        "playoffSeed": "2",
+        "odds": "92%",
+        "div": "73%",
+        "bye": "24%",
+        "playoffProbability": 0.9176666666666666,
+        "divisionProbability": 0.7276666666666667,
+        "byeProbability": 0.24233333333333335,
+        "projectedPotentialPoints": 3069.36235953568,
         "ranks": {
           "off": {
-            "rank": 4,
+            "rank": 10,
             "tied": false
           },
           "deff": {
-            "rank": 7,
+            "rank": 6,
             "tied": false
           },
           "pot": {
-            "rank": 1,
+            "rank": 2,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 234.9,
+        "pointsTotal": 441.4,
+        "franchise_id": "0003",
+        "name": "Philadelphia Eagles",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+        "seed": 3,
+        "clinch": "",
+        "qual": "x",
+        "record": "1-1",
+        "apPct": 0.717741935483871,
+        "ppg": "220.7",
+        "pot": 286.9,
+        "off": 138.5,
+        "deff": 82.19999999999999,
+        "wins": 12.196666666666667,
+        "predPct": 68.73888888888888,
+        "finish": 1,
+        "playoffSeed": "1",
+        "odds": "94%",
+        "div": "60%",
+        "bye": "55%",
+        "playoffProbability": 0.939,
+        "divisionProbability": 0.5956666666666667,
+        "byeProbability": 0.5496666666666666,
+        "projectedPotentialPoints": 3122.386114061671,
+        "ranks": {
+          "off": {
+            "rank": 3,
+            "tied": false
+          },
+          "deff": {
+            "rank": 26,
+            "tied": false
+          },
+          "pot": {
+            "rank": 4,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 431.0,
+        "franchise_id": "0009",
+        "name": "Atlanta Falcons",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "seed": 4,
+        "clinch": "",
+        "qual": "x",
+        "record": "1-1",
+        "apPct": 0.6774193548387096,
+        "ppg": "215.5",
+        "pot": 239.39999999999998,
+        "off": 130.4,
+        "deff": 85.1,
+        "wins": 8.055166666666667,
+        "predPct": 49.37562724014337,
+        "finish": 10,
+        "playoffSeed": "NA",
+        "odds": "33%",
+        "div": "7%",
+        "bye": "1%",
+        "playoffProbability": 0.326,
+        "divisionProbability": 0.068,
+        "byeProbability": 0.007333333333333333,
+        "projectedPotentialPoints": 2749.4448678249782,
+        "ranks": {
+          "off": {
+            "rank": 5,
+            "tied": false
+          },
+          "deff": {
+            "rank": 25,
+            "tied": false
+          },
+          "pot": {
+            "rank": 19,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 418.8,
         "franchise_id": "0010",
         "name": "Carolina Panthers",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-        "seed": 3,
+        "seed": 5,
         "clinch": "",
-        "qual": "y",
-        "record": "1-0",
-        "apPct": 0.8064516129032258,
-        "ppg": "234.9",
-        "pot": 253.6,
-        "off": 138.5,
-        "deff": 96.4,
-        "wins": 9.727333333333334,
-        "predPct": 53.21621863799283,
-        "finish": 4,
-        "playoffSeed": "4",
-        "odds": "59%",
-        "div": "32%",
-        "bye": "4%",
-        "playoffProbability": 0.5946666666666667,
-        "divisionProbability": 0.317,
-        "byeProbability": 0.039,
-        "projectedPotentialPoints": 2821.363639770523,
+        "qual": "x",
+        "record": "1-1",
+        "apPct": 0.6290322580645161,
+        "ppg": "209.4",
+        "pot": 241.0,
+        "off": 121.55000000000001,
+        "deff": 87.85,
+        "wins": 8.7835,
+        "predPct": 51.939157706093184,
+        "finish": 6,
+        "playoffSeed": "6",
+        "odds": "44%",
+        "div": "13%",
+        "bye": "2%",
+        "playoffProbability": 0.43766666666666665,
+        "divisionProbability": 0.12933333333333333,
+        "byeProbability": 0.019333333333333334,
+        "projectedPotentialPoints": 2783.301484685545,
         "ranks": {
           "off": {
-            "rank": 6,
+            "rank": 7,
+            "tied": false
+          },
+          "deff": {
+            "rank": 23,
+            "tied": false
+          },
+          "pot": {
+            "rank": 17,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 410.5,
+        "franchise_id": "0005",
+        "name": "Chicago Bears",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+        "seed": 6,
+        "clinch": "",
+        "qual": "y",
+        "record": "2-0",
+        "apPct": 0.5161290322580645,
+        "ppg": "205.2",
+        "pot": 258.25,
+        "off": 100.1,
+        "deff": 105.15,
+        "wins": 10.263666666666667,
+        "predPct": 52.70815412186379,
+        "finish": 5,
+        "playoffSeed": "5",
+        "odds": "69%",
+        "div": "57%",
+        "bye": "2%",
+        "playoffProbability": 0.6906666666666667,
+        "divisionProbability": 0.572,
+        "byeProbability": 0.018666666666666668,
+        "projectedPotentialPoints": 2870.918677244525,
+        "ranks": {
+          "off": {
+            "rank": 12,
+            "tied": false
+          },
+          "deff": {
+            "rank": 15,
+            "tied": false
+          },
+          "pot": {
+            "rank": 9,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 366.3,
+        "franchise_id": "0013",
+        "name": "Arizona Cardinals",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+        "seed": 7,
+        "clinch": "",
+        "qual": "y",
+        "record": "1-1",
+        "apPct": 0.3548387096774194,
+        "ppg": "183.2",
+        "pot": 220.0,
+        "off": 73.7,
+        "deff": 109.45,
+        "wins": 8.302,
+        "predPct": 47.652150537634405,
+        "finish": 7,
+        "playoffSeed": "7",
+        "odds": "48%",
+        "div": "43%",
+        "bye": "0%",
+        "playoffProbability": 0.47733333333333333,
+        "divisionProbability": 0.42733333333333334,
+        "byeProbability": 0.004666666666666667,
+        "projectedPotentialPoints": 2723.9502021212074,
+        "ranks": {
+          "off": {
+            "rank": 26,
+            "tied": false
+          },
+          "deff": {
+            "rank": 12,
+            "tied": false
+          },
+          "pot": {
+            "rank": 23,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 424.3,
+        "franchise_id": "0004",
+        "name": "Washington Commanders",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+        "seed": 8,
+        "clinch": "",
+        "qual": "",
+        "record": "1-1",
+        "apPct": 0.5806451612903226,
+        "ppg": "212.2",
+        "pot": 248.04999999999998,
+        "off": 109.75,
+        "deff": 102.4,
+        "wins": 10.299333333333333,
+        "predPct": 57.990322580645156,
+        "finish": 3,
+        "playoffSeed": "3",
+        "odds": "71%",
+        "div": "21%",
+        "bye": "7%",
+        "playoffProbability": 0.7053333333333334,
+        "divisionProbability": 0.21233333333333335,
+        "byeProbability": 0.06733333333333333,
+        "projectedPotentialPoints": 2904.120799620677,
+        "ranks": {
+          "off": {
+            "rank": 11,
             "tied": false
           },
           "deff": {
@@ -171,477 +371,157 @@
         }
       },
       {
-        "pointsTotal": 224.8,
-        "franchise_id": "0011",
-        "name": "New Orleans Saints",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-        "seed": 4,
-        "clinch": "",
-        "qual": "x",
-        "record": "1-0",
-        "apPct": 0.7096774193548387,
-        "ppg": "224.8",
-        "pot": 316.9,
-        "off": 140.5,
-        "deff": 84.3,
-        "wins": 10.809833333333334,
-        "predPct": 58.16290322580645,
-        "finish": 3,
-        "playoffSeed": "3",
-        "odds": "76%",
-        "div": "52%",
-        "bye": "10%",
-        "playoffProbability": 0.764,
-        "divisionProbability": 0.515,
-        "byeProbability": 0.10433333333333333,
-        "projectedPotentialPoints": 2982.3326254316075,
-        "ranks": {
-          "off": {
-            "rank": 5,
-            "tied": false
-          },
-          "deff": {
-            "rank": 24,
-            "tied": false
-          },
-          "pot": {
-            "rank": 2,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 219.9,
-        "franchise_id": "0006",
-        "name": "Detroit Lions",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-        "seed": 5,
-        "clinch": "",
-        "qual": "y",
-        "record": "1-0",
-        "apPct": 0.6451612903225806,
-        "ppg": "219.9",
-        "pot": 247.7,
-        "off": 99.10000000000001,
-        "deff": 120.8,
-        "wins": 8.9905,
-        "predPct": 50.639605734767024,
-        "finish": 5,
-        "playoffSeed": "5",
-        "odds": "50%",
-        "div": "34%",
-        "bye": "2%",
-        "playoffProbability": 0.499,
-        "divisionProbability": 0.3446666666666667,
-        "byeProbability": 0.020666666666666667,
-        "projectedPotentialPoints": 2817.6637270668534,
-        "ranks": {
-          "off": {
-            "rank": 17,
-            "tied": false
-          },
-          "deff": {
-            "rank": 6,
-            "tied": false
-          },
-          "pot": {
-            "rank": 17,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 189.9,
-        "franchise_id": "0015",
-        "name": "San Francisco 49ers",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-        "seed": 6,
-        "clinch": "",
-        "qual": "y",
-        "record": "1-0",
-        "apPct": 0.41935483870967744,
-        "ppg": "189.9",
-        "pot": 265.3,
-        "off": 85.4,
-        "deff": 104.5,
-        "wins": 9.377833333333333,
-        "predPct": 50.3089605734767,
-        "finish": 6,
-        "playoffSeed": "6",
-        "odds": "58%",
-        "div": "46%",
-        "bye": "2%",
-        "playoffProbability": 0.577,
-        "divisionProbability": 0.456,
-        "byeProbability": 0.015666666666666666,
-        "projectedPotentialPoints": 2845.7489130248528,
-        "ranks": {
-          "off": {
-            "rank": 20,
-            "tied": false
-          },
-          "deff": {
-            "rank": 12,
-            "tied": false
-          },
-          "pot": {
-            "rank": 9,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 184.8,
-        "franchise_id": "0013",
-        "name": "Arizona Cardinals",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-        "seed": 7,
-        "clinch": "",
-        "qual": "x",
-        "record": "1-0",
-        "apPct": 0.3225806451612903,
-        "ppg": "184.8",
-        "pot": 223.0,
-        "off": 60.400000000000006,
-        "deff": 124.4,
-        "wins": 9.2135,
-        "predPct": 49.39444444444444,
-        "finish": 7,
-        "playoffSeed": "7",
-        "odds": "55%",
-        "div": "44%",
-        "bye": "1%",
-        "playoffProbability": 0.5526666666666666,
-        "divisionProbability": 0.44166666666666665,
-        "byeProbability": 0.013,
-        "projectedPotentialPoints": 2772.9353098656015,
-        "ranks": {
-          "off": {
-            "rank": 29,
-            "tied": false
-          },
-          "deff": {
-            "rank": 5,
-            "tied": false
-          },
-          "pot": {
-            "rank": 25,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 236.0,
-        "franchise_id": "0003",
-        "name": "Philadelphia Eagles",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-        "seed": 8,
-        "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.8387096774193549,
-        "ppg": "236.0",
-        "pot": 258.2,
-        "off": 161.2,
-        "deff": 74.8,
-        "wins": 10.903,
-        "predPct": 64.1320788530466,
-        "finish": 2,
-        "playoffSeed": "2",
-        "odds": "81%",
-        "div": "33%",
-        "bye": "31%",
-        "playoffProbability": 0.8076666666666666,
-        "divisionProbability": 0.32866666666666666,
-        "byeProbability": 0.31066666666666665,
-        "projectedPotentialPoints": 2994.116184660103,
-        "ranks": {
-          "off": {
-            "rank": 3,
-            "tied": false
-          },
-          "deff": {
-            "rank": 29,
-            "tied": false
-          },
-          "pot": {
-            "rank": 12,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 209.3,
+        "pointsTotal": 403.8,
         "franchise_id": "0012",
         "name": "Tampa Bay Buccaneers",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
         "seed": 9,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.532258064516129,
-        "ppg": "209.3",
-        "pot": 260.5,
-        "off": 74.4,
-        "deff": 134.9,
-        "wins": 7.738666666666667,
-        "predPct": 50.19560931899642,
-        "finish": 9,
+        "record": "0-2",
+        "apPct": 0.5403225806451613,
+        "ppg": "201.9",
+        "pot": 262.6,
+        "off": 92.6,
+        "deff": 109.30000000000001,
+        "wins": 7.840333333333334,
+        "predPct": 52.31478494623656,
+        "finish": 8,
         "playoffSeed": "NA",
         "odds": "31%",
-        "div": "12%",
+        "div": "8%",
         "bye": "2%",
-        "playoffProbability": 0.31233333333333335,
-        "divisionProbability": 0.117,
-        "byeProbability": 0.019666666666666666,
-        "projectedPotentialPoints": 2819.1257277199893,
+        "playoffProbability": 0.307,
+        "divisionProbability": 0.075,
+        "byeProbability": 0.016,
+        "projectedPotentialPoints": 2859.010621813619,
         "ranks": {
           "off": {
-            "rank": 23,
+            "rank": 17,
             "tied": false
           },
           "deff": {
-            "rank": 2,
+            "rank": 13,
             "tied": true
           },
           "pot": {
-            "rank": 10,
+            "rank": 8,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 191.5,
-        "franchise_id": "0009",
-        "name": "Atlanta Falcons",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-        "seed": 10,
-        "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.45161290322580644,
-        "ppg": "191.5",
-        "pot": 214.9,
-        "off": 129.8,
-        "deff": 61.7,
-        "wins": 6.4985,
-        "predPct": 44.28978494623656,
-        "finish": 13,
-        "playoffSeed": "NA",
-        "odds": "15%",
-        "div": "5%",
-        "bye": "0%",
-        "playoffProbability": 0.15466666666666667,
-        "divisionProbability": 0.051,
-        "byeProbability": 0.004333333333333333,
-        "projectedPotentialPoints": 2704.908298291067,
-        "ranks": {
-          "off": {
-            "rank": 10,
-            "tied": false
-          },
-          "deff": {
-            "rank": 31,
-            "tied": false
-          },
-          "pot": {
-            "rank": 27,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 186.0,
+        "pointsTotal": 397.9,
         "franchise_id": "0007",
         "name": "Green Bay Packers",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-        "seed": 11,
+        "seed": 10,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.3709677419354839,
-        "ppg": "186.0",
-        "pot": 234.3,
-        "off": 90.10000000000001,
-        "deff": 95.89999999999999,
-        "wins": 7.535833333333334,
-        "predPct": 48.016397849462365,
-        "finish": 11,
+        "record": "1-1",
+        "apPct": 0.5403225806451613,
+        "ppg": "198.9",
+        "pot": 241.4,
+        "off": 94.05000000000001,
+        "deff": 104.9,
+        "wins": 8.6225,
+        "predPct": 51.05663082437276,
+        "finish": 9,
         "playoffSeed": "NA",
-        "odds": "29%",
-        "div": "16%",
+        "odds": "45%",
+        "div": "29%",
         "bye": "1%",
-        "playoffProbability": 0.29,
-        "divisionProbability": 0.161,
-        "byeProbability": 0.010666666666666666,
-        "projectedPotentialPoints": 2760.4375362574788,
+        "playoffProbability": 0.451,
+        "divisionProbability": 0.2886666666666667,
+        "byeProbability": 0.012,
+        "projectedPotentialPoints": 2778.526774223695,
         "ranks": {
           "off": {
-            "rank": 19,
+            "rank": 16,
             "tied": false
           },
           "deff": {
-            "rank": 18,
+            "rank": 16,
             "tied": false
           },
           "pot": {
-            "rank": 21,
+            "rank": 16,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 174.4,
-        "franchise_id": "0005",
-        "name": "Chicago Bears",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-        "seed": 12,
-        "clinch": "",
-        "qual": "",
-        "record": "1-0",
-        "apPct": 0.22580645161290322,
-        "ppg": "174.4",
-        "pot": 226.2,
-        "off": 84.80000000000001,
-        "deff": 89.6,
-        "wins": 8.4335,
-        "predPct": 46.646953405017925,
-        "finish": 12,
-        "playoffSeed": "NA",
-        "odds": "38%",
-        "div": "25%",
-        "bye": "1%",
-        "playoffProbability": 0.379,
-        "divisionProbability": 0.24633333333333332,
-        "byeProbability": 0.005333333333333333,
-        "projectedPotentialPoints": 2773.6567458932414,
-        "ranks": {
-          "off": {
-            "rank": 21,
-            "tied": false
-          },
-          "deff": {
-            "rank": 21,
-            "tied": false
-          },
-          "pot": {
-            "rank": 23,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 171.6,
+        "pointsTotal": 397.4,
         "franchise_id": "0002",
         "name": "New York Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-        "seed": 13,
+        "seed": 11,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.1935483870967742,
-        "ppg": "171.6",
-        "pot": 222.7,
-        "off": 72.19999999999999,
-        "deff": 99.4,
-        "wins": 6.587833333333333,
-        "predPct": 43.97759856630824,
-        "finish": 14,
+        "record": "0-2",
+        "apPct": 0.4838709677419355,
+        "ppg": "198.7",
+        "pot": 240.29999999999998,
+        "off": 76.5,
+        "deff": 122.2,
+        "wins": 6.6066666666666665,
+        "predPct": 47.85645161290323,
+        "finish": 11,
         "playoffSeed": "NA",
-        "odds": "15%",
+        "odds": "16%",
         "div": "2%",
         "bye": "0%",
-        "playoffProbability": 0.14566666666666667,
-        "divisionProbability": 0.022,
-        "byeProbability": 0.0033333333333333335,
-        "projectedPotentialPoints": 2727.2409802641046,
+        "playoffProbability": 0.163,
+        "divisionProbability": 0.019,
+        "byeProbability": 0.005,
+        "projectedPotentialPoints": 2761.3198662513687,
         "ranks": {
           "off": {
             "rank": 25,
             "tied": false
           },
           "deff": {
-            "rank": 14,
+            "rank": 4,
             "tied": false
           },
           "pot": {
-            "rank": 26,
+            "rank": 18,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 142.4,
-        "franchise_id": "0014",
-        "name": "Los Angeles Rams",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-        "seed": 14,
+        "pointsTotal": 353.6,
+        "franchise_id": "0006",
+        "name": "Detroit Lions",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+        "seed": 12,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.0967741935483871,
-        "ppg": "142.4",
-        "pot": 179.1,
-        "off": 63.2,
-        "deff": 79.2,
-        "wins": 5.431166666666667,
-        "predPct": 37.38010752688172,
-        "finish": 16,
+        "record": "1-1",
+        "apPct": 0.3548387096774194,
+        "ppg": "176.8",
+        "pot": 210.95,
+        "off": 62.3,
+        "deff": 114.5,
+        "wins": 6.4565,
+        "predPct": 41.592473118279564,
+        "finish": 13,
         "playoffSeed": "NA",
-        "odds": "7%",
-        "div": "4%",
+        "odds": "13%",
+        "div": "7%",
         "bye": "0%",
-        "playoffProbability": 0.069,
-        "divisionProbability": 0.04066666666666666,
-        "byeProbability": 0.0003333333333333333,
-        "projectedPotentialPoints": 2575.0081800655557,
+        "playoffProbability": 0.13,
+        "divisionProbability": 0.07466666666666667,
+        "byeProbability": 0.0006666666666666666,
+        "projectedPotentialPoints": 2656.4911530373333,
         "ranks": {
           "off": {
-            "rank": 27,
-            "tied": false
-          },
-          "deff": {
-            "rank": 27,
-            "tied": false
-          },
-          "pot": {
             "rank": 31,
             "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 138.0,
-        "franchise_id": "0008",
-        "name": "Minnesota Vikings",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-        "seed": 15,
-        "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.04838709677419355,
-        "ppg": "138.0",
-        "pot": 204.7,
-        "off": 72.1,
-        "deff": 65.9,
-        "wins": 8.363833333333334,
-        "predPct": 49.68736559139785,
-        "finish": 10,
-        "playoffSeed": "NA",
-        "odds": "40%",
-        "div": "25%",
-        "bye": "1%",
-        "playoffProbability": 0.39866666666666667,
-        "divisionProbability": 0.248,
-        "byeProbability": 0.013,
-        "projectedPotentialPoints": 2810.777216698704,
-        "ranks": {
-          "off": {
-            "rank": 26,
-            "tied": false
           },
           "deff": {
-            "rank": 30,
+            "rank": 7,
             "tied": false
           },
           "pot": {
@@ -651,37 +531,157 @@
         }
       },
       {
-        "pointsTotal": 119.7,
+        "pointsTotal": 360.1,
+        "franchise_id": "0015",
+        "name": "San Francisco 49ers",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+        "seed": 13,
+        "clinch": "",
+        "qual": "",
+        "record": "1-1",
+        "apPct": 0.3387096774193548,
+        "ppg": "180.1",
+        "pot": 239.10000000000002,
+        "off": 80.1,
+        "deff": 99.95,
+        "wins": 7.957666666666666,
+        "predPct": 46.049193548387095,
+        "finish": 12,
+        "playoffSeed": "NA",
+        "odds": "41%",
+        "div": "35%",
+        "bye": "0%",
+        "playoffProbability": 0.4063333333333333,
+        "divisionProbability": 0.351,
+        "byeProbability": 0.0016666666666666668,
+        "projectedPotentialPoints": 2769.0850121408694,
+        "ranks": {
+          "off": {
+            "rank": 21,
+            "tied": false
+          },
+          "deff": {
+            "rank": 18,
+            "tied": false
+          },
+          "pot": {
+            "rank": 20,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 335.4,
+        "franchise_id": "0014",
+        "name": "Los Angeles Rams",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "seed": 14,
+        "clinch": "",
+        "qual": "",
+        "record": "1-1",
+        "apPct": 0.3064516129032258,
+        "ppg": "167.7",
+        "pot": 213.55,
+        "off": 78.1,
+        "deff": 89.6,
+        "wins": 6.207333333333334,
+        "predPct": 39.505645161290325,
+        "finish": 15,
+        "playoffSeed": "NA",
+        "odds": "14%",
+        "div": "12%",
+        "bye": "0%",
+        "playoffProbability": 0.13966666666666666,
+        "divisionProbability": 0.11533333333333333,
+        "byeProbability": 0.0,
+        "projectedPotentialPoints": 2611.755588160688,
+        "ranks": {
+          "off": {
+            "rank": 23,
+            "tied": false
+          },
+          "deff": {
+            "rank": 21,
+            "tied": false
+          },
+          "pot": {
+            "rank": 26,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 291.4,
         "franchise_id": "0016",
         "name": "Seattle Seahawks",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+        "seed": 15,
+        "clinch": "",
+        "qual": "",
+        "record": "1-1",
+        "apPct": 0.16129032258064516,
+        "ppg": "145.7",
+        "pot": 199.5,
+        "off": 71.85,
+        "deff": 73.85,
+        "wins": 6.245333333333333,
+        "predPct": 38.084587813620075,
+        "finish": 16,
+        "playoffSeed": "NA",
+        "odds": "13%",
+        "div": "11%",
+        "bye": "0%",
+        "playoffProbability": 0.13,
+        "divisionProbability": 0.10633333333333334,
+        "byeProbability": 0.0,
+        "projectedPotentialPoints": 2597.041930112727,
+        "ranks": {
+          "off": {
+            "rank": 28,
+            "tied": false
+          },
+          "deff": {
+            "rank": 30,
+            "tied": false
+          },
+          "pot": {
+            "rank": 30,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 241.4,
+        "franchise_id": "0008",
+        "name": "Minnesota Vikings",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
         "seed": 16,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.0,
-        "ppg": "119.7",
-        "pot": 173.0,
-        "off": 32.3,
-        "deff": 87.4,
-        "wins": 5.818833333333333,
-        "predPct": 38.788261648745525,
-        "finish": 15,
+        "record": "0-2",
+        "apPct": 0.024193548387096774,
+        "ppg": "120.7",
+        "pot": 186.1,
+        "off": 47.65,
+        "deff": 73.05000000000001,
+        "wins": 6.3815,
+        "predPct": 40.832078853046596,
+        "finish": 14,
         "playoffSeed": "NA",
-        "odds": "10%",
+        "odds": "13%",
         "div": "6%",
         "bye": "0%",
-        "playoffProbability": 0.096,
-        "divisionProbability": 0.06166666666666667,
-        "byeProbability": 0.0003333333333333333,
-        "projectedPotentialPoints": 2611.99801485935,
+        "playoffProbability": 0.128,
+        "divisionProbability": 0.06466666666666666,
+        "byeProbability": 0.0,
+        "projectedPotentialPoints": 2646.1503151078814,
         "ranks": {
           "off": {
             "rank": 32,
             "tied": false
           },
           "deff": {
-            "rank": 22,
+            "rank": 31,
             "tied": false
           },
           "pot": {
@@ -693,33 +693,33 @@
     ],
     "AFC": [
       {
-        "pointsTotal": 268.1,
-        "franchise_id": "0031",
-        "name": "Las Vegas Raiders",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "pointsTotal": 497.7,
+        "franchise_id": "0018",
+        "name": "Miami Dolphins",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
         "seed": 1,
         "clinch": "",
         "qual": "y",
-        "record": "1-0",
-        "apPct": 0.967741935483871,
-        "ppg": "268.1",
-        "pot": 283.2,
-        "off": 101.20000000000002,
-        "deff": 166.9,
-        "wins": 10.469833333333334,
-        "predPct": 56.581810035842295,
+        "record": "2-0",
+        "apPct": 0.9193548387096774,
+        "ppg": "248.8",
+        "pot": 265.55,
+        "off": 118.05,
+        "deff": 130.8,
+        "wins": 10.1625,
+        "predPct": 56.54229390681004,
         "finish": 3,
         "playoffSeed": "3",
-        "odds": "73%",
-        "div": "46%",
-        "bye": "16%",
-        "playoffProbability": 0.7313333333333333,
-        "divisionProbability": 0.455,
-        "byeProbability": 0.164,
-        "projectedPotentialPoints": 2887.0885361542028,
+        "odds": "70%",
+        "div": "50%",
+        "bye": "13%",
+        "playoffProbability": 0.7046666666666667,
+        "divisionProbability": 0.503,
+        "byeProbability": 0.12833333333333333,
+        "projectedPotentialPoints": 2845.9738647729178,
         "ranks": {
           "off": {
-            "rank": 16,
+            "rank": 8,
             "tied": false
           },
           "deff": {
@@ -727,236 +727,116 @@
             "tied": false
           },
           "pot": {
-            "rank": 6,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 252.1,
-        "franchise_id": "0018",
-        "name": "Miami Dolphins",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-        "seed": 2,
-        "clinch": "",
-        "qual": "y",
-        "record": "1-0",
-        "apPct": 0.9032258064516129,
-        "ppg": "252.1",
-        "pot": 268.3,
-        "off": 133.3,
-        "deff": 118.8,
-        "wins": 9.1425,
-        "predPct": 52.291756272401436,
-        "finish": 5,
-        "playoffSeed": "5",
-        "odds": "54%",
-        "div": "36%",
-        "bye": "7%",
-        "playoffProbability": 0.5396666666666666,
-        "divisionProbability": 0.3576666666666667,
-        "byeProbability": 0.07066666666666667,
-        "projectedPotentialPoints": 2813.15586999888,
-        "ranks": {
-          "off": {
-            "rank": 8,
-            "tied": false
-          },
-          "deff": {
-            "rank": 8,
-            "tied": false
-          },
-          "pot": {
-            "rank": 8,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 242.5,
-        "franchise_id": "0017",
-        "name": "Buffalo Bills",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-        "seed": 3,
-        "clinch": "",
-        "qual": "x",
-        "record": "1-0",
-        "apPct": 0.8709677419354839,
-        "ppg": "242.5",
-        "pot": 286.4,
-        "off": 137.4,
-        "deff": 105.1,
-        "wins": 9.274,
-        "predPct": 51.20698924731183,
-        "finish": 6,
-        "playoffSeed": "6",
-        "odds": "55%",
-        "div": "36%",
-        "bye": "4%",
-        "playoffProbability": 0.55,
-        "divisionProbability": 0.36233333333333334,
-        "byeProbability": 0.045,
-        "projectedPotentialPoints": 2811.2758661520797,
-        "ranks": {
-          "off": {
             "rank": 7,
             "tied": false
-          },
-          "deff": {
-            "rank": 11,
+          }
+        }
+      },
+      {
+        "pointsTotal": 497.20000000000005,
+        "franchise_id": "0027",
+        "name": "Jacksonville Jaguars",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+        "seed": 2,
+        "clinch": "",
+        "qual": "x",
+        "record": "1-1",
+        "apPct": 0.7419354838709677,
+        "ppg": "248.6",
+        "pot": 308.95,
+        "off": 138.65,
+        "deff": 109.94999999999999,
+        "wins": 11.113666666666667,
+        "predPct": 62.03512544802867,
+        "finish": 1,
+        "playoffSeed": "1",
+        "odds": "85%",
+        "div": "44%",
+        "bye": "35%",
+        "playoffProbability": 0.8453333333333334,
+        "divisionProbability": 0.44266666666666665,
+        "byeProbability": 0.35233333333333333,
+        "projectedPotentialPoints": 3059.8402869887313,
+        "ranks": {
+          "off": {
+            "rank": 2,
             "tied": false
           },
+          "deff": {
+            "rank": 10,
+            "tied": true
+          },
           "pot": {
-            "rank": 5,
+            "rank": 1,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 230.4,
-        "franchise_id": "0023",
-        "name": "Cleveland Browns",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-        "seed": 4,
+        "pointsTotal": 430.2,
+        "franchise_id": "0026",
+        "name": "Indianapolis Colts",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+        "seed": 3,
         "clinch": "",
         "qual": "y",
-        "record": "1-0",
-        "apPct": 0.7741935483870968,
-        "ppg": "230.4",
-        "pot": 259.0,
-        "off": 131.60000000000002,
-        "deff": 98.8,
-        "wins": 11.2195,
-        "predPct": 59.551971326164875,
-        "finish": 1,
-        "playoffSeed": "1",
-        "odds": "83%",
-        "div": "65%",
-        "bye": "26%",
-        "playoffProbability": 0.8256666666666667,
-        "divisionProbability": 0.653,
-        "byeProbability": 0.258,
-        "projectedPotentialPoints": 2938.815040391167,
+        "record": "2-0",
+        "apPct": 0.6774193548387096,
+        "ppg": "215.1",
+        "pot": 252.55,
+        "off": 116.35,
+        "deff": 98.75,
+        "wins": 10.421166666666666,
+        "predPct": 54.58844086021505,
+        "finish": 4,
+        "playoffSeed": "4",
+        "odds": "70%",
+        "div": "33%",
+        "bye": "9%",
+        "playoffProbability": 0.697,
+        "divisionProbability": 0.33066666666666666,
+        "byeProbability": 0.08866666666666667,
+        "projectedPotentialPoints": 2850.4501070065903,
         "ranks": {
           "off": {
             "rank": 9,
             "tied": false
           },
           "deff": {
-            "rank": 15,
+            "rank": 19,
             "tied": false
           },
           "pot": {
-            "rank": 11,
+            "rank": 14,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 229.4,
-        "franchise_id": "0032",
-        "name": "Los Angeles Chargers",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-        "seed": 5,
-        "clinch": "",
-        "qual": "x",
-        "record": "1-0",
-        "apPct": 0.7419354838709677,
-        "ppg": "229.4",
-        "pot": 298.6,
-        "off": 94.5,
-        "deff": 134.9,
-        "wins": 8.5345,
-        "predPct": 49.45492831541218,
-        "finish": 9,
-        "playoffSeed": "NA",
-        "odds": "41%",
-        "div": "19%",
-        "bye": "3%",
-        "playoffProbability": 0.413,
-        "divisionProbability": 0.188,
-        "byeProbability": 0.034333333333333334,
-        "projectedPotentialPoints": 2811.972482728981,
-        "ranks": {
-          "off": {
-            "rank": 18,
-            "tied": false
-          },
-          "deff": {
-            "rank": 2,
-            "tied": true
-          },
-          "pot": {
-            "rank": 4,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 222.0,
-        "franchise_id": "0026",
-        "name": "Indianapolis Colts",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-        "seed": 6,
-        "clinch": "",
-        "qual": "y",
-        "record": "1-0",
-        "apPct": 0.6774193548387096,
-        "ppg": "222.0",
-        "pot": 252.2,
-        "off": 116.4,
-        "deff": 105.6,
-        "wins": 9.657,
-        "predPct": 52.93440860215054,
-        "finish": 4,
-        "playoffSeed": "4",
-        "odds": "60%",
-        "div": "38%",
-        "bye": "7%",
-        "playoffProbability": 0.6036666666666667,
-        "divisionProbability": 0.37866666666666665,
-        "byeProbability": 0.07466666666666667,
-        "projectedPotentialPoints": 2843.9822056456983,
-        "ranks": {
-          "off": {
-            "rank": 12,
-            "tied": false
-          },
-          "deff": {
-            "rank": 10,
-            "tied": false
-          },
-          "pot": {
-            "rank": 16,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 219.4,
+        "pointsTotal": 433.70000000000005,
         "franchise_id": "0025",
         "name": "Houston Texans",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-        "seed": 7,
+        "seed": 4,
         "clinch": "",
         "qual": "x",
-        "record": "1-0",
-        "apPct": 0.5806451612903226,
-        "ppg": "219.4",
-        "pot": 257.6,
-        "off": 175.9,
-        "deff": 43.5,
-        "wins": 8.544333333333332,
-        "predPct": 48.3486559139785,
-        "finish": 7,
-        "playoffSeed": "7",
-        "odds": "42%",
-        "div": "23%",
+        "record": "2-0",
+        "apPct": 0.6612903225806451,
+        "ppg": "216.9",
+        "pot": 254.25,
+        "off": 145.5,
+        "deff": 71.35,
+        "wins": 9.176,
+        "predPct": 50.571236559139784,
+        "finish": 5,
+        "playoffSeed": "5",
+        "odds": "51%",
+        "div": "17%",
         "bye": "3%",
-        "playoffProbability": 0.423,
-        "divisionProbability": 0.231,
-        "byeProbability": 0.034666666666666665,
-        "projectedPotentialPoints": 2776.5727233995062,
+        "playoffProbability": 0.5056666666666667,
+        "divisionProbability": 0.17,
+        "byeProbability": 0.03333333333333333,
+        "projectedPotentialPoints": 2790.5404805401504,
         "ranks": {
           "off": {
             "rank": 1,
@@ -967,83 +847,123 @@
             "tied": false
           },
           "pot": {
-            "rank": 13,
+            "rank": 11,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 219.6,
-        "franchise_id": "0030",
-        "name": "Kansas City Chiefs",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-        "seed": 8,
+        "pointsTotal": 438.8,
+        "franchise_id": "0031",
+        "name": "Las Vegas Raiders",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+        "seed": 5,
         "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.6129032258064516,
-        "ppg": "219.6",
-        "pot": 254.2,
-        "off": 129.5,
-        "deff": 90.1,
-        "wins": 9.817,
-        "predPct": 56.76263440860215,
-        "finish": 2,
-        "playoffSeed": "2",
-        "odds": "65%",
-        "div": "33%",
-        "bye": "15%",
-        "playoffProbability": 0.651,
-        "divisionProbability": 0.3323333333333333,
-        "byeProbability": 0.15266666666666667,
-        "projectedPotentialPoints": 2913.524044106572,
+        "qual": "y",
+        "record": "2-0",
+        "apPct": 0.6290322580645161,
+        "ppg": "219.4",
+        "pot": 237.75,
+        "off": 90.95,
+        "deff": 128.45,
+        "wins": 9.664,
+        "predPct": 50.46173835125448,
+        "finish": 6,
+        "playoffSeed": "6",
+        "odds": "61%",
+        "div": "47%",
+        "bye": "3%",
+        "playoffProbability": 0.6073333333333333,
+        "divisionProbability": 0.4736666666666667,
+        "byeProbability": 0.030666666666666665,
+        "projectedPotentialPoints": 2762.6390998864667,
         "ranks": {
           "off": {
-            "rank": 11,
+            "rank": 18,
             "tied": false
           },
           "deff": {
-            "rank": 20,
+            "rank": 2,
             "tied": false
           },
           "pot": {
-            "rank": 14,
+            "rank": 21,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 209.3,
-        "franchise_id": "0019",
-        "name": "New England Patriots",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-        "seed": 9,
+        "pointsTotal": 417.6,
+        "franchise_id": "0023",
+        "name": "Cleveland Browns",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "seed": 6,
         "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.532258064516129,
-        "ppg": "209.3",
-        "pot": 229.7,
-        "off": 112.4,
-        "deff": 96.9,
-        "wins": 6.243333333333333,
-        "predPct": 43.32956989247312,
-        "finish": 15,
-        "playoffSeed": "NA",
-        "odds": "15%",
-        "div": "7%",
-        "bye": "1%",
-        "playoffProbability": 0.15366666666666667,
-        "divisionProbability": 0.07266666666666667,
-        "byeProbability": 0.005666666666666667,
-        "projectedPotentialPoints": 2678.2577241218214,
+        "qual": "y",
+        "record": "2-0",
+        "apPct": 0.6290322580645161,
+        "ppg": "208.8",
+        "pot": 253.15,
+        "off": 96.10000000000001,
+        "deff": 112.69999999999999,
+        "wins": 11.756666666666666,
+        "predPct": 59.30958781362007,
+        "finish": 2,
+        "playoffSeed": "2",
+        "odds": "88%",
+        "div": "73%",
+        "bye": "21%",
+        "playoffProbability": 0.8753333333333333,
+        "divisionProbability": 0.731,
+        "byeProbability": 0.213,
+        "projectedPotentialPoints": 2924.958772280238,
         "ranks": {
           "off": {
-            "rank": 13,
+            "rank": 14,
             "tied": false
           },
           "deff": {
-            "rank": 16,
+            "rank": 8,
+            "tied": false
+          },
+          "pot": {
+            "rank": 13,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 382.8,
+        "franchise_id": "0021",
+        "name": "Baltimore Ravens",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+        "seed": 7,
+        "clinch": "",
+        "qual": "x",
+        "record": "2-0",
+        "apPct": 0.4274193548387097,
+        "ppg": "191.4",
+        "pot": 228.25,
+        "off": 72.05000000000001,
+        "deff": 119.35,
+        "wins": 9.019166666666667,
+        "predPct": 48.280913978494624,
+        "finish": 7,
+        "playoffSeed": "7",
+        "odds": "47%",
+        "div": "21%",
+        "bye": "2%",
+        "playoffProbability": 0.4723333333333333,
+        "divisionProbability": 0.21366666666666667,
+        "byeProbability": 0.021666666666666667,
+        "projectedPotentialPoints": 2747.183378875413,
+        "ranks": {
+          "off": {
+            "rank": 27,
+            "tied": false
+          },
+          "deff": {
+            "rank": 5,
             "tied": false
           },
           "pot": {
@@ -1053,281 +973,361 @@
         }
       },
       {
-        "pointsTotal": 205.4,
-        "franchise_id": "0027",
-        "name": "Jacksonville Jaguars",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-        "seed": 10,
+        "pointsTotal": 420.0,
+        "franchise_id": "0017",
+        "name": "Buffalo Bills",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+        "seed": 8,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.4838709677419355,
-        "ppg": "205.4",
-        "pot": 269.0,
-        "off": 111.30000000000001,
-        "deff": 94.1,
-        "wins": 8.421333333333333,
-        "predPct": 51.06487455197133,
+        "record": "1-1",
+        "apPct": 0.6129032258064516,
+        "ppg": "210.0",
+        "pot": 272.95,
+        "off": 98.7,
+        "deff": 111.3,
+        "wins": 8.9695,
+        "predPct": 51.148655913978494,
         "finish": 8,
         "playoffSeed": "NA",
-        "odds": "43%",
-        "div": "21%",
-        "bye": "6%",
-        "playoffProbability": 0.43033333333333335,
-        "divisionProbability": 0.21433333333333332,
-        "byeProbability": 0.056666666666666664,
-        "projectedPotentialPoints": 2845.6146903129465,
+        "odds": "50%",
+        "div": "29%",
+        "bye": "3%",
+        "playoffProbability": 0.5,
+        "divisionProbability": 0.289,
+        "byeProbability": 0.03233333333333333,
+        "projectedPotentialPoints": 2841.0824199474223,
         "ranks": {
           "off": {
-            "rank": 14,
+            "rank": 13,
             "tied": false
           },
           "deff": {
-            "rank": 19,
+            "rank": 9,
             "tied": false
           },
           "pot": {
-            "rank": 7,
+            "rank": 6,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 186.0,
+        "pointsTotal": 422.6,
         "franchise_id": "0029",
         "name": "Denver Broncos",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+        "seed": 9,
+        "clinch": "",
+        "qual": "",
+        "record": "1-1",
+        "apPct": 0.6048387096774194,
+        "ppg": "211.3",
+        "pot": 255.39999999999998,
+        "off": 134.7,
+        "deff": 76.6,
+        "wins": 7.258,
+        "predPct": 46.144892473118276,
+        "finish": 13,
+        "playoffSeed": "NA",
+        "odds": "26%",
+        "div": "15%",
+        "bye": "1%",
+        "playoffProbability": 0.25866666666666666,
+        "divisionProbability": 0.15366666666666667,
+        "byeProbability": 0.011333333333333334,
+        "projectedPotentialPoints": 2714.731990202881,
+        "ranks": {
+          "off": {
+            "rank": 4,
+            "tied": false
+          },
+          "deff": {
+            "rank": 29,
+            "tied": false
+          },
+          "pot": {
+            "rank": 10,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 385.5,
+        "franchise_id": "0020",
+        "name": "New York Jets",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+        "seed": 10,
+        "clinch": "",
+        "qual": "",
+        "record": "0-2",
+        "apPct": 0.46774193548387094,
+        "ppg": "192.8",
+        "pot": 253.8,
+        "off": 83.45,
+        "deff": 109.3,
+        "wins": 8.101666666666667,
+        "predPct": 51.023835125448024,
+        "finish": 9,
+        "playoffSeed": "NA",
+        "odds": "38%",
+        "div": "19%",
+        "bye": "3%",
+        "playoffProbability": 0.384,
+        "divisionProbability": 0.193,
+        "byeProbability": 0.034333333333333334,
+        "projectedPotentialPoints": 2846.724118071613,
+        "ranks": {
+          "off": {
+            "rank": 19,
+            "tied": false
+          },
+          "deff": {
+            "rank": 13,
+            "tied": true
+          },
+          "pot": {
+            "rank": 12,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 384.5,
+        "franchise_id": "0032",
+        "name": "Los Angeles Chargers",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
         "seed": 11,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.3709677419354839,
-        "ppg": "186.0",
-        "pot": 237.9,
-        "off": 103.9,
-        "deff": 82.1,
-        "wins": 5.342666666666666,
-        "predPct": 39.452240143369174,
-        "finish": 16,
+        "record": "1-1",
+        "apPct": 0.46774193548387094,
+        "ppg": "192.2",
+        "pot": 278.3,
+        "off": 82.3,
+        "deff": 109.95,
+        "wins": 7.951333333333333,
+        "predPct": 47.455017921146954,
+        "finish": 11,
         "playoffSeed": "NA",
-        "odds": "7%",
-        "div": "2%",
-        "bye": "0%",
-        "playoffProbability": 0.07033333333333333,
-        "divisionProbability": 0.024666666666666667,
-        "byeProbability": 0.0013333333333333333,
-        "projectedPotentialPoints": 2629.405475820751,
+        "odds": "35%",
+        "div": "22%",
+        "bye": "1%",
+        "playoffProbability": 0.347,
+        "divisionProbability": 0.21866666666666668,
+        "byeProbability": 0.014,
+        "projectedPotentialPoints": 2838.6087809199043,
+        "ranks": {
+          "off": {
+            "rank": 20,
+            "tied": false
+          },
+          "deff": {
+            "rank": 10,
+            "tied": true
+          },
+          "pot": {
+            "rank": 5,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 342.4,
+        "franchise_id": "0030",
+        "name": "Kansas City Chiefs",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "seed": 12,
+        "clinch": "",
+        "qual": "",
+        "record": "0-2",
+        "apPct": 0.3225806451612903,
+        "ppg": "171.2",
+        "pot": 213.6,
+        "off": 94.25,
+        "deff": 76.94999999999999,
+        "wins": 7.374666666666666,
+        "predPct": 47.295519713261655,
+        "finish": 12,
+        "playoffSeed": "NA",
+        "odds": "28%",
+        "div": "15%",
+        "bye": "1%",
+        "playoffProbability": 0.2753333333333333,
+        "divisionProbability": 0.154,
+        "byeProbability": 0.012333333333333333,
+        "projectedPotentialPoints": 2742.978828114594,
         "ranks": {
           "off": {
             "rank": 15,
             "tied": false
           },
           "deff": {
-            "rank": 25,
+            "rank": 28,
             "tied": false
           },
           "pot": {
-            "rank": 20,
+            "rank": 25,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 179.2,
-        "franchise_id": "0020",
-        "name": "New York Jets",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-        "seed": 12,
+        "pointsTotal": 349.6,
+        "franchise_id": "0019",
+        "name": "New England Patriots",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "seed": 13,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.2903225806451613,
-        "ppg": "179.2",
-        "pot": 246.8,
-        "off": 78.1,
-        "deff": 101.1,
-        "wins": 8.098166666666666,
-        "predPct": 48.63225806451613,
-        "finish": 11,
+        "record": "0-2",
+        "apPct": 0.31451612903225806,
+        "ppg": "174.8",
+        "pot": 209.5,
+        "off": 79.10000000000001,
+        "deff": 95.7,
+        "wins": 4.815833333333333,
+        "predPct": 37.42051971326165,
+        "finish": 16,
         "playoffSeed": "NA",
-        "odds": "36%",
-        "div": "21%",
-        "bye": "3%",
-        "playoffProbability": 0.361,
-        "divisionProbability": 0.20733333333333334,
-        "byeProbability": 0.026,
-        "projectedPotentialPoints": 2816.316718882696,
+        "odds": "4%",
+        "div": "2%",
+        "bye": "0%",
+        "playoffProbability": 0.03866666666666667,
+        "divisionProbability": 0.015,
+        "byeProbability": 0.0013333333333333333,
+        "projectedPotentialPoints": 2573.48147985448,
         "ranks": {
           "off": {
             "rank": 22,
             "tied": false
           },
           "deff": {
-            "rank": 13,
+            "rank": 20,
             "tied": false
           },
           "pot": {
-            "rank": 18,
+            "rank": 29,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 177.4,
-        "franchise_id": "0021",
-        "name": "Baltimore Ravens",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-        "seed": 13,
-        "clinch": "",
-        "qual": "",
-        "record": "1-0",
-        "apPct": 0.25806451612903225,
-        "ppg": "177.4",
-        "pot": 223.9,
-        "off": 48.400000000000006,
-        "deff": 129.0,
-        "wins": 8.344,
-        "predPct": 47.299283154121866,
-        "finish": 12,
-        "playoffSeed": "NA",
-        "odds": "38%",
-        "div": "18%",
-        "bye": "2%",
-        "playoffProbability": 0.38066666666666665,
-        "divisionProbability": 0.17666666666666667,
-        "byeProbability": 0.018666666666666668,
-        "projectedPotentialPoints": 2768.727087321111,
-        "ranks": {
-          "off": {
-            "rank": 31,
-            "tied": false
-          },
-          "deff": {
-            "rank": 4,
-            "tied": false
-          },
-          "pot": {
-            "rank": 24,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 149.0,
+        "pointsTotal": 331.8,
         "franchise_id": "0028",
         "name": "Tennessee Titans",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
         "seed": 14,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.16129032258064516,
-        "ppg": "149.0",
-        "pot": 185.2,
-        "off": 73.4,
-        "deff": 75.6,
-        "wins": 8.0375,
-        "predPct": 49.35931899641577,
+        "record": "0-2",
+        "apPct": 0.2903225806451613,
+        "ppg": "165.9",
+        "pot": 213.2,
+        "off": 77.70000000000002,
+        "deff": 88.19999999999999,
+        "wins": 7.5455,
+        "predPct": 49.87007168458782,
         "finish": 10,
         "playoffSeed": "NA",
-        "odds": "37%",
-        "div": "18%",
-        "bye": "3%",
-        "playoffProbability": 0.37,
-        "divisionProbability": 0.176,
-        "byeProbability": 0.033666666666666664,
-        "projectedPotentialPoints": 2751.0868590146347,
+        "odds": "29%",
+        "div": "6%",
+        "bye": "2%",
+        "playoffProbability": 0.286,
+        "divisionProbability": 0.056666666666666664,
+        "byeProbability": 0.023333333333333334,
+        "projectedPotentialPoints": 2758.1423880278658,
         "ranks": {
           "off": {
             "rank": 24,
             "tied": false
           },
           "deff": {
-            "rank": 28,
+            "rank": 22,
             "tied": false
           },
           "pot": {
-            "rank": 30,
+            "rank": 27,
             "tied": false
           }
         }
       },
       {
-        "pointsTotal": 146.2,
-        "franchise_id": "0024",
-        "name": "Pittsburgh Steelers",
-        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-        "seed": 15,
-        "clinch": "",
-        "qual": "",
-        "record": "0-1",
-        "apPct": 0.12903225806451613,
-        "ppg": "146.2",
-        "pot": 238.7,
-        "off": 61.8,
-        "deff": 84.39999999999999,
-        "wins": 7.422833333333333,
-        "predPct": 46.08118279569892,
-        "finish": 13,
-        "playoffSeed": "NA",
-        "odds": "27%",
-        "div": "8%",
-        "bye": "1%",
-        "playoffProbability": 0.26566666666666666,
-        "divisionProbability": 0.084,
-        "byeProbability": 0.013,
-        "projectedPotentialPoints": 2782.706622030645,
-        "ranks": {
-          "off": {
-            "rank": 28,
-            "tied": false
-          },
-          "deff": {
-            "rank": 23,
-            "tied": false
-          },
-          "pot": {
-            "rank": 19,
-            "tied": false
-          }
-        }
-      },
-      {
-        "pointsTotal": 138.0,
+        "pointsTotal": 299.3,
         "franchise_id": "0022",
         "name": "Cincinnati Bengals",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+        "seed": 15,
+        "clinch": "",
+        "qual": "",
+        "record": "0-2",
+        "apPct": 0.13709677419354838,
+        "ppg": "149.7",
+        "pot": 197.35,
+        "off": 69.9,
+        "deff": 79.75,
+        "wins": 6.1611666666666665,
+        "predPct": 41.73028673835126,
+        "finish": 14,
+        "playoffSeed": "NA",
+        "odds": "12%",
+        "div": "3%",
+        "bye": "0%",
+        "playoffProbability": 0.11533333333333333,
+        "divisionProbability": 0.031,
+        "byeProbability": 0.002,
+        "projectedPotentialPoints": 2644.4861234372456,
+        "ranks": {
+          "off": {
+            "rank": 29,
+            "tied": false
+          },
+          "deff": {
+            "rank": 27,
+            "tied": false
+          },
+          "pot": {
+            "rank": 31,
+            "tied": false
+          }
+        }
+      },
+      {
+        "pointsTotal": 300.0,
+        "franchise_id": "0024",
+        "name": "Pittsburgh Steelers",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
         "seed": 16,
         "clinch": "",
         "qual": "",
-        "record": "0-1",
-        "apPct": 0.04838709677419355,
-        "ppg": "138.0",
-        "pot": 189.1,
-        "off": 57.8,
-        "deff": 80.2,
-        "wins": 7.233833333333333,
-        "predPct": 45.34139784946236,
-        "finish": 14,
+        "record": "0-2",
+        "apPct": 0.12903225806451613,
+        "ppg": "150.0",
+        "pot": 215.64999999999998,
+        "off": 62.900000000000006,
+        "deff": 87.1,
+        "wins": 5.936166666666667,
+        "predPct": 39.838530465949816,
+        "finish": 15,
         "playoffSeed": "NA",
-        "odds": "23%",
-        "div": "9%",
-        "bye": "1%",
-        "playoffProbability": 0.231,
-        "divisionProbability": 0.08633333333333333,
-        "byeProbability": 0.011,
-        "projectedPotentialPoints": 2711.008162802881,
+        "odds": "9%",
+        "div": "2%",
+        "bye": "0%",
+        "playoffProbability": 0.08733333333333333,
+        "divisionProbability": 0.024333333333333332,
+        "byeProbability": 0.001,
+        "projectedPotentialPoints": 2673.0044055237768,
         "ranks": {
           "off": {
             "rank": 30,
             "tied": false
           },
           "deff": {
-            "rank": 26,
+            "rank": 24,
             "tied": false
           },
           "pot": {
-            "rank": 29,
+            "rank": 24,
             "tied": false
           }
         }
