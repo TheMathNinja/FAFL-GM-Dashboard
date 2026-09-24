@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from rules import fafl_outcomes,rank_field
-from weekly_system import write_weekly_outputs
+from weekly_system import calculate_elo,calculate_bonus_games
 
 ROOT=Path(__file__).resolve().parents[1]
 SEASON=2026
@@ -155,14 +155,38 @@ def render(data,week,status,n_sims,updated):
  flat=[{k:v for k,v in r.items() if k!='ranks'} for c in data.values() for r in c]
  pd.DataFrame(flat).to_csv(out/f'week-{week+1:02}.csv',index=False)
 
+def save_source(meta,divmap,opp,current,week,status):
+ current.to_csv(ROOT/'data/current_weekly.csv',index=False)
+ payload=dict(meta=meta,divmap=divmap,opp=opp.tolist(),week=week,status=status,
+              scraped_at=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
+ (ROOT/'data/weekly_source_context.json').write_text(json.dumps(payload,indent=2),encoding='utf8')
+
+def load_source():
+ payload=json.loads((ROOT/'data/weekly_source_context.json').read_text(encoding='utf8'))
+ current=pd.read_csv(ROOT/'data/current_weekly.csv',dtype={'franchise_id':str})
+ current.franchise_id=current.franchise_id.str.zfill(4)
+ return payload['meta'],payload['divmap'],np.asarray(payload['opp'],dtype=int),current,int(payload['week']),payload['status']
+
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=3000);args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=3000);parser.add_argument('--stage',choices=['all','source','elo-shadow','bonus','playoff'],default='all');args=parser.parse_args()
  week=args.week if args.week is not None else completed_week()
  if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
- meta,divmap,opp,current=fetch_current(week)
- current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
- write_weekly_outputs(current,meta,SEASON)
+ if args.stage in ['all','source']:
+  meta,divmap,opp,current=fetch_current(week);current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
+  save_source(meta,divmap,opp,current,week,args.status)
+ else:
+  meta,divmap,opp,current,week,_=load_source()
+ if args.stage=='source':
+  print(f'Validated one FAFL MFL snapshot through Week {week}: {len(current)} team-week rows')
+  return
+ if args.stage in ['all','elo-shadow']:
+  names={str(f['id']).zfill(4):f['name'] for f in meta};elo_input=current.copy();elo_input['franchise_name']=elo_input.franchise_id.map(names)
+  shadow=calculate_elo(elo_input,SEASON);shadow.to_csv(ROOT/'data/elo_shadow_ratings.csv',index=False)
+  if args.stage=='elo-shadow':return
+ if args.stage in ['all','bonus']:
+  calculate_bonus_games(current,meta).to_csv(ROOT/'data/bonus_games.csv',index=False)
+  if args.stage=='bonus':return
  data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,min(week,12),args.simulations)
  stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,min(week,12),args.status,args.simulations,stamp)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
