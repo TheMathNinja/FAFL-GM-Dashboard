@@ -133,6 +133,12 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   playoff=float(q[:,i].mean());division=float(dw[:,i].mean());bye=float((seed[:,i]==1).mean())
   clinch='b' if bye==1 else 'd' if division==1 else 'p' if playoff==1 else 'e' if playoff==0 else ''
   r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
+  def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
+  h2h=today[5][0,:,i];hw=int((h2h==1).sum());hl=int((h2h==0).sum());ht=int((h2h==.5).sum())
+  others=np.delete(actual,i,axis=1);own=actual[:,i,None]
+  aw=int((own>others).sum());al=int((own<others).sum());at=int((own==others).sum())
+  assert aw+al+at==31*week and aw+.5*at==today[4][0,i]
+  r.update(h2hRecord=record_text(hw,hl,ht),bonusRecord=record_text(w-hw,loss-hl,ties-ht),apRecord=record_text(aw,al,at),remainingSos=float(np.mean(today[4][0,opp[week:,i]]/(31*week))*100) if week<12 else None)
   rows.append(r);data['NFC' if divmap[f['division']]=='00' else 'AFC'].append(r)
  for r in rows:
   r['ranks']={}
