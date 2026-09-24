@@ -46,12 +46,56 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m unittest discover -s tests -v
-      - name: Build validated Elo, Bonus Games, and playoff forecast
+      - name: Scrape and validate the shared MFL source
         if: steps.schedule.outputs.should_run == 'true'
-        run: python scripts/build.py --status '${{ steps.schedule.outputs.score_status }}'
-      - name: Build playoff bracket from internal Elo cache
+        run: python scripts/build.py --stage source --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Build comparison-only Elo shadow
+        id: elo_shadow
+        continue-on-error: true
         if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/build.py --stage elo-shadow --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Build Bonus Games
+        id: bonus
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/build.py --stage bonus --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Build playoff forecast
+        id: playoffs
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/build.py --stage playoff --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Publish official workbook Elo and synchronize Bonus Games inputs
+        id: elo
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true' && steps.elo_shadow.outcome == 'success'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/sync_google_weekly_system.py
+      - name: Preserve previous official Elo after an Elo-only failure
+        if: steps.schedule.outputs.should_run == 'true' && steps.elo.outcome == 'failure'
+        run: git restore data/elo_ratings.csv data/google_weekly_sync_metadata.csv data/elo_shadow_comparison.csv 2>/dev/null || true
+      - name: Build playoff bracket from official workbook Elo
+        id: bracket
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true' && steps.elo.outcome == 'success'
         run: python scripts/bracket.py --league FAFL
+      - name: Record independent component results
+        if: steps.schedule.outputs.should_run == 'true' && always()
+        env:
+          ELO_STATUS: ${{ steps.elo.outcome }}
+          BONUS_STATUS: ${{ steps.bonus.outcome }}
+          PLAYOFF_STATUS: ${{ steps.playoffs.outcome }}
+          BRACKET_STATUS: ${{ steps.bracket.outcome }}
+          SCORE_STATUS: ${{ steps.schedule.outputs.score_status }}
+        run: |
+          cat > data/component_publish_status.csv <<EOF
+          component,status,score_status,run_id
+          source,success,${SCORE_STATUS},${GITHUB_RUN_ID}
+          elo,${ELO_STATUS},${SCORE_STATUS},${GITHUB_RUN_ID}
+          bonus_games,${BONUS_STATUS},${SCORE_STATUS},${GITHUB_RUN_ID}
+          playoff_forecast,${PLAYOFF_STATUS},${SCORE_STATUS},${GITHUB_RUN_ID}
+          playoff_bracket,${BRACKET_STATUS},${SCORE_STATUS},${GITHUB_RUN_ID}
+          EOF
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |
