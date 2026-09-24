@@ -5,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from rules import fafl_outcomes,rank_field
+from weekly_system import write_weekly_outputs
 
 ROOT=Path(__file__).resolve().parents[1]
 SEASON=2026
@@ -159,7 +160,10 @@ def main():
  week=args.week if args.week is not None else completed_week()
  if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
- meta,divmap,opp,current=fetch_current(week);data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,min(week,12),args.simulations)
+ meta,divmap,opp,current=fetch_current(week)
+ current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
+ write_weekly_outputs(current,meta,SEASON)
+ data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,min(week,12),args.simulations)
  stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,min(week,12),args.status,args.simulations,stamp)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
  (ROOT/'data/current_forecast.json').write_text(json.dumps(payload,indent=2,allow_nan=False),encoding='utf8')
@@ -167,4 +171,3 @@ def main():
  print(f'Built FAFL report through Week {week}: 32 teams, {args.simulations} simulations, {stamp}')
 
 if __name__=='__main__':main()
-

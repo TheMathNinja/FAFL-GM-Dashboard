@@ -1,4 +1,4 @@
-name: Refresh FAFL Playoff Picture
+name: Refresh FAFL Weekly System
 on:
   workflow_dispatch:
     inputs:
@@ -46,23 +46,20 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m unittest discover -s tests -v
-      - name: Refresh current scores and forecast
+      - name: Build validated Elo, Bonus Games, and playoff forecast
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --status '${{ steps.schedule.outputs.score_status }}'
-      - name: Refresh Elo playoff bracket
+      - name: Build playoff bracket from internal Elo cache
         if: steps.schedule.outputs.should_run == 'true'
-        run: |
-          if ! python scripts/bracket.py --league FAFL; then
-            echo "::warning::FAFL Elo workbook is not current yet. Forecast publication will continue using the previously published Elo bracket."
-          fi
+        run: python scripts/bracket.py --league FAFL
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs data/current_forecast.json data/current_weekly.csv
+          git add docs data
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh FAFL playoff forecast'
+            git commit -m 'Automated unified FAFL weekly refresh'
             git push
           fi
       - uses: actions/configure-pages@v5
