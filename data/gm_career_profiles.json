@@ -1,0 +1,528 @@
+{
+  "season": 2026,
+  "completedThrough": 2025,
+  "profiles": {
+    "Dallas Cowboys": {
+      "franchise_id": "0001",
+      "gm": "Jonathan Bell",
+      "experience": 7,
+      "wins": 1573,
+      "losses": 2052,
+      "ties": 2,
+      "best": 2,
+      "bestYears": [
+        2016
+      ],
+      "worst": 29,
+      "worstYears": [
+        2022,
+        2025
+      ]
+    },
+    "New York Giants": {
+      "franchise_id": "0002",
+      "gm": "Russell Mataya",
+      "experience": 12,
+      "wins": 3561,
+      "losses": 2539,
+      "ties": 7,
+      "best": 2,
+      "bestYears": [
+        2017,
+        2021
+      ],
+      "worst": 30,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Philadelphia Eagles": {
+      "franchise_id": "0003",
+      "gm": "Schuyler Ferguson",
+      "experience": 12,
+      "wins": 3267,
+      "losses": 2839,
+      "ties": 1,
+      "best": 1,
+      "bestYears": [
+        2023
+      ],
+      "worst": 24,
+      "worstYears": [
+        2015
+      ]
+    },
+    "Washington Commanders": {
+      "franchise_id": "0004",
+      "gm": "Brandon Owens",
+      "experience": 1,
+      "wins": 361,
+      "losses": 166,
+      "ties": 0,
+      "best": 1,
+      "bestYears": [
+        2025
+      ],
+      "worst": 1,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Chicago Bears": {
+      "franchise_id": "0005",
+      "gm": "Mike Filicicchia",
+      "experience": 12,
+      "wins": 4116,
+      "losses": 1986,
+      "ties": 5,
+      "best": 1,
+      "bestYears": [
+        2015,
+        2016,
+        2018
+      ],
+      "worst": 16,
+      "worstYears": [
+        2024
+      ]
+    },
+    "Detroit Lions": {
+      "franchise_id": "0006",
+      "gm": "Matthew Jo",
+      "experience": 4,
+      "wins": 1139,
+      "losses": 963,
+      "ties": 6,
+      "best": 3,
+      "bestYears": [
+        2023
+      ],
+      "worst": 28,
+      "worstYears": [
+        2022
+      ]
+    },
+    "Green Bay Packers": {
+      "franchise_id": "0007",
+      "gm": "Alex Deaton, Dylan Slaughter",
+      "experience": 3,
+      "wins": 626,
+      "losses": 953,
+      "ties": 2,
+      "best": 17,
+      "bestYears": [
+        2024
+      ],
+      "worst": 30,
+      "worstYears": [
+        2023
+      ]
+    },
+    "Minnesota Vikings": {
+      "franchise_id": "0008",
+      "gm": "Matt McAfee",
+      "experience": 1,
+      "wins": 322,
+      "losses": 204,
+      "ties": 1,
+      "best": 12,
+      "bestYears": [
+        2025
+      ],
+      "worst": 12,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Atlanta Falcons": {
+      "franchise_id": "0009",
+      "gm": "Brady Gelezinsky",
+      "experience": 2,
+      "wins": 653,
+      "losses": 400,
+      "ties": 1,
+      "best": 2,
+      "bestYears": [
+        2024
+      ],
+      "worst": 7,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Carolina Panthers": {
+      "franchise_id": "0010",
+      "gm": "Alex Garbarino",
+      "experience": 11,
+      "wins": 2966,
+      "losses": 2644,
+      "ties": 1,
+      "best": 2,
+      "bestYears": [
+        2014
+      ],
+      "worst": 32,
+      "worstYears": [
+        2021
+      ]
+    },
+    "New Orleans Saints": {
+      "franchise_id": "0011",
+      "gm": "Luke Froncheck",
+      "experience": 1,
+      "wins": 311,
+      "losses": 216,
+      "ties": 0,
+      "best": 6,
+      "bestYears": [
+        2025
+      ],
+      "worst": 6,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Tampa Bay Buccaneers": {
+      "franchise_id": "0012",
+      "gm": "Jason Berkowitz",
+      "experience": 10,
+      "wins": 2544,
+      "losses": 2565,
+      "ties": 6,
+      "best": 2,
+      "bestYears": [
+        2019
+      ],
+      "worst": 27,
+      "worstYears": [
+        2021
+      ]
+    },
+    "Arizona Cardinals": {
+      "franchise_id": "0013",
+      "gm": "Gideon D'Assandro",
+      "experience": 12,
+      "wins": 2831,
+      "losses": 3267,
+      "ties": 9,
+      "best": 5,
+      "bestYears": [
+        2014,
+        2019
+      ],
+      "worst": 30,
+      "worstYears": [
+        2021
+      ]
+    },
+    "Los Angeles Rams": {
+      "franchise_id": "0014",
+      "gm": "Chandler Barense",
+      "experience": 10,
+      "wins": 2340,
+      "losses": 2770,
+      "ties": 5,
+      "best": 8,
+      "bestYears": [
+        2016
+      ],
+      "worst": 29,
+      "worstYears": [
+        2024
+      ]
+    },
+    "San Francisco 49ers": {
+      "franchise_id": "0015",
+      "gm": "Mitchell Schumacher",
+      "experience": 2,
+      "wins": 626,
+      "losses": 427,
+      "ties": 1,
+      "best": 13,
+      "bestYears": [
+        2024
+      ],
+      "worst": 14,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Seattle Seahawks": {
+      "franchise_id": "0016",
+      "gm": "Marc Baker",
+      "experience": 5,
+      "wins": 1292,
+      "losses": 1339,
+      "ties": 4,
+      "best": 7,
+      "bestYears": [
+        2022
+      ],
+      "worst": 27,
+      "worstYears": [
+        2024
+      ]
+    },
+    "Buffalo Bills": {
+      "franchise_id": "0017",
+      "gm": "Nick McLaren",
+      "experience": 5,
+      "wins": 1390,
+      "losses": 1241,
+      "ties": 4,
+      "best": 9,
+      "bestYears": [
+        2023
+      ],
+      "worst": 19,
+      "worstYears": [
+        2024
+      ]
+    },
+    "Miami Dolphins": {
+      "franchise_id": "0018",
+      "gm": "Chris Daubert",
+      "experience": 4,
+      "wins": 1066,
+      "losses": 1039,
+      "ties": 3,
+      "best": 3,
+      "bestYears": [
+        2024
+      ],
+      "worst": 29,
+      "worstYears": [
+        2023
+      ]
+    },
+    "New England Patriots": {
+      "franchise_id": "0019",
+      "gm": "Zac Macintyre",
+      "experience": 6,
+      "wins": 1430,
+      "losses": 1700,
+      "ties": 1,
+      "best": 2,
+      "bestYears": [
+        2023
+      ],
+      "worst": 31,
+      "worstYears": [
+        2024
+      ]
+    },
+    "New York Jets": {
+      "franchise_id": "0020",
+      "gm": "Nick Vitolano",
+      "experience": 2,
+      "wins": 573,
+      "losses": 480,
+      "ties": 1,
+      "best": 5,
+      "bestYears": [
+        2024
+      ],
+      "worst": 18,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Baltimore Ravens": {
+      "franchise_id": "0021",
+      "gm": "Taylor Williams",
+      "experience": 6,
+      "wins": 1631,
+      "losses": 1493,
+      "ties": 7,
+      "best": 8,
+      "bestYears": [
+        2022,
+        2025
+      ],
+      "worst": 22,
+      "worstYears": [
+        2023
+      ]
+    },
+    "Cincinnati Bengals": {
+      "franchise_id": "0022",
+      "gm": "James Martin",
+      "experience": 8,
+      "wins": 2349,
+      "losses": 1771,
+      "ties": 3,
+      "best": 1,
+      "bestYears": [
+        2021
+      ],
+      "worst": 23,
+      "worstYears": [
+        2022
+      ]
+    },
+    "Cleveland Browns": {
+      "franchise_id": "0023",
+      "gm": "Ryan Lynch",
+      "experience": 3,
+      "wins": 973,
+      "losses": 606,
+      "ties": 2,
+      "best": 2,
+      "bestYears": [
+        2025
+      ],
+      "worst": 15,
+      "worstYears": [
+        2024
+      ]
+    },
+    "Pittsburgh Steelers": {
+      "franchise_id": "0024",
+      "gm": "Sid Narayanan",
+      "experience": 3,
+      "wins": 610,
+      "losses": 971,
+      "ties": 0,
+      "best": 19,
+      "bestYears": [
+        2023
+      ],
+      "worst": 32,
+      "worstYears": [
+        2024
+      ]
+    },
+    "Houston Texans": {
+      "franchise_id": "0025",
+      "gm": "Edgar Fondevilla",
+      "experience": 4,
+      "wins": 1032,
+      "losses": 1072,
+      "ties": 4,
+      "best": 4,
+      "bestYears": [
+        2024
+      ],
+      "worst": 28,
+      "worstYears": [
+        2023
+      ]
+    },
+    "Indianapolis Colts": {
+      "franchise_id": "0026",
+      "gm": "Micah Caywood",
+      "experience": 1,
+      "wins": 279,
+      "losses": 248,
+      "ties": 0,
+      "best": 19,
+      "bestYears": [
+        2025
+      ],
+      "worst": 19,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Jacksonville Jaguars": {
+      "franchise_id": "0027",
+      "gm": "Chase Marak",
+      "experience": 9,
+      "wins": 2798,
+      "losses": 1815,
+      "ties": 6,
+      "best": 1,
+      "bestYears": [
+        2017,
+        2020,
+        2022
+      ],
+      "worst": 23,
+      "worstYears": [
+        2019,
+        2024
+      ]
+    },
+    "Tennessee Titans": {
+      "franchise_id": "0028",
+      "gm": "Tim Shields",
+      "experience": 12,
+      "wins": 2924,
+      "losses": 3176,
+      "ties": 7,
+      "best": 4,
+      "bestYears": [
+        2021
+      ],
+      "worst": 32,
+      "worstYears": [
+        2015,
+        2020
+      ]
+    },
+    "Denver Broncos": {
+      "franchise_id": "0029",
+      "gm": "Douglass Duffy",
+      "experience": 11,
+      "wins": 3452,
+      "losses": 2156,
+      "ties": 3,
+      "best": 2,
+      "bestYears": [
+        2018
+      ],
+      "worst": 32,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Kansas City Chiefs": {
+      "franchise_id": "0030",
+      "gm": "Paul Bloye",
+      "experience": 1,
+      "wins": 294,
+      "losses": 233,
+      "ties": 0,
+      "best": 16,
+      "bestYears": [
+        2025
+      ],
+      "worst": 16,
+      "worstYears": [
+        2025
+      ]
+    },
+    "Las Vegas Raiders": {
+      "franchise_id": "0031",
+      "gm": "Ian Maristany",
+      "experience": 6,
+      "wins": 1579,
+      "losses": 1551,
+      "ties": 1,
+      "best": 4,
+      "bestYears": [
+        2025
+      ],
+      "worst": 22,
+      "worstYears": [
+        2021
+      ]
+    },
+    "Los Angeles Chargers": {
+      "franchise_id": "0032",
+      "gm": "Christian Lohr",
+      "experience": 6,
+      "wins": 1327,
+      "losses": 1799,
+      "ties": 5,
+      "best": 15,
+      "bestYears": [
+        2022
+      ],
+      "worst": 31,
+      "worstYears": [
+        2025
+      ]
+    }
+  }
+}
