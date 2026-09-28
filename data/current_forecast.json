@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 2,
   "status": "reported",
-  "updated_at": "2026-09-28 23:03 UTC",
+  "updated_at": "2026-09-28 23:04 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
@@ -20,20 +20,20 @@
     ],
     "coefficients": [
       [
-        193.68206250000003,
+        193.68206250000006,
         229.88568749999996
       ],
       [
-        5.698250591696012,
-        6.269020436028395
+        5.698250591696026,
+        6.269020436028386
       ],
       [
-        7.940217415212702,
-        7.4112730117462275
+        7.940217415212728,
+        7.411273011746218
       ],
       [
-        -4.140779743228762,
-        -2.8673408806671516
+        -4.140779743228787,
+        -2.8673408806671348
       ]
     ],
     "feature_means": [
@@ -310,7 +310,7 @@
         "playoffProbability": 0.6393333333333333,
         "divisionProbability": 0.5083333333333333,
         "byeProbability": 0.03866666666666667,
-        "projectedPotentialPoints": 2870.918677244525,
+        "projectedPotentialPoints": 2870.9186772445255,
         "potentialApRecord": "37-25",
         "h2hRecord": "2-0",
         "bonusRecord": "0-0",
@@ -402,7 +402,7 @@
         "playoffProbability": 0.643,
         "divisionProbability": 0.233,
         "byeProbability": 0.086,
-        "projectedPotentialPoints": 2904.120799620677,
+        "projectedPotentialPoints": 2904.1207996206767,
         "potentialApRecord": "33-29",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -448,7 +448,7 @@
         "playoffProbability": 0.33766666666666667,
         "divisionProbability": 0.09833333333333333,
         "byeProbability": 0.035,
-        "projectedPotentialPoints": 2859.010621813619,
+        "projectedPotentialPoints": 2859.010621813618,
         "potentialApRecord": "48-14",
         "h2hRecord": "0-2",
         "bonusRecord": "0-0",
@@ -494,7 +494,7 @@
         "playoffProbability": 0.4513333333333333,
         "divisionProbability": 0.29233333333333333,
         "byeProbability": 0.033666666666666664,
-        "projectedPotentialPoints": 2778.526774223695,
+        "projectedPotentialPoints": 2778.5267742236947,
         "potentialApRecord": "27-35",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -586,7 +586,7 @@
         "playoffProbability": 0.18033333333333335,
         "divisionProbability": 0.102,
         "byeProbability": 0.005666666666666667,
-        "projectedPotentialPoints": 2656.4911530373333,
+        "projectedPotentialPoints": 2656.491153037334,
         "potentialApRecord": "17-45",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -678,7 +678,7 @@
         "playoffProbability": 0.19566666666666666,
         "divisionProbability": 0.15133333333333332,
         "byeProbability": 0.0026666666666666666,
-        "projectedPotentialPoints": 2611.755588160688,
+        "projectedPotentialPoints": 2611.7555881606886,
         "potentialApRecord": "16-46",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -770,7 +770,7 @@
         "playoffProbability": 0.19466666666666665,
         "divisionProbability": 0.09733333333333333,
         "byeProbability": 0.002,
-        "projectedPotentialPoints": 2646.1503151078814,
+        "projectedPotentialPoints": 2646.150315107882,
         "potentialApRecord": "4-58",
         "h2hRecord": "0-2",
         "bonusRecord": "0-0",
@@ -864,7 +864,7 @@
         "playoffProbability": 0.7656666666666667,
         "divisionProbability": 0.4,
         "byeProbability": 0.262,
-        "projectedPotentialPoints": 3059.8402869887313,
+        "projectedPotentialPoints": 3059.840286988731,
         "potentialApRecord": "56-6",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -1140,7 +1140,7 @@
         "playoffProbability": 0.495,
         "divisionProbability": 0.29933333333333334,
         "byeProbability": 0.05266666666666667,
-        "projectedPotentialPoints": 2841.0824199474223,
+        "projectedPotentialPoints": 2841.082419947422,
         "potentialApRecord": "49-13",
         "h2hRecord": "1-1",
         "bonusRecord": "0-0",
@@ -1324,7 +1324,7 @@
         "playoffProbability": 0.309,
         "divisionProbability": 0.16766666666666666,
         "byeProbability": 0.022333333333333334,
-        "projectedPotentialPoints": 2742.978828114594,
+        "projectedPotentialPoints": 2742.9788281145943,
         "potentialApRecord": "19-43",
         "h2hRecord": "0-2",
         "bonusRecord": "0-0",
@@ -1416,7 +1416,7 @@
         "playoffProbability": 0.32166666666666666,
         "divisionProbability": 0.08333333333333333,
         "byeProbability": 0.035333333333333335,
-        "projectedPotentialPoints": 2758.1423880278658,
+        "projectedPotentialPoints": 2758.1423880278653,
         "potentialApRecord": "15-47",
         "h2hRecord": "0-2",
         "bonusRecord": "0-0",
@@ -1462,7 +1462,7 @@
         "playoffProbability": 0.16966666666666666,
         "divisionProbability": 0.05566666666666667,
         "byeProbability": 0.005333333333333333,
-        "projectedPotentialPoints": 2644.4861234372456,
+        "projectedPotentialPoints": 2644.486123437246,
         "potentialApRecord": "10-52",
         "h2hRecord": "0-2",
         "bonusRecord": "0-0",
