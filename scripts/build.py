@@ -147,7 +147,7 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   details['weekly_sigma']=float(sigma)
   details['strength_uncertainty']={'model':'normal_persistent_no_extra_taper','sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
- _,_,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
+ projected_q,projected_dw,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
  rows=[];data={'NFC':[],'AFC':[]}
  for i,f in enumerate(meta):
   g=current[current.franchise_id==f['id']];win=float(today[3][0,i]);ties=int((today[5][0,:,i]==.5).sum())
@@ -161,7 +161,7 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   name=f['name'];abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
   playoff=float(q[:,i].mean());division=float(dw[:,i].mean());bye=float((seed[:,i]==1).mean())
   clinch='b' if bye==1 else 'd' if division==1 else 'p' if playoff==1 else 'e' if playoff==0 else ''
-  r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
+  r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
   def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
   h2h=today[5][0,:,i];hw=int((h2h==1).sum());hl=int((h2h==0).sum());ht=int((h2h==.5).sum())
   others=np.delete(actual,i,axis=1);own=actual[:,i,None]
