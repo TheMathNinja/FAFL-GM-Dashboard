@@ -48,12 +48,14 @@ def load_links():
  if links.duplicated(['season','franchise_id']).any():raise ValueError('Duplicate predecessor mapping')
  return links
 
-def fit_means(history,current,year,week,links):
+def fit_means(history,current,year,week,links,train_years=None,excluded_years=None):
  """Fit both remaining-PPG targets on earlier seasons only; impute from training."""
- hist=history[(history.season<year)&(history.season>=2021)&(history.week<=12)]
+ if train_years is None:train_years=sorted(history.loc[(history.season<year)&(history.season>=2021),'season'].unique())
+ prior_history=history[history.season<year] if excluded_years is None else history[~history.season.isin(excluded_years)]
+ hist=history[history.season.isin(train_years)&(history.week<=12)]
  seen=hist[hist.week<=week].groupby(['season','franchise_id']).potential.mean().rename('current_pot')
  rest=hist[hist.week>week].groupby(['season','franchise_id']).agg(target=('points','mean'),target_pot=('potential','mean'))
- prior=prior_features(history[history.season<year],links)
+ prior=prior_features(prior_history,links)
  train=pd.concat([seen,rest],axis=1).reset_index().merge(prior,on=['season','franchise_id'],how='left')
  test=current.groupby('franchise_id').potential.mean().rename('current_pot').reset_index();test['season']=year
  test=test.merge(prior,on=['season','franchise_id'],how='left').sort_values('franchise_id')
@@ -65,6 +67,31 @@ def fit_means(history,current,year,week,links):
  beta=np.linalg.lstsq(X.T@X,X.T@train[['target','target_pot']].to_numpy(),rcond=None)[0]
  pred=Z@beta;pred[:,0]=np.maximum(pred[:,0],0);pred[:,1]=np.maximum(pred[:,1],pred[:,0])
  return pred,dict(training_rows=len(train),training_years=sorted(int(y) for y in train.season.unique()),features=FEATURES,coefficients=beta.tolist(),feature_means=mean.tolist(),feature_sd=sd.tolist())
+
+def strength_uncertainty(history,year,week,links):
+ """Historical held-out-season mean error, net of weekly noise; no extra taper."""
+ if week>=12:return 0.0
+ hist=history[history.season<year]
+ seasons=tuple(sorted(hist.loc[(hist.season>=2021)&(hist.week==12),'season'].unique()))
+ if len(seasons)<2:return 0.0
+ errors=[];noise=[]
+ for held in seasons:
+  train=tuple(y for y in seasons if y!=held)
+  current=hist[(hist.season==held)&(hist.week<=week)]
+  means,_=fit_means(hist,current,held,week,links,train,(held,))
+  actual=hist[(hist.season==held)&hist.week.between(week+1,12)].groupby('franchise_id').points.mean().sort_index().to_numpy()
+  if len(actual)!=32:raise ValueError('Incomplete strength-uncertainty history')
+  error=actual-means[:,0];errors.extend(error-error.mean())
+  past=hist[hist.season.isin(train)&(hist.week<=12)].groupby(['season','franchise_id']).points.std().to_numpy()
+  observed=current.groupby('franchise_id').points.std().to_numpy() if week>1 else np.array([])
+  sigma=np.mean(np.concatenate([past,observed]));noise.append(sigma**2/(12-week))
+ return float(np.sqrt(max(0,np.mean(np.square(errors))*32/31-np.mean(noise))))
+
+def draw_future_points(rng,mu,sigma,strength_sd,n_sims,remaining_weeks):
+ weekly=rng.normal(size=(n_sims,remaining_weeks,len(mu)))*sigma
+ # One offset per team per simulation, retained for every remaining week.
+ offset=rng.normal(size=(n_sims,1,len(mu)))*strength_sd
+ return np.maximum(0,mu[None,None,:]+weekly+offset)
 
 def fetch_current(week):
  league=export('league');schedule=export('schedule');players=export('players')['player']
@@ -112,11 +139,13 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   pred,details=fit_means(history,current,SEASON,week,load_links());mu,pmu=pred.T
   past=history[(history.season>=2021)&(history.season<SEASON)&(history.week<=12)].groupby(['season','franchise_id']).points.std().to_numpy()
   obs=actual.std(0,ddof=1) if week>1 else np.array([]);sigma=np.nanmean(np.concatenate([past,obs]))
-  rng=np.random.default_rng(SEASON*100+week);future=np.maximum(0,mu[None,None,:]+rng.normal(size=(n_sims,12-week,32))*sigma)
+  tau=strength_uncertainty(history,SEASON,week,load_links())
+  rng=np.random.default_rng(SEASON*100+week);future=draw_future_points(rng,mu,sigma,tau,n_sims,12-week)
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
   potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),future+(pmu-mu)],axis=1)
   q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div)
   details['weekly_sigma']=float(sigma)
+  details['strength_uncertainty']={'model':'normal_persistent_no_extra_taper','sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
  _,_,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
  rows=[];data={'NFC':[],'AFC':[]}
