@@ -159,6 +159,7 @@
 <button id="fafl-draft-tab" role="tab" aria-controls="fafl-view" aria-selected="false" data-view="draft">Draft Forecast</button>
 <button id="fafl-bracket-tab" role="tab" aria-controls="fafl-bracket" aria-selected="false" data-view="bracket">Playoff Bracket</button>
   </div>
+  <div id="fafl-picture-controls" style="margin:0 0 14px"><div class="fafl-conferences" aria-label="Playoff picture ordering"><button data-picture="current" aria-pressed="true">Current Picture</button><button data-picture="projected" aria-pressed="false">Projected Picture</button></div></div>
   <section id="fafl-bracket" role="tabpanel" aria-labelledby="fafl-bracket-tab" hidden><iframe title="Playoff Bracket" src="bracket.html" style="width:100%;height:1250px;border:0;display:block"></iframe></section>
   <section class="fafl-surface" id="fafl-view" role="tabpanel" aria-labelledby="fafl-playoff-tab">
     <div class="fafl-toolbar"><div class="fafl-conferences" aria-label="Conference"><button data-conf="NFC" aria-pressed="true">NFC</button><button data-conf="AFC" aria-pressed="false">AFC</button></div><div class="fafl-legend"><span><b>D</b>Division leader</span><span><b>W</b>Wild card</span></div></div>
@@ -256,11 +257,18 @@ root.addEventListener('mouseout',e=>{if(e.target.closest('[data-ppg]')&&!popup.c
 popup.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
 popup.addEventListener('mouseleave',closePopup);
 root.addEventListener('keydown',e=>{if(e.key==='Escape')closePopup();});
-const state={view:'playoff',conference:'NFC',selected:'Chicago Bears',header:'Silver',density:'Comfortable',bars:true};
+const state={view:'playoff',playoffPicture:'current',bracketPicture:'current',conference:'NFC',selected:'Chicago Bears',header:'Silver',density:'Comfortable',bars:true};
 const mast=root.querySelector('.fafl-mast');
 const rows=root.querySelector('#fafl-rows'),head=root.querySelector('#fafl-head');
 function initials(name){return name.split(' ').map(x=>x[0]).join('').slice(0,3)}
 function render(){
+ const pictureKey=state.view==='bracket'?'bracketPicture':'playoffPicture';
+ root.querySelector('#fafl-picture-controls').hidden=state.view==='draft';
+ root.querySelectorAll('[data-picture]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.picture===state[pictureKey])));
+ const bracketFrame=root.querySelector('#fafl-bracket iframe');
+ const bracketURL=new URL(bracketFrame.getAttribute('src'),location.href);
+ if(bracketURL.searchParams.get('picture')!==state.bracketPicture){bracketURL.searchParams.set('picture',state.bracketPicture);bracketFrame.src=bracketURL.href;}
+
  root.querySelector('#fafl-view').hidden=state.view==='bracket';
  root.querySelector('#fafl-bracket').hidden=state.view!=='bracket';
  root.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===state.view)));
@@ -288,8 +296,9 @@ function render(){
    rows.innerHTML=[...draft[state.conference]].sort((a,b)=>Number(a.currentPick)-Number(b.currentPick)).map((r,i)=>(i===9?'<tr class="fafl-cut"><td colspan="5">Current playoff teams</td></tr>':i===0?'<tr class="fafl-cut"><td colspan="5">Current non-playoff teams</td></tr>':'')+`<tr><td><span class="fafl-seed">${r.currentPick}</span></td><td>${team(r)}</td><td>${r.pick}</td><td>${r.playoffSeed==='NA'?'Out':'#'+r.playoffSeed}</td><td>${r.potential.toFixed(1)}</td></tr>`).join('');
    return;
  }
- const list=data[state.conference];
- head.innerHTML='<tr><th>Seed</th><th>Team</th><th>Record</th><th>All-play %</th><th>PPG</th><th>Proj. wins</th><th>Playoff odds</th></tr>';
+ const projectedOrder=state.playoffPicture==='projected';
+ const list=[...data[state.conference]].sort((a,b)=>Number(projectedOrder?a.finish:a.seed)-Number(projectedOrder?b.finish:b.seed)||Number(a.seed)-Number(b.seed));
+ head.innerHTML='<tr><th>'+ (projectedOrder?'Current seed':'Seed') +'</th><th>Team</th><th>Record</th><th>All-play %</th><th>PPG</th><th>Proj. wins</th><th>Playoff odds</th></tr>';
  rows.innerHTML=list.map((t,i)=>{
   
    const seed=t.playoffSeed==='NA'?'Outside field (conference finish '+t.finish+')':'#'+t.playoffSeed;
@@ -300,6 +309,7 @@ function render(){
 }
 
 root.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{state.view=b.dataset.view;render()}));
+root.querySelectorAll('[data-picture]').forEach(b=>b.addEventListener('click',()=>{state[state.view==='bracket'?'bracketPicture':'playoffPicture']=b.dataset.picture;render()}));
 root.querySelectorAll('[data-conf]').forEach(b=>b.addEventListener('click',()=>{state.conference=b.dataset.conf;render()}));
 
 window.addEventListener('message',e=>{const frame=root.querySelector('#fafl-bracket iframe');if(e.origin===location.origin&&e.source===frame.contentWindow&&e.data?.type==='bracket-height'&&Number.isFinite(e.data.height))frame.style.height=Math.max(600,e.data.height)+'px';});
