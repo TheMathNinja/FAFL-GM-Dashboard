@@ -570,10 +570,6 @@
       "probabilityLabel": "win prob"
     }
   ],
-  "probabilityModel": {
-    "logisticPointsScale": 31.57649140329526
-  },
-  "eloThroughWeek": 2,
   "projectedGames": [
     {
       "week": 13,
@@ -625,7 +621,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 37.248053170955785
+          "odds": 37.2480531709558
         }
       ],
       "remainingWeeks": 2,
@@ -647,7 +643,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 56.56336645070766
+          "odds": 56.56336645070773
         },
         {
           "name": "Carolina Panthers",
@@ -659,7 +655,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 43.43663354929227
+          "odds": 43.43663354929224
         }
       ],
       "remainingWeeks": 2,
@@ -681,7 +677,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 53.176077079880514
+          "odds": 53.17607707988056
         },
         {
           "name": "Chicago Bears",
@@ -693,7 +689,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 46.82392292011943
+          "odds": 46.82392292011942
         }
       ],
       "remainingWeeks": 2,
@@ -908,7 +904,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 39.98155500422614
+          "odds": 39.98155500422613
         }
       ],
       "remainingWeeks": 2,
@@ -942,7 +938,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 39.48943476494437
+          "odds": 39.489434764944335
         }
       ],
       "remainingWeeks": 2,
@@ -964,7 +960,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.50107114952736
+          "odds": 50.50107114952734
         },
         {
           "name": "Houston Texans",
@@ -976,7 +972,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.49892885047268
+          "odds": 49.49892885047269
         }
       ],
       "remainingWeeks": 2,
@@ -1141,5 +1137,9 @@
       "remainingWeeks": 1,
       "probabilityLabel": "win prob"
     }
-  ]
+  ],
+  "probabilityModel": {
+    "logisticPointsScale": 31.57649140329526
+  },
+  "eloThroughWeek": 2
 }
