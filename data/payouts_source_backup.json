@@ -1,0 +1,10 @@
+{
+  "reference_anchor": [
+    [
+      "=LET(raw,IMPORTRANGE($A$36,\"'\"&Display!$A$1&\"'!A36:BD68\"),gap,MAKEARRAY(1,18,LAMBDA(r,c,\"\")),stacked,VSTACK(CHOOSECOLS(raw,1,SEQUENCE(1,17,2)),gap,CHOOSECOLS(raw,20,SEQUENCE(1,17,21)),gap,CHOOSECOLS(raw,39,SEQUENCE(1,17,40))),ARRAYFORMULA(IF(stacked=\"\",\"\",stacked)))"
+    ]
+  ],
+  "postseason": [
+    []
+  ]
+}
