@@ -49,3 +49,7 @@ Manual test: dispatch the polling workflow with `dry_run=true` and a target `wee
 Unchanged scores do nothing. Changed scores dispatch the shared worker with official status after the player and team feeds reconcile. A running worker suppresses overlapping dispatches. Each new correction or reversion can trigger another refresh; failed workers retry on later checks without a retry cap. A missing baseline causes one full refresh to establish it. The worker captures scores before scraping and only records that baseline after all required components succeed and the scores still match at completion. A mid-run correction leaves the baseline unacknowledged for retry. This replaces the fixed Thursday 5 a.m. run, and does not resend Game of the Week shortlists.
 
 Manual test: dispatch `poll_score_corrections.yml` with `dry_run=true` and `week` set to the completed scoring week. It reports changes without publishing.
+
+### Completion reporting
+
+The checkers pass their dispatch timestamp into the worker. Successful workers save process-specific receipts in `data/refresh_receipts/` and publish `docs/weekly-refresh-status.json` with their run ID. The ADL repository's completion-email workflow combines both leagues' timing information and emails the configured owner only after GitHub jobs succeed, live site markers match, and processed scores match MFL. No SMTP credentials are needed in this repository.
