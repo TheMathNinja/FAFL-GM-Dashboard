@@ -94,7 +94,17 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true' && steps.elo_shadow.outcome == 'success'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/sync_google_weekly_system.py
+        run: |
+          python scripts/sync_google_weekly_system.py
+          python scripts/elo_chart_range.py --league FAFL --apply
+
+      - name: Preserve Elo chart range verification
+        if: always() && steps.elo.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: elo-chart-range-${{ github.run_attempt }}
+          path: artifacts/elo-range/
+          if-no-files-found: ignore
       - name: Preserve previous official Elo after an Elo-only failure
         if: steps.schedule.outputs.should_run == 'true' && steps.elo.outcome == 'failure'
         run: git restore data/elo_ratings.csv data/google_weekly_sync_metadata.csv data/elo_shadow_comparison.csv 2>/dev/null || true
