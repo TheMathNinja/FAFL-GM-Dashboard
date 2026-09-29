@@ -1,8 +1,12 @@
 name: Refresh FAFL Weekly System
-run-name: ${{ inputs.ready_week != '' && format('Preliminary 22686 2026 week {0}', inputs.ready_week) || 'FAFL weekly refresh' }}
+run-name: ${{ inputs.score_revision != '' && format('Corrections 22686 2026 week {0} {1}', inputs.ready_week, inputs.score_revision) || inputs.ready_week != '' && format('Preliminary 22686 2026 week {0}', inputs.ready_week) || 'FAFL weekly refresh' }}
 on:
   workflow_dispatch:
     inputs:
+      score_revision:
+        description: "Player-score revision detected by Thursday correction poll"
+        type: string
+        default: ""
       ready_week:
         description: "Week validated by the preliminary-score readiness poll"
         type: string
@@ -12,9 +16,7 @@ on:
         type: choice
         options: [reported, unofficial, official]
         default: reported
-  schedule:
-    - cron: '0 9 * * 4'
-    - cron: '0 10 * * 4'
+
 permissions:
   contents: write
   pages: write
@@ -53,6 +55,10 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m unittest discover -s tests -v
+      - name: Capture player-score baseline before refresh
+        if: inputs.ready_week != '' && steps.schedule.outputs.should_run == 'true'
+        run: python3 scripts/score_corrections.py --capture --week "$READY_WEEK"
+
       - name: Scrape and validate the shared MFL source
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --stage source --status '${{ steps.schedule.outputs.score_status }}'
@@ -123,7 +129,7 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         id: deploy
 
-      - name: Confirm preliminary publication and record completion
+      - name: Confirm weekly publication and record processed scores
         if: inputs.ready_week != '' && success()
         env:
           COMPONENT_OUTCOMES: "${{ steps.bonus.outcome }} ${{ steps.playoffs.outcome }} ${{ steps.elo.outcome }} ${{ steps.bracket.outcome }} ${{ steps.deploy.outcome }}"
@@ -131,10 +137,11 @@ jobs:
           for outcome in $COMPONENT_OUTCOMES; do
             test "$outcome" = success || { echo "A component did not finish; readiness poll may retry."; exit 1; }
           done
+          python3 scripts/score_corrections.py --complete --week "$READY_WEEK"
           python3 scripts/score_readiness.py --complete
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/preliminary_refresh_complete.json
-          git commit -m 'Record successful preliminary weekly refresh'
+          git add data/preliminary_refresh_complete.json data/processed_player_scores.json
+          git diff --cached --quiet || git commit -m 'Record successful weekly refresh and processed scores'
           git pull --rebase origin main
           git push origin HEAD:main
