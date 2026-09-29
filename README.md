@@ -53,3 +53,25 @@ Manual test: dispatch `poll_score_corrections.yml` with `dry_run=true` and `week
 ### Completion reporting
 
 The checkers pass their dispatch timestamp into the worker. Successful workers save process-specific receipts in `data/refresh_receipts/` and publish `docs/weekly-refresh-status.json` with their run ID. The ADL repository's completion-email workflow combines both leagues' timing information and emails the configured owner only after GitHub jobs succeed, live site markers match, and processed scores match MFL. No SMTP credentials are needed in this repository.
+
+### Payouts in the weekly refresh
+
+Both preliminary and correction runs publish the same validated team-week scores
+to the Payouts workbook, replacing its delayed IMPORTRANGE input. Existing award
+formulas, prize amounts, manual corrections and layout are preserved. Completed
+bracket results fill playoff participants and postseason prizes; projected
+results never earn payouts. The script independently reconciles all weekly,
+quarterly and season winners, shared prizes, and all 32 payout balances.
+
+Google Sheets API cannot update over-cell logo images. `PayoutsGithubBridge.gs`
+is installed in the existing 2026 Elo/Payouts Apps Script project alongside its
+approved logo renderer. A one-minute trigger checks Reference!Z10 for a new
+authenticated workflow request and acknowledges verified logos in Z11. It does
+not scrape MFL or run Elo. GitHub waits for this exact run/source acknowledgement;
+a missing bridge or stale result fails the refresh. Install the bridge once with
+`installPayoutGithubBridge`; do not re-enable the retired Elo scrape schedules.
+
+Payouts success is recorded in `data/payouts_sync_metadata.json` and required
+before completion receipts and owner emails. Failed runs preserve other
+successful components but cannot report complete. The original import anchor
+and postseason inputs are backed up once in `data/payouts_source_backup.json`.
