@@ -18,7 +18,7 @@ def column_name(index):
  return out
 
 credentials=json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_JSON'])
-client=gspread.service_account_from_dict(credentials)
+client=gspread.service_account_from_dict(credentials, http_client=gspread.BackOffHTTPClient)
 elo=client.open_by_key(ELO_ID).worksheet('2026')
 bonus=client.open_by_key(BONUS_ID).worksheet('Alphabetical')
 scores=pd.read_csv(ROOT/'data/current_weekly.csv',dtype={'franchise_id':str})
