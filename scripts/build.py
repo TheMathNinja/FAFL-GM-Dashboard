@@ -210,7 +210,7 @@ def load_source():
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=3000);parser.add_argument('--stage',choices=['all','source','elo-shadow','bonus','playoff'],default='all');args=parser.parse_args()
- week=args.week if args.week is not None else completed_week()
+ week=args.week if args.week is not None else int(os.environ['READY_WEEK']) if os.environ.get('READY_WEEK') else completed_week()
  if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
  if args.stage in ['all','source']:

@@ -1,15 +1,18 @@
 name: Refresh FAFL Weekly System
+run-name: ${{ inputs.ready_week != '' && format('Preliminary 22686 2026 week {0}', inputs.ready_week) || 'FAFL weekly refresh' }}
 on:
   workflow_dispatch:
     inputs:
+      ready_week:
+        description: "Week validated by the preliminary-score readiness poll"
+        type: string
+        default: ""
       score_status:
         description: Score status
         type: choice
         options: [reported, unofficial, official]
         default: reported
   schedule:
-    - cron: '0 5 * * 2'
-    - cron: '0 6 * * 2'
     - cron: '0 9 * * 4'
     - cron: '0 10 * * 4'
 permissions:
@@ -22,6 +25,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      CURRENT_SEASON: "2026"
+      LEAGUE_ID: "22686"
+      READY_WEEK: ${{ inputs.ready_week }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -115,3 +122,19 @@ jobs:
       - uses: actions/deploy-pages@v4
         if: steps.schedule.outputs.should_run == 'true'
         id: deploy
+
+      - name: Confirm preliminary publication and record completion
+        if: inputs.ready_week != '' && success()
+        env:
+          COMPONENT_OUTCOMES: "${{ steps.bonus.outcome }} ${{ steps.playoffs.outcome }} ${{ steps.elo.outcome }} ${{ steps.bracket.outcome }} ${{ steps.deploy.outcome }}"
+        run: |
+          for outcome in $COMPONENT_OUTCOMES; do
+            test "$outcome" = success || { echo "A component did not finish; readiness poll may retry."; exit 1; }
+          done
+          python3 scripts/score_readiness.py --complete
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/preliminary_refresh_complete.json
+          git commit -m 'Record successful preliminary weekly refresh'
+          git pull --rebase origin main
+          git push origin HEAD:main
