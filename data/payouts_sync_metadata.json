@@ -2,11 +2,11 @@
   "league": "FAFL",
   "season": 2026,
   "through_week": 3,
-  "run_id": "36531065796",
+  "run_id": "36875455099",
   "status": "success",
-  "verified_at": "2026-09-29T06:32:06.586957+00:00",
+  "verified_at": "2026-10-01T14:27:19.344419+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "94c7b9ec527841b77695524765af73f5f40c4a04184310b7f22825aded399137",
+  "source_sha256": "d8289a684d01c7a36924b534d75a0e5770042a666c737c83eb3f45c4df0793f7",
   "awards": {
     "Week 1": [
       "WAS",
@@ -33,10 +33,10 @@
       "NYG",
       "CHI",
       "CHI",
-      "MIA",
+      "DEN",
       "DEN",
       "MIA",
-      "MIA"
+      "JAC"
     ],
     "Week 4": [
       "",
@@ -241,11 +241,11 @@
   },
   "logos": {
     "status": "success",
-    "run_id": "36531065796",
-    "source_sha256": "94c7b9ec527841b77695524765af73f5f40c4a04184310b7f22825aded399137",
+    "run_id": "36875455099",
+    "source_sha256": "d8289a684d01c7a36924b534d75a0e5770042a666c737c83eb3f45c4df0793f7",
     "week": 3,
     "images": 32,
-    "verified_at": "2026-09-29T06:32:02.441Z"
+    "verified_at": "2026-10-01T14:27:13.146Z"
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
   "published_images_verified": true
