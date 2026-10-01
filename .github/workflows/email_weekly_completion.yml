@@ -1,0 +1,19 @@
+name: Request weekly completion report
+
+on:
+  workflow_run:
+    workflows: [Official FAFL Weekly League Update]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Request report from the Commissioner email sender
+        env:
+          GH_TOKEN: ${{ secrets.ADL_GITHUB_WORKFLOW_TOKEN }}
+        run: gh workflow run email_weekly_completion.yml --repo TheMathNinja/ADL-Commissioner-Dashboard -f dry_run=false
