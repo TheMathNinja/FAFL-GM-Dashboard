@@ -54,19 +54,15 @@
     },
     "Washington Commanders": {
       "franchise_id": "0004",
-      "gm": "Brandon Owens",
-      "experience": 1,
-      "wins": 361,
-      "losses": 166,
+      "gm": "Frank Roberts",
+      "experience": 0,
+      "wins": 0,
+      "losses": 0,
       "ties": 0,
-      "best": 1,
-      "bestYears": [
-        2025
-      ],
-      "worst": 1,
-      "worstYears": [
-        2025
-      ]
+      "best": null,
+      "bestYears": [],
+      "worst": null,
+      "worstYears": []
     },
     "Chicago Bears": {
       "franchise_id": "0005",
@@ -168,19 +164,15 @@
     },
     "New Orleans Saints": {
       "franchise_id": "0011",
-      "gm": "Luke Froncheck",
-      "experience": 1,
-      "wins": 311,
-      "losses": 216,
+      "gm": "Luke Van Namen",
+      "experience": 0,
+      "wins": 0,
+      "losses": 0,
       "ties": 0,
-      "best": 6,
-      "bestYears": [
-        2025
-      ],
-      "worst": 6,
-      "worstYears": [
-        2025
-      ]
+      "best": null,
+      "bestYears": [],
+      "worst": null,
+      "worstYears": []
     },
     "Tampa Bay Buccaneers": {
       "franchise_id": "0012",
@@ -362,18 +354,18 @@
     },
     "Cleveland Browns": {
       "franchise_id": "0023",
-      "gm": "Ryan Lynch",
-      "experience": 3,
-      "wins": 973,
-      "losses": 606,
-      "ties": 2,
-      "best": 2,
+      "gm": "Luke Froncheck",
+      "experience": 1,
+      "wins": 311,
+      "losses": 216,
+      "ties": 0,
+      "best": 6,
       "bestYears": [
         2025
       ],
-      "worst": 15,
+      "worst": 6,
       "worstYears": [
-        2024
+        2025
       ]
     },
     "Pittsburgh Steelers": {
@@ -394,19 +386,15 @@
     },
     "Houston Texans": {
       "franchise_id": "0025",
-      "gm": "Edgar Fondevilla",
-      "experience": 4,
-      "wins": 1032,
-      "losses": 1072,
-      "ties": 4,
-      "best": 4,
-      "bestYears": [
-        2024
-      ],
-      "worst": 28,
-      "worstYears": [
-        2023
-      ]
+      "gm": "Matt Sather",
+      "experience": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "best": null,
+      "bestYears": [],
+      "worst": null,
+      "worstYears": []
     },
     "Indianapolis Colts": {
       "franchise_id": "0026",
@@ -510,19 +498,15 @@
     },
     "Los Angeles Chargers": {
       "franchise_id": "0032",
-      "gm": "Christian Lohr",
-      "experience": 6,
-      "wins": 1327,
-      "losses": 1799,
-      "ties": 5,
-      "best": 15,
-      "bestYears": [
-        2022
-      ],
-      "worst": 31,
-      "worstYears": [
-        2025
-      ]
+      "gm": "David Overbeek",
+      "experience": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "best": null,
+      "bestYears": [],
+      "worst": null,
+      "worstYears": []
     }
   }
 }

@@ -169,7 +169,7 @@
   <section class="fafl-surface" id="fafl-view" role="tabpanel" aria-labelledby="fafl-playoff-tab">
     <div class="fafl-toolbar"><div class="fafl-conferences" aria-label="Conference"><button data-conf="NFC" aria-pressed="true">NFC</button><button data-conf="AFC" aria-pressed="false">AFC</button></div><div class="fafl-legend"><span><b>D</b>Division leader</span><span><b>W</b>Wild card</span></div></div>
     <div class="fafl-scroll"><table aria-label="Conference playoff picture"><thead id="fafl-head"></thead><tbody id="fafl-rows"></tbody></table></div>
-    <div class="fafl-legend" style="padding:14px 18px;gap:16px"><span>Clinch status: b · #1 seed</span><span>d · Division</span><span>p · Playoffs</span><span>e · Eliminated</span></div>
+    <div class="fafl-legend" style="padding:14px 18px;gap:16px"><span>Clinch status: b · #1 Seed</span><span>d · Division</span><span>p · Playoffs</span><span>e · Eliminated</span></div>
   </section>
   <footer class="fafl-foot"><span>__SIMS__ simulations <span aria-hidden="true">·</span> __TRAINING__ training data</span><span>Updated __UPDATED__</span></footer><div class="fafl-foot"><a href="__FULL_FILE__">Full weekly data</a><a href="../model.html">About the model</a></div>
 </main>
@@ -206,7 +206,7 @@ function gmMarkup(t){
  const finish=(label,rank,years)=>`<div class="fafl-gm-finish"><span>${label}</span><strong style="color:${rank?rankInk(rank):'var(--fafl-muted)'}">${rank?ordinal(rank):'—'}</strong><small>${rank?'('+years.join(', ')+')':''}</small></div>`;
  return `<div class="fafl-popup-top fafl-gm-top"><div><strong>${esc(g.gm)}</strong></div><img class="fafl-popup-logo" src="${t.logo}" alt="${t.name}"></div><div class="fafl-breakdown-label">Career <span>Rank</span></div>`+
  row('FAFL experience',`${g.experience} ${g.experience===1?'year':'years'}`,exp)+
- row('All-Time All-Play Win%',pct(g)===null?'—':(pct(g)*100).toFixed(1)+'%',ap)+
+ row('All-Time All-Play %',pct(g)===null?'—':(pct(g)*100).toFixed(1)+'%',ap)+
  finish('Best Finish',g.best,g.bestYears)+finish('Worst Finish',g.worst,g.worstYears);
 }
 function popupMarkup(t,kind='ppg'){
@@ -216,7 +216,7 @@ function popupMarkup(t,kind='ppg'){
   const recordRank=key=>{const v=recordPct(t[key]);if(v===null)return null;const values=Object.values(data).flat().map(x=>recordPct(x[key])).filter(x=>x!==null);return {rank:1+values.filter(x=>x>v).length,tied:values.filter(x=>x===v).length>1};};
   const isRecord=kind==='record',headerRank=recordRank(isRecord?'record':'apRecord');
   const value=isRecord?String(t.record).replace(/^(\d+-\d+)-0$/, '$1'):(100*Number(t.apPct)).toFixed(1)+'%';
-  const parts=isRecord?[['Head to Head Record','h2hRecord'],['Bonus Games','bonusRecord']]:[['All-Play Record','apRecord'],['Potential All-Play Record','potentialApRecord']];
+  const parts=isRecord?[['Head-to-Head Record','h2hRecord'],['Bonus Games','bonusRecord']]:[['All-Play Record','apRecord'],['Potential All-Play Record','potentialApRecord']];
   return `<div class="fafl-popup-top">${featureMarkup(value,isRecord?'Record':'All-Play %',headerRank)}<img class="fafl-popup-logo" src="${t.logo}" alt="${t.name}"></div><div class="fafl-breakdown-label">Breakdown <span>Rank</span></div>`+parts.map(([label,key])=>{
    const r=recordRank(key);
    return `<div class="fafl-breakdown-row" style="grid-template-columns:minmax(0,1fr) 65px 48px;--rank-ink:${r?rankInk(r.rank):'var(--fafl-muted)'}"><span class="fafl-breakdown-name">${label}</span><strong style="white-space:nowrap">${t[key]}</strong><span class="fafl-rank">${r?(r.tied?'T-':'')+ordinal(r.rank):'—'}</span></div>`;
@@ -229,13 +229,13 @@ function popupMarkup(t,kind='ppg'){
  const header=`<div class="fafl-popup-top">${featureMarkup(value,label,headerRank)}<img class="fafl-popup-logo" src="${t.logo}" alt="${t.name}"></div>${kind==='odds'?'<div class="fafl-breakdown-label" style="display:grid;grid-template-columns:minmax(0,1fr) 42px 48px;gap:5px"><span>Season Finish</span><span style="text-align:right">Prob</span><span style="text-align:right">Rank</span></div>':'<div class="fafl-breakdown-label">Breakdown <span>Rank</span></div>'}`;
  let parts;
  if(kind==='ppg')parts=[['off','Offensive PPG'],['deff','Defensive PPG'],['pot','Potential PPG']];
- else if(kind==='odds')parts=[['div','Division winner'],['bye','#1 seed']];
- else parts=[['predPct','Proj. all-play %'],['playoffSeed','Proj. playoff seed'],['remainingSos','Remaining SOS']];
+ else if(kind==='odds')parts=[['div','Division Winner'],['bye','#1 Seed']];
+ else parts=[['predPct','Proj. All-Play %'],['playoffSeed','Proj. playoff seed'],['remainingSos','Remaining SOS']];
  return header+parts.map(([key,label])=>{
   if(key==='remainingSos'){
    if(t.remainingSos==null)return '<div class="fafl-popup-note">Remaining SOS: No games remaining</div>';
    const values=Object.values(data).flat().filter(x=>x.remainingSos!=null).map(x=>Math.round(x.remainingSos*1e6)),v=Math.round(t.remainingSos*1e6),r=1+values.filter(x=>x>v).length,tied=values.filter(x=>x===v).length>1;
-   return `<div class="fafl-breakdown-row" style="--rank-ink:${rankInk(33-r)}"><span class="fafl-breakdown-name">Remaining SOS<sup style="font-size:.75em;line-height:0;vertical-align:super">*</sup></span><strong>${Number(t.remainingSos).toFixed(1)}%</strong><span class="fafl-rank">${tied?'T-':''}${ordinal(r)}</span></div><div class="fafl-popup-note">* Opponent all-play % · 1st = toughest</div>`;
+   return `<div class="fafl-breakdown-row" style="--rank-ink:${rankInk(33-r)}"><span class="fafl-breakdown-name">Remaining SOS<sup style="font-size:.75em;line-height:0;vertical-align:super">*</sup></span><strong>${Number(t.remainingSos).toFixed(1)}%</strong><span class="fafl-rank">${tied?'T-':''}${ordinal(r)}</span></div><div class="fafl-popup-note">* Opponent All-Play % · 1st = toughest</div>`;
   }
   const isSeed=key==='playoffSeed',outside=isSeed&&t.playoffSeed==='NA';
   const r=isSeed?null:(t.ranks[key]||rankFor(t,key));
@@ -307,13 +307,13 @@ function render(){
  }
  const projectedOrder=state.playoffPicture==='projected';
  const list=[...data[state.conference]].sort((a,b)=>Number(projectedOrder?a.finish:a.seed)-Number(projectedOrder?b.finish:b.seed)||Number(a.seed)-Number(b.seed));
- head.innerHTML='<tr><th>Seed</th><th>Team</th><th>Record</th><th>All-play %</th><th>PPG</th><th>Proj. wins</th><th>Playoff odds</th></tr>';
+ head.innerHTML='<tr><th>Seed</th><th>Team</th><th>Record</th><th>All-Play %</th><th>PPG</th><th>Proj. wins</th><th>Playoff odds</th></tr>';
  rows.innerHTML=list.map((t,i)=>{
   
    const seed=t.playoffSeed==='NA'?'Outside field (conference finish '+t.finish+')':'#'+t.playoffSeed;
    const odds=forecastMetric(t,'odds',`<span class="fafl-odds">${state.bars?`<span class="fafl-track" aria-hidden="true"><i style="width:${t.odds}"></i></span>`:''}<span class="fafl-percent">${t.odds}</span></span>`);
    const qual=projectedOrder?t.projectedQual:t.qual;
-   const status=t.clinch?metric(t.clinch,({b:'Clinched #1 seed',d:'Clinched division',p:'Clinched playoffs',e:'Eliminated'})[t.clinch]):'';
+   const status=t.clinch?metric(t.clinch,({b:'Clinched #1 Seed',d:'Clinched division',p:'Clinched playoffs',e:'Eliminated'})[t.clinch]):'';
    return (i===7?'<tr class="fafl-cut"><td colspan="7">Consolation Ladder</td></tr>':'')+`<tr><td><span class="fafl-seed ${i<7?'in':''}">${projectedOrder?t.finish:t.seed}</span></td><td><div class="fafl-teamcell">${team(t)}${(qual?`<span class="fafl-qual">${qual==='y'?'D':'W'}</span>`:'')}${status}</div></td><td>${forecastMetric(t,'record',String(t.record).replace(/^(\d+-\d+)-0$/, '$1'))}</td><td>${forecastMetric(t,'ap',(Number(t.apPct)*100).toFixed(1)+'%')}</td><td><button type="button" class="fafl-metric" data-ppg="${t.name}" aria-label="${t.name}: ${t.ppg} points per game; show breakdown" aria-describedby="fafl-ppg-popup" aria-expanded="false">${t.ppg}</button></td><td>${forecastMetric(t,'wins',Number(t.wins).toFixed(1))}</td><td>${odds}</td></tr>`;
  }).join('');
 }

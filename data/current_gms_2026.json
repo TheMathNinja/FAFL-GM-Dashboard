@@ -1,0 +1,134 @@
+{
+  "season": 2026,
+  "verifiedFrom": "2026 FAFL MFL homepage ownership labels",
+  "profiles": {
+    "Dallas Cowboys": {
+      "franchise_id": "0001",
+      "gm": "Jonathan Bell"
+    },
+    "New York Giants": {
+      "franchise_id": "0002",
+      "gm": "Russell Mataya"
+    },
+    "Philadelphia Eagles": {
+      "franchise_id": "0003",
+      "gm": "Schuyler Ferguson"
+    },
+    "Washington Commanders": {
+      "franchise_id": "0004",
+      "gm": "Frank Roberts"
+    },
+    "Chicago Bears": {
+      "franchise_id": "0005",
+      "gm": "Mike Filicicchia"
+    },
+    "Detroit Lions": {
+      "franchise_id": "0006",
+      "gm": "Matthew Jo"
+    },
+    "Green Bay Packers": {
+      "franchise_id": "0007",
+      "gm": "Alex Deaton, Dylan Slaughter"
+    },
+    "Minnesota Vikings": {
+      "franchise_id": "0008",
+      "gm": "Matt McAfee"
+    },
+    "Atlanta Falcons": {
+      "franchise_id": "0009",
+      "gm": "Brady Gelezinsky"
+    },
+    "Carolina Panthers": {
+      "franchise_id": "0010",
+      "gm": "Alex Garbarino"
+    },
+    "New Orleans Saints": {
+      "franchise_id": "0011",
+      "gm": "Luke Van Namen"
+    },
+    "Tampa Bay Buccaneers": {
+      "franchise_id": "0012",
+      "gm": "Jason Berkowitz"
+    },
+    "Arizona Cardinals": {
+      "franchise_id": "0013",
+      "gm": "Gideon D'Assandro"
+    },
+    "Los Angeles Rams": {
+      "franchise_id": "0014",
+      "gm": "Chandler Barense"
+    },
+    "San Francisco 49ers": {
+      "franchise_id": "0015",
+      "gm": "Mitchell Schumacher"
+    },
+    "Seattle Seahawks": {
+      "franchise_id": "0016",
+      "gm": "Marc Baker"
+    },
+    "Buffalo Bills": {
+      "franchise_id": "0017",
+      "gm": "Nick McLaren"
+    },
+    "Miami Dolphins": {
+      "franchise_id": "0018",
+      "gm": "Chris Daubert"
+    },
+    "New England Patriots": {
+      "franchise_id": "0019",
+      "gm": "Zac Macintyre"
+    },
+    "New York Jets": {
+      "franchise_id": "0020",
+      "gm": "Nick Vitolano"
+    },
+    "Baltimore Ravens": {
+      "franchise_id": "0021",
+      "gm": "Taylor Williams"
+    },
+    "Cincinnati Bengals": {
+      "franchise_id": "0022",
+      "gm": "James Martin"
+    },
+    "Cleveland Browns": {
+      "franchise_id": "0023",
+      "gm": "Luke Froncheck"
+    },
+    "Pittsburgh Steelers": {
+      "franchise_id": "0024",
+      "gm": "Sid Narayanan"
+    },
+    "Houston Texans": {
+      "franchise_id": "0025",
+      "gm": "Matt Sather"
+    },
+    "Indianapolis Colts": {
+      "franchise_id": "0026",
+      "gm": "Micah Caywood"
+    },
+    "Jacksonville Jaguars": {
+      "franchise_id": "0027",
+      "gm": "Chase Marak"
+    },
+    "Tennessee Titans": {
+      "franchise_id": "0028",
+      "gm": "Tim Shields"
+    },
+    "Denver Broncos": {
+      "franchise_id": "0029",
+      "gm": "Douglass Duffy"
+    },
+    "Kansas City Chiefs": {
+      "franchise_id": "0030",
+      "gm": "Paul Bloye"
+    },
+    "Las Vegas Raiders": {
+      "franchise_id": "0031",
+      "gm": "Ian Maristany"
+    },
+    "Los Angeles Chargers": {
+      "franchise_id": "0032",
+      "gm": "David Overbeek"
+    }
+  }
+}
