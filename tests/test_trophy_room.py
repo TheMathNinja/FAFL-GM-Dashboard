@@ -8,7 +8,8 @@ class TrophyRoomTests(unittest.TestCase):
     def test_majority_franchise_and_latest_tie(self):
         rows=[dict(season=y,franchise_id='0030',name='Kansas City Chiefs') for y in range(2014,2018)]
         rows.append(dict(season=2019,franchise_id='0015',name='Seattle Seahawks'))
-        self.assertEqual(majority_franchise(rows,['Seattle Seahawks']),'Kansas City Chiefs')
+        self.assertEqual(majority_franchise(rows,[]),'Kansas City Chiefs')
+        self.assertEqual(majority_franchise(rows,['Seattle Seahawks']),'Seattle Seahawks')
         self.assertEqual(majority_franchise([rows[0],rows[-1]],[]),'Seattle Seahawks')
         self.assertEqual(majority_franchise([],['Washington Commanders']),'Washington Commanders')
         moved=[dict(season=2022,franchise_id='0015',name='Seattle Seahawks'),dict(season=2023,franchise_id='0016',name='Seattle Seahawks'),dict(season=2024,franchise_id='0015',name='San Francisco 49ers')]
@@ -30,6 +31,11 @@ class TrophyRoomTests(unittest.TestCase):
         self.assertEqual(next(c for c in d['champions'] if c['year']==2025)['gm'],'Brandon Owens')
     def test_canonical_history_and_prizes(self):
         d=build();h=json.loads((ROOT/'data/gm_career_seasons.json').read_text())
+        roster=json.loads((ROOT/'data/current_gms_2026.json').read_text())['profiles']
+        for team,current in roster.items():
+            for person in people(current['gm']):
+                owner=next(o for o in d['owners'] if person in o['members'] and o['active'])
+                self.assertEqual(owner['franchise'],team)
         self.assertEqual(len(h),384);self.assertEqual(len(d['champions']),12)
         records=json.loads((ROOT/'data/trophy_room/league_records.json').read_text())
         for r in h:

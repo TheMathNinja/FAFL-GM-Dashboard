@@ -17,7 +17,7 @@ def people(value):
     return sorted(set(canonical[_normalized(p)] for p in value.split(',') if p.strip()))
 
 def majority_franchise(rows, active):
-    if not rows:
+    if active:
         return active[0]
     renamed={'Oakland Raiders':'Las Vegas Raiders','San Diego Chargers':'Los Angeles Chargers','Washington Redskins':'Washington Commanders','Washington Football Team':'Washington Commanders','St. Louis Rams':'Los Angeles Rams'}
     identity=lambda r:renamed.get(r['name'],r['name'])
