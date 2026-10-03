@@ -1,12 +1,14 @@
 import json
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+import shutil
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from gm_profiles import gm_profiles
+from gm_profiles import gm_profiles, _current_profiles
 
 class CareerHistoryTests(unittest.TestCase):
     def test_historical_finishes_and_balanced_records(self):
@@ -33,3 +35,20 @@ class CareerHistoryTests(unittest.TestCase):
             self.assertEqual(g['experience'], original['experience'])
         self.assertEqual(result, gm_profiles(ROOT, 2026, 1, current))
         self.assertEqual(result['Los Angeles Chargers']['gm'], 'David Overbeek')
+
+    def test_current_ownership_is_not_inherited_from_historical_team(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data').mkdir()
+            for name in ['gm_career_profiles.json', 'current_gms_2026.json']:
+                shutil.copy(ROOT / 'data' / name, root / 'data' / name)
+            path = root / 'data/current_gms_2026.json'
+            current = json.loads(path.read_text())
+            current['profiles']['Dallas Cowboys']['gm'] = 'Russell Mataya'
+            current['profiles']['New York Giants']['gm'] = 'Jonathan Bell'
+            path.write_text(json.dumps(current))
+            profiles = _current_profiles(root, 2026)
+            self.assertEqual(profiles['Dallas Cowboys']['gm'], 'Russell Mataya')
+            self.assertEqual(profiles['Dallas Cowboys']['experience'], 12)
+            self.assertEqual(profiles['New York Giants']['gm'], 'Jonathan Bell')
+            self.assertEqual(profiles['New York Giants']['experience'], 7)

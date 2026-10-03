@@ -1,6 +1,9 @@
 # FAFL GM career history
 
-Completed-season baseline: 2014–2025, 384 team-seasons, for the 2026 managers.
+Completed-season history: 2014–2025, 384 team-seasons. The historical files are
+used only for career results. `current_gms_2026.json` is the required 2026
+ownership input; the renderer joins history to it by GM rather than assuming a
+2025 franchise still has the same owner.
 Careers follow each manager across FAFL franchises, never across leagues.
 Christian Lohr is treated as sole manager; co-owners are ignored. Jonathan Bell
 receives his shared New England 2021 season. Unchanged co-manager groups count
@@ -33,5 +36,6 @@ exports with W=YTD&MISSING_AS_BYE=1. League IDs: 2014 37677, 2015 27312,
 2016 onward 22686. Sheet URLs are in gm_career_sources.json. Only public manager
 names and league results are retained, with no private contact details.
 
-Rebuild the baseline for a new season or ownership change. The runtime rejects
-an incorrect baseline season rather than silently misattributing careers.
+Create the season-specific ownership file for each new season and update it for
+ownership changes. The runtime rejects a missing or wrong-season file rather
+than silently falling back to a completed-season roster.
