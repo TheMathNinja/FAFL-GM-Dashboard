@@ -16,7 +16,9 @@
 #fafl-playoff-design .fafl-outlook-nav select{max-width:190px;padding:4px 28px 4px 8px;border:1px solid var(--fafl-line);border-radius:6px;background:var(--fafl-paper);color:var(--fafl-text);font:600 11px/1.35 Inter,system-ui,sans-serif;cursor:pointer}
 #fafl-playoff-design .fafl-muted{color:var(--fafl-muted);font-size:12px}
 #fafl-playoff-design .fafl-status{display:flex;align-items:center;gap:7px;font-size:12px;border:1px solid var(--fafl-line);background:var(--fafl-paper);border-radius:7px;padding:8px 11px}
-#fafl-playoff-design .fafl-dot{width:6px;height:6px;background:#b77b17;border-radius:50%}
+#fafl-playoff-design .fafl-dot{width:7px;height:7px;background:#d39a22;border-radius:50%;box-shadow:0 0 0 2px #d39a2226}
+#fafl-playoff-design .fafl-dot.official{background:#2f9e5b;box-shadow:0 0 0 2px #2f9e5b26}
+#fafl-playoff-design .fafl-dot.unofficial{background:#d39a22;box-shadow:0 0 0 2px #d39a2226}
 #fafl-playoff-design .fafl-picture-controls-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 14px}
 #fafl-playoff-design .fafl-tabs{display:flex;gap:25px;border-bottom:1px solid var(--fafl-line);margin-bottom:20px}
 #fafl-playoff-design button{font:inherit;cursor:pointer}
@@ -165,7 +167,7 @@
     <button id="fafl-playoff-tab" role="tab" aria-controls="fafl-view" aria-selected="true" data-view="playoff">Playoff Picture</button>
 <button id="fafl-bracket-tab" role="tab" aria-controls="fafl-bracket" aria-selected="false" data-view="bracket">Playoff Bracket</button>
   </div>
-  <div id="fafl-picture-controls" class="fafl-picture-controls-row"><div class="fafl-conferences" aria-label="Playoff picture ordering"><button data-picture="current" aria-pressed="true">Current Picture</button><button data-picture="projected" aria-pressed="false">Projected Picture</button></div><div class="fafl-status"><span class="fafl-dot"></span>Week __WEEK__ scores __STATUS__</div></div>
+  <div id="fafl-picture-controls" class="fafl-picture-controls-row"><div class="fafl-conferences" aria-label="Playoff picture ordering"><button data-picture="current" aria-pressed="true">Current Picture</button><button data-picture="projected" aria-pressed="false">Projected Picture</button></div><div class="fafl-status"><span class="fafl-dot __STATUS__"></span>Week __WEEK__ scores __STATUS__</div></div>
   <section id="fafl-bracket" role="tabpanel" aria-labelledby="fafl-bracket-tab" hidden><iframe title="Playoff Bracket" src="bracket.html" style="width:100%;height:1250px;border:0;display:block"></iframe></section>
   <section class="fafl-surface" id="fafl-view" role="tabpanel" aria-labelledby="fafl-playoff-tab">
     <div class="fafl-toolbar"><div class="fafl-conferences" aria-label="Conference"><button data-conf="NFC" aria-pressed="true">NFC</button><button data-conf="AFC" aria-pressed="false">AFC</button></div><div class="fafl-legend"><span><b>D</b>Division leader</span><span><b>W</b>Wild card</span></div></div>
