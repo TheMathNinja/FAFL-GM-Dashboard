@@ -40,7 +40,7 @@ class CareerHistoryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'data').mkdir()
-            for name in ['gm_career_profiles.json', 'current_gms_2026.json']:
+            for name in ['gm_career_profiles.json', 'gm_career_seasons.json', 'current_gms_2026.json']:
                 shutil.copy(ROOT / 'data' / name, root / 'data' / name)
             path = root / 'data/current_gms_2026.json'
             current = json.loads(path.read_text())
@@ -52,3 +52,20 @@ class CareerHistoryTests(unittest.TestCase):
             self.assertEqual(profiles['Dallas Cowboys']['experience'], 12)
             self.assertEqual(profiles['New York Giants']['gm'], 'Jonathan Bell')
             self.assertEqual(profiles['New York Giants']['experience'], 7)
+
+    def test_career_percentage_weights_seasons_equally_and_current_year_partially(self):
+        current = pd.DataFrame([
+            dict(week=w, franchise_id=f'{i:04}', points=float(i))
+            for w in [1, 2, 3] for i in range(1, 33)
+        ])
+        result = gm_profiles(ROOT, 2026, 3, current)
+        rows = json.loads((ROOT / 'data/gm_career_seasons.json').read_text())
+        history = [r for r in rows if r['gm'].strip() == 'Russell Mataya']
+        season_pcts = [(r['wins'] + .5 * r['ties']) / (r['wins'] + r['losses'] + r['ties']) for r in history]
+        current_pct = 1 / 31  # NYG is franchise 0002: one win and 30 losses each week.
+        expected = (sum(season_pcts) + (3 / 17) * current_pct) / (len(season_pcts) + 3 / 17)
+        self.assertAlmostEqual(result['New York Giants']['careerApPct'], expected, places=12)
+        pooled = (sum(r['wins'] + .5 * r['ties'] for r in history) + 3) / (
+            sum(r['wins'] + r['losses'] + r['ties'] for r in history) + 3 * 31
+        )
+        self.assertNotAlmostEqual(result['New York Giants']['careerApPct'], pooled, places=8)

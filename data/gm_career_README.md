@@ -7,8 +7,11 @@ ownership input; the renderer joins history to it by GM rather than assuming a
 Careers follow each manager across FAFL franchises, never across leagues.
 Christian Lohr is treated as sole manager; co-owners are ignored. Jonathan Bell
 receives his shared New England 2021 season. Unchanged co-manager groups count
-shared seasons once. Experience counts completed seasons. Career all-play rank
-uses (wins + 0.5 * ties) / games among the 32 current teams.
+shared seasons once. Experience counts completed seasons. Career All-Play %
+averages each completed season's adjusted All-Play percentage with equal weight.
+The current season is included at completed weeks / 17 weight (for example, 3/17
+after Week 3). Career All-Play rank uses that same weighted percentage among the
+32 current teams.
 
 Full-season all-play uses actual weekly MFL scores, including bye/unscheduled
 teams: 16 weeks through 2020, 17 thereafter. Each team has 31 comparisons per
