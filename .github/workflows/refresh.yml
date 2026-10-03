@@ -1,5 +1,5 @@
 name: Official FAFL Weekly League Update
-run-name: ${{ inputs.score_revision != '' && format('Official FAFL correction update · Week {0} · {1}', inputs.ready_week, inputs.score_revision) || inputs.ready_week != '' && format('Official FAFL weekly update · Week {0}', inputs.ready_week) || 'Official FAFL weekly league update' }}
+run-name: ${{ inputs.authorize_official_writes != true && 'FAFL manual preview' || inputs.score_revision != '' && format('Official FAFL correction update · Week {0} · {1}', inputs.ready_week, inputs.score_revision) || inputs.ready_week != '' && format('Official FAFL weekly update · Week {0}', inputs.ready_week) || 'Official FAFL weekly league update' }}
 on:
   workflow_dispatch:
     inputs:
@@ -24,6 +24,10 @@ on:
         type: choice
         options: [reported, unofficial, official]
         default: reported
+      authorize_official_writes:
+        description: Authorize readiness-poll writes to Google Sheets and MFL
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -91,7 +95,7 @@ jobs:
       - name: Publish official workbook Elo and synchronize Bonus Games inputs
         id: elo
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && steps.elo_shadow.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.elo_shadow.outcome == 'success'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           APPS_SCRIPT_BRIDGE_URL: ${{ secrets.APPS_SCRIPT_BRIDGE_URL }}
@@ -113,12 +117,12 @@ jobs:
       - name: Build playoff bracket from official workbook Elo
         id: bracket
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && steps.elo.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.elo.outcome == 'success'
         run: python scripts/bracket.py --league FAFL
       - name: Enter and verify official Bonus Games in MFL
         id: bonus_mfl
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && steps.schedule.outputs.score_status == 'official' && steps.elo.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.schedule.outputs.score_status == 'official' && steps.elo.outcome == 'success'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           APPS_SCRIPT_BRIDGE_URL: ${{ secrets.APPS_SCRIPT_BRIDGE_URL }}
@@ -131,7 +135,7 @@ jobs:
       - name: Synchronize and verify Payouts including award logos
         id: payouts
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && steps.bracket.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.bracket.outcome == 'success'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           APPS_SCRIPT_BRIDGE_URL: ${{ secrets.APPS_SCRIPT_BRIDGE_URL }}
@@ -194,7 +198,7 @@ jobs:
           artifact_name: github-pages-${{ github.run_attempt }}
 
       - name: Confirm weekly publication and record processed scores
-        if: inputs.ready_week != '' && success()
+        if: inputs.ready_week != '' && inputs.authorize_official_writes == true && success()
         env:
           SCORE_STATUS: ${{ steps.schedule.outputs.score_status }}
           COMPONENT_OUTCOMES: "${{ steps.schedule.outputs.score_status != 'official' && 'success' || steps.bonus_mfl.outcome }} ${{ steps.payouts.outcome }} ${{ steps.bonus.outcome }} ${{ steps.playoffs.outcome }} ${{ steps.elo.outcome }} ${{ steps.bracket.outcome }} ${{ steps.deploy.outcome }}"
@@ -212,13 +216,13 @@ jobs:
           git push origin HEAD:main
 
       - name: Require a verified Payouts publication for every refresh
-        if: always() && steps.schedule.outputs.should_run == 'true'
+        if: always() && steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true
         env:
           PAYOUT_STATUS: ${{ steps.payouts.outcome }}
         run: test "$PAYOUT_STATUS" = success
 
       - name: Require official MFL Bonus Games verification
-        if: always() && steps.schedule.outputs.should_run == 'true' && steps.schedule.outputs.score_status == 'official'
+        if: always() && steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.schedule.outputs.score_status == 'official'
         env:
           BONUS_MFL_STATUS: ${{ steps.bonus_mfl.outcome }}
         run: test "$BONUS_MFL_STATUS" = success
