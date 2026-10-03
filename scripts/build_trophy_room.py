@@ -1,7 +1,7 @@
 """Build Trophy Room from the same canonical season history as GM profiles."""
 import json
 from pathlib import Path
-from collections import defaultdict
+from collections import defaultdict, Counter
 from gm_profiles import GM_ALIASES, _career_rows, _normalized
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -15,6 +15,15 @@ for name,aliases in GM_ALIASES.items():
     for alias in aliases:canonical[_normalized(alias)]=name
 def people(value):
     return sorted(set(canonical[_normalized(p)] for p in value.split(',') if p.strip()))
+
+def majority_franchise(rows, active):
+    if not rows:
+        return active[0]
+    renamed={'Oakland Raiders':'Las Vegas Raiders','San Diego Chargers':'Los Angeles Chargers','Washington Redskins':'Washington Commanders','Washington Football Team':'Washington Commanders','St. Louis Rams':'Los Angeles Rams'}
+    identity=lambda r:renamed.get(r['name'],r['name'])
+    counts=Counter(map(identity,rows))
+    tied={team for team,count in counts.items() if count==max(counts.values())}
+    return max((r for r in rows if identity(r) in tied),key=lambda r:r['season'])['name']
 def build():
     history=json.loads((ROOT/'data/gm_career_seasons.json').read_text())
     roster=json.loads((ROOT/'data/current_gms_2026.json').read_text())
@@ -32,7 +41,7 @@ def build():
         assert len({r['season'] for r in rows})==len(rows)
         pct=lambda r:(r['wins']+.5*r['ties'])/(r['wins']+r['losses']+r['ties'])
         record=lambda rs:'-'.join(str(sum(r['record_'+k] for r in rs)) for k in ('wins','losses','ties'))
-        owners.append(dict(owner=' / '.join(members),members=members,franchise=active[0] if active else rows[-1]['name'],active=bool(active),years=[r['season'] for r in rows],seasons=len(rows),record=record(rows),allTimeAllPlay=sum(map(pct,rows))/len(rows) if rows else None,wins=sum(r['wins'] for r in rows),losses=sum(r['losses'] for r in rows),ties=sum(r['ties'] for r in rows),history=[dict(year=r['season'],franchise=r['name'],record=record([r]),rs=(r['rs_wins']+.5*r['rs_ties'])/372,all=pct(r),finish=r['finish']) for r in rows]))
+        owners.append(dict(owner=' / '.join(members),members=members,franchise=majority_franchise(rows,active),active=bool(active),years=[r['season'] for r in rows],seasons=len(rows),record=record(rows),allTimeAllPlay=sum(map(pct,rows))/len(rows) if rows else None,wins=sum(r['wins'] for r in rows),losses=sum(r['losses'] for r in rows),ties=sum(r['ties'] for r in rows),history=[dict(year=r['season'],franchise=r['name'],record=record([r]),rs=(r['rs_wins']+.5*r['rs_ties'])/372,all=pct(r),finish=r['finish']) for r in rows]))
     payouts=json.loads((ROOT/'data/trophy_room/payouts.json').read_text())
     codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
     for year,p in payouts.items():

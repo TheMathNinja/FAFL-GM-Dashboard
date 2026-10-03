@@ -2,9 +2,22 @@ import sys,json,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from build_trophy_room import build,people
+from build_trophy_room import build,people,majority_franchise
 from gm_profiles import _career_rows,_profile_from_rows
 class TrophyRoomTests(unittest.TestCase):
+    def test_majority_franchise_and_latest_tie(self):
+        rows=[dict(season=y,franchise_id='0030',name='Kansas City Chiefs') for y in range(2014,2018)]
+        rows.append(dict(season=2019,franchise_id='0015',name='Seattle Seahawks'))
+        self.assertEqual(majority_franchise(rows,['Seattle Seahawks']),'Kansas City Chiefs')
+        self.assertEqual(majority_franchise([rows[0],rows[-1]],[]),'Seattle Seahawks')
+        self.assertEqual(majority_franchise([],['Washington Commanders']),'Washington Commanders')
+        moved=[dict(season=2022,franchise_id='0015',name='Seattle Seahawks'),dict(season=2023,franchise_id='0016',name='Seattle Seahawks'),dict(season=2024,franchise_id='0015',name='San Francisco 49ers')]
+        self.assertEqual(majority_franchise(moved,[]),'Seattle Seahawks')
+        renamed=[dict(season=2018,franchise_id='0031',name='Oakland Raiders'),dict(season=2021,franchise_id='0031',name='Las Vegas Raiders'),dict(season=2022,franchise_id='0015',name='Seattle Seahawks')]
+        self.assertEqual(majority_franchise(renamed,[]),'Las Vegas Raiders')
+        carson=next(o for o in build()['owners'] if o['owner']=='Carson Witte')
+        self.assertEqual(carson['franchise'],'Kansas City Chiefs')
+        self.assertEqual(carson['history'][-1]['franchise'],'Seattle Seahawks')
     def test_washington_owner_change_preserves_champion_history(self):
         d=build()
         brandon=next(o for o in d['owners'] if o['owner']=='Brandon Owens')
