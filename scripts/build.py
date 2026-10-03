@@ -187,7 +187,7 @@ def render(data,week,status,n_sims,updated):
  template=(ROOT/'scripts/templates/playoff.html').read_text(encoding='utf8')
  out=ROOT/'docs/playoff-picture';out.mkdir(parents=True,exist_ok=True)
  options=''.join(f'<option value="week-{w+1:02}.html"'+(' selected' if w==week else '')+f'>Week {w+1} Outlook</option>' for w in range(1,week+1) if w==week or (out/f'week-{w+1:02}.html').exists())
- dropdown=f'<label>Archive <select aria-label="Weekly report" onchange="location.href=this.value">{options}</select></label>'
+ dropdown=f'<div class="fafl-outlook-nav"><select aria-label="Weekly outlook" onchange="location.href=this.value">{options}</select></div>'
  replacements={'__GM_PROFILES__':json.dumps(profiles,allow_nan=False).replace('</','<\\/'),'__DATA__':json.dumps(data,allow_nan=False).replace('</','<\\/'),'__DRAFT__':'{}','__SHIELD__':'https://www43.myfantasyleague.com/fflnetdynamic2019/22686_league_logo.jpg','__SEASON__':str(SEASON),'__OUTLOOK__':str(week+1),'__WEEK__':str(week),'__STATUS__':status.title(),'__SIMS__':f'{n_sims:,}','__TRAINING__':'2021–2025','__UPDATED__':updated,'__DROPDOWN__':dropdown,'__FULL_FILE__':f'week-{week+1:02}.csv'}
  for k,v in replacements.items():template=template.replace(k,v)
  if week==12:template=template.replace('Week 13 Outlook','Playoff Field')
