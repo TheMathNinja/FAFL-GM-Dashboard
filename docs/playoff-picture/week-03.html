@@ -69,9 +69,10 @@
 #fafl-playoff-design .fafl-popup-top>div{display:grid;gap:2px}
 #fafl-playoff-design .fafl-popup-top strong{font-size:25px;line-height:1.1;font-weight:800;letter-spacing:-.7px;font-variant-numeric:tabular-nums}
 #fafl-playoff-design .fafl-popup-top>div>span{font-size:11px;color:var(--fafl-muted)}
-#fafl-playoff-design .fafl-popup-feature-value{display:flex;align-items:baseline;gap:8px}
-#fafl-playoff-design .fafl-popup-feature-value strong{color:var(--rank-ink)}
-#fafl-playoff-design .fafl-popup-feature-value b{color:var(--rank-ink);font-size:12px;font-weight:700;letter-spacing:0;white-space:nowrap}
+#fafl-playoff-design .fafl-popup-top>.fafl-popup-feature{display:grid;grid-template-columns:max-content max-content;column-gap:14px;row-gap:1px;align-items:baseline}
+#fafl-playoff-design .fafl-popup-feature>strong{color:var(--rank-ink)}
+#fafl-playoff-design .fafl-popup-feature>b{color:var(--rank-ink);font-size:12px;font-weight:700;letter-spacing:0;white-space:nowrap}
+#fafl-playoff-design .fafl-popup-feature>small{justify-self:end;color:var(--fafl-muted);font-size:11px;font-weight:400}
 #fafl-playoff-design .fafl-popup-logo{width:32px;height:32px;object-fit:contain;flex-shrink:0}
 #fafl-playoff-design .fafl-breakdown-label{display:flex;justify-content:space-between;gap:8px;padding:5px 0 3px;margin-top:5px;border-top:1px solid var(--fafl-line);font-size:11px;font-weight:600;color:var(--fafl-muted)}
 #fafl-playoff-design .fafl-breakdown-row{display:grid;grid-template-columns:minmax(0,1fr) 42px 48px;gap:5px;align-items:center;padding:4px 0;background:transparent;color:var(--fafl-text);font-size:11px;font-variant-numeric:tabular-nums}
@@ -192,7 +193,7 @@ function rankFor(t,key){
 function rankInk(rank,total=32){const hue=120*(total-rank)/(total-1);return `light-dark(hsl(${hue} 65% 28%),hsl(${hue} 68% 72%))`;}
 function featureMarkup(value,label,r){
  const ink=r?rankInk(r.rank):'var(--fafl-muted)',rank=r?(r.tied?'T-':'')+ordinal(r.rank):'—';
- return `<div class="fafl-popup-feature" style="--rank-ink:${ink}"><div class="fafl-popup-feature-value"><strong>${value}</strong><b>${rank}</b></div><span>${label}</span></div>`;
+ return `<div class="fafl-popup-feature" style="--rank-ink:${ink}"><strong>${value}</strong><b>${rank}</b><span>${label}</span><small>Rank</small></div>`;
 }
 function gmMarkup(t){
  const g=gmProfiles[t.name],esc=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
