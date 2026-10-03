@@ -8,7 +8,13 @@
     "losses": 271,
     "ties": 0,
     "points": 2570.5,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 161,
+    "rs_ties": 0,
+    "rs_losses": 211,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -19,7 +25,13 @@
     "losses": 322,
     "ties": 2,
     "points": 2312.3,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 144,
+    "rs_ties": 1,
+    "rs_losses": 227,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -30,7 +42,13 @@
     "losses": 219,
     "ties": 0,
     "points": 2785.7,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 198,
+    "rs_ties": 0,
+    "rs_losses": 174,
+    "record_wins": 12,
+    "record_losses": 2,
+    "record_ties": 2
   },
   {
     "season": 2014,
@@ -41,7 +59,13 @@
     "losses": 298,
     "ties": 0,
     "points": 2470.3,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 160,
+    "rs_ties": 0,
+    "rs_losses": 212,
+    "record_wins": 5,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -52,7 +76,13 @@
     "losses": 155,
     "ties": 1,
     "points": 3106.2,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 245,
+    "rs_ties": 1,
+    "rs_losses": 126,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -63,7 +93,13 @@
     "losses": 206,
     "ties": 1,
     "points": 2934.7,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 210,
+    "rs_ties": 1,
+    "rs_losses": 161,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -74,7 +110,13 @@
     "losses": 354,
     "ties": 2,
     "points": 2062.6,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 135,
+    "rs_ties": 2,
+    "rs_losses": 235,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -85,7 +127,13 @@
     "losses": 353,
     "ties": 0,
     "points": 2245.2,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 80,
+    "rs_ties": 0,
+    "rs_losses": 292,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -96,7 +144,13 @@
     "losses": 311,
     "ties": 0,
     "points": 2459.6,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 137,
+    "rs_ties": 0,
+    "rs_losses": 235,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -107,7 +161,13 @@
     "losses": 137,
     "ties": 0,
     "points": 3127.1,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 246,
+    "rs_ties": 0,
+    "rs_losses": 126,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -118,7 +178,13 @@
     "losses": 200,
     "ties": 1,
     "points": 2868.4,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 233,
+    "rs_ties": 1,
+    "rs_losses": 138,
+    "record_wins": 9,
+    "record_losses": 5,
+    "record_ties": 2
   },
   {
     "season": 2014,
@@ -129,7 +195,13 @@
     "losses": 227,
     "ties": 0,
     "points": 2763.9,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 206,
+    "rs_ties": 0,
+    "rs_losses": 166,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -140,7 +212,13 @@
     "losses": 212,
     "ties": 0,
     "points": 2817.9,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 220,
+    "rs_ties": 0,
+    "rs_losses": 152,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -151,7 +229,13 @@
     "losses": 364,
     "ties": 0,
     "points": 2234.4,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 97,
+    "rs_ties": 0,
+    "rs_losses": 275,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -162,7 +246,13 @@
     "losses": 342,
     "ties": 0,
     "points": 2255.5,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 106,
+    "rs_ties": 0,
+    "rs_losses": 266,
+    "record_wins": 3,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -173,7 +263,13 @@
     "losses": 155,
     "ties": 0,
     "points": 3027.2,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 266,
+    "rs_ties": 0,
+    "rs_losses": 106,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -184,7 +280,13 @@
     "losses": 218,
     "ties": 1,
     "points": 2767.9,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 202,
+    "rs_ties": 1,
+    "rs_losses": 169,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -195,7 +297,13 @@
     "losses": 336,
     "ties": 0,
     "points": 2357.9,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 119,
+    "rs_ties": 0,
+    "rs_losses": 253,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -206,7 +314,13 @@
     "losses": 178,
     "ties": 0,
     "points": 2973.3,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 216,
+    "rs_ties": 0,
+    "rs_losses": 156,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -217,7 +331,13 @@
     "losses": 377,
     "ties": 1,
     "points": 2085.7,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 86,
+    "rs_ties": 0,
+    "rs_losses": 286,
+    "record_wins": 0,
+    "record_losses": 15,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -228,7 +348,13 @@
     "losses": 231,
     "ties": 1,
     "points": 2732.5,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 196,
+    "rs_ties": 1,
+    "rs_losses": 175,
+    "record_wins": 6,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -239,7 +365,13 @@
     "losses": 156,
     "ties": 1,
     "points": 3063.7999999999997,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 256,
+    "rs_ties": 1,
+    "rs_losses": 115,
+    "record_wins": 11,
+    "record_losses": 4,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -250,7 +382,13 @@
     "losses": 173,
     "ties": 0,
     "points": 3078.7,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 241,
+    "rs_ties": 0,
+    "rs_losses": 131,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -261,7 +399,13 @@
     "losses": 182,
     "ties": 0,
     "points": 3009.4,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 225,
+    "rs_ties": 0,
+    "rs_losses": 147,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -272,7 +416,13 @@
     "losses": 230,
     "ties": 0,
     "points": 2780.5,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 195,
+    "rs_ties": 0,
+    "rs_losses": 177,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -283,7 +433,13 @@
     "losses": 128,
     "ties": 0,
     "points": 3173.5,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 262,
+    "rs_ties": 0,
+    "rs_losses": 110,
+    "record_wins": 13,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -294,7 +450,13 @@
     "losses": 285,
     "ties": 0,
     "points": 2557.5,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 163,
+    "rs_ties": 0,
+    "rs_losses": 209,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -305,7 +467,13 @@
     "losses": 197,
     "ties": 0,
     "points": 2824.0,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 232,
+    "rs_ties": 0,
+    "rs_losses": 140,
+    "record_wins": 10,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -316,7 +484,13 @@
     "losses": 224,
     "ties": 0,
     "points": 2776.4,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 230,
+    "rs_ties": 0,
+    "rs_losses": 142,
+    "record_wins": 9,
+    "record_losses": 5,
+    "record_ties": 2
   },
   {
     "season": 2014,
@@ -327,7 +501,13 @@
     "losses": 134,
     "ties": 1,
     "points": 3078.8,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 276,
+    "rs_ties": 1,
+    "rs_losses": 95,
+    "record_wins": 14,
+    "record_losses": 2,
+    "record_ties": 0
   },
   {
     "season": 2014,
@@ -338,7 +518,13 @@
     "losses": 279,
     "ties": 0,
     "points": 2566.7000000000003,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 185,
+    "rs_ties": 0,
+    "rs_losses": 187,
+    "record_wins": 5,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2014,
@@ -349,7 +535,13 @@
     "losses": 476,
     "ties": 0,
     "points": 1394.8,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 19,
+    "rs_ties": 0,
+    "rs_losses": 353,
+    "record_wins": 0,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -360,7 +552,13 @@
     "losses": 301,
     "ties": 1,
     "points": 2518.1,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 152,
+    "rs_ties": 0,
+    "rs_losses": 220,
+    "record_wins": 2,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -371,7 +569,13 @@
     "losses": 218,
     "ties": 0,
     "points": 2781.7,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 198,
+    "rs_ties": 0,
+    "rs_losses": 174,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -382,7 +586,13 @@
     "losses": 290,
     "ties": 0,
     "points": 2459.0,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 152,
+    "rs_ties": 0,
+    "rs_losses": 220,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -393,7 +603,13 @@
     "losses": 193,
     "ties": 1,
     "points": 2876.5,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 224,
+    "rs_ties": 0,
+    "rs_losses": 148,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -404,7 +620,13 @@
     "losses": 116,
     "ties": 0,
     "points": 3265.7999999999997,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 278,
+    "rs_ties": 0,
+    "rs_losses": 94,
+    "record_wins": 15,
+    "record_losses": 0,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -415,7 +637,13 @@
     "losses": 416,
     "ties": 0,
     "points": 1922.4,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 74,
+    "rs_ties": 0,
+    "rs_losses": 298,
+    "record_wins": 1,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -426,7 +654,13 @@
     "losses": 211,
     "ties": 1,
     "points": 2773.8,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 207,
+    "rs_ties": 1,
+    "rs_losses": 164,
+    "record_wins": 10,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -437,7 +671,13 @@
     "losses": 296,
     "ties": 0,
     "points": 2527.7,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 146,
+    "rs_ties": 0,
+    "rs_losses": 226,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -448,7 +688,13 @@
     "losses": 200,
     "ties": 0,
     "points": 2893.3,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 235,
+    "rs_ties": 0,
+    "rs_losses": 137,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -459,7 +705,13 @@
     "losses": 235,
     "ties": 0,
     "points": 2778.0,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 199,
+    "rs_ties": 0,
+    "rs_losses": 173,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -470,7 +722,13 @@
     "losses": 280,
     "ties": 2,
     "points": 2503.1,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 165,
+    "rs_ties": 2,
+    "rs_losses": 205,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -481,7 +739,13 @@
     "losses": 272,
     "ties": 1,
     "points": 2567.7,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 165,
+    "rs_ties": 1,
+    "rs_losses": 206,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -492,7 +756,13 @@
     "losses": 227,
     "ties": 0,
     "points": 2795.9,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 169,
+    "rs_ties": 0,
+    "rs_losses": 203,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -503,7 +773,13 @@
     "losses": 245,
     "ties": 0,
     "points": 2722.9,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 166,
+    "rs_ties": 0,
+    "rs_losses": 206,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -514,7 +790,13 @@
     "losses": 229,
     "ties": 1,
     "points": 2785.7,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 238,
+    "rs_ties": 1,
+    "rs_losses": 133,
+    "record_wins": 13,
+    "record_losses": 2,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -525,7 +807,13 @@
     "losses": 278,
     "ties": 0,
     "points": 2651.9,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 195,
+    "rs_ties": 0,
+    "rs_losses": 177,
+    "record_wins": 9,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -536,7 +824,13 @@
     "losses": 92,
     "ties": 1,
     "points": 3348.0,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 303,
+    "rs_ties": 0,
+    "rs_losses": 69,
+    "record_wins": 14,
+    "record_losses": 2,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -547,7 +841,13 @@
     "losses": 255,
     "ties": 0,
     "points": 2677.3,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 175,
+    "rs_ties": 0,
+    "rs_losses": 197,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -558,7 +858,13 @@
     "losses": 187,
     "ties": 0,
     "points": 2858.6,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 234,
+    "rs_ties": 0,
+    "rs_losses": 138,
+    "record_wins": 9,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -569,7 +875,13 @@
     "losses": 341,
     "ties": 2,
     "points": 2230.7,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 129,
+    "rs_ties": 2,
+    "rs_losses": 241,
+    "record_wins": 3,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -580,7 +892,13 @@
     "losses": 339,
     "ties": 0,
     "points": 2324.2,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 122,
+    "rs_ties": 0,
+    "rs_losses": 250,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -591,7 +909,13 @@
     "losses": 261,
     "ties": 1,
     "points": 2645.2,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 186,
+    "rs_ties": 1,
+    "rs_losses": 185,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -602,7 +926,13 @@
     "losses": 185,
     "ties": 0,
     "points": 2988.6,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 216,
+    "rs_ties": 0,
+    "rs_losses": 156,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -613,7 +943,13 @@
     "losses": 200,
     "ties": 0,
     "points": 2934.1,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 188,
+    "rs_ties": 0,
+    "rs_losses": 184,
+    "record_wins": 5,
+    "record_losses": 9,
+    "record_ties": 2
   },
   {
     "season": 2015,
@@ -624,7 +960,13 @@
     "losses": 247,
     "ties": 0,
     "points": 2697.6,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 210,
+    "rs_ties": 0,
+    "rs_losses": 162,
+    "record_wins": 12,
+    "record_losses": 3,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -635,7 +977,13 @@
     "losses": 369,
     "ties": 0,
     "points": 2269.7,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 93,
+    "rs_ties": 0,
+    "rs_losses": 279,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -646,7 +994,13 @@
     "losses": 318,
     "ties": 0,
     "points": 2387.2,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 121,
+    "rs_ties": 0,
+    "rs_losses": 251,
+    "record_wins": 5,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2015,
@@ -657,7 +1011,13 @@
     "losses": 325,
     "ties": 0,
     "points": 2340.3,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 145,
+    "rs_ties": 0,
+    "rs_losses": 227,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -668,7 +1028,13 @@
     "losses": 184,
     "ties": 1,
     "points": 2974.9,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 211,
+    "rs_ties": 1,
+    "rs_losses": 160,
+    "record_wins": 7,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2015,
@@ -679,7 +1045,13 @@
     "losses": 148,
     "ties": 0,
     "points": 3079.9,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 245,
+    "rs_ties": 0,
+    "rs_losses": 127,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -690,7 +1062,13 @@
     "losses": 251,
     "ties": 0,
     "points": 2655.5,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 191,
+    "rs_ties": 0,
+    "rs_losses": 181,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2015,
@@ -701,7 +1079,13 @@
     "losses": 220,
     "ties": 2,
     "points": 2771.2,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 215,
+    "rs_ties": 1,
+    "rs_losses": 156,
+    "record_wins": 7,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -712,7 +1096,13 @@
     "losses": 218,
     "ties": 0,
     "points": 2832.4,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 203,
+    "rs_ties": 0,
+    "rs_losses": 169,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -723,7 +1113,13 @@
     "losses": 194,
     "ties": 0,
     "points": 2973.2,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 209,
+    "rs_ties": 0,
+    "rs_losses": 163,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -734,7 +1130,13 @@
     "losses": 262,
     "ties": 0,
     "points": 2674.7,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 171,
+    "rs_ties": 0,
+    "rs_losses": 201,
+    "record_wins": 6,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -745,7 +1147,13 @@
     "losses": 197,
     "ties": 0,
     "points": 2915.4,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 224,
+    "rs_ties": 0,
+    "rs_losses": 148,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -756,7 +1164,13 @@
     "losses": 105,
     "ties": 0,
     "points": 3344.6,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 272,
+    "rs_ties": 0,
+    "rs_losses": 100,
+    "record_wins": 15,
+    "record_losses": 1,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -767,7 +1181,13 @@
     "losses": 278,
     "ties": 0,
     "points": 2640.7000000000003,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 159,
+    "rs_ties": 0,
+    "rs_losses": 213,
+    "record_wins": 6,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -778,7 +1198,13 @@
     "losses": 346,
     "ties": 0,
     "points": 2380.1,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 97,
+    "rs_ties": 0,
+    "rs_losses": 275,
+    "record_wins": 3,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -789,7 +1215,13 @@
     "losses": 288,
     "ties": 2,
     "points": 2563.2,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 148,
+    "rs_ties": 1,
+    "rs_losses": 223,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -800,7 +1232,13 @@
     "losses": 341,
     "ties": 1,
     "points": 2386.6,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 140,
+    "rs_ties": 1,
+    "rs_losses": 231,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -811,7 +1249,13 @@
     "losses": 287,
     "ties": 0,
     "points": 2553.3,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 156,
+    "rs_ties": 0,
+    "rs_losses": 216,
+    "record_wins": 5,
+    "record_losses": 9,
+    "record_ties": 2
   },
   {
     "season": 2016,
@@ -822,7 +1266,13 @@
     "losses": 299,
     "ties": 0,
     "points": 2536.0,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 140,
+    "rs_ties": 0,
+    "rs_losses": 232,
+    "record_wins": 7,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -833,7 +1283,13 @@
     "losses": 143,
     "ties": 0,
     "points": 3122.9,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 273,
+    "rs_ties": 0,
+    "rs_losses": 99,
+    "record_wins": 13,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -844,7 +1300,13 @@
     "losses": 329,
     "ties": 1,
     "points": 2438.2,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 134,
+    "rs_ties": 1,
+    "rs_losses": 237,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -855,7 +1317,13 @@
     "losses": 302,
     "ties": 1,
     "points": 2484.0,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 155,
+    "rs_ties": 0,
+    "rs_losses": 217,
+    "record_wins": 6,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -866,7 +1334,13 @@
     "losses": 249,
     "ties": 0,
     "points": 2745.7,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 195,
+    "rs_ties": 0,
+    "rs_losses": 177,
+    "record_wins": 9,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -877,7 +1351,13 @@
     "losses": 183,
     "ties": 1,
     "points": 2949.3,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 260,
+    "rs_ties": 1,
+    "rs_losses": 111,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -888,7 +1368,13 @@
     "losses": 283,
     "ties": 0,
     "points": 2569.6,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 140,
+    "rs_ties": 0,
+    "rs_losses": 232,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -899,7 +1385,13 @@
     "losses": 319,
     "ties": 1,
     "points": 2485.0,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 132,
+    "rs_ties": 0,
+    "rs_losses": 240,
+    "record_wins": 3,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -910,7 +1402,13 @@
     "losses": 182,
     "ties": 0,
     "points": 2985.6,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 224,
+    "rs_ties": 0,
+    "rs_losses": 148,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -921,7 +1419,13 @@
     "losses": 269,
     "ties": 0,
     "points": 2612.6,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 182,
+    "rs_ties": 0,
+    "rs_losses": 190,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -932,7 +1436,13 @@
     "losses": 182,
     "ties": 0,
     "points": 2961.2,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 248,
+    "rs_ties": 0,
+    "rs_losses": 124,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -943,7 +1453,13 @@
     "losses": 224,
     "ties": 0,
     "points": 2771.7,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 193,
+    "rs_ties": 0,
+    "rs_losses": 179,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -954,7 +1470,13 @@
     "losses": 216,
     "ties": 1,
     "points": 2871.1,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 209,
+    "rs_ties": 1,
+    "rs_losses": 162,
+    "record_wins": 7,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2016,
@@ -965,7 +1487,13 @@
     "losses": 192,
     "ties": 0,
     "points": 2978.2,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 233,
+    "rs_ties": 0,
+    "rs_losses": 139,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -976,7 +1504,13 @@
     "losses": 195,
     "ties": 1,
     "points": 2967.1,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 232,
+    "rs_ties": 1,
+    "rs_losses": 139,
+    "record_wins": 11,
+    "record_losses": 4,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -987,7 +1521,13 @@
     "losses": 285,
     "ties": 1,
     "points": 2596.0,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 164,
+    "rs_ties": 0,
+    "rs_losses": 208,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -998,7 +1538,13 @@
     "losses": 360,
     "ties": 0,
     "points": 2318.1,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 125,
+    "rs_ties": 0,
+    "rs_losses": 247,
+    "record_wins": 4,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -1009,7 +1555,13 @@
     "losses": 201,
     "ties": 0,
     "points": 2884.7,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 205,
+    "rs_ties": 0,
+    "rs_losses": 167,
+    "record_wins": 10,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -1020,7 +1572,13 @@
     "losses": 165,
     "ties": 0,
     "points": 3016.4,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 231,
+    "rs_ties": 0,
+    "rs_losses": 141,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -1031,7 +1589,13 @@
     "losses": 208,
     "ties": 2,
     "points": 2927.2,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 222,
+    "rs_ties": 2,
+    "rs_losses": 148,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2016,
@@ -1042,7 +1606,13 @@
     "losses": 328,
     "ties": 0,
     "points": 2411.7,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 124,
+    "rs_ties": 0,
+    "rs_losses": 248,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2016,
@@ -1053,7 +1623,13 @@
     "losses": 299,
     "ties": 2,
     "points": 2518.6,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 147,
+    "rs_ties": 2,
+    "rs_losses": 223,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1064,7 +1640,13 @@
     "losses": 311,
     "ties": 0,
     "points": 2286.3,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 161,
+    "rs_ties": 0,
+    "rs_losses": 211,
+    "record_wins": 6,
+    "record_losses": 8,
+    "record_ties": 2
   },
   {
     "season": 2017,
@@ -1075,7 +1657,13 @@
     "losses": 140,
     "ties": 1,
     "points": 3081.2,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 249,
+    "rs_ties": 1,
+    "rs_losses": 122,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1086,7 +1674,13 @@
     "losses": 287,
     "ties": 0,
     "points": 2425.6,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 164,
+    "rs_ties": 0,
+    "rs_losses": 208,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1097,7 +1691,13 @@
     "losses": 347,
     "ties": 0,
     "points": 2248.1,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 115,
+    "rs_ties": 0,
+    "rs_losses": 257,
+    "record_wins": 3,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1108,7 +1708,13 @@
     "losses": 186,
     "ties": 0,
     "points": 2862.7,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 233,
+    "rs_ties": 0,
+    "rs_losses": 139,
+    "record_wins": 10,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1119,7 +1725,13 @@
     "losses": 236,
     "ties": 0,
     "points": 2627.9,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 207,
+    "rs_ties": 0,
+    "rs_losses": 165,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1130,7 +1742,13 @@
     "losses": 329,
     "ties": 3,
     "points": 2264.2,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 112,
+    "rs_ties": 3,
+    "rs_losses": 257,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1141,7 +1759,13 @@
     "losses": 216,
     "ties": 0,
     "points": 2772.6,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 217,
+    "rs_ties": 0,
+    "rs_losses": 155,
+    "record_wins": 10,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1152,7 +1776,13 @@
     "losses": 291,
     "ties": 0,
     "points": 2503.6,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 140,
+    "rs_ties": 0,
+    "rs_losses": 232,
+    "record_wins": 2,
+    "record_losses": 13,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1163,7 +1793,13 @@
     "losses": 171,
     "ties": 0,
     "points": 2915.2,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 257,
+    "rs_ties": 0,
+    "rs_losses": 115,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1174,7 +1810,13 @@
     "losses": 278,
     "ties": 2,
     "points": 2487.5,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 127,
+    "rs_ties": 2,
+    "rs_losses": 243,
+    "record_wins": 4,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1185,7 +1827,13 @@
     "losses": 133,
     "ties": 0,
     "points": 3064.1,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 274,
+    "rs_ties": 0,
+    "rs_losses": 98,
+    "record_wins": 14,
+    "record_losses": 2,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1196,7 +1844,13 @@
     "losses": 237,
     "ties": 0,
     "points": 2679.6,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 174,
+    "rs_ties": 0,
+    "rs_losses": 198,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1207,7 +1861,13 @@
     "losses": 358,
     "ties": 2,
     "points": 2132.3,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 118,
+    "rs_ties": 2,
+    "rs_losses": 252,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1218,7 +1878,13 @@
     "losses": 231,
     "ties": 1,
     "points": 2681.9,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 207,
+    "rs_ties": 1,
+    "rs_losses": 164,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1229,7 +1895,13 @@
     "losses": 272,
     "ties": 0,
     "points": 2509.3,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 164,
+    "rs_ties": 0,
+    "rs_losses": 208,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1240,7 +1912,13 @@
     "losses": 343,
     "ties": 1,
     "points": 2163.1,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 115,
+    "rs_ties": 1,
+    "rs_losses": 256,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1251,7 +1929,13 @@
     "losses": 241,
     "ties": 0,
     "points": 2639.4,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 184,
+    "rs_ties": 0,
+    "rs_losses": 188,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1262,7 +1946,13 @@
     "losses": 281,
     "ties": 1,
     "points": 2470.4,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 187,
+    "rs_ties": 0,
+    "rs_losses": 185,
+    "record_wins": 7,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1273,7 +1963,13 @@
     "losses": 222,
     "ties": 0,
     "points": 2804.1,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 187,
+    "rs_ties": 0,
+    "rs_losses": 185,
+    "record_wins": 6,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1284,7 +1980,13 @@
     "losses": 345,
     "ties": 1,
     "points": 2215.9,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 114,
+    "rs_ties": 1,
+    "rs_losses": 257,
+    "record_wins": 6,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1295,7 +1997,13 @@
     "losses": 259,
     "ties": 0,
     "points": 2538.3,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 170,
+    "rs_ties": 0,
+    "rs_losses": 202,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1306,7 +2014,13 @@
     "losses": 191,
     "ties": 0,
     "points": 2805.9,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 262,
+    "rs_ties": 0,
+    "rs_losses": 110,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1317,7 +2031,13 @@
     "losses": 167,
     "ties": 0,
     "points": 2907.0,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 237,
+    "rs_ties": 0,
+    "rs_losses": 135,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1328,7 +2048,13 @@
     "losses": 293,
     "ties": 1,
     "points": 2453.3,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 143,
+    "rs_ties": 1,
+    "rs_losses": 228,
+    "record_wins": 5,
+    "record_losses": 9,
+    "record_ties": 2
   },
   {
     "season": 2017,
@@ -1339,7 +2065,13 @@
     "losses": 307,
     "ties": 0,
     "points": 2398.3,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 171,
+    "rs_ties": 0,
+    "rs_losses": 201,
+    "record_wins": 9,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2017,
@@ -1350,7 +2082,13 @@
     "losses": 169,
     "ties": 1,
     "points": 2932.1,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 216,
+    "rs_ties": 1,
+    "rs_losses": 155,
+    "record_wins": 9,
+    "record_losses": 5,
+    "record_ties": 2
   },
   {
     "season": 2017,
@@ -1361,7 +2099,13 @@
     "losses": 253,
     "ties": 0,
     "points": 2604.3,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 192,
+    "rs_ties": 0,
+    "rs_losses": 180,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1372,7 +2116,13 @@
     "losses": 162,
     "ties": 1,
     "points": 2968.7,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 246,
+    "rs_ties": 0,
+    "rs_losses": 126,
+    "record_wins": 14,
+    "record_losses": 2,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1383,7 +2133,13 @@
     "losses": 139,
     "ties": 1,
     "points": 3070.6,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 269,
+    "rs_ties": 1,
+    "rs_losses": 102,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1394,7 +2150,13 @@
     "losses": 322,
     "ties": 0,
     "points": 2308.5,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 112,
+    "rs_ties": 0,
+    "rs_losses": 260,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2017,
@@ -1405,7 +2167,13 @@
     "losses": 211,
     "ties": 0,
     "points": 2703.7,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 221,
+    "rs_ties": 0,
+    "rs_losses": 151,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1416,7 +2184,13 @@
     "losses": 323,
     "ties": 1,
     "points": 2546.6,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 126,
+    "rs_ties": 0,
+    "rs_losses": 246,
+    "record_wins": 2,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1427,7 +2201,13 @@
     "losses": 161,
     "ties": 1,
     "points": 3214.5,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 247,
+    "rs_ties": 1,
+    "rs_losses": 124,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1438,7 +2218,13 @@
     "losses": 221,
     "ties": 0,
     "points": 2992.4,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 227,
+    "rs_ties": 0,
+    "rs_losses": 145,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1449,7 +2235,13 @@
     "losses": 304,
     "ties": 0,
     "points": 2604.0,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 136,
+    "rs_ties": 0,
+    "rs_losses": 236,
+    "record_wins": 3,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1460,7 +2252,13 @@
     "losses": 116,
     "ties": 0,
     "points": 3340.8,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 262,
+    "rs_ties": 0,
+    "rs_losses": 110,
+    "record_wins": 11,
+    "record_losses": 4,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1471,7 +2269,13 @@
     "losses": 193,
     "ties": 2,
     "points": 3047.6,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 211,
+    "rs_ties": 2,
+    "rs_losses": 159,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1482,7 +2286,13 @@
     "losses": 187,
     "ties": 2,
     "points": 3140.4,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 229,
+    "rs_ties": 2,
+    "rs_losses": 141,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1493,7 +2303,13 @@
     "losses": 216,
     "ties": 1,
     "points": 3048.2,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 239,
+    "rs_ties": 1,
+    "rs_losses": 132,
+    "record_wins": 11,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1504,7 +2320,13 @@
     "losses": 203,
     "ties": 0,
     "points": 3016.8,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 222,
+    "rs_ties": 0,
+    "rs_losses": 150,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1515,7 +2337,13 @@
     "losses": 201,
     "ties": 0,
     "points": 2988.9,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 210,
+    "rs_ties": 0,
+    "rs_losses": 162,
+    "record_wins": 10,
+    "record_losses": 4,
+    "record_ties": 2
   },
   {
     "season": 2018,
@@ -1526,7 +2354,13 @@
     "losses": 253,
     "ties": 2,
     "points": 2859.2,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 165,
+    "rs_ties": 1,
+    "rs_losses": 206,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1537,7 +2371,13 @@
     "losses": 326,
     "ties": 0,
     "points": 2615.4,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 136,
+    "rs_ties": 0,
+    "rs_losses": 236,
+    "record_wins": 3,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1548,7 +2388,13 @@
     "losses": 301,
     "ties": 3,
     "points": 2678.0,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 139,
+    "rs_ties": 3,
+    "rs_losses": 230,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1559,7 +2405,13 @@
     "losses": 269,
     "ties": 0,
     "points": 2792.1,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 156,
+    "rs_ties": 0,
+    "rs_losses": 216,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1570,7 +2422,13 @@
     "losses": 373,
     "ties": 0,
     "points": 2315.4,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 91,
+    "rs_ties": 0,
+    "rs_losses": 281,
+    "record_wins": 3,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1581,7 +2439,13 @@
     "losses": 242,
     "ties": 1,
     "points": 2847.6,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 222,
+    "rs_ties": 1,
+    "rs_losses": 149,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1592,7 +2456,13 @@
     "losses": 355,
     "ties": 1,
     "points": 2489.3,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 89,
+    "rs_ties": 0,
+    "rs_losses": 283,
+    "record_wins": 4,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1603,7 +2473,13 @@
     "losses": 394,
     "ties": 0,
     "points": 2298.3,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 97,
+    "rs_ties": 0,
+    "rs_losses": 275,
+    "record_wins": 2,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1614,7 +2490,13 @@
     "losses": 220,
     "ties": 3,
     "points": 2932.0,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 183,
+    "rs_ties": 3,
+    "rs_losses": 186,
+    "record_wins": 8,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1625,7 +2507,13 @@
     "losses": 244,
     "ties": 0,
     "points": 2859.0,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 185,
+    "rs_ties": 0,
+    "rs_losses": 187,
+    "record_wins": 11,
+    "record_losses": 4,
+    "record_ties": 1
   },
   {
     "season": 2018,
@@ -1636,7 +2524,13 @@
     "losses": 266,
     "ties": 1,
     "points": 2811.0,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 196,
+    "rs_ties": 0,
+    "rs_losses": 176,
+    "record_wins": 9,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1647,7 +2541,13 @@
     "losses": 193,
     "ties": 1,
     "points": 3069.0,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 250,
+    "rs_ties": 1,
+    "rs_losses": 121,
+    "record_wins": 13,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1658,7 +2558,13 @@
     "losses": 284,
     "ties": 2,
     "points": 2701.2,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 155,
+    "rs_ties": 2,
+    "rs_losses": 215,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1669,7 +2575,13 @@
     "losses": 220,
     "ties": 0,
     "points": 2923.0,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 190,
+    "rs_ties": 0,
+    "rs_losses": 182,
+    "record_wins": 7,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2018,
@@ -1680,7 +2592,13 @@
     "losses": 139,
     "ties": 0,
     "points": 3282.8,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 274,
+    "rs_ties": 0,
+    "rs_losses": 98,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1691,7 +2609,13 @@
     "losses": 193,
     "ties": 0,
     "points": 3156.3,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 227,
+    "rs_ties": 0,
+    "rs_losses": 145,
+    "record_wins": 12,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1702,7 +2626,13 @@
     "losses": 270,
     "ties": 0,
     "points": 2775.4,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 173,
+    "rs_ties": 0,
+    "rs_losses": 199,
+    "record_wins": 5,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1713,7 +2643,13 @@
     "losses": 306,
     "ties": 2,
     "points": 2604.4,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 139,
+    "rs_ties": 0,
+    "rs_losses": 233,
+    "record_wins": 3,
+    "record_losses": 11,
+    "record_ties": 2
   },
   {
     "season": 2018,
@@ -1724,7 +2660,13 @@
     "losses": 163,
     "ties": 0,
     "points": 3215.2,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 249,
+    "rs_ties": 0,
+    "rs_losses": 123,
+    "record_wins": 13,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1735,7 +2677,13 @@
     "losses": 272,
     "ties": 0,
     "points": 2777.2,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 164,
+    "rs_ties": 0,
+    "rs_losses": 208,
+    "record_wins": 8,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1746,7 +2694,13 @@
     "losses": 241,
     "ties": 0,
     "points": 2834.0,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 180,
+    "rs_ties": 0,
+    "rs_losses": 192,
+    "record_wins": 7,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2018,
@@ -1757,7 +2711,13 @@
     "losses": 275,
     "ties": 1,
     "points": 2722.7,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 174,
+    "rs_ties": 1,
+    "rs_losses": 197,
+    "record_wins": 5,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -1768,7 +2728,13 @@
     "losses": 277,
     "ties": 0,
     "points": 2913.8,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 163,
+    "rs_ties": 0,
+    "rs_losses": 209,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1779,7 +2745,13 @@
     "losses": 167,
     "ties": 0,
     "points": 3416.2,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 236,
+    "rs_ties": 0,
+    "rs_losses": 136,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1790,7 +2762,13 @@
     "losses": 195,
     "ties": 0,
     "points": 3294.5,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 232,
+    "rs_ties": 0,
+    "rs_losses": 140,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1801,7 +2779,13 @@
     "losses": 215,
     "ties": 0,
     "points": 3174.2,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 215,
+    "rs_ties": 0,
+    "rs_losses": 157,
+    "record_wins": 11,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1812,7 +2796,13 @@
     "losses": 187,
     "ties": 0,
     "points": 3302.1,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 203,
+    "rs_ties": 0,
+    "rs_losses": 169,
+    "record_wins": 12,
+    "record_losses": 6,
+    "record_ties": 2
   },
   {
     "season": 2019,
@@ -1823,7 +2813,13 @@
     "losses": 348,
     "ties": 1,
     "points": 2521.1,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 105,
+    "rs_ties": 1,
+    "rs_losses": 266,
+    "record_wins": 5,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1834,7 +2830,13 @@
     "losses": 271,
     "ties": 0,
     "points": 2915.7,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 159,
+    "rs_ties": 0,
+    "rs_losses": 213,
+    "record_wins": 6,
+    "record_losses": 12,
+    "record_ties": 2
   },
   {
     "season": 2019,
@@ -1845,7 +2847,13 @@
     "losses": 223,
     "ties": 1,
     "points": 3094.9,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 207,
+    "rs_ties": 0,
+    "rs_losses": 165,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1856,7 +2864,13 @@
     "losses": 256,
     "ties": 0,
     "points": 3046.1,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 163,
+    "rs_ties": 0,
+    "rs_losses": 209,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1867,7 +2881,13 @@
     "losses": 177,
     "ties": 0,
     "points": 3326.3,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 274,
+    "rs_ties": 0,
+    "rs_losses": 98,
+    "record_wins": 14,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1878,7 +2898,13 @@
     "losses": 357,
     "ties": 0,
     "points": 2647.5,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 108,
+    "rs_ties": 0,
+    "rs_losses": 264,
+    "record_wins": 5,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -1889,7 +2915,13 @@
     "losses": 332,
     "ties": 0,
     "points": 2711.2,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 139,
+    "rs_ties": 0,
+    "rs_losses": 233,
+    "record_wins": 7,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1900,7 +2932,13 @@
     "losses": 199,
     "ties": 0,
     "points": 3254.8,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 236,
+    "rs_ties": 0,
+    "rs_losses": 136,
+    "record_wins": 11,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1911,7 +2949,13 @@
     "losses": 270,
     "ties": 0,
     "points": 2962.4,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 160,
+    "rs_ties": 0,
+    "rs_losses": 212,
+    "record_wins": 9,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -1922,7 +2966,13 @@
     "losses": 270,
     "ties": 0,
     "points": 2905.4,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 139,
+    "rs_ties": 0,
+    "rs_losses": 233,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1933,7 +2983,13 @@
     "losses": 296,
     "ties": 0,
     "points": 2760.7,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 170,
+    "rs_ties": 0,
+    "rs_losses": 202,
+    "record_wins": 7,
+    "record_losses": 11,
+    "record_ties": 2
   },
   {
     "season": 2019,
@@ -1944,7 +3000,13 @@
     "losses": 303,
     "ties": 1,
     "points": 2850.5,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 146,
+    "rs_ties": 0,
+    "rs_losses": 226,
+    "record_wins": 7,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1955,7 +3017,13 @@
     "losses": 291,
     "ties": 2,
     "points": 2820.5,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 184,
+    "rs_ties": 2,
+    "rs_losses": 186,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1966,7 +3034,13 @@
     "losses": 216,
     "ties": 0,
     "points": 3143.7,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 221,
+    "rs_ties": 0,
+    "rs_losses": 151,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1977,7 +3051,13 @@
     "losses": 234,
     "ties": 0,
     "points": 3036.8,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 182,
+    "rs_ties": 0,
+    "rs_losses": 190,
+    "record_wins": 10,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -1988,7 +3068,13 @@
     "losses": 146,
     "ties": 0,
     "points": 3417.9,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 256,
+    "rs_ties": 0,
+    "rs_losses": 116,
+    "record_wins": 13,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -1999,7 +3085,13 @@
     "losses": 252,
     "ties": 0,
     "points": 2994.4,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 203,
+    "rs_ties": 0,
+    "rs_losses": 169,
+    "record_wins": 8,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -2010,7 +3102,13 @@
     "losses": 390,
     "ties": 0,
     "points": 2400.3,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 84,
+    "rs_ties": 0,
+    "rs_losses": 288,
+    "record_wins": 3,
+    "record_losses": 17,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -2021,7 +3119,13 @@
     "losses": 243,
     "ties": 2,
     "points": 2988.2,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 205,
+    "rs_ties": 2,
+    "rs_losses": 165,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -2032,7 +3136,13 @@
     "losses": 245,
     "ties": 1,
     "points": 3033.2,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 174,
+    "rs_ties": 1,
+    "rs_losses": 197,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -2043,7 +3153,13 @@
     "losses": 235,
     "ties": 0,
     "points": 3064.5,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 191,
+    "rs_ties": 0,
+    "rs_losses": 181,
+    "record_wins": 11,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2019,
@@ -2054,7 +3170,13 @@
     "losses": 273,
     "ties": 0,
     "points": 2941.9,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 156,
+    "rs_ties": 0,
+    "rs_losses": 216,
+    "record_wins": 9,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -2065,7 +3187,13 @@
     "losses": 274,
     "ties": 1,
     "points": 2918.7,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 167,
+    "rs_ties": 1,
+    "rs_losses": 204,
+    "record_wins": 11,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2019,
@@ -2076,7 +3204,13 @@
     "losses": 138,
     "ties": 0,
     "points": 3589.1,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 259,
+    "rs_ties": 0,
+    "rs_losses": 113,
+    "record_wins": 10,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -2087,7 +3221,13 @@
     "losses": 170,
     "ties": 0,
     "points": 3361.1,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 223,
+    "rs_ties": 0,
+    "rs_losses": 149,
+    "record_wins": 13,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -2098,7 +3238,13 @@
     "losses": 255,
     "ties": 1,
     "points": 2971.3,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 173,
+    "rs_ties": 1,
+    "rs_losses": 198,
+    "record_wins": 8,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2019,
@@ -2109,7 +3255,13 @@
     "losses": 226,
     "ties": 0,
     "points": 3171.9,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 215,
+    "rs_ties": 0,
+    "rs_losses": 157,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2120,7 +3272,13 @@
     "losses": 196,
     "ties": 0,
     "points": 3455.4,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 221,
+    "rs_ties": 0,
+    "rs_losses": 151,
+    "record_wins": 14,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2131,7 +3289,13 @@
     "losses": 243,
     "ties": 0,
     "points": 3148.8,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 170,
+    "rs_ties": 0,
+    "rs_losses": 202,
+    "record_wins": 8,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2142,7 +3306,13 @@
     "losses": 305,
     "ties": 0,
     "points": 2865.6,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 150,
+    "rs_ties": 0,
+    "rs_losses": 222,
+    "record_wins": 9,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2153,7 +3323,13 @@
     "losses": 301,
     "ties": 0,
     "points": 2883.7,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 155,
+    "rs_ties": 0,
+    "rs_losses": 217,
+    "record_wins": 7,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2164,7 +3340,13 @@
     "losses": 122,
     "ties": 1,
     "points": 3724.1,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 292,
+    "rs_ties": 1,
+    "rs_losses": 79,
+    "record_wins": 16,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2175,7 +3357,13 @@
     "losses": 272,
     "ties": 1,
     "points": 3101.0,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 164,
+    "rs_ties": 1,
+    "rs_losses": 207,
+    "record_wins": 8,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2186,7 +3374,13 @@
     "losses": 260,
     "ties": 0,
     "points": 3043.1,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 151,
+    "rs_ties": 0,
+    "rs_losses": 221,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2197,7 +3391,13 @@
     "losses": 263,
     "ties": 0,
     "points": 3058.1,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 178,
+    "rs_ties": 0,
+    "rs_losses": 194,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2208,7 +3408,13 @@
     "losses": 283,
     "ties": 0,
     "points": 3045.3,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 178,
+    "rs_ties": 0,
+    "rs_losses": 194,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2219,7 +3425,13 @@
     "losses": 316,
     "ties": 0,
     "points": 2831.0,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 136,
+    "rs_ties": 0,
+    "rs_losses": 236,
+    "record_wins": 3,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2230,7 +3442,13 @@
     "losses": 273,
     "ties": 0,
     "points": 3049.2,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 173,
+    "rs_ties": 0,
+    "rs_losses": 199,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2241,7 +3459,13 @@
     "losses": 217,
     "ties": 2,
     "points": 3267.4,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 205,
+    "rs_ties": 2,
+    "rs_losses": 165,
+    "record_wins": 12,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2252,7 +3476,13 @@
     "losses": 282,
     "ties": 0,
     "points": 2960.4,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 154,
+    "rs_ties": 0,
+    "rs_losses": 218,
+    "record_wins": 7,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2263,7 +3493,13 @@
     "losses": 305,
     "ties": 0,
     "points": 2918.3,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 154,
+    "rs_ties": 0,
+    "rs_losses": 218,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2274,7 +3510,13 @@
     "losses": 290,
     "ties": 0,
     "points": 3019.7,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 162,
+    "rs_ties": 0,
+    "rs_losses": 210,
+    "record_wins": 7,
+    "record_losses": 8,
+    "record_ties": 3
   },
   {
     "season": 2020,
@@ -2285,7 +3527,13 @@
     "losses": 209,
     "ties": 0,
     "points": 3288.6,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 186,
+    "rs_ties": 0,
+    "rs_losses": 186,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2296,7 +3544,13 @@
     "losses": 232,
     "ties": 0,
     "points": 3173.1,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 230,
+    "rs_ties": 0,
+    "rs_losses": 142,
+    "record_wins": 8,
+    "record_losses": 10,
+    "record_ties": 2
   },
   {
     "season": 2020,
@@ -2307,7 +3561,13 @@
     "losses": 198,
     "ties": 0,
     "points": 3277.3,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 217,
+    "rs_ties": 0,
+    "rs_losses": 155,
+    "record_wins": 12,
+    "record_losses": 6,
+    "record_ties": 2
   },
   {
     "season": 2020,
@@ -2318,7 +3578,13 @@
     "losses": 231,
     "ties": 0,
     "points": 3172.5,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 213,
+    "rs_ties": 0,
+    "rs_losses": 159,
+    "record_wins": 12,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2329,7 +3595,13 @@
     "losses": 272,
     "ties": 0,
     "points": 3049.6,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 176,
+    "rs_ties": 0,
+    "rs_losses": 196,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2340,7 +3612,13 @@
     "losses": 204,
     "ties": 0,
     "points": 3350.5,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 223,
+    "rs_ties": 0,
+    "rs_losses": 149,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2351,7 +3629,13 @@
     "losses": 162,
     "ties": 0,
     "points": 3454.0,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 255,
+    "rs_ties": 0,
+    "rs_losses": 117,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2362,7 +3646,13 @@
     "losses": 308,
     "ties": 0,
     "points": 2959.2,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 137,
+    "rs_ties": 0,
+    "rs_losses": 235,
+    "record_wins": 5,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2373,7 +3663,13 @@
     "losses": 312,
     "ties": 0,
     "points": 2952.4,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 128,
+    "rs_ties": 0,
+    "rs_losses": 244,
+    "record_wins": 8,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2384,7 +3680,13 @@
     "losses": 212,
     "ties": 0,
     "points": 3285.3,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 211,
+    "rs_ties": 0,
+    "rs_losses": 161,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2395,7 +3697,13 @@
     "losses": 244,
     "ties": 0,
     "points": 3073.5,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 200,
+    "rs_ties": 0,
+    "rs_losses": 172,
+    "record_wins": 10,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2020,
@@ -2406,7 +3714,13 @@
     "losses": 106,
     "ties": 1,
     "points": 3731.1,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 276,
+    "rs_ties": 1,
+    "rs_losses": 95,
+    "record_wins": 15,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2417,7 +3731,13 @@
     "losses": 329,
     "ties": 0,
     "points": 2722.2,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 136,
+    "rs_ties": 0,
+    "rs_losses": 236,
+    "record_wins": 3,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2428,7 +3748,13 @@
     "losses": 137,
     "ties": 0,
     "points": 3632.8,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 272,
+    "rs_ties": 0,
+    "rs_losses": 100,
+    "record_wins": 17,
+    "record_losses": 3,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2439,7 +3765,13 @@
     "losses": 301,
     "ties": 0,
     "points": 2914.8,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 133,
+    "rs_ties": 0,
+    "rs_losses": 239,
+    "record_wins": 5,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2020,
@@ -2450,7 +3782,13 @@
     "losses": 244,
     "ties": 1,
     "points": 3158.9,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 197,
+    "rs_ties": 1,
+    "rs_losses": 174,
+    "record_wins": 9,
+    "record_losses": 9,
+    "record_ties": 2
   },
   {
     "season": 2020,
@@ -2461,7 +3799,13 @@
     "losses": 304,
     "ties": 0,
     "points": 2843.6,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 116,
+    "rs_ties": 0,
+    "rs_losses": 256,
+    "record_wins": 3,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2472,7 +3816,13 @@
     "losses": 234,
     "ties": 1,
     "points": 3339.7,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 216,
+    "rs_ties": 1,
+    "rs_losses": 155,
+    "record_wins": 13,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2483,7 +3833,13 @@
     "losses": 159,
     "ties": 1,
     "points": 3701.2,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 256,
+    "rs_ties": 0,
+    "rs_losses": 116,
+    "record_wins": 14,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2494,7 +3850,13 @@
     "losses": 166,
     "ties": 0,
     "points": 3743.2,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 267,
+    "rs_ties": 0,
+    "rs_losses": 105,
+    "record_wins": 14,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2505,7 +3867,13 @@
     "losses": 313,
     "ties": 0,
     "points": 3027.2,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 164,
+    "rs_ties": 0,
+    "rs_losses": 208,
+    "record_wins": 7,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2516,7 +3884,13 @@
     "losses": 184,
     "ties": 0,
     "points": 3608.4,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 233,
+    "rs_ties": 0,
+    "rs_losses": 139,
+    "record_wins": 16,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2527,7 +3901,13 @@
     "losses": 206,
     "ties": 1,
     "points": 3522.2,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 200,
+    "rs_ties": 1,
+    "rs_losses": 171,
+    "record_wins": 15,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2538,7 +3918,13 @@
     "losses": 312,
     "ties": 0,
     "points": 2991.6,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 142,
+    "rs_ties": 0,
+    "rs_losses": 230,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2549,7 +3935,13 @@
     "losses": 340,
     "ties": 1,
     "points": 2841.5,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 138,
+    "rs_ties": 1,
+    "rs_losses": 233,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2560,7 +3952,13 @@
     "losses": 238,
     "ties": 0,
     "points": 3355.8,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 171,
+    "rs_ties": 0,
+    "rs_losses": 201,
+    "record_wins": 14,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2571,7 +3969,13 @@
     "losses": 388,
     "ties": 0,
     "points": 2684.4,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 76,
+    "rs_ties": 0,
+    "rs_losses": 296,
+    "record_wins": 4,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2582,7 +3986,13 @@
     "losses": 356,
     "ties": 2,
     "points": 2833.4,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 112,
+    "rs_ties": 2,
+    "rs_losses": 258,
+    "record_wins": 4,
+    "record_losses": 16,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2593,7 +4003,13 @@
     "losses": 223,
     "ties": 1,
     "points": 3458.5,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 246,
+    "rs_ties": 1,
+    "rs_losses": 125,
+    "record_wins": 12,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2604,7 +4020,13 @@
     "losses": 359,
     "ties": 1,
     "points": 2782.0,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 160,
+    "rs_ties": 1,
+    "rs_losses": 211,
+    "record_wins": 6,
+    "record_losses": 13,
+    "record_ties": 2
   },
   {
     "season": 2021,
@@ -2615,7 +4037,13 @@
     "losses": 298,
     "ties": 1,
     "points": 3049.7,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 157,
+    "rs_ties": 1,
+    "rs_losses": 214,
+    "record_wins": 11,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2021,
@@ -2626,7 +4054,13 @@
     "losses": 298,
     "ties": 0,
     "points": 3009.4,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 153,
+    "rs_ties": 0,
+    "rs_losses": 219,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2637,7 +4071,13 @@
     "losses": 254,
     "ties": 0,
     "points": 3272.7,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 187,
+    "rs_ties": 0,
+    "rs_losses": 185,
+    "record_wins": 10,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2648,7 +4088,13 @@
     "losses": 255,
     "ties": 1,
     "points": 3271.7,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 163,
+    "rs_ties": 0,
+    "rs_losses": 209,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2659,7 +4105,13 @@
     "losses": 322,
     "ties": 0,
     "points": 2942.3,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 174,
+    "rs_ties": 0,
+    "rs_losses": 198,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2670,7 +4122,13 @@
     "losses": 296,
     "ties": 0,
     "points": 2959.6,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 158,
+    "rs_ties": 0,
+    "rs_losses": 214,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2681,7 +4139,13 @@
     "losses": 366,
     "ties": 0,
     "points": 2754.0,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 136,
+    "rs_ties": 0,
+    "rs_losses": 236,
+    "record_wins": 4,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2692,7 +4156,13 @@
     "losses": 208,
     "ties": 0,
     "points": 3469.9,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 201,
+    "rs_ties": 0,
+    "rs_losses": 171,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2703,7 +4173,13 @@
     "losses": 145,
     "ties": 1,
     "points": 3816.3,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 260,
+    "rs_ties": 1,
+    "rs_losses": 111,
+    "record_wins": 16,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2714,7 +4190,13 @@
     "losses": 312,
     "ties": 0,
     "points": 2995.8,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 187,
+    "rs_ties": 0,
+    "rs_losses": 185,
+    "record_wins": 6,
+    "record_losses": 13,
+    "record_ties": 3
   },
   {
     "season": 2021,
@@ -2725,7 +4207,13 @@
     "losses": 269,
     "ties": 0,
     "points": 3189.4,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 163,
+    "rs_ties": 0,
+    "rs_losses": 209,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2736,7 +4224,13 @@
     "losses": 235,
     "ties": 0,
     "points": 3318.4,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 210,
+    "rs_ties": 0,
+    "rs_losses": 162,
+    "record_wins": 10,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2747,7 +4241,13 @@
     "losses": 218,
     "ties": 0,
     "points": 3406.7,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 220,
+    "rs_ties": 0,
+    "rs_losses": 152,
+    "record_wins": 16,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2758,7 +4258,13 @@
     "losses": 152,
     "ties": 0,
     "points": 3747.7,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 291,
+    "rs_ties": 0,
+    "rs_losses": 81,
+    "record_wins": 15,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2769,7 +4275,13 @@
     "losses": 189,
     "ties": 1,
     "points": 3635.0,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 233,
+    "rs_ties": 1,
+    "rs_losses": 138,
+    "record_wins": 13,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2780,7 +4292,13 @@
     "losses": 193,
     "ties": 0,
     "points": 3526.5,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 226,
+    "rs_ties": 0,
+    "rs_losses": 146,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2021,
@@ -2791,7 +4309,13 @@
     "losses": 342,
     "ties": 0,
     "points": 2806.2,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 146,
+    "rs_ties": 0,
+    "rs_losses": 226,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2021,
@@ -2802,7 +4326,13 @@
     "losses": 303,
     "ties": 0,
     "points": 3041.5,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 149,
+    "rs_ties": 0,
+    "rs_losses": 223,
+    "record_wins": 10,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2021,
@@ -2813,7 +4343,13 @@
     "losses": 292,
     "ties": 2,
     "points": 3077.6,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 151,
+    "rs_ties": 2,
+    "rs_losses": 219,
+    "record_wins": 6,
+    "record_losses": 15,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2824,7 +4360,13 @@
     "losses": 257,
     "ties": 0,
     "points": 3296.7,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 250,
+    "rs_ties": 0,
+    "rs_losses": 122,
+    "record_wins": 10,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2835,7 +4377,13 @@
     "losses": 211,
     "ties": 0,
     "points": 3465.0,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 202,
+    "rs_ties": 0,
+    "rs_losses": 170,
+    "record_wins": 14,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2846,7 +4394,13 @@
     "losses": 283,
     "ties": 0,
     "points": 3199.2,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 183,
+    "rs_ties": 0,
+    "rs_losses": 189,
+    "record_wins": 7,
+    "record_losses": 12,
+    "record_ties": 2
   },
   {
     "season": 2022,
@@ -2857,7 +4411,13 @@
     "losses": 198,
     "ties": 1,
     "points": 3660.0,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 238,
+    "rs_ties": 1,
+    "rs_losses": 133,
+    "record_wins": 15,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2868,7 +4428,13 @@
     "losses": 124,
     "ties": 1,
     "points": 3973.7,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 297,
+    "rs_ties": 1,
+    "rs_losses": 74,
+    "record_wins": 17,
+    "record_losses": 2,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2879,7 +4445,13 @@
     "losses": 347,
     "ties": 2,
     "points": 2983.2,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 114,
+    "rs_ties": 1,
+    "rs_losses": 257,
+    "record_wins": 4,
+    "record_losses": 13,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2890,7 +4462,13 @@
     "losses": 274,
     "ties": 1,
     "points": 3255.5,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 152,
+    "rs_ties": 1,
+    "rs_losses": 219,
+    "record_wins": 11,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2901,7 +4479,13 @@
     "losses": 356,
     "ties": 0,
     "points": 2935.9,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 158,
+    "rs_ties": 0,
+    "rs_losses": 214,
+    "record_wins": 7,
+    "record_losses": 13,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2912,7 +4496,13 @@
     "losses": 331,
     "ties": 1,
     "points": 3060.2,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 126,
+    "rs_ties": 0,
+    "rs_losses": 246,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2923,7 +4513,13 @@
     "losses": 201,
     "ties": 0,
     "points": 3519.3,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 236,
+    "rs_ties": 0,
+    "rs_losses": 136,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2934,7 +4530,13 @@
     "losses": 353,
     "ties": 1,
     "points": 2910.3,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 105,
+    "rs_ties": 0,
+    "rs_losses": 267,
+    "record_wins": 4,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2945,7 +4547,13 @@
     "losses": 238,
     "ties": 0,
     "points": 3363.5,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 215,
+    "rs_ties": 0,
+    "rs_losses": 157,
+    "record_wins": 7,
+    "record_losses": 11,
+    "record_ties": 3
   },
   {
     "season": 2022,
@@ -2956,7 +4564,13 @@
     "losses": 242,
     "ties": 1,
     "points": 3344.3,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 205,
+    "rs_ties": 1,
+    "rs_losses": 166,
+    "record_wins": 12,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -2967,7 +4581,13 @@
     "losses": 277,
     "ties": 0,
     "points": 3228.8,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 165,
+    "rs_ties": 0,
+    "rs_losses": 207,
+    "record_wins": 11,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2978,7 +4598,13 @@
     "losses": 241,
     "ties": 0,
     "points": 3370.0,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 170,
+    "rs_ties": 0,
+    "rs_losses": 202,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -2989,7 +4615,13 @@
     "losses": 326,
     "ties": 1,
     "points": 3092.6,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 140,
+    "rs_ties": 1,
+    "rs_losses": 231,
+    "record_wins": 6,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3000,7 +4632,13 @@
     "losses": 215,
     "ties": 2,
     "points": 3488.8,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 230,
+    "rs_ties": 0,
+    "rs_losses": 142,
+    "record_wins": 14,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3011,7 +4649,13 @@
     "losses": 245,
     "ties": 1,
     "points": 3354.5,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 201,
+    "rs_ties": 0,
+    "rs_losses": 171,
+    "record_wins": 11,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3022,7 +4666,13 @@
     "losses": 180,
     "ties": 0,
     "points": 3617.4,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 237,
+    "rs_ties": 0,
+    "rs_losses": 135,
+    "record_wins": 16,
+    "record_losses": 4,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3033,7 +4683,13 @@
     "losses": 402,
     "ties": 1,
     "points": 2751.1,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 110,
+    "rs_ties": 1,
+    "rs_losses": 261,
+    "record_wins": 5,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3044,7 +4700,13 @@
     "losses": 245,
     "ties": 0,
     "points": 3361.0,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 192,
+    "rs_ties": 0,
+    "rs_losses": 180,
+    "record_wins": 10,
+    "record_losses": 8,
+    "record_ties": 3
   },
   {
     "season": 2022,
@@ -3055,7 +4717,13 @@
     "losses": 322,
     "ties": 1,
     "points": 3062.3,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 158,
+    "rs_ties": 0,
+    "rs_losses": 214,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3066,7 +4734,13 @@
     "losses": 311,
     "ties": 0,
     "points": 3059.1,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 161,
+    "rs_ties": 0,
+    "rs_losses": 211,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3077,7 +4751,13 @@
     "losses": 392,
     "ties": 0,
     "points": 2752.2,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 54,
+    "rs_ties": 0,
+    "rs_losses": 318,
+    "record_wins": 2,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3088,7 +4768,13 @@
     "losses": 327,
     "ties": 2,
     "points": 2984.3,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 157,
+    "rs_ties": 2,
+    "rs_losses": 213,
+    "record_wins": 4,
+    "record_losses": 14,
+    "record_ties": 3
   },
   {
     "season": 2022,
@@ -3099,7 +4785,13 @@
     "losses": 263,
     "ties": 0,
     "points": 3273.1,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 152,
+    "rs_ties": 0,
+    "rs_losses": 220,
+    "record_wins": 5,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3110,7 +4802,13 @@
     "losses": 123,
     "ties": 1,
     "points": 3891.2000000000003,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 268,
+    "rs_ties": 1,
+    "rs_losses": 103,
+    "record_wins": 14,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2022,
@@ -3121,7 +4819,13 @@
     "losses": 172,
     "ties": 0,
     "points": 3619.3,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 252,
+    "rs_ties": 0,
+    "rs_losses": 120,
+    "record_wins": 15,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3132,7 +4836,13 @@
     "losses": 167,
     "ties": 1,
     "points": 3722.6,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 261,
+    "rs_ties": 0,
+    "rs_losses": 111,
+    "record_wins": 14,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3143,7 +4853,13 @@
     "losses": 336,
     "ties": 0,
     "points": 2913.7,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 140,
+    "rs_ties": 0,
+    "rs_losses": 232,
+    "record_wins": 8,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2022,
@@ -3154,7 +4870,13 @@
     "losses": 242,
     "ties": 0,
     "points": 3364.4,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 201,
+    "rs_ties": 0,
+    "rs_losses": 171,
+    "record_wins": 10,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2022,
@@ -3165,7 +4887,13 @@
     "losses": 222,
     "ties": 0,
     "points": 3403.3,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 217,
+    "rs_ties": 0,
+    "rs_losses": 155,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3176,7 +4904,13 @@
     "losses": 376,
     "ties": 0,
     "points": 2799.9,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 142,
+    "rs_ties": 0,
+    "rs_losses": 230,
+    "record_wins": 6,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3187,7 +4921,13 @@
     "losses": 235,
     "ties": 2,
     "points": 3366.7,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 228,
+    "rs_ties": 0,
+    "rs_losses": 144,
+    "record_wins": 15,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3198,7 +4938,13 @@
     "losses": 209,
     "ties": 0,
     "points": 3643.0,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 205,
+    "rs_ties": 0,
+    "rs_losses": 167,
+    "record_wins": 17,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3209,7 +4955,13 @@
     "losses": 213,
     "ties": 1,
     "points": 3535.9,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 236,
+    "rs_ties": 1,
+    "rs_losses": 135,
+    "record_wins": 14,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3220,7 +4972,13 @@
     "losses": 213,
     "ties": 1,
     "points": 3556.3,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 211,
+    "rs_ties": 1,
+    "rs_losses": 160,
+    "record_wins": 13,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3231,7 +4989,13 @@
     "losses": 242,
     "ties": 1,
     "points": 3429.3,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 172,
+    "rs_ties": 1,
+    "rs_losses": 199,
+    "record_wins": 15,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3242,7 +5006,13 @@
     "losses": 254,
     "ties": 0,
     "points": 3301.5,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 179,
+    "rs_ties": 0,
+    "rs_losses": 193,
+    "record_wins": 7,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3253,7 +5023,13 @@
     "losses": 240,
     "ties": 0,
     "points": 3425.2,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 197,
+    "rs_ties": 0,
+    "rs_losses": 175,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3264,7 +5040,13 @@
     "losses": 287,
     "ties": 1,
     "points": 3184.5,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 160,
+    "rs_ties": 1,
+    "rs_losses": 211,
+    "record_wins": 7,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3275,7 +5057,13 @@
     "losses": 277,
     "ties": 0,
     "points": 3294.6,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 182,
+    "rs_ties": 0,
+    "rs_losses": 190,
+    "record_wins": 9,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3286,7 +5074,13 @@
     "losses": 293,
     "ties": 0,
     "points": 3201.1,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 184,
+    "rs_ties": 0,
+    "rs_losses": 188,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3297,7 +5091,13 @@
     "losses": 237,
     "ties": 0,
     "points": 3441.4,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 241,
+    "rs_ties": 0,
+    "rs_losses": 131,
+    "record_wins": 15,
+    "record_losses": 6,
+    "record_ties": 2
   },
   {
     "season": 2023,
@@ -3308,7 +5108,13 @@
     "losses": 266,
     "ties": 3,
     "points": 3231.5,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 196,
+    "rs_ties": 1,
+    "rs_losses": 175,
+    "record_wins": 11,
+    "record_losses": 8,
+    "record_ties": 4
   },
   {
     "season": 2023,
@@ -3319,7 +5125,13 @@
     "losses": 291,
     "ties": 2,
     "points": 3215.2,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 160,
+    "rs_ties": 0,
+    "rs_losses": 212,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3330,7 +5142,13 @@
     "losses": 431,
     "ties": 0,
     "points": 2581.8,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 67,
+    "rs_ties": 0,
+    "rs_losses": 305,
+    "record_wins": 0,
+    "record_losses": 19,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3341,7 +5159,13 @@
     "losses": 177,
     "ties": 2,
     "points": 3685.1,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 246,
+    "rs_ties": 2,
+    "rs_losses": 124,
+    "record_wins": 18,
+    "record_losses": 2,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3352,7 +5176,13 @@
     "losses": 223,
     "ties": 0,
     "points": 3510.9,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 188,
+    "rs_ties": 0,
+    "rs_losses": 184,
+    "record_wins": 15,
+    "record_losses": 5,
+    "record_ties": 2
   },
   {
     "season": 2023,
@@ -3363,7 +5193,13 @@
     "losses": 257,
     "ties": 0,
     "points": 3300.2,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 169,
+    "rs_ties": 0,
+    "rs_losses": 203,
+    "record_wins": 12,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3374,7 +5210,13 @@
     "losses": 220,
     "ties": 0,
     "points": 3449.7,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 238,
+    "rs_ties": 0,
+    "rs_losses": 134,
+    "record_wins": 13,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3385,7 +5227,13 @@
     "losses": 303,
     "ties": 1,
     "points": 3119.2,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 145,
+    "rs_ties": 0,
+    "rs_losses": 227,
+    "record_wins": 6,
+    "record_losses": 17,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3396,7 +5244,13 @@
     "losses": 281,
     "ties": 2,
     "points": 3232.5,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 177,
+    "rs_ties": 2,
+    "rs_losses": 193,
+    "record_wins": 8,
+    "record_losses": 12,
+    "record_ties": 3
   },
   {
     "season": 2023,
@@ -3407,7 +5261,13 @@
     "losses": 234,
     "ties": 0,
     "points": 3396.5,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 229,
+    "rs_ties": 0,
+    "rs_losses": 143,
+    "record_wins": 11,
+    "record_losses": 10,
+    "record_ties": 2
   },
   {
     "season": 2023,
@@ -3418,7 +5278,13 @@
     "losses": 362,
     "ties": 0,
     "points": 2918.6,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 94,
+    "rs_ties": 0,
+    "rs_losses": 278,
+    "record_wins": 5,
+    "record_losses": 17,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3429,7 +5295,13 @@
     "losses": 275,
     "ties": 0,
     "points": 3265.0,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 183,
+    "rs_ties": 0,
+    "rs_losses": 189,
+    "record_wins": 10,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3440,7 +5312,13 @@
     "losses": 326,
     "ties": 1,
     "points": 3014.9,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 138,
+    "rs_ties": 1,
+    "rs_losses": 233,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3451,7 +5329,13 @@
     "losses": 368,
     "ties": 0,
     "points": 2789.6,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 138,
+    "rs_ties": 0,
+    "rs_losses": 234,
+    "record_wins": 7,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3462,7 +5346,13 @@
     "losses": 165,
     "ties": 0,
     "points": 3884.3,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 237,
+    "rs_ties": 0,
+    "rs_losses": 135,
+    "record_wins": 14,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3473,7 +5363,13 @@
     "losses": 219,
     "ties": 0,
     "points": 3503.6,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 211,
+    "rs_ties": 0,
+    "rs_losses": 161,
+    "record_wins": 15,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3484,7 +5380,13 @@
     "losses": 195,
     "ties": 0,
     "points": 3613.4,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 199,
+    "rs_ties": 0,
+    "rs_losses": 173,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -3495,7 +5397,13 @@
     "losses": 218,
     "ties": 1,
     "points": 3492.7,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 227,
+    "rs_ties": 0,
+    "rs_losses": 145,
+    "record_wins": 14,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3506,7 +5414,13 @@
     "losses": 241,
     "ties": 0,
     "points": 3434.7,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 191,
+    "rs_ties": 0,
+    "rs_losses": 181,
+    "record_wins": 13,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2023,
@@ -3517,7 +5431,13 @@
     "losses": 294,
     "ties": 2,
     "points": 3143.8,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 176,
+    "rs_ties": 2,
+    "rs_losses": 194,
+    "record_wins": 9,
+    "record_losses": 11,
+    "record_ties": 3
   },
   {
     "season": 2024,
@@ -3528,7 +5448,13 @@
     "losses": 296,
     "ties": 0,
     "points": 3170.5,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 158,
+    "rs_ties": 0,
+    "rs_losses": 214,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3539,7 +5465,13 @@
     "losses": 153,
     "ties": 0,
     "points": 3746.6,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 254,
+    "rs_ties": 0,
+    "rs_losses": 118,
+    "record_wins": 15,
+    "record_losses": 6,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3550,7 +5482,13 @@
     "losses": 247,
     "ties": 0,
     "points": 3386.9,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 186,
+    "rs_ties": 0,
+    "rs_losses": 186,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3561,7 +5499,13 @@
     "losses": 184,
     "ties": 1,
     "points": 3616.8,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 273,
+    "rs_ties": 1,
+    "rs_losses": 98,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3572,7 +5516,13 @@
     "losses": 258,
     "ties": 0,
     "points": 3345.8,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 162,
+    "rs_ties": 0,
+    "rs_losses": 210,
+    "record_wins": 10,
+    "record_losses": 9,
+    "record_ties": 3
   },
   {
     "season": 2024,
@@ -3583,7 +5533,13 @@
     "losses": 156,
     "ties": 2,
     "points": 3780.0,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 277,
+    "rs_ties": 1,
+    "rs_losses": 94,
+    "record_wins": 16,
+    "record_losses": 5,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3594,7 +5550,13 @@
     "losses": 396,
     "ties": 0,
     "points": 2741.4,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 110,
+    "rs_ties": 0,
+    "rs_losses": 262,
+    "record_wins": 3,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3605,7 +5567,13 @@
     "losses": 342,
     "ties": 2,
     "points": 3021.4,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 128,
+    "rs_ties": 1,
+    "rs_losses": 243,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3616,7 +5584,13 @@
     "losses": 173,
     "ties": 0,
     "points": 3627.4,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 253,
+    "rs_ties": 0,
+    "rs_losses": 119,
+    "record_wins": 14,
+    "record_losses": 7,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3627,7 +5601,13 @@
     "losses": 320,
     "ties": 1,
     "points": 3125.3,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 138,
+    "rs_ties": 0,
+    "rs_losses": 234,
+    "record_wins": 8,
+    "record_losses": 13,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3638,7 +5618,13 @@
     "losses": 314,
     "ties": 0,
     "points": 3082.4,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 144,
+    "rs_ties": 0,
+    "rs_losses": 228,
+    "record_wins": 6,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3649,7 +5635,13 @@
     "losses": 240,
     "ties": 0,
     "points": 3362.1,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 213,
+    "rs_ties": 0,
+    "rs_losses": 159,
+    "record_wins": 14,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3660,7 +5652,13 @@
     "losses": 322,
     "ties": 0,
     "points": 3073.0,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 153,
+    "rs_ties": 0,
+    "rs_losses": 219,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3671,7 +5669,13 @@
     "losses": 357,
     "ties": 0,
     "points": 2910.6,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 125,
+    "rs_ties": 0,
+    "rs_losses": 247,
+    "record_wins": 3,
+    "record_losses": 18,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3682,7 +5686,13 @@
     "losses": 339,
     "ties": 0,
     "points": 2978.1,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 157,
+    "rs_ties": 0,
+    "rs_losses": 215,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3693,7 +5703,13 @@
     "losses": 125,
     "ties": 3,
     "points": 3852.5,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 277,
+    "rs_ties": 3,
+    "rs_losses": 92,
+    "record_wins": 16,
+    "record_losses": 4,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3704,7 +5720,13 @@
     "losses": 273,
     "ties": 0,
     "points": 3197.6,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 195,
+    "rs_ties": 0,
+    "rs_losses": 177,
+    "record_wins": 9,
+    "record_losses": 12,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3715,7 +5737,13 @@
     "losses": 188,
     "ties": 0,
     "points": 3722.3,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 218,
+    "rs_ties": 0,
+    "rs_losses": 154,
+    "record_wins": 18,
+    "record_losses": 3,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3726,7 +5754,13 @@
     "losses": 376,
     "ties": 1,
     "points": 2835.3,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 131,
+    "rs_ties": 0,
+    "rs_losses": 241,
+    "record_wins": 5,
+    "record_losses": 17,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3737,7 +5771,13 @@
     "losses": 233,
     "ties": 0,
     "points": 3513.2,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 188,
+    "rs_ties": 0,
+    "rs_losses": 184,
+    "record_wins": 13,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3748,7 +5788,13 @@
     "losses": 303,
     "ties": 3,
     "points": 3088.3,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 150,
+    "rs_ties": 2,
+    "rs_losses": 220,
+    "record_wins": 7,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3759,7 +5805,13 @@
     "losses": 189,
     "ties": 0,
     "points": 3614.6,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 231,
+    "rs_ties": 0,
+    "rs_losses": 141,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 2
   },
   {
     "season": 2024,
@@ -3770,7 +5822,13 @@
     "losses": 254,
     "ties": 0,
     "points": 3396.2000000000003,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 161,
+    "rs_ties": 0,
+    "rs_losses": 211,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 2
   },
   {
     "season": 2024,
@@ -3781,7 +5839,13 @@
     "losses": 231,
     "ties": 0,
     "points": 3426.8,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 203,
+    "rs_ties": 0,
+    "rs_losses": 169,
+    "record_wins": 14,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3792,7 +5856,13 @@
     "losses": 168,
     "ties": 1,
     "points": 3689.5,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 256,
+    "rs_ties": 1,
+    "rs_losses": 115,
+    "record_wins": 13,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3803,7 +5873,13 @@
     "losses": 256,
     "ties": 1,
     "points": 3227.7,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 184,
+    "rs_ties": 0,
+    "rs_losses": 188,
+    "record_wins": 11,
+    "record_losses": 10,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3814,7 +5890,13 @@
     "losses": 307,
     "ties": 2,
     "points": 3083.7,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 182,
+    "rs_ties": 2,
+    "rs_losses": 188,
+    "record_wins": 8,
+    "record_losses": 11,
+    "record_ties": 2
   },
   {
     "season": 2024,
@@ -3825,7 +5907,13 @@
     "losses": 274,
     "ties": 1,
     "points": 3318.5,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 173,
+    "rs_ties": 1,
+    "rs_losses": 198,
+    "record_wins": 11,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3836,7 +5924,13 @@
     "losses": 219,
     "ties": 0,
     "points": 3541.1,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 220,
+    "rs_ties": 0,
+    "rs_losses": 152,
+    "record_wins": 16,
+    "record_losses": 6,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3847,7 +5941,13 @@
     "losses": 360,
     "ties": 0,
     "points": 2944.3,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 122,
+    "rs_ties": 0,
+    "rs_losses": 250,
+    "record_wins": 4,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2024,
@@ -3858,7 +5958,13 @@
     "losses": 264,
     "ties": 0,
     "points": 3402.3,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 170,
+    "rs_ties": 0,
+    "rs_losses": 202,
+    "record_wins": 7,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2024,
@@ -3869,7 +5975,13 @@
     "losses": 306,
     "ties": 0,
     "points": 3121.7,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 154,
+    "rs_ties": 0,
+    "rs_losses": 218,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3880,7 +5992,13 @@
     "losses": 333,
     "ties": 0,
     "points": 2861.3,
-    "finish": 29
+    "finish": 29,
+    "rs_wins": 177,
+    "rs_ties": 0,
+    "rs_losses": 195,
+    "record_wins": 6,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -3891,7 +6009,13 @@
     "losses": 336,
     "ties": 0,
     "points": 2986.2,
-    "finish": 30
+    "finish": 30,
+    "rs_wins": 100,
+    "rs_ties": 0,
+    "rs_losses": 272,
+    "record_wins": 7,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3902,7 +6026,13 @@
     "losses": 155,
     "ties": 1,
     "points": 3542.7,
-    "finish": 3
+    "finish": 3,
+    "rs_wins": 248,
+    "rs_ties": 0,
+    "rs_losses": 124,
+    "record_wins": 15,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3913,7 +6043,13 @@
     "losses": 166,
     "ties": 0,
     "points": 3546.9,
-    "finish": 1
+    "finish": 1,
+    "rs_wins": 241,
+    "rs_ties": 0,
+    "rs_losses": 131,
+    "record_wins": 18,
+    "record_losses": 3,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -3924,7 +6060,13 @@
     "losses": 220,
     "ties": 1,
     "points": 3388.5,
-    "finish": 15
+    "finish": 15,
+    "rs_wins": 183,
+    "rs_ties": 1,
+    "rs_losses": 188,
+    "record_wins": 13,
+    "record_losses": 8,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -3935,7 +6077,13 @@
     "losses": 218,
     "ties": 1,
     "points": 3391.2,
-    "finish": 17
+    "finish": 17,
+    "rs_wins": 220,
+    "rs_ties": 1,
+    "rs_losses": 151,
+    "record_wins": 12,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -3946,7 +6094,13 @@
     "losses": 329,
     "ties": 1,
     "points": 2818.6,
-    "finish": 28
+    "finish": 28,
+    "rs_wins": 131,
+    "rs_ties": 1,
+    "rs_losses": 240,
+    "record_wins": 5,
+    "record_losses": 14,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -3957,7 +6111,13 @@
     "losses": 204,
     "ties": 1,
     "points": 3333.6,
-    "finish": 12
+    "finish": 12,
+    "rs_wins": 233,
+    "rs_ties": 1,
+    "rs_losses": 138,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3968,7 +6128,13 @@
     "losses": 227,
     "ties": 1,
     "points": 3326.4,
-    "finish": 7
+    "finish": 7,
+    "rs_wins": 218,
+    "rs_ties": 1,
+    "rs_losses": 153,
+    "record_wins": 13,
+    "record_losses": 9,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3979,7 +6145,13 @@
     "losses": 250,
     "ties": 0,
     "points": 3221.6,
-    "finish": 10
+    "finish": 10,
+    "rs_wins": 206,
+    "rs_ties": 0,
+    "rs_losses": 166,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -3990,7 +6162,13 @@
     "losses": 216,
     "ties": 0,
     "points": 3412.3,
-    "finish": 6
+    "finish": 6,
+    "rs_wins": 259,
+    "rs_ties": 0,
+    "rs_losses": 113,
+    "record_wins": 12,
+    "record_losses": 8,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4001,7 +6179,13 @@
     "losses": 301,
     "ties": 1,
     "points": 2996.3,
-    "finish": 25
+    "finish": 25,
+    "rs_wins": 168,
+    "rs_ties": 1,
+    "rs_losses": 203,
+    "record_wins": 11,
+    "record_losses": 9,
+    "record_ties": 2
   },
   {
     "season": 2025,
@@ -4012,7 +6196,13 @@
     "losses": 291,
     "ties": 0,
     "points": 3017.1,
-    "finish": 23
+    "finish": 23,
+    "rs_wins": 137,
+    "rs_ties": 0,
+    "rs_losses": 235,
+    "record_wins": 5,
+    "record_losses": 16,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4023,7 +6213,13 @@
     "losses": 294,
     "ties": 0,
     "points": 3011.3,
-    "finish": 24
+    "finish": 24,
+    "rs_wins": 198,
+    "rs_ties": 0,
+    "rs_losses": 174,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4034,7 +6230,13 @@
     "losses": 243,
     "ties": 0,
     "points": 3220.0,
-    "finish": 14
+    "finish": 14,
+    "rs_wins": 210,
+    "rs_ties": 0,
+    "rs_losses": 162,
+    "record_wins": 17,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4045,7 +6247,13 @@
     "losses": 276,
     "ties": 2,
     "points": 3099.2,
-    "finish": 22
+    "finish": 22,
+    "rs_wins": 160,
+    "rs_ties": 1,
+    "rs_losses": 211,
+    "record_wins": 8,
+    "record_losses": 14,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4056,7 +6264,13 @@
     "losses": 275,
     "ties": 1,
     "points": 3097.6,
-    "finish": 11
+    "finish": 11,
+    "rs_wins": 194,
+    "rs_ties": 1,
+    "rs_losses": 177,
+    "record_wins": 10,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4067,7 +6281,13 @@
     "losses": 241,
     "ties": 0,
     "points": 3269.4,
-    "finish": 9
+    "finish": 9,
+    "rs_wins": 229,
+    "rs_ties": 0,
+    "rs_losses": 143,
+    "record_wins": 15,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4078,7 +6298,13 @@
     "losses": 304,
     "ties": 0,
     "points": 2966.2,
-    "finish": 26
+    "finish": 26,
+    "rs_wins": 161,
+    "rs_ties": 0,
+    "rs_losses": 211,
+    "record_wins": 9,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4089,7 +6315,13 @@
     "losses": 247,
     "ties": 1,
     "points": 3285.4,
-    "finish": 18
+    "finish": 18,
+    "rs_wins": 181,
+    "rs_ties": 0,
+    "rs_losses": 191,
+    "record_wins": 10,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4100,7 +6332,13 @@
     "losses": 252,
     "ties": 2,
     "points": 3193.6,
-    "finish": 8
+    "finish": 8,
+    "rs_wins": 190,
+    "rs_ties": 1,
+    "rs_losses": 181,
+    "record_wins": 12,
+    "record_losses": 10,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4111,7 +6349,13 @@
     "losses": 274,
     "ties": 0,
     "points": 3143.4,
-    "finish": 21
+    "finish": 21,
+    "rs_wins": 184,
+    "rs_ties": 0,
+    "rs_losses": 188,
+    "record_wins": 10,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -4122,7 +6366,13 @@
     "losses": 175,
     "ties": 0,
     "points": 3563.1,
-    "finish": 2
+    "finish": 2,
+    "rs_wins": 232,
+    "rs_ties": 0,
+    "rs_losses": 140,
+    "record_wins": 15,
+    "record_losses": 5,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4133,7 +6383,13 @@
     "losses": 321,
     "ties": 0,
     "points": 2912.8,
-    "finish": 27
+    "finish": 27,
+    "rs_wins": 125,
+    "rs_ties": 0,
+    "rs_losses": 247,
+    "record_wins": 7,
+    "record_losses": 15,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4144,7 +6400,13 @@
     "losses": 251,
     "ties": 0,
     "points": 3186.9,
-    "finish": 13
+    "finish": 13,
+    "rs_wins": 224,
+    "rs_ties": 0,
+    "rs_losses": 148,
+    "record_wins": 11,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4155,7 +6417,13 @@
     "losses": 248,
     "ties": 0,
     "points": 3223.8,
-    "finish": 19
+    "finish": 19,
+    "rs_wins": 192,
+    "rs_ties": 0,
+    "rs_losses": 180,
+    "record_wins": 11,
+    "record_losses": 11,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4166,7 +6434,13 @@
     "losses": 250,
     "ties": 1,
     "points": 3227.4,
-    "finish": 5
+    "finish": 5,
+    "rs_wins": 183,
+    "rs_ties": 1,
+    "rs_losses": 188,
+    "record_wins": 15,
+    "record_losses": 7,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4177,7 +6451,13 @@
     "losses": 250,
     "ties": 1,
     "points": 3204.2,
-    "finish": 20
+    "finish": 20,
+    "rs_wins": 183,
+    "rs_ties": 1,
+    "rs_losses": 188,
+    "record_wins": 10,
+    "record_losses": 12,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4188,7 +6468,13 @@
     "losses": 406,
     "ties": 0,
     "points": 2602.3,
-    "finish": 32
+    "finish": 32,
+    "rs_wins": 89,
+    "rs_ties": 0,
+    "rs_losses": 283,
+    "record_wins": 4,
+    "record_losses": 13,
+    "record_ties": 0
   },
   {
     "season": 2025,
@@ -4199,7 +6485,13 @@
     "losses": 233,
     "ties": 0,
     "points": 3259.5,
-    "finish": 16
+    "finish": 16,
+    "rs_wins": 182,
+    "rs_ties": 0,
+    "rs_losses": 190,
+    "record_wins": 10,
+    "record_losses": 11,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -4210,7 +6502,13 @@
     "losses": 257,
     "ties": 0,
     "points": 3163.2,
-    "finish": 4
+    "finish": 4,
+    "rs_wins": 179,
+    "rs_ties": 0,
+    "rs_losses": 193,
+    "record_wins": 12,
+    "record_losses": 9,
+    "record_ties": 1
   },
   {
     "season": 2025,
@@ -4221,6 +6519,12 @@
     "losses": 381,
     "ties": 1,
     "points": 2664.5,
-    "finish": 31
+    "finish": 31,
+    "rs_wins": 129,
+    "rs_ties": 1,
+    "rs_losses": 242,
+    "record_wins": 4,
+    "record_losses": 18,
+    "record_ties": 0
   }
 ]

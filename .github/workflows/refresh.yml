@@ -166,6 +166,10 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         run: python3 scripts/publication_marker.py
 
+      - name: Rebuild Trophy Room from canonical history
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python3 scripts/build_trophy_room.py
+
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |
@@ -218,3 +222,4 @@ jobs:
         env:
           BONUS_MFL_STATUS: ${{ steps.bonus_mfl.outcome }}
         run: test "$BONUS_MFL_STATUS" = success
+

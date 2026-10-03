@@ -1,0 +1,20 @@
+{
+  "league": "FAFL",
+  "corrections": [
+    {
+      "season": 2018,
+      "event": "AFC Consolation Ladder Championship",
+      "winner": "NEP",
+      "runnerUp": "OAK",
+      "actualScores": {"NEP": 176.5, "OAK": 169.7},
+      "cause": "Week 16 source used potential points instead of actual scores, reversing the winner.",
+      "payoutSource": "https://docs.google.com/spreadsheets/d/1r-ECrc0e25EY6xlSpWk4yukPI5S6k9A6qCPtAG5_4AY/edit",
+      "correctedCell": "Money!C15",
+      "correctedValue": "NEP",
+      "expectedFinalPayouts": {"NEP": 90, "OAK": 0},
+      "policy": "Use the corrected canonical history and payout workbook. Reject stale imports naming OAK as ladder champion; do not add another $90 adjustment to an already-corrected total.",
+      "verifiedCache": "C:/Users/Michael/Documents/Codex/2026-09-15/i-d/work/gm-profiles/FAFL-2018-payouts.xlsx",
+      "canonicalHistoryNotes": "C:/Users/Michael/Documents/Codex/2026-09-15/i-d/publish-fafl/data/gm_career_README.md"
+    }
+  ]
+}

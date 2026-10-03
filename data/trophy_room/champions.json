@@ -1,0 +1,230 @@
+[
+  {
+    "year": 2014,
+    "champion": "Indianapolis Colts",
+    "runner": "Carolina Panthers",
+    "championRecord": "13-3-0",
+    "runnerRecord": "12-4-0",
+    "gm": "Michael DiFiore",
+    "score": "239.4 - 235.1",
+    "awards": {
+      "NFC HC": "LAR (0.715)",
+      "NFC OC": "TBB (92.9)",
+      "NFC DC": "DET (111.8)",
+      "NFC GM": "Not awarded",
+      "AFC HC": "KCC (0.743)",
+      "AFC OC": "KCC (96.4)",
+      "AFC DC": "CLE (104.9)",
+      "AFC GM": "Not awarded"
+    }
+  },
+  {
+    "year": 2015,
+    "champion": "Chicago Bears",
+    "runner": "Kansas City Chiefs",
+    "championRecord": "15-0-1",
+    "runnerRecord": "12-4-0",
+    "gm": "Mike Filicicchia",
+    "score": "223.4 - 171.4",
+    "awards": {
+      "NFC HC": "CHI (0.747)",
+      "NFC OC": "SEA (96.3)",
+      "NFC DC": "CHI (110.0)",
+      "NFC GM": "CHI (244.6)",
+      "AFC HC": "BUF (0.815)",
+      "AFC OC": "BUF (103.0)",
+      "AFC DC": "KCC (114.0)",
+      "AFC GM": "BUF (244.8)"
+    }
+  },
+  {
+    "year": 2016,
+    "champion": "Chicago Bears",
+    "runner": "New England Patriots",
+    "championRecord": "15-1-0",
+    "runnerRecord": "12-4-0",
+    "gm": "Mike Filicicchia",
+    "score": "229.1 - 165.7",
+    "awards": {
+      "NFC HC": "TBB (0.734)",
+      "NFC OC": "TBB (107.1)",
+      "NFC DC": "LAR (113.9)",
+      "NFC GM": "CHI (248.7)",
+      "AFC HC": "BAL (0.667)",
+      "AFC OC": "HOU (105.7)",
+      "AFC DC": "PIT (102.8)",
+      "AFC GM": "KCC (234.2)"
+    }
+  },
+  {
+    "year": 2017,
+    "champion": "Jacksonville Jaguars",
+    "runner": "New York Giants",
+    "championRecord": "9-5-2",
+    "runnerRecord": "12-4-0",
+    "gm": "Chase Marak",
+    "score": "189.7 - 175.0",
+    "awards": {
+      "NFC HC": "TBB (0.737)",
+      "NFC OC": "CHI (89.9)",
+      "NFC DC": "TBB (115.2)",
+      "NFC GM": "NYG (224.5)",
+      "AFC HC": "KCC (0.724)",
+      "AFC OC": "KCC (97.5)",
+      "AFC DC": "DEN (108.4)",
+      "AFC GM": "KCC (243.1)"
+    }
+  },
+  {
+    "year": 2018,
+    "champion": "Chicago Bears",
+    "runner": "Denver Broncos",
+    "championRecord": "11-4-1",
+    "runnerRecord": "13-3-0",
+    "gm": "Mike Filicicchia",
+    "score": "245.8 - 128.6",
+    "awards": {
+      "NFC HC": "CHI (0.704)",
+      "NFC OC": "NYG (112.1)",
+      "NFC DC": "CHI (119.0)",
+      "NFC GM": "NYG (245.1)",
+      "AFC HC": "HOU (0.737)",
+      "AFC OC": "CIN (110.1)",
+      "AFC DC": "HOU (102.5)",
+      "AFC GM": "HOU (248.1)"
+    }
+  },
+  {
+    "year": 2019,
+    "champion": "Kansas City Chiefs",
+    "runner": "Minnesota Vikings",
+    "championRecord": "13-6-1",
+    "runnerRecord": "13-7-0",
+    "gm": "Michael Cummings",
+    "score": "200.2 - 192.2",
+    "awards": {
+      "NFC HC": "CAR (0.737)",
+      "NFC OC": "CAR (111.9)",
+      "NFC DC": "ARI (111.9)",
+      "NFC GM": "CAR (262.8)",
+      "AFC HC": "DEN (0.696)",
+      "AFC OC": "KCC (108.0)",
+      "AFC DC": "DEN (117.0)",
+      "AFC GM": "BAL (250.1)"
+    }
+  },
+  {
+    "year": 2020,
+    "champion": "Jacksonville Jaguars",
+    "runner": "Tampa Bay Buccaneers",
+    "championRecord": "15-4-0",
+    "runnerRecord": "12-7-1",
+    "gm": "Chase Marak",
+    "score": "252.4 - 182.7",
+    "awards": {
+      "NFC HC": "CHI (0.786)",
+      "NFC OC": "CHI (116.8)",
+      "NFC DC": "CHI (119.5)",
+      "NFC GM": "CHI (269.8)",
+      "AFC HC": "JAC (0.743)",
+      "AFC OC": "JAC (121.7)",
+      "AFC DC": "DEN (118.6)",
+      "AFC GM": "JAC (272.0)"
+    }
+  },
+  {
+    "year": 2021,
+    "champion": "Cincinnati Bengals",
+    "runner": "New York Giants",
+    "championRecord": "16-6-0",
+    "runnerRecord": "14-8-0",
+    "gm": "James Martin",
+    "score": "261.6 - 220.7",
+    "awards": {
+      "NFC HC": "PHI (0.718)",
+      "NFC OC": "PHI (116.2)",
+      "NFC DC": "TBB (122.0)",
+      "NFC GM": "PHI (272.7)",
+      "AFC HC": "JAC (0.782)",
+      "AFC OC": "CIN (119.0)",
+      "AFC DC": "JAC (123.1)",
+      "AFC GM": "JAC (269.2)"
+    }
+  },
+  {
+    "year": 2022,
+    "champion": "Jacksonville Jaguars",
+    "runner": "Chicago Bears",
+    "championRecord": "14-5-1",
+    "runnerRecord": "17-2-1",
+    "gm": "Chase ",
+    "score": "239.0 - 185.0",
+    "awards": {
+      "NFC HC": "CHI (0.800)",
+      "NFC OC": "CHI (128.2)",
+      "NFC DC": "DAL (114.5)",
+      "NFC GM": "CHI (278.5)",
+      "AFC HC": "JAC (0.722)",
+      "AFC OC": "JAC (121.5)",
+      "AFC DC": "LVR (113.0)",
+      "AFC GM": "TEN (269.2)"
+    }
+  },
+  {
+    "year": 2023,
+    "champion": "Philadelphia Eagles",
+    "runner": "New England Patriots",
+    "championRecord": "17-5-1",
+    "runnerRecord": "13-8-0",
+    "gm": "Schuyler Ferguson",
+    "score": "290.4 - 134.9",
+    "awards": {
+      "NFC HC": "SEA (0.180)",
+      "NFC OC": "PHI (106.1)",
+      "NFC DC": "ATL (118.5)",
+      "NFC GM": "TBB (257.4)",
+      "AFC HC": "NEP (0.640)",
+      "AFC OC": "NEP (112.5)",
+      "AFC DC": "JAC (132.0)",
+      "AFC GM": "JAC (277.2)"
+    }
+  },
+  {
+    "year": 2024,
+    "champion": "Miami Dolphins",
+    "runner": "Atlanta Falcons",
+    "championRecord": "18-3-1",
+    "runnerRecord": "14-7-1",
+    "gm": "Stone Zhou",
+    "score": "220.0 - 152.1",
+    "awards": {
+      "NFC HC": "SEA (0.422)",
+      "NFC OC": "ATL (123.3)",
+      "NFC DC": "NYG (118.1)",
+      "NFC GM": "DET (269.5)",
+      "AFC HC": "HOU (0.690)",
+      "AFC OC": "HOU (124.1)",
+      "AFC DC": "CIN (111.4)",
+      "AFC GM": "HOU (257.0)"
+    }
+  },
+  {
+    "year": 2025,
+    "champion": "Washington Commanders",
+    "runner": "Cleveland Browns",
+    "championRecord": "18-3-1",
+    "runnerRecord": "15-5-0",
+    "gm": "Brandon Owens",
+    "score": "257.3 - 160.2",
+    "awards": {
+      "NFC HC": "NOS (0.696)",
+      "NFC OC": "ATL (111.2)",
+      "NFC DC": "NOS (120.2)",
+      "NFC GM": "NOS (251.5)",
+      "AFC HC": "MIA (0.616)",
+      "AFC OC": "CLE (109.7)",
+      "AFC DC": "CIN (109.1)",
+      "AFC GM": "MIA (248.8)"
+    }
+  }
+]
