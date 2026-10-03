@@ -38,10 +38,10 @@ class CareerHistoryTests(unittest.TestCase):
 
     def test_current_owner_can_be_recovered_from_season_history(self):
         washington = _current_profiles(ROOT, 2026)['Washington Commanders']
-        self.assertEqual(washington['gm'], 'Brandon Owens')
-        self.assertEqual(washington['experience'], 1)
-        self.assertEqual(washington['best'], 1)
-        self.assertEqual(washington['bestYears'], [2025])
+        self.assertEqual(washington['gm'], 'Frank Roberts')
+        self.assertEqual(washington['experience'], 0)
+        self.assertIsNone(washington['best'])
+        self.assertEqual(washington['bestYears'], [])
 
     def test_current_ownership_is_not_inherited_from_historical_team(self):
         with tempfile.TemporaryDirectory() as directory:

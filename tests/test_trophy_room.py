@@ -5,6 +5,16 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from build_trophy_room import build,people
 from gm_profiles import _career_rows,_profile_from_rows
 class TrophyRoomTests(unittest.TestCase):
+    def test_washington_owner_change_preserves_champion_history(self):
+        d=build()
+        brandon=next(o for o in d['owners'] if o['owner']=='Brandon Owens')
+        frank=next(o for o in d['owners'] if o['owner']=='Frank Roberts')
+        self.assertFalse(brandon['active'])
+        self.assertEqual(brandon['years'],[2025])
+        self.assertTrue(frank['active'])
+        self.assertEqual(frank['franchise'],'Washington Commanders')
+        self.assertEqual(frank['seasons'],0)
+        self.assertEqual(next(c for c in d['champions'] if c['year']==2025)['gm'],'Brandon Owens')
     def test_canonical_history_and_prizes(self):
         d=build();h=json.loads((ROOT/'data/gm_career_seasons.json').read_text())
         self.assertEqual(len(h),384);self.assertEqual(len(d['champions']),12)

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "verifiedFrom": "2026 FAFL MFL homepage ownership labels",
+  "verifiedFrom": "2026 FAFL MFL franchise owner information, audited 2026-10-03",
   "profiles": {
     "Dallas Cowboys": {
       "franchise_id": "0001",
@@ -16,7 +16,7 @@
     },
     "Washington Commanders": {
       "franchise_id": "0004",
-      "gm": "Brandon Owens"
+      "gm": "Frank Roberts"
     },
     "Chicago Bears": {
       "franchise_id": "0005",

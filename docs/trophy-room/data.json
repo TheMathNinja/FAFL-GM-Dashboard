@@ -788,7 +788,7 @@
         "Brandon Owens"
       ],
       "franchise": "Washington Commanders",
-      "active": true,
+      "active": false,
       "years": [
         2025
       ],
@@ -2048,6 +2048,22 @@
           "finish": 30
         }
       ]
+    },
+    {
+      "owner": "Frank Roberts",
+      "members": [
+        "Frank Roberts"
+      ],
+      "franchise": "Washington Commanders",
+      "active": true,
+      "years": [],
+      "seasons": 0,
+      "record": "0-0-0",
+      "allTimeAllPlay": null,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "history": []
     },
     {
       "owner": "George O'Dea",
