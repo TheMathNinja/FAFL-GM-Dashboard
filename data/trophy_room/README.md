@@ -6,7 +6,8 @@ The module and Playoff Picture use `data/gm_career_seasons.json` as the single a
 
 `payouts.json` imports the 2014–2017 local AFL workbooks and 2018–2025 Google Sheets listed in `gm_career_sources.json`. AFL is FAFL's former name. Prize totals reconcile with raw prize earnings and exclude deposit/payment adjustments. File hashes preserve provenance. The 2018 AFC ladder prize goes to NEP ($90), not OAK ($0), using the corrected source once.
 
-Records are finalized MFL league standings including league bonus results. The historical MFL league IDs are 37677 (2014), 27312 (2015), and 22686 (2016 onward). FAFL's NFC West IDs are SFO 0014, SEA 0015, LAR 0016, which differ from ADL.
+Records are finalized MFL league standings including league bonus results. The historical MFL league IDs are 37677 (2014), 27312 (2015), and 22686 (2016 onward). Through 2022, FAFL's NFC West IDs were SFO 0014, SEA 0015, LAR 0016. They changed in 2023 to LAR 0014, SFO 0015, SEA 0016. Historical joins respect the ID mapping in each season.
 
 Rebuild the displayed data with `python scripts/build_trophy_room.py`; validate with `python -m unittest discover -s tests -p test_trophy_room.py`. Refresh archived inputs and advance canonical completed-season history together when a new season completes; coverage updates automatically.
+
 

@@ -22,6 +22,8 @@ class TrophyRoomTests(unittest.TestCase):
         for p in d['payouts']:
             self.assertEqual(len(p['teams']),32)
             for t in p['teams']:
+                west={'LAR':'Rams','SFO':'49ers','SEA':'Seahawks'}
+                if t['team'] in west:self.assertTrue(t['franchise'].endswith(west[t['team']]),(p['year'],t))
                 self.assertAlmostEqual(t['totalEarnings'],sum(x['amount'] for x in t['earnedBreakdown']))
                 self.assertAlmostEqual(t['totalEarnings'],t['earnings'])
         p=next(p for p in d['payouts'] if p['year']==2018)

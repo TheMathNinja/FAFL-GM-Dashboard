@@ -9,6 +9,7 @@ history=json.loads((ROOT/'data/gm_career_seasons.json').read_text())
 seasons={}; champions=[]; records=[]; metrics=json.loads((ROOT/'data/trophy_room/award_metrics.json').read_text())
 arr=lambda x: x if isinstance(x,list) else ([] if x is None else [x])
 for year in range(2014,2026):
+    codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split() if year<=2022 else 'DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI LAR SFO SEA BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
     h=[r for r in history if r['season']==year]; end=16 if year<2021 else 17
     raw=json.loads((RAW/f'FAFL-{year}-weeklyResults.json').read_text())
     weeks={}
@@ -53,6 +54,7 @@ for year in range(2014,2026):
 local=json.loads(Path(sys.argv[3]).read_text())
 sources=json.loads((ROOT/'data/gm_career_sources.json').read_text())
 for year in range(2014,2026):
+    codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split() if year<=2022 else 'DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI LAR SFO SEA BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
     h=[r for r in history if r['season']==year]; prizes=[];periods=[];teams=[]
     if year>=2018:
         path=CACHE/f'FAFL-{year}-payouts.xlsx';b=openpyxl.load_workbook(path,data_only=True,read_only=True)
@@ -128,6 +130,7 @@ for year in range(2014,2026):
 dest=ROOT/'data/trophy_room';dest.mkdir(exist_ok=True)
 for name,payload in [('payouts',seasons),('champions',champions),('league_records',records)]: (dest/f'{name}.json').write_text(json.dumps(payload,indent=2)+'\n')
 (ROOT/'data/gm_career_seasons.json').write_text(json.dumps(history,indent=2)+'\n')
+
 
 
 

@@ -30,7 +30,7 @@
       "gm": "Stone Zhou",
       "score": "220.0 - 152.1",
       "awards": {
-        "NFC HC": "SEA (0.422)",
+        "NFC HC": "SEA (0.749)",
         "NFC OC": "ATL (123.3)",
         "NFC DC": "NYG (118.1)",
         "NFC GM": "DET (269.5)",
@@ -49,7 +49,7 @@
       "gm": "Schuyler Ferguson",
       "score": "290.4 - 134.9",
       "awards": {
-        "NFC HC": "SEA (0.180)",
+        "NFC HC": "SEA (0.664)",
         "NFC OC": "PHI (106.1)",
         "NFC DC": "ATL (118.5)",
         "NFC GM": "TBB (257.4)",
@@ -14804,9 +14804,9 @@
             }
           ],
           "totalEarnings": 15.0,
-          "franchise": "Seattle Seahawks",
-          "gm": "Ryan Lynch",
-          "finish": 5
+          "franchise": "Los Angeles Rams",
+          "gm": "Chandler Barense",
+          "finish": 24
         },
         {
           "team": "SFO",
@@ -14816,9 +14816,9 @@
           "explanation": null,
           "earnedBreakdown": [],
           "totalEarnings": 0,
-          "franchise": "Los Angeles Rams",
-          "gm": "Chandler Barense",
-          "finish": 24
+          "franchise": "San Francisco 49ers",
+          "gm": "Ben Herold",
+          "finish": 32
         },
         {
           "team": "SEA",
@@ -14845,9 +14845,9 @@
             }
           ],
           "totalEarnings": 220.0,
-          "franchise": "San Francisco 49ers",
-          "gm": "Ben Herold",
-          "finish": 32
+          "franchise": "Seattle Seahawks",
+          "gm": "Ryan Lynch",
+          "finish": 5
         },
         {
           "team": "BUF",
@@ -15969,9 +15969,9 @@
           "explanation": null,
           "earnedBreakdown": [],
           "totalEarnings": 0,
-          "franchise": "Seattle Seahawks",
-          "gm": "Chris Daubert",
-          "finish": 3
+          "franchise": "Los Angeles Rams",
+          "gm": "Chandler Barense",
+          "finish": 29
         },
         {
           "team": "SFO",
@@ -15981,9 +15981,9 @@
           "explanation": null,
           "earnedBreakdown": [],
           "totalEarnings": 0,
-          "franchise": "Los Angeles Rams",
-          "gm": "Chandler Barense",
-          "finish": 29
+          "franchise": "San Francisco 49ers",
+          "gm": "Marc Baker",
+          "finish": 27
         },
         {
           "team": "SEA",
@@ -16010,9 +16010,9 @@
             }
           ],
           "totalEarnings": 300.0,
-          "franchise": "San Francisco 49ers",
-          "gm": "Marc Baker",
-          "finish": 27
+          "franchise": "Seattle Seahawks",
+          "gm": "Chris Daubert",
+          "finish": 3
         },
         {
           "team": "BUF",
@@ -17145,9 +17145,9 @@
             }
           ],
           "totalEarnings": 30.0,
-          "franchise": "Seattle Seahawks",
-          "gm": "Marc Baker",
-          "finish": 22
+          "franchise": "Los Angeles Rams",
+          "gm": "Chandler Barense",
+          "finish": 24
         },
         {
           "team": "SFO",
@@ -17162,9 +17162,9 @@
             }
           ],
           "totalEarnings": 85.0,
-          "franchise": "Los Angeles Rams",
-          "gm": "Chandler Barense",
-          "finish": 24
+          "franchise": "San Francisco 49ers",
+          "gm": "Mitchell Schumacher",
+          "finish": 14
         },
         {
           "team": "SEA",
@@ -17174,9 +17174,9 @@
           "explanation": null,
           "earnedBreakdown": [],
           "totalEarnings": 0,
-          "franchise": "San Francisco 49ers",
-          "gm": "Mitchell Schumacher",
-          "finish": 14
+          "franchise": "Seattle Seahawks",
+          "gm": "Marc Baker",
+          "finish": 22
         },
         {
           "team": "BUF",

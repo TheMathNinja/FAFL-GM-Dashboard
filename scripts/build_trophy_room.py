@@ -37,6 +37,7 @@ def build():
     codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
     for year,p in payouts.items():
         p['year']=int(year)
+        codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split() if int(year)<=2022 else 'DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI LAR SFO SEA BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
         for t in p['teams']:
             r=next(r for r in history if r['season']==int(year) and int(r['franchise_id'])==codes.index(t['team'])+1)
             t.update(franchise=r['name'],gm=' / '.join(people(r['gm'])),finish=r['finish'])
@@ -48,4 +49,5 @@ def build():
     print(f'Trophy Room: {len(champions)} seasons, {len(owners)} GM rows, {len(history)} canonical team-seasons')
     return result
 if __name__=='__main__':build()
+
 
