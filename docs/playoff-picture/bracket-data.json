@@ -41,7 +41,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 62.152469735759
+          "odds": 62.152469735758864
         },
         {
           "name": "Arizona Cardinals",
@@ -53,7 +53,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 37.84753026424099
+          "odds": 37.84753026424114
         }
       ],
       "remainingWeeks": 2,
@@ -75,7 +75,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 61.2847658920827
+          "odds": 61.2847658920829
         },
         {
           "name": "Carolina Panthers",
@@ -87,7 +87,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 38.71523410791733
+          "odds": 38.71523410791713
         }
       ],
       "remainingWeeks": 2,
@@ -109,7 +109,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 63.74966844609755
+          "odds": 63.74966844609761
         },
         {
           "name": "Green Bay Packers",
@@ -121,7 +121,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 36.25033155390237
+          "odds": 36.250331553902285
         }
       ],
       "remainingWeeks": 2,
@@ -324,7 +324,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 68.96386284163228
+          "odds": 68.96386284163208
         },
         {
           "name": "Cleveland Browns",
@@ -336,7 +336,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 31.03613715836775
+          "odds": 31.03613715836796
         }
       ],
       "remainingWeeks": 2,
@@ -358,7 +358,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 68.38195341690287
+          "odds": 68.38195341690285
         },
         {
           "name": "Las Vegas Raiders",
@@ -370,7 +370,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 31.618046583097044
+          "odds": 31.618046583097104
         }
       ],
       "remainingWeeks": 2,
@@ -392,7 +392,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 52.32819267944249
+          "odds": 52.32819267944221
         },
         {
           "name": "Indianapolis Colts",
@@ -404,7 +404,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 47.671807320557505
+          "odds": 47.6718073205578
         }
       ],
       "remainingWeeks": 2,
@@ -539,7 +539,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 30.856072552704884
+          "odds": 30.856072552704887
         },
         {
           "name": "Tennessee Titans",
@@ -609,7 +609,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 60.52246348666751
+          "odds": 60.522463486667334
         },
         {
           "name": "Arizona Cardinals",
@@ -621,7 +621,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 39.47753651333248
+          "odds": 39.47753651333269
         }
       ],
       "remainingWeeks": 2,
@@ -643,7 +643,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 61.2847658920827
+          "odds": 61.2847658920829
         },
         {
           "name": "Carolina Panthers",
@@ -655,7 +655,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 38.71523410791733
+          "odds": 38.71523410791713
         }
       ],
       "remainingWeeks": 2,
@@ -677,7 +677,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 51.06810203502624
+          "odds": 51.0681020350263
         },
         {
           "name": "Dallas Cowboys",
@@ -689,7 +689,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 48.93189796497377
+          "odds": 48.93189796497373
         }
       ],
       "remainingWeeks": 2,
@@ -892,7 +892,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 68.0487252883274
+          "odds": 68.04872528832732
         },
         {
           "name": "Cleveland Browns",
@@ -904,7 +904,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 31.9512747116726
+          "odds": 31.951274711672745
         }
       ],
       "remainingWeeks": 2,
@@ -926,7 +926,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 61.29495536986628
+          "odds": 61.294955369866166
         },
         {
           "name": "Indianapolis Colts",
@@ -938,7 +938,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 38.70504463013371
+          "odds": 38.70504463013379
         }
       ],
       "remainingWeeks": 2,
@@ -960,7 +960,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 47.16985143023182
+          "odds": 47.169851430231866
         },
         {
           "name": "Houston Texans",
@@ -972,7 +972,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 52.83014856976814
+          "odds": 52.830148569768156
         }
       ],
       "remainingWeeks": 2,
