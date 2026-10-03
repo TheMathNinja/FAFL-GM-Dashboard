@@ -1,8 +1,8 @@
 {
   "season": 2026,
   "through_week": 3,
-  "status": "reported",
-  "updated_at": "2026-10-03 04:10 UTC",
+  "status": "official",
+  "updated_at": "2026-10-03 05:46 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
