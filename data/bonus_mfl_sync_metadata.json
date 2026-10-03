@@ -1,6 +1,6 @@
 {
-  "run_id": "37100875766",
-  "source_sha256": "76ab78b9fc9b4921bcb722ce35c8d9f3f71daa4f0e1e3875286dbf0dd079081b",
+  "run_id": "37102002463",
+  "source_sha256": "0551f7c30781af21667cb8fb457b1d2447dc426782b3098a7e7e54fbad3a48a5",
   "league": "FAFL",
   "season": 2026,
   "week": 3,
@@ -273,5 +273,5 @@
       "missing_before": 0
     }
   ],
-  "verified_at": "2026-10-03T05:46:44.557Z"
+  "verified_at": "2026-10-03T06:08:57.811Z"
 }
