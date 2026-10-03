@@ -24,7 +24,7 @@ class CareerHistoryTests(unittest.TestCase):
         self.assertIn(finishes['New England Patriots'], [13, 14])
 
     def test_current_games_added_once_and_future_games_excluded(self):
-        before = json.loads((ROOT / 'data/gm_career_profiles.json').read_text())['profiles']
+        before = _current_profiles(ROOT, 2026)
         current = pd.DataFrame([dict(week=w, franchise_id=f'{i:04}', points=float(i)) for w in [1, 2] for i in range(1, 33)])
         result = gm_profiles(ROOT, 2026, 1, current)
         for name, g in result.items():
@@ -35,6 +35,13 @@ class CareerHistoryTests(unittest.TestCase):
             self.assertEqual(g['experience'], original['experience'])
         self.assertEqual(result, gm_profiles(ROOT, 2026, 1, current))
         self.assertEqual(result['Los Angeles Chargers']['gm'], 'David Overbeek')
+
+    def test_current_owner_can_be_recovered_from_season_history(self):
+        washington = _current_profiles(ROOT, 2026)['Washington Commanders']
+        self.assertEqual(washington['gm'], 'Brandon Owens')
+        self.assertEqual(washington['experience'], 1)
+        self.assertEqual(washington['best'], 1)
+        self.assertEqual(washington['bestYears'], [2025])
 
     def test_current_ownership_is_not_inherited_from_historical_team(self):
         with tempfile.TemporaryDirectory() as directory:

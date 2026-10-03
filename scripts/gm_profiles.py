@@ -29,6 +29,22 @@ def _career_rows(gm, rows):
     return matched
 
 
+def _profile_from_rows(rows):
+    finishes = [r['finish'] for r in rows if r.get('finish') is not None]
+    best = min(finishes) if finishes else None
+    worst = max(finishes) if finishes else None
+    return {
+        'experience': len(rows),
+        'wins': sum(r['wins'] for r in rows),
+        'losses': sum(r['losses'] for r in rows),
+        'ties': sum(r['ties'] for r in rows),
+        'best': best,
+        'bestYears': [r['season'] for r in rows if r.get('finish') == best] if best is not None else [],
+        'worst': worst,
+        'worstYears': [r['season'] for r in rows if r.get('finish') == worst] if worst is not None else [],
+    }
+
+
 def _current_profiles(root, season):
     """Join current ownership to history by GM, never by last year's franchise."""
     baseline = json.loads((root / 'data/gm_career_profiles.json').read_text(encoding='utf8'))
@@ -43,13 +59,11 @@ def _current_profiles(root, season):
     profiles = {}
     for team, owner in current['profiles'].items():
         gm = owner['gm']
-        historical = deepcopy(history_by_gm.get(gm, {
-            'experience': 0, 'wins': 0, 'losses': 0, 'ties': 0,
-            'best': None, 'bestYears': [], 'worst': None, 'worstYears': [],
-        }))
+        career_rows = _career_rows(gm, seasons)
+        derived = _profile_from_rows(career_rows)
+        historical = deepcopy(history_by_gm.get(gm, derived))
         historical['franchise_id'] = owner['franchise_id']
         historical['gm'] = gm
-        career_rows = _career_rows(gm, seasons)
         assert len(career_rows) == historical['experience']
         assert sum(r['wins'] for r in career_rows) == historical['wins']
         assert sum(r['losses'] for r in career_rows) == historical['losses']
