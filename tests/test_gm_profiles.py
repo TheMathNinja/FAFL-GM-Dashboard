@@ -32,4 +32,4 @@ class CareerHistoryTests(unittest.TestCase):
             self.assertEqual(g['losses'] - original['losses'], 32 - i)
             self.assertEqual(g['experience'], original['experience'])
         self.assertEqual(result, gm_profiles(ROOT, 2026, 1, current))
-        self.assertEqual(result['Los Angeles Chargers']['gm'], 'Christian Lohr')
+        self.assertEqual(result['Los Angeles Chargers']['gm'], 'David Overbeek')
