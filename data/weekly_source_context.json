@@ -1,332 +1,332 @@
 {
   "meta": [
     {
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0001.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0001.png",
-      "abbrev": "DAL",
-      "division": "00",
+      "bbidAvailableBalance": "58.00",
+      "id": "0001",
+      "name": "Dallas Cowboys",
       "waiverSortOrder": "28",
       "stadium": "Texas Stadium",
-      "name": "Dallas Cowboys",
-      "bbidAvailableBalance": "58.00",
-      "id": "0001"
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0001.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0001.png",
+      "abbrev": "DAL",
+      "division": "00"
     },
     {
-      "division": "00",
-      "abbrev": "NYG",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0002.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0002.png",
-      "stadium": "Crashed UFO",
-      "waiverSortOrder": "17",
       "name": "New York Giants",
       "id": "0002",
-      "bbidAvailableBalance": "43.00"
+      "bbidAvailableBalance": "43.00",
+      "division": "00",
+      "abbrev": "NYG",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0002.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0002.png",
+      "stadium": "Crashed UFO",
+      "waiverSortOrder": "17"
     },
     {
-      "id": "0003",
       "waiverSortOrder": "16",
-      "bbidAvailableBalance": "63.00",
       "division": "00",
       "abbrev": "PHI",
-      "name": "Philadelphia Eagles",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0003.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0003.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0003.png"
+      "id": "0003",
+      "bbidAvailableBalance": "63.00",
+      "name": "Philadelphia Eagles"
     },
     {
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0004.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0004.png",
-      "division": "00",
-      "abbrev": "WAS",
-      "waiverSortOrder": "24",
-      "name": "Washington Commanders",
       "bbidAvailableBalance": "100.00",
-      "id": "0004"
+      "id": "0004",
+      "name": "Washington Commanders",
+      "waiverSortOrder": "24",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0004.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0004.png",
+      "abbrev": "WAS",
+      "division": "00"
     },
     {
-      "abbrev": "CHI",
-      "division": "01",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0005.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0005.png",
-      "waiverSortOrder": "30",
       "name": "Chicago Bears",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0005.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0005.png",
+      "division": "01",
+      "abbrev": "CHI",
+      "bbidAvailableBalance": "60.00",
       "id": "0005",
-      "bbidAvailableBalance": "60.00"
+      "waiverSortOrder": "30"
     },
     {
-      "bbidAvailableBalance": "86.00",
-      "id": "0006",
-      "waiverSortOrder": "8",
-      "name": "Detroit Lions",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0006.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0006.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0006.png",
+      "name": "Detroit Lions",
+      "abbrev": "DET",
       "division": "01",
-      "abbrev": "DET"
+      "bbidAvailableBalance": "86.00",
+      "waiverSortOrder": "8",
+      "id": "0006"
     },
     {
-      "name": "Green Bay Packers",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0007.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0007.png",
-      "division": "01",
-      "abbrev": "GBP",
-      "bbidAvailableBalance": "77.00",
       "id": "0007",
-      "waiverSortOrder": "23"
+      "bbidAvailableBalance": "77.00",
+      "name": "Green Bay Packers",
+      "waiverSortOrder": "23",
+      "abbrev": "GBP",
+      "division": "01",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0007.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0007.png"
     },
     {
+      "id": "0008",
+      "bbidAvailableBalance": "65.00",
       "name": "Minnesota Vikings",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0008.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0008.png",
+      "waiverSortOrder": "1",
       "division": "01",
       "abbrev": "MIN",
-      "bbidAvailableBalance": "65.00",
-      "id": "0008",
-      "waiverSortOrder": "1"
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0008.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0008.png"
     },
     {
-      "bbidAvailableBalance": "86.00",
-      "id": "0009",
-      "waiverSortOrder": "20",
-      "name": "Atlanta Falcons",
+      "abbrev": "ATL",
+      "division": "02",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0009.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0009.png",
-      "division": "02",
-      "abbrev": "ATL"
+      "waiverSortOrder": "20",
+      "name": "Atlanta Falcons",
+      "id": "0009",
+      "bbidAvailableBalance": "86.00"
     },
     {
-      "waiverSortOrder": "22",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0010.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0010.png",
-      "division": "02",
+      "name": "Carolina Panthers",
       "abbrev": "CAR",
+      "division": "02",
       "bbidAvailableBalance": "64.00",
-      "id": "0010",
-      "name": "Carolina Panthers"
+      "waiverSortOrder": "22",
+      "id": "0010"
     },
     {
-      "stadium": "The  Superdome",
-      "waiverSortOrder": "31",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0011.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0011.png",
+      "name": "New Orleans Saints",
+      "id": "0011",
+      "bbidAvailableBalance": "66.00",
       "division": "02",
       "abbrev": "NOS",
-      "bbidAvailableBalance": "66.00",
-      "id": "0011",
-      "name": "New Orleans Saints"
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0011.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0011.png",
+      "stadium": "The  Superdome",
+      "waiverSortOrder": "31"
     },
     {
+      "name": "Tampa Bay Buccaneers",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0012.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0012.png",
       "division": "02",
       "abbrev": "TBB",
-      "name": "Tampa Bay Buccaneers",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0012.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0012.png",
+      "bbidAvailableBalance": "85.00",
       "id": "0012",
-      "waiverSortOrder": "5",
-      "bbidAvailableBalance": "85.00"
+      "waiverSortOrder": "5"
     },
     {
+      "bbidAvailableBalance": "46.00",
+      "id": "0013",
+      "name": "Arizona Cardinals",
       "waiverSortOrder": "19",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0013.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0013.png",
       "division": "03",
-      "abbrev": "ARI",
-      "bbidAvailableBalance": "46.00",
-      "id": "0013",
-      "name": "Arizona Cardinals"
+      "abbrev": "ARI"
     },
     {
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0014.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0016.png",
-      "name": "Los Angeles Rams",
-      "abbrev": "LAR",
-      "division": "03",
       "bbidAvailableBalance": "56.00",
+      "id": "0014",
+      "name": "Los Angeles Rams",
       "waiverSortOrder": "9",
-      "id": "0014"
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0016.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0014.png",
+      "division": "03",
+      "abbrev": "LAR"
     },
     {
-      "name": "San Francisco 49ers",
       "bbidAvailableBalance": "55.00",
       "id": "0015",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0014.png",
+      "waiverSortOrder": "10",
+      "name": "San Francisco 49ers",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0015.png",
-      "abbrev": "SFO",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0014.png",
       "division": "03",
-      "waiverSortOrder": "10"
+      "abbrev": "SFO"
     },
     {
-      "name": "Seattle Seahawks",
-      "id": "0016",
-      "bbidAvailableBalance": "55.00",
       "abbrev": "SEA",
       "division": "03",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0016.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0015.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0016.png",
       "waiverSortOrder": "12",
-      "stadium": "Lumen Field"
+      "stadium": "Lumen Field",
+      "name": "Seattle Seahawks",
+      "id": "0016",
+      "bbidAvailableBalance": "55.00"
     },
     {
-      "abbrev": "BUF",
-      "division": "04",
+      "name": "Buffalo Bills",
+      "bbidAvailableBalance": "73.00",
+      "id": "0017",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0017.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0017.png",
-      "waiverSortOrder": "11",
-      "name": "Buffalo Bills",
-      "id": "0017",
-      "bbidAvailableBalance": "73.00"
+      "division": "04",
+      "abbrev": "BUF",
+      "waiverSortOrder": "11"
     },
     {
+      "abbrev": "MIA",
+      "division": "04",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0018.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0018.png",
       "name": "Miami Dolphins",
-      "abbrev": "MIA",
-      "division": "04",
-      "bbidAvailableBalance": "97.00",
       "waiverSortOrder": "32",
-      "id": "0018"
+      "id": "0018",
+      "bbidAvailableBalance": "97.00"
     },
     {
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0019.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0019.png",
-      "division": "04",
-      "abbrev": "NEP",
-      "stadium": "Gillette Stadium",
-      "waiverSortOrder": "4",
-      "name": "New England Patriots",
+      "id": "0019",
       "bbidAvailableBalance": "90.00",
-      "id": "0019"
+      "name": "New England Patriots",
+      "waiverSortOrder": "4",
+      "stadium": "Gillette Stadium",
+      "abbrev": "NEP",
+      "division": "04",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0019.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0019.png"
     },
     {
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0020.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0020.png",
       "division": "04",
       "abbrev": "NYJ",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0020.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0020.png",
       "waiverSortOrder": "15",
       "name": "New York Jets",
-      "bbidAvailableBalance": "93.00",
-      "id": "0020"
+      "id": "0020",
+      "bbidAvailableBalance": "93.00"
     },
     {
+      "name": "Baltimore Ravens",
       "bbidAvailableBalance": "81.00",
       "id": "0021",
-      "name": "Baltimore Ravens",
-      "stadium": "M&T Bank stadium",
-      "waiverSortOrder": "18",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0021.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0021.png",
+      "abbrev": "BAL",
       "division": "05",
-      "abbrev": "BAL"
+      "waiverSortOrder": "18",
+      "stadium": "M&T Bank stadium"
     },
     {
-      "abbrev": "CIN",
-      "division": "05",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0022.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0022.png",
-      "waiverSortOrder": "6",
       "name": "Cincinnati Bengals",
+      "bbidAvailableBalance": "50.00",
       "id": "0022",
-      "bbidAvailableBalance": "50.00"
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0022.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0022.png",
+      "division": "05",
+      "abbrev": "CIN",
+      "waiverSortOrder": "6"
     },
     {
+      "name": "Cleveland Browns",
       "bbidAvailableBalance": "50.00",
       "id": "0023",
-      "name": "Cleveland Browns",
-      "waiverSortOrder": "13",
-      "stadium": "Cleveland Browns Stadium",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0023.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0023.png",
+      "division": "05",
       "abbrev": "CLE",
-      "division": "05"
+      "stadium": "Cleveland Browns Stadium",
+      "waiverSortOrder": "13"
     },
     {
-      "division": "05",
-      "abbrev": "PIT",
-      "name": "Pittsburgh Steelers",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0024.png",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0024.png",
-      "id": "0024",
+      "division": "05",
+      "abbrev": "PIT",
       "waiverSortOrder": "7",
-      "bbidAvailableBalance": "37.00"
+      "name": "Pittsburgh Steelers",
+      "bbidAvailableBalance": "37.00",
+      "id": "0024"
     },
     {
+      "bbidAvailableBalance": "45.00",
+      "id": "0025",
+      "stadium": "Reliant Stadium",
+      "waiverSortOrder": "29",
+      "name": "Houston Texans",
       "logo": "https://1000logos.net/houston-oilers-logo/",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0025.png",
-      "abbrev": "HOU",
       "division": "06",
-      "waiverSortOrder": "29",
-      "stadium": "Reliant Stadium",
-      "name": "Houston Texans",
-      "bbidAvailableBalance": "45.00",
-      "id": "0025"
+      "abbrev": "HOU"
     },
     {
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0026.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0026.png",
+      "name": "Indianapolis Colts",
       "abbrev": "IND",
       "division": "06",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0026.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0026.png",
-      "name": "Indianapolis Colts",
+      "bbidAvailableBalance": "0.00",
       "waiverSortOrder": "27",
-      "id": "0026",
-      "bbidAvailableBalance": "0.00"
+      "id": "0026"
     },
     {
-      "bbidAvailableBalance": "53.00",
       "id": "0027",
       "waiverSortOrder": "26",
+      "bbidAvailableBalance": "53.00",
+      "division": "06",
+      "abbrev": "JAC",
       "name": "Jacksonville Jaguars",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0027.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0027.png",
-      "division": "06",
-      "abbrev": "JAC"
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0027.png"
     },
     {
       "bbidAvailableBalance": "77.00",
-      "waiverSortOrder": "2",
       "id": "0028",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0028.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0028.png",
       "name": "Tennessee Titans",
-      "abbrev": "TEN",
-      "division": "06"
+      "waiverSortOrder": "2",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0028.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0028.png",
+      "division": "06",
+      "abbrev": "TEN"
     },
     {
-      "bbidAvailableBalance": "52.00",
-      "id": "0029",
       "name": "Denver Broncos",
-      "waiverSortOrder": "25",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0029.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0029.png",
+      "id": "0029",
+      "bbidAvailableBalance": "52.00",
+      "division": "07",
       "abbrev": "DEN",
-      "division": "07"
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0029.png",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0029.png",
+      "waiverSortOrder": "25"
     },
     {
-      "division": "07",
-      "abbrev": "KCC",
-      "name": "Kansas City Chiefs",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0030.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0030.png",
+      "bbidAvailableBalance": "35.00",
       "id": "0030",
       "waiverSortOrder": "3",
-      "bbidAvailableBalance": "35.00"
+      "name": "Kansas City Chiefs",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0030.png",
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0030.png",
+      "division": "07",
+      "abbrev": "KCC"
     },
     {
+      "id": "0031",
+      "bbidAvailableBalance": "65.00",
+      "name": "Las Vegas Raiders",
+      "waiverSortOrder": "21",
       "division": "07",
       "abbrev": "LVR",
-      "name": "Las Vegas Raiders",
       "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0031.png",
-      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0031.png",
-      "id": "0031",
-      "waiverSortOrder": "21",
-      "bbidAvailableBalance": "65.00"
+      "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0031.png"
     },
     {
-      "id": "0032",
       "bbidAvailableBalance": "93.00",
-      "name": "Los Angeles Chargers",
+      "id": "0032",
       "waiverSortOrder": "14",
-      "division": "07",
-      "abbrev": "LAC",
+      "name": "Los Angeles Chargers",
+      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0032.png",
       "logo": "https://www43.myfantasyleague.com/fflnetdynamic2022/22686_franchise_logo0032.png",
-      "icon": "https://www43.myfantasyleague.com/fflnetdynamic2026/22686_franchise_icon0032.png"
+      "division": "07",
+      "abbrev": "LAC"
     }
   ],
   "divmap": {
@@ -1161,5 +1161,5 @@
   ],
   "week": 3,
   "status": "official",
-  "scraped_at": "2026-10-04 19:50 UTC"
+  "scraped_at": "2026-10-04 19:57 UTC"
 }
