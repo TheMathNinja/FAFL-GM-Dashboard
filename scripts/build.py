@@ -11,6 +11,25 @@ ROOT=Path(__file__).resolve().parents[1]
 SEASON=2026
 FEATURES=['current_pot','prior_ap','prior_pot']
 
+def pool_unstarted_quarter_bonus(bonus_prob,through_week,league_total=16.):
+ """Pool interchangeable unplayed-quarter estimates without changing totals."""
+ labels=[f'Q{i} Bonus Game' for i in range(1,5)]
+ starts=[1,4,7,10]
+ result={key:np.asarray(value,dtype=float).copy() for key,value in bonus_prob.items()}
+ before=np.column_stack([result[label] for label in labels])
+ if not np.isfinite(before).all() or before.shape[1]!=4:raise ValueError('Invalid quarterly Bonus Game probabilities')
+ pooled=[i for i,start in enumerate(starts) if start>through_week]
+ after=before.copy()
+ if len(pooled)>1:
+  shared=after[:,pooled].mean(1)
+  after[:,pooled]=shared[:,None]
+ if pooled and not np.allclose(after[:,pooled].sum(1),before[:,pooled].sum(1),atol=1e-12,rtol=0):
+  raise ValueError('Pooling changed a team Bonus Game total')
+ if not np.allclose(after.sum(0),league_total,atol=1e-9,rtol=0):
+  raise ValueError('Quarterly Bonus Games do not have the required league total')
+ for i,label in enumerate(labels):result[label]=after[:,i]
+ return result
+
 def export(kind,year=SEASON,**params):
  from urllib.parse import urlencode
  url=f'https://api.myfantasyleague.com/{year}/export?'+urlencode(dict(TYPE=kind,L='22686',JSON=1,**params))
@@ -164,6 +183,12 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
   if b<=week:
    ranks=np.empty(32,dtype=int);ranks[order[0]]=np.arange(1,33)
    completed_bonus_details[label]=(ap_week[0,a:b].sum(0),ranks)
+ # Fully unplayed quarters are exchangeable. Pool their displayed Monte Carlo
+ # estimates, preserving every team's combined expected Bonus Games exactly.
+ # Season outcomes and playoff probabilities retain their original simulations.
+ bonus_prob=pool_unstarted_quarter_bonus(bonus_prob,week)
+ if not np.isclose(bonus_prob['Regular Season Bonus Game'].sum(),16,atol=1e-9):
+  raise ValueError('Regular Season Bonus Game does not have 16 adjusted wins')
  def team_logo(f):
   abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
   return f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png'

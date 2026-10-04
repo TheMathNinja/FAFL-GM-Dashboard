@@ -4,7 +4,7 @@ from datetime import date,datetime
 from zoneinfo import ZoneInfo
 import numpy as np,pandas as pd
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-from build import historical,load_links,fit_means,completed_week,draw_future_points
+from build import historical,load_links,fit_means,completed_week,draw_future_points,pool_unstarted_quarter_bonus
 from rules import rank_field,fafl_outcomes
 from score_schedule import schedule_decision
 
@@ -52,6 +52,22 @@ class ModelTests(unittest.TestCase):
   opp=np.tile(np.arange(32)^1,(1,1));conf=[np.arange(16),np.arange(16,32)];div=[np.arange(i,i+4) for i in range(0,32,4)]
   result=fafl_outcomes(scores,potential,opp,conf,div)
   self.assertTrue((result[5]==.5).all())
+
+ def test_unstarted_bonus_games_are_pooled_without_changing_totals(self):
+  base=np.zeros((32,4))
+  base[:15]=1;base[15:17]=.5
+  # Opposing small Monte Carlo deviations keep every column at 16 wins.
+  base[14,1:]=[.8,.7,.75];base[15,1:]=[.7,.8,.75]
+  data={f'Q{i+1} Bonus Game':base[:,i] for i in range(4)}
+  data['Regular Season Bonus Game']=base[:,0]
+  before=np.column_stack([data[f'Q{i} Bonus Game'] for i in range(1,5)])
+  pooled=pool_unstarted_quarter_bonus(data,3)
+  after=np.column_stack([pooled[f'Q{i} Bonus Game'] for i in range(1,5)])
+  np.testing.assert_array_equal(after[:,0],before[:,0])
+  np.testing.assert_allclose(after[:,1],after[:,2],atol=0,rtol=0)
+  np.testing.assert_allclose(after[:,2],after[:,3],atol=0,rtol=0)
+  np.testing.assert_allclose(after.sum(1),before.sum(1),atol=1e-12,rtol=0)
+  np.testing.assert_allclose(after.sum(0),16,atol=1e-12,rtol=0)
 
  def test_dates_and_dst(self):
   self.assertEqual(completed_week(date(2026,9,14)),0)
