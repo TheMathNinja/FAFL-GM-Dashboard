@@ -219,8 +219,9 @@ const draft=__DRAFT__;
 const gmProfiles=__GM_PROFILES__;
 for(const [conf,ts] of Object.entries(data)){if(!draft[conf]?.length){const current=[...ts].sort((a,b)=>(a.seed<=7)-(b.seed<=7)||(a.seed>7?a.pot-b.pot:b.seed-a.seed));const projected=[...ts].sort((a,b)=>(a.finish<=7)-(b.finish<=7)||(a.finish>7?a.projectedPotentialPoints-b.projectedPotentialPoints:b.finish-a.finish));draft[conf]=current.map((t,i)=>({...t,currentPick:i+1,pick:projected.indexOf(t)+1,potential:t.projectedPotentialPoints}));}}
 const popup=root.querySelector('#fafl-ppg-popup');
-let activeTrigger=null,hideTimer=null;
+let activeTrigger=null,hideTimer=null,suppressCloseUntil=0;
 function closePopup(force=false){
+ if(!force&&Date.now()<suppressCloseUntil)return;
  if(!force&&popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))return;
  popup.hidden=true;if(activeTrigger)activeTrigger.setAttribute('aria-expanded','false');activeTrigger=null;
 }
@@ -334,7 +335,7 @@ root.addEventListener('click',e=>{const b=e.target.closest('[data-ppg]');if(b)sh
 root.addEventListener('mouseout',e=>{if(e.target.closest('[data-ppg]')&&!popup.contains(e.relatedTarget))hideTimer=setTimeout(()=>{if(!popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))closePopup();},180);});
 popup.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
 popup.addEventListener('mouseleave',()=>{if(!popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))closePopup();});
-popup.addEventListener('click',e=>{const toggle=e.target.closest('.fafl-detail-expand');if(!toggle)return;clearTimeout(hideTimer);const details=popup.querySelector('.fafl-win-details'),expanded=details.hidden;details.hidden=!expanded;toggle.setAttribute('aria-expanded',String(expanded));toggle.innerHTML=expanded?'<span>Hide Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↖</span>':'<span>Show Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↘</span>';if(activeTrigger)positionPopup(activeTrigger,expanded&&toggle.dataset.wide==='true');});
+popup.addEventListener('click',e=>{const toggle=e.target.closest('.fafl-detail-expand');if(!toggle)return;clearTimeout(hideTimer);const details=popup.querySelector('.fafl-win-details'),expanded=details.hidden;details.hidden=!expanded;toggle.setAttribute('aria-expanded',String(expanded));toggle.querySelector('span:first-child').textContent=expanded?'Hide Weekly Details':'Show Weekly Details';toggle.querySelector('.fafl-detail-arrow').textContent=expanded?'↖':'↘';if(!expanded)suppressCloseUntil=Date.now()+500;if(activeTrigger)positionPopup(activeTrigger,false);});
 root.addEventListener('keydown',e=>{if(e.key==='Escape')closePopup(true);});
 const state={view:'playoff',playoffPicture:'current',bracketPicture:'current',conference:'NFC',selected:'Chicago Bears',header:'Silver',density:'Comfortable',bars:true};
 const mast=root.querySelector('.fafl-mast');
