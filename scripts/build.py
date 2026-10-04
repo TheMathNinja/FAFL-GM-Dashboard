@@ -4,7 +4,7 @@ from datetime import date,datetime,timedelta,timezone
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from rules import fafl_outcomes,rank_field
+from rules import fafl_outcomes,rank_field,orderkeys
 from weekly_system import calculate_elo,calculate_bonus_games
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -99,12 +99,13 @@ def fetch_current(week):
  divmap={d['id']:d['conference'] for d in league['divisions']['division']}
  meta=sorted(league['franchises']['franchise'],key=lambda f:f['id']);ids=[f['id'] for f in meta]
  if len(ids)!=32 or len(set(ids))!=32 or int(league['lastRegularSeasonWeek'])!=12:raise ValueError('Unexpected FAFL structure')
- opp=np.full((12,32),-1,int)
+ opp=np.full((12,32),-1,int);home=np.zeros((12,32),bool)
  for w in schedule['weeklySchedule']:
   k=int(w['week'])-1
   if k not in range(12):continue
   for game in w['matchup']:
    a,b=[ids.index(f['id']) for f in game['franchise']];opp[k,a]=b;opp[k,b]=a
+   for f in game['franchise']:home[k,ids.index(f['id'])]=int(f.get('isHome','0'))==1
  if (opp<0).any():raise ValueError('Incomplete regular-season schedule')
  rows=[]
  for w in range(1,week+1):
@@ -123,9 +124,9 @@ def fetch_current(week):
     rows.append(dict(season=SEASON,week=w,franchise_id=f['id'],points=actual,potential=potential,off=actual-defense,deff=defense))
  current=pd.DataFrame(rows)
  if len(current)!=32*week or current.duplicated(['week','franchise_id']).any():raise ValueError('Incomplete current results')
- return meta,divmap,opp,current
+ return meta,divmap,opp,home,current
 
-def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
+def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
  ids=[f['id'] for f in meta];conf=[np.array([i for i,f in enumerate(meta) if divmap[f['division']]==c]) for c in ['00','01']]
  div=[np.array([i for i,f in enumerate(meta) if f['division']==d]) for d in sorted(divmap)]
  assert all(len(x)==16 for x in conf) and all(len(x)==4 for x in div)
@@ -133,6 +134,7 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
  pot=current.pivot(index='week',columns='franchise_id',values='potential')[ids].to_numpy()
  today=fafl_outcomes(actual[None],pot[None],opp[:week],conf,div)
  details={'training_years':list(range(2021,SEASON))}
+ scores=actual[None];potentials=pot[None]
  if week==12:
   q,dw,seed,wins,ap,credits=today;mu=actual.mean(0);pmu=pot.mean(0)
  else:
@@ -148,6 +150,19 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
   details['strength_uncertainty']={'model':'normal_persistent_no_extra_taper','sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
  projected_q,projected_dw,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
+ ap_week=((scores[:,:,:,None]>scores[:,:,None,:]).sum(-1)+.5*((scores[:,:,:,None]==scores[:,:,None,:]).sum(-1)-1))
+ bonus_specs=[('Q1 Bonus Game',0,3),('Q2 Bonus Game',3,6),('Q3 Bonus Game',6,9),('Q4 Bonus Game',9,12),('Regular Season Bonus Game',0,12)]
+ bonus_prob={}
+ for label,a,b in bonus_specs:
+  order=orderkeys(-ap_week[:,a:b].sum(1),-scores[:,a:b].sum(1),-potentials[:,a:b].sum(1))
+  bonus=np.zeros((len(scores),32));rr=np.arange(len(scores))[:,None]
+  bonus[rr,order[:,:15]]=1;bonus[rr,order[:,15:17]]=.5
+  bonus_prob[label]=bonus.mean(0)
+ def team_logo(f):
+  abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
+  return f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png'
+ actual_ap=((actual[:,:,None]>actual[:,None,:]).sum(-1)+.5*((actual[:,:,None]==actual[:,None,:]).sum(-1)-1))
+ def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
  rows=[];data={'NFC':[],'AFC':[]}
  for i,f in enumerate(meta):
   g=current[current.franchise_id==f['id']];win=float(today[3][0,i]);ties=int((today[5][0,:,i]==.5).sum())
@@ -158,11 +173,26 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
    order=np.lexsort((-pot[a:b].sum(0),-sub.sum(0),-pa));ties+=int(i in order[15:17])
   games=week+sum(b<=week for a,b in [(0,3),(3,6),(6,9),(9,12),(0,12)])
   w=int(round(win-ties/2));loss=games-w-ties
-  name=f['name'];abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
+  name=f['name']
   playoff=float(q[:,i].mean());division=float(dw[:,i].mean());bye=float((seed[:,i]==1).mean())
   clinch='b' if bye==1 else 'd' if division==1 else 'p' if playoff==1 else 'e' if playoff==0 else ''
-  r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png',seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=float(wins[:,i].mean()),predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]))
-  def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
+  matchups=[]
+  for k in range(week,12):
+   opponent=meta[opp[k,i]]
+   matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),site='v.' if home[k,i] else '@',probability=float(credits[:,k,i].mean())))
+  bonus_games=[dict(label=label,week=b,probability=float(bonus_prob[label][i])) for label,a,b in bonus_specs if b>week]
+  projected_wins=float(wins[:,i].mean());calculated=win+sum(x['probability'] for x in matchups)+sum(x['probability'] for x in bonus_games)
+  if not np.isclose(projected_wins,calculated,atol=1e-9):raise ValueError('Projected-win components do not add to the forecast')
+  weeks=[]
+  for k in range(week):
+   apw=float(actual_ap[k,i]);apl=float(31-apw);ap_ties=int(((actual[k,i]==np.delete(actual[k],i))).sum());ap_wins=int(round(apw-.5*ap_ties));ap_losses=31-ap_wins-ap_ties
+   weeks.append(dict(week=k+1,points=float(actual[k,i]),allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
+  played_matchups=[]
+  for k in range(week):
+   opponent=meta[opp[k,i]];credit=float(today[5][0,k,i])
+   played_matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),site='v.' if home[k,i] else '@',teamScore=float(actual[k,i]),opponentScore=float(actual[k,opp[k,i]]),result='W' if credit==1 else 'T' if credit==.5 else 'L'))
+  played_bonuses=[dict(label=label,week=b,result='W' if bonus_prob[label][i]==1 else 'T' if bonus_prob[label][i]==.5 else 'L') for label,a,b in bonus_specs if b<=week]
+  r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=team_logo(f),seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=projected_wins,predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]),winDetails=dict(currentWins=win,matchups=matchups,bonusGames=bonus_games),actualDetails=dict(weeks=weeks,matchups=played_matchups,bonusGames=played_bonuses))
   h2h=today[5][0,:,i];hw=int((h2h==1).sum());hl=int((h2h==0).sum());ht=int((h2h==.5).sum())
   others=np.delete(actual,i,axis=1);own=actual[:,i,None]
   aw=int((own>others).sum());al=int((own<others).sum());at=int((own==others).sum())
@@ -182,7 +212,7 @@ def forecast(history,current,meta,divmap,opp,week,n_sims=3000):
 
 def render(data,week,status,n_sims,updated):
  from gm_profiles import gm_profiles
- _,_,_,career_current,career_week,_=load_source()
+ _,_,_,_,career_current,career_week,_=load_source()
  profiles=gm_profiles(ROOT,SEASON,career_week,career_current)
  template=(ROOT/'scripts/templates/playoff.html').read_text(encoding='utf8')
  out=ROOT/'docs/playoff-picture';out.mkdir(parents=True,exist_ok=True)
@@ -196,9 +226,9 @@ def render(data,week,status,n_sims,updated):
  flat=[{k:v for k,v in r.items() if k!='ranks'} for c in data.values() for r in c]
  pd.DataFrame(flat).to_csv(out/f'week-{week+1:02}.csv',index=False)
 
-def save_source(meta,divmap,opp,current,week,status):
+def save_source(meta,divmap,opp,home,current,week,status):
  current.to_csv(ROOT/'data/current_weekly.csv',index=False)
- payload=dict(meta=meta,divmap=divmap,opp=opp.tolist(),week=week,status=status,
+ payload=dict(meta=meta,divmap=divmap,opp=opp.tolist(),home=home.tolist(),week=week,status=status,
               scraped_at=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
  (ROOT/'data/weekly_source_context.json').write_text(json.dumps(payload,indent=2),encoding='utf8')
 
@@ -206,7 +236,7 @@ def load_source():
  payload=json.loads((ROOT/'data/weekly_source_context.json').read_text(encoding='utf8'))
  current=pd.read_csv(ROOT/'data/current_weekly.csv',dtype={'franchise_id':str})
  current.franchise_id=current.franchise_id.str.zfill(4)
- return payload['meta'],payload['divmap'],np.asarray(payload['opp'],dtype=int),current,int(payload['week']),payload['status']
+ return payload['meta'],payload['divmap'],np.asarray(payload['opp'],dtype=int),np.asarray(payload['home'],dtype=bool),current,int(payload['week']),payload['status']
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=3000);parser.add_argument('--stage',choices=['all','source','elo-shadow','bonus','playoff'],default='all');args=parser.parse_args()
@@ -214,10 +244,10 @@ def main():
  if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
  if args.stage in ['all','source']:
-  meta,divmap,opp,current=fetch_current(week);current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
-  save_source(meta,divmap,opp,current,week,args.status)
+  meta,divmap,opp,home,current=fetch_current(week);current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
+  save_source(meta,divmap,opp,home,current,week,args.status)
  else:
-  meta,divmap,opp,current,week,_=load_source()
+  meta,divmap,opp,home,current,week,_=load_source()
  if args.stage=='source':
   print(f'Validated one FAFL MFL snapshot through Week {week}: {len(current)} team-week rows')
   return
@@ -228,7 +258,7 @@ def main():
  if args.stage in ['all','bonus']:
   calculate_bonus_games(current,meta).to_csv(ROOT/'data/bonus_games.csv',index=False)
   if args.stage=='bonus':return
- data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,min(week,12),args.simulations)
+ data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,home,min(week,12),args.simulations)
  stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,min(week,12),args.status,args.simulations,stamp)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
  (ROOT/'data/current_forecast.json').write_text(json.dumps(payload,indent=2,allow_nan=False),encoding='utf8')
