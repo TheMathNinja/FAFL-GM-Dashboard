@@ -153,11 +153,15 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
  ap_week=((scores[:,:,:,None]>scores[:,:,None,:]).sum(-1)+.5*((scores[:,:,:,None]==scores[:,:,None,:]).sum(-1)-1))
  bonus_specs=[('Q1 Bonus Game',0,3),('Q2 Bonus Game',3,6),('Q3 Bonus Game',6,9),('Q4 Bonus Game',9,12),('Regular Season Bonus Game',0,12)]
  bonus_prob={}
+ completed_bonus_details={}
  for label,a,b in bonus_specs:
   order=orderkeys(-ap_week[:,a:b].sum(1),-scores[:,a:b].sum(1),-potentials[:,a:b].sum(1))
   bonus=np.zeros((len(scores),32));rr=np.arange(len(scores))[:,None]
   bonus[rr,order[:,:15]]=1;bonus[rr,order[:,15:17]]=.5
   bonus_prob[label]=bonus.mean(0)
+  if b<=week:
+   ranks=np.empty(32,dtype=int);ranks[order[0]]=np.arange(1,33)
+   completed_bonus_details[label]=(ap_week[0,a:b].sum(0),ranks)
  def team_logo(f):
   abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
   return f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png'
@@ -190,8 +194,8 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
   played_matchups=[]
   for k in range(week):
    opponent=meta[opp[k,i]];credit=float(today[5][0,k,i])
-   played_matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),site='v.' if home[k,i] else '@',teamScore=float(actual[k,i]),opponentScore=float(actual[k,opp[k,i]]),result='W' if credit==1 else 'T' if credit==.5 else 'L'))
-  played_bonuses=[dict(label=label,week=b,result='W' if bonus_prob[label][i]==1 else 'T' if bonus_prob[label][i]==.5 else 'L') for label,a,b in bonus_specs if b<=week]
+   played_matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),opponentAbbr=opponent['abbrev'],site='v.' if home[k,i] else '@',teamScore=float(actual[k,i]),opponentScore=float(actual[k,opp[k,i]]),result='W' if credit==1 else 'T' if credit==.5 else 'L'))
+  played_bonuses=[dict(label=label,week=b,allPlayWins=float(completed_bonus_details[label][0][i]),rank=int(completed_bonus_details[label][1][i]),result='W' if bonus_prob[label][i]==1 else 'T' if bonus_prob[label][i]==.5 else 'L') for label,a,b in bonus_specs if b<=week]
   r=dict(pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=team_logo(f),seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=projected_wins,predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]),winDetails=dict(currentWins=win,matchups=matchups,bonusGames=bonus_games),actualDetails=dict(weeks=weeks,matchups=played_matchups,bonusGames=played_bonuses))
   h2h=today[5][0,:,i];hw=int((h2h==1).sum());hl=int((h2h==0).sum());ht=int((h2h==.5).sum())
   others=np.delete(actual,i,axis=1);own=actual[:,i,None]

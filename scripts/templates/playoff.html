@@ -85,7 +85,8 @@
 #fafl-playoff-design .fafl-breakdown-row strong{text-align:right;font-weight:700;color:var(--rank-ink)}
 #fafl-playoff-design .fafl-rank{white-space:nowrap;text-align:right;font-size:11px;font-weight:600;color:var(--rank-ink)}
 #fafl-playoff-design .fafl-popup-note{font-size:11px;color:var(--fafl-muted);padding:4px 0 0;border-top:1px solid var(--fafl-line)}
-#fafl-playoff-design .fafl-detail-expand{display:flex;align-items:center;justify-content:center;width:100%;margin-top:7px;padding:7px 8px;border:0;border-top:1px solid var(--fafl-line);background:transparent;color:var(--fafl-accent);font:700 11px/1.2 Inter,system-ui,sans-serif;cursor:pointer}
+#fafl-playoff-design .fafl-detail-expand{display:flex;align-items:center;justify-content:center;gap:5px;width:100%;margin-top:7px;padding:7px 8px;border:0;border-top:1px solid var(--fafl-line);background:transparent;color:var(--fafl-accent);font:700 11px/1.2 Inter,system-ui,sans-serif;cursor:pointer}
+#fafl-playoff-design .fafl-detail-arrow{font-size:13px;line-height:1}
 #fafl-playoff-design .fafl-detail-expand:hover{background:color-mix(in srgb,var(--fafl-accent) 7%,transparent)}
 #fafl-playoff-design .fafl-win-details{max-height:310px;overflow:auto;margin-top:2px;padding-right:2px}
 #fafl-playoff-design .fafl-win-details[hidden]{display:none}
@@ -99,6 +100,14 @@
 #fafl-playoff-design .fafl-win-equation span:nth-last-child(-n+2){font-weight:800;color:var(--fafl-text)}
 #fafl-playoff-design .fafl-history-row{display:grid;grid-template-columns:52px minmax(0,1fr) max-content;gap:8px;align-items:center;padding:5px 0;border-bottom:1px solid color-mix(in srgb,var(--fafl-line) 65%,transparent);font-size:11px;font-variant-numeric:tabular-nums}
 #fafl-playoff-design .fafl-history-row strong,#fafl-playoff-design .fafl-history-row b{text-align:right}
+#fafl-playoff-design .fafl-history-section{display:grid;grid-template-columns:52px minmax(0,1fr) max-content;gap:8px}
+#fafl-playoff-design .fafl-history-section span:nth-child(n+2){text-align:right}
+#fafl-playoff-design .fafl-record-row{grid-template-columns:42px 19px minmax(0,1fr) 99px}
+#fafl-playoff-design .fafl-record-row.fafl-bonus-row{grid-template-columns:42px 19px minmax(0,1fr) 18px}
+#fafl-playoff-design .fafl-record-opponent{white-space:nowrap}
+#fafl-playoff-design .fafl-record-result{white-space:nowrap;text-align:right}
+#fafl-playoff-design .fafl-bonus-summary{display:flex;min-width:0;flex-direction:column;line-height:1.2}
+#fafl-playoff-design .fafl-bonus-summary small{color:var(--fafl-muted);font-size:9px;white-space:nowrap}
 #fafl-playoff-design .fafl-result-W{color:light-dark(#17733b,#75dfa1)}
 #fafl-playoff-design .fafl-result-L{color:light-dark(#a52c2c,#ff9999)}
 #fafl-playoff-design .fafl-result-T{color:var(--fafl-muted)}
@@ -206,7 +215,10 @@ const gmProfiles=__GM_PROFILES__;
 for(const [conf,ts] of Object.entries(data)){if(!draft[conf]?.length){const current=[...ts].sort((a,b)=>(a.seed<=7)-(b.seed<=7)||(a.seed>7?a.pot-b.pot:b.seed-a.seed));const projected=[...ts].sort((a,b)=>(a.finish<=7)-(b.finish<=7)||(a.finish>7?a.projectedPotentialPoints-b.projectedPotentialPoints:b.finish-a.finish));draft[conf]=current.map((t,i)=>({...t,currentPick:i+1,pick:projected.indexOf(t)+1,potential:t.projectedPotentialPoints}));}}
 const popup=root.querySelector('#fafl-ppg-popup');
 let activeTrigger=null,hideTimer=null;
-function closePopup(){popup.hidden=true;if(activeTrigger)activeTrigger.setAttribute('aria-expanded','false');activeTrigger=null;}
+function closePopup(force=false){
+ if(!force&&popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))return;
+ popup.hidden=true;if(activeTrigger)activeTrigger.setAttribute('aria-expanded','false');activeTrigger=null;
+}
 function ordinal(n){return n+(n%100>=11&&n%100<=13?'th':({1:'st',2:'nd',3:'rd'}[n%10]||'th'));}
 function rankFor(t,key){
  const number=x=>parseFloat(x[key]);
@@ -237,19 +249,19 @@ function winDetailsMarkup(t){
  const matchupRows=matchups.map(g=>`<div class="fafl-win-row"><span>Week ${g.week}</span><img src="${g.opponentLogo}" alt=""><span><b class="fafl-win-site">${g.site}</b> ${g.opponent}</span><strong class="fafl-win-prob">${pct(g.probability)}</strong></div>`).join('');
  const bonusRows=bonuses.map(g=>`<div class="fafl-win-row"><span>Week ${g.week}</span><span class="fafl-bonus-mark">B</span><span>${g.label}</span><strong class="fafl-win-prob">${pct(g.probability)}</strong></div>`).join('');
  const h2h=matchups.reduce((sum,g)=>sum+Number(g.probability),0),bonus=bonuses.reduce((sum,g)=>sum+Number(g.probability),0),total=Number(d.currentWins)+h2h+bonus;
- return `<button type="button" class="fafl-detail-expand" aria-expanded="false">Expand</button><div class="fafl-win-details" hidden>${matchups.length?'<div class="fafl-win-section"><span>Remaining Matchups</span><span>Win Prob</span></div>'+matchupRows:''}${bonuses.length?'<div class="fafl-win-section"><span>Bonus Games</span><span>Win Prob</span></div>'+bonusRows:''}<div class="fafl-win-equation"><span>Current adjusted wins</span><strong>${Number(d.currentWins).toFixed(1)}</strong><span>Remaining matchup wins</span><strong>+ ${h2h.toFixed(2)}</strong><span>Remaining bonus wins</span><strong>+ ${bonus.toFixed(2)}</strong><span>Projected Wins</span><strong>${total.toFixed(2)}</strong></div></div>`;
+ return `<button type="button" class="fafl-detail-expand" data-wide="true" aria-expanded="false"><span>Show Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↘</span></button><div class="fafl-win-details" hidden>${matchups.length?'<div class="fafl-win-section"><span>Remaining Matchups</span><span>Win Prob</span></div>'+matchupRows:''}${bonuses.length?'<div class="fafl-win-section"><span>Bonus Games</span><span>Win Prob</span></div>'+bonusRows:''}<div class="fafl-win-equation"><span>Current adjusted wins</span><strong>${Number(d.currentWins).toFixed(1)}</strong><span>Remaining matchup wins</span><strong>+ ${h2h.toFixed(2)}</strong><span>Remaining bonus wins</span><strong>+ ${bonus.toFixed(2)}</strong><span>Projected Wins</span><strong>${total.toFixed(2)}</strong></div></div>`;
 }
 function actualDetailsMarkup(t,kind){
  const d=t.actualDetails;if(!d)return '<div class="fafl-popup-note">Weekly results are unavailable.</div>';
  let content='';
  if(kind==='ppg')content='<div class="fafl-win-section"><span>Weekly Scores</span><span>Points</span></div>'+d.weeks.map(g=>`<div class="fafl-history-row"><span>Week ${g.week}</span><span></span><strong>${Number(g.points).toFixed(1)}</strong></div>`).join('');
- if(kind==='ap')content='<div class="fafl-win-section"><span>Weekly All-Play</span><span>Record · Pct</span></div>'+d.weeks.map(g=>`<div class="fafl-history-row"><span>Week ${g.week}</span><strong>${g.allPlayRecord}</strong><b>${(Number(g.allPlayPct)*100).toFixed(1)}%</b></div>`).join('');
+ if(kind==='ap')content='<div class="fafl-win-section fafl-history-section"><span>Weekly All-Play</span><span>Record</span><span>Pct</span></div>'+d.weeks.map(g=>`<div class="fafl-history-row"><span>Week ${g.week}</span><strong>${g.allPlayRecord}</strong><b>${(Number(g.allPlayPct)*100).toFixed(1)}%</b></div>`).join('');
  if(kind==='record'){
-  const games=d.matchups.map(g=>`<div class="fafl-win-row"><span>Week ${g.week}</span><img src="${g.opponentLogo}" alt=""><span><b class="fafl-win-site">${g.site}</b> ${g.opponent}</span><strong class="fafl-win-prob fafl-result-${g.result}">${g.result} · ${Number(g.teamScore).toFixed(1)}–${Number(g.opponentScore).toFixed(1)}</strong></div>`).join('');
-  const bonuses=(d.bonusGames||[]).map(g=>`<div class="fafl-win-row"><span>Week ${g.week}</span><span class="fafl-bonus-mark">B</span><span>${g.label}</span><strong class="fafl-win-prob fafl-result-${g.result}">${g.result}</strong></div>`).join('');
+  const games=d.matchups.map(g=>`<div class="fafl-win-row fafl-record-row"><span>Week ${g.week}</span><img src="${g.opponentLogo}" alt=""><span class="fafl-record-opponent">${g.site} ${g.opponentAbbr||g.opponent}</span><strong class="fafl-record-result fafl-result-${g.result}">${g.result} · ${Number(g.teamScore).toFixed(1)}–${Number(g.opponentScore).toFixed(1)}</strong></div>`).join('');
+  const bonuses=(d.bonusGames||[]).map(g=>`<div class="fafl-win-row fafl-record-row fafl-bonus-row"><span>Week ${g.week}</span><span class="fafl-bonus-mark">B</span><span class="fafl-bonus-summary"><span>${g.label}</span><small>${Number(g.allPlayWins).toFixed(1)} APW · ${ordinal(Number(g.rank))}</small></span><strong class="fafl-record-result fafl-result-${g.result}">${g.result}</strong></div>`).join('');
   content='<div class="fafl-win-section"><span>Head-to-Head Games</span><span>Result</span></div>'+games+(bonuses?'<div class="fafl-win-section"><span>Bonus Games</span><span>Result</span></div>'+bonuses:'');
  }
- return `<button type="button" class="fafl-detail-expand" aria-expanded="false">Expand</button><div class="fafl-win-details" hidden>${content}</div>`;
+ return `<button type="button" class="fafl-detail-expand" aria-expanded="false"><span>Show Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↘</span></button><div class="fafl-win-details" hidden>${content}</div>`;
 }
 function popupMarkup(t,kind='ppg'){
  if(kind==='team')return gmMarkup(t);
@@ -309,11 +321,11 @@ function showPopup(button){
 root.addEventListener('mouseover',e=>{const b=e.target.closest('[data-ppg]');if(b)showPopup(b);});
 root.addEventListener('focusin',e=>{const b=e.target.closest('[data-ppg]');if(b)showPopup(b);else if(!popup.contains(e.target))closePopup();});
 root.addEventListener('click',e=>{const b=e.target.closest('[data-ppg]');if(b)showPopup(b);else if(!popup.contains(e.target))closePopup();});
-root.addEventListener('mouseout',e=>{if(e.target.closest('[data-ppg]')&&!popup.contains(e.relatedTarget))hideTimer=setTimeout(closePopup,180);});
+root.addEventListener('mouseout',e=>{if(e.target.closest('[data-ppg]')&&!popup.contains(e.relatedTarget))hideTimer=setTimeout(()=>{if(!popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))closePopup();},180);});
 popup.addEventListener('mouseenter',()=>clearTimeout(hideTimer));
 popup.addEventListener('mouseleave',()=>{if(!popup.querySelector('.fafl-detail-expand[aria-expanded="true"]'))closePopup();});
-popup.addEventListener('click',e=>{const toggle=e.target.closest('.fafl-detail-expand');if(!toggle)return;const details=popup.querySelector('.fafl-win-details'),expanded=details.hidden;details.hidden=!expanded;toggle.setAttribute('aria-expanded',String(expanded));toggle.textContent=expanded?'Collapse':'Expand';if(activeTrigger)positionPopup(activeTrigger,expanded);});
-root.addEventListener('keydown',e=>{if(e.key==='Escape')closePopup();});
+popup.addEventListener('click',e=>{const toggle=e.target.closest('.fafl-detail-expand');if(!toggle)return;clearTimeout(hideTimer);const details=popup.querySelector('.fafl-win-details'),expanded=details.hidden;details.hidden=!expanded;toggle.setAttribute('aria-expanded',String(expanded));toggle.innerHTML=expanded?'<span>Hide Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↖</span>':'<span>Show Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↘</span>';if(activeTrigger)positionPopup(activeTrigger,expanded&&toggle.dataset.wide==='true');});
+root.addEventListener('keydown',e=>{if(e.key==='Escape')closePopup(true);});
 const state={view:'playoff',playoffPicture:'current',bracketPicture:'current',conference:'NFC',selected:'Chicago Bears',header:'Silver',density:'Comfortable',bars:true};
 const mast=root.querySelector('.fafl-mast');
 const rows=root.querySelector('#fafl-rows'),head=root.querySelector('#fafl-head');
