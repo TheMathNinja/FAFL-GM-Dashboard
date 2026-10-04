@@ -4,11 +4,14 @@ from datetime import date,datetime
 from zoneinfo import ZoneInfo
 import numpy as np,pandas as pd
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-from build import historical,load_links,fit_means,completed_week,draw_future_points,pool_unstarted_quarter_bonus
+from build import DEFAULT_SIMULATIONS,historical,load_links,fit_means,completed_week,draw_future_points,pool_unstarted_quarter_bonus
 from rules import rank_field,fafl_outcomes
 from score_schedule import schedule_decision
 
 class ModelTests(unittest.TestCase):
+ def test_production_uses_ten_thousand_simulations(self):
+  self.assertEqual(DEFAULT_SIMULATIONS,10000)
+
  def test_matches_selected_experiment_at_every_checkpoint(self):
   h=historical();links=load_links();expected=pd.read_csv(ROOT/'tests/fixtures/expected_means.csv')
   for (year,week),g in expected.groupby(['season','week']):
