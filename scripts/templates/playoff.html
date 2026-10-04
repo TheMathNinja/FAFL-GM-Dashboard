@@ -50,6 +50,8 @@
 #fafl-playoff-design .fafl-track i{display:block;height:100%;background:var(--fafl-blue);border-radius:5px}
 #fafl-playoff-design .fafl-percent{width:31px;font-weight:700}
 #fafl-playoff-design .fafl-cut td{padding:7px 18px;text-align:left!important;background:var(--fafl-bg);color:var(--fafl-muted);font-size:10px;letter-spacing:.7px;text-transform:uppercase;border-top:1px dashed var(--fafl-line);border-bottom:1px dashed var(--fafl-line)}
+#fafl-playoff-design .fafl-ladder-cut td{padding:12px 9px 8px;font-size:12px;font-weight:700;letter-spacing:.2px;text-transform:none;border-top:1px solid var(--fafl-line);border-bottom:0}
+#fafl-playoff-design .fafl-ladder-cut+.fafl-column-headings th{border-top:0;padding-top:8px}
 #fafl-playoff-design .fafl-detail{display:flex;flex-wrap:wrap;align-items:center;gap:22px;padding:16px 18px;background:var(--fafl-soft);border-top:1px solid var(--fafl-line)}
 #fafl-playoff-design .fafl-detail-name{margin-right:auto;font-size:12px;font-weight:700}
 #fafl-playoff-design .fafl-stat{display:grid;gap:3px;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
@@ -318,7 +320,7 @@ function render(){
    const odds=forecastMetric(t,'odds',`<span class="fafl-odds">${state.bars?`<span class="fafl-track" aria-hidden="true"><i style="width:${t.odds}"></i></span>`:''}<span class="fafl-percent">${t.odds}</span></span>`);
    const qual=projectedOrder?t.projectedQual:t.qual;
    const status=t.clinch?metric(t.clinch,({b:'Clinched #1 Seed',d:'Clinched division',p:'Clinched playoffs',e:'Eliminated'})[t.clinch]):'';
-   return (i===7?'<tr class="fafl-cut"><td colspan="7">Consolation Ladder</td></tr>'+playoffHeader:'')+`<tr><td><span class="fafl-seed ${i<7?'in':''}">${projectedOrder?t.finish:t.seed}</span></td><td><div class="fafl-teamcell">${team(t)}${(qual?`<span class="fafl-qual">${qual==='y'?'D':'W'}</span>`:'')}${status}</div></td><td>${forecastMetric(t,'record',String(t.record).replace(/^(\d+-\d+)-0$/, '$1'))}</td><td>${forecastMetric(t,'ap',(Number(t.apPct)*100).toFixed(1)+'%')}</td><td><button type="button" class="fafl-metric" data-ppg="${t.name}" aria-label="${t.name}: ${t.ppg} points per game; show breakdown" aria-describedby="fafl-ppg-popup" aria-expanded="false">${t.ppg}</button></td><td>${forecastMetric(t,'wins',Number(t.wins).toFixed(1))}</td><td>${odds}</td></tr>`;
+   return (i===7?'<tr class="fafl-cut fafl-ladder-cut"><td colspan="7">Consolation Ladder</td></tr>'+playoffHeader:'')+`<tr><td><span class="fafl-seed ${i<7?'in':''}">${projectedOrder?t.finish:t.seed}</span></td><td><div class="fafl-teamcell">${team(t)}${(qual?`<span class="fafl-qual">${qual==='y'?'D':'W'}</span>`:'')}${status}</div></td><td>${forecastMetric(t,'record',String(t.record).replace(/^(\d+-\d+)-0$/, '$1'))}</td><td>${forecastMetric(t,'ap',(Number(t.apPct)*100).toFixed(1)+'%')}</td><td><button type="button" class="fafl-metric" data-ppg="${t.name}" aria-label="${t.name}: ${t.ppg} points per game; show breakdown" aria-describedby="fafl-ppg-popup" aria-expanded="false">${t.ppg}</button></td><td>${forecastMetric(t,'wins',Number(t.wins).toFixed(1))}</td><td>${odds}</td></tr>`;
  }).join('');
 }
 
