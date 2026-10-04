@@ -93,6 +93,7 @@
 #fafl-playoff-design .fafl-win-section{display:flex;justify-content:space-between;align-items:end;padding:8px 0 4px;border-bottom:1px solid var(--fafl-line);color:var(--fafl-muted);font-size:10px;font-weight:700;letter-spacing:.25px;text-transform:uppercase}
 #fafl-playoff-design .fafl-win-row{display:grid;grid-template-columns:45px 25px minmax(0,1fr) 48px;gap:5px;align-items:center;min-height:28px;padding:3px 0;border-bottom:1px solid color-mix(in srgb,var(--fafl-line) 65%,transparent);font-size:11px;font-variant-numeric:tabular-nums}
 #fafl-playoff-design .fafl-win-row img{width:21px;height:21px;object-fit:contain}
+#fafl-playoff-design .fafl-win-row.fafl-forecast-matchup-row{grid-template-columns:42px 21px minmax(0,1fr) 48px}
 #fafl-playoff-design .fafl-win-row.fafl-bonus-forecast-row{grid-template-columns:minmax(0,1fr) 48px}
 #fafl-playoff-design .fafl-win-site{color:var(--fafl-muted);font-weight:700;text-align:center}
 #fafl-playoff-design .fafl-win-prob{text-align:right;font-weight:750}
@@ -258,7 +259,7 @@ function gmMarkup(t){
 function winDetailsMarkup(t){
  const d=t.winDetails;if(!d)return '<div class="fafl-popup-note">Remaining matchup probabilities are unavailable.</div>';
  const exp=x=>Number(x).toFixed(2),matchups=d.matchups||[],bonuses=d.bonusGames||[];
- const matchupRows=matchups.map(g=>`<div class="fafl-win-row"><span>Week ${g.week}</span><img src="${g.opponentLogo}" alt=""><span><b class="fafl-win-site">${g.site}</b> ${g.opponent}</span><strong class="fafl-win-prob" style="color:${expectedWinInk(g.probability)}">${exp(g.probability)}</strong></div>`).join('');
+ const matchupRows=matchups.map(g=>`<div class="fafl-win-row fafl-forecast-matchup-row"><span>Week ${g.week}</span><img src="${g.opponentLogo}" alt=""><span><b class="fafl-win-site">${g.site}</b> ${g.opponentAbbr||g.opponent}</span><strong class="fafl-win-prob" style="color:${expectedWinInk(g.probability)}">${exp(g.probability)}</strong></div>`).join('');
  const bonusRows=bonuses.map(g=>`<div class="fafl-win-row fafl-bonus-forecast-row"><span>${bonusCode(g.label)}</span><strong class="fafl-win-prob" style="color:${expectedWinInk(g.probability)}">${exp(g.probability)}</strong></div>`).join('');
  const h2h=matchups.reduce((sum,g)=>sum+Number(g.probability),0),bonus=bonuses.reduce((sum,g)=>sum+Number(g.probability),0),total=Number(d.currentWins)+h2h+bonus;
  return `<button type="button" class="fafl-detail-expand" aria-expanded="false"><span>Show Weekly Details</span><span class="fafl-detail-arrow" aria-hidden="true">↘</span></button><div class="fafl-win-details" hidden>${matchups.length?'<div class="fafl-win-section"><span>Remaining Matchups</span><span>Exp. Wins</span></div>'+matchupRows:''}${bonuses.length?'<div class="fafl-win-section"><span>Bonus Games</span><span>Exp. Wins</span></div>'+bonusRows:''}<div class="fafl-win-equation"><span>Current adjusted wins</span><strong>${Number(d.currentWins).toFixed(1)}</strong><span>Remaining matchup Exp. Wins</span><strong>+ ${h2h.toFixed(2)}</strong><span>Remaining bonus Exp. Wins</span><strong>+ ${bonus.toFixed(2)}</strong><span>Projected Wins</span><strong>${total.toFixed(2)}</strong></div></div>`;
