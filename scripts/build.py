@@ -190,9 +190,11 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
   projected_wins=float(wins[:,i].mean());calculated=win+sum(x['probability'] for x in matchups)+sum(x['probability'] for x in bonus_games)
   if not np.isclose(projected_wins,calculated,atol=1e-9):raise ValueError('Projected-win components do not add to the forecast')
   weeks=[]
+  conference_indices=[j for j,team in enumerate(meta) if divmap[team['division']]==divmap[f['division']]]
   for k in range(week):
    apw=float(actual_ap[k,i]);apl=float(31-apw);ap_ties=int(((actual[k,i]==np.delete(actual[k],i))).sum());ap_wins=int(round(apw-.5*ap_ties));ap_losses=31-ap_wins-ap_ties
-   weeks.append(dict(week=k+1,points=float(actual[k,i]),allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
+   conference_best=max(round(float(actual[k,j]),6) for j in conference_indices)
+   weeks.append(dict(week=k+1,points=float(actual[k,i]),weeklyMoney=round(float(actual[k,i]),6)==conference_best,allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
   played_matchups=[]
   for k in range(week):
    opponent=meta[opp[k,i]];credit=float(today[5][0,k,i])
