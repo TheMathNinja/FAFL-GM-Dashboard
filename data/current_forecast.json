@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 3,
   "status": "official",
-  "updated_at": "2026-10-04 19:57 UTC",
+  "updated_at": "2026-10-04 20:00 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
@@ -88,6 +88,7 @@
               "week": 4,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "probability": 0.6331666666666667
             },
@@ -95,6 +96,7 @@
               "week": 5,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "probability": 0.6185
             },
@@ -102,6 +104,7 @@
               "week": 6,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "probability": 0.6905
             },
@@ -109,6 +112,7 @@
               "week": 7,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "probability": 0.4805
             },
@@ -116,6 +120,7 @@
               "week": 8,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "probability": 0.668
             },
@@ -123,6 +128,7 @@
               "week": 9,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "probability": 0.6848333333333333
             },
@@ -130,6 +136,7 @@
               "week": 10,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.6196666666666667
             },
@@ -137,6 +144,7 @@
               "week": 11,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "probability": 0.6465
             },
@@ -144,6 +152,7 @@
               "week": 12,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "probability": 0.632
             }
@@ -287,6 +296,7 @@
               "week": 4,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "probability": 0.49916666666666665
             },
@@ -294,6 +304,7 @@
               "week": 5,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "probability": 0.42766666666666664
             },
@@ -301,6 +312,7 @@
               "week": 6,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "probability": 0.5433333333333333
             },
@@ -308,6 +320,7 @@
               "week": 7,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "probability": 0.574
             },
@@ -315,6 +328,7 @@
               "week": 8,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "probability": 0.37383333333333335
             },
@@ -322,6 +336,7 @@
               "week": 9,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "probability": 0.5416666666666666
             },
@@ -329,6 +344,7 @@
               "week": 10,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.5081666666666667
             },
@@ -336,6 +352,7 @@
               "week": 11,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "probability": 0.5946666666666667
             },
@@ -343,6 +360,7 @@
               "week": 12,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "probability": 0.41533333333333333
             }
@@ -486,6 +504,7 @@
               "week": 4,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "probability": 0.5821666666666667
             },
@@ -493,6 +512,7 @@
               "week": 5,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "probability": 0.5723333333333334
             },
@@ -500,6 +520,7 @@
               "week": 6,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "probability": 0.6546666666666666
             },
@@ -507,6 +528,7 @@
               "week": 7,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.6078333333333333
             },
@@ -514,6 +536,7 @@
               "week": 8,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.58
             },
@@ -521,6 +544,7 @@
               "week": 9,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "probability": 0.687
             },
@@ -528,6 +552,7 @@
               "week": 10,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "probability": 0.42333333333333334
             },
@@ -535,6 +560,7 @@
               "week": 11,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "probability": 0.6263333333333333
             },
@@ -542,6 +568,7 @@
               "week": 12,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "probability": 0.5846666666666667
             }
@@ -685,6 +712,7 @@
               "week": 4,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "probability": 0.5713333333333334
             },
@@ -692,6 +720,7 @@
               "week": 5,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "probability": 0.5666666666666667
             },
@@ -699,6 +728,7 @@
               "week": 6,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "probability": 0.4058333333333333
             },
@@ -706,6 +736,7 @@
               "week": 7,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "probability": 0.655
             },
@@ -713,6 +744,7 @@
               "week": 8,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "probability": 0.6283333333333333
             },
@@ -720,6 +752,7 @@
               "week": 9,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.5656666666666667
             },
@@ -727,6 +760,7 @@
               "week": 10,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "probability": 0.6328333333333334
             },
@@ -734,6 +768,7 @@
               "week": 11,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "probability": 0.5781666666666667
             },
@@ -741,6 +776,7 @@
               "week": 12,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.5715
             }
@@ -884,6 +920,7 @@
               "week": 4,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "probability": 0.36683333333333334
             },
@@ -891,6 +928,7 @@
               "week": 5,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "probability": 0.43333333333333335
             },
@@ -898,6 +936,7 @@
               "week": 6,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.47733333333333333
             },
@@ -905,6 +944,7 @@
               "week": 7,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "probability": 0.5276666666666666
             },
@@ -912,6 +952,7 @@
               "week": 8,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "probability": 0.5596666666666666
             },
@@ -919,6 +960,7 @@
               "week": 9,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "probability": 0.554
             },
@@ -926,6 +968,7 @@
               "week": 10,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "probability": 0.538
             },
@@ -933,6 +976,7 @@
               "week": 11,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "probability": 0.353
             },
@@ -940,6 +984,7 @@
               "week": 12,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "probability": 0.4285
             }
@@ -1083,6 +1128,7 @@
               "week": 4,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "probability": 0.42866666666666664
             },
@@ -1090,6 +1136,7 @@
               "week": 5,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "probability": 0.3815
             },
@@ -1097,6 +1144,7 @@
               "week": 6,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "probability": 0.523
             },
@@ -1104,6 +1152,7 @@
               "week": 7,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.4801666666666667
             },
@@ -1111,6 +1160,7 @@
               "week": 8,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.4846666666666667
             },
@@ -1118,6 +1168,7 @@
               "week": 9,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "probability": 0.5393333333333333
             },
@@ -1125,6 +1176,7 @@
               "week": 10,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "probability": 0.561
             },
@@ -1132,6 +1184,7 @@
               "week": 11,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "probability": 0.5968333333333333
             },
@@ -1139,6 +1192,7 @@
               "week": 12,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "probability": 0.368
             }
@@ -1282,6 +1336,7 @@
               "week": 4,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "probability": 0.5008333333333334
             },
@@ -1289,6 +1344,7 @@
               "week": 5,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "probability": 0.5055
             },
@@ -1296,6 +1352,7 @@
               "week": 6,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.513
             },
@@ -1303,6 +1360,7 @@
               "week": 7,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "probability": 0.575
             },
@@ -1310,6 +1368,7 @@
               "week": 8,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "probability": 0.5573333333333333
             },
@@ -1317,6 +1376,7 @@
               "week": 9,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "probability": 0.36133333333333334
             },
@@ -1324,6 +1384,7 @@
               "week": 10,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "probability": 0.596
             },
@@ -1331,6 +1392,7 @@
               "week": 11,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "probability": 0.5818333333333333
             },
@@ -1338,6 +1400,7 @@
               "week": 12,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "probability": 0.5085
             }
@@ -1481,6 +1544,7 @@
               "week": 4,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "probability": 0.683
             },
@@ -1488,6 +1552,7 @@
               "week": 5,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "probability": 0.6525
             },
@@ -1495,6 +1560,7 @@
               "week": 6,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "probability": 0.5941666666666666
             },
@@ -1502,6 +1568,7 @@
               "week": 7,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "probability": 0.5195
             },
@@ -1509,6 +1576,7 @@
               "week": 8,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "probability": 0.6261666666666666
             },
@@ -1516,6 +1584,7 @@
               "week": 9,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.6386666666666667
             },
@@ -1523,6 +1592,7 @@
               "week": 10,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "probability": 0.5766666666666667
             },
@@ -1530,6 +1600,7 @@
               "week": 11,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.647
             },
@@ -1537,6 +1608,7 @@
               "week": 12,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.6418333333333334
             }
@@ -1680,6 +1752,7 @@
               "week": 4,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "probability": 0.5881666666666666
             },
@@ -1687,6 +1760,7 @@
               "week": 5,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "probability": 0.3475
             },
@@ -1694,6 +1768,7 @@
               "week": 6,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "probability": 0.5226666666666666
             },
@@ -1701,6 +1776,7 @@
               "week": 7,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "probability": 0.5198333333333334
             },
@@ -1708,6 +1784,7 @@
               "week": 8,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "probability": 0.42
             },
@@ -1715,6 +1792,7 @@
               "week": 9,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "probability": 0.5
             },
@@ -1722,6 +1800,7 @@
               "week": 10,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "probability": 0.49183333333333334
             },
@@ -1729,6 +1808,7 @@
               "week": 11,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "probability": 0.42183333333333334
             },
@@ -1736,6 +1816,7 @@
               "week": 12,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "probability": 0.3581666666666667
             }
@@ -1879,6 +1960,7 @@
               "week": 4,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "probability": 0.5113333333333333
             },
@@ -1886,6 +1968,7 @@
               "week": 5,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "probability": 0.44633333333333336
             },
@@ -1893,6 +1976,7 @@
               "week": 6,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "probability": 0.43383333333333335
             },
@@ -1900,6 +1984,7 @@
               "week": 7,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "probability": 0.426
             },
@@ -1907,6 +1992,7 @@
               "week": 8,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "probability": 0.332
             },
@@ -1914,6 +2000,7 @@
               "week": 9,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.446
             },
@@ -1921,6 +2008,7 @@
               "week": 10,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "probability": 0.439
             },
@@ -1928,6 +2016,7 @@
               "week": 11,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.4181666666666667
             },
@@ -1935,6 +2024,7 @@
               "week": 12,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "@",
               "probability": 0.43716666666666665
             }
@@ -2078,6 +2168,7 @@
               "week": 4,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "probability": 0.41783333333333333
             },
@@ -2085,6 +2176,7 @@
               "week": 5,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "probability": 0.4945
             },
@@ -2092,6 +2184,7 @@
               "week": 6,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "probability": 0.5661666666666667
             },
@@ -2099,6 +2192,7 @@
               "week": 7,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "probability": 0.5611666666666667
             },
@@ -2106,6 +2200,7 @@
               "week": 8,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "probability": 0.607
             },
@@ -2113,6 +2208,7 @@
               "week": 9,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "v.",
               "probability": 0.5
             },
@@ -2120,6 +2216,7 @@
               "week": 10,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "probability": 0.5425
             },
@@ -2127,6 +2224,7 @@
               "week": 11,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "probability": 0.5018333333333334
             },
@@ -2134,6 +2232,7 @@
               "week": 12,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.4915
             }
@@ -2277,6 +2376,7 @@
               "week": 4,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "probability": 0.5353333333333333
             },
@@ -2284,6 +2384,7 @@
               "week": 5,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "probability": 0.5536666666666666
             },
@@ -2291,6 +2392,7 @@
               "week": 6,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "probability": 0.487
             },
@@ -2298,6 +2400,7 @@
               "week": 7,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "probability": 0.39216666666666666
             },
@@ -2305,6 +2408,7 @@
               "week": 8,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "probability": 0.5153333333333333
             },
@@ -2312,6 +2416,7 @@
               "week": 9,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "probability": 0.43433333333333335
             },
@@ -2319,6 +2424,7 @@
               "week": 10,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "probability": 0.38033333333333336
             },
@@ -2326,6 +2432,7 @@
               "week": 11,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "probability": 0.49816666666666665
             },
@@ -2333,6 +2440,7 @@
               "week": 12,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "probability": 0.5628333333333333
             }
@@ -2476,6 +2584,7 @@
               "week": 4,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "probability": 0.317
             },
@@ -2483,6 +2592,7 @@
               "week": 5,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "probability": 0.5583333333333333
             },
@@ -2490,6 +2600,7 @@
               "week": 6,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "probability": 0.477
             },
@@ -2497,6 +2608,7 @@
               "week": 7,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.4723333333333333
             },
@@ -2504,6 +2616,7 @@
               "week": 8,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.44266666666666665
             },
@@ -2511,6 +2624,7 @@
               "week": 9,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "probability": 0.4583333333333333
             },
@@ -2518,6 +2632,7 @@
               "week": 10,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "probability": 0.4575
             },
@@ -2525,6 +2640,7 @@
               "week": 11,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "probability": 0.3535
             },
@@ -2532,6 +2648,7 @@
               "week": 12,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "probability": 0.5631666666666667
             }
@@ -2675,6 +2792,7 @@
               "week": 4,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "probability": 0.4886666666666667
             },
@@ -2682,6 +2800,7 @@
               "week": 5,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "probability": 0.4816666666666667
             },
@@ -2689,6 +2808,7 @@
               "week": 6,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "probability": 0.3453333333333333
             },
@@ -2696,6 +2816,7 @@
               "week": 7,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.425
             },
@@ -2703,6 +2824,7 @@
               "week": 8,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.44033333333333335
             },
@@ -2710,6 +2832,7 @@
               "week": 9,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "probability": 0.31516666666666665
             },
@@ -2717,6 +2840,7 @@
               "week": 10,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "probability": 0.36716666666666664
             },
@@ -2724,6 +2848,7 @@
               "week": 11,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "probability": 0.4053333333333333
             },
@@ -2731,6 +2856,7 @@
               "week": 12,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "probability": 0.4633333333333333
             }
@@ -2874,6 +3000,7 @@
               "week": 4,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "probability": 0.41183333333333333
             },
@@ -2881,6 +3008,7 @@
               "week": 5,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "probability": 0.44166666666666665
             },
@@ -2888,6 +3016,7 @@
               "week": 6,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "probability": 0.3095
             },
@@ -2895,6 +3024,7 @@
               "week": 7,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "probability": 0.345
             },
@@ -2902,6 +3032,7 @@
               "week": 8,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "probability": 0.393
             },
@@ -2909,6 +3040,7 @@
               "week": 9,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "probability": 0.313
             },
@@ -2916,6 +3048,7 @@
               "week": 10,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "@",
               "probability": 0.404
             },
@@ -2923,6 +3056,7 @@
               "week": 11,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "probability": 0.4031666666666667
             },
@@ -2930,6 +3064,7 @@
               "week": 12,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "probability": 0.43683333333333335
             }
@@ -3073,6 +3208,7 @@
               "week": 4,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "probability": 0.4646666666666667
             },
@@ -3080,6 +3216,7 @@
               "week": 5,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "probability": 0.5183333333333333
             },
@@ -3087,6 +3224,7 @@
               "week": 6,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "probability": 0.45666666666666667
             },
@@ -3094,6 +3232,7 @@
               "week": 7,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "probability": 0.43883333333333335
             },
@@ -3101,6 +3240,7 @@
               "week": 8,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "probability": 0.37166666666666665
             },
@@ -3108,6 +3248,7 @@
               "week": 9,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "probability": 0.46066666666666667
             },
@@ -3115,6 +3256,7 @@
               "week": 10,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "v.",
               "probability": 0.462
             },
@@ -3122,6 +3264,7 @@
               "week": 11,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "probability": 0.37366666666666665
             },
@@ -3129,6 +3272,7 @@
               "week": 12,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "probability": 0.5366666666666666
             }
@@ -3274,6 +3418,7 @@
               "week": 4,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "probability": 0.58
             },
@@ -3281,6 +3426,7 @@
               "week": 5,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "probability": 0.5023333333333333
             },
@@ -3288,6 +3434,7 @@
               "week": 6,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "probability": 0.49716666666666665
             },
@@ -3295,6 +3442,7 @@
               "week": 7,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "probability": 0.4265
             },
@@ -3302,6 +3450,7 @@
               "week": 8,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "probability": 0.6496666666666666
             },
@@ -3309,6 +3458,7 @@
               "week": 9,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "probability": 0.549
             },
@@ -3316,6 +3466,7 @@
               "week": 10,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.5491666666666667
             },
@@ -3323,6 +3474,7 @@
               "week": 11,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "probability": 0.5386666666666666
             },
@@ -3330,6 +3482,7 @@
               "week": 12,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "probability": 0.5106666666666667
             }
@@ -3473,6 +3626,7 @@
               "week": 4,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "probability": 0.6285
             },
@@ -3480,6 +3634,7 @@
               "week": 5,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "probability": 0.6343333333333333
             },
@@ -3487,6 +3642,7 @@
               "week": 6,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "probability": 0.6381666666666667
             },
@@ -3494,6 +3650,7 @@
               "week": 7,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "probability": 0.5735
             },
@@ -3501,6 +3658,7 @@
               "week": 8,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "probability": 0.609
             },
@@ -3508,6 +3666,7 @@
               "week": 9,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.6283333333333333
             },
@@ -3515,6 +3674,7 @@
               "week": 10,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "probability": 0.6251666666666666
             },
@@ -3522,6 +3682,7 @@
               "week": 11,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.6471666666666667
             },
@@ -3529,6 +3690,7 @@
               "week": 12,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.6048333333333333
             }
@@ -3672,6 +3834,7 @@
               "week": 4,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "probability": 0.4656666666666667
             },
@@ -3679,6 +3842,7 @@
               "week": 5,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "probability": 0.5276666666666666
             },
@@ -3686,6 +3850,7 @@
               "week": 6,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "probability": 0.36183333333333334
             },
@@ -3693,6 +3858,7 @@
               "week": 7,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "probability": 0.4638333333333333
             },
@@ -3700,6 +3866,7 @@
               "week": 8,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "probability": 0.5031666666666667
             },
@@ -3707,6 +3874,7 @@
               "week": 9,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.49416666666666664
             },
@@ -3714,6 +3882,7 @@
               "week": 10,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "probability": 0.5045
             },
@@ -3721,6 +3890,7 @@
               "week": 11,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "probability": 0.4705
             },
@@ -3728,6 +3898,7 @@
               "week": 12,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.524
             }
@@ -3871,6 +4042,7 @@
               "week": 4,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "probability": 0.4603333333333333
             },
@@ -3878,6 +4050,7 @@
               "week": 5,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "probability": 0.36566666666666664
             },
@@ -3885,6 +4058,7 @@
               "week": 6,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "probability": 0.5346666666666666
             },
@@ -3892,6 +4066,7 @@
               "week": 7,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "probability": 0.4735
             },
@@ -3899,6 +4074,7 @@
               "week": 8,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "probability": 0.499
             },
@@ -3906,6 +4082,7 @@
               "week": 9,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "probability": 0.5445
             },
@@ -3913,6 +4090,7 @@
               "week": 10,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "probability": 0.49766666666666665
             },
@@ -3920,6 +4098,7 @@
               "week": 11,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "probability": 0.5295
             },
@@ -3927,6 +4106,7 @@
               "week": 12,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "probability": 0.39516666666666667
             }
@@ -4070,6 +4250,7 @@
               "week": 4,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "probability": 0.5211666666666667
             },
@@ -4077,6 +4258,7 @@
               "week": 5,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "probability": 0.4735
             },
@@ -4084,6 +4266,7 @@
               "week": 6,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "probability": 0.521
             },
@@ -4091,6 +4274,7 @@
               "week": 7,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "probability": 0.6056666666666667
             },
@@ -4098,6 +4282,7 @@
               "week": 8,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "probability": 0.391
             },
@@ -4105,6 +4290,7 @@
               "week": 9,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "probability": 0.5266666666666666
             },
@@ -4112,6 +4298,7 @@
               "week": 10,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.5023333333333333
             },
@@ -4119,6 +4306,7 @@
               "week": 11,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "probability": 0.5365
             },
@@ -4126,6 +4314,7 @@
               "week": 12,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "probability": 0.4935
             }
@@ -4269,6 +4458,7 @@
               "week": 4,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "probability": 0.42
             },
@@ -4276,6 +4466,7 @@
               "week": 5,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "probability": 0.4723333333333333
             },
@@ -4283,6 +4474,7 @@
               "week": 6,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.4653333333333333
             },
@@ -4290,6 +4482,7 @@
               "week": 7,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "probability": 0.46166666666666667
             },
@@ -4297,6 +4490,7 @@
               "week": 8,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "probability": 0.49383333333333335
             },
@@ -4304,6 +4498,7 @@
               "week": 9,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "probability": 0.5843333333333334
             },
@@ -4311,6 +4506,7 @@
               "week": 10,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "probability": 0.4825
             },
@@ -4318,6 +4514,7 @@
               "week": 11,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "probability": 0.35283333333333333
             },
@@ -4325,6 +4522,7 @@
               "week": 12,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "probability": 0.476
             }
@@ -4468,6 +4666,7 @@
               "week": 4,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "probability": 0.5396666666666666
             },
@@ -4475,6 +4674,7 @@
               "week": 5,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "probability": 0.5328333333333334
             },
@@ -4482,6 +4682,7 @@
               "week": 6,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "probability": 0.5028333333333334
             },
@@ -4489,6 +4690,7 @@
               "week": 7,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "probability": 0.5361666666666667
             },
@@ -4496,6 +4698,7 @@
               "week": 8,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "probability": 0.5861666666666666
             },
@@ -4503,6 +4706,7 @@
               "week": 9,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "probability": 0.5286666666666666
             },
@@ -4510,6 +4714,7 @@
               "week": 10,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.5805
             },
@@ -4517,6 +4722,7 @@
               "week": 11,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "probability": 0.5121666666666667
             },
@@ -4524,6 +4730,7 @@
               "week": 12,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "probability": 0.541
             }
@@ -4667,6 +4874,7 @@
               "week": 4,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "probability": 0.5343333333333333
             },
@@ -4674,6 +4882,7 @@
               "week": 5,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "probability": 0.49766666666666665
             },
@@ -4681,6 +4890,7 @@
               "week": 6,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "probability": 0.5165
             },
@@ -4688,6 +4898,7 @@
               "week": 7,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.5265
             },
@@ -4695,6 +4906,7 @@
               "week": 8,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.5313333333333333
             },
@@ -4702,6 +4914,7 @@
               "week": 9,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "probability": 0.5491666666666667
             },
@@ -4709,6 +4922,7 @@
               "week": 10,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "probability": 0.6353333333333333
             },
@@ -4716,6 +4930,7 @@
               "week": 11,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "probability": 0.48783333333333334
             },
@@ -4723,6 +4938,7 @@
               "week": 12,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "probability": 0.48933333333333334
             }
@@ -4866,6 +5082,7 @@
               "week": 4,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "probability": 0.5093333333333333
             },
@@ -4873,6 +5090,7 @@
               "week": 5,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "probability": 0.6081666666666666
             },
@@ -4880,6 +5098,7 @@
               "week": 6,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "probability": 0.5075
             },
@@ -4887,6 +5106,7 @@
               "week": 7,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "probability": 0.47983333333333333
             },
@@ -4894,6 +5114,7 @@
               "week": 8,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "probability": 0.4686666666666667
             },
@@ -4901,6 +5122,7 @@
               "week": 9,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "probability": 0.5058333333333334
             },
@@ -4908,6 +5130,7 @@
               "week": 10,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "probability": 0.4508333333333333
             },
@@ -4915,6 +5138,7 @@
               "week": 11,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "probability": 0.5328333333333334
             },
@@ -4922,6 +5146,7 @@
               "week": 12,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "probability": 0.6088333333333333
             }
@@ -5065,6 +5290,7 @@
               "week": 4,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "probability": 0.49066666666666664
             },
@@ -5072,6 +5298,7 @@
               "week": 5,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "probability": 0.5071666666666667
             },
@@ -5079,6 +5306,7 @@
               "week": 6,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "probability": 0.479
             },
@@ -5086,6 +5314,7 @@
               "week": 7,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "probability": 0.5303333333333333
             },
@@ -5093,6 +5322,7 @@
               "week": 8,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "probability": 0.49683333333333335
             },
@@ -5100,6 +5330,7 @@
               "week": 9,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "probability": 0.4508333333333333
             },
@@ -5107,6 +5338,7 @@
               "week": 10,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.5175
             },
@@ -5114,6 +5346,7 @@
               "week": 11,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "probability": 0.4548333333333333
             },
@@ -5121,6 +5354,7 @@
               "week": 12,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "probability": 0.5013333333333333
             }
@@ -5264,6 +5498,7 @@
               "week": 4,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "probability": 0.3715
             },
@@ -5271,6 +5506,7 @@
               "week": 5,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "probability": 0.4671666666666667
             },
@@ -5278,6 +5514,7 @@
               "week": 6,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "probability": 0.4835
             },
@@ -5285,6 +5522,7 @@
               "week": 7,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.5383333333333333
             },
@@ -5292,6 +5530,7 @@
               "week": 8,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.5235
             },
@@ -5299,6 +5538,7 @@
               "week": 9,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "probability": 0.47333333333333333
             },
@@ -5306,6 +5546,7 @@
               "week": 10,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "probability": 0.5315
             },
@@ -5313,6 +5554,7 @@
               "week": 11,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "probability": 0.4613333333333333
             },
@@ -5320,6 +5562,7 @@
               "week": 12,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "probability": 0.459
             }
@@ -5463,6 +5706,7 @@
               "week": 4,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "probability": 0.43433333333333335
             },
@@ -5470,6 +5714,7 @@
               "week": 5,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "probability": 0.3918333333333333
             },
@@ -5477,6 +5722,7 @@
               "week": 6,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "probability": 0.4465
             },
@@ -5484,6 +5730,7 @@
               "week": 7,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "probability": 0.3943333333333333
             },
@@ -5491,6 +5738,7 @@
               "week": 8,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "probability": 0.35033333333333333
             },
@@ -5498,6 +5746,7 @@
               "week": 9,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.4156666666666667
             },
@@ -5505,6 +5754,7 @@
               "week": 10,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "probability": 0.36466666666666664
             },
@@ -5512,6 +5762,7 @@
               "week": 11,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.4036666666666667
             },
@@ -5519,6 +5770,7 @@
               "week": 12,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.39116666666666666
             }
@@ -5662,6 +5914,7 @@
               "week": 4,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "probability": 0.5656666666666667
             },
@@ -5669,6 +5922,7 @@
               "week": 5,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "probability": 0.49283333333333335
             },
@@ -5676,6 +5930,7 @@
               "week": 6,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "probability": 0.4678333333333333
             },
@@ -5683,6 +5938,7 @@
               "week": 7,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.47833333333333333
             },
@@ -5690,6 +5946,7 @@
               "week": 8,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "v.",
               "probability": 0.5061666666666667
             },
@@ -5697,6 +5954,7 @@
               "week": 9,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "probability": 0.451
             },
@@ -5704,6 +5962,7 @@
               "week": 10,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "probability": 0.4955
             },
@@ -5711,6 +5970,7 @@
               "week": 11,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "probability": 0.4635
             },
@@ -5718,6 +5978,7 @@
               "week": 12,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "probability": 0.49866666666666665
             }
@@ -5861,6 +6122,7 @@
               "week": 4,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "probability": 0.448
             },
@@ -5868,6 +6130,7 @@
               "week": 5,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "probability": 0.4776666666666667
             },
@@ -5875,6 +6138,7 @@
               "week": 6,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "probability": 0.5535
             },
@@ -5882,6 +6146,7 @@
               "week": 7,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "probability": 0.4696666666666667
             },
@@ -5889,6 +6154,7 @@
               "week": 8,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "probability": 0.41383333333333333
             },
@@ -5896,6 +6162,7 @@
               "week": 9,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.4555
             },
@@ -5903,6 +6170,7 @@
               "week": 10,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "probability": 0.4685
             },
@@ -5910,6 +6178,7 @@
               "week": 11,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "probability": 0.4671666666666667
             },
@@ -5917,6 +6186,7 @@
               "week": 12,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "@",
               "probability": 0.4723333333333333
             }
@@ -6060,6 +6330,7 @@
               "week": 4,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "probability": 0.552
             },
@@ -6067,6 +6338,7 @@
               "week": 5,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "probability": 0.5265
             },
@@ -6074,6 +6346,7 @@
               "week": 6,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "probability": 0.5321666666666667
             },
@@ -6081,6 +6354,7 @@
               "week": 7,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.5201666666666667
             },
@@ -6088,6 +6362,7 @@
               "week": 8,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "v.",
               "probability": 0.501
             },
@@ -6095,6 +6370,7 @@
               "week": 9,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "probability": 0.4713333333333333
             },
@@ -6102,6 +6378,7 @@
               "week": 10,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "probability": 0.37483333333333335
             },
@@ -6109,6 +6386,7 @@
               "week": 11,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "probability": 0.5451666666666667
             },
@@ -6116,6 +6394,7 @@
               "week": 12,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "probability": 0.5065
             }
@@ -6259,6 +6538,7 @@
               "week": 4,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "probability": 0.47883333333333333
             },
@@ -6266,6 +6546,7 @@
               "week": 5,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "probability": 0.5223333333333333
             },
@@ -6273,6 +6554,7 @@
               "week": 6,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "@",
               "probability": 0.4925
             },
@@ -6280,6 +6562,7 @@
               "week": 7,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "probability": 0.5216666666666666
             },
@@ -6287,6 +6570,7 @@
               "week": 8,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "probability": 0.4765
             },
@@ -6294,6 +6578,7 @@
               "week": 9,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "probability": 0.37166666666666665
             },
@@ -6301,6 +6586,7 @@
               "week": 10,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "probability": 0.4195
             },
@@ -6308,6 +6594,7 @@
               "week": 11,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "probability": 0.5963333333333334
             },
@@ -6315,6 +6602,7 @@
               "week": 12,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "probability": 0.5276666666666666
             }
