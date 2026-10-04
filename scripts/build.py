@@ -210,19 +210,21 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=3000):
  for c in data:data[c].sort(key=lambda t:t['seed'])
  return data,details
 
-def render(data,week,status,n_sims,updated):
+def render(data,week,status,n_sims,updated,through_week=None,write_index=True):
  from gm_profiles import gm_profiles
  _,_,_,_,career_current,career_week,_=load_source()
  profiles=gm_profiles(ROOT,SEASON,career_week,career_current)
  template=(ROOT/'scripts/templates/playoff.html').read_text(encoding='utf8')
  out=ROOT/'docs/playoff-picture';out.mkdir(parents=True,exist_ok=True)
- options=''.join(f'<option value="week-{w+1:02}.html"'+(' selected' if w==week else '')+f'>Week {w+1} Outlook</option>' for w in range(week,0,-1) if w==week or (out/f'week-{w+1:02}.html').exists())
+ through_week=week if through_week is None else through_week
+ options=''.join(f'<option value="week-{w+1:02}.html"'+(' selected' if w==week else '')+f'>Week {w+1} Outlook</option>' for w in range(through_week,0,-1))
  dropdown=f'<div class="fafl-outlook-nav"><select aria-label="Weekly outlook" onchange="location.href=this.value">{options}</select></div>'
  replacements={'__GM_PROFILES__':json.dumps(profiles,allow_nan=False).replace('</','<\\/'),'__DATA__':json.dumps(data,allow_nan=False).replace('</','<\\/'),'__DRAFT__':'{}','__SHIELD__':'https://www43.myfantasyleague.com/fflnetdynamic2019/22686_league_logo.jpg','__SEASON__':str(SEASON),'__OUTLOOK__':str(week+1),'__WEEK__':str(week),'__STATUS__':status.lower(),'__SIMS__':f'{n_sims:,}','__TRAINING__':'2021–2025','__UPDATED__':updated,'__DROPDOWN__':dropdown,'__FULL_FILE__':f'week-{week+1:02}.csv'}
  for k,v in replacements.items():template=template.replace(k,v)
  if week==12:template=template.replace('Week 13 Outlook','Playoff Field')
  page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAFL Playoff Picture</title><style>:root{color-scheme:light dark}body{margin:0;padding:12px;background:light-dark(#f5f7fa,#151c25)}#fafl-playoff-design{max-width:1100px;margin:auto}a{color:light-dark(#235789,#89bce8)}</style></head><body>'+template+'</body></html>'
- for filename in ['index.html',f'week-{week+1:02}.html']:(out/filename).write_text(page,encoding='utf8')
+ filenames=[f'week-{week+1:02}.html']+(['index.html'] if write_index else [])
+ for filename in filenames:(out/filename).write_text(page,encoding='utf8')
  flat=[{k:v for k,v in r.items() if k!='ranks'} for c in data.values() for r in c]
  pd.DataFrame(flat).to_csv(out/f'week-{week+1:02}.csv',index=False)
 
@@ -258,8 +260,13 @@ def main():
  if args.stage in ['all','bonus']:
   calculate_bonus_games(current,meta).to_csv(ROOT/'data/bonus_games.csv',index=False)
   if args.stage=='bonus':return
- data,details=forecast(historical(),current[current.week<=12],meta,divmap,opp,home,min(week,12),args.simulations)
- stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC');render(data,min(week,12),args.status,args.simulations,stamp)
+ report_week=min(week,12);history=historical();regular=current[current.week<=12]
+ stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+ for prior in range(1,report_week):
+  prior_data,_=forecast(history,regular[regular.week<=prior],meta,divmap,opp,home,prior,args.simulations)
+  render(prior_data,prior,'official',args.simulations,stamp,through_week=report_week,write_index=False)
+ data,details=forecast(history,regular,meta,divmap,opp,home,report_week,args.simulations)
+ render(data,report_week,args.status,args.simulations,stamp,through_week=report_week)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
  (ROOT/'data/current_forecast.json').write_text(json.dumps(payload,indent=2,allow_nan=False),encoding='utf8')
  current.to_csv(ROOT/'data/current_weekly.csv',index=False)
