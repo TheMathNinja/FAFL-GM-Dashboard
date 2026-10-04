@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 3,
   "status": "official",
-  "updated_at": "2026-10-04 18:49 UTC",
+  "updated_at": "2026-10-04 19:07 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
@@ -197,6 +197,7 @@
               "week": 1,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "teamScore": 224.8,
               "opponentScore": 191.5,
@@ -206,6 +207,7 @@
               "week": 2,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "teamScore": 236.8,
               "opponentScore": 154.5,
@@ -215,6 +217,7 @@
               "week": 3,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "teamScore": 236.3,
               "opponentScore": 145.4,
@@ -225,6 +228,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 75.0,
+              "rank": 2,
               "result": "W"
             }
           ]
@@ -391,6 +396,7 @@
               "week": 1,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "teamScore": 262.1,
               "opponentScore": 236.0,
@@ -400,6 +406,7 @@
               "week": 2,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "teamScore": 251.9,
               "opponentScore": 183.9,
@@ -409,6 +416,7 @@
               "week": 3,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "teamScore": 197.8,
               "opponentScore": 234.4,
@@ -419,6 +427,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 73.0,
+              "rank": 4,
               "result": "W"
             }
           ]
@@ -585,6 +595,7 @@
               "week": 1,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "teamScore": 269.8,
               "opponentScore": 171.6,
@@ -594,6 +605,7 @@
               "week": 2,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "teamScore": 154.5,
               "opponentScore": 236.8,
@@ -603,6 +615,7 @@
               "week": 3,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "v.",
               "teamScore": 240.4,
               "opponentScore": 185.5,
@@ -613,6 +626,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 63.0,
+              "rank": 6,
               "result": "W"
             }
           ]
@@ -779,6 +794,7 @@
               "week": 1,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "teamScore": 174.4,
               "opponentScore": 138.0,
@@ -788,6 +804,7 @@
               "week": 2,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "teamScore": 236.1,
               "opponentScore": 181.5,
@@ -797,6 +814,7 @@
               "week": 3,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "teamScore": 263.0,
               "opponentScore": 168.2,
@@ -807,6 +825,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 61.0,
+              "rank": 7,
               "result": "W"
             }
           ]
@@ -973,6 +993,7 @@
               "week": 1,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "v.",
               "teamScore": 186.0,
               "opponentScore": 219.9,
@@ -982,6 +1003,7 @@
               "week": 2,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "v.",
               "teamScore": 211.9,
               "opponentScore": 170.2,
@@ -991,6 +1013,7 @@
               "week": 3,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "v.",
               "teamScore": 209.4,
               "opponentScore": 137.7,
@@ -1001,6 +1024,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 52.5,
+              "rank": 14,
               "result": "W"
             }
           ]
@@ -1167,6 +1192,7 @@
               "week": 1,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "teamScore": 234.9,
               "opponentScore": 209.3,
@@ -1176,6 +1202,7 @@
               "week": 2,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "teamScore": 183.9,
               "opponentScore": 251.9,
@@ -1185,6 +1212,7 @@
               "week": 3,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "@",
               "teamScore": 186.7,
               "opponentScore": 185.8,
@@ -1195,6 +1223,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 52.0,
+              "rank": 15,
               "result": "W"
             }
           ]
@@ -1361,6 +1391,7 @@
               "week": 1,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "@",
               "teamScore": 184.8,
               "opponentScore": 119.7,
@@ -1370,6 +1401,7 @@
               "week": 2,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "@",
               "teamScore": 181.5,
               "opponentScore": 236.1,
@@ -1379,6 +1411,7 @@
               "week": 3,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "@",
               "teamScore": 222.2,
               "opponentScore": 137.3,
@@ -1389,6 +1422,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 43.0,
+              "rank": 19,
               "result": "L"
             }
           ]
@@ -1555,6 +1590,7 @@
               "week": 1,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "@",
               "teamScore": 236.0,
               "opponentScore": 262.1,
@@ -1564,6 +1600,7 @@
               "week": 2,
               "opponent": "Tampa Bay Buccaneers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+              "opponentAbbr": "TBB",
               "site": "v.",
               "teamScore": 205.4,
               "opponentScore": 194.5,
@@ -1573,6 +1610,7 @@
               "week": 3,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "@",
               "teamScore": 185.5,
               "opponentScore": 240.4,
@@ -1583,6 +1621,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 55.5,
+              "rank": 10,
               "result": "W"
             }
           ]
@@ -1749,6 +1789,7 @@
               "week": 1,
               "opponent": "Washington Commanders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+              "opponentAbbr": "WAS",
               "site": "v.",
               "teamScore": 171.6,
               "opponentScore": 269.8,
@@ -1758,6 +1799,7 @@
               "week": 2,
               "opponent": "Atlanta Falcons",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+              "opponentAbbr": "ATL",
               "site": "v.",
               "teamScore": 225.8,
               "opponentScore": 239.5,
@@ -1767,6 +1809,7 @@
               "week": 3,
               "opponent": "Dallas Cowboys",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+              "opponentAbbr": "DAL",
               "site": "v.",
               "teamScore": 234.4,
               "opponentScore": 197.8,
@@ -1777,6 +1820,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 54.0,
+              "rank": 11,
               "result": "W"
             }
           ]
@@ -1943,6 +1988,7 @@
               "week": 1,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "v.",
               "teamScore": 191.5,
               "opponentScore": 224.8,
@@ -1952,6 +1998,7 @@
               "week": 2,
               "opponent": "New York Giants",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+              "opponentAbbr": "NYG",
               "site": "@",
               "teamScore": 239.5,
               "opponentScore": 225.8,
@@ -1961,6 +2008,7 @@
               "week": 3,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "v.",
               "teamScore": 185.8,
               "opponentScore": 186.7,
@@ -1971,6 +2019,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 54.0,
+              "rank": 13,
               "result": "W"
             }
           ]
@@ -2137,6 +2187,7 @@
               "week": 1,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "teamScore": 189.9,
               "opponentScore": 142.4,
@@ -2146,6 +2197,7 @@
               "week": 2,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "teamScore": 170.2,
               "opponentScore": 211.9,
@@ -2155,6 +2207,7 @@
               "week": 3,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "teamScore": 222.5,
               "opponentScore": 222.8,
@@ -2165,6 +2218,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 43.0,
+              "rank": 20,
               "result": "L"
             }
           ]
@@ -2331,6 +2386,7 @@
               "week": 1,
               "opponent": "Carolina Panthers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+              "opponentAbbr": "CAR",
               "site": "@",
               "teamScore": 209.3,
               "opponentScore": 234.9,
@@ -2340,6 +2396,7 @@
               "week": 2,
               "opponent": "Philadelphia Eagles",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+              "opponentAbbr": "PHI",
               "site": "@",
               "teamScore": 194.5,
               "opponentScore": 205.4,
@@ -2349,6 +2406,7 @@
               "week": 3,
               "opponent": "New Orleans Saints",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+              "opponentAbbr": "NOS",
               "site": "@",
               "teamScore": 145.4,
               "opponentScore": 236.3,
@@ -2359,6 +2417,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 36.5,
+              "rank": 23,
               "result": "L"
             }
           ]
@@ -2525,6 +2585,7 @@
               "week": 1,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "teamScore": 119.7,
               "opponentScore": 184.8,
@@ -2534,6 +2595,7 @@
               "week": 2,
               "opponent": "Minnesota Vikings",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+              "opponentAbbr": "MIN",
               "site": "@",
               "teamScore": 171.7,
               "opponentScore": 103.4,
@@ -2543,6 +2605,7 @@
               "week": 3,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "teamScore": 222.8,
               "opponentScore": 222.5,
@@ -2553,6 +2616,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 33.0,
+              "rank": 24,
               "result": "L"
             }
           ]
@@ -2719,6 +2784,7 @@
               "week": 1,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "teamScore": 219.9,
               "opponentScore": 186.0,
@@ -2728,6 +2794,7 @@
               "week": 2,
               "opponent": "Los Angeles Rams",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+              "opponentAbbr": "LAR",
               "site": "v.",
               "teamScore": 133.7,
               "opponentScore": 193.0,
@@ -2737,6 +2804,7 @@
               "week": 3,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "teamScore": 168.2,
               "opponentScore": 263.0,
@@ -2747,6 +2815,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 29.0,
+              "rank": 25,
               "result": "L"
             }
           ]
@@ -2913,6 +2983,7 @@
               "week": 1,
               "opponent": "San Francisco 49ers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+              "opponentAbbr": "SFO",
               "site": "@",
               "teamScore": 142.4,
               "opponentScore": 189.9,
@@ -2922,6 +2993,7 @@
               "week": 2,
               "opponent": "Detroit Lions",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+              "opponentAbbr": "DET",
               "site": "@",
               "teamScore": 193.0,
               "opponentScore": 133.7,
@@ -2931,6 +3003,7 @@
               "week": 3,
               "opponent": "Arizona Cardinals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+              "opponentAbbr": "ARI",
               "site": "v.",
               "teamScore": 137.3,
               "opponentScore": 222.2,
@@ -2941,6 +3014,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 19.0,
+              "rank": 30,
               "result": "L"
             }
           ]
@@ -3107,6 +3182,7 @@
               "week": 1,
               "opponent": "Chicago Bears",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+              "opponentAbbr": "CHI",
               "site": "v.",
               "teamScore": 138.0,
               "opponentScore": 174.4,
@@ -3116,6 +3192,7 @@
               "week": 2,
               "opponent": "Seattle Seahawks",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+              "opponentAbbr": "SEA",
               "site": "v.",
               "teamScore": 103.4,
               "opponentScore": 171.7,
@@ -3125,6 +3202,7 @@
               "week": 3,
               "opponent": "Green Bay Packers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+              "opponentAbbr": "GBP",
               "site": "@",
               "teamScore": 137.7,
               "opponentScore": 209.4,
@@ -3135,6 +3213,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 2.5,
+              "rank": 32,
               "result": "L"
             }
           ]
@@ -3303,6 +3383,7 @@
               "week": 1,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "teamScore": 252.1,
               "opponentScore": 209.3,
@@ -3312,6 +3393,7 @@
               "week": 2,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "teamScore": 245.6,
               "opponentScore": 182.8,
@@ -3321,6 +3403,7 @@
               "week": 3,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "teamScore": 274.7,
               "opponentScore": 183.8,
@@ -3331,6 +3414,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 87.0,
+              "rank": 1,
               "result": "W"
             }
           ]
@@ -3497,6 +3582,7 @@
               "week": 1,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "teamScore": 205.4,
               "opponentScore": 222.0,
@@ -3506,6 +3592,7 @@
               "week": 2,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "teamScore": 291.8,
               "opponentScore": 177.5,
@@ -3515,6 +3602,7 @@
               "week": 3,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "@",
               "teamScore": 252.4,
               "opponentScore": 141.2,
@@ -3525,6 +3613,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 74.0,
+              "rank": 3,
               "result": "W"
             }
           ]
@@ -3691,6 +3781,7 @@
               "week": 1,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "teamScore": 186.0,
               "opponentScore": 229.4,
@@ -3700,6 +3791,7 @@
               "week": 2,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "teamScore": 236.6,
               "opponentScore": 161.3,
@@ -3709,6 +3801,7 @@
               "week": 3,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "teamScore": 276.8,
               "opponentScore": 166.5,
@@ -3719,6 +3812,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 68.5,
+              "rank": 5,
               "result": "W"
             }
           ]
@@ -3885,6 +3980,7 @@
               "week": 1,
               "opponent": "Tennessee Titans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+              "opponentAbbr": "TEN",
               "site": "v.",
               "teamScore": 219.4,
               "opponentScore": 149.0,
@@ -3894,6 +3990,7 @@
               "week": 2,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "v.",
               "teamScore": 214.3,
               "opponentScore": 140.3,
@@ -3903,6 +4000,7 @@
               "week": 3,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "v.",
               "teamScore": 217.1,
               "opponentScore": 206.2,
@@ -3913,6 +4011,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 61.0,
+              "rank": 8,
               "result": "W"
             }
           ]
@@ -4079,6 +4179,7 @@
               "week": 1,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "teamScore": 222.0,
               "opponentScore": 205.4,
@@ -4088,6 +4189,7 @@
               "week": 2,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "teamScore": 208.2,
               "opponentScore": 206.3,
@@ -4097,6 +4199,7 @@
               "week": 3,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "teamScore": 206.2,
               "opponentScore": 217.1,
@@ -4107,6 +4210,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 59.0,
+              "rank": 9,
               "result": "W"
             }
           ]
@@ -4273,6 +4378,7 @@
               "week": 1,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "v.",
               "teamScore": 268.1,
               "opponentScore": 219.6,
@@ -4282,6 +4388,7 @@
               "week": 2,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "v.",
               "teamScore": 170.7,
               "opponentScore": 153.8,
@@ -4291,6 +4398,7 @@
               "week": 3,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "v.",
               "teamScore": 172.1,
               "opponentScore": 202.1,
@@ -4301,6 +4409,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 47.0,
+              "rank": 17,
               "result": "T"
             }
           ]
@@ -4467,6 +4577,7 @@
               "week": 1,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "teamScore": 230.4,
               "opponentScore": 146.2,
@@ -4476,6 +4587,7 @@
               "week": 2,
               "opponent": "Kansas City Chiefs",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+              "opponentAbbr": "KCC",
               "site": "@",
               "teamScore": 187.2,
               "opponentScore": 122.8,
@@ -4485,6 +4597,7 @@
               "week": 3,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "teamScore": 161.8,
               "opponentScore": 165.4,
@@ -4495,6 +4608,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 43.0,
+              "rank": 21,
               "result": "L"
             }
           ]
@@ -4661,6 +4776,7 @@
               "week": 1,
               "opponent": "Buffalo Bills",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+              "opponentAbbr": "BUF",
               "site": "v.",
               "teamScore": 179.2,
               "opponentScore": 242.5,
@@ -4670,6 +4786,7 @@
               "week": 2,
               "opponent": "Indianapolis Colts",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+              "opponentAbbr": "IND",
               "site": "@",
               "teamScore": 206.3,
               "opponentScore": 208.2,
@@ -4679,6 +4796,7 @@
               "week": 3,
               "opponent": "New England Patriots",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+              "opponentAbbr": "NEP",
               "site": "@",
               "teamScore": 235.7,
               "opponentScore": 175.6,
@@ -4689,6 +4807,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 54.0,
+              "rank": 12,
               "result": "W"
             }
           ]
@@ -4855,6 +4975,7 @@
               "week": 1,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "@",
               "teamScore": 242.5,
               "opponentScore": 179.2,
@@ -4864,6 +4985,7 @@
               "week": 2,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "@",
               "teamScore": 177.5,
               "opponentScore": 291.8,
@@ -4873,6 +4995,7 @@
               "week": 3,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "@",
               "teamScore": 183.8,
               "opponentScore": 274.7,
@@ -4883,6 +5006,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 48.0,
+              "rank": 16,
               "result": "T"
             }
           ]
@@ -5049,6 +5174,7 @@
               "week": 1,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "teamScore": 229.4,
               "opponentScore": 186.0,
@@ -5058,6 +5184,7 @@
               "week": 2,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "teamScore": 155.1,
               "opponentScore": 205.4,
@@ -5067,6 +5194,7 @@
               "week": 3,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "teamScore": 202.1,
               "opponentScore": 172.1,
@@ -5077,6 +5205,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 44.0,
+              "rank": 18,
               "result": "L"
             }
           ]
@@ -5243,6 +5373,7 @@
               "week": 1,
               "opponent": "Cincinnati Bengals",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+              "opponentAbbr": "CIN",
               "site": "v.",
               "teamScore": 177.4,
               "opponentScore": 138.0,
@@ -5252,6 +5383,7 @@
               "week": 2,
               "opponent": "Los Angeles Chargers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+              "opponentAbbr": "LAC",
               "site": "@",
               "teamScore": 205.4,
               "opponentScore": 155.1,
@@ -5261,6 +5393,7 @@
               "week": 3,
               "opponent": "Pittsburgh Steelers",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+              "opponentAbbr": "PIT",
               "site": "@",
               "teamScore": 204.2,
               "opponentScore": 208.2,
@@ -5271,6 +5404,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 42.5,
+              "rank": 22,
               "result": "L"
             }
           ]
@@ -5437,6 +5572,7 @@
               "week": 1,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "teamScore": 209.3,
               "opponentScore": 252.1,
@@ -5446,6 +5582,7 @@
               "week": 2,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "teamScore": 140.3,
               "opponentScore": 214.3,
@@ -5455,6 +5592,7 @@
               "week": 3,
               "opponent": "New York Jets",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+              "opponentAbbr": "NYJ",
               "site": "v.",
               "teamScore": 175.6,
               "opponentScore": 235.7,
@@ -5465,6 +5603,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 28.5,
+              "rank": 26,
               "result": "L"
             }
           ]
@@ -5631,6 +5771,7 @@
               "week": 1,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "teamScore": 219.6,
               "opponentScore": 268.1,
@@ -5640,6 +5781,7 @@
               "week": 2,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "teamScore": 122.8,
               "opponentScore": 187.2,
@@ -5649,6 +5791,7 @@
               "week": 3,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "v.",
               "teamScore": 166.5,
               "opponentScore": 276.8,
@@ -5659,6 +5802,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 26.0,
+              "rank": 27,
               "result": "L"
             }
           ]
@@ -5825,6 +5970,7 @@
               "week": 1,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "v.",
               "teamScore": 146.2,
               "opponentScore": 230.4,
@@ -5834,6 +5980,7 @@
               "week": 2,
               "opponent": "Las Vegas Raiders",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+              "opponentAbbr": "LVR",
               "site": "@",
               "teamScore": 153.8,
               "opponentScore": 170.7,
@@ -5843,6 +5990,7 @@
               "week": 3,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "v.",
               "teamScore": 208.2,
               "opponentScore": 204.2,
@@ -5853,6 +6001,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 26.0,
+              "rank": 28,
               "result": "L"
             }
           ]
@@ -6019,6 +6169,7 @@
               "week": 1,
               "opponent": "Houston Texans",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+              "opponentAbbr": "HOU",
               "site": "@",
               "teamScore": 149.0,
               "opponentScore": 219.4,
@@ -6028,6 +6179,7 @@
               "week": 2,
               "opponent": "Miami Dolphins",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+              "opponentAbbr": "MIA",
               "site": "v.",
               "teamScore": 182.8,
               "opponentScore": 245.6,
@@ -6037,6 +6189,7 @@
               "week": 3,
               "opponent": "Jacksonville Jaguars",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+              "opponentAbbr": "JAC",
               "site": "v.",
               "teamScore": 141.2,
               "opponentScore": 252.4,
@@ -6047,6 +6200,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 20.0,
+              "rank": 29,
               "result": "L"
             }
           ]
@@ -6213,6 +6368,7 @@
               "week": 1,
               "opponent": "Baltimore Ravens",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+              "opponentAbbr": "BAL",
               "site": "@",
               "teamScore": 138.0,
               "opponentScore": 177.4,
@@ -6222,6 +6378,7 @@
               "week": 2,
               "opponent": "Denver Broncos",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+              "opponentAbbr": "DEN",
               "site": "@",
               "teamScore": 161.3,
               "opponentScore": 236.6,
@@ -6231,6 +6388,7 @@
               "week": 3,
               "opponent": "Cleveland Browns",
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+              "opponentAbbr": "CLE",
               "site": "@",
               "teamScore": 165.4,
               "opponentScore": 161.8,
@@ -6241,6 +6399,8 @@
             {
               "label": "Q1 Bonus Game",
               "week": 3,
+              "allPlayWins": 13.5,
+              "rank": 31,
               "result": "L"
             }
           ]
