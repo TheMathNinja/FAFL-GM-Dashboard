@@ -91,7 +91,9 @@ def draw_future_points(rng,mu,sigma,strength_sd,n_sims,remaining_weeks):
  weekly=rng.normal(size=(n_sims,remaining_weeks,len(mu)))*sigma
  # One offset per team per simulation, retained for every remaining week.
  offset=rng.normal(size=(n_sims,1,len(mu)))*strength_sd
- return np.maximum(0,mu[None,None,:]+weekly+offset)
+ # MFL reports league scores to one decimal. Preserve that scoring lattice so
+ # simulated ties occur naturally and receive the league's half-win credit.
+ return np.round(np.maximum(0,mu[None,None,:]+weekly+offset),1)
 
 def fetch_current(week):
  league=export('league');schedule=export('schedule');players=export('players')['player']

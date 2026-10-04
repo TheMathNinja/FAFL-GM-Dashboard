@@ -4,7 +4,7 @@ from datetime import date,datetime
 from zoneinfo import ZoneInfo
 import numpy as np,pandas as pd
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-from build import historical,load_links,fit_means,completed_week
+from build import historical,load_links,fit_means,completed_week,draw_future_points
 from rules import rank_field,fafl_outcomes
 from score_schedule import schedule_decision
 
@@ -44,6 +44,14 @@ class ModelTests(unittest.TestCase):
   self.assertEqual(result[3][0,15],2.0);self.assertEqual(result[3].sum(),64)
   one=fafl_outcomes(scores[:,:1],potential[:,:1],opp[:1],conf,div)
   self.assertEqual(one[3].sum(),16)
+
+ def test_simulated_scores_use_mfl_precision_and_ties_are_half_wins(self):
+  draws=draw_future_points(np.random.default_rng(1),np.full(32,200.),35.,10.,50,4)
+  self.assertTrue(np.allclose(draws*10,np.round(draws*10)))
+  scores=np.full((1,1,32),200.);potential=scores.copy()
+  opp=np.tile(np.arange(32)^1,(1,1));conf=[np.arange(16),np.arange(16,32)];div=[np.arange(i,i+4) for i in range(0,32,4)]
+  result=fafl_outcomes(scores,potential,opp,conf,div)
+  self.assertTrue((result[5]==.5).all())
 
  def test_dates_and_dst(self):
   self.assertEqual(completed_week(date(2026,9,14)),0)
