@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 3,
   "status": "official",
-  "updated_at": "2026-10-04 20:23 UTC",
+  "updated_at": "2026-10-04 20:30 UTC",
   "simulations": 3000,
   "model": {
     "training_rows": 160,
@@ -20,20 +20,20 @@
     ],
     "coefficients": [
       [
-        193.22958333333332,
+        193.2295833333333,
         228.87888888888884
       ],
       [
-        6.53751552655715,
-        7.140371318127523
+        6.537515526557156,
+        7.140371318127507
       ],
       [
-        7.1951553453005355,
-        6.6931619868868975
+        7.1951553453005275,
+        6.693161986886892
       ],
       [
-        -4.323383174461384,
-        -3.077884317593871
+        -4.323383174461374,
+        -3.077884317593872
       ]
     ],
     "feature_means": [
@@ -80,7 +80,7 @@
         "playoffProbability": 0.92,
         "divisionProbability": 0.7793333333333333,
         "byeProbability": 0.3433333333333333,
-        "projectedPotentialPoints": 3142.9282529135485,
+        "projectedPotentialPoints": 3142.928252913548,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -185,18 +185,21 @@
             {
               "week": 1,
               "points": 224.8,
+              "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
             },
             {
               "week": 2,
               "points": 236.8,
+              "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
             },
             {
               "week": 3,
               "points": 236.3,
+              "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
             }
@@ -288,7 +291,7 @@
         "playoffProbability": 0.5836666666666667,
         "divisionProbability": 0.2,
         "byeProbability": 0.09266666666666666,
-        "projectedPotentialPoints": 2942.292696707119,
+        "projectedPotentialPoints": 2942.2926967071185,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -393,18 +396,21 @@
             {
               "week": 1,
               "points": 262.1,
+              "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
             },
             {
               "week": 2,
               "points": 251.9,
+              "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
             },
             {
               "week": 3,
               "points": 197.8,
+              "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
             }
@@ -601,18 +607,21 @@
             {
               "week": 1,
               "points": 269.8,
+              "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
             },
             {
               "week": 2,
               "points": 154.5,
+              "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
             },
             {
               "week": 3,
               "points": 240.4,
+              "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
             }
@@ -809,18 +818,21 @@
             {
               "week": 1,
               "points": 174.4,
+              "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
             },
             {
               "week": 2,
               "points": 236.1,
+              "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
             },
             {
               "week": 3,
               "points": 263.0,
+              "weeklyMoney": true,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
             }
@@ -1017,18 +1029,21 @@
             {
               "week": 1,
               "points": 186.0,
+              "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
               "allPlayPct": 0.3709677419354839
             },
             {
               "week": 2,
               "points": 211.9,
+              "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
             },
             {
               "week": 3,
               "points": 209.4,
+              "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
             }
@@ -1225,18 +1240,21 @@
             {
               "week": 1,
               "points": 234.9,
+              "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
             },
             {
               "week": 2,
               "points": 183.9,
+              "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
             },
             {
               "week": 3,
               "points": 186.7,
+              "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
             }
@@ -1328,7 +1346,7 @@
         "playoffProbability": 0.5146666666666667,
         "divisionProbability": 0.43466666666666665,
         "byeProbability": 0.015,
-        "projectedPotentialPoints": 2751.234145023791,
+        "projectedPotentialPoints": 2751.234145023792,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -1433,18 +1451,21 @@
             {
               "week": 1,
               "points": 184.8,
+              "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
             },
             {
               "week": 2,
               "points": 181.5,
+              "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
             },
             {
               "week": 3,
               "points": 222.2,
+              "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
             }
@@ -1536,7 +1557,7 @@
         "playoffProbability": 0.7773333333333333,
         "divisionProbability": 0.30533333333333335,
         "byeProbability": 0.213,
-        "projectedPotentialPoints": 3066.050212596707,
+        "projectedPotentialPoints": 3066.0502125967064,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -1641,18 +1662,21 @@
             {
               "week": 1,
               "points": 236.0,
+              "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
             },
             {
               "week": 2,
               "points": 205.4,
+              "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
               "allPlayPct": 0.5967741935483871
             },
             {
               "week": 3,
               "points": 185.5,
+              "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
             }
@@ -1849,18 +1873,21 @@
             {
               "week": 1,
               "points": 171.6,
+              "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
             },
             {
               "week": 2,
               "points": 225.8,
+              "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
             },
             {
               "week": 3,
               "points": 234.4,
+              "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
             }
@@ -2057,18 +2084,21 @@
             {
               "week": 1,
               "points": 191.5,
+              "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
             },
             {
               "week": 2,
               "points": 239.5,
+              "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
             },
             {
               "week": 3,
               "points": 185.8,
+              "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
             }
@@ -2265,18 +2295,21 @@
             {
               "week": 1,
               "points": 189.9,
+              "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
             },
             {
               "week": 2,
               "points": 170.2,
+              "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
             },
             {
               "week": 3,
               "points": 222.5,
+              "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
             }
@@ -2473,18 +2506,21 @@
             {
               "week": 1,
               "points": 209.3,
+              "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
               "allPlayPct": 0.532258064516129
             },
             {
               "week": 2,
               "points": 194.5,
+              "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
             },
             {
               "week": 3,
               "points": 145.4,
+              "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
             }
@@ -2576,7 +2612,7 @@
         "playoffProbability": 0.30566666666666664,
         "divisionProbability": 0.232,
         "byeProbability": 0.004333333333333333,
-        "projectedPotentialPoints": 2679.2375269741515,
+        "projectedPotentialPoints": 2679.237526974152,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -2681,18 +2717,21 @@
             {
               "week": 1,
               "points": 119.7,
+              "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
             },
             {
               "week": 2,
               "points": 171.7,
+              "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
             },
             {
               "week": 3,
               "points": 222.8,
+              "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
             }
@@ -2889,18 +2928,21 @@
             {
               "week": 1,
               "points": 219.9,
+              "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
             },
             {
               "week": 2,
               "points": 133.7,
+              "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
             },
             {
               "week": 3,
               "points": 168.2,
+              "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
             }
@@ -2992,7 +3034,7 @@
         "playoffProbability": 0.084,
         "divisionProbability": 0.05733333333333333,
         "byeProbability": 0.0,
-        "projectedPotentialPoints": 2553.8473921748136,
+        "projectedPotentialPoints": 2553.847392174814,
         "winDetails": {
           "currentWins": 1.0,
           "matchups": [
@@ -3097,18 +3139,21 @@
             {
               "week": 1,
               "points": 142.4,
+              "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
             },
             {
               "week": 2,
               "points": 193.0,
+              "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
             },
             {
               "week": 3,
               "points": 137.3,
+              "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
             }
@@ -3305,18 +3350,21 @@
             {
               "week": 1,
               "points": 138.0,
+              "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
               "allPlayPct": 0.04838709677419355
             },
             {
               "week": 2,
               "points": 103.4,
+              "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
             },
             {
               "week": 3,
               "points": 137.7,
+              "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
             }
@@ -3515,18 +3563,21 @@
             {
               "week": 1,
               "points": 252.1,
+              "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
             },
             {
               "week": 2,
               "points": 245.6,
+              "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
             },
             {
               "week": 3,
               "points": 274.7,
+              "weeklyMoney": false,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
             }
@@ -3618,7 +3669,7 @@
         "playoffProbability": 0.8876666666666667,
         "divisionProbability": 0.518,
         "byeProbability": 0.396,
-        "projectedPotentialPoints": 3158.7250693194537,
+        "projectedPotentialPoints": 3158.7250693194533,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3723,18 +3774,21 @@
             {
               "week": 1,
               "points": 205.4,
+              "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
             },
             {
               "week": 2,
               "points": 291.8,
+              "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
             },
             {
               "week": 3,
               "points": 252.4,
+              "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
             }
@@ -3826,7 +3880,7 @@
         "playoffProbability": 0.5856666666666667,
         "divisionProbability": 0.4136666666666667,
         "byeProbability": 0.064,
-        "projectedPotentialPoints": 2860.010960169977,
+        "projectedPotentialPoints": 2860.0109601699774,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3931,18 +3985,21 @@
             {
               "week": 1,
               "points": 186.0,
+              "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
               "allPlayPct": 0.3709677419354839
             },
             {
               "week": 2,
               "points": 236.6,
+              "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
             },
             {
               "week": 3,
               "points": 276.8,
+              "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
             }
@@ -4139,18 +4196,21 @@
             {
               "week": 1,
               "points": 219.4,
+              "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
             },
             {
               "week": 2,
               "points": 214.3,
+              "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
             },
             {
               "week": 3,
               "points": 217.1,
+              "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
             }
@@ -4347,18 +4407,21 @@
             {
               "week": 1,
               "points": 222.0,
+              "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
             },
             {
               "week": 2,
               "points": 208.2,
+              "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
             },
             {
               "week": 3,
               "points": 206.2,
+              "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
             }
@@ -4555,18 +4618,21 @@
             {
               "week": 1,
               "points": 268.1,
+              "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
             },
             {
               "week": 2,
               "points": 170.7,
+              "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
             },
             {
               "week": 3,
               "points": 172.1,
+              "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
             }
@@ -4763,18 +4829,21 @@
             {
               "week": 1,
               "points": 230.4,
+              "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
             },
             {
               "week": 2,
               "points": 187.2,
+              "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
             },
             {
               "week": 3,
               "points": 161.8,
+              "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
             }
@@ -4866,7 +4935,7 @@
         "playoffProbability": 0.5226666666666666,
         "divisionProbability": 0.23233333333333334,
         "byeProbability": 0.05433333333333333,
-        "projectedPotentialPoints": 2879.8117426531685,
+        "projectedPotentialPoints": 2879.811742653168,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -4971,18 +5040,21 @@
             {
               "week": 1,
               "points": 179.2,
+              "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
             },
             {
               "week": 2,
               "points": 206.3,
+              "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
             },
             {
               "week": 3,
               "points": 235.7,
+              "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
             }
@@ -5074,7 +5146,7 @@
         "playoffProbability": 0.37233333333333335,
         "divisionProbability": 0.132,
         "byeProbability": 0.021333333333333333,
-        "projectedPotentialPoints": 2843.226071184485,
+        "projectedPotentialPoints": 2843.2260711844856,
         "winDetails": {
           "currentWins": 1.5,
           "matchups": [
@@ -5179,18 +5251,21 @@
             {
               "week": 1,
               "points": 242.5,
+              "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
             },
             {
               "week": 2,
               "points": 177.5,
+              "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
             },
             {
               "week": 3,
               "points": 183.8,
+              "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
             }
@@ -5387,18 +5462,21 @@
             {
               "week": 1,
               "points": 229.4,
+              "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
             },
             {
               "week": 2,
               "points": 155.1,
+              "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
             },
             {
               "week": 3,
               "points": 202.1,
+              "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
             }
@@ -5595,18 +5673,21 @@
             {
               "week": 1,
               "points": 177.4,
+              "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
             },
             {
               "week": 2,
               "points": 205.4,
+              "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
               "allPlayPct": 0.5967741935483871
             },
             {
               "week": 3,
               "points": 204.2,
+              "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
             }
@@ -5698,7 +5779,7 @@
         "playoffProbability": 0.04566666666666667,
         "divisionProbability": 0.01,
         "byeProbability": 0.0003333333333333333,
-        "projectedPotentialPoints": 2564.681205448772,
+        "projectedPotentialPoints": 2564.6812054487727,
         "winDetails": {
           "currentWins": 0.0,
           "matchups": [
@@ -5803,18 +5884,21 @@
             {
               "week": 1,
               "points": 209.3,
+              "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
               "allPlayPct": 0.532258064516129
             },
             {
               "week": 2,
               "points": 140.3,
+              "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
             },
             {
               "week": 3,
               "points": 175.6,
+              "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
             }
@@ -5906,7 +5990,7 @@
         "playoffProbability": 0.14833333333333334,
         "divisionProbability": 0.069,
         "byeProbability": 0.002,
-        "projectedPotentialPoints": 2667.118994173425,
+        "projectedPotentialPoints": 2667.1189941734256,
         "winDetails": {
           "currentWins": 0.0,
           "matchups": [
@@ -6011,18 +6095,21 @@
             {
               "week": 1,
               "points": 219.6,
+              "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
             },
             {
               "week": 2,
               "points": 122.8,
+              "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
             },
             {
               "week": 3,
               "points": 166.5,
+              "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
             }
@@ -6219,18 +6306,21 @@
             {
               "week": 1,
               "points": 146.2,
+              "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
             },
             {
               "week": 2,
               "points": 153.8,
+              "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
             },
             {
               "week": 3,
               "points": 208.2,
+              "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
             }
@@ -6322,7 +6412,7 @@
         "playoffProbability": 0.17,
         "divisionProbability": 0.019666666666666666,
         "byeProbability": 0.003,
-        "projectedPotentialPoints": 2676.839818945492,
+        "projectedPotentialPoints": 2676.839818945493,
         "winDetails": {
           "currentWins": 0.0,
           "matchups": [
@@ -6427,18 +6517,21 @@
             {
               "week": 1,
               "points": 149.0,
+              "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
             },
             {
               "week": 2,
               "points": 182.8,
+              "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
             },
             {
               "week": 3,
               "points": 141.2,
+              "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
             }
@@ -6530,7 +6623,7 @@
         "playoffProbability": 0.211,
         "divisionProbability": 0.13133333333333333,
         "byeProbability": 0.002,
-        "projectedPotentialPoints": 2662.193327301072,
+        "projectedPotentialPoints": 2662.1933273010723,
         "winDetails": {
           "currentWins": 1.0,
           "matchups": [
@@ -6635,18 +6728,21 @@
             {
               "week": 1,
               "points": 138.0,
+              "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
               "allPlayPct": 0.04838709677419355
             },
             {
               "week": 2,
               "points": 161.3,
+              "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
             },
             {
               "week": 3,
               "points": 165.4,
+              "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
             }
