@@ -170,7 +170,7 @@ jobs:
           payouts,${PAYOUT_STATUS},${SCORE_STATUS},${GITHUB_RUN_ID}
           EOF
       - name: Add publication verification marker
-        if: steps.schedule.outputs.should_run == 'true'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true
         run: python3 scripts/publication_marker.py
 
       - name: Rebuild Trophy Room from canonical history
