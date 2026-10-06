@@ -114,6 +114,27 @@ def draw_future_points(rng,mu,sigma,strength_sd,n_sims,remaining_weeks):
  # simulated ties occur naturally and receive the league's half-win credit.
  return np.round(np.maximum(0,mu[None,None,:]+weekly+offset),1)
 
+def playoff_swing_rows(qualified,future,opp,meta,week):
+ """Estimate next-week playoff-odds swings from the forecast's existing draws."""
+ if week>=12 or future.shape[1]==0:return []
+ rows=[]
+ for a in range(len(meta)):
+  b=int(opp[week,a])
+  if a>=b:continue
+  a_win=future[:,0,a]>future[:,0,b];b_win=future[:,0,b]>future[:,0,a]
+  if min(int(a_win.sum()),int(b_win.sum()))<100:raise ValueError('Insufficient conditional playoff samples')
+  a_if_win=float(qualified[a_win,a].mean()*100);a_if_loss=float(qualified[b_win,a].mean()*100)
+  b_if_win=float(qualified[b_win,b].mean()*100);b_if_loss=float(qualified[a_win,b].mean()*100)
+  rows.append(dict(
+   season=SEASON,through_week=week,target_week=week+1,
+   team_a_id=meta[a]['id'],team_a=meta[a]['name'],team_b_id=meta[b]['id'],team_b=meta[b]['name'],
+   team_a_playoff_if_win=a_if_win,team_a_playoff_if_loss=a_if_loss,
+   team_b_playoff_if_win=b_if_win,team_b_playoff_if_loss=b_if_loss,
+   team_a_swing=abs(a_if_win-a_if_loss),team_b_swing=abs(b_if_win-b_if_loss),
+   combined_swing=abs(a_if_win-a_if_loss)+abs(b_if_win-b_if_loss),
+   team_a_win_samples=int(a_win.sum()),team_b_win_samples=int(b_win.sum())))
+ return rows
+
 def fetch_current(week):
  league=export('league');schedule=export('schedule');players=export('players')['player']
  positions={p['id']:p['position'] for p in players}
@@ -158,7 +179,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  pot=current.pivot(index='week',columns='franchise_id',values='potential')[ids].to_numpy()
  today=fafl_outcomes(actual[None],pot[None],opp[:week],conf,div)
  details={'training_years':list(range(2021,SEASON))}
- scores=actual[None];potentials=pot[None]
+ scores=actual[None];potentials=pot[None];swing=[]
  if week==12:
   q,dw,seed,wins,ap,credits=today;mu=actual.mean(0);pmu=pot.mean(0)
  else:
@@ -170,6 +191,9 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
   potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),future+(pmu-mu)],axis=1)
   q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div)
+  swing_started=time.perf_counter()
+  swing=playoff_swing_rows(q,future,opp,meta,week)
+  details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
   details['weekly_sigma']=float(sigma)
   details['strength_uncertainty']={'model':'normal_persistent_no_extra_taper','sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
@@ -244,7 +268,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
    values=np.round([t[key] for t in rows],6);value=round(r[key],6)
    r['ranks'][key]=dict(rank=int(1+(values>value).sum()),tied=bool((values==value).sum()>1))
  for c in data:data[c].sort(key=lambda t:t['seed'])
- return data,details
+ return data,details,swing
 
 def render(data,week,status,n_sims,updated,through_week=None,write_index=True):
  from gm_profiles import gm_profiles
@@ -299,9 +323,14 @@ def main():
  report_week=min(week,12);history=historical();regular=current[current.week<=12]
  stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
  for prior in range(1,report_week):
-  prior_data,_=forecast(history,regular[regular.week<=prior],meta,divmap,opp,home,prior,args.simulations)
+  prior_data,_,_=forecast(history,regular[regular.week<=prior],meta,divmap,opp,home,prior,args.simulations)
   render(prior_data,prior,'official',args.simulations,stamp,through_week=report_week,write_index=False)
- data,details=forecast(history,regular,meta,divmap,opp,home,report_week,args.simulations)
+ model_started=time.perf_counter()
+ data,details,swing=forecast(history,regular,meta,divmap,opp,home,report_week,args.simulations)
+ details['forecast_runtime_seconds']=round(time.perf_counter()-model_started,3)
+ details['base_forecast_runtime_seconds']=round(details['forecast_runtime_seconds']-details.get('playoff_swing_runtime_seconds',0),3)
+ details['playoff_swing_matchups']=len(swing)
+ pd.DataFrame(swing).to_csv(ROOT/'data/playoff_swing.csv',index=False)
  render(data,report_week,args.status,args.simulations,stamp,through_week=report_week)
  payload=dict(season=SEASON,through_week=week,status=args.status,updated_at=stamp,simulations=args.simulations,model=details,conferences=data)
  (ROOT/'data/current_forecast.json').write_text(json.dumps(payload,indent=2,allow_nan=False),encoding='utf8')
