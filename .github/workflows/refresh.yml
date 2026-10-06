@@ -69,6 +69,7 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         run: |
           pip install -r requirements.txt
+          python scripts/check_weekly_workflow_order.py
           python -m unittest discover -s tests -v
       - name: Capture player-score baseline before refresh
         if: inputs.ready_week != '' && steps.schedule.outputs.should_run == 'true'
@@ -87,11 +88,6 @@ jobs:
         continue-on-error: true
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --stage bonus --status '${{ steps.schedule.outputs.score_status }}'
-      - name: Build playoff forecast
-        id: playoffs
-        continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true'
-        run: python scripts/build.py --stage playoff --status '${{ steps.schedule.outputs.score_status }}'
       - name: Publish official workbook Elo and synchronize Bonus Games inputs
         id: elo
         continue-on-error: true
@@ -114,11 +110,6 @@ jobs:
       - name: Preserve previous official Elo after an Elo-only failure
         if: steps.schedule.outputs.should_run == 'true' && steps.elo.outcome == 'failure'
         run: git restore data/elo_ratings.csv data/google_weekly_sync_metadata.csv data/elo_shadow_comparison.csv 2>/dev/null || true
-      - name: Build playoff bracket from official workbook Elo
-        id: bracket
-        continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.elo.outcome == 'success'
-        run: python scripts/bracket.py --league FAFL
       - name: Enter and verify official Bonus Games in MFL
         id: bonus_mfl
         continue-on-error: true
@@ -131,6 +122,18 @@ jobs:
           pip install gspread==6.2.1
           node tests/test_bonus_mfl.cjs
           python scripts/sync_bonus_mfl.py --league FAFL
+
+      - name: Build playoff forecast and Game of the Week swing data
+        id: playoffs
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/build.py --stage playoff --status '${{ steps.schedule.outputs.score_status }}'
+
+      - name: Build playoff bracket from official workbook Elo
+        id: bracket
+        continue-on-error: true
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.elo.outcome == 'success'
+        run: python scripts/bracket.py --league FAFL
 
       - name: Synchronize and verify Payouts including award logos
         id: payouts
