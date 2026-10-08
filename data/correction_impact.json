@@ -1,0 +1,40 @@
+{
+  "league": "FAFL",
+  "season": 2026,
+  "week": 4,
+  "run_id": "37817368630",
+  "ext_pr": [],
+  "all_play": [
+    {
+      "franchise_id": "0010",
+      "franchise": "Carolina Panthers",
+      "old_wins": 15,
+      "new_wins": 16
+    },
+    {
+      "franchise_id": "0011",
+      "franchise": "New Orleans Saints",
+      "old_wins": 14,
+      "new_wins": 15
+    },
+    {
+      "franchise_id": "0018",
+      "franchise": "Miami Dolphins",
+      "old_wins": 10,
+      "new_wins": 11
+    },
+    {
+      "franchise_id": "0024",
+      "franchise": "Pittsburgh Steelers",
+      "old_wins": 11,
+      "new_wins": 10
+    },
+    {
+      "franchise_id": "0030",
+      "franchise": "Kansas City Chiefs",
+      "old_wins": 16,
+      "new_wins": 14
+    }
+  ],
+  "bonus_games": []
+}

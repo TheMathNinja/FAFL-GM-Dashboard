@@ -2,11 +2,11 @@
   "league": "FAFL",
   "season": 2026,
   "through_week": 4,
-  "run_id": "37745859502",
+  "run_id": "37817368630",
   "status": "success",
-  "verified_at": "2026-10-08T07:52:18.354570+00:00",
+  "verified_at": "2026-10-08T17:34:00.965706+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "0a4ab1dc1612e597dd08224dc299cb33efb758b31115cd78cc94b1dab3ede659",
+  "source_sha256": "73424c8f849d7272e42251a7a211492604ca3c3bee740f6ea3b2971dc9b08259",
   "awards": {
     "Week 1": [
       "WAS",
@@ -241,11 +241,11 @@
   },
   "logos": {
     "status": "success",
-    "run_id": "37745859502",
-    "source_sha256": "0a4ab1dc1612e597dd08224dc299cb33efb758b31115cd78cc94b1dab3ede659",
+    "run_id": "37817368630",
+    "source_sha256": "73424c8f849d7272e42251a7a211492604ca3c3bee740f6ea3b2971dc9b08259",
     "week": 4,
     "images": 40,
-    "verified_at": "2026-10-08T07:51:42.083Z"
+    "verified_at": "2026-10-08T17:33:59.419Z"
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
   "published_images_verified": true
