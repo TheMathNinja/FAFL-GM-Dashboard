@@ -1,9 +1,9 @@
 {
-  "run_id": "36899574354",
-  "source_sha256": "d668107cbec7bdbf6fb48f33cfe44ebdbf9e3275c93fb8fee706513f79ad0825",
+  "run_id": "37745859502",
+  "source_sha256": "14a06d31f04dfa3f508ee6904a244306d6334dd881177864034c112ac14cda5c",
   "league": "FAFL",
   "season": 2026,
-  "week": 3,
+  "week": 4,
   "mode": "official",
   "status": "success",
   "due_weeks": [
@@ -19,7 +19,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#1 - 87 APW)"
         },
         {
           "id": "0011",
@@ -27,7 +27,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#2 - 75 APW)"
         },
         {
           "id": "0027",
@@ -35,7 +35,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#3 - 74 APW)"
         },
         {
           "id": "0001",
@@ -43,7 +43,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#4 - 73 APW)"
         },
         {
           "id": "0029",
@@ -51,7 +51,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#5 - 68.5 APW)"
         },
         {
           "id": "0004",
@@ -59,7 +59,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#6 - 63 APW)"
         },
         {
           "id": "0005",
@@ -67,7 +67,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#7 - 61 APW)"
         },
         {
           "id": "0025",
@@ -75,7 +75,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#8 - 61 APW)"
         },
         {
           "id": "0026",
@@ -83,7 +83,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#9 - 59 APW)"
         },
         {
           "id": "0003",
@@ -91,7 +91,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#10 - 55.5 APW)"
         },
         {
           "id": "0002",
@@ -99,7 +99,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#11 - 54 APW)"
         },
         {
           "id": "0020",
@@ -107,7 +107,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#12 - 54 APW)"
         },
         {
           "id": "0009",
@@ -115,7 +115,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#13 - 54 APW)"
         },
         {
           "id": "0007",
@@ -123,7 +123,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#14 - 52.5 APW)"
         },
         {
           "id": "0010",
@@ -131,7 +131,7 @@
           "W": 1,
           "L": 0,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#15 - 52 APW)"
         },
         {
           "id": "0017",
@@ -139,7 +139,7 @@
           "W": 0,
           "L": 0,
           "T": 1,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#16 - 48 APW)"
         },
         {
           "id": "0031",
@@ -147,7 +147,7 @@
           "W": 0,
           "L": 0,
           "T": 1,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#17 - 47 APW)"
         },
         {
           "id": "0032",
@@ -155,7 +155,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#18 - 44 APW)"
         },
         {
           "id": "0013",
@@ -163,7 +163,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#19 - 43 APW)"
         },
         {
           "id": "0015",
@@ -171,7 +171,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#20 - 43 APW)"
         },
         {
           "id": "0023",
@@ -179,7 +179,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#21 - 43 APW)"
         },
         {
           "id": "0021",
@@ -187,7 +187,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#22 - 42.5 APW)"
         },
         {
           "id": "0012",
@@ -195,7 +195,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#23 - 36.5 APW)"
         },
         {
           "id": "0016",
@@ -203,7 +203,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#24 - 33 APW)"
         },
         {
           "id": "0006",
@@ -211,7 +211,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#25 - 29 APW)"
         },
         {
           "id": "0019",
@@ -219,7 +219,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#26 - 28.5 APW)"
         },
         {
           "id": "0030",
@@ -227,7 +227,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#27 - 26 APW)"
         },
         {
           "id": "0024",
@@ -235,7 +235,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#28 - 26 APW)"
         },
         {
           "id": "0028",
@@ -243,7 +243,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#29 - 20 APW)"
         },
         {
           "id": "0014",
@@ -251,7 +251,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#30 - 19 APW)"
         },
         {
           "id": "0022",
@@ -259,7 +259,7 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#31 - 13.5 APW)"
         },
         {
           "id": "0008",
@@ -267,11 +267,11 @@
           "W": 0,
           "L": 1,
           "T": 0,
-          "note": "Q1 Bonus Game"
+          "note": "Q1 Bonus Game (#32 - 2.5 APW)"
         }
       ],
       "missing_before": 0
     }
   ],
-  "verified_at": "2026-10-01T17:31:47.124Z"
+  "verified_at": "2026-10-08T07:50:56.166Z"
 }

@@ -2,9 +2,9 @@
   "league": "FAFL",
   "season": 2026,
   "through_week": 4,
-  "run_id": "37412907103",
+  "run_id": "37745859502",
   "status": "success",
-  "verified_at": "2026-10-06T04:18:29.044220+00:00",
+  "verified_at": "2026-10-08T07:52:18.354570+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
   "source_sha256": "0a4ab1dc1612e597dd08224dc299cb33efb758b31115cd78cc94b1dab3ede659",
   "awards": {
@@ -241,11 +241,11 @@
   },
   "logos": {
     "status": "success",
-    "run_id": "37412907103",
+    "run_id": "37745859502",
     "source_sha256": "0a4ab1dc1612e597dd08224dc299cb33efb758b31115cd78cc94b1dab3ede659",
     "week": 4,
     "images": 40,
-    "verified_at": "2026-10-06T04:18:27.257Z"
+    "verified_at": "2026-10-08T07:51:42.083Z"
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
   "published_images_verified": true
