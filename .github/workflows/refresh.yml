@@ -52,6 +52,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 0
+        with:
           ref: main
       - uses: actions/setup-python@v5
         with:
