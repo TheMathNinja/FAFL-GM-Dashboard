@@ -4,6 +4,7 @@ from datetime import date,datetime,timedelta,timezone
 from pathlib import Path
 import numpy as np
 import pandas as pd
+import quarterly_bonus as shared
 from rules import fafl_outcomes,rank_field,orderkeys
 from weekly_system import calculate_elo,calculate_bonus_games
 
@@ -168,7 +169,7 @@ def fetch_current(week):
  if len(current)!=32*week or current.duplicated(['week','franchise_id']).any():raise ValueError('Incomplete current results')
  return meta,divmap,opp,home,current
 
-DEFAULT_SIMULATIONS = 10000
+DEFAULT_SIMULATIONS = shared.DEFAULT_SIMULATIONS
 
 
 def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATIONS):
@@ -179,7 +180,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  pot=current.pivot(index='week',columns='franchise_id',values='potential')[ids].to_numpy()
  today=fafl_outcomes(actual[None],pot[None],opp[:week],conf,div)
  details={'training_years':list(range(2021,SEASON))}
- scores=actual[None];potentials=pot[None];swing=[]
+ scores=actual[None];potentials=pot[None];swing=[];quarterly=None
  if week==12:
   q,dw,seed,wins,ap,credits=today;mu=actual.mean(0);pmu=pot.mean(0)
  else:
@@ -187,10 +188,15 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   past=history[(history.season>=2021)&(history.season<SEASON)&(history.week<=12)].groupby(['season','franchise_id']).points.std().to_numpy()
   obs=actual.std(0,ddof=1) if week>1 else np.array([]);sigma=np.nanmean(np.concatenate([past,obs]))
   tau=strength_uncertainty(history,SEASON,week,load_links())
-  rng=np.random.default_rng(SEASON*100+week);future=draw_future_points(rng,mu,sigma,tau,n_sims,12-week)
+  quarterly=shared.forecast(ROOT,current,'FAFL',SEASON,week,n_sims,
+                            dict(ids=ids,mu=mu.tolist(),sigma=float(sigma),tau=float(tau)))
+  shared_order=[quarterly['ids'].index(t) for t in ids]
+  future=quarterly['native_future'][:,:,shared_order]
+  shared_credits=quarterly['quarterly_credits'][:,:,shared_order]
+  details['quarterly_bonus_model']=quarterly['model']
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
   potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),future+(pmu-mu)],axis=1)
-  q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div)
+  q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div,quarterly_credits=shared_credits)
   swing_started=time.perf_counter()
   swing=playoff_swing_rows(q,future,opp,meta,week)
   details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
@@ -210,6 +216,10 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   if b<=week:
    ranks=np.empty(32,dtype=int);ranks[order[0]]=np.arange(1,33)
    completed_bonus_details[label]=(ap_week[0,a:b].sum(0),ranks)
+ if quarterly is not None:
+  for label,a,b in bonus_specs[:4]:
+   prob=quarterly['events'][label.split()[0]]['probabilities'][shared_order]
+   bonus_prob[label]=prob[:,2]+.5*prob[:,1]
  # Fully unplayed quarters are exchangeable. Pool their displayed Monte Carlo
  # estimates, preserving every team's combined expected Bonus Games exactly.
  # Season outcomes and playoff probabilities retain their original simulations.

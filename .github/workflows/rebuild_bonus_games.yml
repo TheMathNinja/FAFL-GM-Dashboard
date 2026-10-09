@@ -1,6 +1,12 @@
 name: Rebuild Bonus Games dashboard
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/bonus_predictor.py
+      - scripts/quarterly_bonus.py
+      - scripts/bonus_module.py
 permissions:
   contents: write
   pages: write
@@ -21,12 +27,15 @@ jobs:
         run: |
           pip install numpy==2.3.5 pandas==2.3.3
           python -m unittest discover -s tests -p test_bonus_predictor.py -v
+          python -m unittest discover -s tests -p test_shared_quarterly.py -v
+          python scripts/build.py --stage playoff
           python scripts/bonus_module.py --league FAFL --root . --out docs/bonus-games --simulations 12000
+          python scripts/verify_quarterly_sync.py --league FAFL --root .
       - name: Save generated module
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/bonus-games
+          git add docs/bonus-games docs/playoff-picture data/current_forecast.json data/playoff_swing.csv
           if ! git diff --cached --quiet; then
             git commit -m 'Rebuild selected Bonus Games dashboard'
             git push origin HEAD:main

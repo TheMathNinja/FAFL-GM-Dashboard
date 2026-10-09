@@ -9,8 +9,8 @@ from rules import rank_field,fafl_outcomes
 from score_schedule import schedule_decision
 
 class ModelTests(unittest.TestCase):
- def test_production_uses_ten_thousand_simulations(self):
-  self.assertEqual(DEFAULT_SIMULATIONS,10000)
+ def test_production_uses_shared_simulation_count(self):
+  self.assertEqual(DEFAULT_SIMULATIONS,12000)
 
  def test_matches_selected_experiment_at_every_checkpoint(self):
   h=historical();links=load_links();expected=pd.read_csv(ROOT/'tests/fixtures/expected_means.csv')
