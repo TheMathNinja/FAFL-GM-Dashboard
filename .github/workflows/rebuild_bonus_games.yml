@@ -7,6 +7,11 @@ on:
       - scripts/bonus_predictor.py
       - scripts/quarterly_bonus.py
       - scripts/bonus_module.py
+      - scripts/build.py
+      - scripts/verify_quarterly_sync.py
+      - data/historical_weekly.csv
+      - data/predecessors.csv
+      - data/predecessors_2026.csv
 permissions:
   contents: write
   pages: write

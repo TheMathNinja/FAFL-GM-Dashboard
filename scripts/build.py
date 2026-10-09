@@ -311,15 +311,17 @@ def load_source():
  return payload['meta'],payload['divmap'],np.asarray(payload['opp'],dtype=int),np.asarray(payload['home'],dtype=bool),current,int(payload['week']),payload['status']
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default='reported');parser.add_argument('--simulations',type=int,default=DEFAULT_SIMULATIONS);parser.add_argument('--stage',choices=['all','source','elo-shadow','bonus','playoff'],default='all');args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--week',type=int);parser.add_argument('--status',choices=['official','unofficial','reported'],default=None);parser.add_argument('--simulations',type=int,default=DEFAULT_SIMULATIONS);parser.add_argument('--stage',choices=['all','source','elo-shadow','bonus','playoff'],default='all');args=parser.parse_args()
  week=args.week if args.week is not None else int(os.environ['READY_WEEK']) if os.environ.get('READY_WEEK') else completed_week()
  if not 1<=week<=17:raise ValueError('No completed regular-season week available')
  if args.simulations<100:raise ValueError('At least 100 simulations required')
  if args.stage in ['all','source']:
+  args.status=args.status or 'reported'
   meta,divmap,opp,home,current=fetch_current(week);current.franchise_id=current.franchise_id.astype(str).str.zfill(4)
   save_source(meta,divmap,opp,home,current,week,args.status)
  else:
-  meta,divmap,opp,home,current,week,_=load_source()
+  meta,divmap,opp,home,current,week,cached_status=load_source()
+  args.status=args.status or cached_status
  if args.stage=='source':
   print(f'Validated one FAFL MFL snapshot through Week {week}: {len(current)} team-week rows')
   return
