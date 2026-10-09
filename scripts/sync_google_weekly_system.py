@@ -8,7 +8,6 @@ import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
 ELO_ID='1yWEzFx8hKhhlTQ47gacHSQXmZtPsX9k7hB2s6D6-g3k'
-BONUS_ID='1X5DJD6K2mAL93DpPtHshVnOo4f_mJRc1CE2phcTFnTE'
 BLOCKS={'OPF':(36,37,1,'off'),'DPF':(36,37,20,'deff'),'PPF':(36,37,39,'potential')}
 
 def column_name(index):
@@ -20,7 +19,6 @@ def column_name(index):
 credentials=json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_JSON'])
 client=gspread.service_account_from_dict(credentials, http_client=gspread.BackOffHTTPClient)
 elo=client.open_by_key(ELO_ID).worksheet('2026')
-bonus=client.open_by_key(BONUS_ID).worksheet('Alphabetical')
 scores=pd.read_csv(ROOT/'data/current_weekly.csv',dtype={'franchise_id':str})
 context=json.loads((ROOT/'data/weekly_source_context.json').read_text(encoding='utf8'))
 name_by_id={str(f['id']).zfill(4):f['name'] for f in context['meta']}
@@ -42,9 +40,7 @@ for metric,(header_row,data_row,name_col,value_col) in BLOCKS.items():
   values.append([float(team.loc[team.week==w,value_col].iloc[0]) for w in range(1,week+1)])
  elo.update(values,range_name=f'{column_name(start)}{data_row}',value_input_option='RAW')
 
-bonus_names=[r[0] if r else '' for r in bonus.get('A3:A34')]
-bonus_values=[[float(scores[(scores.franchise_name==name)&(scores.week==w)].points.iloc[0]) for w in range(1,week+1)] for name in bonus_names]
-bonus.update(bonus_values,range_name='BW3',value_input_option='RAW')
+# Bonus Games is built from data/current_weekly.csv, not the retired sheet.
 
 headers=elo.row_values(1)
 labels=[f'W{w}Elo' for w in range(0,week+1)]

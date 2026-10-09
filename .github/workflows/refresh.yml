@@ -91,7 +91,7 @@ jobs:
         continue-on-error: true
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --stage bonus --status '${{ steps.schedule.outputs.score_status }}'
-      - name: Publish official workbook Elo and synchronize Bonus Games inputs
+      - name: Publish official workbook Elo
         id: elo
         continue-on-error: true
         if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.elo_shadow.outcome == 'success'
