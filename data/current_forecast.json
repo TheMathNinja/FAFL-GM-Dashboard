@@ -1,8 +1,8 @@
 {
   "season": 2026,
   "through_week": 4,
-  "status": "reported",
-  "updated_at": "2026-10-09 01:23 UTC",
+  "status": "official",
+  "updated_at": "2026-10-09 01:32 UTC",
   "simulations": 12000,
   "model": {
     "training_rows": 160,
@@ -65,8 +65,8 @@
       "sd": 10.559919674991853,
       "multiplier": 1.0
     },
-    "forecast_runtime_seconds": 3.754,
-    "base_forecast_runtime_seconds": 3.747,
+    "forecast_runtime_seconds": 3.697,
+    "base_forecast_runtime_seconds": 3.69,
     "playoff_swing_matchups": 16
   },
   "conferences": {
