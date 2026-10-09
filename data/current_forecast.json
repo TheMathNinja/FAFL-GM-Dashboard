@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 4,
   "status": "official",
-  "updated_at": "2026-10-09 02:28 UTC",
+  "updated_at": "2026-10-09 05:40 UTC",
   "simulations": 12000,
   "model": {
     "training_rows": 160,
@@ -81,6 +81,33 @@
           "Points For",
           "Potential Points"
         ]
+      },
+      "reg_season_model": "fafl_native_normal",
+      "reg_season_distribution": "normal",
+      "reg_season_potential_points": {
+        "method": "conditional_empirical_gap",
+        "conditioned_on": [
+          "simulated PF",
+          "observed team PF/Potential gap",
+          "NFL bye count"
+        ],
+        "neighbors": 100,
+        "calibrated_on_past_only": true,
+        "training_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excluded_invalid_pairs": 0,
+        "validation": "2023 selection; rolling 2024-2025 holdout; residual downward bias remains",
+        "tiebreak_order": [
+          "All-Play wins",
+          "Points For",
+          "Potential Points"
+        ]
       }
     },
     "playoff_swing_runtime_seconds": 0.007,
@@ -90,8 +117,8 @@
       "sd": 10.559919674991853,
       "multiplier": 1.0
     },
-    "forecast_runtime_seconds": 15.966,
-    "base_forecast_runtime_seconds": 15.959,
+    "forecast_runtime_seconds": 29.419,
+    "base_forecast_runtime_seconds": 29.412,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -429,7 +456,7 @@
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.8805833333333334
+              "probability": 0.8805833333333333
             }
           ]
         },
@@ -869,7 +896,7 @@
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.62275
+              "probability": 0.6227499999999999
             }
           ]
         },
@@ -1749,7 +1776,7 @@
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.917375
+              "probability": 0.9173749999999999
             }
           ]
         },
@@ -4171,7 +4198,7 @@
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.8883333333333333
+              "probability": 0.8883333333333334
             }
           ]
         },

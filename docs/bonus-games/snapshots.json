@@ -3,7 +3,7 @@
   "season": 2026,
   "through_week": 4,
   "status": "official",
-  "updated_at": "2026-10-09T02:29:24.437549+00:00",
+  "updated_at": "2026-10-09T05:43:01.368947+00:00",
   "simulations": 12000,
   "weeks": {
     "1": [
@@ -17,7 +17,7 @@
         "allplay": "29-2-0",
         "ppg": 262.1,
         "potential": 320.0,
-        "expected_bonus": 2.7507916666666667,
+        "expected_bonus": 2.7605416666666667,
         "events": [
           {
             "event": "Q1",
@@ -93,15 +93,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 29.0,
-            "projected_ap": 193.32104166666667,
+            "projected_ap": 193.90383333333332,
             "ap_games": 31,
             "rank": 3,
             "points": 262.1,
             "potential_points": 320.0,
-            "p_loss": 0.4005,
-            "p_tie": 0.06833333333333333,
-            "p_win": 0.5311666666666667,
-            "credit": 0.5653333333333334,
+            "p_loss": 0.3889166666666667,
+            "p_tie": 0.072,
+            "p_win": 0.5390833333333334,
+            "credit": 0.5750833333333334,
             "completed": false
           }
         ]
@@ -116,7 +116,7 @@
         "allplay": "6-25-0",
         "ppg": 171.6,
         "potential": 222.7,
-        "expected_bonus": 1.7462083333333334,
+        "expected_bonus": 1.7454583333333336,
         "events": [
           {
             "event": "Q1",
@@ -192,15 +192,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 6.0,
-            "projected_ap": 162.43804166666666,
+            "projected_ap": 163.85125,
             "ap_games": 31,
             "rank": 26,
             "points": 171.6,
             "potential_points": 222.7,
-            "p_loss": 0.6696666666666666,
-            "p_tie": 0.06266666666666666,
-            "p_win": 0.26766666666666666,
-            "credit": 0.299,
+            "p_loss": 0.6710833333333334,
+            "p_tie": 0.06133333333333333,
+            "p_win": 0.26758333333333334,
+            "credit": 0.29825,
             "completed": false
           }
         ]
@@ -215,7 +215,7 @@
         "allplay": "26-5-0",
         "ppg": 236.0,
         "potential": 258.2,
-        "expected_bonus": 4.085166666666667,
+        "expected_bonus": 4.0771250000000006,
         "events": [
           {
             "event": "Q1",
@@ -291,15 +291,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 26.0,
-            "projected_ap": 241.05129166666666,
+            "projected_ap": 236.79608333333334,
             "ap_games": 31,
             "rank": 6,
             "points": 236.0,
             "potential_points": 258.2,
-            "p_loss": 0.08508333333333333,
-            "p_tie": 0.03025,
-            "p_win": 0.8846666666666667,
-            "credit": 0.8997916666666668,
+            "p_loss": 0.09133333333333334,
+            "p_tie": 0.03383333333333333,
+            "p_win": 0.8748333333333334,
+            "credit": 0.89175,
             "completed": false
           }
         ]
@@ -314,7 +314,7 @@
         "allplay": "31-0-0",
         "ppg": 269.8,
         "potential": 305.4,
-        "expected_bonus": 4.1494583333333335,
+        "expected_bonus": 4.1437083333333335,
         "events": [
           {
             "event": "Q1",
@@ -390,15 +390,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 31.0,
-            "projected_ap": 246.488625,
+            "projected_ap": 242.32875,
             "ap_games": 31,
             "rank": 1,
             "points": 269.8,
             "potential_points": 305.4,
-            "p_loss": 0.07116666666666667,
-            "p_tie": 0.02725,
-            "p_win": 0.9015833333333333,
-            "credit": 0.9152083333333333,
+            "p_loss": 0.07683333333333334,
+            "p_tie": 0.027416666666666666,
+            "p_win": 0.89575,
+            "credit": 0.9094583333333334,
             "completed": false
           }
         ]
@@ -413,7 +413,7 @@
         "allplay": "7-24-0",
         "ppg": 174.4,
         "potential": 226.2,
-        "expected_bonus": 2.110875,
+        "expected_bonus": 2.106666666666667,
         "events": [
           {
             "event": "Q1",
@@ -489,15 +489,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 7.0,
-            "projected_ap": 173.98983333333334,
+            "projected_ap": 174.32208333333332,
             "ap_games": 31,
             "rank": 25,
             "points": 174.4,
             "potential_points": 226.2,
-            "p_loss": 0.5650833333333334,
-            "p_tie": 0.06675,
-            "p_win": 0.36816666666666664,
-            "credit": 0.40154166666666663,
+            "p_loss": 0.5695833333333333,
+            "p_tie": 0.06616666666666667,
+            "p_win": 0.36425,
+            "credit": 0.39733333333333337,
             "completed": false
           }
         ]
@@ -512,7 +512,7 @@
         "allplay": "20-11-0",
         "ppg": 219.9,
         "potential": 247.7,
-        "expected_bonus": 2.603458333333333,
+        "expected_bonus": 2.6085,
         "events": [
           {
             "event": "Q1",
@@ -588,15 +588,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 20.0,
-            "projected_ap": 188.442,
+            "projected_ap": 188.68775,
             "ap_games": 31,
             "rank": 12,
             "points": 219.9,
             "potential_points": 247.7,
-            "p_loss": 0.435,
-            "p_tie": 0.07458333333333333,
-            "p_win": 0.49041666666666667,
-            "credit": 0.5277083333333333,
+            "p_loss": 0.431,
+            "p_tie": 0.0725,
+            "p_win": 0.4965,
+            "credit": 0.53275,
             "completed": false
           }
         ]
@@ -611,7 +611,7 @@
         "allplay": "11-19-1",
         "ppg": 186.0,
         "potential": 234.3,
-        "expected_bonus": 2.245833333333333,
+        "expected_bonus": 2.2461666666666664,
         "events": [
           {
             "event": "Q1",
@@ -687,15 +687,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 11.5,
-            "projected_ap": 178.18966666666665,
+            "projected_ap": 178.56770833333334,
             "ap_games": 31,
             "rank": 21,
             "points": 186.0,
             "potential_points": 234.3,
-            "p_loss": 0.5324166666666666,
-            "p_tie": 0.06791666666666667,
-            "p_win": 0.39966666666666667,
-            "credit": 0.433625,
+            "p_loss": 0.5314166666666666,
+            "p_tie": 0.06925,
+            "p_win": 0.3993333333333333,
+            "credit": 0.43395833333333333,
             "completed": false
           }
         ]
@@ -710,7 +710,7 @@
         "allplay": "1-29-1",
         "ppg": 138.0,
         "potential": 204.7,
-        "expected_bonus": 2.4872916666666667,
+        "expected_bonus": 2.4745833333333334,
         "events": [
           {
             "event": "Q1",
@@ -786,15 +786,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 1.5,
-            "projected_ap": 185.59341666666666,
+            "projected_ap": 184.20925,
             "ap_games": 31,
             "rank": 30,
             "points": 138.0,
             "potential_points": 204.7,
-            "p_loss": 0.4588333333333333,
-            "p_tie": 0.07325,
-            "p_win": 0.46791666666666665,
-            "credit": 0.5045416666666667,
+            "p_loss": 0.4716666666666667,
+            "p_tie": 0.073,
+            "p_win": 0.4553333333333333,
+            "credit": 0.4918333333333333,
             "completed": false
           }
         ]
@@ -809,7 +809,7 @@
         "allplay": "14-17-0",
         "ppg": 191.5,
         "potential": 214.9,
-        "expected_bonus": 1.779125,
+        "expected_bonus": 1.7907916666666668,
         "events": [
           {
             "event": "Q1",
@@ -885,15 +885,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 14.0,
-            "projected_ap": 163.82641666666666,
+            "projected_ap": 165.94604166666667,
             "ap_games": 31,
             "rank": 18,
             "points": 191.5,
             "potential_points": 214.9,
-            "p_loss": 0.6596666666666666,
-            "p_tie": 0.06216666666666667,
-            "p_win": 0.2781666666666667,
-            "credit": 0.30925,
+            "p_loss": 0.6475,
+            "p_tie": 0.06316666666666666,
+            "p_win": 0.28933333333333333,
+            "credit": 0.3209166666666667,
             "completed": false
           }
         ]
@@ -908,7 +908,7 @@
         "allplay": "25-6-0",
         "ppg": 234.9,
         "potential": 253.6,
-        "expected_bonus": 2.905708333333333,
+        "expected_bonus": 2.9115416666666665,
         "events": [
           {
             "event": "Q1",
@@ -984,15 +984,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 25.0,
-            "projected_ap": 198.05891666666668,
+            "projected_ap": 197.77329166666667,
             "ap_games": 31,
             "rank": 7,
             "points": 234.9,
             "potential_points": 253.6,
-            "p_loss": 0.36025,
-            "p_tie": 0.068,
-            "p_win": 0.57175,
-            "credit": 0.60575,
+            "p_loss": 0.354,
+            "p_tie": 0.06883333333333333,
+            "p_win": 0.5771666666666667,
+            "credit": 0.6115833333333334,
             "completed": false
           }
         ]
@@ -1007,7 +1007,7 @@
         "allplay": "22-9-0",
         "ppg": 224.8,
         "potential": 316.9,
-        "expected_bonus": 3.5240833333333335,
+        "expected_bonus": 3.515,
         "events": [
           {
             "event": "Q1",
@@ -1083,15 +1083,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 22.0,
-            "projected_ap": 217.88375,
+            "projected_ap": 215.34333333333333,
             "ap_games": 31,
             "rank": 10,
             "points": 224.8,
             "potential_points": 316.9,
-            "p_loss": 0.20066666666666666,
-            "p_tie": 0.05341666666666667,
-            "p_win": 0.7459166666666667,
-            "credit": 0.772625,
+            "p_loss": 0.20875,
+            "p_tie": 0.05541666666666667,
+            "p_win": 0.7358333333333333,
+            "credit": 0.7635416666666667,
             "completed": false
           }
         ]
@@ -1106,7 +1106,7 @@
         "allplay": "16-14-1",
         "ppg": 209.3,
         "potential": 260.5,
-        "expected_bonus": 2.564541666666667,
+        "expected_bonus": 2.566416666666667,
         "events": [
           {
             "event": "Q1",
@@ -1182,15 +1182,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 16.5,
-            "projected_ap": 187.557875,
+            "projected_ap": 187.519,
             "ap_games": 31,
             "rank": 15,
             "points": 209.3,
             "potential_points": 260.5,
-            "p_loss": 0.44183333333333336,
-            "p_tie": 0.07883333333333334,
-            "p_win": 0.47933333333333333,
-            "credit": 0.51875,
+            "p_loss": 0.44308333333333333,
+            "p_tie": 0.07258333333333333,
+            "p_win": 0.48433333333333334,
+            "credit": 0.520625,
             "completed": false
           }
         ]
@@ -1205,7 +1205,7 @@
         "allplay": "10-21-0",
         "ppg": 184.8,
         "potential": 223.0,
-        "expected_bonus": 2.427833333333333,
+        "expected_bonus": 2.4214583333333333,
         "events": [
           {
             "event": "Q1",
@@ -1281,15 +1281,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 10.0,
-            "projected_ap": 183.609375,
+            "projected_ap": 183.33141666666666,
             "ap_games": 31,
             "rank": 22,
             "points": 184.8,
             "potential_points": 223.0,
-            "p_loss": 0.47683333333333333,
-            "p_tie": 0.07508333333333334,
-            "p_win": 0.44808333333333333,
-            "credit": 0.485625,
+            "p_loss": 0.485,
+            "p_tie": 0.0715,
+            "p_win": 0.4435,
+            "credit": 0.47925,
             "completed": false
           }
         ]
@@ -1304,7 +1304,7 @@
         "allplay": "3-28-0",
         "ppg": 142.4,
         "potential": 179.1,
-        "expected_bonus": 1.054875,
+        "expected_bonus": 1.0612083333333333,
         "events": [
           {
             "event": "Q1",
@@ -1380,15 +1380,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 3.0,
-            "projected_ap": 136.60708333333332,
+            "projected_ap": 140.074875,
             "ap_games": 31,
             "rank": 29,
             "points": 142.4,
             "potential_points": 179.1,
-            "p_loss": 0.8560833333333333,
-            "p_tie": 0.03666666666666667,
-            "p_win": 0.10725,
-            "credit": 0.12558333333333332,
+            "p_loss": 0.8485,
+            "p_tie": 0.03916666666666667,
+            "p_win": 0.11233333333333333,
+            "credit": 0.13191666666666665,
             "completed": false
           }
         ]
@@ -1403,7 +1403,7 @@
         "allplay": "13-18-0",
         "ppg": 189.9,
         "potential": 265.3,
-        "expected_bonus": 2.551333333333333,
+        "expected_bonus": 2.5462499999999997,
         "events": [
           {
             "event": "Q1",
@@ -1479,15 +1479,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 13.0,
-            "projected_ap": 187.499125,
+            "projected_ap": 187.07495833333334,
             "ap_games": 31,
             "rank": 19,
             "points": 189.9,
             "potential_points": 265.3,
-            "p_loss": 0.44725,
-            "p_tie": 0.07,
-            "p_win": 0.48275,
-            "credit": 0.51775,
+            "p_loss": 0.45066666666666666,
+            "p_tie": 0.07333333333333333,
+            "p_win": 0.476,
+            "credit": 0.5126666666666666,
             "completed": false
           }
         ]
@@ -1502,7 +1502,7 @@
         "allplay": "0-31-0",
         "ppg": 119.7,
         "potential": 173.0,
-        "expected_bonus": 1.2717083333333334,
+        "expected_bonus": 1.2729166666666667,
         "events": [
           {
             "event": "Q1",
@@ -1578,15 +1578,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 0.0,
-            "projected_ap": 143.84245833333333,
+            "projected_ap": 146.471375,
             "ap_games": 31,
             "rank": 32,
             "points": 119.7,
             "potential_points": 173.0,
-            "p_loss": 0.8058333333333333,
-            "p_tie": 0.04716666666666667,
-            "p_win": 0.147,
-            "credit": 0.17058333333333334,
+            "p_loss": 0.8054166666666667,
+            "p_tie": 0.04558333333333333,
+            "p_win": 0.149,
+            "credit": 0.17179166666666665,
             "completed": false
           }
         ]
@@ -1601,7 +1601,7 @@
         "allplay": "27-4-0",
         "ppg": 242.5,
         "potential": 286.4,
-        "expected_bonus": 2.627333333333333,
+        "expected_bonus": 2.635,
         "events": [
           {
             "event": "Q1",
@@ -1677,15 +1677,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 27.0,
-            "projected_ap": 189.494,
+            "projected_ap": 190.2505,
             "ap_games": 31,
             "rank": 5,
             "points": 242.5,
             "potential_points": 286.4,
-            "p_loss": 0.43625,
-            "p_tie": 0.06841666666666667,
-            "p_win": 0.49533333333333335,
-            "credit": 0.5295416666666667,
+            "p_loss": 0.42841666666666667,
+            "p_tie": 0.06875,
+            "p_win": 0.5028333333333334,
+            "credit": 0.5372083333333334,
             "completed": false
           }
         ]
@@ -1700,7 +1700,7 @@
         "allplay": "28-3-0",
         "ppg": 252.1,
         "potential": 268.3,
-        "expected_bonus": 2.7545833333333336,
+        "expected_bonus": 2.7630833333333333,
         "events": [
           {
             "event": "Q1",
@@ -1776,15 +1776,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 28.0,
-            "projected_ap": 193.20358333333334,
+            "projected_ap": 193.72295833333334,
             "ap_games": 31,
             "rank": 4,
             "points": 252.1,
             "potential_points": 268.3,
-            "p_loss": 0.40275,
-            "p_tie": 0.06608333333333333,
-            "p_win": 0.5311666666666667,
-            "credit": 0.5642083333333333,
+            "p_loss": 0.3923333333333333,
+            "p_tie": 0.06991666666666667,
+            "p_win": 0.53775,
+            "credit": 0.5727083333333333,
             "completed": false
           }
         ]
@@ -1799,7 +1799,7 @@
         "allplay": "16-14-1",
         "ppg": 209.3,
         "potential": 229.7,
-        "expected_bonus": 1.6660833333333334,
+        "expected_bonus": 1.6784583333333334,
         "events": [
           {
             "event": "Q1",
@@ -1875,15 +1875,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 16.5,
-            "projected_ap": 159.818625,
+            "projected_ap": 162.41225,
             "ap_games": 31,
             "rank": 16,
             "points": 209.3,
             "potential_points": 229.7,
-            "p_loss": 0.6941666666666667,
-            "p_tie": 0.058083333333333334,
-            "p_win": 0.24775,
-            "credit": 0.27679166666666666,
+            "p_loss": 0.68075,
+            "p_tie": 0.06016666666666667,
+            "p_win": 0.25908333333333333,
+            "credit": 0.2891666666666667,
             "completed": false
           }
         ]
@@ -1898,7 +1898,7 @@
         "allplay": "9-22-0",
         "ppg": 179.2,
         "potential": 246.8,
-        "expected_bonus": 2.364375,
+        "expected_bonus": 2.3594583333333334,
         "events": [
           {
             "event": "Q1",
@@ -1974,15 +1974,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 9.0,
-            "projected_ap": 181.93766666666667,
+            "projected_ap": 181.73183333333333,
             "ap_games": 31,
             "rank": 23,
             "points": 179.2,
             "potential_points": 246.8,
-            "p_loss": 0.49491666666666667,
-            "p_tie": 0.07,
-            "p_win": 0.4350833333333333,
-            "credit": 0.4700833333333333,
+            "p_loss": 0.49866666666666665,
+            "p_tie": 0.07233333333333333,
+            "p_win": 0.429,
+            "credit": 0.4651666666666667,
             "completed": false
           }
         ]
@@ -1997,7 +1997,7 @@
         "allplay": "8-23-0",
         "ppg": 177.4,
         "potential": 223.9,
-        "expected_bonus": 2.1836666666666664,
+        "expected_bonus": 2.17975,
         "events": [
           {
             "event": "Q1",
@@ -2073,15 +2073,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 8.0,
-            "projected_ap": 176.479375,
+            "projected_ap": 176.66270833333334,
             "ap_games": 31,
             "rank": 24,
             "points": 177.4,
             "potential_points": 223.9,
-            "p_loss": 0.5429166666666667,
-            "p_tie": 0.072,
-            "p_win": 0.38508333333333333,
-            "credit": 0.4210833333333333,
+            "p_loss": 0.5480833333333334,
+            "p_tie": 0.0695,
+            "p_win": 0.3824166666666667,
+            "credit": 0.4171666666666667,
             "completed": false
           }
         ]
@@ -2096,7 +2096,7 @@
         "allplay": "1-29-1",
         "ppg": 138.0,
         "potential": 189.1,
-        "expected_bonus": 1.9298333333333333,
+        "expected_bonus": 1.9252500000000001,
         "events": [
           {
             "event": "Q1",
@@ -2172,15 +2172,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 1.5,
-            "projected_ap": 167.97329166666665,
+            "projected_ap": 168.37254166666668,
             "ap_games": 31,
             "rank": 31,
             "points": 138.0,
             "potential_points": 189.1,
-            "p_loss": 0.62325,
-            "p_tie": 0.06725,
-            "p_win": 0.3095,
-            "credit": 0.343125,
+            "p_loss": 0.6270833333333333,
+            "p_tie": 0.06875,
+            "p_win": 0.30416666666666664,
+            "credit": 0.33854166666666663,
             "completed": false
           }
         ]
@@ -2195,7 +2195,7 @@
         "allplay": "24-7-0",
         "ppg": 230.4,
         "potential": 259.0,
-        "expected_bonus": 3.685583333333333,
+        "expected_bonus": 3.6783333333333332,
         "events": [
           {
             "event": "Q1",
@@ -2271,15 +2271,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 24.0,
-            "projected_ap": 223.650125,
+            "projected_ap": 220.81404166666667,
             "ap_games": 31,
             "rank": 8,
             "points": 230.4,
             "potential_points": 259.0,
-            "p_loss": 0.16166666666666665,
+            "p_loss": 0.16891666666666666,
             "p_tie": 0.04658333333333333,
-            "p_win": 0.79175,
-            "credit": 0.8150416666666667,
+            "p_win": 0.7845,
+            "credit": 0.8077916666666667,
             "completed": false
           }
         ]
@@ -2294,7 +2294,7 @@
         "allplay": "4-27-0",
         "ppg": 146.2,
         "potential": 238.7,
-        "expected_bonus": 2.0185416666666667,
+        "expected_bonus": 2.014125,
         "events": [
           {
             "event": "Q1",
@@ -2370,15 +2370,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 4.0,
-            "projected_ap": 171.22458333333333,
+            "projected_ap": 171.57175,
             "ap_games": 31,
             "rank": 28,
             "points": 146.2,
             "potential_points": 238.7,
-            "p_loss": 0.5955833333333334,
-            "p_tie": 0.06858333333333333,
-            "p_win": 0.3358333333333333,
-            "credit": 0.370125,
+            "p_loss": 0.601,
+            "p_tie": 0.06658333333333333,
+            "p_win": 0.3324166666666667,
+            "credit": 0.36570833333333336,
             "completed": false
           }
         ]
@@ -2393,7 +2393,7 @@
         "allplay": "18-13-0",
         "ppg": 219.4,
         "potential": 257.6,
-        "expected_bonus": 2.25925,
+        "expected_bonus": 2.2647916666666665,
         "events": [
           {
             "event": "Q1",
@@ -2469,15 +2469,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 18.0,
-            "projected_ap": 178.24425,
+            "projected_ap": 179.1655,
             "ap_games": 31,
             "rank": 14,
             "points": 219.4,
             "potential_points": 257.6,
-            "p_loss": 0.53425,
-            "p_tie": 0.06966666666666667,
-            "p_win": 0.39608333333333334,
-            "credit": 0.43091666666666667,
+            "p_loss": 0.52875,
+            "p_tie": 0.06958333333333333,
+            "p_win": 0.40166666666666667,
+            "credit": 0.43645833333333334,
             "completed": false
           }
         ]
@@ -2492,7 +2492,7 @@
         "allplay": "21-10-0",
         "ppg": 222.0,
         "potential": 252.2,
-        "expected_bonus": 2.8842499999999998,
+        "expected_bonus": 2.8841666666666663,
         "events": [
           {
             "event": "Q1",
@@ -2568,15 +2568,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 21.0,
-            "projected_ap": 197.02658333333332,
+            "projected_ap": 196.526625,
             "ap_games": 31,
             "rank": 11,
             "points": 222.0,
             "potential_points": 252.2,
-            "p_loss": 0.36633333333333334,
-            "p_tie": 0.066,
-            "p_win": 0.5676666666666667,
-            "credit": 0.6006666666666667,
+            "p_loss": 0.36566666666666664,
+            "p_tie": 0.0675,
+            "p_win": 0.5668333333333333,
+            "credit": 0.6005833333333332,
             "completed": false
           }
         ]
@@ -2591,7 +2591,7 @@
         "allplay": "15-16-0",
         "ppg": 205.4,
         "potential": 269.0,
-        "expected_bonus": 2.6322083333333333,
+        "expected_bonus": 2.6285416666666666,
         "events": [
           {
             "event": "Q1",
@@ -2667,15 +2667,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 15.0,
-            "projected_ap": 189.542375,
+            "projected_ap": 189.134,
             "ap_games": 31,
             "rank": 17,
             "points": 205.4,
             "potential_points": 269.0,
-            "p_loss": 0.42433333333333334,
-            "p_tie": 0.07458333333333333,
-            "p_win": 0.5010833333333333,
-            "credit": 0.538375,
+            "p_loss": 0.42916666666666664,
+            "p_tie": 0.07225,
+            "p_win": 0.4985833333333333,
+            "credit": 0.5347083333333333,
             "completed": false
           }
         ]
@@ -2690,7 +2690,7 @@
         "allplay": "5-26-0",
         "ppg": 149.0,
         "potential": 185.2,
-        "expected_bonus": 2.435125,
+        "expected_bonus": 2.425,
         "events": [
           {
             "event": "Q1",
@@ -2766,15 +2766,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 5.0,
-            "projected_ap": 184.188375,
+            "projected_ap": 183.34670833333334,
             "ap_games": 31,
             "rank": 27,
             "points": 149.0,
             "potential_points": 185.2,
-            "p_loss": 0.47441666666666665,
-            "p_tie": 0.07108333333333333,
-            "p_win": 0.4545,
-            "credit": 0.4900416666666667,
+            "p_loss": 0.4865,
+            "p_tie": 0.06716666666666667,
+            "p_win": 0.44633333333333336,
+            "credit": 0.4799166666666667,
             "completed": false
           }
         ]
@@ -2789,7 +2789,7 @@
         "allplay": "11-19-1",
         "ppg": 186.0,
         "potential": 237.9,
-        "expected_bonus": 1.2301250000000001,
+        "expected_bonus": 1.2393333333333334,
         "events": [
           {
             "event": "Q1",
@@ -2865,15 +2865,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 11.5,
-            "projected_ap": 144.85854166666667,
+            "projected_ap": 148.36291666666668,
             "ap_games": 31,
             "rank": 20,
             "points": 186.0,
             "potential_points": 237.9,
-            "p_loss": 0.8009166666666667,
-            "p_tie": 0.044333333333333336,
-            "p_win": 0.15475,
-            "credit": 0.17691666666666667,
+            "p_loss": 0.7925833333333333,
+            "p_tie": 0.042583333333333334,
+            "p_win": 0.16483333333333333,
+            "credit": 0.18612499999999998,
             "completed": false
           }
         ]
@@ -2888,7 +2888,7 @@
         "allplay": "19-12-0",
         "ppg": 219.6,
         "potential": 254.2,
-        "expected_bonus": 3.3757083333333333,
+        "expected_bonus": 3.3700833333333335,
         "events": [
           {
             "event": "Q1",
@@ -2964,15 +2964,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 19.0,
-            "projected_ap": 212.6615,
+            "projected_ap": 210.37820833333333,
             "ap_games": 31,
             "rank": 13,
             "points": 219.6,
             "potential_points": 254.2,
-            "p_loss": 0.23541666666666666,
-            "p_tie": 0.05991666666666667,
-            "p_win": 0.7046666666666667,
-            "credit": 0.734625,
+            "p_loss": 0.2405,
+            "p_tie": 0.061,
+            "p_win": 0.6985,
+            "credit": 0.729,
             "completed": false
           }
         ]
@@ -2987,7 +2987,7 @@
         "allplay": "30-1-0",
         "ppg": 268.1,
         "potential": 283.2,
-        "expected_bonus": 3.280125,
+        "expected_bonus": 3.283333333333333,
         "events": [
           {
             "event": "Q1",
@@ -3063,15 +3063,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 30.0,
-            "projected_ap": 210.745375,
+            "projected_ap": 209.74508333333333,
             "ap_games": 31,
             "rank": 2,
             "points": 268.1,
             "potential_points": 283.2,
-            "p_loss": 0.2534166666666667,
-            "p_tie": 0.06166666666666667,
-            "p_win": 0.6849166666666666,
-            "credit": 0.71575,
+            "p_loss": 0.25075,
+            "p_tie": 0.060583333333333336,
+            "p_win": 0.6886666666666666,
+            "credit": 0.7189583333333334,
             "completed": false
           }
         ]
@@ -3086,7 +3086,7 @@
         "allplay": "23-8-0",
         "ppg": 229.4,
         "potential": 298.6,
-        "expected_bonus": 2.4149166666666666,
+        "expected_bonus": 2.4229583333333333,
         "events": [
           {
             "event": "Q1",
@@ -3162,15 +3162,15 @@
             "end": 12,
             "elapsed": 1,
             "ap": 23.0,
-            "projected_ap": 182.55283333333333,
+            "projected_ap": 183.601375,
             "ap_games": 31,
             "rank": 9,
             "points": 229.4,
             "potential_points": 298.6,
-            "p_loss": 0.49325,
-            "p_tie": 0.07341666666666667,
-            "p_win": 0.43333333333333335,
-            "credit": 0.4700416666666667,
+            "p_loss": 0.4860833333333333,
+            "p_tie": 0.07166666666666667,
+            "p_win": 0.44225,
+            "credit": 0.4780833333333333,
             "completed": false
           }
         ]
@@ -3187,7 +3187,7 @@
         "allplay": "59-3-0",
         "ppg": 257.0,
         "potential": 289.65,
-        "expected_bonus": 3.1665833333333335,
+        "expected_bonus": 3.1813333333333333,
         "events": [
           {
             "event": "Q1",
@@ -3263,15 +3263,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 59.0,
-            "projected_ap": 211.0505,
+            "projected_ap": 211.26491666666666,
             "ap_games": 62,
             "rank": 1,
             "points": 514.0,
             "potential_points": 579.3,
-            "p_loss": 0.2475,
-            "p_tie": 0.06433333333333334,
-            "p_win": 0.6881666666666667,
-            "credit": 0.7203333333333334,
+            "p_loss": 0.23358333333333334,
+            "p_tie": 0.06266666666666666,
+            "p_win": 0.70375,
+            "credit": 0.7350833333333333,
             "completed": false
           }
         ]
@@ -3286,7 +3286,7 @@
         "allplay": "30-32-0",
         "ppg": 198.7,
         "potential": 240.29999999999998,
-        "expected_bonus": 2.1778750000000002,
+        "expected_bonus": 2.1784583333333334,
         "events": [
           {
             "event": "Q1",
@@ -3362,15 +3362,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 30.0,
-            "projected_ap": 176.886375,
+            "projected_ap": 177.66816666666668,
             "ap_games": 62,
             "rank": 18,
             "points": 397.4,
             "potential_points": 480.59999999999997,
-            "p_loss": 0.5418333333333333,
-            "p_tie": 0.07225,
-            "p_win": 0.3859166666666667,
-            "credit": 0.4220416666666667,
+            "p_loss": 0.5405,
+            "p_tie": 0.07375,
+            "p_win": 0.38575,
+            "credit": 0.422625,
             "completed": false
           }
         ]
@@ -3385,7 +3385,7 @@
         "allplay": "44-17-1",
         "ppg": 220.7,
         "potential": 286.9,
-        "expected_bonus": 4.492875,
+        "expected_bonus": 4.487166666666667,
         "events": [
           {
             "event": "Q1",
@@ -3461,15 +3461,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 44.5,
-            "projected_ap": 258.274625,
+            "projected_ap": 253.21925,
             "ap_games": 62,
             "rank": 5,
             "points": 441.4,
             "potential_points": 573.8,
-            "p_loss": 0.027666666666666666,
-            "p_tie": 0.013666666666666667,
-            "p_win": 0.9586666666666667,
-            "credit": 0.9655,
+            "p_loss": 0.03216666666666667,
+            "p_tie": 0.016083333333333335,
+            "p_win": 0.95175,
+            "credit": 0.9597916666666666,
             "completed": false
           }
         ]
@@ -3484,7 +3484,7 @@
         "allplay": "36-26-0",
         "ppg": 212.15,
         "potential": 248.04999999999998,
-        "expected_bonus": 3.5720416666666663,
+        "expected_bonus": 3.5617916666666662,
         "events": [
           {
             "event": "Q1",
@@ -3560,15 +3560,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 36.0,
-            "projected_ap": 216.98125,
+            "projected_ap": 214.50625,
             "ap_games": 62,
             "rank": 14,
             "points": 424.3,
             "potential_points": 496.09999999999997,
-            "p_loss": 0.19208333333333333,
-            "p_tie": 0.05658333333333333,
-            "p_win": 0.7513333333333333,
-            "credit": 0.779625,
+            "p_loss": 0.20308333333333334,
+            "p_tie": 0.05508333333333333,
+            "p_win": 0.7418333333333333,
+            "credit": 0.769375,
             "completed": false
           }
         ]
@@ -3583,7 +3583,7 @@
         "allplay": "32-30-0",
         "ppg": 205.25,
         "potential": 258.25,
-        "expected_bonus": 2.8987499999999997,
+        "expected_bonus": 2.89375,
         "events": [
           {
             "event": "Q1",
@@ -3659,15 +3659,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 32.0,
-            "projected_ap": 197.01579166666667,
+            "projected_ap": 195.96479166666666,
             "ap_games": 62,
             "rank": 17,
             "points": 410.5,
             "potential_points": 516.5,
-            "p_loss": 0.34983333333333333,
-            "p_tie": 0.07383333333333333,
-            "p_win": 0.5763333333333334,
-            "credit": 0.6132500000000001,
+            "p_loss": 0.35425,
+            "p_tie": 0.075,
+            "p_win": 0.57075,
+            "credit": 0.60825,
             "completed": false
           }
         ]
@@ -3682,7 +3682,7 @@
         "allplay": "22-40-0",
         "ppg": 176.8,
         "potential": 210.95,
-        "expected_bonus": 1.4212916666666666,
+        "expected_bonus": 1.42425,
         "events": [
           {
             "event": "Q1",
@@ -3758,15 +3758,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 22.0,
-            "projected_ap": 154.63175,
+            "projected_ap": 156.718875,
             "ap_games": 62,
             "rank": 23,
             "points": 353.6,
             "potential_points": 421.9,
             "p_loss": 0.7368333333333333,
-            "p_tie": 0.05975,
-            "p_win": 0.20341666666666666,
-            "credit": 0.23329166666666667,
+            "p_tie": 0.05383333333333333,
+            "p_win": 0.20933333333333334,
+            "credit": 0.23625000000000002,
             "completed": false
           }
         ]
@@ -3781,7 +3781,7 @@
         "allplay": "33-28-1",
         "ppg": 198.95,
         "potential": 241.4,
-        "expected_bonus": 2.6541249999999996,
+        "expected_bonus": 2.6562083333333333,
         "events": [
           {
             "event": "Q1",
@@ -3857,15 +3857,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 33.5,
-            "projected_ap": 189.752875,
+            "projected_ap": 189.62529166666667,
             "ap_games": 62,
             "rank": 16,
             "points": 397.9,
             "potential_points": 482.8,
-            "p_loss": 0.4205,
-            "p_tie": 0.07608333333333334,
-            "p_win": 0.5034166666666666,
-            "credit": 0.5414583333333333,
+            "p_loss": 0.419,
+            "p_tie": 0.07491666666666667,
+            "p_win": 0.5060833333333333,
+            "credit": 0.5435416666666667,
             "completed": false
           }
         ]
@@ -3880,7 +3880,7 @@
         "allplay": "1-60-1",
         "ppg": 120.7,
         "potential": 186.1,
-        "expected_bonus": 1.6134583333333334,
+        "expected_bonus": 1.6040833333333335,
         "events": [
           {
             "event": "Q1",
@@ -3956,15 +3956,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 1.5,
-            "projected_ap": 151.43708333333333,
+            "projected_ap": 151.904,
             "ap_games": 62,
             "rank": 32,
             "points": 241.4,
             "potential_points": 372.2,
-            "p_loss": 0.76175,
-            "p_tie": 0.05275,
-            "p_win": 0.1855,
-            "credit": 0.211875,
+            "p_loss": 0.7715833333333333,
+            "p_tie": 0.051833333333333335,
+            "p_win": 0.17658333333333334,
+            "credit": 0.2025,
             "completed": false
           }
         ]
@@ -3979,7 +3979,7 @@
         "allplay": "42-20-0",
         "ppg": 215.5,
         "potential": 239.39999999999998,
-        "expected_bonus": 2.496958333333333,
+        "expected_bonus": 2.506125,
         "events": [
           {
             "event": "Q1",
@@ -4055,15 +4055,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 42.0,
-            "projected_ap": 182.88970833333335,
+            "projected_ap": 184.26383333333334,
             "ap_games": 62,
             "rank": 6,
             "points": 431.0,
             "potential_points": 478.79999999999995,
-            "p_loss": 0.48966666666666664,
-            "p_tie": 0.076,
-            "p_win": 0.43433333333333335,
-            "credit": 0.4723333333333333,
+            "p_loss": 0.48075,
+            "p_tie": 0.0755,
+            "p_win": 0.44375,
+            "credit": 0.4815,
             "completed": false
           }
         ]
@@ -4078,7 +4078,7 @@
         "allplay": "39-23-0",
         "ppg": 209.4,
         "potential": 241.0,
-        "expected_bonus": 2.795,
+        "expected_bonus": 2.7969166666666667,
         "events": [
           {
             "event": "Q1",
@@ -4154,15 +4154,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 39.0,
-            "projected_ap": 192.835125,
+            "projected_ap": 192.92045833333333,
             "ap_games": 62,
             "rank": 10,
             "points": 418.8,
             "potential_points": 482.0,
-            "p_loss": 0.39275,
-            "p_tie": 0.076,
-            "p_win": 0.53125,
-            "credit": 0.56925,
+            "p_loss": 0.3928333333333333,
+            "p_tie": 0.072,
+            "p_win": 0.5351666666666667,
+            "credit": 0.5711666666666667,
             "completed": false
           }
         ]
@@ -4177,7 +4177,7 @@
         "allplay": "49-13-0",
         "ppg": 230.8,
         "potential": 307.0,
-        "expected_bonus": 4.070666666666667,
+        "expected_bonus": 4.067,
         "events": [
           {
             "event": "Q1",
@@ -4253,15 +4253,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 49.0,
-            "projected_ap": 238.584625,
+            "projected_ap": 235.36691666666667,
             "ap_games": 62,
             "rank": 3,
             "points": 461.6,
             "potential_points": 614.0,
-            "p_loss": 0.08841666666666667,
-            "p_tie": 0.03158333333333333,
-            "p_win": 0.88,
-            "credit": 0.8957916666666667,
+            "p_loss": 0.09041666666666667,
+            "p_tie": 0.034916666666666665,
+            "p_win": 0.8746666666666667,
+            "credit": 0.8921250000000001,
             "completed": false
           }
         ]
@@ -4276,7 +4276,7 @@
         "allplay": "33-28-1",
         "ppg": 201.9,
         "potential": 262.6,
-        "expected_bonus": 2.8348750000000003,
+        "expected_bonus": 2.8329166666666667,
         "events": [
           {
             "event": "Q1",
@@ -4352,15 +4352,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 33.5,
-            "projected_ap": 195.09933333333333,
+            "projected_ap": 194.37920833333334,
             "ap_games": 62,
             "rank": 15,
             "points": 403.8,
             "potential_points": 525.2,
-            "p_loss": 0.373,
-            "p_tie": 0.07008333333333333,
-            "p_win": 0.5569166666666666,
-            "credit": 0.5919583333333333,
+            "p_loss": 0.37133333333333335,
+            "p_tie": 0.07733333333333334,
+            "p_win": 0.5513333333333333,
+            "credit": 0.59,
             "completed": false
           }
         ]
@@ -4375,7 +4375,7 @@
         "allplay": "22-40-0",
         "ppg": 183.15,
         "potential": 220.0,
-        "expected_bonus": 2.130708333333333,
+        "expected_bonus": 2.1268333333333334,
         "events": [
           {
             "event": "Q1",
@@ -4451,15 +4451,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 22.0,
-            "projected_ap": 177.09620833333332,
+            "projected_ap": 177.09579166666666,
             "ap_games": 62,
             "rank": 22,
             "points": 366.3,
             "potential_points": 440.0,
-            "p_loss": 0.5405,
-            "p_tie": 0.07041666666666667,
-            "p_win": 0.38908333333333334,
-            "credit": 0.4242916666666667,
+            "p_loss": 0.54325,
+            "p_tie": 0.07266666666666667,
+            "p_win": 0.38408333333333333,
+            "credit": 0.42041666666666666,
             "completed": false
           }
         ]
@@ -4474,7 +4474,7 @@
         "allplay": "19-43-0",
         "ppg": 167.7,
         "potential": 213.55,
-        "expected_bonus": 1.1779583333333332,
+        "expected_bonus": 1.1840416666666667,
         "events": [
           {
             "event": "Q1",
@@ -4550,15 +4550,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 19.0,
-            "projected_ap": 145.85125,
+            "projected_ap": 148.48291666666665,
             "ap_games": 62,
             "rank": 27,
             "points": 335.4,
             "potential_points": 427.1,
-            "p_loss": 0.8045833333333333,
-            "p_tie": 0.04808333333333333,
-            "p_win": 0.14733333333333334,
-            "credit": 0.171375,
+            "p_loss": 0.7975,
+            "p_tie": 0.050083333333333334,
+            "p_win": 0.15241666666666667,
+            "credit": 0.17745833333333333,
             "completed": false
           }
         ]
@@ -4573,7 +4573,7 @@
         "allplay": "21-41-0",
         "ppg": 180.05,
         "potential": 239.10000000000002,
-        "expected_bonus": 1.9019166666666667,
+        "expected_bonus": 1.9010416666666665,
         "events": [
           {
             "event": "Q1",
@@ -4649,15 +4649,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 21.0,
-            "projected_ap": 170.544875,
+            "projected_ap": 171.10133333333334,
             "ap_games": 62,
             "rank": 24,
             "points": 360.1,
             "potential_points": 478.20000000000005,
-            "p_loss": 0.603,
-            "p_tie": 0.07183333333333333,
-            "p_win": 0.32516666666666666,
-            "credit": 0.3610833333333333,
+            "p_loss": 0.6035833333333334,
+            "p_tie": 0.07241666666666667,
+            "p_win": 0.324,
+            "credit": 0.36020833333333335,
             "completed": false
           }
         ]
@@ -4672,7 +4672,7 @@
         "allplay": "10-52-0",
         "ppg": 145.7,
         "potential": 199.5,
-        "expected_bonus": 1.1485,
+        "expected_bonus": 1.1523750000000001,
         "events": [
           {
             "event": "Q1",
@@ -4748,15 +4748,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 10.0,
-            "projected_ap": 140.49320833333334,
+            "projected_ap": 142.80379166666665,
             "ap_games": 62,
             "rank": 29,
             "points": 291.4,
             "potential_points": 399.0,
-            "p_loss": 0.8416666666666667,
-            "p_tie": 0.041666666666666664,
-            "p_win": 0.11666666666666667,
-            "credit": 0.1375,
+            "p_loss": 0.8375,
+            "p_tie": 0.04225,
+            "p_win": 0.12025,
+            "credit": 0.141375,
             "completed": false
           }
         ]
@@ -4771,7 +4771,7 @@
         "allplay": "38-24-0",
         "ppg": 210.0,
         "potential": 272.95,
-        "expected_bonus": 2.678166666666667,
+        "expected_bonus": 2.681625,
         "events": [
           {
             "event": "Q1",
@@ -4847,15 +4847,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 38.0,
-            "projected_ap": 189.5255,
+            "projected_ap": 189.84770833333334,
             "ap_games": 62,
             "rank": 12,
             "points": 420.0,
             "potential_points": 545.9,
-            "p_loss": 0.42733333333333334,
-            "p_tie": 0.072,
-            "p_win": 0.5006666666666667,
-            "credit": 0.5366666666666667,
+            "p_loss": 0.4245833333333333,
+            "p_tie": 0.07058333333333333,
+            "p_win": 0.5048333333333334,
+            "credit": 0.540125,
             "completed": false
           }
         ]
@@ -4870,7 +4870,7 @@
         "allplay": "57-5-0",
         "ppg": 248.85,
         "potential": 265.55,
-        "expected_bonus": 3.2123749999999998,
+        "expected_bonus": 3.2202083333333333,
         "events": [
           {
             "event": "Q1",
@@ -4946,15 +4946,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 57.0,
-            "projected_ap": 211.13441666666668,
+            "projected_ap": 211.19875,
             "ap_games": 62,
             "rank": 2,
             "points": 497.7,
             "potential_points": 531.1,
-            "p_loss": 0.24033333333333334,
-            "p_tie": 0.06366666666666666,
-            "p_win": 0.696,
-            "credit": 0.7278333333333333,
+            "p_loss": 0.23333333333333334,
+            "p_tie": 0.062,
+            "p_win": 0.7046666666666667,
+            "credit": 0.7356666666666667,
             "completed": false
           }
         ]
@@ -4969,7 +4969,7 @@
         "allplay": "19-42-1",
         "ppg": 174.8,
         "potential": 209.5,
-        "expected_bonus": 0.9419166666666667,
+        "expected_bonus": 0.95,
         "events": [
           {
             "event": "Q1",
@@ -5045,15 +5045,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 19.5,
-            "projected_ap": 136.855125,
+            "projected_ap": 140.35008333333334,
             "ap_games": 62,
             "rank": 26,
             "points": 349.6,
             "potential_points": 419.0,
-            "p_loss": 0.8675833333333334,
-            "p_tie": 0.034166666666666665,
-            "p_win": 0.09825,
-            "credit": 0.11533333333333334,
+            "p_loss": 0.8575833333333334,
+            "p_tie": 0.038,
+            "p_win": 0.10441666666666667,
+            "credit": 0.12341666666666667,
             "completed": false
           }
         ]
@@ -5068,7 +5068,7 @@
         "allplay": "29-33-0",
         "ppg": 192.75,
         "potential": 253.8,
-        "expected_bonus": 2.6696666666666666,
+        "expected_bonus": 2.6645416666666666,
         "events": [
           {
             "event": "Q1",
@@ -5144,15 +5144,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 29.0,
-            "projected_ap": 191.15,
+            "projected_ap": 190.46441666666666,
             "ap_games": 62,
             "rank": 19,
             "points": 385.5,
             "potential_points": 507.6,
-            "p_loss": 0.40458333333333335,
-            "p_tie": 0.0755,
-            "p_win": 0.5199166666666667,
-            "credit": 0.5576666666666666,
+            "p_loss": 0.409,
+            "p_tie": 0.07691666666666666,
+            "p_win": 0.5140833333333333,
+            "credit": 0.5525416666666667,
             "completed": false
           }
         ]
@@ -5167,7 +5167,7 @@
         "allplay": "26-35-1",
         "ppg": 191.4,
         "potential": 228.25,
-        "expected_bonus": 2.22025,
+        "expected_bonus": 2.2169583333333334,
         "events": [
           {
             "event": "Q1",
@@ -5243,15 +5243,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 26.5,
-            "projected_ap": 178.761125,
+            "projected_ap": 178.98770833333333,
             "ap_games": 62,
             "rank": 21,
             "points": 382.8,
             "potential_points": 456.5,
-            "p_loss": 0.5245833333333333,
-            "p_tie": 0.07333333333333333,
-            "p_win": 0.40208333333333335,
-            "credit": 0.43875000000000003,
+            "p_loss": 0.5265,
+            "p_tie": 0.07608333333333334,
+            "p_win": 0.39741666666666664,
+            "credit": 0.4354583333333333,
             "completed": false
           }
         ]
@@ -5266,7 +5266,7 @@
         "allplay": "8-53-1",
         "ppg": 149.65,
         "potential": 197.35,
-        "expected_bonus": 1.5667499999999999,
+        "expected_bonus": 1.5601249999999998,
         "events": [
           {
             "event": "Q1",
@@ -5342,15 +5342,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 8.5,
-            "projected_ap": 154.96858333333333,
+            "projected_ap": 155.80529166666668,
             "ap_games": 62,
             "rank": 30,
             "points": 299.3,
             "potential_points": 394.7,
-            "p_loss": 0.7315,
-            "p_tie": 0.060583333333333336,
-            "p_win": 0.20791666666666667,
-            "credit": 0.23820833333333333,
+            "p_loss": 0.7395,
+            "p_tie": 0.057833333333333334,
+            "p_win": 0.20266666666666666,
+            "credit": 0.23158333333333334,
             "completed": false
           }
         ]
@@ -5365,7 +5365,7 @@
         "allplay": "39-23-0",
         "ppg": 208.8,
         "potential": 253.15,
-        "expected_bonus": 3.682583333333333,
+        "expected_bonus": 3.6761666666666666,
         "events": [
           {
             "event": "Q1",
@@ -5441,15 +5441,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 39.0,
-            "projected_ap": 220.91616666666667,
+            "projected_ap": 218.37329166666666,
             "ap_games": 62,
             "rank": 11,
             "points": 417.6,
             "potential_points": 506.3,
-            "p_loss": 0.16858333333333334,
-            "p_tie": 0.050916666666666666,
-            "p_win": 0.7805,
-            "credit": 0.8059583333333333,
+            "p_loss": 0.17616666666666667,
+            "p_tie": 0.04858333333333333,
+            "p_win": 0.77525,
+            "credit": 0.7995416666666667,
             "completed": false
           }
         ]
@@ -5464,7 +5464,7 @@
         "allplay": "8-54-0",
         "ppg": 150.0,
         "potential": 215.64999999999998,
-        "expected_bonus": 1.364375,
+        "expected_bonus": 1.3640416666666666,
         "events": [
           {
             "event": "Q1",
@@ -5540,15 +5540,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 8.0,
-            "projected_ap": 147.52733333333333,
+            "projected_ap": 148.96416666666667,
             "ap_games": 62,
             "rank": 31,
             "points": 300.0,
             "potential_points": 431.29999999999995,
-            "p_loss": 0.79425,
-            "p_tie": 0.050083333333333334,
-            "p_win": 0.15566666666666668,
-            "credit": 0.18070833333333333,
+            "p_loss": 0.7965,
+            "p_tie": 0.04625,
+            "p_win": 0.15725,
+            "credit": 0.180375,
             "completed": false
           }
         ]
@@ -5563,7 +5563,7 @@
         "allplay": "41-21-0",
         "ppg": 216.85000000000002,
         "potential": 254.25,
-        "expected_bonus": 2.6702083333333335,
+        "expected_bonus": 2.6810416666666668,
         "events": [
           {
             "event": "Q1",
@@ -5639,15 +5639,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 41.0,
-            "projected_ap": 188.489125,
+            "projected_ap": 189.172875,
             "ap_games": 62,
             "rank": 8,
             "points": 433.70000000000005,
             "potential_points": 508.5,
-            "p_loss": 0.44025,
-            "p_tie": 0.07291666666666667,
-            "p_win": 0.48683333333333334,
-            "credit": 0.5232916666666667,
+            "p_loss": 0.42733333333333334,
+            "p_tie": 0.07708333333333334,
+            "p_win": 0.4955833333333333,
+            "credit": 0.534125,
             "completed": false
           }
         ]
@@ -5662,7 +5662,7 @@
         "allplay": "42-20-0",
         "ppg": 215.1,
         "potential": 252.55,
-        "expected_bonus": 3.158125,
+        "expected_bonus": 3.1602499999999996,
         "events": [
           {
             "event": "Q1",
@@ -5738,15 +5738,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 42.0,
-            "projected_ap": 203.315,
+            "projected_ap": 202.67570833333335,
             "ap_games": 62,
             "rank": 7,
             "points": 430.2,
             "potential_points": 505.1,
-            "p_loss": 0.30083333333333334,
-            "p_tie": 0.07091666666666667,
-            "p_win": 0.62825,
-            "credit": 0.6637083333333333,
+            "p_loss": 0.30175,
+            "p_tie": 0.06483333333333334,
+            "p_win": 0.6334166666666666,
+            "credit": 0.6658333333333333,
             "completed": false
           }
         ]
@@ -5761,7 +5761,7 @@
         "allplay": "46-16-0",
         "ppg": 248.60000000000002,
         "potential": 308.95,
-        "expected_bonus": 3.965583333333334,
+        "expected_bonus": 3.9605000000000006,
         "events": [
           {
             "event": "Q1",
@@ -5837,15 +5837,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 46.0,
-            "projected_ap": 231.91941666666668,
+            "projected_ap": 229.012625,
             "ap_games": 62,
             "rank": 4,
             "points": 497.20000000000005,
             "potential_points": 617.9,
-            "p_loss": 0.11033333333333334,
-            "p_tie": 0.0385,
-            "p_win": 0.8511666666666666,
-            "credit": 0.8704166666666666,
+            "p_loss": 0.11441666666666667,
+            "p_tie": 0.0405,
+            "p_win": 0.8450833333333333,
+            "credit": 0.8653333333333333,
             "completed": false
           }
         ]
@@ -5860,7 +5860,7 @@
         "allplay": "18-44-0",
         "ppg": 165.9,
         "potential": 213.2,
-        "expected_bonus": 2.399541666666667,
+        "expected_bonus": 2.3845833333333335,
         "events": [
           {
             "event": "Q1",
@@ -5936,15 +5936,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 18.0,
-            "projected_ap": 186.4645,
+            "projected_ap": 185.149625,
             "ap_games": 62,
             "rank": 28,
             "points": 331.8,
             "potential_points": 426.4,
-            "p_loss": 0.44,
-            "p_tie": 0.08458333333333333,
-            "p_win": 0.47541666666666665,
-            "credit": 0.5177083333333333,
+            "p_loss": 0.4563333333333333,
+            "p_tie": 0.08183333333333333,
+            "p_win": 0.4618333333333333,
+            "credit": 0.50275,
             "completed": false
           }
         ]
@@ -5959,7 +5959,7 @@
         "allplay": "37-24-1",
         "ppg": 211.3,
         "potential": 255.39999999999998,
-        "expected_bonus": 2.0005833333333336,
+        "expected_bonus": 2.0127916666666668,
         "events": [
           {
             "event": "Q1",
@@ -6035,15 +6035,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 37.5,
-            "projected_ap": 169.519375,
+            "projected_ap": 171.625125,
             "ap_games": 62,
             "rank": 13,
             "points": 422.6,
             "potential_points": 510.79999999999995,
-            "p_loss": 0.6155,
-            "p_tie": 0.07375,
-            "p_win": 0.31075,
-            "credit": 0.347625,
+            "p_loss": 0.6030833333333333,
+            "p_tie": 0.07416666666666667,
+            "p_win": 0.32275,
+            "credit": 0.35983333333333334,
             "completed": false
           }
         ]
@@ -6058,7 +6058,7 @@
         "allplay": "20-42-0",
         "ppg": 171.2,
         "potential": 213.6,
-        "expected_bonus": 2.088875,
+        "expected_bonus": 2.079833333333333,
         "events": [
           {
             "event": "Q1",
@@ -6134,15 +6134,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 20.0,
-            "projected_ap": 176.370625,
+            "projected_ap": 176.22383333333335,
             "ap_games": 62,
             "rank": 25,
             "points": 342.4,
             "potential_points": 427.2,
-            "p_loss": 0.5451666666666667,
-            "p_tie": 0.073,
-            "p_win": 0.38183333333333336,
-            "credit": 0.41833333333333333,
+            "p_loss": 0.5540833333333334,
+            "p_tie": 0.07325,
+            "p_win": 0.37266666666666665,
+            "credit": 0.40929166666666666,
             "completed": false
           }
         ]
@@ -6157,7 +6157,7 @@
         "allplay": "39-23-0",
         "ppg": 219.4,
         "potential": 237.75,
-        "expected_bonus": 2.652833333333333,
+        "expected_bonus": 2.6567499999999997,
         "events": [
           {
             "event": "Q1",
@@ -6233,15 +6233,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 39.0,
-            "projected_ap": 188.56145833333332,
+            "projected_ap": 189.07370833333334,
             "ap_games": 62,
             "rank": 9,
             "points": 438.8,
             "potential_points": 475.5,
-            "p_loss": 0.4345,
-            "p_tie": 0.075,
-            "p_win": 0.4905,
-            "credit": 0.528,
+            "p_loss": 0.42916666666666664,
+            "p_tie": 0.07783333333333334,
+            "p_win": 0.493,
+            "credit": 0.5319166666666667,
             "completed": false
           }
         ]
@@ -6256,7 +6256,7 @@
         "allplay": "29-33-0",
         "ppg": 192.25,
         "potential": 278.3,
-        "expected_bonus": 2.1745833333333335,
+        "expected_bonus": 2.1762916666666667,
         "events": [
           {
             "event": "Q1",
@@ -6332,15 +6332,15 @@
             "end": 12,
             "elapsed": 2,
             "ap": 29.0,
-            "projected_ap": 177.09766666666667,
+            "projected_ap": 177.78929166666666,
             "ap_games": 62,
             "rank": 20,
             "points": 384.5,
             "potential_points": 556.6,
-            "p_loss": 0.5430833333333334,
-            "p_tie": 0.07616666666666666,
-            "p_win": 0.38075,
-            "credit": 0.4188333333333333,
+            "p_loss": 0.5425,
+            "p_tie": 0.07391666666666667,
+            "p_win": 0.38358333333333333,
+            "credit": 0.42054166666666665,
             "completed": false
           }
         ]
@@ -6357,7 +6357,7 @@
         "allplay": "73-20-0",
         "ppg": 237.26666666666665,
         "potential": 284.2333333333333,
-        "expected_bonus": 3.363458333333333,
+        "expected_bonus": 3.370875,
         "events": [
           {
             "event": "Q1",
@@ -6433,15 +6433,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 73.0,
-            "projected_ap": 215.679625,
+            "projected_ap": 215.37270833333332,
             "ap_games": 93,
             "rank": 4,
             "points": 711.8,
             "potential_points": 852.6999999999999,
-            "p_loss": 0.18558333333333332,
-            "p_tie": 0.0605,
-            "p_win": 0.7539166666666667,
-            "credit": 0.7841666666666667,
+            "p_loss": 0.17833333333333334,
+            "p_tie": 0.06016666666666667,
+            "p_win": 0.7615,
+            "credit": 0.7915833333333333,
             "completed": false
           }
         ]
@@ -6456,7 +6456,7 @@
         "allplay": "54-39-0",
         "ppg": 210.6,
         "potential": 253.83333333333334,
-        "expected_bonus": 3.0797083333333335,
+        "expected_bonus": 3.0826666666666664,
         "events": [
           {
             "event": "Q1",
@@ -6532,15 +6532,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 54.0,
-            "projected_ap": 193.171125,
+            "projected_ap": 193.18,
             "ap_games": 93,
             "rank": 11,
             "points": 631.8,
             "potential_points": 761.5,
-            "p_loss": 0.37933333333333336,
-            "p_tie": 0.08175,
-            "p_win": 0.5389166666666667,
-            "credit": 0.5797916666666667,
+            "p_loss": 0.378,
+            "p_tie": 0.0785,
+            "p_win": 0.5435,
+            "credit": 0.58275,
             "completed": false
           }
         ]
@@ -6555,7 +6555,7 @@
         "allplay": "55-37-1",
         "ppg": 208.96666666666667,
         "potential": 270.5333333333333,
-        "expected_bonus": 4.377291666666666,
+        "expected_bonus": 4.370291666666667,
         "events": [
           {
             "event": "Q1",
@@ -6631,15 +6631,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 55.5,
-            "projected_ap": 239.95454166666667,
+            "projected_ap": 235.88879166666666,
             "ap_games": 93,
             "rank": 10,
             "points": 626.9,
             "potential_points": 811.5999999999999,
-            "p_loss": 0.05316666666666667,
-            "p_tie": 0.027583333333333335,
-            "p_win": 0.91925,
-            "credit": 0.9330416666666667,
+            "p_loss": 0.05925,
+            "p_tie": 0.029416666666666667,
+            "p_win": 0.9113333333333333,
+            "credit": 0.9260416666666667,
             "completed": false
           }
         ]
@@ -6654,7 +6654,7 @@
         "allplay": "63-30-0",
         "ppg": 221.5666666666667,
         "potential": 258.09999999999997,
-        "expected_bonus": 3.9613750000000003,
+        "expected_bonus": 3.9567500000000004,
         "events": [
           {
             "event": "Q1",
@@ -6730,15 +6730,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 63.0,
-            "projected_ap": 228.89908333333332,
+            "projected_ap": 226.38041666666666,
             "ap_games": 93,
             "rank": 6,
             "points": 664.7,
             "potential_points": 774.3,
-            "p_loss": 0.10483333333333333,
-            "p_tie": 0.04675,
-            "p_win": 0.8484166666666667,
-            "credit": 0.8717916666666667,
+            "p_loss": 0.1105,
+            "p_tie": 0.04466666666666667,
+            "p_win": 0.8448333333333333,
+            "credit": 0.8671666666666666,
             "completed": false
           }
         ]
@@ -6753,7 +6753,7 @@
         "allplay": "61-32-0",
         "ppg": 224.5,
         "potential": 278.6666666666667,
-        "expected_bonus": 3.81625,
+        "expected_bonus": 3.811125,
         "events": [
           {
             "event": "Q1",
@@ -6829,15 +6829,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 61.0,
-            "projected_ap": 221.671,
+            "projected_ap": 219.57579166666667,
             "ap_games": 93,
             "rank": 7,
             "points": 673.5,
             "potential_points": 836.0,
-            "p_loss": 0.141,
-            "p_tie": 0.04833333333333333,
-            "p_win": 0.8106666666666666,
-            "credit": 0.8348333333333333,
+            "p_loss": 0.14433333333333334,
+            "p_tie": 0.051916666666666667,
+            "p_win": 0.80375,
+            "credit": 0.8297083333333333,
             "completed": false
           }
         ]
@@ -6852,7 +6852,7 @@
         "allplay": "29-64-0",
         "ppg": 173.9333333333333,
         "potential": 217.9,
-        "expected_bonus": 1.11025,
+        "expected_bonus": 1.1104583333333333,
         "events": [
           {
             "event": "Q1",
@@ -6928,15 +6928,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 29.0,
-            "projected_ap": 145.22183333333334,
+            "projected_ap": 147.44816666666668,
             "ap_games": 93,
             "rank": 25,
             "points": 521.8,
             "potential_points": 653.7,
-            "p_loss": 0.836,
-            "p_tie": 0.04758333333333333,
-            "p_win": 0.11641666666666667,
-            "credit": 0.14020833333333332,
+            "p_loss": 0.8359166666666666,
+            "p_tie": 0.04733333333333333,
+            "p_win": 0.11675,
+            "credit": 0.14041666666666666,
             "completed": false
           }
         ]
@@ -6951,7 +6951,7 @@
         "allplay": "52-40-1",
         "ppg": 202.4333333333333,
         "potential": 235.53333333333333,
-        "expected_bonus": 3.0142083333333334,
+        "expected_bonus": 3.0185416666666667,
         "events": [
           {
             "event": "Q1",
@@ -7027,15 +7027,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 52.5,
-            "projected_ap": 190.31475,
+            "projected_ap": 190.46191666666667,
             "ap_games": 93,
             "rank": 14,
             "points": 607.3,
             "potential_points": 706.6,
-            "p_loss": 0.41025,
-            "p_tie": 0.08358333333333333,
-            "p_win": 0.5061666666666667,
-            "credit": 0.5479583333333333,
+            "p_loss": 0.4058333333333333,
+            "p_tie": 0.08375,
+            "p_win": 0.5104166666666666,
+            "credit": 0.5522916666666666,
             "completed": false
           }
         ]
@@ -7050,7 +7050,7 @@
         "allplay": "2-90-1",
         "ppg": 126.36666666666667,
         "potential": 187.5666666666667,
-        "expected_bonus": 1.2365833333333334,
+        "expected_bonus": 1.2306666666666666,
         "events": [
           {
             "event": "Q1",
@@ -7126,15 +7126,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 2.5,
-            "projected_ap": 127.40783333333333,
+            "projected_ap": 128.77566666666667,
             "ap_games": 93,
             "rank": 32,
             "points": 379.1,
             "potential_points": 562.7,
-            "p_loss": 0.9188333333333333,
-            "p_tie": 0.027833333333333335,
-            "p_win": 0.05333333333333334,
-            "credit": 0.06725,
+            "p_loss": 0.92575,
+            "p_tie": 0.025833333333333333,
+            "p_win": 0.04841666666666666,
+            "credit": 0.06133333333333333,
             "completed": false
           }
         ]
@@ -7149,7 +7149,7 @@
         "allplay": "54-39-0",
         "ppg": 205.6,
         "potential": 232.76666666666665,
-        "expected_bonus": 2.436125,
+        "expected_bonus": 2.4487916666666667,
         "events": [
           {
             "event": "Q1",
@@ -7225,15 +7225,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 54.0,
-            "projected_ap": 174.167375,
+            "projected_ap": 176.00129166666667,
             "ap_games": 93,
             "rank": 13,
             "points": 616.8,
             "potential_points": 698.3,
-            "p_loss": 0.5884166666666667,
-            "p_tie": 0.08083333333333333,
-            "p_win": 0.33075,
-            "credit": 0.37116666666666664,
+            "p_loss": 0.5746666666666667,
+            "p_tie": 0.083,
+            "p_win": 0.3423333333333333,
+            "credit": 0.3838333333333333,
             "completed": false
           }
         ]
@@ -7248,7 +7248,7 @@
         "allplay": "52-41-0",
         "ppg": 201.83333333333334,
         "potential": 238.73333333333335,
-        "expected_bonus": 2.9469166666666666,
+        "expected_bonus": 2.949625,
         "events": [
           {
             "event": "Q1",
@@ -7324,15 +7324,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 52.0,
-            "projected_ap": 187.96808333333334,
+            "projected_ap": 188.31116666666668,
             "ap_games": 93,
             "rank": 15,
             "points": 605.5,
             "potential_points": 716.2,
-            "p_loss": 0.43216666666666664,
-            "p_tie": 0.08583333333333333,
-            "p_win": 0.482,
-            "credit": 0.5249166666666667,
+            "p_loss": 0.43041666666666667,
+            "p_tie": 0.08391666666666667,
+            "p_win": 0.4856666666666667,
+            "credit": 0.527625,
             "completed": false
           }
         ]
@@ -7347,7 +7347,7 @@
         "allplay": "75-18-0",
         "ppg": 232.63333333333335,
         "potential": 304.3,
-        "expected_bonus": 4.244166666666667,
+        "expected_bonus": 4.241125,
         "events": [
           {
             "event": "Q1",
@@ -7423,15 +7423,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 75.0,
-            "projected_ap": 250.58816666666667,
+            "projected_ap": 247.288875,
             "ap_games": 93,
             "rank": 2,
             "points": 697.9000000000001,
             "potential_points": 912.9,
-            "p_loss": 0.030916666666666665,
-            "p_tie": 0.019,
-            "p_win": 0.9500833333333333,
-            "credit": 0.9595833333333332,
+            "p_loss": 0.033,
+            "p_tie": 0.020916666666666667,
+            "p_win": 0.9460833333333334,
+            "credit": 0.9565416666666667,
             "completed": false
           }
         ]
@@ -7446,7 +7446,7 @@
         "allplay": "36-56-1",
         "ppg": 183.0666666666667,
         "potential": 246.30000000000004,
-        "expected_bonus": 1.8509583333333333,
+        "expected_bonus": 1.8484166666666666,
         "events": [
           {
             "event": "Q1",
@@ -7522,15 +7522,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 36.5,
-            "projected_ap": 174.32341666666667,
+            "projected_ap": 174.49691666666666,
             "ap_games": 93,
             "rank": 23,
             "points": 549.2,
             "potential_points": 738.9000000000001,
-            "p_loss": 0.5745,
-            "p_tie": 0.08158333333333333,
-            "p_win": 0.34391666666666665,
-            "credit": 0.3847083333333333,
+            "p_loss": 0.5780833333333333,
+            "p_tie": 0.0795,
+            "p_win": 0.34241666666666665,
+            "credit": 0.38216666666666665,
             "completed": false
           }
         ]
@@ -7545,7 +7545,7 @@
         "allplay": "43-50-0",
         "ppg": 196.16666666666666,
         "potential": 228.76666666666665,
-        "expected_bonus": 2.05525,
+        "expected_bonus": 2.0518333333333336,
         "events": [
           {
             "event": "Q1",
@@ -7621,15 +7621,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 43.0,
-            "projected_ap": 184.98108333333334,
+            "projected_ap": 184.78404166666667,
             "ap_games": 93,
             "rank": 19,
             "points": 588.5,
             "potential_points": 686.3,
-            "p_loss": 0.4595,
-            "p_tie": 0.08341666666666667,
-            "p_win": 0.45708333333333334,
-            "credit": 0.4987916666666667,
+            "p_loss": 0.463,
+            "p_tie": 0.08325,
+            "p_win": 0.45375,
+            "credit": 0.495375,
             "completed": false
           }
         ]
@@ -7644,7 +7644,7 @@
         "allplay": "19-74-0",
         "ppg": 157.56666666666666,
         "potential": 206.0,
-        "expected_bonus": 0.8496666666666667,
+        "expected_bonus": 0.8527916666666667,
         "events": [
           {
             "event": "Q1",
@@ -7720,15 +7720,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 19.0,
-            "projected_ap": 126.314,
+            "projected_ap": 129.33408333333333,
             "ap_games": 93,
             "rank": 30,
             "points": 472.7,
             "potential_points": 618.0,
-            "p_loss": 0.9301666666666667,
-            "p_tie": 0.024833333333333332,
-            "p_win": 0.045,
-            "credit": 0.057416666666666664,
+            "p_loss": 0.9269166666666667,
+            "p_tie": 0.025083333333333332,
+            "p_win": 0.048,
+            "credit": 0.06054166666666667,
             "completed": false
           }
         ]
@@ -7743,7 +7743,7 @@
         "allplay": "43-50-0",
         "ppg": 194.20000000000002,
         "potential": 253.53333333333333,
-        "expected_bonus": 2.0435,
+        "expected_bonus": 2.0400416666666663,
         "events": [
           {
             "event": "Q1",
@@ -7819,15 +7819,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 43.0,
-            "projected_ap": 184.48779166666668,
+            "projected_ap": 184.298375,
             "ap_games": 93,
             "rank": 20,
             "points": 582.6,
             "potential_points": 760.6,
-            "p_loss": 0.4666666666666667,
-            "p_tie": 0.08375,
-            "p_win": 0.44958333333333333,
-            "credit": 0.49145833333333333,
+            "p_loss": 0.47008333333333335,
+            "p_tie": 0.08383333333333333,
+            "p_win": 0.44608333333333333,
+            "credit": 0.488,
             "completed": false
           }
         ]
@@ -7842,7 +7842,7 @@
         "allplay": "33-60-0",
         "ppg": 171.4,
         "potential": 222.4,
-        "expected_bonus": 1.4156666666666666,
+        "expected_bonus": 1.41775,
         "events": [
           {
             "event": "Q1",
@@ -7918,15 +7918,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 33.0,
-            "projected_ap": 158.45875,
+            "projected_ap": 159.8055,
             "ap_games": 93,
             "rank": 24,
             "points": 514.2,
             "potential_points": 667.2,
-            "p_loss": 0.7326666666666667,
-            "p_tie": 0.06325,
-            "p_win": 0.20408333333333334,
-            "credit": 0.23570833333333335,
+            "p_loss": 0.7301666666666666,
+            "p_tie": 0.06408333333333334,
+            "p_win": 0.20575,
+            "credit": 0.23779166666666665,
             "completed": false
           }
         ]
@@ -7941,7 +7941,7 @@
         "allplay": "48-45-0",
         "ppg": 201.26666666666665,
         "potential": 261.6666666666667,
-        "expected_bonus": 2.373375,
+        "expected_bonus": 2.373333333333333,
         "events": [
           {
             "event": "Q1",
@@ -8017,15 +8017,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 48.0,
-            "projected_ap": 183.20791666666668,
+            "projected_ap": 183.56566666666666,
             "ap_games": 93,
             "rank": 16,
             "points": 603.8,
             "potential_points": 785.0,
-            "p_loss": 0.48183333333333334,
-            "p_tie": 0.08758333333333333,
-            "p_win": 0.4305833333333333,
-            "credit": 0.474375,
+            "p_loss": 0.48241666666666666,
+            "p_tie": 0.0865,
+            "p_win": 0.4310833333333333,
+            "credit": 0.47433333333333333,
             "completed": false
           }
         ]
@@ -8040,7 +8040,7 @@
         "allplay": "87-6-0",
         "ppg": 257.46666666666664,
         "potential": 280.59999999999997,
-        "expected_bonus": 3.66925,
+        "expected_bonus": 3.6726249999999996,
         "events": [
           {
             "event": "Q1",
@@ -8116,15 +8116,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 87.0,
-            "projected_ap": 237.335125,
+            "projected_ap": 236.20125,
             "ap_games": 93,
             "rank": 1,
             "points": 772.4,
             "potential_points": 841.8,
-            "p_loss": 0.07066666666666667,
-            "p_tie": 0.034166666666666665,
-            "p_win": 0.8951666666666667,
-            "credit": 0.91225,
+            "p_loss": 0.06816666666666667,
+            "p_tie": 0.03241666666666667,
+            "p_win": 0.8994166666666666,
+            "credit": 0.915625,
             "completed": false
           }
         ]
@@ -8139,7 +8139,7 @@
         "allplay": "28-64-1",
         "ppg": 175.0666666666667,
         "potential": 211.5666666666667,
-        "expected_bonus": 0.8066666666666666,
+        "expected_bonus": 0.8105,
         "events": [
           {
             "event": "Q1",
@@ -8215,15 +8215,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 28.5,
-            "projected_ap": 132.225,
+            "projected_ap": 135.52733333333333,
             "ap_games": 93,
             "rank": 26,
             "points": 525.2,
             "potential_points": 634.7,
-            "p_loss": 0.9071666666666667,
-            "p_tie": 0.030083333333333333,
-            "p_win": 0.06275,
-            "credit": 0.07779166666666666,
+            "p_loss": 0.9025833333333333,
+            "p_tie": 0.03158333333333333,
+            "p_win": 0.06583333333333333,
+            "credit": 0.08162499999999999,
             "completed": false
           }
         ]
@@ -8238,7 +8238,7 @@
         "allplay": "54-39-0",
         "ppg": 207.0666666666667,
         "potential": 256.4666666666667,
-        "expected_bonus": 3.3519166666666664,
+        "expected_bonus": 3.352333333333333,
         "events": [
           {
             "event": "Q1",
@@ -8314,15 +8314,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 54.0,
-            "projected_ap": 201.46791666666667,
+            "projected_ap": 200.700125,
             "ap_games": 93,
             "rank": 12,
             "points": 621.2,
             "potential_points": 769.4000000000001,
-            "p_loss": 0.29941666666666666,
-            "p_tie": 0.07616666666666666,
-            "p_win": 0.6244166666666666,
-            "credit": 0.6625,
+            "p_loss": 0.3001666666666667,
+            "p_tie": 0.07383333333333333,
+            "p_win": 0.626,
+            "credit": 0.6629166666666667,
             "completed": false
           }
         ]
@@ -8337,7 +8337,7 @@
         "allplay": "42-50-1",
         "ppg": 195.66666666666666,
         "potential": 238.9,
-        "expected_bonus": 1.9912083333333335,
+        "expected_bonus": 1.9874583333333335,
         "events": [
           {
             "event": "Q1",
@@ -8413,15 +8413,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 42.5,
-            "projected_ap": 182.81158333333335,
+            "projected_ap": 182.720125,
             "ap_games": 93,
             "rank": 22,
             "points": 587.0,
             "potential_points": 716.7,
-            "p_loss": 0.48483333333333334,
-            "p_tie": 0.0865,
-            "p_win": 0.42866666666666664,
-            "credit": 0.47191666666666665,
+            "p_loss": 0.49,
+            "p_tie": 0.08366666666666667,
+            "p_win": 0.42633333333333334,
+            "credit": 0.4681666666666667,
             "completed": false
           }
         ]
@@ -8436,7 +8436,7 @@
         "allplay": "13-79-1",
         "ppg": 154.9,
         "potential": 210.6,
-        "expected_bonus": 1.5142499999999999,
+        "expected_bonus": 1.5057083333333332,
         "events": [
           {
             "event": "Q1",
@@ -8512,15 +8512,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 13.5,
-            "projected_ap": 146.65804166666666,
+            "projected_ap": 147.24966666666666,
             "ap_games": 93,
             "rank": 31,
             "points": 464.70000000000005,
             "potential_points": 631.8,
-            "p_loss": 0.8195833333333333,
-            "p_tie": 0.0485,
-            "p_win": 0.13191666666666665,
-            "credit": 0.15616666666666665,
+            "p_loss": 0.8279166666666666,
+            "p_tie": 0.048916666666666664,
+            "p_win": 0.12316666666666666,
+            "credit": 0.147625,
             "completed": false
           }
         ]
@@ -8535,7 +8535,7 @@
         "allplay": "43-50-0",
         "ppg": 193.13333333333335,
         "potential": 234.26666666666665,
-        "expected_bonus": 2.311375,
+        "expected_bonus": 2.302625,
         "events": [
           {
             "event": "Q1",
@@ -8611,15 +8611,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 43.0,
-            "projected_ap": 192.70970833333334,
+            "projected_ap": 191.71691666666666,
             "ap_games": 93,
             "rank": 21,
             "points": 579.4000000000001,
             "potential_points": 702.8,
-            "p_loss": 0.3814166666666667,
-            "p_tie": 0.08116666666666666,
-            "p_win": 0.5374166666666667,
-            "credit": 0.578,
+            "p_loss": 0.3913333333333333,
+            "p_tie": 0.07883333333333334,
+            "p_win": 0.5298333333333334,
+            "credit": 0.56925,
             "completed": false
           }
         ]
@@ -8634,7 +8634,7 @@
         "allplay": "26-67-0",
         "ppg": 169.4,
         "potential": 223.89999999999998,
-        "expected_bonus": 1.3838333333333335,
+        "expected_bonus": 1.3809166666666668,
         "events": [
           {
             "event": "Q1",
@@ -8710,15 +8710,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 26.0,
-            "projected_ap": 152.065,
+            "projected_ap": 153.400375,
             "ap_games": 93,
             "rank": 28,
             "points": 508.2,
             "potential_points": 671.6999999999999,
-            "p_loss": 0.7853333333333333,
-            "p_tie": 0.05458333333333333,
-            "p_win": 0.16008333333333333,
-            "credit": 0.18737499999999999,
+            "p_loss": 0.7866666666666666,
+            "p_tie": 0.05775,
+            "p_win": 0.15558333333333332,
+            "credit": 0.18445833333333334,
             "completed": false
           }
         ]
@@ -8733,7 +8733,7 @@
         "allplay": "61-32-0",
         "ppg": 216.93333333333337,
         "potential": 262.26666666666665,
-        "expected_bonus": 3.147875,
+        "expected_bonus": 3.1585,
         "events": [
           {
             "event": "Q1",
@@ -8809,15 +8809,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 61.0,
-            "projected_ap": 200.38458333333332,
+            "projected_ap": 200.425625,
             "ap_games": 93,
             "rank": 8,
             "points": 650.8000000000001,
             "potential_points": 786.8,
-            "p_loss": 0.31383333333333335,
-            "p_tie": 0.0785,
-            "p_win": 0.6076666666666667,
-            "credit": 0.6469166666666667,
+            "p_loss": 0.30266666666666664,
+            "p_tie": 0.07958333333333334,
+            "p_win": 0.61775,
+            "credit": 0.6575416666666667,
             "completed": false
           }
         ]
@@ -8832,7 +8832,7 @@
         "allplay": "59-34-0",
         "ppg": 212.13333333333333,
         "potential": 244.9333333333333,
-        "expected_bonus": 3.12175,
+        "expected_bonus": 3.1256666666666666,
         "events": [
           {
             "event": "Q1",
@@ -8908,15 +8908,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 59.0,
-            "projected_ap": 198.020125,
+            "projected_ap": 198.06191666666666,
             "ap_games": 93,
             "rank": 9,
             "points": 636.4,
             "potential_points": 734.8,
-            "p_loss": 0.3259166666666667,
-            "p_tie": 0.08525,
-            "p_win": 0.5888333333333333,
-            "credit": 0.6314583333333333,
+            "p_loss": 0.32308333333333333,
+            "p_tie": 0.08308333333333333,
+            "p_win": 0.5938333333333333,
+            "credit": 0.635375,
             "completed": false
           }
         ]
@@ -8931,7 +8931,7 @@
         "allplay": "74-19-0",
         "ppg": 249.86666666666667,
         "potential": 309.7,
-        "expected_bonus": 4.237416666666666,
+        "expected_bonus": 4.236458333333333,
         "events": [
           {
             "event": "Q1",
@@ -9007,15 +9007,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 74.0,
-            "projected_ap": 249.36533333333333,
+            "projected_ap": 245.96520833333332,
             "ap_games": 93,
             "rank": 3,
             "points": 749.6,
             "potential_points": 929.0999999999999,
-            "p_loss": 0.035083333333333334,
-            "p_tie": 0.019333333333333334,
-            "p_win": 0.9455833333333333,
-            "credit": 0.95525,
+            "p_loss": 0.035916666666666666,
+            "p_tie": 0.019583333333333335,
+            "p_win": 0.9445,
+            "credit": 0.9542916666666666,
             "completed": false
           }
         ]
@@ -9030,7 +9030,7 @@
         "allplay": "20-73-0",
         "ppg": 157.66666666666666,
         "potential": 206.23333333333335,
-        "expected_bonus": 1.8423333333333334,
+        "expected_bonus": 1.8284166666666666,
         "events": [
           {
             "event": "Q1",
@@ -9106,15 +9106,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 20.0,
-            "projected_ap": 162.08066666666667,
+            "projected_ap": 161.81441666666666,
             "ap_games": 93,
             "rank": 29,
             "points": 473.0,
             "potential_points": 618.7,
-            "p_loss": 0.6901666666666667,
-            "p_tie": 0.06983333333333333,
-            "p_win": 0.24,
-            "credit": 0.27491666666666664,
+            "p_loss": 0.7024166666666667,
+            "p_tie": 0.07316666666666667,
+            "p_win": 0.22441666666666665,
+            "credit": 0.261,
             "completed": false
           }
         ]
@@ -9129,7 +9129,7 @@
         "allplay": "68-24-1",
         "ppg": 233.13333333333335,
         "potential": 271.1333333333333,
-        "expected_bonus": 3.061541666666667,
+        "expected_bonus": 3.0712083333333333,
         "events": [
           {
             "event": "Q1",
@@ -9205,15 +9205,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 68.5,
-            "projected_ap": 202.890625,
+            "projected_ap": 203.36591666666666,
             "ap_games": 93,
             "rank": 5,
             "points": 699.4000000000001,
             "potential_points": 813.4,
-            "p_loss": 0.2843333333333333,
-            "p_tie": 0.07741666666666666,
-            "p_win": 0.63825,
-            "credit": 0.6769583333333333,
+            "p_loss": 0.27425,
+            "p_tie": 0.07825,
+            "p_win": 0.6475,
+            "credit": 0.6866249999999999,
             "completed": false
           }
         ]
@@ -9228,7 +9228,7 @@
         "allplay": "26-67-0",
         "ppg": 169.63333333333333,
         "potential": 209.13333333333333,
-        "expected_bonus": 1.506625,
+        "expected_bonus": 1.5044583333333335,
         "events": [
           {
             "event": "Q1",
@@ -9304,15 +9304,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 26.0,
-            "projected_ap": 156.0835,
+            "projected_ap": 156.99120833333333,
             "ap_games": 93,
             "rank": 27,
             "points": 508.9,
             "potential_points": 627.4,
-            "p_loss": 0.7511666666666666,
-            "p_tie": 0.06458333333333334,
-            "p_win": 0.18425,
-            "credit": 0.21654166666666666,
+            "p_loss": 0.75375,
+            "p_tie": 0.06375,
+            "p_win": 0.1825,
+            "credit": 0.21437499999999998,
             "completed": false
           }
         ]
@@ -9327,7 +9327,7 @@
         "allplay": "47-46-0",
         "ppg": 203.63333333333333,
         "potential": 229.66666666666666,
-        "expected_bonus": 2.1405416666666666,
+        "expected_bonus": 2.147583333333333,
         "events": [
           {
             "event": "Q1",
@@ -9403,15 +9403,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 47.0,
-            "projected_ap": 175.04720833333334,
+            "projected_ap": 176.14279166666665,
             "ap_games": 93,
             "rank": 17,
             "points": 610.9,
             "potential_points": 689.0,
-            "p_loss": 0.56875,
-            "p_tie": 0.07525,
-            "p_win": 0.356,
-            "credit": 0.393625,
+            "p_loss": 0.56075,
+            "p_tie": 0.07716666666666666,
+            "p_win": 0.3620833333333333,
+            "credit": 0.4006666666666666,
             "completed": false
           }
         ]
@@ -9426,7 +9426,7 @@
         "allplay": "44-49-0",
         "ppg": 195.53333333333333,
         "potential": 264.23333333333335,
-        "expected_bonus": 1.7386666666666668,
+        "expected_bonus": 1.7404583333333334,
         "events": [
           {
             "event": "Q1",
@@ -9502,15 +9502,15 @@
             "end": 12,
             "elapsed": 3,
             "ap": 44.0,
-            "projected_ap": 176.03920833333333,
+            "projected_ap": 176.74775,
             "ap_games": 93,
             "rank": 18,
             "points": 586.6,
             "potential_points": 792.7,
-            "p_loss": 0.5565,
-            "p_tie": 0.08466666666666667,
-            "p_win": 0.35883333333333334,
-            "credit": 0.40116666666666667,
+            "p_loss": 0.5536666666666666,
+            "p_tie": 0.08675,
+            "p_win": 0.3595833333333333,
+            "credit": 0.4029583333333333,
             "completed": false
           }
         ]
@@ -9527,7 +9527,7 @@
         "allplay": "74-50-0",
         "ppg": 213.325,
         "potential": 271.84999999999997,
-        "expected_bonus": 2.6893333333333334,
+        "expected_bonus": 2.692625,
         "events": [
           {
             "event": "Q1",
@@ -9603,15 +9603,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 74.0,
-            "projected_ap": 195.38591666666667,
+            "projected_ap": 195.621625,
             "ap_games": 124,
             "rank": 12,
             "points": 853.3,
             "potential_points": 1087.3999999999999,
-            "p_loss": 0.36725,
-            "p_tie": 0.09083333333333334,
-            "p_win": 0.5419166666666667,
-            "credit": 0.5873333333333334,
+            "p_loss": 0.36333333333333334,
+            "p_tie": 0.09208333333333334,
+            "p_win": 0.5445833333333333,
+            "credit": 0.590625,
             "completed": false
           }
         ]
@@ -9626,7 +9626,7 @@
         "allplay": "62-62-0",
         "ppg": 202.225,
         "potential": 254.35,
-        "expected_bonus": 2.7707083333333333,
+        "expected_bonus": 2.7692916666666667,
         "events": [
           {
             "event": "Q1",
@@ -9702,15 +9702,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 62.0,
-            "projected_ap": 185.79283333333333,
+            "projected_ap": 185.79266666666666,
             "ap_games": 124,
             "rank": 20,
             "points": 808.9,
             "potential_points": 1017.4,
-            "p_loss": 0.47925,
-            "p_tie": 0.09058333333333334,
-            "p_win": 0.43016666666666664,
-            "credit": 0.4754583333333333,
+            "p_loss": 0.47908333333333336,
+            "p_tie": 0.09375,
+            "p_win": 0.42716666666666664,
+            "credit": 0.47404166666666664,
             "completed": false
           }
         ]
@@ -9725,7 +9725,7 @@
         "allplay": "73-50-1",
         "ppg": 206.075,
         "potential": 261.92499999999995,
-        "expected_bonus": 4.354875,
+        "expected_bonus": 4.344791666666667,
         "events": [
           {
             "event": "Q1",
@@ -9801,15 +9801,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 73.5,
-            "projected_ap": 236.04825,
+            "projected_ap": 232.48270833333333,
             "ap_games": 124,
             "rank": 13,
             "points": 824.3,
             "potential_points": 1047.6999999999998,
-            "p_loss": 0.05775,
-            "p_tie": 0.029583333333333333,
-            "p_win": 0.9126666666666666,
-            "credit": 0.9274583333333333,
+            "p_loss": 0.06558333333333333,
+            "p_tie": 0.034083333333333334,
+            "p_win": 0.9003333333333333,
+            "credit": 0.9173749999999999,
             "completed": false
           }
         ]
@@ -9824,7 +9824,7 @@
         "allplay": "86-38-0",
         "ppg": 221.125,
         "potential": 260.775,
-        "expected_bonus": 4.223708333333333,
+        "expected_bonus": 4.21925,
         "events": [
           {
             "event": "Q1",
@@ -9900,15 +9900,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 86.0,
-            "projected_ap": 237.14516666666665,
+            "projected_ap": 234.56566666666666,
             "ap_games": 124,
             "rank": 5,
             "points": 884.5,
             "potential_points": 1043.1,
-            "p_loss": 0.05508333333333333,
-            "p_tie": 0.033,
-            "p_win": 0.9119166666666667,
-            "credit": 0.9284166666666667,
+            "p_loss": 0.058416666666666665,
+            "p_tie": 0.03525,
+            "p_win": 0.9063333333333333,
+            "credit": 0.9239583333333333,
             "completed": false
           }
         ]
@@ -9923,7 +9923,7 @@
         "allplay": "86-38-0",
         "ppg": 224.45,
         "potential": 272.9,
-        "expected_bonus": 4.042833333333333,
+        "expected_bonus": 4.0384166666666665,
         "events": [
           {
             "event": "Q1",
@@ -9999,15 +9999,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 86.0,
-            "projected_ap": 228.5315,
+            "projected_ap": 226.69216666666668,
             "ap_games": 124,
             "rank": 4,
             "points": 897.8,
             "potential_points": 1091.6,
-            "p_loss": 0.09283333333333334,
-            "p_tie": 0.044333333333333336,
-            "p_win": 0.8628333333333333,
-            "credit": 0.885,
+            "p_loss": 0.09691666666666666,
+            "p_tie": 0.045,
+            "p_win": 0.8580833333333333,
+            "credit": 0.8805833333333333,
             "completed": false
           }
         ]
@@ -10022,7 +10022,7 @@
         "allplay": "34-90-0",
         "ppg": 171.225,
         "potential": 230.35000000000002,
-        "expected_bonus": 0.9245000000000001,
+        "expected_bonus": 0.9245416666666667,
         "events": [
           {
             "event": "Q1",
@@ -10098,15 +10098,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 34.0,
-            "projected_ap": 140.47933333333333,
+            "projected_ap": 142.22445833333333,
             "ap_games": 124,
             "rank": 28,
             "points": 684.9,
             "potential_points": 921.4000000000001,
-            "p_loss": 0.9033333333333333,
-            "p_tie": 0.03308333333333333,
+            "p_loss": 0.90325,
+            "p_tie": 0.033166666666666664,
             "p_win": 0.06358333333333334,
-            "credit": 0.080125,
+            "credit": 0.08016666666666666,
             "completed": false
           }
         ]
@@ -10121,7 +10121,7 @@
         "allplay": "61-62-1",
         "ppg": 197.79999999999998,
         "potential": 232.35000000000002,
-        "expected_bonus": 2.607666666666667,
+        "expected_bonus": 2.6087083333333334,
         "events": [
           {
             "event": "Q1",
@@ -10197,15 +10197,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 61.5,
-            "projected_ap": 179.908125,
+            "projected_ap": 180.42441666666667,
             "ap_games": 124,
             "rank": 21,
             "points": 791.1999999999999,
             "potential_points": 929.4000000000001,
-            "p_loss": 0.5476666666666666,
-            "p_tie": 0.08716666666666667,
-            "p_win": 0.36516666666666664,
-            "credit": 0.40874999999999995,
+            "p_loss": 0.5451666666666667,
+            "p_tie": 0.09008333333333333,
+            "p_win": 0.36475,
+            "credit": 0.40979166666666667,
             "completed": false
           }
         ]
@@ -10220,7 +10220,7 @@
         "allplay": "2-121-1",
         "ppg": 127.125,
         "potential": 191.4,
-        "expected_bonus": 0.7839583333333332,
+        "expected_bonus": 0.7834166666666665,
         "events": [
           {
             "event": "Q1",
@@ -10296,15 +10296,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 2.5,
-            "projected_ap": 108.915625,
+            "projected_ap": 110.65808333333334,
             "ap_games": 124,
             "rank": 32,
             "points": 508.5,
             "potential_points": 765.6,
-            "p_loss": 0.9885833333333334,
-            "p_tie": 0.006083333333333333,
-            "p_win": 0.005333333333333333,
-            "credit": 0.008375,
+            "p_loss": 0.9895,
+            "p_tie": 0.005333333333333333,
+            "p_win": 0.005166666666666667,
+            "credit": 0.007833333333333333,
             "completed": false
           }
         ]
@@ -10319,7 +10319,7 @@
         "allplay": "83-41-0",
         "ppg": 219.67499999999998,
         "potential": 249.45,
-        "expected_bonus": 3.2236249999999997,
+        "expected_bonus": 3.2383333333333333,
         "events": [
           {
             "event": "Q1",
@@ -10395,15 +10395,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 83.0,
-            "projected_ap": 197.70158333333333,
+            "projected_ap": 198.5735,
             "ap_games": 124,
             "rank": 7,
             "points": 878.6999999999999,
             "potential_points": 997.8,
-            "p_loss": 0.3478333333333333,
-            "p_tie": 0.08825,
-            "p_win": 0.5639166666666666,
-            "credit": 0.6080416666666666,
+            "p_loss": 0.33358333333333334,
+            "p_tie": 0.08733333333333333,
+            "p_win": 0.5790833333333333,
+            "credit": 0.6227499999999999,
             "completed": false
           }
         ]
@@ -10418,7 +10418,7 @@
         "allplay": "68-56-0",
         "ppg": 199.325,
         "potential": 236.525,
-        "expected_bonus": 2.811375,
+        "expected_bonus": 2.8155,
         "events": [
           {
             "event": "Q1",
@@ -10494,15 +10494,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 68.0,
-            "projected_ap": 185.57470833333332,
+            "projected_ap": 186.244625,
             "ap_games": 124,
             "rank": 15,
             "points": 797.3,
             "potential_points": 946.1,
-            "p_loss": 0.48391666666666666,
-            "p_tie": 0.09375,
-            "p_win": 0.42233333333333334,
-            "credit": 0.46920833333333334,
+            "p_loss": 0.47825,
+            "p_tie": 0.09683333333333333,
+            "p_win": 0.42491666666666666,
+            "credit": 0.47333333333333333,
             "completed": false
           }
         ]
@@ -10517,7 +10517,7 @@
         "allplay": "90-34-0",
         "ppg": 222.25000000000003,
         "potential": 296.975,
-        "expected_bonus": 4.242125,
+        "expected_bonus": 4.24075,
         "events": [
           {
             "event": "Q1",
@@ -10593,15 +10593,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 90.0,
-            "projected_ap": 247.96929166666666,
+            "projected_ap": 244.762625,
             "ap_games": 124,
             "rank": 2,
             "points": 889.0000000000001,
             "potential_points": 1187.9,
-            "p_loss": 0.027416666666666666,
-            "p_tie": 0.018583333333333334,
-            "p_win": 0.954,
-            "credit": 0.9632916666666667,
+            "p_loss": 0.028833333333333332,
+            "p_tie": 0.0185,
+            "p_win": 0.9526666666666667,
+            "credit": 0.9619166666666666,
             "completed": false
           }
         ]
@@ -10616,7 +10616,7 @@
         "allplay": "63-60-1",
         "ppg": 195.3,
         "potential": 252.85000000000002,
-        "expected_bonus": 2.343208333333333,
+        "expected_bonus": 2.3395833333333336,
         "events": [
           {
             "event": "Q1",
@@ -10692,15 +10692,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 63.5,
-            "projected_ap": 189.4315,
+            "projected_ap": 189.261125,
             "ap_games": 124,
             "rank": 17,
             "points": 781.2,
             "potential_points": 1011.4000000000001,
-            "p_loss": 0.432,
-            "p_tie": 0.09675,
-            "p_win": 0.47125,
-            "credit": 0.519625,
+            "p_loss": 0.4349166666666667,
+            "p_tie": 0.09816666666666667,
+            "p_win": 0.46691666666666665,
+            "credit": 0.516,
             "completed": false
           }
         ]
@@ -10715,7 +10715,7 @@
         "allplay": "63-61-0",
         "ppg": 200.225,
         "potential": 234.825,
-        "expected_bonus": 2.25425,
+        "expected_bonus": 2.247708333333333,
         "events": [
           {
             "event": "Q1",
@@ -10791,15 +10791,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 63.0,
-            "projected_ap": 191.10654166666666,
+            "projected_ap": 190.61954166666666,
             "ap_games": 124,
             "rank": 18,
             "points": 800.9,
             "potential_points": 939.3,
-            "p_loss": 0.4180833333333333,
-            "p_tie": 0.08825,
-            "p_win": 0.49366666666666664,
-            "credit": 0.5377916666666667,
+            "p_loss": 0.4225833333333333,
+            "p_tie": 0.09233333333333334,
+            "p_win": 0.4850833333333333,
+            "credit": 0.53125,
             "completed": false
           }
         ]
@@ -10814,7 +10814,7 @@
         "allplay": "22-102-0",
         "ppg": 157.375,
         "potential": 205.75,
-        "expected_bonus": 0.5125,
+        "expected_bonus": 0.5129583333333333,
         "events": [
           {
             "event": "Q1",
@@ -10890,15 +10890,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 22.0,
-            "projected_ap": 111.02129166666667,
+            "projected_ap": 114.2905,
             "ap_games": 124,
             "rank": 30,
             "points": 629.5,
             "potential_points": 823.0,
-            "p_loss": 0.9853333333333333,
-            "p_tie": 0.007583333333333333,
-            "p_win": 0.007083333333333333,
-            "credit": 0.010875,
+            "p_loss": 0.9856666666666667,
+            "p_tie": 0.006,
+            "p_win": 0.008333333333333333,
+            "credit": 0.011333333333333334,
             "completed": false
           }
         ]
@@ -10913,7 +10913,7 @@
         "allplay": "50-74-0",
         "ppg": 189.325,
         "potential": 246.325,
-        "expected_bonus": 1.5134166666666666,
+        "expected_bonus": 1.5090416666666666,
         "events": [
           {
             "event": "Q1",
@@ -10989,15 +10989,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 50.0,
-            "projected_ap": 170.85908333333333,
+            "projected_ap": 171.16995833333334,
             "ap_games": 124,
             "rank": 23,
             "points": 757.3,
             "potential_points": 985.3,
-            "p_loss": 0.6505,
-            "p_tie": 0.08041666666666666,
-            "p_win": 0.26908333333333334,
-            "credit": 0.3092916666666667,
+            "p_loss": 0.65475,
+            "p_tie": 0.08066666666666666,
+            "p_win": 0.26458333333333334,
+            "credit": 0.30491666666666667,
             "completed": false
           }
         ]
@@ -11012,7 +11012,7 @@
         "allplay": "61-63-0",
         "ppg": 187.35000000000002,
         "potential": 236.75,
-        "expected_bonus": 2.0275833333333333,
+        "expected_bonus": 2.03025,
         "events": [
           {
             "event": "Q1",
@@ -11088,15 +11088,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 61.0,
-            "projected_ap": 178.276,
+            "projected_ap": 178.94979166666667,
             "ap_games": 124,
             "rank": 22,
             "points": 749.4000000000001,
             "potential_points": 947.0,
-            "p_loss": 0.57,
-            "p_tie": 0.08883333333333333,
-            "p_win": 0.3411666666666667,
-            "credit": 0.38558333333333333,
+            "p_loss": 0.5688333333333333,
+            "p_tie": 0.08583333333333333,
+            "p_win": 0.3453333333333333,
+            "credit": 0.38825,
             "completed": false
           }
         ]
@@ -11111,7 +11111,7 @@
         "allplay": "72-52-0",
         "ppg": 206.225,
         "potential": 259.275,
-        "expected_bonus": 2.626375,
+        "expected_bonus": 2.6323333333333334,
         "events": [
           {
             "event": "Q1",
@@ -11187,15 +11187,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 72.0,
-            "projected_ap": 190.89916666666667,
+            "projected_ap": 191.3815,
             "ap_games": 124,
             "rank": 14,
             "points": 824.9,
             "potential_points": 1037.1,
-            "p_loss": 0.4205833333333333,
-            "p_tie": 0.09091666666666667,
-            "p_win": 0.4885,
-            "credit": 0.5339583333333333,
+            "p_loss": 0.4155,
+            "p_tie": 0.08916666666666667,
+            "p_win": 0.49533333333333335,
+            "credit": 0.5399166666666667,
             "completed": false
           }
         ]
@@ -11210,7 +11210,7 @@
         "allplay": "98-26-0",
         "ppg": 239.8,
         "potential": 264.575,
-        "expected_bonus": 3.2769166666666667,
+        "expected_bonus": 3.284875,
         "events": [
           {
             "event": "Q1",
@@ -11286,15 +11286,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 98.0,
-            "projected_ap": 223.87620833333332,
+            "projected_ap": 223.66579166666668,
             "ap_games": 124,
             "rank": 1,
             "points": 959.2,
             "potential_points": 1058.3,
-            "p_loss": 0.11691666666666667,
-            "p_tie": 0.05683333333333333,
-            "p_win": 0.82625,
-            "credit": 0.8546666666666667,
+            "p_loss": 0.1115,
+            "p_tie": 0.05175,
+            "p_win": 0.83675,
+            "credit": 0.862625,
             "completed": false
           }
         ]
@@ -11309,7 +11309,7 @@
         "allplay": "32-91-1",
         "ppg": 171.15,
         "potential": 219.9,
-        "expected_bonus": 0.590375,
+        "expected_bonus": 0.5932083333333333,
         "events": [
           {
             "event": "Q1",
@@ -11385,15 +11385,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 32.5,
-            "projected_ap": 124.12120833333333,
+            "projected_ap": 127.16291666666666,
             "ap_games": 124,
             "rank": 29,
             "points": 684.6,
             "potential_points": 879.6,
-            "p_loss": 0.961,
-            "p_tie": 0.015416666666666667,
-            "p_win": 0.023583333333333335,
-            "credit": 0.03129166666666667,
+            "p_loss": 0.9575,
+            "p_tie": 0.01675,
+            "p_win": 0.02575,
+            "credit": 0.034125,
             "completed": false
           }
         ]
@@ -11408,7 +11408,7 @@
         "allplay": "85-39-0",
         "ppg": 228.10000000000002,
         "potential": 276.1,
-        "expected_bonus": 4.162041666666667,
+        "expected_bonus": 4.159,
         "events": [
           {
             "event": "Q1",
@@ -11484,15 +11484,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 85.0,
-            "projected_ap": 229.69575,
+            "projected_ap": 227.68945833333333,
             "ap_games": 124,
             "rank": 6,
             "points": 912.4000000000001,
             "potential_points": 1104.4,
-            "p_loss": 0.08825,
-            "p_tie": 0.04075,
-            "p_win": 0.871,
-            "credit": 0.891375,
+            "p_loss": 0.09083333333333334,
+            "p_tie": 0.041666666666666664,
+            "p_win": 0.8675,
+            "credit": 0.8883333333333334,
             "completed": false
           }
         ]
@@ -11507,7 +11507,7 @@
         "allplay": "44-79-1",
         "ppg": 184.05,
         "potential": 233.925,
-        "expected_bonus": 1.3259583333333333,
+        "expected_bonus": 1.3209583333333332,
         "events": [
           {
             "event": "Q1",
@@ -11583,15 +11583,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 44.5,
-            "projected_ap": 164.46579166666666,
+            "projected_ap": 164.839375,
             "ap_games": 124,
             "rank": 25,
             "points": 736.2,
             "potential_points": 935.7,
-            "p_loss": 0.7161666666666666,
+            "p_loss": 0.7211666666666666,
             "p_tie": 0.07625,
-            "p_win": 0.20758333333333334,
-            "credit": 0.24570833333333333,
+            "p_win": 0.20258333333333334,
+            "credit": 0.24070833333333333,
             "completed": false
           }
         ]
@@ -11606,7 +11606,7 @@
         "allplay": "19-104-1",
         "ppg": 159.125,
         "potential": 203.7,
-        "expected_bonus": 0.965,
+        "expected_bonus": 0.9635833333333332,
         "events": [
           {
             "event": "Q1",
@@ -11682,15 +11682,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 19.5,
-            "projected_ap": 128.80904166666667,
+            "projected_ap": 130.27083333333334,
             "ap_games": 124,
             "rank": 31,
             "points": 636.5,
             "potential_points": 814.8,
-            "p_loss": 0.9490833333333333,
-            "p_tie": 0.019916666666666666,
-            "p_win": 0.031,
-            "credit": 0.04095833333333333,
+            "p_loss": 0.95,
+            "p_tie": 0.020916666666666667,
+            "p_win": 0.029083333333333333,
+            "credit": 0.03954166666666667,
             "completed": false
           }
         ]
@@ -11705,7 +11705,7 @@
         "allplay": "65-59-0",
         "ppg": 199.32500000000002,
         "potential": 255.825,
-        "expected_bonus": 2.9490416666666666,
+        "expected_bonus": 2.9348333333333336,
         "events": [
           {
             "event": "Q1",
@@ -11781,15 +11781,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 65.0,
-            "projected_ap": 211.06395833333335,
+            "projected_ap": 208.9255,
             "ap_games": 124,
             "rank": 16,
             "points": 797.3000000000001,
             "potential_points": 1023.3,
-            "p_loss": 0.20333333333333334,
-            "p_tie": 0.07375,
-            "p_win": 0.7229166666666667,
-            "credit": 0.7597916666666666,
+            "p_loss": 0.21908333333333332,
+            "p_tie": 0.07066666666666667,
+            "p_win": 0.71025,
+            "credit": 0.7455833333333334,
             "completed": false
           }
         ]
@@ -11804,7 +11804,7 @@
         "allplay": "36-88-0",
         "ppg": 173.65,
         "potential": 227.22499999999997,
-        "expected_bonus": 1.1388333333333334,
+        "expected_bonus": 1.13825,
         "events": [
           {
             "event": "Q1",
@@ -11880,15 +11880,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 36.0,
-            "projected_ap": 146.53216666666665,
+            "projected_ap": 147.92095833333335,
             "ap_games": 124,
             "rank": 27,
             "points": 694.6,
             "potential_points": 908.8999999999999,
-            "p_loss": 0.8665,
-            "p_tie": 0.04466666666666667,
-            "p_win": 0.08883333333333333,
-            "credit": 0.11116666666666666,
+            "p_loss": 0.86675,
+            "p_tie": 0.04533333333333334,
+            "p_win": 0.08791666666666667,
+            "credit": 0.11058333333333334,
             "completed": false
           }
         ]
@@ -11903,7 +11903,7 @@
         "allplay": "82-42-0",
         "ppg": 216.375,
         "potential": 269.92499999999995,
-        "expected_bonus": 3.5365,
+        "expected_bonus": 3.5404166666666668,
         "events": [
           {
             "event": "Q1",
@@ -11979,15 +11979,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 82.0,
-            "projected_ap": 211.671,
+            "projected_ap": 211.05470833333334,
             "ap_games": 124,
             "rank": 8,
             "points": 865.5,
             "potential_points": 1079.6999999999998,
-            "p_loss": 0.20691666666666667,
-            "p_tie": 0.07275,
-            "p_win": 0.7203333333333334,
-            "credit": 0.7567083333333334,
+            "p_loss": 0.20375,
+            "p_tie": 0.07125,
+            "p_win": 0.725,
+            "credit": 0.760625,
             "completed": false
           }
         ]
@@ -12002,7 +12002,7 @@
         "allplay": "76-48-0",
         "ppg": 207.77499999999998,
         "potential": 240.225,
-        "expected_bonus": 2.9985,
+        "expected_bonus": 3.003375,
         "events": [
           {
             "event": "Q1",
@@ -12078,15 +12078,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 76.0,
-            "projected_ap": 195.35175,
+            "projected_ap": 195.81066666666666,
             "ap_games": 124,
             "rank": 11,
             "points": 831.0999999999999,
             "potential_points": 960.9,
-            "p_loss": 0.37,
-            "p_tie": 0.09316666666666666,
-            "p_win": 0.5368333333333334,
-            "credit": 0.5834166666666667,
+            "p_loss": 0.36633333333333334,
+            "p_tie": 0.09075,
+            "p_win": 0.5429166666666667,
+            "credit": 0.5882916666666667,
             "completed": false
           }
         ]
@@ -12101,7 +12101,7 @@
         "allplay": "86-38-0",
         "ppg": 234.2,
         "potential": 289.67499999999995,
-        "expected_bonus": 3.9527916666666667,
+        "expected_bonus": 3.94925,
         "events": [
           {
             "event": "Q1",
@@ -12177,15 +12177,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 86.0,
-            "projected_ap": 235.94583333333333,
+            "projected_ap": 233.437,
             "ap_games": 124,
             "rank": 3,
             "points": 936.8,
             "potential_points": 1158.6999999999998,
-            "p_loss": 0.058583333333333334,
-            "p_tie": 0.032,
-            "p_win": 0.9094166666666667,
-            "credit": 0.9254166666666667,
+            "p_loss": 0.06133333333333333,
+            "p_tie": 0.03358333333333333,
+            "p_win": 0.9050833333333334,
+            "credit": 0.921875,
             "completed": false
           }
         ]
@@ -12200,7 +12200,7 @@
         "allplay": "46-78-0",
         "ppg": 175.65,
         "potential": 217.5,
-        "expected_bonus": 2.2392916666666665,
+        "expected_bonus": 2.2245416666666666,
         "events": [
           {
             "event": "Q1",
@@ -12276,15 +12276,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 46.0,
-            "projected_ap": 175.6725,
+            "projected_ap": 175.058625,
             "ap_games": 124,
             "rank": 24,
             "points": 702.6,
             "potential_points": 870.0,
-            "p_loss": 0.5925,
-            "p_tie": 0.088,
-            "p_win": 0.3195,
-            "credit": 0.3635,
+            "p_loss": 0.6086666666666667,
+            "p_tie": 0.08516666666666667,
+            "p_win": 0.30616666666666664,
+            "credit": 0.34875,
             "completed": false
           }
         ]
@@ -12299,7 +12299,7 @@
         "allplay": "81-42-1",
         "ppg": 222.07500000000002,
         "potential": 264.175,
-        "expected_bonus": 2.8381666666666665,
+        "expected_bonus": 2.854416666666667,
         "events": [
           {
             "event": "Q1",
@@ -12375,15 +12375,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 81.5,
-            "projected_ap": 197.43054166666667,
+            "projected_ap": 198.218875,
             "ap_games": 124,
             "rank": 9,
             "points": 888.3000000000001,
             "potential_points": 1056.7,
-            "p_loss": 0.34658333333333335,
-            "p_tie": 0.09008333333333333,
-            "p_win": 0.5633333333333334,
-            "credit": 0.608375,
+            "p_loss": 0.33166666666666667,
+            "p_tie": 0.08741666666666667,
+            "p_win": 0.5809166666666666,
+            "credit": 0.624625,
             "completed": false
           }
         ]
@@ -12398,7 +12398,7 @@
         "allplay": "40-84-0",
         "ppg": 174.7,
         "potential": 210.85,
-        "expected_bonus": 1.3025,
+        "expected_bonus": 1.3001666666666667,
         "events": [
           {
             "event": "Q1",
@@ -12474,15 +12474,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 40.0,
-            "projected_ap": 151.90375,
+            "projected_ap": 153.07558333333333,
             "ap_games": 124,
             "rank": 26,
             "points": 698.8,
             "potential_points": 843.4,
-            "p_loss": 0.8236666666666667,
-            "p_tie": 0.05566666666666667,
-            "p_win": 0.12066666666666667,
-            "credit": 0.14850000000000002,
+            "p_loss": 0.82825,
+            "p_tie": 0.051166666666666666,
+            "p_win": 0.12058333333333333,
+            "credit": 0.14616666666666667,
             "completed": false
           }
         ]
@@ -12497,7 +12497,7 @@
         "allplay": "77-47-0",
         "ppg": 220.39999999999998,
         "potential": 255.5,
-        "expected_bonus": 3.118125,
+        "expected_bonus": 3.123083333333333,
         "events": [
           {
             "event": "Q1",
@@ -12573,15 +12573,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 77.0,
-            "projected_ap": 204.97820833333333,
+            "projected_ap": 204.61583333333334,
             "ap_games": 124,
             "rank": 10,
             "points": 881.5999999999999,
             "potential_points": 1022.0,
-            "p_loss": 0.26708333333333334,
-            "p_tie": 0.08275,
-            "p_win": 0.6501666666666667,
-            "credit": 0.6915416666666667,
+            "p_loss": 0.2625,
+            "p_tie": 0.082,
+            "p_win": 0.6555,
+            "credit": 0.6965,
             "completed": false
           }
         ]
@@ -12596,7 +12596,7 @@
         "allplay": "63-61-0",
         "ppg": 199.65,
         "potential": 256.425,
-        "expected_bonus": 1.6539166666666665,
+        "expected_bonus": 1.6625416666666666,
         "events": [
           {
             "event": "Q1",
@@ -12672,15 +12672,15 @@
             "end": 12,
             "elapsed": 4,
             "ap": 63.0,
-            "projected_ap": 175.436375,
+            "projected_ap": 176.53891666666667,
             "ap_games": 124,
             "rank": 19,
             "points": 798.6,
             "potential_points": 1025.7,
-            "p_loss": 0.606,
-            "p_tie": 0.09,
-            "p_win": 0.304,
-            "credit": 0.349,
+            "p_loss": 0.5965,
+            "p_tie": 0.09175,
+            "p_win": 0.31175,
+            "credit": 0.357625,
             "completed": false
           }
         ]
@@ -12722,11 +12722,11 @@
         "tie_high": 48.0
       },
       "All-Season": {
-        "win_cutoff": 189.57916666666668,
-        "tie_cutoff": 181.4613125,
-        "win_low": 181.5,
-        "win_high": 197.75,
-        "tie_low": 173.5,
+        "win_cutoff": 189.41533333333334,
+        "tie_cutoff": 181.8065,
+        "win_low": 181.75,
+        "win_high": 197.0,
+        "tie_low": 174.25,
         "tie_high": 189.5
       }
     },
@@ -12764,11 +12764,11 @@
         "tie_high": 48.0
       },
       "All-Season": {
-        "win_cutoff": 189.38735416666665,
-        "tie_cutoff": 181.29960416666665,
+        "win_cutoff": 189.2789375,
+        "tie_cutoff": 181.622375,
         "win_low": 181.5,
-        "win_high": 197.5,
-        "tie_low": 173.25,
+        "win_high": 197.0,
+        "tie_low": 174.0,
         "tie_high": 189.25
       }
     },
@@ -12806,12 +12806,12 @@
         "tie_high": 48.0
       },
       "All-Season": {
-        "win_cutoff": 189.48485416666668,
-        "tie_cutoff": 181.30960416666667,
+        "win_cutoff": 189.44435416666667,
+        "tie_cutoff": 181.65539583333333,
         "win_low": 181.5,
-        "win_high": 197.5,
-        "tie_low": 173.25,
-        "tie_high": 189.25
+        "win_high": 197.25,
+        "tie_low": 174.0,
+        "tie_high": 189.5
       }
     },
     "4": {
@@ -12848,11 +12848,11 @@
         "tie_high": 48.0
       },
       "All-Season": {
-        "win_cutoff": 191.83854166666666,
-        "tie_cutoff": 183.89552083333334,
-        "win_low": 184.0,
-        "win_high": 199.75,
-        "tie_low": 176.0,
+        "win_cutoff": 191.78139583333333,
+        "tie_cutoff": 184.1304375,
+        "win_low": 184.25,
+        "win_high": 199.25,
+        "tie_low": 176.5,
         "tie_high": 191.75
       }
     }
@@ -12870,6 +12870,33 @@
         2025
       ],
       "potential_points": {
+        "method": "conditional_empirical_gap",
+        "conditioned_on": [
+          "simulated PF",
+          "observed team PF/Potential gap",
+          "NFL bye count"
+        ],
+        "neighbors": 100,
+        "calibrated_on_past_only": true,
+        "training_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excluded_invalid_pairs": 0,
+        "validation": "2023 selection; rolling 2024-2025 holdout; residual downward bias remains",
+        "tiebreak_order": [
+          "All-Play wins",
+          "Points For",
+          "Potential Points"
+        ]
+      },
+      "reg_season_model": "fafl_native_normal",
+      "reg_season_distribution": "normal",
+      "reg_season_potential_points": {
         "method": "conditional_empirical_gap",
         "conditioned_on": [
           "simulated PF",
@@ -12967,6 +12994,33 @@
           "Potential Points"
         ]
       },
+      "reg_season_model": "fafl_native_normal",
+      "reg_season_distribution": "normal",
+      "reg_season_potential_points": {
+        "method": "conditional_empirical_gap",
+        "conditioned_on": [
+          "simulated PF",
+          "observed team PF/Potential gap",
+          "NFL bye count"
+        ],
+        "neighbors": 100,
+        "calibrated_on_past_only": true,
+        "training_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excluded_invalid_pairs": 0,
+        "validation": "2023 selection; rolling 2024-2025 holdout; residual downward bias remains",
+        "tiebreak_order": [
+          "All-Play wins",
+          "Points For",
+          "Potential Points"
+        ]
+      },
       "weekly_sd": 36.2741376194105,
       "strength_sd": 11.844745894337388,
       "team_means": {
@@ -13040,6 +13094,33 @@
           "Potential Points"
         ]
       },
+      "reg_season_model": "fafl_native_normal",
+      "reg_season_distribution": "normal",
+      "reg_season_potential_points": {
+        "method": "conditional_empirical_gap",
+        "conditioned_on": [
+          "simulated PF",
+          "observed team PF/Potential gap",
+          "NFL bye count"
+        ],
+        "neighbors": 100,
+        "calibrated_on_past_only": true,
+        "training_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excluded_invalid_pairs": 0,
+        "validation": "2023 selection; rolling 2024-2025 holdout; residual downward bias remains",
+        "tiebreak_order": [
+          "All-Play wins",
+          "Points For",
+          "Potential Points"
+        ]
+      },
       "weekly_sd": 36.24852912024664,
       "strength_sd": 11.240335072749037,
       "team_means": {
@@ -13089,6 +13170,33 @@
         2025
       ],
       "potential_points": {
+        "method": "conditional_empirical_gap",
+        "conditioned_on": [
+          "simulated PF",
+          "observed team PF/Potential gap",
+          "NFL bye count"
+        ],
+        "neighbors": 100,
+        "calibrated_on_past_only": true,
+        "training_years": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "excluded_invalid_pairs": 0,
+        "validation": "2023 selection; rolling 2024-2025 holdout; residual downward bias remains",
+        "tiebreak_order": [
+          "All-Play wins",
+          "Points For",
+          "Potential Points"
+        ]
+      },
+      "reg_season_model": "fafl_native_normal",
+      "reg_season_distribution": "normal",
+      "reg_season_potential_points": {
         "method": "conditional_empirical_gap",
         "conditioned_on": [
           "simulated PF",
