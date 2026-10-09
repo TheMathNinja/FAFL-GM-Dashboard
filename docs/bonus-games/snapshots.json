@@ -3,7 +3,7 @@
   "season": 2026,
   "through_week": 4,
   "status": "official",
-  "updated_at": "2026-10-09T05:43:01.368947+00:00",
+  "updated_at": "2026-10-09T15:03:21.295485+00:00",
   "simulations": 12000,
   "weeks": {
     "1": [
@@ -12956,7 +12956,8 @@
         "0030": 204.10964516441393,
         "0031": 199.49077840618398,
         "0032": 191.8949254200948
-      }
+      },
+      "description": "Forecasts use the playoff engine\u2019s scoring estimates and week-specific uncertainty about team strength. Quarterly simulations use Student-t scoring variation with 5 degrees of freedom; Reg Season simulations use Normal scoring variation. Bonus Games and Playoffs share these Bonus Game forecasts."
     },
     "2": {
       "model": "fafl_current_t5",
@@ -13056,7 +13057,8 @@
         "0030": 195.34086808490446,
         "0031": 192.69363822844898,
         "0032": 192.13562046821514
-      }
+      },
+      "description": "Forecasts use the playoff engine\u2019s scoring estimates and week-specific uncertainty about team strength. Quarterly simulations use Student-t scoring variation with 5 degrees of freedom; Reg Season simulations use Normal scoring variation. Bonus Games and Playoffs share these Bonus Game forecasts."
     },
     "3": {
       "model": "fafl_current_t5",
@@ -13156,7 +13158,8 @@
         "0030": 191.12220213662346,
         "0031": 190.2550194145343,
         "0032": 191.96190972017052
-      }
+      },
+      "description": "Forecasts use the playoff engine\u2019s scoring estimates and week-specific uncertainty about team strength. Quarterly simulations use Student-t scoring variation with 5 degrees of freedom; Reg Season simulations use Normal scoring variation. Bonus Games and Playoffs share these Bonus Game forecasts."
     },
     "4": {
       "model": "fafl_current_t5",
@@ -13256,7 +13259,2940 @@
         "0030": 189.58992026062617,
         "0031": 197.30350944977877,
         "0032": 189.84294057251518
-      }
+      },
+      "description": "Forecasts use the playoff engine\u2019s scoring estimates and week-specific uncertainty about team strength. Quarterly simulations use Student-t scoring variation with 5 degrees of freedom; Reg Season simulations use Normal scoring variation. Bonus Games and Playoffs share these Bonus Game forecasts."
+    }
+  },
+  "observations": {
+    "1": {
+      "1": [
+        {
+          "id": "0001",
+          "points": 262.1,
+          "potential": 320.0,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 171.6,
+          "potential": 222.7,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 236.0,
+          "potential": 258.2,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 269.8,
+          "potential": 305.4,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 174.4,
+          "potential": 226.2,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 219.9,
+          "potential": 247.7,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 186.0,
+          "potential": 234.3,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 138.0,
+          "potential": 204.7,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 191.5,
+          "potential": 214.9,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 234.9,
+          "potential": 253.6,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 224.8,
+          "potential": 316.9,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 209.3,
+          "potential": 260.5,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 184.8,
+          "potential": 223.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 142.4,
+          "potential": 179.1,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 189.9,
+          "potential": 265.3,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 119.7,
+          "potential": 173.0,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 242.5,
+          "potential": 286.4,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 252.1,
+          "potential": 268.3,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 209.3,
+          "potential": 229.7,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 179.2,
+          "potential": 246.8,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 177.4,
+          "potential": 223.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 138.0,
+          "potential": 189.1,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 230.4,
+          "potential": 259.0,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 146.2,
+          "potential": 238.7,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 219.4,
+          "potential": 257.6,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 222.0,
+          "potential": 252.2,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 205.4,
+          "potential": 269.0,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 149.0,
+          "potential": 185.2,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 186.0,
+          "potential": 237.9,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 219.6,
+          "potential": 254.2,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 268.1,
+          "potential": 283.2,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 229.4,
+          "potential": 298.6,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        }
+      ]
+    },
+    "2": {
+      "1": [
+        {
+          "id": "0001",
+          "points": 262.1,
+          "potential": 320.0,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 171.6,
+          "potential": 222.7,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 236.0,
+          "potential": 258.2,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 269.8,
+          "potential": 305.4,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 174.4,
+          "potential": 226.2,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 219.9,
+          "potential": 247.7,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 186.0,
+          "potential": 234.3,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 138.0,
+          "potential": 204.7,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 191.5,
+          "potential": 214.9,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 234.9,
+          "potential": 253.6,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 224.8,
+          "potential": 316.9,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 209.3,
+          "potential": 260.5,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 184.8,
+          "potential": 223.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 142.4,
+          "potential": 179.1,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 189.9,
+          "potential": 265.3,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 119.7,
+          "potential": 173.0,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 242.5,
+          "potential": 286.4,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 252.1,
+          "potential": 268.3,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 209.3,
+          "potential": 229.7,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 179.2,
+          "potential": 246.8,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 177.4,
+          "potential": 223.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 138.0,
+          "potential": 189.1,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 230.4,
+          "potential": 259.0,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 146.2,
+          "potential": 238.7,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 219.4,
+          "potential": 257.6,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 222.0,
+          "potential": 252.2,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 205.4,
+          "potential": 269.0,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 149.0,
+          "potential": 185.2,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 186.0,
+          "potential": 237.9,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 219.6,
+          "potential": 254.2,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 268.1,
+          "potential": 283.2,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 229.4,
+          "potential": 298.6,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        }
+      ],
+      "2": [
+        {
+          "id": "0001",
+          "points": 251.9,
+          "potential": 259.3,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 225.8,
+          "potential": 257.9,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 205.4,
+          "potential": 315.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 154.5,
+          "potential": 190.7,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 236.1,
+          "potential": 290.3,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 133.7,
+          "potential": 174.2,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 211.9,
+          "potential": 248.5,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 103.4,
+          "potential": 167.5,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 239.5,
+          "potential": 263.9,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 183.9,
+          "potential": 228.4,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 236.8,
+          "potential": 297.1,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 194.5,
+          "potential": 264.7,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 181.5,
+          "potential": 217.0,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 193.0,
+          "potential": 248.0,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 170.2,
+          "potential": 212.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 171.7,
+          "potential": 226.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 177.5,
+          "potential": 259.5,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 245.6,
+          "potential": 262.8,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 140.3,
+          "potential": 189.3,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 206.3,
+          "potential": 260.8,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 205.4,
+          "potential": 232.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 161.3,
+          "potential": 205.6,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 187.2,
+          "potential": 247.3,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 153.8,
+          "potential": 192.6,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 214.3,
+          "potential": 250.9,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 208.2,
+          "potential": 252.9,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 291.8,
+          "potential": 348.9,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 182.8,
+          "potential": 241.2,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 236.6,
+          "potential": 272.9,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 122.8,
+          "potential": 173.0,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 170.7,
+          "potential": 192.3,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 155.1,
+          "potential": 258.0,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        }
+      ]
+    },
+    "3": {
+      "1": [
+        {
+          "id": "0001",
+          "points": 262.1,
+          "potential": 320.0,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 171.6,
+          "potential": 222.7,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 236.0,
+          "potential": 258.2,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 269.8,
+          "potential": 305.4,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 174.4,
+          "potential": 226.2,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 219.9,
+          "potential": 247.7,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 186.0,
+          "potential": 234.3,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 138.0,
+          "potential": 204.7,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 191.5,
+          "potential": 214.9,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 234.9,
+          "potential": 253.6,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 224.8,
+          "potential": 316.9,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 209.3,
+          "potential": 260.5,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 184.8,
+          "potential": 223.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 142.4,
+          "potential": 179.1,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 189.9,
+          "potential": 265.3,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 119.7,
+          "potential": 173.0,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 242.5,
+          "potential": 286.4,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 252.1,
+          "potential": 268.3,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 209.3,
+          "potential": 229.7,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 179.2,
+          "potential": 246.8,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 177.4,
+          "potential": 223.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 138.0,
+          "potential": 189.1,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 230.4,
+          "potential": 259.0,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 146.2,
+          "potential": 238.7,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 219.4,
+          "potential": 257.6,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 222.0,
+          "potential": 252.2,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 205.4,
+          "potential": 269.0,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 149.0,
+          "potential": 185.2,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 186.0,
+          "potential": 237.9,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 219.6,
+          "potential": 254.2,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 268.1,
+          "potential": 283.2,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 229.4,
+          "potential": 298.6,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        }
+      ],
+      "2": [
+        {
+          "id": "0001",
+          "points": 251.9,
+          "potential": 259.3,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 225.8,
+          "potential": 257.9,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 205.4,
+          "potential": 315.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 154.5,
+          "potential": 190.7,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 236.1,
+          "potential": 290.3,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 133.7,
+          "potential": 174.2,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 211.9,
+          "potential": 248.5,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 103.4,
+          "potential": 167.5,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 239.5,
+          "potential": 263.9,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 183.9,
+          "potential": 228.4,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 236.8,
+          "potential": 297.1,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 194.5,
+          "potential": 264.7,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 181.5,
+          "potential": 217.0,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 193.0,
+          "potential": 248.0,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 170.2,
+          "potential": 212.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 171.7,
+          "potential": 226.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 177.5,
+          "potential": 259.5,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 245.6,
+          "potential": 262.8,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 140.3,
+          "potential": 189.3,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 206.3,
+          "potential": 260.8,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 205.4,
+          "potential": 232.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 161.3,
+          "potential": 205.6,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 187.2,
+          "potential": 247.3,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 153.8,
+          "potential": 192.6,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 214.3,
+          "potential": 250.9,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 208.2,
+          "potential": 252.9,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 291.8,
+          "potential": 348.9,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 182.8,
+          "potential": 241.2,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 236.6,
+          "potential": 272.9,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 122.8,
+          "potential": 173.0,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 170.7,
+          "potential": 192.3,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 155.1,
+          "potential": 258.0,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        }
+      ],
+      "3": [
+        {
+          "id": "0001",
+          "points": 197.8,
+          "potential": 273.4,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 234.4,
+          "potential": 280.9,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 185.5,
+          "potential": 237.8,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 240.4,
+          "potential": 278.2,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 263.0,
+          "potential": 319.5,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 168.2,
+          "potential": 231.8,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 209.4,
+          "potential": 223.8,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 137.7,
+          "potential": 190.5,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 185.8,
+          "potential": 219.5,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 186.7,
+          "potential": 234.2,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 236.3,
+          "potential": 298.9,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 145.4,
+          "potential": 213.7,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 222.2,
+          "potential": 246.3,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 137.3,
+          "potential": 190.9,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 222.5,
+          "potential": 282.4,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 222.8,
+          "potential": 268.2,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 183.8,
+          "potential": 239.1,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 274.7,
+          "potential": 310.7,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 175.6,
+          "potential": 215.7,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 235.7,
+          "potential": 261.8,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 204.2,
+          "potential": 260.2,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 165.4,
+          "potential": 237.1,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 161.8,
+          "potential": 196.5,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 208.2,
+          "potential": 240.4,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 217.1,
+          "potential": 278.3,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 206.2,
+          "potential": 229.7,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 252.4,
+          "potential": 311.2,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 141.2,
+          "potential": 192.3,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 276.8,
+          "potential": 302.6,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 166.5,
+          "potential": 200.2,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 172.1,
+          "potential": 213.5,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 202.1,
+          "potential": 236.1,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "id": "0001",
+          "points": 262.1,
+          "potential": 320.0,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 171.6,
+          "potential": 222.7,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 236.0,
+          "potential": 258.2,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 269.8,
+          "potential": 305.4,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 174.4,
+          "potential": 226.2,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 219.9,
+          "potential": 247.7,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 186.0,
+          "potential": 234.3,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 138.0,
+          "potential": 204.7,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 191.5,
+          "potential": 214.9,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 234.9,
+          "potential": 253.6,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 224.8,
+          "potential": 316.9,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 209.3,
+          "potential": 260.5,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 184.8,
+          "potential": 223.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 142.4,
+          "potential": 179.1,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 189.9,
+          "potential": 265.3,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 119.7,
+          "potential": 173.0,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 242.5,
+          "potential": 286.4,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 252.1,
+          "potential": 268.3,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 209.3,
+          "potential": 229.7,
+          "record": "16-14-1",
+          "ap": 16.5,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 179.2,
+          "potential": 246.8,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 177.4,
+          "potential": 223.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 138.0,
+          "potential": 189.1,
+          "record": "1-29-1",
+          "ap": 1.5,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 230.4,
+          "potential": 259.0,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 146.2,
+          "potential": 238.7,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 219.4,
+          "potential": 257.6,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 222.0,
+          "potential": 252.2,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 205.4,
+          "potential": 269.0,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 149.0,
+          "potential": 185.2,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 186.0,
+          "potential": 237.9,
+          "record": "11-19-1",
+          "ap": 11.5,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 219.6,
+          "potential": 254.2,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 268.1,
+          "potential": 283.2,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 229.4,
+          "potential": 298.6,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        }
+      ],
+      "2": [
+        {
+          "id": "0001",
+          "points": 251.9,
+          "potential": 259.3,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 225.8,
+          "potential": 257.9,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 205.4,
+          "potential": 315.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 154.5,
+          "potential": 190.7,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 236.1,
+          "potential": 290.3,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 133.7,
+          "potential": 174.2,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 211.9,
+          "potential": 248.5,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 103.4,
+          "potential": 167.5,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 239.5,
+          "potential": 263.9,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 183.9,
+          "potential": 228.4,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 236.8,
+          "potential": 297.1,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 194.5,
+          "potential": 264.7,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 181.5,
+          "potential": 217.0,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 193.0,
+          "potential": 248.0,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 170.2,
+          "potential": 212.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 171.7,
+          "potential": 226.0,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 177.5,
+          "potential": 259.5,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 245.6,
+          "potential": 262.8,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 140.3,
+          "potential": 189.3,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 206.3,
+          "potential": 260.8,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 205.4,
+          "potential": 232.6,
+          "record": "18-12-1",
+          "ap": 18.5,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 161.3,
+          "potential": 205.6,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 187.2,
+          "potential": 247.3,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 153.8,
+          "potential": 192.6,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 214.3,
+          "potential": 250.9,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 208.2,
+          "potential": 252.9,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 291.8,
+          "potential": 348.9,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 182.8,
+          "potential": 241.2,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 236.6,
+          "potential": 272.9,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 122.8,
+          "potential": 173.0,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 170.7,
+          "potential": 192.3,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 155.1,
+          "potential": 258.0,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        }
+      ],
+      "3": [
+        {
+          "id": "0001",
+          "points": 197.8,
+          "potential": 273.4,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 234.4,
+          "potential": 280.9,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 185.5,
+          "potential": 237.8,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 240.4,
+          "potential": 278.2,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 263.0,
+          "potential": 319.5,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 168.2,
+          "potential": 231.8,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 209.4,
+          "potential": 223.8,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 137.7,
+          "potential": 190.5,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 185.8,
+          "potential": 219.5,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 186.7,
+          "potential": 234.2,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 236.3,
+          "potential": 298.9,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 145.4,
+          "potential": 213.7,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 222.2,
+          "potential": 246.3,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 137.3,
+          "potential": 190.9,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 222.5,
+          "potential": 282.4,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 222.8,
+          "potential": 268.2,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 183.8,
+          "potential": 239.1,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 274.7,
+          "potential": 310.7,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 175.6,
+          "potential": 215.7,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 235.7,
+          "potential": 261.8,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 204.2,
+          "potential": 260.2,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 165.4,
+          "potential": 237.1,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 161.8,
+          "potential": 196.5,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 208.2,
+          "potential": 240.4,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 217.1,
+          "potential": 278.3,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 206.2,
+          "potential": 229.7,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 252.4,
+          "potential": 311.2,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 141.2,
+          "potential": 192.3,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 276.8,
+          "potential": 302.6,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 166.5,
+          "potential": 200.2,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 172.1,
+          "potential": 213.5,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 202.1,
+          "potential": 236.1,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        }
+      ],
+      "4": [
+        {
+          "id": "0001",
+          "points": 141.5,
+          "potential": 234.7,
+          "record": "1-30-0",
+          "ap": 1.0,
+          "rank": 31,
+          "tied": false
+        },
+        {
+          "id": "0002",
+          "points": 177.1,
+          "potential": 255.9,
+          "record": "8-23-0",
+          "ap": 8.0,
+          "rank": 24,
+          "tied": false
+        },
+        {
+          "id": "0003",
+          "points": 197.4,
+          "potential": 236.1,
+          "record": "18-13-0",
+          "ap": 18.0,
+          "rank": 14,
+          "tied": false
+        },
+        {
+          "id": "0004",
+          "points": 219.8,
+          "potential": 268.8,
+          "record": "23-8-0",
+          "ap": 23.0,
+          "rank": 9,
+          "tied": false
+        },
+        {
+          "id": "0005",
+          "points": 224.3,
+          "potential": 255.6,
+          "record": "25-6-0",
+          "ap": 25.0,
+          "rank": 7,
+          "tied": false
+        },
+        {
+          "id": "0006",
+          "points": 163.1,
+          "potential": 267.7,
+          "record": "5-26-0",
+          "ap": 5.0,
+          "rank": 27,
+          "tied": false
+        },
+        {
+          "id": "0007",
+          "points": 183.9,
+          "potential": 222.8,
+          "record": "9-22-0",
+          "ap": 9.0,
+          "rank": 23,
+          "tied": false
+        },
+        {
+          "id": "0008",
+          "points": 129.4,
+          "potential": 202.9,
+          "record": "0-31-0",
+          "ap": 0.0,
+          "rank": 32,
+          "tied": false
+        },
+        {
+          "id": "0009",
+          "points": 261.9,
+          "potential": 299.5,
+          "record": "29-2-0",
+          "ap": 29.0,
+          "rank": 3,
+          "tied": false
+        },
+        {
+          "id": "0010",
+          "points": 191.8,
+          "potential": 229.9,
+          "record": "16-15-0",
+          "ap": 16.0,
+          "rank": 16,
+          "tied": false
+        },
+        {
+          "id": "0011",
+          "points": 191.1,
+          "potential": 275.0,
+          "record": "15-16-0",
+          "ap": 15.0,
+          "rank": 17,
+          "tied": false
+        },
+        {
+          "id": "0012",
+          "points": 232.0,
+          "potential": 272.5,
+          "record": "27-4-0",
+          "ap": 27.0,
+          "rank": 5,
+          "tied": false
+        },
+        {
+          "id": "0013",
+          "points": 212.4,
+          "potential": 253.0,
+          "record": "20-11-0",
+          "ap": 20.0,
+          "rank": 12,
+          "tied": false
+        },
+        {
+          "id": "0014",
+          "points": 156.8,
+          "potential": 205.0,
+          "record": "3-28-0",
+          "ap": 3.0,
+          "rank": 29,
+          "tied": false
+        },
+        {
+          "id": "0015",
+          "points": 174.7,
+          "potential": 224.7,
+          "record": "7-24-0",
+          "ap": 7.0,
+          "rank": 25,
+          "tied": false
+        },
+        {
+          "id": "0016",
+          "points": 235.2,
+          "potential": 279.8,
+          "record": "28-3-0",
+          "ap": 28.0,
+          "rank": 4,
+          "tied": false
+        },
+        {
+          "id": "0017",
+          "points": 221.1,
+          "potential": 252.1,
+          "record": "24-7-0",
+          "ap": 24.0,
+          "rank": 8,
+          "tied": false
+        },
+        {
+          "id": "0018",
+          "points": 186.8,
+          "potential": 216.5,
+          "record": "11-20-0",
+          "ap": 11.0,
+          "rank": 21,
+          "tied": false
+        },
+        {
+          "id": "0019",
+          "points": 159.4,
+          "potential": 244.9,
+          "record": "4-27-0",
+          "ap": 4.0,
+          "rank": 28,
+          "tied": false
+        },
+        {
+          "id": "0020",
+          "points": 291.2,
+          "potential": 335.0,
+          "record": "31-0-0",
+          "ap": 31.0,
+          "rank": 1,
+          "tied": false
+        },
+        {
+          "id": "0021",
+          "points": 149.2,
+          "potential": 219.0,
+          "record": "2-29-0",
+          "ap": 2.0,
+          "rank": 30,
+          "tied": false
+        },
+        {
+          "id": "0022",
+          "points": 171.8,
+          "potential": 183.0,
+          "record": "6-25-0",
+          "ap": 6.0,
+          "rank": 26,
+          "tied": false
+        },
+        {
+          "id": "0023",
+          "points": 217.9,
+          "potential": 320.5,
+          "record": "22-9-0",
+          "ap": 22.0,
+          "rank": 10,
+          "tied": false
+        },
+        {
+          "id": "0024",
+          "points": 186.4,
+          "potential": 237.2,
+          "record": "10-21-0",
+          "ap": 10.0,
+          "rank": 22,
+          "tied": false
+        },
+        {
+          "id": "0025",
+          "points": 214.7,
+          "potential": 292.9,
+          "record": "21-10-0",
+          "ap": 21.0,
+          "rank": 11,
+          "tied": false
+        },
+        {
+          "id": "0026",
+          "points": 194.7,
+          "potential": 226.1,
+          "record": "17-14-0",
+          "ap": 17.0,
+          "rank": 15,
+          "tied": false
+        },
+        {
+          "id": "0027",
+          "points": 187.2,
+          "potential": 229.6,
+          "record": "12-19-0",
+          "ap": 12.0,
+          "rank": 20,
+          "tied": false
+        },
+        {
+          "id": "0028",
+          "points": 229.6,
+          "potential": 251.3,
+          "record": "26-5-0",
+          "ap": 26.0,
+          "rank": 6,
+          "tied": false
+        },
+        {
+          "id": "0029",
+          "points": 188.9,
+          "potential": 243.3,
+          "record": "13-18-0",
+          "ap": 13.0,
+          "rank": 19,
+          "tied": false
+        },
+        {
+          "id": "0030",
+          "points": 189.9,
+          "potential": 216.0,
+          "record": "14-17-0",
+          "ap": 14.0,
+          "rank": 18,
+          "tied": false
+        },
+        {
+          "id": "0031",
+          "points": 270.7,
+          "potential": 333.0,
+          "record": "30-1-0",
+          "ap": 30.0,
+          "rank": 2,
+          "tied": false
+        },
+        {
+          "id": "0032",
+          "points": 212.0,
+          "potential": 233.0,
+          "record": "19-12-0",
+          "ap": 19.0,
+          "rank": 13,
+          "tied": false
+        }
+      ]
+    }
+  },
+  "outlooks": {
+    "1": {
+      "kind": "reconstructed",
+      "published_at": "2026-10-09T05:43:01.368947+00:00",
+      "status": "official"
+    },
+    "2": {
+      "kind": "reconstructed",
+      "published_at": "2026-10-09T05:43:01.368947+00:00",
+      "status": "official"
+    },
+    "3": {
+      "kind": "reconstructed",
+      "published_at": "2026-10-09T05:43:01.368947+00:00",
+      "status": "official"
+    },
+    "4": {
+      "kind": "published",
+      "published_at": "2026-10-09T15:03:21.295485+00:00",
+      "status": "official"
     }
   }
 }
