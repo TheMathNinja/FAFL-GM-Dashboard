@@ -55,3 +55,23 @@ class SharedQuarterlyTests(unittest.TestCase):
    with patch.object(model,'draw_future',return_value=np.full((100,8,32),999.)):
     after=shared.forecast(ROOT,self.current(),'ADL',2026,4,100,primary)
   np.testing.assert_array_equal(before['native_future'],after['native_future'])
+
+ def test_fafl_reg_season_uses_normal_scores_and_shared_credits(self):
+  params=(np.linspace(110,170,32),30.,12.,np.full(32,30.),{'model':'fafl_current_t5'})
+  with patch.object(model,'fafl_parameters',return_value=params):
+   result=shared.forecast(ROOT,self.current(),'FAFL',2026,4,400)
+  future=shared.native_normal_future(params[0],params[1],params[2],2026,4,400)
+  expected=model.event_forecasts(result['s'],result['p'],4,future,params[3],'FAFL',future+30)['All-Season']
+  np.testing.assert_array_equal(result['events']['All-Season']['probabilities'],expected['probabilities'])
+  np.testing.assert_allclose(result['reg_season_credits'].mean(0),expected['probabilities'][:,2]+.5*expected['probabilities'][:,1])
+  self.assertEqual(result['model']['reg_season_model'],'fafl_native_normal')
+  np.testing.assert_array_equal(result['quarterly_credits'],np.stack([model.segment_samples(result['s'],result['p'],4,result['future'],params[3],'FAFL',a,b,result['future_potential'])[1]/2 for _,a,b in model.EVENTS[:4]],axis=1))
+ def test_shared_reg_season_changes_only_bonus_credits(self):
+  from rules import fafl_outcomes
+  rng=np.random.default_rng(10);scores=rng.normal(150,35,(10,12,32));pot=scores+30
+  opp=np.tile(np.arange(32)^1,(12,1));conf=[np.arange(16),np.arange(16,32)];div=[np.arange(i,i+4) for i in range(0,32,4)]
+  old=fafl_outcomes(scores,pot,opp,conf,div)
+  original=model.segment_samples(scores[0,:0],pot[0,:0],0,scores,np.full(32,30.),'FAFL',0,12)[1]/2
+  replacement=np.roll(original,1,axis=1);new=fafl_outcomes(scores,pot,opp,conf,div,reg_season_credits=replacement)
+  np.testing.assert_allclose(new[3]-old[3],replacement-original)
+  np.testing.assert_array_equal(new[4],old[4]);np.testing.assert_array_equal(new[5],old[5])

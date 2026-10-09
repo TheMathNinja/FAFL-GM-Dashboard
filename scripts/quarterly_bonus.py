@@ -30,6 +30,15 @@ def forecast(root,current,league,season,week,n=DEFAULT_SIMULATIONS,primary=None)
   model={**model,"potential_points":pair_metadata}
  else:mu=s.mean(0);sigma=tau=0.;gap=np.zeros(32);model={'model':'completed','training_years':[]};future=np.zeros((n,0,32));future_potential=future.copy()
  events=e.event_forecasts(s,p,week,future,gap,league,future_potential)
+ # FAFL Reg Season: native Normal scoring, shared stochastic Potential pairs.
+ if league=='FAFL' and week<12:
+  rs_future=native_normal_future(mu,sigma,tau,season,week,n)
+  rs_pairs,rs_pair_metadata=future_pairs(root,current,league,season,week,rs_future)
+  events['All-Season']=e.event_forecasts(s,p,week,rs_future,gap,league,rs_pairs[...,1])['All-Season']
+  model={**model,'reg_season_model':'fafl_native_normal','reg_season_distribution':'normal','reg_season_potential_points':rs_pair_metadata}
+ else:rs_future=future;rs_pairs=np.stack([future,future_potential],axis=-1)
+ reg_season_credits=e.segment_samples(s,p,week,rs_future,gap,league,0,12,rs_pairs[...,1])[1]/2
+ if not np.allclose(reg_season_credits.sum(1),16):raise ValueError('Invalid shared Reg Season credits')
  credits=np.stack([e.segment_samples(s,p,week,future,gap,league,a,b,future_potential)[1]/2 for _,a,b in e.EVENTS[:4]],axis=1)
  if not np.allclose(credits.sum(2),16):raise ValueError('Invalid shared quarterly totals')
  native=future
@@ -37,7 +46,7 @@ def forecast(root,current,league,season,week,n=DEFAULT_SIMULATIONS,primary=None)
   order=[primary['ids'].index(t) for t in ids];pmu=np.asarray(primary['mu'])[order]
   # Couple the normal playoff draws to the same latent shocks used by Bonus.
   native=native_normal_future(pmu,primary['sigma'],primary['tau'],season,week,n)
- return dict(ids=ids,s=s,p=p,mu=mu,sigma=sigma,tau=tau,gap=gap,model=model,future=future,future_potential=future_potential,native_future=native,events=events,quarterly_credits=credits)
+ return dict(ids=ids,s=s,p=p,mu=mu,sigma=sigma,tau=tau,gap=gap,model=model,future=future,future_potential=future_potential,native_future=native,events=events,quarterly_credits=credits,reg_season_credits=reg_season_credits)
 
 def main():
  parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,required=True);parser.add_argument('--current',type=Path,required=True);parser.add_argument('--primary',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);parser.add_argument('--season',type=int,required=True);parser.add_argument('--week',type=int,required=True);parser.add_argument('--simulations',type=int,default=DEFAULT_SIMULATIONS);a=parser.parse_args()

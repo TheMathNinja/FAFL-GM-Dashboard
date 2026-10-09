@@ -196,7 +196,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   details['quarterly_bonus_model']=quarterly['model']
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
   potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),future+(pmu-mu)],axis=1)
-  q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div,quarterly_credits=shared_credits)
+  q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div,quarterly_credits=shared_credits,reg_season_credits=quarterly['reg_season_credits'][:,shared_order])
   swing_started=time.perf_counter()
   swing=playoff_swing_rows(q,future,opp,meta,week)
   details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
@@ -217,8 +217,8 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
    ranks=np.empty(32,dtype=int);ranks[order[0]]=np.arange(1,33)
    completed_bonus_details[label]=(ap_week[0,a:b].sum(0),ranks)
  if quarterly is not None:
-  for label,a,b in bonus_specs[:4]:
-   prob=quarterly['events'][label.split()[0]]['probabilities'][shared_order]
+  for label,a,b in bonus_specs:
+   prob=quarterly['events']['All-Season' if label.startswith('Regular Season') else label.split()[0]]['probabilities'][shared_order]
    bonus_prob[label]=prob[:,2]+.5*prob[:,1]
  # Fully unplayed quarters are exchangeable. Pool their displayed Monte Carlo
  # estimates, preserving every team's combined expected Bonus Games exactly.

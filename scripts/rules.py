@@ -27,7 +27,7 @@ def rank_field(wins,ap,pts,pot,credits,opp,conf,div):
  return q,dw,seed
 
 
-def fafl_outcomes(scores,potweek,opp,conf,div,quarterly_credits=None):
+def fafl_outcomes(scores,potweek,opp,conf,div,quarterly_credits=None,reg_season_credits=None):
  ap=((scores[:,:,:,None]>scores[:,:,None,:]).sum(-1)+.5*((scores[:,:,:,None]==scores[:,:,None,:]).sum(-1)-1))
  other=np.take_along_axis(scores,np.broadcast_to(opp,scores.shape),axis=2)
  credits=(scores>other)+.5*(scores==other);wins=credits.sum(1);pts=scores.sum(1);aps=ap.sum(1)
@@ -37,6 +37,9 @@ def fafl_outcomes(scores,potweek,opp,conf,div,quarterly_credits=None):
    bonus=quarterly_credits[:,quarter]
    if bonus.shape!=wins.shape or not np.allclose(bonus.sum(1),16):raise ValueError('Invalid shared quarterly credits')
    wins+=bonus;continue
+  if quarter==4 and reg_season_credits is not None:
+   if reg_season_credits.shape!=wins.shape or not np.allclose(reg_season_credits.sum(1),16):raise ValueError('Invalid shared Reg Season credits')
+   wins+=reg_season_credits;continue
   order=orderkeys(-ap[:,a:b].sum(1),-scores[:,a:b].sum(1),-potweek[:,a:b].sum(1))
   bonus=np.zeros_like(wins);rr=np.arange(len(wins))[:,None]
   bonus[rr,order[:,:15]]=1;bonus[rr,order[:,15:17]]=.5;wins+=bonus
