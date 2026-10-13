@@ -1,12 +1,12 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "through_week": 4,
-  "run_id": "37817368630",
+  "through_week": 5,
+  "run_id": "38346304353",
   "status": "success",
-  "verified_at": "2026-10-08T17:34:00.965706+00:00",
+  "verified_at": "2026-10-13T04:31:55.660858+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "73424c8f849d7272e42251a7a211492604ca3c3bee740f6ea3b2971dc9b08259",
+  "source_sha256": "37a405b9533d8e9ed8909bf9556f158dd6db78aa3bfb5d97d2ed1008bc1a2cf6",
   "awards": {
     "Week 1": [
       "WAS",
@@ -49,14 +49,14 @@
       "NYJ"
     ],
     "Week 5": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "LAR",
+      "NYG",
+      "CHI",
+      "LAR",
+      "CIN",
+      "HOU",
+      "LAC",
+      "CIN"
     ],
     "Week 6": [
       "",
@@ -241,11 +241,11 @@
   },
   "logos": {
     "status": "success",
-    "run_id": "37817368630",
-    "source_sha256": "73424c8f849d7272e42251a7a211492604ca3c3bee740f6ea3b2971dc9b08259",
-    "week": 4,
-    "images": 40,
-    "verified_at": "2026-10-08T17:33:59.419Z"
+    "run_id": "38346304353",
+    "source_sha256": "37a405b9533d8e9ed8909bf9556f158dd6db78aa3bfb5d97d2ed1008bc1a2cf6",
+    "week": 5,
+    "images": 48,
+    "verified_at": "2026-10-13T04:31:54.117Z"
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
   "published_images_verified": true
