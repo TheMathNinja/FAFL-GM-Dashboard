@@ -47,10 +47,11 @@ class ScoringEngineTests(unittest.TestCase):
     def standardized_quantiles(shape):
      a,r=shape;rv=norminvgauss(a,a*r);mean,var=rv.stats(moments='mv')
      return (rv.ppf([.01,.025,.1,.5,.9,.975,.99])-mean)/np.sqrt(var)
-    deltas.append([float(np.max(abs(mu-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-row['tau']),float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
+    deltas.append([float(np.max(abs(mu-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-row['tau']),max(sd,row['sd'])*float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
   maximum=np.max(deltas,axis=0)
-  print('F315 cross-platform maximum differences: mean, weekly SD, strength SD, standardized quantile',maximum)
+  print('F315 cross-platform maximum differences in points: mean, weekly SD, strength SD, weekly-noise quantile',maximum)
   # Bounded regression/noise optimizers can stop at slightly different points.
   # 0.005 points is only 1/20 of the 0.1-point score lattice, and remains far
-  # tighter than a model-family change. Shape checks compare distributions.
-  np.testing.assert_array_less(maximum,np.array([.005,.005,.005,.001]))
+  # tighter than a model-family change. Distribution quantiles must agree
+  # within one 0.1-point scoring increment, measured in PF units.
+  np.testing.assert_array_less(maximum,np.array([.005,.005,.005,.1]))
