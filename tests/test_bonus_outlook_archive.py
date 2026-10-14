@@ -17,6 +17,10 @@ class OutlookArchiveTests(unittest.TestCase):
   new['weeks']['1']['value']='mutation';self.assertNotEqual(new['weeks']['1'],old['weeks']['1'])
  def test_legacy_reconstructions_use_current_model(self):
   old=payload();old['outlooks']['1']={'kind':'reconstructed'};new=payload();new['models']['1']={'new_model':True};merge_outlooks(new,old);self.assertEqual(new['models']['1'],{'new_model':True})
+ def test_fafl_model_revision_rebuilds_older_outlooks(self):
+  old=payload();new=payload();old['league']=new['league']='FAFL';old['models']['1']={'version':'old'};new['models']['1']={'version':'new'};new['weeks']['1']={'updated':True};merge_outlooks(new,old);self.assertEqual(new['models']['1']['version'],'new');self.assertEqual(new['weeks']['1'],{'updated':True})
+ def test_fafl_matching_source_revision_preserves_saved_outlook(self):
+  old=payload();new=payload();old['league']=new['league']='FAFL';old['models']['1']=new['models']['1']={'version':'same','source_signature':'same'};new['weeks']['1']={'updated':True};merge_outlooks(new,old);self.assertEqual(new['weeks']['1'],old['weeks']['1'])
  def test_active_week_can_refresh(self):
   old=payload();new=payload();new['models']['4']={'new_model':True};merge_outlooks(new,old);self.assertEqual(new['models']['4'],{'new_model':True})
  def test_last_week_freezes_on_advance(self):

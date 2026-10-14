@@ -31,11 +31,13 @@ def adl_parameters(data,year,week):
  gap=np.maximum(0,(data[year][2][:week]-data[year][1][:week]).mean(0))
  return mu,sigma,tau,gap,dict(model='adl_blend_persistent',distribution='normal',training_years=train)
 def fafl_parameters(root,current,year,week):
- import build as native
- native.ROOT=root
- history=native.historical();links=native.load_links();seen=current[current.week<=week].copy();pred,details=native.fit_means(history,seen,year,week,links);ids=sorted(seen.franchise_id.unique());s=seen.pivot(index='week',columns='franchise_id',values='points').reindex(index=range(1,week+1),columns=ids).to_numpy();past=history[(history.season>=2021)&(history.season<year)&(history.week<=12)].groupby(['season','franchise_id']).points.std().to_numpy();sigma=float(np.nanmean(np.r_[past,s.std(0,ddof=1) if week>1 else []]));tau=native.strength_uncertainty(history,year,week,links)
- return pred[:,0],sigma,tau,pred[:,1]-pred[:,0],dict(model='fafl_current_t5',distribution='Student-t',df=5,training_years=details['training_years'])
-def draw_future(mu,sigma,tau,league,season,week,n):
+ from scoring_engine import parameters
+ return parameters(root,current,year,week)
+
+def draw_future(mu,sigma,tau,league,season,week,n,model=None):
+ if league=="FAFL" and model and model.get("version"):
+  from scoring_engine import future
+  return future(mu,sigma,tau,model,season,week,n)
  if n<2 or n%2:raise ValueError('Simulations must be a positive even number')
  rng=np.random.default_rng(890817+season*100+week);z=rng.normal(size=(n//2,12-week,32));offset=rng.normal(size=(n//2,1,32))
  if league=='FAFL':z*=np.sqrt(3/rng.chisquare(5,size=z.shape))
@@ -57,7 +59,7 @@ def event_forecasts(s,p,w,future,gap,league,future_potential=None):
   result[label]=dict(probabilities=prob,expected_ap=aps.mean(0),win_cutoff=float(cut[:,0].mean()),tie_cutoff=float(cut[:,1].mean()),win_low=float(q[0,0]),win_high=float(q[1,0]),tie_low=float(q[0,1]),tie_high=float(q[1,1]))
  # Unstarted quarters are exchangeable. Pool only their marginal summaries;
  # keep separate simulated outcomes for correct season/playoff dependence.
- labels=[label for label,a,b in EVENTS[:4] if a>=w]
+ labels=[label for label,a,b in EVENTS[:4] if a>=w] if league!='FAFL' else []
  if len(labels)>1:
   pooled={key:np.mean([result[label][key] for label in labels],axis=0) for key in result[labels[0]]}
   for label in labels:result[label]={key:value.copy() if isinstance(value,np.ndarray) else float(value) for key,value in pooled.items()}

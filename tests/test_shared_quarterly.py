@@ -56,15 +56,16 @@ class SharedQuarterlyTests(unittest.TestCase):
     after=shared.forecast(ROOT,self.current(),'ADL',2026,4,100,primary)
   np.testing.assert_array_equal(before['native_future'],after['native_future'])
 
- def test_fafl_reg_season_uses_normal_scores_and_shared_credits(self):
+ def test_fafl_all_five_games_use_identical_score_paths(self):
   params=(np.linspace(110,170,32),30.,12.,np.full(32,30.),{'model':'fafl_current_t5'})
   with patch.object(model,'fafl_parameters',return_value=params):
    result=shared.forecast(ROOT,self.current(),'FAFL',2026,4,400)
-  future=shared.native_normal_future(params[0],params[1],params[2],2026,4,400)
+  future=result['future']
+  self.assertIs(result['native_future'],future)
   expected=model.event_forecasts(result['s'],result['p'],4,future,params[3],'FAFL',future+30)['All-Season']
   np.testing.assert_array_equal(result['events']['All-Season']['probabilities'],expected['probabilities'])
   np.testing.assert_allclose(result['reg_season_credits'].mean(0),expected['probabilities'][:,2]+.5*expected['probabilities'][:,1])
-  self.assertEqual(result['model']['reg_season_model'],'fafl_native_normal')
+  np.testing.assert_array_equal(result['reg_season_credits'],model.segment_samples(result['s'],result['p'],4,future,params[3],'FAFL',0,12,result['future_potential'])[1]/2)
   np.testing.assert_array_equal(result['quarterly_credits'],np.stack([model.segment_samples(result['s'],result['p'],4,result['future'],params[3],'FAFL',a,b,result['future_potential'])[1]/2 for _,a,b in model.EVENTS[:4]],axis=1))
  def test_shared_reg_season_changes_only_bonus_credits(self):
   from rules import fafl_outcomes

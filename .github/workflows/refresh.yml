@@ -70,6 +70,7 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         run: |
           pip install -r requirements.txt
+          python scripts/fit_fafl_scoring.py --root . --all-seasons
           python scripts/check_weekly_workflow_order.py
           python -m unittest discover -s tests -v
       - name: Capture player-score baseline before refresh
@@ -81,6 +82,10 @@ jobs:
       - name: Scrape and validate the shared MFL source
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --stage source --status '${{ steps.schedule.outputs.score_status }}'
+      - name: Refresh scoring-model forecast bye inputs
+        if: steps.schedule.outputs.should_run == 'true'
+        run: python scripts/forecast_byes.py --root . --refresh-current
+
       - name: Build comparison-only Elo shadow
         id: elo_shadow
         continue-on-error: true

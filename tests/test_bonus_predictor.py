@@ -11,7 +11,9 @@ class BonusPredictorTests(unittest.TestCase):
  def test_unstarted_quarters_and_no_future_truth(self):
   rng=np.random.default_rng(19);s=rng.normal(150,30,(12,32));p=s+10;future=e.draw_future(np.full(32,150.),30,8,'FAFL',2026,4,2000);a=e.event_forecasts(s,p,4,future,np.ones(32)*10,'FAFL');s[4:]=np.nan;p[4:]=np.nan;b=e.event_forecasts(s,p,4,future,np.ones(32)*10,'FAFL')
   for label in a:np.testing.assert_array_equal(a[label]['probabilities'],b[label]['probabilities'])
-  np.testing.assert_array_equal(a['Q3']['probabilities'],a['Q4']['probabilities']);self.assertEqual(a['Q3']['win_cutoff'],a['Q4']['win_cutoff'])
+  for label,start,end in e.EVENTS[2:4]:
+   _,out=e.segment_samples(s,p,4,future,np.ones(32)*10,'FAFL',start,end)
+   np.testing.assert_array_equal(a[label]['probabilities'],np.stack([(out==k).mean(0) for k in range(3)],axis=1))
  def test_t5_same_center_and_variance(self):
   mu=np.full(32,10000.);a=e.draw_future(mu,30,0,'FAFL',2026,9,20000)-mu;b=e.draw_future(mu,30,0,'ADL',2026,9,20000)-mu
   self.assertAlmostEqual(a.mean(),0,places=10);self.assertAlmostEqual(b.mean(),0,places=10);self.assertLess(abs(a.var()/900-1),.03);self.assertGreater(np.mean(abs(a)>120),np.mean(abs(b)>120))

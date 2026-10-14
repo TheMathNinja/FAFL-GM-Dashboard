@@ -1,0 +1,192 @@
+{
+  "2023": {
+    "source_signature": "ef30e4b9912e97951b91b249243df5350c4e7268d22b22910cb908ff965ddbe9",
+    "version": "fafl-f315-native-player-byes-nig-v1",
+    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "family": "NIG",
+    "forecast_season": 2023,
+    "mean_training_years": [
+      2021,
+      2022
+    ],
+    "noise_training_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "uncertainty_training_years": [
+      2022
+    ],
+    "bye_coefficient": 0.2860320223278436,
+    "weekly_variance": 0.03136546890203402,
+    "posterior_variance": {
+      "1": 0.0072955749910896634,
+      "2": 0.007000231459064023,
+      "3": 0.006310365395624921,
+      "4": 0.008749832963879512,
+      "5": 0.009010748802253964,
+      "6": 0.009298156018470938,
+      "7": 0.008997468725480965,
+      "8": 0.005572730317626423,
+      "9": 0.0016365579471263579,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "shape": [
+      40.236717717027304,
+      -0.3044083361041747
+    ],
+    "loss": -0.25930190788688035,
+    "converged": true,
+    "growth_factor": 0.0
+  },
+  "2024": {
+    "source_signature": "eb519f3df56a440511c8d2b8430f4701b671f8a6de735ccfc43856d61f7c930d",
+    "version": "fafl-f315-native-player-byes-nig-v1",
+    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "family": "NIG",
+    "forecast_season": 2024,
+    "mean_training_years": [
+      2021,
+      2022,
+      2023
+    ],
+    "noise_training_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "uncertainty_training_years": [
+      2022,
+      2023
+    ],
+    "bye_coefficient": 0.2939672329403711,
+    "weekly_variance": 0.036327474171731364,
+    "posterior_variance": {
+      "1": 0.006345576983788861,
+      "2": 0.005191677992943812,
+      "3": 0.004372733195234082,
+      "4": 0.00483553649812912,
+      "5": 0.005595568994661039,
+      "6": 0.005031746055813442,
+      "7": 0.004123213620248334,
+      "8": 0.002692020482430723,
+      "9": 0.005339273563257886,
+      "10": 0.0003173042166877772,
+      "11": 0.0
+    },
+    "shape": [
+      49.16457745497627,
+      0.5808986421553785
+    ],
+    "loss": -0.20325801068773466,
+    "converged": true,
+    "growth_factor": 0.0
+  },
+  "2025": {
+    "source_signature": "26807fb01bf01ccfd333a829e20b4b56118d86999a76eb2f3b9b898ffe587d60",
+    "version": "fafl-f315-native-player-byes-nig-v1",
+    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "family": "NIG",
+    "forecast_season": 2025,
+    "mean_training_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "noise_training_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "uncertainty_training_years": [
+      2022,
+      2023,
+      2024
+    ],
+    "bye_coefficient": 0.29516950428155786,
+    "weekly_variance": 0.035468525011554626,
+    "posterior_variance": {
+      "1": 0.006644656490444704,
+      "2": 0.005134075294924813,
+      "3": 0.0036299522403752484,
+      "4": 0.004419409633978175,
+      "5": 0.00406178842460935,
+      "6": 0.003920452042443728,
+      "7": 0.0032751016316983567,
+      "8": 0.002111184052187626,
+      "9": 0.004052554101117813,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "shape": [
+      24.249381266836902,
+      0.42449655218429666
+    ],
+    "loss": -0.21833416839259973,
+    "converged": true,
+    "growth_factor": 0.0
+  },
+  "2026": {
+    "source_signature": "1b1921c367d057fab0a612231bd6b2cd6428aaf61646e2fcd03fb158eaa35ec2",
+    "version": "fafl-f315-native-player-byes-nig-v1",
+    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "family": "NIG",
+    "forecast_season": 2026,
+    "mean_training_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "noise_training_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "uncertainty_training_years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "bye_coefficient": 0.2960131199488192,
+    "weekly_variance": 0.03698660184196702,
+    "posterior_variance": {
+      "1": 0.00646795646778723,
+      "2": 0.005245491292263927,
+      "3": 0.004128880543057394,
+      "4": 0.0034811990846261237,
+      "5": 0.003163091255046322,
+      "6": 0.002654528364256524,
+      "7": 0.0019024808457524113,
+      "8": 0.0024348039556495596,
+      "9": 0.004904269833997083,
+      "10": 0.005338658064498804,
+      "11": 0.000523069124387998
+    },
+    "shape": [
+      29.163351025024603,
+      0.41652345726490303
+    ],
+    "loss": -0.19739770092204614,
+    "converged": true,
+    "growth_factor": 0.0
+  }
+}

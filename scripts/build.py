@@ -184,24 +184,22 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  if week==12:
   q,dw,seed,wins,ap,credits=today;mu=actual.mean(0);pmu=pot.mean(0)
  else:
-  pred,details=fit_means(history,current,SEASON,week,load_links());mu,pmu=pred.T
-  past=history[(history.season>=2021)&(history.season<SEASON)&(history.week<=12)].groupby(['season','franchise_id']).points.std().to_numpy()
-  obs=actual.std(0,ddof=1) if week>1 else np.array([]);sigma=np.nanmean(np.concatenate([past,obs]))
-  tau=strength_uncertainty(history,SEASON,week,load_links())
-  quarterly=shared.forecast(ROOT,current,'FAFL',SEASON,week,n_sims,
-                            dict(ids=ids,mu=mu.tolist(),sigma=float(sigma),tau=float(tau)))
+  quarterly=shared.forecast(ROOT,current,'FAFL',SEASON,week,n_sims)
+  mu=quarterly['mu'];sigma=quarterly['sigma'];tau=quarterly['tau'];details=dict(quarterly['model'])
   shared_order=[quarterly['ids'].index(t) for t in ids]
+  mu=np.asarray(quarterly['mu']).mean(0)[shared_order]
   future=quarterly['native_future'][:,:,shared_order]
   shared_credits=quarterly['quarterly_credits'][:,:,shared_order]
   details['quarterly_bonus_model']=quarterly['model']
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
-  potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),future+(pmu-mu)],axis=1)
+  potentials=np.concatenate([np.broadcast_to(pot,(n_sims,week,32)),quarterly['future_potential'][:,:,shared_order]],axis=1)
+  pmu=quarterly['future_potential'][:,:,shared_order].mean((0,1))
   q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div,quarterly_credits=shared_credits,reg_season_credits=quarterly['reg_season_credits'][:,shared_order])
   swing_started=time.perf_counter()
   swing=playoff_swing_rows(q,future,opp,meta,week)
   details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
   details['weekly_sigma']=float(sigma)
-  details['strength_uncertainty']={'model':'normal_persistent_no_extra_taper','sd':tau,'multiplier':1.0}
+  details['strength_uncertainty']={'model':'matched_prior_forward_errors_normal_persistent','sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
  projected_q,projected_dw,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
  ap_week=((scores[:,:,:,None]>scores[:,:,None,:]).sum(-1)+.5*((scores[:,:,:,None]==scores[:,:,None,:]).sum(-1)-1))
@@ -223,7 +221,8 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  # Fully unplayed quarters are exchangeable. Pool their displayed Monte Carlo
  # estimates, preserving every team's combined expected Bonus Games exactly.
  # Season outcomes and playoff probabilities retain their original simulations.
- bonus_prob=pool_unstarted_quarter_bonus(bonus_prob,week)
+ # Forecast-week bye losses make unplayed quarters non-exchangeable.
+ # Keep each quarter's own shared-trajectory marginal probabilities.
  if not np.isclose(bonus_prob['Regular Season Bonus Game'].sum(),16,atol=1e-9):
   raise ValueError('Regular Season Bonus Game does not have 16 adjusted wins')
  def team_logo(f):
