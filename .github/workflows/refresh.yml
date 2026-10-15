@@ -83,7 +83,7 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         run: python scripts/build.py --stage source --status '${{ steps.schedule.outputs.score_status }}'
       - name: Refresh scoring-model forecast bye inputs
-        if: steps.schedule.outputs.should_run == 'true'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.score_revision == ''
         run: python scripts/forecast_byes.py --root . --refresh-current
 
       - name: Build comparison-only Elo shadow
@@ -140,7 +140,7 @@ jobs:
       - name: Build selected Bonus Games dashboard
         id: bonus_dashboard
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && steps.playoffs.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.score_revision == '' && steps.playoffs.outcome == 'success'
         run: |
           pip install numpy==2.3.5 pandas==2.3.3
           python -m unittest discover -s tests -p test_bonus_predictor.py -v
@@ -149,7 +149,7 @@ jobs:
           python scripts/verify_quarterly_sync.py --league FAFL --root .
 
       - name: Require synchronized quarterly forecasts before publication
-        if: steps.schedule.outputs.should_run == 'true'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.score_revision == ''
         env:
           PLAYOFF_RESULT: ${{ steps.playoffs.outcome }}
           BONUS_RESULT: ${{ steps.bonus_dashboard.outcome }}
@@ -238,7 +238,7 @@ jobs:
         if: inputs.ready_week != '' && inputs.authorize_official_writes == true && success()
         env:
           SCORE_STATUS: ${{ steps.schedule.outputs.score_status }}
-          COMPONENT_OUTCOMES: "${{ steps.bonus_dashboard.outcome }} ${{ steps.schedule.outputs.score_status != 'official' && 'success' || steps.bonus_mfl.outcome }} ${{ steps.payouts.outcome }} ${{ steps.bonus.outcome }} ${{ steps.playoffs.outcome }} ${{ steps.elo.outcome }} ${{ steps.bracket.outcome }} ${{ steps.deploy.outcome }}"
+          COMPONENT_OUTCOMES: "${{ inputs.score_revision != '' && 'success' || steps.bonus_dashboard.outcome }} ${{ steps.schedule.outputs.score_status != 'official' && 'success' || steps.bonus_mfl.outcome }} ${{ steps.payouts.outcome }} ${{ steps.bonus.outcome }} ${{ steps.playoffs.outcome }} ${{ steps.elo.outcome }} ${{ steps.bracket.outcome }} ${{ steps.deploy.outcome }}"
         run: |
           for outcome in $COMPONENT_OUTCOMES; do
             test "$outcome" = success || { echo "A component did not finish; readiness poll may retry."; exit 1; }
