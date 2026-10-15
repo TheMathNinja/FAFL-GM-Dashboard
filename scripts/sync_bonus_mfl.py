@@ -48,6 +48,28 @@ def main():
                 run_id=os.environ['GITHUB_RUN_ID'], attempt=os.environ.get('GITHUB_RUN_ATTEMPT', '1'), mode='preview' if args.dry_run else 'official', reports=data)
     digest = hashlib.sha256(json.dumps(body, sort_keys=True).encode()).hexdigest()
     body['source_sha256'] = digest
+    receipt_path = ROOT/'data/bonus_mfl_sync_metadata.json'
+    prior = json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
+    due_weeks = [w for w in (3, 6, 9, 12) if w <= week]
+    can_reuse = (
+        not args.dry_run
+        and os.environ.get('REFRESH_PROCESS') == 'corrections'
+        and week not in (3, 6, 9, 12)
+        and prior.get('league') == args.league
+        and prior.get('season') == season
+        and prior.get('mode') == 'official'
+        and prior.get('status') == 'success'
+        and prior.get('due_weeks') == due_weeks
+    )
+    if can_reuse:
+        # A correction to Week 4/5, 7/8, 10/11, or 13+ cannot change a
+        # completed quarterly Bonus Game. The prior MFL receipt remains the
+        # authoritative verification for every currently due period.
+        ack = dict(prior, run_id=body['run_id'], week=week, source_sha256=digest,
+                   reused=True, reused_from_run_id=prior.get('run_id'))
+        receipt_path.write_text(json.dumps(ack, indent=2)+'\n')
+        print(f"{args.league}: reused verified MFL Bonus Games through due weeks {due_weeks}; Week {week} correction cannot change them")
+        return
     ref = gspread.service_account_from_dict(json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_JSON']),
         http_client=gspread.BackOffHTTPClient).open_by_key(BOOKS[args.league]).worksheet('Reference')
     ref.update([[json.dumps(body)]], range_name='Z12', value_input_option='RAW')
@@ -71,7 +93,7 @@ def main():
                 # The sheet acknowledgement remains the authoritative result.
                 pass
         time.sleep(10)
-    (ROOT/'data/bonus_mfl_sync_metadata.json').write_text(json.dumps(ack, indent=2)+'\n')
+    receipt_path.write_text(json.dumps(ack, indent=2)+'\n')
     print(f"{args.league}: MFL Bonus Games {body['mode']} verified through week {week}; due weeks {ack['due_weeks']}")
 
 
