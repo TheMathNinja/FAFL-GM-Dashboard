@@ -3,7 +3,7 @@
   "season": 2026,
   "through_week": 5,
   "status": "official",
-  "updated_at": "2026-10-15T12:51:54.128107+00:00",
+  "updated_at": "2026-10-15T13:39:09.475737+00:00",
   "simulations": 12000,
   "weeks": {
     "1": [
@@ -21156,27 +21156,27 @@
   "outlooks": {
     "1": {
       "kind": "reconstructed",
-      "published_at": "2026-10-15T12:51:54.128107+00:00",
+      "published_at": "2026-10-15T13:39:09.475737+00:00",
       "status": "official"
     },
     "2": {
       "kind": "reconstructed",
-      "published_at": "2026-10-15T12:51:54.128107+00:00",
+      "published_at": "2026-10-15T13:39:09.475737+00:00",
       "status": "official"
     },
     "3": {
       "kind": "reconstructed",
-      "published_at": "2026-10-15T12:51:54.128107+00:00",
+      "published_at": "2026-10-15T13:39:09.475737+00:00",
       "status": "official"
     },
     "4": {
       "kind": "reconstructed",
-      "published_at": "2026-10-15T12:51:54.128107+00:00",
+      "published_at": "2026-10-15T13:39:09.475737+00:00",
       "status": "official"
     },
     "5": {
       "kind": "published",
-      "published_at": "2026-10-15T12:51:54.128107+00:00",
+      "published_at": "2026-10-15T13:39:09.475737+00:00",
       "status": "official"
     }
   }
