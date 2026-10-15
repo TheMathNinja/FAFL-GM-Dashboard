@@ -233,14 +233,23 @@ def main():
     # Existing over-cell logos require Apps Script. The bridge does no scraping;
     # it acknowledges this exact run only after checking inputs, winners and images.
     ref.update([[json.dumps(request)]], range_name='Z10', value_input_option='RAW')
-    request_bridge()
+    bridge = dict(league=a.league, operation='payouts', run_id=request['run_id'])
+    request_bridge(**bridge)
     for attempt in range(180):
         raw = ref.acell('Z11').value
         ack = json.loads(raw) if raw else {}
-        if ack.get('run_id') == request['run_id'] and ack.get('source_sha256') == digest and ack.get('status') == 'success':
-            break
+        if ack.get('run_id') == request['run_id'] and ack.get('source_sha256') == digest:
+            if ack.get('status') == 'success':
+                break
+            if ack.get('status') == 'failure':
+                raise ValueError('Payout logo verification failed: '+str(ack.get('error')))
         if attempt == 179:
             raise ValueError('Payout logo bridge did not acknowledge this run: '+str(ack.get('error', 'waiting for Apps Script')))
+        if attempt and attempt % 3 == 0:
+            try:
+                request_bridge(attempts=1, **bridge)
+            except RuntimeError:
+                pass
         time.sleep(10)
     public_url = f'https://docs.google.com/spreadsheets/d/e/{PUBLISHED[a.league]}/pubhtml/sheet?headers=false&gid={display.id}'
     for attempt in range(60):

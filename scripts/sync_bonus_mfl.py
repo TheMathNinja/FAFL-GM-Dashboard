@@ -51,7 +51,8 @@ def main():
     ref = gspread.service_account_from_dict(json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_JSON']),
         http_client=gspread.BackOffHTTPClient).open_by_key(BOOKS[args.league]).worksheet('Reference')
     ref.update([[json.dumps(body)]], range_name='Z12', value_input_option='RAW')
-    request_bridge()
+    bridge = dict(league=args.league, operation='bonus_mfl', run_id=body['run_id'])
+    request_bridge(**bridge)
     for attempt in range(90):
         raw = ref.acell('Z13').value
         ack = json.loads(raw) if raw else {}
@@ -62,6 +63,13 @@ def main():
             if ack.get('status') == 'failure':
                 raise ValueError('MFL Bonus Games verification failed: '+str(ack.get('error')))
         if attempt == 89: raise TimeoutError('MFL Bonus Games bridge acknowledgement timed out')
+        if attempt and attempt % 3 == 0:
+            try:
+                request_bridge(attempts=1, **bridge)
+            except RuntimeError:
+                # The web call may time out while Apps Script continues working.
+                # The sheet acknowledgement remains the authoritative result.
+                pass
         time.sleep(10)
     (ROOT/'data/bonus_mfl_sync_metadata.json').write_text(json.dumps(ack, indent=2)+'\n')
     print(f"{args.league}: MFL Bonus Games {body['mode']} verified through week {week}; due weeks {ack['due_weeks']}")

@@ -5,12 +5,12 @@ import time
 import urllib.request
 
 
-def request_bridge(action='refreshGithubPayoutLogos', attempts=6):
+def request_bridge(action='refreshGithubPayoutLogos', attempts=6, **context):
     url = os.environ.get('APPS_SCRIPT_BRIDGE_URL', '').strip()
     token = os.environ.get('APPS_SCRIPT_BRIDGE_TOKEN', '').strip()
     if not url or not token:
         raise RuntimeError('Apps Script bridge URL/token are not configured')
-    payload = json.dumps({'action': action, 'token': token}).encode()
+    payload = json.dumps({'action': action, 'token': token, **context}).encode()
     last_error = None
     for attempt in range(attempts):
         try:

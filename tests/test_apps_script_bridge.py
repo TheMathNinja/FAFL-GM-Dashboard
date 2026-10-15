@@ -33,6 +33,17 @@ class BridgeTests(unittest.TestCase):
         self.assertEqual(urlopen.call_count, 2)
         sleep.assert_called_once_with(5)
 
+    @patch('apps_script_bridge.urllib.request.urlopen')
+    def test_routes_request_to_one_league_and_operation(self, urlopen):
+        urlopen.return_value = self.response()
+        bridge.request_bridge(league='FAFL', operation='payouts', run_id='123')
+        request = urlopen.call_args.args[0]
+        payload = json.loads(request.data)
+        self.assertEqual(payload['league'], 'FAFL')
+        self.assertEqual(payload['operation'], 'payouts')
+        self.assertEqual(payload['run_id'], '123')
+        self.assertEqual(payload['token'], 'secret')
+
     def test_missing_credentials_fail_immediately(self):
         with patch.dict(os.environ, {}, clear=True):
             with self.assertRaisesRegex(RuntimeError, 'not configured'):

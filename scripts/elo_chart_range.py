@@ -218,7 +218,8 @@ def sync_ranges(book, league, expected_week=None, apply=False, output_dir=None, 
                            charts=[dict(chart_id=c['chartId'],title=c['spec']['title'],style=styles[c['spec']['title']])
                                    for c in before if c['chartId'] in {r['updateChartSpec']['chartId'] for r in requests}])
             ref.update_acell('Z14',json.dumps(request))
-            request_bridge()
+            bridge = dict(league=league, operation='elo_chart', run_id=request['request_id'])
+            request_bridge(**bridge)
             for attempt in range(40):
                 raw = ref.acell('Z15').value
                 ack = json.loads(raw) if raw else {}
@@ -226,6 +227,11 @@ def sync_ranges(book, league, expected_week=None, apply=False, output_dir=None, 
                     if ack.get('status') != 'success':
                         raise ValueError('Native range update failed: '+ack.get('error','unknown'))
                     break
+                if attempt and attempt % 2 == 0:
+                    try:
+                        request_bridge(attempts=1, **bridge)
+                    except RuntimeError:
+                        pass
                 time.sleep(15)
             else:
                 raise TimeoutError('Native chart bridge did not acknowledge within 10 minutes')

@@ -21,22 +21,25 @@ function doPost(e) {
     if (!expected || payload.token !== expected || payload.action !== 'refreshGithubPayoutLogos') {
       throw new Error('Unauthorized bridge request');
     }
-    refreshGithubPayoutBridgeScheduled_();
-    return result.setContent(JSON.stringify({status:'success'}));
+    const worked = refreshGithubPayoutBridgeScheduled_(payload.league || '', payload.operation || '');
+    if (!worked) throw new Error('Bridge busy; retry this request');
+    return result.setContent(JSON.stringify({status:'success', league:payload.league || '', operation:payload.operation || ''}));
   } catch (error) {
     return result.setContent(JSON.stringify({status:'failure', error:String(error)}));
   }
 }
 
-function refreshGithubPayoutBridgeScheduled_() {
+function refreshGithubPayoutBridgeScheduled_(targetLeague, targetOperation) {
   const lock = LockService.getScriptLock();
-  if (!lock.tryLock(1000)) return;
+  if (!lock.tryLock(1000)) return false;
   try {
     for (const league of Object.keys(PAYOUTS.books)) {
+      if (targetLeague && league !== targetLeague) continue;
       const book = SpreadsheetApp.openById(PAYOUTS.books[league]);
       const ref = book.getSheetByName('Reference');
-      refreshGithubEloChartRangeBridge_(league, ref);
-      refreshGithubBonusMfl(league, ref);
+      if (!targetOperation || targetOperation === 'elo_chart') refreshGithubEloChartRangeBridge_(league, ref);
+      if (!targetOperation || targetOperation === 'bonus_mfl') refreshGithubBonusMfl(league, ref);
+      if (targetOperation && targetOperation !== 'payouts') continue;
       const raw = ref.getRange('Z10').getValue();
       if (!raw) continue;
       const request = JSON.parse(raw);
@@ -78,6 +81,7 @@ function refreshGithubPayoutBridgeScheduled_() {
         console.error(league+': '+e);
       }
     }
+    return true;
   } finally {lock.releaseLock();}
 }
 
