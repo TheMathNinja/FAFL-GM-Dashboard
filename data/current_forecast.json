@@ -1,11 +1,11 @@
 {
   "season": 2026,
   "through_week": 5,
-  "status": "unofficial",
-  "updated_at": "2026-10-14 13:40 UTC",
+  "status": "official",
+  "updated_at": "2026-10-15 08:06 UTC",
   "simulations": 12000,
   "model": {
-    "source_signature": "78e9ee5bb0b07c08ae7df56c43c17ef5cbec6b18cf268e7bf54dcab28ac22ea6",
+    "source_signature": "295e82ff822a5032feff42b2aca06778144cdfaafeb001fd60b476226e8ba9c5",
     "fit_signature": "402b4311d5719c92fd662121e384b7a90c5364dfb70661335f1aecbcdd5df91f",
     "version": "fafl-f315-native-player-byes-nig-v1",
     "model": "F315: native three-input regression + player forecast byes / matched NIG",
@@ -115,7 +115,7 @@
       ]
     },
     "quarterly_bonus_model": {
-      "source_signature": "78e9ee5bb0b07c08ae7df56c43c17ef5cbec6b18cf268e7bf54dcab28ac22ea6",
+      "source_signature": "295e82ff822a5032feff42b2aca06778144cdfaafeb001fd60b476226e8ba9c5",
       "fit_signature": "402b4311d5719c92fd662121e384b7a90c5364dfb70661335f1aecbcdd5df91f",
       "version": "fafl-f315-native-player-byes-nig-v1",
       "model": "F315: native three-input regression + player forecast byes / matched NIG",
@@ -221,10 +221,10 @@
         ]
       }
     },
-    "playoff_swing_runtime_seconds": 0.01,
+    "playoff_swing_runtime_seconds": 0.005,
     "weekly_sigma": 38.44705427019169,
-    "forecast_runtime_seconds": 17.251,
-    "base_forecast_runtime_seconds": 17.241,
+    "forecast_runtime_seconds": 18.998,
+    "base_forecast_runtime_seconds": 18.993,
     "playoff_swing_matchups": 16
   },
   "conferences": {

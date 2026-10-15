@@ -3212,7 +3212,7 @@
     }
   },
   "models": {
-    "source_signature": "78e9ee5bb0b07c08ae7df56c43c17ef5cbec6b18cf268e7bf54dcab28ac22ea6",
+    "source_signature": "295e82ff822a5032feff42b2aca06778144cdfaafeb001fd60b476226e8ba9c5",
     "fit_signature": "402b4311d5719c92fd662121e384b7a90c5364dfb70661335f1aecbcdd5df91f",
     "version": "fafl-f315-native-player-byes-nig-v1",
     "model": "F315: native three-input regression + player forecast byes / matched NIG",
@@ -4809,8 +4809,8 @@
   },
   "outlooks": {
     "kind": "published",
-    "published_at": "2026-10-14T13:42:07.802281+00:00",
-    "status": "unofficial"
+    "published_at": "2026-10-15T08:08:18.549733+00:00",
+    "status": "official"
   },
   "league": "FAFL",
   "season": 2026,
