@@ -8,7 +8,7 @@ import quarterly_bonus as shared
 from bonus_outlook_archive import DESCRIPTIONS,observed_weeks,merge_outlooks,preserve_playoff_pages
 from datetime import datetime,timezone
 
-def build(league,root,out,N=shared.DEFAULT_SIMULATIONS):
+def build(league,root,out,N=shared.DEFAULT_SIMULATIONS,current_week_only=False):
     previous_path=out/'snapshots.json'
     previous=json.loads(previous_path.read_text(encoding='utf8')) if previous_path.exists() else None
     data={}
@@ -37,11 +37,20 @@ def build(league,root,out,N=shared.DEFAULT_SIMULATIONS):
         history=e.load_adl(root,season);history.update(data);data=history
     names={str(t.get('franchise_id',t.get('id'))).zfill(4):html.unescape(t.get('name','Team')) for t in meta}
     teams={str(t.get('franchise_id',t.get('id'))).zfill(4):t for t in meta}
-    payload=dict(league=league,season=season,through_week=last,status=source.get('status',source.get('score_status','unknown')),updated_at=datetime.now(timezone.utc).isoformat(),simulations=N,weeks={},cutoffs={},models={})
+    stamp=datetime.now(timezone.utc).isoformat()
+    if current_week_only:
+        if not previous or previous.get('league')!=league or previous.get('season')!=season:
+            raise ValueError('Current-week correction requires a matching published Bonus Games snapshot')
+        payload=previous
+        payload.update(through_week=last,status=source.get('status',source.get('score_status','unknown')),updated_at=stamp,simulations=N)
+        for key in ('weeks','cutoffs','models','observations','outlooks'):payload.setdefault(key,{})
+    else:
+        payload=dict(league=league,season=season,through_week=last,status=source.get('status',source.get('score_status','unknown')),updated_at=stamp,simulations=N,weeks={},cutoffs={},models={})
     observed=observed_weeks(ids,s,p)
-    payload['observations']={}
-    payload['outlooks']={}
-    for w in range(1,last+1):
+    if not current_week_only:
+        payload['observations']={}
+        payload['outlooks']={}
+    for w in ([last] if current_week_only else range(1,last+1)):
         payload['observations'][str(w)]={str(j):observed[str(j)] for j in range(1,w+1)}
         payload['outlooks'][str(w)]=dict(kind='published' if w==last else 'reconstructed',published_at=payload['updated_at'],status=payload['status'])
         quarterly=shared.forecast(root,current,league,season,w,N)
@@ -99,6 +108,6 @@ def build(league,root,out,N=shared.DEFAULT_SIMULATIONS):
     (out/'index.html').write_text(template,encoding='utf8')
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--league',choices=['ADL','FAFL'],required=True);parser.add_argument('--root',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);parser.add_argument('--simulations',type=int,default=shared.DEFAULT_SIMULATIONS);a=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--league',choices=['ADL','FAFL'],required=True);parser.add_argument('--root',type=Path,required=True);parser.add_argument('--out',type=Path,required=True);parser.add_argument('--simulations',type=int,default=shared.DEFAULT_SIMULATIONS);parser.add_argument('--current-week-only',action='store_true');a=parser.parse_args()
     assert a.simulations>0 and a.simulations%2==0
-    build(a.league,a.root,a.out,a.simulations)
+    build(a.league,a.root,a.out,a.simulations,a.current_week_only)
