@@ -82,7 +82,9 @@ def official_git_state(week):
 
 def changes(before, after):
     result = {'league': 'FAFL', 'season': after['season'], 'week': after['week'],
-              'run_id': os.environ.get('GITHUB_RUN_ID', ''), 'ext_pr': [], 'all_play': [], 'bonus_games': []}
+              'run_id': os.environ.get('GITHUB_RUN_ID', ''),
+              'score_revision': os.environ.get('SCORE_REVISION', ''),
+              'ext_pr': [], 'all_play': [], 'bonus_games': []}
     for fid in sorted(set(before['all_play']) & set(after['all_play'])):
         old, new = before['all_play'][fid], after['all_play'][fid]
         if old['wins'] != new['wins']:
@@ -97,6 +99,20 @@ def changes(before, after):
     return result
 
 
+def preserve_same_revision_impact(candidate, prior):
+    material = ('ext_pr', 'all_play', 'bonus_games')
+    same_revision = (candidate.get('score_revision') and
+                     candidate.get('score_revision') == prior.get('score_revision') and
+                     candidate.get('league') == prior.get('league') and
+                     candidate.get('season') == prior.get('season') and
+                     candidate.get('week') == prior.get('week'))
+    if same_revision and not any(candidate.get(key) for key in material) and any(prior.get(key) for key in material):
+        preserved = dict(prior)
+        preserved['run_id'] = candidate.get('run_id', '')
+        return preserved
+    return candidate
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('action', choices=('capture', 'compare', 'promote'))
@@ -109,7 +125,9 @@ def main():
             value = official_git_state(args.week) or state(args.week)
         BEFORE.write_text(json.dumps(value, indent=2) + '\n')
     elif args.action == 'compare':
-        OUTPUT.write_text(json.dumps(changes(json.loads(BEFORE.read_text()), state(args.week, True)), indent=2) + '\n')
+        candidate = changes(json.loads(BEFORE.read_text()), state(args.week, True))
+        prior = json.loads(OUTPUT.read_text()) if OUTPUT.exists() else {}
+        OUTPUT.write_text(json.dumps(preserve_same_revision_impact(candidate, prior), indent=2) + '\n')
     else:
         BASELINE.write_text(json.dumps(state(args.week, True), indent=2) + '\n')
 
