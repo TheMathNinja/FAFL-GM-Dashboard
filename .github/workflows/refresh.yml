@@ -219,7 +219,8 @@ jobs:
           git add docs data
           if ! git diff --cached --quiet; then
             git commit -m 'Automated unified FAFL weekly refresh'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
       - uses: actions/configure-pages@v5
         if: steps.schedule.outputs.should_run == 'true'
