@@ -2,8 +2,33 @@
   "league": "FAFL",
   "season": 2026,
   "week": 5,
-  "run_id": "38701389107",
+  "run_id": "38708459954",
   "ext_pr": [],
-  "all_play": [],
+  "all_play": [
+    {
+      "franchise_id": "0004",
+      "franchise": "Washington Commanders",
+      "old_wins": 17,
+      "new_wins": 15
+    },
+    {
+      "franchise_id": "0016",
+      "franchise": "Seattle Seahawks",
+      "old_wins": 14,
+      "new_wins": 16
+    },
+    {
+      "franchise_id": "0020",
+      "franchise": "New York Jets",
+      "old_wins": 15,
+      "new_wins": 17
+    },
+    {
+      "franchise_id": "0030",
+      "franchise": "Kansas City Chiefs",
+      "old_wins": 16,
+      "new_wins": 14
+    }
+  ],
   "bonus_games": []
 }
