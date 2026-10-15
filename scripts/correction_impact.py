@@ -34,7 +34,7 @@ def all_play(weekly, week, root=ROOT):
     selected = [r for r in weekly if int(r['week']) == week]
     scores = {r['franchise_id'].zfill(4): num(r['points']) for r in selected}
     names = {r['franchise_id'].zfill(4): r['franchise_name'] for r in rows(root / 'data/bonus_games.csv')}
-    return {fid: {'name': names.get(fid, fid), 'wins': sum(
+    return {fid: {'name': names.get(fid, fid), 'score': scores[fid], 'wins': sum(
         1 if value > other else .5 if value == other else 0
         for other_id, other in scores.items() if other_id != fid)} for fid, value in scores.items()}
 
@@ -87,7 +87,8 @@ def changes(before, after):
         old, new = before['all_play'][fid], after['all_play'][fid]
         if old['wins'] != new['wins']:
             result['all_play'].append({'franchise_id': fid, 'franchise': new['name'],
-                                       'old_wins': old['wins'], 'new_wins': new['wins']})
+                                       'old_wins': old['wins'], 'new_wins': new['wins'],
+                                       'score_corrected': old.get('score') != new.get('score')})
     for key in sorted(set(before['bonus']) & set(after['bonus'])):
         old, new = before['bonus'][key], after['bonus'][key]
         if old['result'] != new['result']:
