@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 5,
   "status": "official",
-  "updated_at": "2026-10-15 14:41 UTC",
+  "updated_at": "2026-10-15 16:26 UTC",
   "simulations": 12000,
   "model": {
     "source_signature": "c4aebe992033f9d42e119cfd8757fa081784f3b3de6a058904ed4a755fc1c0f2",
@@ -223,8 +223,8 @@
     },
     "playoff_swing_runtime_seconds": 0.007,
     "weekly_sigma": 38.45883342903535,
-    "forecast_runtime_seconds": 17.639,
-    "base_forecast_runtime_seconds": 17.632,
+    "forecast_runtime_seconds": 16.29,
+    "base_forecast_runtime_seconds": 16.283,
     "playoff_swing_matchups": 16
   },
   "conferences": {
