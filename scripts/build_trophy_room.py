@@ -55,6 +55,7 @@ def build():
     result=dict(completedThrough=max(r['season'] for r in history),rosterSeason=roster['season'],champions=sorted(champions,key=lambda c:-c['year']),owners=owners,payouts=sorted(payouts.values(),key=lambda p:p['year']))
     output=ROOT/'docs/trophy-room/data.json';output.parent.mkdir(exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
+    (ROOT/'docs/trophy-room/lineups.json').write_bytes((ROOT/'data/trophy_room/super_bowl_lineups.json').read_bytes())
     print(f'Trophy Room: {len(champions)} seasons, {len(owners)} GM rows, {len(history)} canonical team-seasons')
     return result
 if __name__=='__main__':build()
