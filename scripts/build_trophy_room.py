@@ -67,6 +67,10 @@ def build():
     output=ROOT/'docs/trophy-room/data.json';output.parent.mkdir(exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
     (ROOT/'docs/trophy-room/lineups.json').write_bytes((ROOT/'data/trophy_room/super_bowl_lineups.json').read_bytes())
+    roster_files=list((ROOT/'data/trophy_room/rosters').glob('*.json'))
+    assert {p.stem for p in roster_files}=={str(c['year']) for c in champions}
+    roster_dir=ROOT/'docs/trophy-room/rosters';roster_dir.mkdir(exist_ok=True)
+    for p in roster_files:(roster_dir/p.name).write_bytes(p.read_bytes())
     print(f'Trophy Room: {len(champions)} seasons, {len(owners)} GM rows, {len(history)} canonical team-seasons')
     return result
 if __name__=='__main__':build()
