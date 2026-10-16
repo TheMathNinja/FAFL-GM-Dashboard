@@ -19,7 +19,8 @@
         "AFC OC": "CLE (109.7)",
         "AFC DC": "CIN (109.1)",
         "AFC GM": "MIA (248.8)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2025/weekly?L=22686&W=17"
     },
     {
       "year": 2024,
@@ -38,7 +39,8 @@
         "AFC OC": "HOU (124.1)",
         "AFC DC": "CIN (111.4)",
         "AFC GM": "HOU (257.0)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2024/weekly?L=22686&W=17"
     },
     {
       "year": 2023,
@@ -57,7 +59,8 @@
         "AFC OC": "NEP (112.5)",
         "AFC DC": "JAC (132.0)",
         "AFC GM": "JAC (277.2)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2023/weekly?L=22686&W=17"
     },
     {
       "year": 2022,
@@ -76,7 +79,8 @@
         "AFC OC": "JAC (121.5)",
         "AFC DC": "LVR (113.0)",
         "AFC GM": "TEN (269.2)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2022/weekly?L=22686&W=17"
     },
     {
       "year": 2021,
@@ -95,7 +99,8 @@
         "AFC OC": "CIN (119.0)",
         "AFC DC": "JAC (123.1)",
         "AFC GM": "JAC (269.2)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2021/weekly?L=22686&W=17"
     },
     {
       "year": 2020,
@@ -114,7 +119,8 @@
         "AFC OC": "JAC (121.7)",
         "AFC DC": "DEN (118.6)",
         "AFC GM": "JAC (272.0)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2020/weekly?L=22686&W=16"
     },
     {
       "year": 2019,
@@ -133,7 +139,8 @@
         "AFC OC": "KCC (108.0)",
         "AFC DC": "DEN (117.0)",
         "AFC GM": "BAL (250.1)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2019/weekly?L=22686&W=16"
     },
     {
       "year": 2018,
@@ -152,7 +159,8 @@
         "AFC OC": "CIN (110.1)",
         "AFC DC": "HOU (102.5)",
         "AFC GM": "HOU (248.1)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2018/weekly?L=22686&W=16"
     },
     {
       "year": 2017,
@@ -171,7 +179,8 @@
         "AFC OC": "KCC (97.5)",
         "AFC DC": "DEN (108.4)",
         "AFC GM": "KCC (243.1)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2017/weekly?L=22686&W=16"
     },
     {
       "year": 2016,
@@ -190,7 +199,8 @@
         "AFC OC": "HOU (105.7)",
         "AFC DC": "PIT (102.8)",
         "AFC GM": "KCC (234.2)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2016/weekly?L=22686&W=16"
     },
     {
       "year": 2015,
@@ -202,14 +212,15 @@
       "score": "223.4 - 171.4",
       "awards": {
         "NFC HC": "CHI (0.747)",
-        "NFC OC": "SEA (96.3)",
+        "NFC OC": "SEA (96.4)",
         "NFC DC": "CHI (110.0)",
         "NFC GM": "CHI (244.6)",
         "AFC HC": "BUF (0.815)",
-        "AFC OC": "BUF (103.0)",
+        "AFC OC": "BUF (103.1)",
         "AFC DC": "KCC (114.0)",
         "AFC GM": "BUF (244.8)"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2015/weekly?L=27312&W=16"
     },
     {
       "year": 2014,
@@ -221,14 +232,15 @@
       "score": "239.4 - 235.1",
       "awards": {
         "NFC HC": "LAR (0.715)",
-        "NFC OC": "TBB (92.9)",
+        "NFC OC": "TBB (97.6)",
         "NFC DC": "DET (111.8)",
         "NFC GM": "Not awarded",
         "AFC HC": "KCC (0.743)",
-        "AFC OC": "KCC (96.4)",
+        "AFC OC": "KCC (101.8)",
         "AFC DC": "CLE (104.9)",
         "AFC GM": "Not awarded"
-      }
+      },
+      "source": "https://www43.myfantasyleague.com/2014/weekly?L=37677&W=16"
     }
   ],
   "owners": [

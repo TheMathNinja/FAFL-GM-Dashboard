@@ -51,7 +51,18 @@ def build():
             r=next(r for r in history if r['season']==int(year) and int(r['franchise_id'])==codes.index(t['team'])+1)
             t.update(franchise=r['name'],gm=' / '.join(people(r['gm'])),finish=r['finish'])
     champions=json.loads((ROOT/'data/trophy_room/champions.json').read_text())
-    for c in champions:c['gm']=' / '.join(people(c['gm']))
+    lineups=json.loads((ROOT/'data/trophy_room/super_bowl_lineups.json').read_text(encoding='utf8'))
+    assert len(champions)==len({r['season'] for r in history})
+    assert {c['year'] for c in champions}=={r['season'] for r in history}=={int(y) for y in lineups}
+    for c in champions:
+        rows=[r for r in history if r['season']==c['year']]
+        champion=next(r for r in rows if r['finish']==1);runner=next(r for r in rows if r['finish']==2)
+        game=lineups[str(c['year'])]
+        assert [t['franchise'] for t in game['teams']]==[champion['name'],runner['name']]==[c['champion'],c['runner']]
+        assert c['score']==' - '.join(f'{t["total"]:.1f}' for t in game['teams'])
+        for side,row in [('champion',champion),('runner',runner)]:
+            c[side+'Record']='-'.join(str(row['record_'+k]) for k in ['wins','losses','ties'])
+        c['gm']=' / '.join(people(champion['gm']))
     result=dict(completedThrough=max(r['season'] for r in history),rosterSeason=roster['season'],champions=sorted(champions,key=lambda c:-c['year']),owners=owners,payouts=sorted(payouts.values(),key=lambda p:p['year']))
     output=ROOT/'docs/trophy-room/data.json';output.parent.mkdir(exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
