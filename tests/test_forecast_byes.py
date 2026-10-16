@@ -1,4 +1,4 @@
-import sys,unittest
+import sys,unittest,tempfile
 from pathlib import Path
 from unittest.mock import patch
 import numpy as np,pandas as pd
@@ -8,6 +8,16 @@ import scoring_engine as e
 import bonus_predictor as bonus
 
 class ForecastByeTests(unittest.TestCase):
+ def test_forced_current_refresh_fetches_current_ownership(self):
+  with tempfile.TemporaryDirectory(dir=ROOT/'tests') as tmp:
+   root=Path(tmp);(root/'data').mkdir();rows=pd.DataFrame([dict(season=2026,week=5,target_week=j,franchise_id=f'{i:04}',bye_loss=0.) for j in range(6,13) for i in range(1,33)])
+   pd.concat([rows.assign(week=w) for w in range(1,6)],ignore_index=True).to_csv(root/'data/forward_bye_exposure.csv',index=False)
+   calls=[]
+   def export(kind,season,**kwargs):calls.append((kind,kwargs));return {}
+   with patch.object(b,'export',side_effect=export),patch.object(b,'calculate',return_value=rows):b.refresh(root,2026,5,True)
+   self.assertIn(('rosters',{}),calls)
+   self.assertFalse(any(kind=='rosters' and 'W' in kwargs for kind,kwargs in calls))
+
  def test_exact_optimizer_uses_eligible_same_roster_replacement(self):
   roster=[dict(id='a',pos='WR',points=30,team='CHI'),dict(id='b',pos='WR',points=15,team='GB')]
   limits={'WR':(1,1,'off')};totals={'off':1}

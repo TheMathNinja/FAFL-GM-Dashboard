@@ -92,7 +92,7 @@ def refresh(root,season,week,force=False):
   if payload and any('error' in payload.get(k,{}) for k in ['league','players','nfl','preseason','rosters']):payload=None
   if payload is None:
    if common is None:common={k:export(kind,season,**params) for k,kind,params in [('league','league',{}),('players','players',{}),('nfl','nflSchedule',{'W':'ALL'}),('preseason','projectedScores',{'W':1})]}
-   payload=dict(common,season=season,through_week=w,rosters=export('rosters',season,W=w),scores={},injuries={})
+   payload=dict(common,season=season,through_week=w,rosters=export('rosters',season,**({} if force and w==min(week,11) else {'W':w})),scores={},injuries={})
    for j in range(1,w+1):payload['scores'][str(j)]=export('playerScores',season,W=j);payload['injuries'][str(j)]=export('injuries',season,W=j)
    saved.write_text(json.dumps(payload,separators=(',',':')),encoding='utf8')
   rows=calculate(payload,w)
