@@ -32,13 +32,13 @@ REL='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
 SHEET='http://schemas.openxmlformats.org/spreadsheetml/2006/main'
 
 
-def readout_chart_paths(archive):
+def readout_chart_paths(archive, sheet_name='Readout'):
     def related(source):
         path=posixpath.join(posixpath.dirname(source),'_rels',posixpath.basename(source)+'.rels')
         return {r.get('Id'):posixpath.normpath(posixpath.join(posixpath.dirname(source),r.get('Target'))).lstrip('/')
                 for r in ET.fromstring(archive.read(path))}
     workbook=ET.fromstring(archive.read('xl/workbook.xml'))
-    sheets=[s for s in workbook.findall(f'.//{{{SHEET}}}sheet') if s.get('name')=='Readout']
+    sheets=[s for s in workbook.findall(f'.//{{{SHEET}}}sheet') if s.get('name')==sheet_name]
     if len(sheets)!=1:
         raise ValueError('Missing exported Readout sheet')
     sheet_path=related('xl/workbook.xml')[sheets[0].get(f'{{{REL}}}id')]
@@ -53,7 +53,7 @@ def readout_chart_paths(archive):
     return paths
 
 
-def exported_styles(book, league):
+def exported_styles(book, league, sheet_name='Readout'):
     # Imported Excel styling is not fully exposed by chart metadata. Preserve
     # the native rendered styles from an authenticated XLSX export instead.
     response = book.client.request('get', f'https://docs.google.com/spreadsheets/d/{book.id}/export?format=xlsx')
@@ -77,7 +77,7 @@ def exported_styles(book, league):
             face=theme.find('.//a:'+kind+'/a:latin',NS)
             if face is not None:
                 theme_fonts[token]=face.get('typeface')
-        for name in readout_chart_paths(archive):
+        for name in readout_chart_paths(archive, sheet_name):
             root = ET.fromstring(archive.read(name))
             title = ''.join(t.text or '' for t in root.findall('./c:chart/c:title//a:t', NS))
             if title not in {f'{league} NFC Elo Ratings', f'{league} AFC Elo Ratings'}:
