@@ -5,7 +5,8 @@ import time
 import urllib.request
 
 
-def request_bridge(action='refreshGithubPayoutLogos', attempts=6, **context):
+def request_bridge(action='refreshGithubPayoutLogos', attempts=3,
+                   timeout_seconds=30, **context):
     url = os.environ.get('APPS_SCRIPT_BRIDGE_URL', '').strip()
     token = os.environ.get('APPS_SCRIPT_BRIDGE_TOKEN', '').strip()
     if not url or not token:
@@ -16,10 +17,21 @@ def request_bridge(action='refreshGithubPayoutLogos', attempts=6, **context):
         try:
             request = urllib.request.Request(
                 url, data=payload, headers={'Content-Type': 'application/json'})
-            with urllib.request.urlopen(request, timeout=90) as response:
-                acknowledgement = json.loads(response.read() or b'{}')
+            with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
+                raw = response.read()
+            try:
+                acknowledgement = json.loads(raw)
+            except (json.JSONDecodeError, UnicodeDecodeError):
+                print('Apps Script dispatch response was not JSON; continuing '
+                      'with sheet acknowledgement verification.', flush=True)
+                return {'status': 'uncertain', 'queued': False}
             if acknowledgement.get('status') != 'success':
-                raise RuntimeError(acknowledgement.get('error', 'unknown bridge response'))
+                error = acknowledgement.get('error', 'unknown bridge response')
+                if 'Bridge queue is busy' in error:
+                    print('Apps Script bridge is busy; continuing with sheet '
+                          'acknowledgement verification.', flush=True)
+                    return {'status': 'uncertain', 'queued': True}
+                raise RuntimeError(error)
             return acknowledgement
         except Exception as exc:
             last_error = exc

@@ -1,4 +1,4 @@
-name: Verify MFL Bonus Games integration (read-only)
+name: Synchronize MFL Bonus Games
 on:
   workflow_dispatch:
     inputs:
@@ -6,10 +6,26 @@ on:
         description: Completed week in the published shared score snapshot
         required: true
         type: string
+      mode:
+        description: Preview without writes, or perform the official idempotent MFL update
+        required: true
+        default: preview
+        type: choice
+        options:
+          - preview
+          - official
+      source_run_id:
+        description: Weekly refresh run whose publication this receipt verifies
+        required: false
+        type: string
+      refresh_process:
+        description: Weekly refresh process (preliminary or corrections)
+        required: false
+        type: string
 permissions:
   contents: read
 concurrency:
-  group: fafl-dashboard-publish
+  group: fafl-dashboard-bonus-mfl
   cancel-in-progress: false
 jobs:
   verify:
@@ -17,17 +33,28 @@ jobs:
     env:
       CURRENT_SEASON: '2026'
       READY_WEEK: ${{ inputs.week }}
+      SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+      REFRESH_PROCESS: ${{ inputs.refresh_process }}
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      APPS_SCRIPT_BRIDGE_URL: ${{ secrets.APPS_SCRIPT_BRIDGE_URL }}
+      APPS_SCRIPT_BRIDGE_TOKEN: ${{ secrets.APPS_SCRIPT_BRIDGE_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: |
+      - name: Validate and synchronize Bonus Games
+        timeout-minutes: 8
+        run: |
           pip install gspread==6.2.1
+          python -m unittest tests.test_score_corrections tests.test_workflow_failure_email tests.test_apps_script_bridge
           node tests/test_bonus_mfl.cjs
-          python scripts/sync_bonus_mfl.py --league FAFL --dry-run
+          if [ "${{ inputs.mode }}" = "official" ]; then
+            python scripts/sync_bonus_mfl.py --league FAFL --allow-queued
+          else
+            python scripts/sync_bonus_mfl.py --league FAFL --dry-run
+          fi
       - uses: actions/upload-artifact@v4
         with:
-          name: bonus-mfl-read-only-verification-${{ github.run_attempt }}
+          name: bonus-mfl-${{ inputs.mode }}-${{ github.run_attempt }}
           path: data/bonus_mfl_sync_metadata.json

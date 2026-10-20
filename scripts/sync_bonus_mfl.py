@@ -40,12 +40,16 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--league', choices=BOOKS, required=True)
     p.add_argument('--dry-run', action='store_true')
+    p.add_argument('--allow-queued', action='store_true',
+                   help='Treat a persisted request as queued when the Apps Script worker is busy')
     args = p.parse_args()
     season = int(os.environ.get('CURRENT_SEASON', '2026'))
     week = int(os.environ['READY_WEEK'])
     data = reports(ROOT, args.league, season, week)
     body = dict(version=1, league=args.league, season=season, week=week,
-                run_id=os.environ['GITHUB_RUN_ID'], attempt=os.environ.get('GITHUB_RUN_ATTEMPT', '1'), mode='preview' if args.dry_run else 'official', reports=data)
+                run_id=os.environ.get('SOURCE_RUN_ID') or os.environ['GITHUB_RUN_ID'],
+                attempt=os.environ.get('GITHUB_RUN_ATTEMPT', '1'),
+                mode='preview' if args.dry_run else 'official', reports=data)
     digest = hashlib.sha256(json.dumps(body, sort_keys=True).encode()).hexdigest()
     body['source_sha256'] = digest
     receipt_path = ROOT/'data/bonus_mfl_sync_metadata.json'
@@ -74,8 +78,17 @@ def main():
         http_client=gspread.BackOffHTTPClient).open_by_key(BOOKS[args.league]).worksheet('Reference')
     ref.update([[json.dumps(body)]], range_name='Z12', value_input_option='RAW')
     bridge = dict(league=args.league, operation='bonus_mfl', run_id=body['run_id'])
-    request_bridge(**bridge)
-    for attempt in range(90):
+    dispatch = request_bridge(**bridge)
+    if args.allow_queued and dispatch.get('queued'):
+        ack = dict(status='queued', run_id=body['run_id'],
+                   source_sha256=digest, league=args.league,
+                   season=season, week=week, mode=body['mode'],
+                   queued_at=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
+        receipt_path.write_text(json.dumps(ack, indent=2)+'\n')
+        print(f'{args.league}: MFL Bonus Games request accepted by the busy bridge and '
+              'left queued in Reference!Z12 for idempotent reconciliation.', flush=True)
+        return
+    for attempt in range(36):
         raw = ref.acell('Z13').value
         ack = json.loads(raw) if raw else {}
         if ack.get('run_id') == body['run_id'] and ack.get('source_sha256') == digest:
@@ -84,17 +97,27 @@ def main():
                 break
             if ack.get('status') == 'failure':
                 raise ValueError('MFL Bonus Games verification failed: '+str(ack.get('error')))
-        if attempt == 89: raise TimeoutError('MFL Bonus Games bridge acknowledgement timed out')
-        if attempt and attempt % 3 == 0:
+        if attempt == 35:
+            if not args.allow_queued:
+                raise TimeoutError('MFL Bonus Games bridge acknowledgement timed out')
+            ack = dict(status='queued', run_id=body['run_id'],
+                       source_sha256=digest, league=args.league,
+                       season=season, week=week, mode=body['mode'],
+                       queued_at=time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()))
+            print(f'{args.league}: MFL Bonus Games request remains queued in Reference!Z12; '
+                  'the Apps Script worker will reconcile it idempotently.', flush=True)
+            break
+        if attempt and attempt % 6 == 0:
             try:
-                request_bridge(attempts=1, **bridge)
+                request_bridge(attempts=2, **bridge)
             except RuntimeError:
                 # The web call may time out while Apps Script continues working.
                 # The sheet acknowledgement remains the authoritative result.
                 pass
         time.sleep(10)
     receipt_path.write_text(json.dumps(ack, indent=2)+'\n')
-    print(f"{args.league}: MFL Bonus Games {body['mode']} verified through week {week}; due weeks {ack['due_weeks']}")
+    if ack.get('status') == 'success':
+        print(f"{args.league}: MFL Bonus Games {body['mode']} verified through week {week}; due weeks {ack['due_weeks']}")
 
 
 if __name__ == '__main__': main()

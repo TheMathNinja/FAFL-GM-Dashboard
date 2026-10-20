@@ -83,8 +83,10 @@ def mfl(kind, season, league, week):
     return response[kind]
 
 def duplicate(runs, key):
+    if any(r.get('status') != 'completed' for r in runs):
+        return 'worker workflow already queued or running'
     matches = [r for r in runs if r.get('display_title') == key]
-    if any(r.get('status') != 'completed' or r.get('conclusion') == 'success' for r in matches): return 'already running or succeeded'
+    if any(r.get('conclusion') == 'success' for r in matches): return 'already succeeded'
     return None
 
 def main():

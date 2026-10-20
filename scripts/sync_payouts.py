@@ -230,58 +230,22 @@ def main():
     digest = hashlib.sha256(json.dumps(matrix).encode()).hexdigest()
     request = dict(version=1, league=a.league, season=season, week=week, run_id=os.environ['GITHUB_RUN_ID'],
                    source_sha256=digest, inputs=matrix, awards=awards)
-    prior_receipt_path = ROOT/'data/payouts_sync_metadata.json'
-    prior_receipt = json.loads(prior_receipt_path.read_text()) if prior_receipt_path.exists() else {}
-    prior_logos = prior_receipt.get('logos') or {}
-    can_reuse_logos = (
-        prior_receipt.get('league') == a.league
-        and prior_receipt.get('season') == season
-        and prior_receipt.get('awards') == awards
-        and prior_receipt.get('published_images_verified') is True
-        and prior_logos.get('status') == 'success'
-        and isinstance(prior_logos.get('images'), int)
-    )
-    if can_reuse_logos:
-        # Score corrections usually change payout inputs without changing award
-        # winners. Over-cell images are display-only, so rebuilding an identical
-        # logo inventory through Apps Script would add minutes and a failure mode.
-        ack = dict(prior_logos, reused=True, reused_from_run_id=prior_receipt.get('run_id'))
-        print(f'{a.league} payout award grid is unchanged; reusing the verified {ack["images"]}-logo inventory.')
-    else:
-        # Existing over-cell logos require Apps Script. The bridge does no scraping;
-        # it acknowledges this exact run only after checking inputs, winners and images.
-        ref.update([[json.dumps(request)]], range_name='Z10', value_input_option='RAW')
-        bridge = dict(league=a.league, operation='payouts', run_id=request['run_id'])
-        request_bridge(**bridge)
-        for attempt in range(180):
-            raw = ref.acell('Z11').value
-            ack = json.loads(raw) if raw else {}
-            if ack.get('run_id') == request['run_id'] and ack.get('source_sha256') == digest:
-                if ack.get('status') == 'success':
-                    break
-                if ack.get('status') == 'failure':
-                    raise ValueError('Payout logo verification failed: '+str(ack.get('error')))
-            if attempt == 179:
-                raise ValueError('Payout logo bridge did not acknowledge this run: '+str(ack.get('error', 'waiting for Apps Script')))
-            if attempt and attempt % 3 == 0:
-                try:
-                    request_bridge(attempts=1, **bridge)
-                except RuntimeError:
-                    pass
-            time.sleep(10)
+    # The score inputs, winners, formulas, and balances above are authoritative.
+    # Over-cell logos are display-only and refresh independently through Apps Script.
+    ref.update([[json.dumps(request)]], range_name='Z10', value_input_option='RAW')
+    print('Payout inputs verified; queueing the non-blocking Apps Script logo refresh.', flush=True)
+    bridge_context = dict(league=a.league, operation='payouts', run_id=request['run_id'])
+    bridge = request_bridge(attempts=3, **bridge_context)
     public_url = f'https://docs.google.com/spreadsheets/d/e/{PUBLISHED[a.league]}/pubhtml/sheet?headers=false&gid={display.id}'
-    for attempt in range(60):
-        with urllib.request.urlopen(public_url+'&run='+request['run_id'], timeout=45) as response:
-            page = response.read().decode('utf8')
-        if len(re.findall(r'<img\b', page)) == ack['images']:
-            break
-        if attempt == 59: raise ValueError('Published Payouts embed still has an outdated logo count')
-        time.sleep(10)
+    logo_status = dict(status='queued', run_id=request['run_id'], source_sha256=digest,
+                       dispatch=bridge)
     receipt = dict(league=a.league, season=season, through_week=week, run_id=os.environ['GITHUB_RUN_ID'],
                    status='success', verified_at=datetime.now(timezone.utc).isoformat(), spreadsheet_id=BOOKS[a.league],
-                   source_sha256=digest, awards=awards, logos=ack, published_url=public_url, published_images_verified=True)
+                   source_sha256=digest, awards=awards, logos=logo_status,
+                   published_url=public_url, published_images_verified=False)
     (ROOT/'data/payouts_sync_metadata.json').write_text(json.dumps(receipt, indent=2)+'\n')
-    print(f'{a.league} Payouts verified through Week {week}: score inputs, award winners, and all 32 balances reconcile.')
+    print(f'{a.league} Payouts verified through Week {week}: score inputs, award winners, '
+          'and all 32 balances reconcile; logo refresh queued separately.')
 
 
 if __name__ == '__main__': main()
