@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 6,
   "status": "unofficial",
-  "updated_at": "2026-10-20 07:20 UTC",
+  "updated_at": "2026-10-20 07:31 UTC",
   "simulations": 12000,
   "model": {
     "source_signature": "7408ce1bd8d7744a04b5ddb51404f85769334d01e325e4dfe45ef21223d4e66c",
@@ -48,20 +48,20 @@
     ],
     "coefficients": [
       [
-        190.90291666666664,
-        225.80260416666655
+        190.90291666666667,
+        225.8026041666667
       ],
       [
-        8.015819764944375,
-        9.05265620011909
+        8.015819764944382,
+        9.05265620011912
       ],
       [
-        7.806365226238167,
-        6.621530992501851
+        7.806365226238169,
+        6.621530992501857
       ],
       [
-        -3.925227461990925,
-        -1.9984892620822734
+        -3.9252274619909344,
+        -1.9984892620822854
       ]
     ],
     "feature_means": [
@@ -158,20 +158,20 @@
       ],
       "coefficients": [
         [
-          190.90291666666664,
-          225.80260416666655
+          190.90291666666667,
+          225.8026041666667
         ],
         [
-          8.015819764944375,
-          9.05265620011909
+          8.015819764944382,
+          9.05265620011912
         ],
         [
-          7.806365226238167,
-          6.621530992501851
+          7.806365226238169,
+          6.621530992501857
         ],
         [
-          -3.925227461990925,
-          -1.9984892620822734
+          -3.9252274619909344,
+          -1.9984892620822854
         ]
       ],
       "feature_means": [
@@ -221,10 +221,10 @@
         ]
       }
     },
-    "playoff_swing_runtime_seconds": 0.007,
+    "playoff_swing_runtime_seconds": 0.005,
     "weekly_sigma": 38.016393592472795,
-    "forecast_runtime_seconds": 13.37,
-    "base_forecast_runtime_seconds": 13.363,
+    "forecast_runtime_seconds": 16.696,
+    "base_forecast_runtime_seconds": 16.691,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -254,7 +254,7 @@
         "playoffProbability": 0.9951666666666666,
         "divisionProbability": 0.9903333333333333,
         "byeProbability": 0.4579166666666667,
-        "projectedPotentialPoints": 3051.402890914859,
+        "projectedPotentialPoints": 3051.3874836212894,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -494,7 +494,7 @@
         "playoffProbability": 0.9089166666666667,
         "divisionProbability": 0.5625833333333333,
         "byeProbability": 0.2385,
-        "projectedPotentialPoints": 3154.421622086295,
+        "projectedPotentialPoints": 3154.4571032396234,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -734,7 +734,7 @@
         "playoffProbability": 0.7621666666666667,
         "divisionProbability": 0.3388333333333333,
         "byeProbability": 0.056416666666666664,
-        "projectedPotentialPoints": 2863.161434504413,
+        "projectedPotentialPoints": 2863.385064915902,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -974,7 +974,7 @@
         "playoffProbability": 0.4523333333333333,
         "divisionProbability": 0.08308333333333333,
         "byeProbability": 0.015,
-        "projectedPotentialPoints": 2763.28024548745,
+        "projectedPotentialPoints": 2763.388453326571,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -1214,7 +1214,7 @@
         "playoffProbability": 0.686,
         "divisionProbability": 0.35075,
         "byeProbability": 0.027,
-        "projectedPotentialPoints": 2927.4725073603336,
+        "projectedPotentialPoints": 2927.5483032999746,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -1454,7 +1454,7 @@
         "playoffProbability": 0.73925,
         "divisionProbability": 0.4261666666666667,
         "byeProbability": 0.052833333333333336,
-        "projectedPotentialPoints": 2913.4321973462233,
+        "projectedPotentialPoints": 2913.613886422243,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -1694,7 +1694,7 @@
         "playoffProbability": 0.3541666666666667,
         "divisionProbability": 0.2925,
         "byeProbability": 0.002,
-        "projectedPotentialPoints": 2765.0784039740374,
+        "projectedPotentialPoints": 2764.943613068572,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -1934,7 +1934,7 @@
         "playoffProbability": 0.34983333333333333,
         "divisionProbability": 0.08633333333333333,
         "byeProbability": 0.018916666666666665,
-        "projectedPotentialPoints": 2958.7239955345385,
+        "projectedPotentialPoints": 2958.6557169728903,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -2174,7 +2174,7 @@
         "playoffProbability": 0.56475,
         "divisionProbability": 0.13675,
         "byeProbability": 0.11716666666666667,
-        "projectedPotentialPoints": 2990.3114976327847,
+        "projectedPotentialPoints": 2990.3132037414857,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -2414,7 +2414,7 @@
         "playoffProbability": 0.18583333333333332,
         "divisionProbability": 0.0155,
         "byeProbability": 0.005583333333333333,
-        "projectedPotentialPoints": 2858.330203040965,
+        "projectedPotentialPoints": 2858.6816104511245,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -2654,7 +2654,7 @@
         "playoffProbability": 0.5725,
         "divisionProbability": 0.50425,
         "byeProbability": 0.008333333333333333,
-        "projectedPotentialPoints": 2917.6528960389805,
+        "projectedPotentialPoints": 2917.3375705475482,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -2894,7 +2894,7 @@
         "playoffProbability": 0.21933333333333332,
         "divisionProbability": 0.1695,
         "byeProbability": 0.00016666666666666666,
-        "projectedPotentialPoints": 2752.248526868433,
+        "projectedPotentialPoints": 2752.2726596405664,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3134,7 +3134,7 @@
         "playoffProbability": 0.04791666666666667,
         "divisionProbability": 0.0015,
         "byeProbability": 0.0,
-        "projectedPotentialPoints": 2593.702989078678,
+        "projectedPotentialPoints": 2593.5474949607296,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3364,7 +3364,7 @@
         "pot": 242.76666666666668,
         "off": 65.11666666666666,
         "deff": 114.58333333333336,
-        "wins": 7.143,
+        "wins": 7.143041666666667,
         "predPct": 42.071875,
         "finish": 13,
         "playoffSeed": "NA",
@@ -3374,7 +3374,7 @@
         "playoffProbability": 0.11966666666666667,
         "divisionProbability": 0.008166666666666666,
         "byeProbability": 8.333333333333333e-05,
-        "projectedPotentialPoints": 2854.8381549937226,
+        "projectedPotentialPoints": 2854.7515279794616,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3436,7 +3436,7 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.47608333333333336
+              "probability": 0.476125
             },
             {
               "label": "Regular Season Bonus Game",
@@ -3604,7 +3604,7 @@
         "pot": 224.91666666666666,
         "off": 84.61666666666667,
         "deff": 95.08333333333333,
-        "wins": 5.081166666666666,
+        "wins": 5.0812083333333335,
         "predPct": 37.99219310035842,
         "finish": 15,
         "playoffSeed": "NA",
@@ -3614,7 +3614,7 @@
         "playoffProbability": 0.042166666666666665,
         "divisionProbability": 0.03375,
         "byeProbability": 8.333333333333333e-05,
-        "projectedPotentialPoints": 2688.3939788743905,
+        "projectedPotentialPoints": 2688.482386933568,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -3676,7 +3676,7 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.32733333333333337
+              "probability": 0.327375
             },
             {
               "label": "Regular Season Bonus Game",
@@ -3854,7 +3854,7 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPotentialPoints": 2446.103853179575,
+        "projectedPotentialPoints": 2446.196443429816,
         "winDetails": {
           "currentWins": 0.0,
           "matchups": [
@@ -4096,7 +4096,7 @@
         "playoffProbability": 0.9256666666666666,
         "divisionProbability": 0.7984166666666667,
         "byeProbability": 0.3243333333333333,
-        "projectedPotentialPoints": 3029.142195245958,
+        "projectedPotentialPoints": 3029.314060393067,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -4336,7 +4336,7 @@
         "playoffProbability": 0.9028333333333334,
         "divisionProbability": 0.48825,
         "byeProbability": 0.2728333333333333,
-        "projectedPotentialPoints": 3094.311108736113,
+        "projectedPotentialPoints": 3094.9210915583935,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -4576,7 +4576,7 @@
         "playoffProbability": 0.8923333333333333,
         "divisionProbability": 0.7431666666666666,
         "byeProbability": 0.14183333333333334,
-        "projectedPotentialPoints": 2919.405793284762,
+        "projectedPotentialPoints": 2919.297032632181,
         "winDetails": {
           "currentWins": 6.5,
           "matchups": [
@@ -4806,17 +4806,17 @@
         "pot": 261.05,
         "off": 120.21666666666668,
         "deff": 95.66666666666667,
-        "wins": 11.031833333333333,
+        "wins": 11.031791666666667,
         "predPct": 58.751713709677425,
         "finish": 4,
         "playoffSeed": "4",
         "odds": "81%",
         "div": "36%",
         "bye": "12%",
-        "playoffProbability": 0.81325,
+        "playoffProbability": 0.8131666666666667,
         "divisionProbability": 0.3640833333333333,
         "byeProbability": 0.12091666666666667,
-        "projectedPotentialPoints": 2977.9112003078426,
+        "projectedPotentialPoints": 2977.947703888487,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -4878,7 +4878,7 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.5485416666666667
+              "probability": 0.5485000000000001
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5056,7 +5056,7 @@
         "playoffProbability": 0.367,
         "divisionProbability": 0.10416666666666667,
         "byeProbability": 0.018583333333333334,
-        "projectedPotentialPoints": 2821.39284569589,
+        "projectedPotentialPoints": 2821.8347292733783,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -5296,7 +5296,7 @@
         "playoffProbability": 0.4979166666666667,
         "divisionProbability": 0.19983333333333334,
         "byeProbability": 0.0225,
-        "projectedPotentialPoints": 2889.589351866328,
+        "projectedPotentialPoints": 2889.6811026035803,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -5536,7 +5536,7 @@
         "playoffProbability": 0.8145,
         "divisionProbability": 0.792,
         "byeProbability": 0.010833333333333334,
-        "projectedPotentialPoints": 2924.2764329772945,
+        "projectedPotentialPoints": 2924.120974714477,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -5773,10 +5773,10 @@
         "odds": "59%",
         "div": "10%",
         "bye": "7%",
-        "playoffProbability": 0.5906666666666667,
+        "playoffProbability": 0.59075,
         "divisionProbability": 0.09966666666666667,
         "byeProbability": 0.06766666666666667,
-        "projectedPotentialPoints": 2839.164586346271,
+        "projectedPotentialPoints": 2839.063852726753,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -6016,7 +6016,7 @@
         "playoffProbability": 0.14575,
         "divisionProbability": 0.0285,
         "byeProbability": 0.004833333333333334,
-        "projectedPotentialPoints": 2818.9634995270035,
+        "projectedPotentialPoints": 2819.120722279854,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -6246,17 +6246,17 @@
         "pot": 227.61666666666665,
         "off": 95.89999999999999,
         "deff": 103.16666666666669,
-        "wins": 8.11875,
+        "wins": 8.118708333333334,
         "predPct": 49.83885528673835,
         "finish": 9,
         "playoffSeed": "NA",
         "odds": "32%",
         "div": "5%",
         "bye": "1%",
-        "playoffProbability": 0.31666666666666665,
+        "playoffProbability": 0.3165833333333333,
         "divisionProbability": 0.048,
         "byeProbability": 0.00775,
-        "projectedPotentialPoints": 2725.12367456262,
+        "projectedPotentialPoints": 2724.934530227841,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -6318,7 +6318,7 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.42274999999999996
+              "probability": 0.4227083333333333
             },
             {
               "label": "Regular Season Bonus Game",
@@ -6493,10 +6493,10 @@
         "odds": "28%",
         "div": "10%",
         "bye": "0%",
-        "playoffProbability": 0.28391666666666665,
+        "playoffProbability": 0.284,
         "divisionProbability": 0.09683333333333333,
         "byeProbability": 0.005,
-        "projectedPotentialPoints": 2805.7791096374995,
+        "projectedPotentialPoints": 2806.022763226345,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -6736,7 +6736,7 @@
         "playoffProbability": 0.14725,
         "divisionProbability": 0.0285,
         "byeProbability": 0.0025833333333333333,
-        "projectedPotentialPoints": 2752.516359683109,
+        "projectedPotentialPoints": 2752.6192383843136,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -6976,7 +6976,7 @@
         "playoffProbability": 0.09441666666666666,
         "divisionProbability": 0.06325,
         "byeProbability": 8.333333333333333e-05,
-        "projectedPotentialPoints": 2723.002281047338,
+        "projectedPotentialPoints": 2722.982552614924,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -7216,7 +7216,7 @@
         "playoffProbability": 0.08791666666666667,
         "divisionProbability": 0.0595,
         "byeProbability": 0.00025,
-        "projectedPotentialPoints": 2730.297402913109,
+        "projectedPotentialPoints": 2730.365330712337,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -7456,7 +7456,7 @@
         "playoffProbability": 0.118,
         "divisionProbability": 0.08525,
         "byeProbability": 0.0,
-        "projectedPotentialPoints": 2672.9167343061845,
+        "projectedPotentialPoints": 2673.0559270086605,
         "winDetails": {
           "currentWins": 2.5,
           "matchups": [
@@ -7696,7 +7696,7 @@
         "playoffProbability": 0.0019166666666666666,
         "divisionProbability": 0.0005833333333333334,
         "byeProbability": 0.0,
-        "projectedPotentialPoints": 2574.4176026655746,
+        "projectedPotentialPoints": 2574.064693150771,
         "winDetails": {
           "currentWins": 1.0,
           "matchups": [
