@@ -24,3 +24,10 @@ if response.ok:
 else:
     err=response.json().get('error',{})
     print('Project API access:', err.get('status'), [d.get('reason') for d in err.get('details',[]) if d.get('reason')])
+drive = AuthorizedSession(Credentials.from_service_account_info(info, scopes=['https://www.googleapis.com/auth/drive.readonly','https://www.googleapis.com/auth/drive.scripts']))
+response=drive.get('https://www.googleapis.com/drive/v3/files/1n-MffRElmzpY4wZg41_a5KiHdk-qWZijMh8EyZ2-9VlciGzIvWS7hwM4', params={'fields':'capabilities(canEdit)'},timeout=45)
+print('Known Elo bridge Drive API HTTP',response.status_code)
+if response.ok:
+    print('Known Elo bridge editable:',response.json().get('capabilities',{}).get('canEdit'))
+else:
+    print('Drive access:',response.json().get('error',{}).get('status'))
