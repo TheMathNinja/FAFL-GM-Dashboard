@@ -200,7 +200,10 @@ def finish_range_request(ref, league, request):
         if not current or json.loads(current).get('request_id') != request_id:
             raise ValueError('Chart range request changed before dispatch; retry')
         response = request_bridge(attempts=attempts, **context)
-        if response.get('status') == 'success' and (
+        # The deployed asynchronous endpoint acknowledges the queue only.
+        # Z15 remains the authoritative, request-specific completion receipt.
+        queued = response.get('queued') is True
+        if response.get('status') == 'success' and not queued and (
                 response.get('league') != league or response.get('operation') != 'elo_chart'):
             raise RuntimeError('Apps Script deployment did not acknowledge the elo_chart operation; '
                                'verify the deployed bridge version and URL')

@@ -165,6 +165,20 @@ class PendingRangeTests(unittest.TestCase):
                 m.finish_range_request(self.ref,'ADL',self.old)
             sleep.assert_not_called()
 
+    def test_async_queue_waits_for_matching_completion_receipt(self):
+        def queued(**context):
+            self.complete(**context)
+            return {'status':'success','queued':True}
+        with patch.object(m,'request_bridge',side_effect=queued):
+            report=self.sync()
+        self.assertTrue(report['verified'])
+
+    def test_queue_acceptance_alone_is_not_completion(self):
+        with patch.object(m,'request_bridge',return_value={'status':'success','queued':True}), \
+             patch.object(m.time,'sleep'):
+            with self.assertRaises(TimeoutError):m.finish_range_request(self.ref,'ADL',self.old)
+        self.assertEqual(self.cells['Z15'],'')
+
     def test_wrong_league_and_manual_style_changes_fail_closed(self):
         with patch.object(m,'request_bridge') as dispatch:
             with self.assertRaises(ValueError):m.finish_range_request(self.ref,'FAFL',self.old)
