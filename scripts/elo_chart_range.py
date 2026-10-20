@@ -207,8 +207,9 @@ def finish_range_request(ref, league, request):
                 response.get('league') != league or response.get('operation') != 'elo_chart'):
             raise RuntimeError('Apps Script deployment did not acknowledge the elo_chart operation; '
                                'verify the deployed bridge version and URL')
+        return queued
 
-    dispatch()
+    queued = dispatch()
     for attempt in range(40):
         raw = ref.acell('Z15').value
         receipt = json.loads(raw) if raw else {}
@@ -218,9 +219,9 @@ def finish_range_request(ref, league, request):
             if receipt.get('rollback_error'):
                 raise ValueError('Native chart rollback failed: '+receipt['rollback_error'])
             return receipt
-        if attempt and attempt % 2 == 0:
+        if not queued and attempt and attempt % 2 == 0:
             try:
-                dispatch(attempts=1)
+                queued = dispatch(attempts=1)
             except RuntimeError as error:
                 print(f'Chart bridge retry: {error}', flush=True)
         time.sleep(15)

@@ -174,10 +174,11 @@ class PendingRangeTests(unittest.TestCase):
         self.assertTrue(report['verified'])
 
     def test_queue_acceptance_alone_is_not_completion(self):
-        with patch.object(m,'request_bridge',return_value={'status':'success','queued':True}), \
+        with patch.object(m,'request_bridge',return_value={'status':'success','queued':True}) as dispatch, \
              patch.object(m.time,'sleep'):
             with self.assertRaises(TimeoutError):m.finish_range_request(self.ref,'ADL',self.old)
         self.assertEqual(self.cells['Z15'],'')
+        dispatch.assert_called_once()
 
     def test_wrong_league_and_manual_style_changes_fail_closed(self):
         with patch.object(m,'request_bridge') as dispatch:
