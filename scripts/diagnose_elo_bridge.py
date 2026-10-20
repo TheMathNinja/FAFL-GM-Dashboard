@@ -30,4 +30,8 @@ print('Known Elo bridge Drive API HTTP',response.status_code)
 if response.ok:
     print('Known Elo bridge editable:',response.json().get('capabilities',{}).get('canEdit'))
 else:
-    print('Drive access:',response.json().get('error',{}).get('status'))
+    err=response.json().get('error',{})
+    print('Drive access:',err.get('status'),[d.get('reason') for d in err.get('details',[]) if d.get('reason')])
+cloud=AuthorizedSession(Credentials.from_service_account_info(info,scopes=['https://www.googleapis.com/auth/cloud-platform']))
+response=cloud.post('https://cloudresourcemanager.googleapis.com/v1/projects/'+info['project_id']+':testIamPermissions',json={'permissions':['serviceusage.services.enable']},timeout=45)
+print('Automation account can enable its project APIs:',response.ok and 'serviceusage.services.enable' in response.json().get('permissions',[]))
