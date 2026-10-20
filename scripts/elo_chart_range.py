@@ -13,6 +13,7 @@ import math
 import os
 from pathlib import Path
 import posixpath
+import re
 import time
 import uuid
 from apps_script_bridge import request_bridge
@@ -185,6 +186,45 @@ def plan(charts, lower, upper):
     return desired, requests
 
 
+def finish_range_request(ref, league, request):
+    """Resume the same idempotent request; never abandon an unacknowledged write."""
+    if (not isinstance(request, dict) or request.get('version') != 1
+            or request.get('league') != league or request.get('season') != 2026
+            or not re.fullmatch(r'[a-f0-9]{32}', str(request.get('request_id', '')))):
+        raise ValueError('Invalid pending Elo chart request; refusing to overwrite it')
+    request_id = request['request_id']
+    context = dict(league=league, operation='elo_chart', run_id=request_id)
+
+    def dispatch(attempts=3):
+        current = ref.acell('Z14').value
+        if not current or json.loads(current).get('request_id') != request_id:
+            raise ValueError('Chart range request changed before dispatch; retry')
+        response = request_bridge(attempts=attempts, **context)
+        if response.get('status') == 'success' and (
+                response.get('league') != league or response.get('operation') != 'elo_chart'):
+            raise RuntimeError('Apps Script deployment did not acknowledge the elo_chart operation; '
+                               'verify the deployed bridge version and URL')
+
+    dispatch()
+    for attempt in range(40):
+        raw = ref.acell('Z15').value
+        receipt = json.loads(raw) if raw else {}
+        if receipt.get('request_id') == request_id:
+            if receipt.get('league') != league or receipt.get('status') not in ('success', 'failure'):
+                raise ValueError('Invalid chart range completion receipt')
+            if receipt.get('rollback_error'):
+                raise ValueError('Native chart rollback failed: '+receipt['rollback_error'])
+            return receipt
+        if attempt and attempt % 2 == 0:
+            try:
+                dispatch(attempts=1)
+            except RuntimeError as error:
+                print(f'Chart bridge retry: {error}', flush=True)
+        time.sleep(15)
+    raise TimeoutError('Native chart bridge did not acknowledge within 10 minutes; '
+                       'request retained for idempotent recovery on the next run')
+
+
 def sync_ranges(book, league, expected_week=None, apply=False, output_dir=None, bridge_book=None):
     week, teams = read_current(book, league, expected_week)
     lower, upper = bounds(list(teams.values()))
@@ -212,29 +252,32 @@ def sync_ranges(book, league, expected_week=None, apply=False, output_dir=None, 
             pending = ref.acell('Z14').value
             ack = ref.acell('Z15').value
             if pending and (not ack or json.loads(pending)['request_id'] != json.loads(ack).get('request_id')):
-                raise ValueError('An earlier Elo chart range request is still pending')
-            request = dict(version=1,request_id=uuid.uuid4().hex,league=league,season=2026,
+                prior = json.loads(pending)
+                if prior.get('teams') == teams:
+                    for chart in prior.get('charts', []):
+                        if chart.get('style') != styles.get(chart.get('title')):
+                            raise ValueError('Pending chart styles no longer match; refusing to overwrite manual styling')
+                print(f"Resuming pending {league} chart request {prior.get('request_id')}", flush=True)
+                receipt = finish_range_request(ref, league, prior)
+                report['recovered_request'] = receipt
+                backup.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8')
+                if read_current(book, league, week)[1] != teams:
+                    raise ValueError('Elo ratings changed during pending-request recovery; retry')
+                current = read_charts(book, league)
+                if current != before and (receipt['status'] != 'success' or plan(current, lower, upper)[1]):
+                    raise ValueError('Charts changed unexpectedly during pending-request recovery')
+                desired, requests = plan(current, lower, upper)
+            if requests:
+                request = dict(version=1,request_id=uuid.uuid4().hex,league=league,season=2026,
+                           created_at=datetime.now(timezone.utc).isoformat(),
                            week=week,lower=lower,upper=upper,teams=teams,
                            charts=[dict(chart_id=c['chartId'],title=c['spec']['title'],style=styles[c['spec']['title']])
                                    for c in before if c['chartId'] in {r['updateChartSpec']['chartId'] for r in requests}])
-            ref.update_acell('Z14',json.dumps(request))
-            bridge = dict(league=league, operation='elo_chart', run_id=request['request_id'])
-            request_bridge(**bridge)
-            for attempt in range(40):
-                raw = ref.acell('Z15').value
-                ack = json.loads(raw) if raw else {}
-                if ack.get('request_id') == request['request_id']:
-                    if ack.get('status') != 'success':
-                        raise ValueError('Native range update failed: '+ack.get('error','unknown'))
-                    break
-                if attempt and attempt % 2 == 0:
-                    try:
-                        request_bridge(attempts=1, **bridge)
-                    except RuntimeError:
-                        pass
-                time.sleep(15)
-            else:
-                raise TimeoutError('Native chart bridge did not acknowledge within 10 minutes')
+                ref.update_acell('Z14',json.dumps(request))
+                receipt = finish_range_request(ref, league, request)
+                report['completion_receipt'] = receipt
+                if receipt['status'] != 'success':
+                    raise ValueError('Native range update failed: '+receipt.get('error','unknown'))
             if exported_styles(book, league) != styles:
                 raise ValueError('Rendered chart styles changed unexpectedly; inspect range-check backup')
         actual = read_charts(book, league)
