@@ -3,7 +3,7 @@
   "season": 2026,
   "through_week": 6,
   "status": "unofficial",
-  "updated_at": "2026-10-20T14:52:04.032515+00:00",
+  "updated_at": "2026-10-20T15:07:49.095158+00:00",
   "simulations": 12000,
   "weeks": {
     "1": [
@@ -26254,32 +26254,32 @@
   "outlooks": {
     "1": {
       "kind": "reconstructed",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     },
     "2": {
       "kind": "reconstructed",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     },
     "3": {
       "kind": "reconstructed",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     },
     "4": {
       "kind": "reconstructed",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     },
     "5": {
       "kind": "reconstructed",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     },
     "6": {
       "kind": "published",
-      "published_at": "2026-10-20T14:52:04.032515+00:00",
+      "published_at": "2026-10-20T15:07:49.095158+00:00",
       "status": "unofficial"
     }
   }
