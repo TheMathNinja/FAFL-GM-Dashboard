@@ -21,6 +21,9 @@ function doPost(e) {
     if (!expected || payload.token !== expected || payload.action !== 'refreshGithubPayoutLogos') {
       throw new Error('Unauthorized bridge request');
     }
+    if (payload.operation === 'elo_chart') {
+      return result.setContent(JSON.stringify(runEloChartBridgeRepair_(payload)));
+    }
     const worked = refreshGithubPayoutBridgeScheduled_(payload.league || '', payload.operation || '');
     if (!worked) throw new Error('Bridge busy; retry this request');
     return result.setContent(JSON.stringify({status:'success', league:payload.league || '', operation:payload.operation || ''}));
