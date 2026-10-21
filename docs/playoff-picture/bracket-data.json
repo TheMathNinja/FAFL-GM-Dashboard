@@ -1,7 +1,7 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "completedWeek": 5,
+  "completedWeek": 6,
   "games": [
     {
       "week": 13,
@@ -13,9 +13,9 @@
           "name": "Chicago Bears",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
           "seed": 1,
-          "record": "6-0",
-          "allPlayPct": 71.61290322580646,
-          "elo": 1568.992595930594,
+          "record": "8-0",
+          "allPlayPct": 75.26881720430107,
+          "elo": 1576.0903657755362,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -32,62 +32,28 @@
       "title": "Wild Card Round",
       "teams": [
         {
-          "name": "Washington Commanders",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "seed": 2,
-          "record": "5-1",
-          "allPlayPct": 65.16129032258064,
-          "elo": 1574.4064311437828,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 67.60928725428188
-        },
-        {
-          "name": "Arizona Cardinals",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-          "seed": 7,
-          "record": "3-3",
-          "allPlayPct": 41.935483870967744,
-          "elo": 1479.089105819478,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 32.39071274571816
-        }
-      ],
-      "remainingWeeks": 2,
-      "probabilityLabel": "win prob"
-    },
-    {
-      "week": 13,
-      "conference": "NFC",
-      "category": "championship",
-      "title": "Wild Card Round",
-      "teams": [
-        {
           "name": "New Orleans Saints",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-          "seed": 3,
-          "record": "5-1",
-          "allPlayPct": 63.2258064516129,
-          "elo": 1553.3132623663744,
+          "seed": 2,
+          "record": "6-2",
+          "allPlayPct": 65.05376344086021,
+          "elo": 1558.9608394878014,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 53.85529651768827
+          "odds": 65.52903142878857
         },
         {
-          "name": "New York Giants",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-          "seed": 6,
-          "record": "4-2",
-          "allPlayPct": 56.774193548387096,
-          "elo": 1533.3228267261877,
+          "name": "Seattle Seahawks",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "seed": 7,
+          "record": "4-4",
+          "allPlayPct": 46.774193548387096,
+          "elo": 1475.6860847301193,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 46.14470348231171
+          "odds": 34.470968571211415
         }
       ],
       "remainingWeeks": 2,
@@ -102,26 +68,60 @@
         {
           "name": "Carolina Panthers",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-          "seed": 4,
-          "record": "4-2",
-          "allPlayPct": 61.29032258064516,
-          "elo": 1513.21251467272,
+          "seed": 3,
+          "record": "6-2",
+          "allPlayPct": 62.365591397849464,
+          "elo": 1518.6362777359575,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.772082117086924
+          "odds": 42.521928381348786
         },
+        {
+          "name": "Washington Commanders",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+          "seed": 6,
+          "record": "5-3",
+          "allPlayPct": 55.91397849462365,
+          "elo": 1558.0110127253408,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 57.47807161865125
+        }
+      ],
+      "remainingWeeks": 2,
+      "probabilityLabel": "win prob"
+    },
+    {
+      "week": 13,
+      "conference": "NFC",
+      "category": "championship",
+      "title": "Wild Card Round",
+      "teams": [
         {
           "name": "Atlanta Falcons",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "seed": 5,
-          "record": "4-2",
-          "allPlayPct": 60.64516129032258,
-          "elo": 1509.32603103947,
+          "seed": 4,
+          "record": "5-3",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1506.0936618274845,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.22791788291305
+          "odds": 44.609036684307895
+        },
+        {
+          "name": "New York Giants",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+          "seed": 5,
+          "record": "6-2",
+          "allPlayPct": 56.98924731182796,
+          "elo": 1534.425039950564,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 55.39096331569204
         }
       ],
       "remainingWeeks": 2,
@@ -137,25 +137,25 @@
           "name": "Dallas Cowboys",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
           "seed": 8,
-          "record": "3-3",
-          "allPlayPct": 55.483870967741936,
-          "elo": 1520.459967441085,
+          "record": "4-4",
+          "allPlayPct": 58.06451612903226,
+          "elo": 1528.8405628598346,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.064440681437375
+          "odds": 49.42943155085288
         },
         {
           "name": "Philadelphia Eagles",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
           "seed": 9,
-          "record": "2-4",
-          "allPlayPct": 53.2258064516129,
-          "elo": 1526.961658270388,
+          "record": "3-5",
+          "allPlayPct": 57.25806451612904,
+          "elo": 1532.8054506317067,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.93555931856262
+          "odds": 50.57056844914711
         }
       ],
       "remainingWeeks": 1,
@@ -179,28 +179,28 @@
       "title": "Consolation Game 2",
       "teams": [
         {
-          "name": "Seattle Seahawks",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "name": "Tampa Bay Buccaneers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
           "seed": 10,
-          "record": "3-3",
-          "allPlayPct": 49.67741935483871,
-          "elo": 1483.139380292175,
+          "record": "3-5",
+          "allPlayPct": 50.26881720430107,
+          "elo": 1495.6226289476645,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.09815889480899
+          "odds": 51.05164969927066
         },
         {
           "name": "San Francisco 49ers",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
           "seed": 11,
-          "record": "2-4",
-          "allPlayPct": 47.74193548387097,
-          "elo": 1482.4573015540707,
+          "record": "4-4",
+          "allPlayPct": 50.0,
+          "elo": 1488.3139404840222,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.90184110519101
+          "odds": 48.94835030072934
         }
       ],
       "remainingWeeks": 1,
@@ -213,28 +213,28 @@
       "title": "Consolation Game 3",
       "teams": [
         {
-          "name": "Green Bay Packers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+          "name": "Arizona Cardinals",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
           "seed": 12,
-          "record": "3-3",
-          "allPlayPct": 41.612903225806456,
-          "elo": 1453.2507632405277,
+          "record": "3-5",
+          "allPlayPct": 37.634408602150536,
+          "elo": 1468.5191105196031,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 45.7058392680686
+          "odds": 54.3192369973592
         },
         {
-          "name": "Tampa Bay Buccaneers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+          "name": "Green Bay Packers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
           "seed": 13,
-          "record": "1-5",
-          "allPlayPct": 40.96774193548387,
-          "elo": 1483.1633377395087,
+          "record": "3-5",
+          "allPlayPct": 34.67741935483871,
+          "elo": 1438.4309858600668,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 54.2941607319314
+          "odds": 45.68076300264081
         }
       ],
       "remainingWeeks": 1,
@@ -250,37 +250,37 @@
           "name": "Detroit Lions",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
           "seed": 14,
-          "record": "2-4",
-          "allPlayPct": 36.774193548387096,
-          "elo": 1476.7970630880832,
+          "record": "3-5",
+          "allPlayPct": 34.40860215053764,
+          "elo": 1479.6172685644196,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 39.175471159599375
+          "odds": 40.05293075056609
         },
         {
           "name": "Los Angeles Rams",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
           "seed": 15,
-          "record": "2-4",
-          "allPlayPct": 33.5483870967742,
-          "elo": 1457.1054254772505,
+          "record": "2-6",
+          "allPlayPct": 33.87096774193548,
+          "elo": 1457.5841325473154,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 34.97720757337069
+          "odds": 35.28185897435713
         },
         {
           "name": "Minnesota Vikings",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
           "seed": 16,
-          "record": "0-6",
-          "allPlayPct": 4.193548387096775,
-          "elo": 1404.5575880855495,
+          "record": "0-8",
+          "allPlayPct": 5.64516129032258,
+          "elo": 1395.3974775627303,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 25.847321267029937
+          "odds": 24.665210275076785
         }
       ],
       "remainingWeeks": 1,
@@ -293,12 +293,12 @@
       "title": "Bye",
       "teams": [
         {
-          "name": "Houston Texans",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "name": "New York Jets",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
           "seed": 1,
-          "record": "5-1",
-          "allPlayPct": 70.96774193548387,
-          "elo": 1561.873567766522,
+          "record": "6-2",
+          "allPlayPct": 69.89247311827957,
+          "elo": 1549.071548538228,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -318,25 +318,25 @@
           "name": "Jacksonville Jaguars",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
           "seed": 2,
-          "record": "4-2",
-          "allPlayPct": 69.6774193548387,
-          "elo": 1578.0320495946992,
+          "record": "6-2",
+          "allPlayPct": 67.20430107526882,
+          "elo": 1573.6326517341008,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 65.68563294182357
+          "odds": 64.76104270012385
         },
         {
           "name": "Cleveland Browns",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
           "seed": 7,
-          "record": "4-2",
-          "allPlayPct": 46.45161290322581,
-          "elo": 1493.8621564470793,
+          "record": "5-3",
+          "allPlayPct": 46.236559139784944,
+          "elo": 1494.7230400843532,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 34.31436705817649
+          "odds": 35.238957299876226
         }
       ],
       "remainingWeeks": 2,
@@ -348,63 +348,63 @@
       "category": "championship",
       "title": "Wild Card Round",
       "teams": [
-        {
-          "name": "New York Jets",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "seed": 3,
-          "record": "4-2",
-          "allPlayPct": 65.80645161290323,
-          "elo": 1537.0931072755623,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 53.549318686843705
-        },
-        {
-          "name": "Indianapolis Colts",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "seed": 6,
-          "record": "4-2",
-          "allPlayPct": 61.935483870967744,
-          "elo": 1518.7052009883118,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 46.45068131315632
-        }
-      ],
-      "remainingWeeks": 2,
-      "probabilityLabel": "win prob"
-    },
-    {
-      "week": 13,
-      "conference": "AFC",
-      "category": "championship",
-      "title": "Wild Card Round",
-      "teams": [
-        {
-          "name": "Miami Dolphins",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "seed": 4,
-          "record": "4-2",
-          "allPlayPct": 63.87096774193548,
-          "elo": 1544.6346661670555,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 57.24357253090322
-        },
         {
           "name": "Las Vegas Raiders",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "seed": 5,
-          "record": "4-1-1",
-          "allPlayPct": 61.935483870967744,
-          "elo": 1506.7814548006331,
+          "seed": 3,
+          "record": "6-1-1",
+          "allPlayPct": 66.12903225806451,
+          "elo": 1522.4839144635648,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 42.75642746909688
+          "odds": 51.748359207209994
+        },
+        {
+          "name": "Los Angeles Chargers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+          "seed": 6,
+          "record": "5-3",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1513.5064717728442,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 48.25164079279
+        }
+      ],
+      "remainingWeeks": 2,
+      "probabilityLabel": "win prob"
+    },
+    {
+      "week": 13,
+      "conference": "AFC",
+      "category": "championship",
+      "title": "Wild Card Round",
+      "teams": [
+        {
+          "name": "Houston Texans",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "seed": 4,
+          "record": "6-2",
+          "allPlayPct": 65.59139784946237,
+          "elo": 1554.9339243993873,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 53.591233040895816
+        },
+        {
+          "name": "Miami Dolphins",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+          "seed": 5,
+          "record": "4-4",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1536.3265726355528,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 46.408766959104256
         }
       ],
       "remainingWeeks": 2,
@@ -417,28 +417,28 @@
       "title": "Consolation Game 1",
       "teams": [
         {
-          "name": "Denver Broncos",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+          "name": "Tennessee Titans",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
           "seed": 8,
-          "record": "3-3",
-          "allPlayPct": 60.967741935483865,
-          "elo": 1567.8299893470237,
+          "record": "4-4",
+          "allPlayPct": 56.98924731182796,
+          "elo": 1492.9063263930802,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 59.52503690358753
+          "odds": 41.30247874695044
         },
         {
-          "name": "Los Angeles Chargers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+          "name": "Denver Broncos",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
           "seed": 9,
-          "record": "3-3",
-          "allPlayPct": 52.25806451612903,
-          "elo": 1500.8247045975618,
+          "record": "3-5",
+          "allPlayPct": 54.03225806451613,
+          "elo": 1553.9637845316354,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 40.47496309641247
+          "odds": 58.697521253049565
         }
       ],
       "remainingWeeks": 1,
@@ -446,12 +446,12 @@
       "series": {
         "startWeek": 13,
         "priorWins": {
-          "Denver Broncos": 0,
-          "Los Angeles Chargers": 0
+          "Tennessee Titans": 0,
+          "Denver Broncos": 0
         },
         "priorPoints": {
-          "Denver Broncos": 0,
-          "Los Angeles Chargers": 0
+          "Tennessee Titans": 0,
+          "Denver Broncos": 0
         }
       }
     },
@@ -462,28 +462,28 @@
       "title": "Consolation Game 2",
       "teams": [
         {
-          "name": "Buffalo Bills",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+          "name": "Indianapolis Colts",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
           "seed": 10,
-          "record": "2-3-1",
-          "allPlayPct": 49.67741935483871,
-          "elo": 1486.1147916022685,
+          "record": "4-4",
+          "allPlayPct": 52.68817204301075,
+          "elo": 1502.8343412036222,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 51.67343377222947
+          "odds": 51.74810627339087
         },
         {
-          "name": "Tennessee Titans",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "name": "Buffalo Bills",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
           "seed": 11,
-          "record": "2-4",
-          "allPlayPct": 48.38709677419355,
-          "elo": 1474.4822380440487,
+          "record": "3-3-2",
+          "allPlayPct": 52.1505376344086,
+          "elo": 1490.682301706247,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 48.32656622777052
+          "odds": 48.25189372660913
         }
       ],
       "remainingWeeks": 1,
@@ -496,28 +496,28 @@
       "title": "Consolation Game 3",
       "teams": [
         {
-          "name": "Pittsburgh Steelers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "seed": 12,
-          "record": "1-5",
-          "allPlayPct": 36.774193548387096,
-          "elo": 1443.6980508748134,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 51.26491772018945
-        },
-        {
           "name": "Kansas City Chiefs",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "seed": 13,
-          "record": "1-5",
-          "allPlayPct": 34.83870967741935,
-          "elo": 1434.9066264559601,
+          "seed": 12,
+          "record": "2-6",
+          "allPlayPct": 42.473118279569896,
+          "elo": 1453.0663810562419,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 48.73508227981055
+          "odds": 51.66157708446243
+        },
+        {
+          "name": "Pittsburgh Steelers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+          "seed": 13,
+          "record": "2-6",
+          "allPlayPct": 38.70967741935484,
+          "elo": 1441.5163079407457,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 48.33842291553758
         }
       ],
       "remainingWeeks": 1,
@@ -530,40 +530,40 @@
       "title": "Consolation Game 4",
       "teams": [
         {
-          "name": "Cincinnati Bengals",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-          "seed": 14,
-          "record": "2-4",
-          "allPlayPct": 32.58064516129032,
-          "elo": 1465.494664016655,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 37.57986415832342
-        },
-        {
           "name": "Baltimore Ravens",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-          "seed": 15,
-          "record": "2-4",
-          "allPlayPct": 32.58064516129032,
-          "elo": 1440.8484890545126,
+          "seed": 14,
+          "record": "2-6",
+          "allPlayPct": 35.752688172043015,
+          "elo": 1436.5931253048211,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 32.60917177444617
+          "odds": 33.30571537916383
+        },
+        {
+          "name": "Cincinnati Bengals",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+          "seed": 15,
+          "record": "2-5-1",
+          "allPlayPct": 31.989247311827956,
+          "elo": 1457.8139307090166,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 37.63316805720825
         },
         {
           "name": "New England Patriots",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
           "seed": 16,
-          "record": "1-5",
-          "allPlayPct": 27.419354838709676,
-          "elo": 1425.2629900800418,
+          "record": "1-7",
+          "allPlayPct": 23.387096774193548,
+          "elo": 1412.9105373163854,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 29.810964067230415
+          "odds": 29.06111656362792
         }
       ],
       "remainingWeeks": 1,
@@ -581,9 +581,9 @@
           "name": "Chicago Bears",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
           "seed": 1,
-          "record": "6-0",
-          "allPlayPct": 71.61290322580646,
-          "elo": 1568.992595930594,
+          "record": "8-0",
+          "allPlayPct": 75.26881720430107,
+          "elo": 1576.0903657755362,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -603,25 +603,59 @@
           "name": "New Orleans Saints",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
           "seed": 2,
-          "record": "5-1",
-          "allPlayPct": 63.2258064516129,
-          "elo": 1553.3132623663744,
+          "record": "6-2",
+          "allPlayPct": 65.05376344086021,
+          "elo": 1558.9608394878014,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 63.20356012935287
+          "odds": 63.2885640623248
         },
         {
-          "name": "Seattle Seahawks",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "name": "San Francisco 49ers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
           "seed": 7,
-          "record": "3-3",
-          "allPlayPct": 49.67741935483871,
-          "elo": 1483.139380292175,
+          "record": "4-4",
+          "allPlayPct": 50.0,
+          "elo": 1488.3139404840222,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 36.79643987064709
+          "odds": 36.71143593767521
+        }
+      ],
+      "remainingWeeks": 2,
+      "probabilityLabel": "win prob"
+    },
+    {
+      "week": 13,
+      "conference": "NFC",
+      "category": "championship",
+      "title": "Wild Card Round",
+      "teams": [
+        {
+          "name": "Philadelphia Eagles",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+          "seed": 3,
+          "record": "3-5",
+          "allPlayPct": 57.25806451612904,
+          "elo": 1532.8054506317067,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 49.71562358722861
+        },
+        {
+          "name": "New York Giants",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+          "seed": 6,
+          "record": "6-2",
+          "allPlayPct": 56.98924731182796,
+          "elo": 1534.425039950564,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 50.28437641277138
         }
       ],
       "remainingWeeks": 2,
@@ -636,60 +670,26 @@
         {
           "name": "Washington Commanders",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-          "seed": 3,
-          "record": "5-1",
-          "allPlayPct": 65.16129032258064,
-          "elo": 1574.4064311437828,
+          "seed": 4,
+          "record": "5-3",
+          "allPlayPct": 55.91397849462365,
+          "elo": 1558.0110127253408,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 62.28362690711955
+          "odds": 57.5297819715055
         },
-        {
-          "name": "Atlanta Falcons",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-          "seed": 6,
-          "record": "4-2",
-          "allPlayPct": 60.64516129032258,
-          "elo": 1509.32603103947,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 37.71637309288046
-        }
-      ],
-      "remainingWeeks": 2,
-      "probabilityLabel": "win prob"
-    },
-    {
-      "week": 13,
-      "conference": "NFC",
-      "category": "championship",
-      "title": "Wild Card Round",
-      "teams": [
         {
           "name": "Carolina Panthers",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-          "seed": 4,
-          "record": "4-2",
-          "allPlayPct": 61.29032258064516,
-          "elo": 1513.21251467272,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 46.174325036642344
-        },
-        {
-          "name": "New York Giants",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
           "seed": 5,
-          "record": "4-2",
-          "allPlayPct": 56.774193548387096,
-          "elo": 1533.3228267261877,
+          "record": "6-2",
+          "allPlayPct": 62.365591397849464,
+          "elo": 1518.6362777359575,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 53.82567496335765
+          "odds": 42.47021802849455
         }
       ],
       "remainingWeeks": 2,
@@ -702,28 +702,28 @@
       "title": "Consolation Game 1",
       "teams": [
         {
-          "name": "Philadelphia Eagles",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-          "seed": 8,
-          "record": "2-4",
-          "allPlayPct": 53.2258064516129,
-          "elo": 1526.961658270388,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 50.93555931856263
-        },
-        {
           "name": "Dallas Cowboys",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-          "seed": 9,
-          "record": "3-3",
-          "allPlayPct": 55.483870967741936,
-          "elo": 1520.459967441085,
+          "seed": 8,
+          "record": "4-4",
+          "allPlayPct": 58.06451612903226,
+          "elo": 1528.8405628598346,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.06444068143737
+          "odds": 53.2688729360563
+        },
+        {
+          "name": "Atlanta Falcons",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+          "seed": 9,
+          "record": "5-3",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1506.0936618274845,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 46.7311270639437
         }
       ],
       "remainingWeeks": 1,
@@ -731,12 +731,12 @@
       "series": {
         "startWeek": 13,
         "priorWins": {
-          "Philadelphia Eagles": 0,
-          "Dallas Cowboys": 0
+          "Dallas Cowboys": 0,
+          "Atlanta Falcons": 0
         },
         "priorPoints": {
-          "Philadelphia Eagles": 0,
-          "Dallas Cowboys": 0
+          "Dallas Cowboys": 0,
+          "Atlanta Falcons": 0
         }
       }
     },
@@ -747,28 +747,28 @@
       "title": "Consolation Game 2",
       "teams": [
         {
-          "name": "San Francisco 49ers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+          "name": "Tampa Bay Buccaneers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
           "seed": 10,
-          "record": "2-4",
-          "allPlayPct": 47.74193548387097,
-          "elo": 1482.4573015540707,
+          "record": "3-5",
+          "allPlayPct": 50.26881720430107,
+          "elo": 1495.6226289476645,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 50.48470714601257
+          "odds": 52.86595446649726
         },
         {
-          "name": "Arizona Cardinals",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+          "name": "Seattle Seahawks",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
           "seed": 11,
-          "record": "3-3",
-          "allPlayPct": 41.935483870967744,
-          "elo": 1479.089105819478,
+          "record": "4-4",
+          "allPlayPct": 46.774193548387096,
+          "elo": 1475.6860847301193,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 49.51529285398743
+          "odds": 47.13404553350274
         }
       ],
       "remainingWeeks": 1,
@@ -781,28 +781,28 @@
       "title": "Consolation Game 3",
       "teams": [
         {
-          "name": "Tampa Bay Buccaneers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+          "name": "Arizona Cardinals",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
           "seed": 12,
-          "record": "1-5",
-          "allPlayPct": 40.96774193548387,
-          "elo": 1483.1633377395087,
+          "record": "3-5",
+          "allPlayPct": 37.634408602150536,
+          "elo": 1468.5191105196031,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 54.2941607319314
+          "odds": 48.40338967229885
         },
         {
-          "name": "Green Bay Packers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+          "name": "Detroit Lions",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
           "seed": 13,
-          "record": "3-3",
-          "allPlayPct": 41.612903225806456,
-          "elo": 1453.2507632405277,
+          "record": "3-5",
+          "allPlayPct": 34.40860215053764,
+          "elo": 1479.6172685644196,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 45.7058392680686
+          "odds": 51.59661032770114
         }
       ],
       "remainingWeeks": 1,
@@ -815,40 +815,40 @@
       "title": "Consolation Game 4",
       "teams": [
         {
-          "name": "Detroit Lions",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+          "name": "Green Bay Packers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
           "seed": 14,
-          "record": "2-4",
-          "allPlayPct": 36.774193548387096,
-          "elo": 1476.7970630880832,
+          "record": "3-5",
+          "allPlayPct": 34.67741935483871,
+          "elo": 1438.4309858600668,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 39.175471159599375
+          "odds": 34.5168002738091
         },
         {
           "name": "Los Angeles Rams",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
           "seed": 15,
-          "record": "2-4",
-          "allPlayPct": 33.5483870967742,
-          "elo": 1457.1054254772505,
+          "record": "2-6",
+          "allPlayPct": 33.87096774193548,
+          "elo": 1457.5841325473154,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 34.97720757337069
+          "odds": 38.5401496162541
         },
         {
           "name": "Minnesota Vikings",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
           "seed": 16,
-          "record": "0-6",
-          "allPlayPct": 4.193548387096775,
-          "elo": 1404.5575880855495,
+          "record": "0-8",
+          "allPlayPct": 5.64516129032258,
+          "elo": 1395.3974775627303,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 25.847321267029937
+          "odds": 26.943050109936795
         }
       ],
       "remainingWeeks": 1,
@@ -861,12 +861,12 @@
       "title": "Bye",
       "teams": [
         {
-          "name": "Jacksonville Jaguars",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "name": "New York Jets",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
           "seed": 1,
-          "record": "4-2",
-          "allPlayPct": 69.6774193548387,
-          "elo": 1578.0320495946992,
+          "record": "6-2",
+          "allPlayPct": 69.89247311827957,
+          "elo": 1549.071548538228,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -883,62 +883,28 @@
       "title": "Wild Card Round",
       "teams": [
         {
-          "name": "Houston Texans",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "name": "Jacksonville Jaguars",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
           "seed": 2,
-          "record": "5-1",
-          "allPlayPct": 70.96774193548387,
-          "elo": 1561.873567766522,
+          "record": "6-2",
+          "allPlayPct": 67.20430107526882,
+          "elo": 1573.6326517341008,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 62.8140146164904
+          "odds": 64.76104270012385
         },
         {
           "name": "Cleveland Browns",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
           "seed": 7,
-          "record": "4-2",
-          "allPlayPct": 46.45161290322581,
-          "elo": 1493.8621564470793,
+          "record": "5-3",
+          "allPlayPct": 46.236559139784944,
+          "elo": 1494.7230400843532,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 37.18598538350966
-        }
-      ],
-      "remainingWeeks": 2,
-      "probabilityLabel": "win prob"
-    },
-    {
-      "week": 13,
-      "conference": "AFC",
-      "category": "championship",
-      "title": "Wild Card Round",
-      "teams": [
-        {
-          "name": "New York Jets",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-          "seed": 3,
-          "record": "4-2",
-          "allPlayPct": 65.80645161290323,
-          "elo": 1537.0931072755623,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 53.549318686843705
-        },
-        {
-          "name": "Indianapolis Colts",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-          "seed": 6,
-          "record": "4-2",
-          "allPlayPct": 61.935483870967744,
-          "elo": 1518.7052009883118,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 46.45068131315632
+          "odds": 35.238957299876226
         }
       ],
       "remainingWeeks": 2,
@@ -953,26 +919,60 @@
         {
           "name": "Las Vegas Raiders",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-          "seed": 4,
-          "record": "4-1-1",
-          "allPlayPct": 61.935483870967744,
-          "elo": 1506.7814548006331,
+          "seed": 3,
+          "record": "6-1-1",
+          "allPlayPct": 66.12903225806451,
+          "elo": 1522.4839144635648,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 42.80821812058595
+          "odds": 51.748359207209994
         },
         {
-          "name": "Miami Dolphins",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-          "seed": 5,
-          "record": "4-2",
-          "allPlayPct": 63.87096774193548,
-          "elo": 1544.6346661670555,
+          "name": "Los Angeles Chargers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+          "seed": 6,
+          "record": "5-3",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1513.5064717728442,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 57.19178187941415
+          "odds": 48.25164079279
+        }
+      ],
+      "remainingWeeks": 2,
+      "probabilityLabel": "win prob"
+    },
+    {
+      "week": 13,
+      "conference": "AFC",
+      "category": "championship",
+      "title": "Wild Card Round",
+      "teams": [
+        {
+          "name": "Houston Texans",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "seed": 4,
+          "record": "6-2",
+          "allPlayPct": 65.59139784946237,
+          "elo": 1554.9339243993873,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 61.728367505012336
+        },
+        {
+          "name": "Tennessee Titans",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "seed": 5,
+          "record": "4-4",
+          "allPlayPct": 56.98924731182796,
+          "elo": 1492.9063263930802,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 38.27163249498774
         }
       ],
       "remainingWeeks": 2,
@@ -985,28 +985,28 @@
       "title": "Consolation Game 1",
       "teams": [
         {
-          "name": "Denver Broncos",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+          "name": "Miami Dolphins",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
           "seed": 8,
-          "record": "3-3",
-          "allPlayPct": 60.967741935483865,
-          "elo": 1567.8299893470237,
+          "record": "4-4",
+          "allPlayPct": 57.52688172043011,
+          "elo": 1536.3265726355528,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 63.11964089545439
+          "odds": 54.80504489770045
         },
         {
-          "name": "Tennessee Titans",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+          "name": "Indianapolis Colts",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
           "seed": 9,
-          "record": "2-4",
-          "allPlayPct": 48.38709677419355,
-          "elo": 1474.4822380440487,
+          "record": "4-4",
+          "allPlayPct": 52.68817204301075,
+          "elo": 1502.8343412036222,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 36.88035910454561
+          "odds": 45.19495510229955
         }
       ],
       "remainingWeeks": 1,
@@ -1014,12 +1014,12 @@
       "series": {
         "startWeek": 13,
         "priorWins": {
-          "Denver Broncos": 0,
-          "Tennessee Titans": 0
+          "Miami Dolphins": 0,
+          "Indianapolis Colts": 0
         },
         "priorPoints": {
-          "Denver Broncos": 0,
-          "Tennessee Titans": 0
+          "Miami Dolphins": 0,
+          "Indianapolis Colts": 0
         }
       }
     },
@@ -1030,28 +1030,28 @@
       "title": "Consolation Game 2",
       "teams": [
         {
-          "name": "Los Angeles Chargers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+          "name": "Denver Broncos",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
           "seed": 10,
-          "record": "3-3",
-          "allPlayPct": 52.25806451612903,
-          "elo": 1500.8247045975618,
+          "record": "3-5",
+          "allPlayPct": 54.03225806451613,
+          "elo": 1553.9637845316354,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 52.11566265526438
+          "odds": 59.00754997886198
         },
         {
           "name": "Buffalo Bills",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
           "seed": 11,
-          "record": "2-3-1",
-          "allPlayPct": 49.67741935483871,
-          "elo": 1486.1147916022685,
+          "record": "3-3-2",
+          "allPlayPct": 52.1505376344086,
+          "elo": 1490.682301706247,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 47.88433734473562
+          "odds": 40.99245002113802
         }
       ],
       "remainingWeeks": 1,
@@ -1064,28 +1064,28 @@
       "title": "Consolation Game 3",
       "teams": [
         {
-          "name": "Pittsburgh Steelers",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-          "seed": 12,
-          "record": "1-5",
-          "allPlayPct": 36.774193548387096,
-          "elo": 1443.6980508748134,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 51.26491772018945
-        },
-        {
           "name": "Kansas City Chiefs",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-          "seed": 13,
-          "record": "1-5",
-          "allPlayPct": 34.83870967741935,
-          "elo": 1434.9066264559601,
+          "seed": 12,
+          "record": "2-6",
+          "allPlayPct": 42.473118279569896,
+          "elo": 1453.0663810562419,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 48.73508227981055
+          "odds": 51.66157708446243
+        },
+        {
+          "name": "Pittsburgh Steelers",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+          "seed": 13,
+          "record": "2-6",
+          "allPlayPct": 38.70967741935484,
+          "elo": 1441.5163079407457,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 48.33842291553758
         }
       ],
       "remainingWeeks": 1,
@@ -1098,40 +1098,40 @@
       "title": "Consolation Game 4",
       "teams": [
         {
-          "name": "Cincinnati Bengals",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-          "seed": 14,
-          "record": "2-4",
-          "allPlayPct": 32.58064516129032,
-          "elo": 1465.494664016655,
-          "points": null,
-          "aggregate": null,
-          "bankedPoints": 0,
-          "odds": 37.57986415832342
-        },
-        {
           "name": "Baltimore Ravens",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-          "seed": 15,
-          "record": "2-4",
-          "allPlayPct": 32.58064516129032,
-          "elo": 1440.8484890545126,
+          "seed": 14,
+          "record": "2-6",
+          "allPlayPct": 35.752688172043015,
+          "elo": 1436.5931253048211,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 32.60917177444617
+          "odds": 33.30571537916383
+        },
+        {
+          "name": "Cincinnati Bengals",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+          "seed": 15,
+          "record": "2-5-1",
+          "allPlayPct": 31.989247311827956,
+          "elo": 1457.8139307090166,
+          "points": null,
+          "aggregate": null,
+          "bankedPoints": 0,
+          "odds": 37.63316805720825
         },
         {
           "name": "New England Patriots",
           "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
           "seed": 16,
-          "record": "1-5",
-          "allPlayPct": 27.419354838709676,
-          "elo": 1425.2629900800418,
+          "record": "1-7",
+          "allPlayPct": 23.387096774193548,
+          "elo": 1412.9105373163854,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 29.810964067230415
+          "odds": 29.06111656362792
         }
       ],
       "remainingWeeks": 1,
@@ -1141,5 +1141,5 @@
   "probabilityModel": {
     "logisticPointsScale": 31.57649140329526
   },
-  "eloThroughWeek": 5
+  "eloThroughWeek": 6
 }

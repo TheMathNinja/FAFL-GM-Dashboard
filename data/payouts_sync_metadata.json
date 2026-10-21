@@ -1,12 +1,12 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "through_week": 5,
-  "run_id": "38768390040",
+  "through_week": 6,
+  "run_id": "39528130618",
   "status": "success",
-  "verified_at": "2026-10-15T16:28:54.084799+00:00",
+  "verified_at": "2026-10-21T01:39:32.967973+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "4b33f3e962735d41787e83c9789037dd64b5301db082dc132fd2dd1cba7d6c35",
+  "source_sha256": "20c08a6cff71a051df8d71d167515bca5d9bb7d2b70ae0ff7eada3610d13b518",
   "awards": {
     "Week 1": [
       "WAS",
@@ -59,14 +59,14 @@
       "CIN"
     ],
     "Week 6": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "TBB",
+      "CHI",
+      "ATL",
+      "DAL",
+      "TEN",
+      "TEN",
+      "KCC",
+      "LVR"
     ],
     "Week 7": [
       "",
@@ -189,14 +189,14 @@
       "JAC"
     ],
     "Q2 Cumulative": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "CHI",
+      "NYG",
+      "TBB",
+      "DET",
+      "TEN",
+      "TEN",
+      "NYJ",
+      "LVR"
     ],
     "Q3 Cumulative": [
       "",
@@ -240,15 +240,14 @@
     ]
   },
   "logos": {
-    "status": "success",
-    "run_id": "38346304353",
-    "source_sha256": "37a405b9533d8e9ed8909bf9556f158dd6db78aa3bfb5d97d2ed1008bc1a2cf6",
-    "week": 5,
-    "images": 48,
-    "verified_at": "2026-10-13T04:31:54.117Z",
-    "reused": true,
-    "reused_from_run_id": "38346304353"
+    "status": "queued",
+    "run_id": "39528130618",
+    "source_sha256": "20c08a6cff71a051df8d71d167515bca5d9bb7d2b70ae0ff7eada3610d13b518",
+    "dispatch": {
+      "status": "success",
+      "queued": true
+    }
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
-  "published_images_verified": true
+  "published_images_verified": false
 }
