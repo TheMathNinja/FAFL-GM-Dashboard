@@ -2,7 +2,7 @@ name: Request league failure report
 
 on:
   workflow_run:
-    workflows: [Official FAFL Weekly League Update, Poll preliminary score readiness, Poll Thursday score corrections, Check Elo chart range]
+    workflows: [Official FAFL Weekly League Update, Poll preliminary score readiness, Poll Thursday score corrections, Check Elo chart range, Synchronize MFL Bonus Games]
     types: [completed]
 
 permissions:
