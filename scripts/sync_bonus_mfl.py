@@ -57,7 +57,7 @@ def main():
     ref = gspread.service_account_from_dict(json.loads(os.environ['GOOGLE_SERVICE_ACCOUNT_JSON']),
         http_client=gspread.BackOffHTTPClient).open_by_key(BOOKS[args.league]).worksheet('Reference')
     ref.update([[json.dumps(body)]], range_name='Z12', value_input_option='RAW')
-    bridge = dict(league=args.league, operation='bonus_mfl', run_id=body['run_id'])
+    bridge = dict(league=args.league, operation='bonus_mfl', run_id=body['run_id'], timeout_seconds=90)
     dispatch = request_bridge(**bridge)
     for attempt in range(36):
         raw = ref.acell('Z13').value
