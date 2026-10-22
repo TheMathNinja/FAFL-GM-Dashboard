@@ -35,9 +35,12 @@ bonus_workflow = Path(".github/workflows/verify_bonus_mfl.yml").read_text(encodi
 required_bonus_contract = (
     "source_run_id:",
     "refresh_process:",
-    "python scripts/sync_bonus_mfl.py --league FAFL --allow-queued",
+    "python scripts/sync_bonus_mfl.py --league FAFL",
     "path: data/bonus_mfl_sync_metadata.json",
 )
 if any(value not in bonus_workflow for value in required_bonus_contract):
     raise SystemExit("FAFL Bonus Games verification workflow is missing the shared publication contract.")
 print("Bonus Games verification handoff checks passed.")
+
+if "--allow-queued" in bonus_workflow or "python scripts/verify_bonus_receipt.py --league FAFL" not in workflow:
+    raise SystemExit("Official Bonus Games completion must require authoritative readback, never queue acceptance.")
