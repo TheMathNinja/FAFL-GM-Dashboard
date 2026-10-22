@@ -33,33 +33,33 @@ season,event,start_week,end_week,franchise_id,franchise_name,all_play,points,pot
 2026,Q1,1,3,0032,Los Angeles Chargers,44.0,586.6,792.7,0.0
 2026,Q2,4,6,0001,Dallas Cowboys,35.0,546.3,721.5,0.0
 2026,Q2,4,6,0002,New York Giants,52.0,608.6,761.9,1.0
-2026,Q2,4,6,0003,Philadelphia Eagles,51.0,611.5,681.1,1.0
-2026,Q2,4,6,0004,Washington Commanders,41.0,572.2,691.4000000000001,0.0
+2026,Q2,4,6,0003,Philadelphia Eagles,51.0,613.0,682.6,1.0
+2026,Q2,4,6,0004,Washington Commanders,41.0,573.7,691.4000000000001,0.0
 2026,Q2,4,6,0005,Chicago Bears,79.0,691.3,767.4000000000001,1.0
-2026,Q2,4,6,0006,Detroit Lions,35.0,556.4,802.9,0.0
+2026,Q2,4,6,0006,Detroit Lions,35.0,554.4,800.9,0.0
 2026,Q2,4,6,0007,Green Bay Packers,12.0,425.1,555.4,0.0
-2026,Q2,4,6,0008,Minnesota Vikings,8.0,448.5,550.3,0.0
-2026,Q2,4,6,0009,Atlanta Falcons,53.0,630.8,712.1,1.0
+2026,Q2,4,6,0008,Minnesota Vikings,9.0,450.0,550.3,0.0
+2026,Q2,4,6,0009,Atlanta Falcons,48.0,627.0999999999999,708.4,0.5
 2026,Q2,4,6,0010,Carolina Panthers,64.0,649.3,752.5,1.0
 2026,Q2,4,6,0011,New Orleans Saints,46.0,584.3,760.6,0.0
 2026,Q2,4,6,0012,Tampa Bay Buccaneers,57.0,605.0,722.2,1.0
-2026,Q2,4,6,0013,Arizona Cardinals,27.0,523.1,670.1,0.0
-2026,Q2,4,6,0014,Los Angeles Rams,44.0,605.5,731.5,0.0
+2026,Q2,4,6,0013,Arizona Cardinals,26.0,523.1,670.1,0.0
+2026,Q2,4,6,0014,Los Angeles Rams,45.0,605.5,731.5,0.0
 2026,Q2,4,6,0015,San Francisco 49ers,50.0,594.7,739.5999999999999,1.0
-2026,Q2,4,6,0016,Seattle Seahawks,54.0,610.2,720.9,1.0
-2026,Q2,4,6,0017,Buffalo Bills,49.0,581.8,664.2,0.5
-2026,Q2,4,6,0018,Miami Dolphins,20.0,498.9,620.3,0.0
+2026,Q2,4,6,0016,Seattle Seahawks,55.0,610.2,720.9,1.0
+2026,Q2,4,6,0017,Buffalo Bills,49.0,581.8,664.2,1.0
+2026,Q2,4,6,0018,Miami Dolphins,21.0,498.9,620.3,0.0
 2026,Q2,4,6,0019,New England Patriots,15.0,474.3,642.1,0.0
-2026,Q2,4,6,0020,New York Jets,76.0,729.6,816.3,1.0
+2026,Q2,4,6,0020,New York Jets,75.0,729.3,817.0,1.0
 2026,Q2,4,6,0021,Baltimore Ravens,24.0,500.6,637.4,0.0
-2026,Q2,4,6,0022,Cincinnati Bengals,46.0,630.9,672.3,0.5
+2026,Q2,4,6,0022,Cincinnati Bengals,47.0,630.9,672.3,0.5
 2026,Q2,4,6,0023,Cleveland Browns,43.0,570.2,770.1,0.0
-2026,Q2,4,6,0024,Pittsburgh Steelers,46.0,586.7,686.4,0.0
-2026,Q2,4,6,0025,Houston Texans,61.0,644.5,779.5,1.0
+2026,Q2,4,6,0024,Pittsburgh Steelers,46.0,585.5,685.2,0.0
+2026,Q2,4,6,0025,Houston Texans,62.0,644.5,779.5,1.0
 2026,Q2,4,6,0026,Indianapolis Colts,39.0,558.0,630.9,0.0
 2026,Q2,4,6,0027,Jacksonville Jaguars,51.0,591.0999999999999,712.3000000000001,1.0
 2026,Q2,4,6,0028,Tennessee Titans,86.0,753.1,790.2,1.0
 2026,Q2,4,6,0029,Denver Broncos,32.0,552.8,663.3,0.0
 2026,Q2,4,6,0030,Kansas City Chiefs,53.0,621.4,723.3,1.0
-2026,Q2,4,6,0031,Las Vegas Raiders,76.0,719.6,827.0,1.0
-2026,Q2,4,6,0032,Los Angeles Chargers,63.0,655.0,723.4,1.0
+2026,Q2,4,6,0031,Las Vegas Raiders,77.0,719.6,827.0,1.0
+2026,Q2,4,6,0032,Los Angeles Chargers,63.0,657.5,725.9,1.0

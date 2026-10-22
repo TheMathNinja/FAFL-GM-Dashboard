@@ -2,11 +2,11 @@
   "league": "FAFL",
   "season": 2026,
   "through_week": 6,
-  "run_id": "39528130618",
+  "run_id": "39819640029",
   "status": "success",
-  "verified_at": "2026-10-21T01:39:32.967973+00:00",
+  "verified_at": "2026-10-22T17:09:53.326411+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "20c08a6cff71a051df8d71d167515bca5d9bb7d2b70ae0ff7eada3610d13b518",
+  "source_sha256": "f1a94aea64a3638d2ad7510eb289f1f07433a42378bd14f4be06a06699132748",
   "awards": {
     "Week 1": [
       "WAS",
@@ -61,7 +61,7 @@
     "Week 6": [
       "TBB",
       "CHI",
-      "ATL",
+      "TBB",
       "DAL",
       "TEN",
       "TEN",
@@ -241,10 +241,10 @@
   },
   "logos": {
     "status": "queued",
-    "run_id": "39528130618",
-    "source_sha256": "20c08a6cff71a051df8d71d167515bca5d9bb7d2b70ae0ff7eada3610d13b518",
+    "run_id": "39819640029",
+    "source_sha256": "f1a94aea64a3638d2ad7510eb289f1f07433a42378bd14f4be06a06699132748",
     "dispatch": {
-      "status": "success",
+      "status": "uncertain",
       "queued": true
     }
   },
