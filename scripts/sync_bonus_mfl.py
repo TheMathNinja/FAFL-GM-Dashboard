@@ -36,6 +36,17 @@ def reports(root, league, season, week):
     return result
 
 
+
+def dispatch_bonus_request(bridge, timeout_seconds=60):
+    try:
+        return request_bridge(attempts=1, timeout_seconds=timeout_seconds, **bridge)
+    except RuntimeError:
+        # A transport failure can occur after MFL accepted the request. Never
+        # equate it with completion or resubmit blindly: poll the bound receipt.
+        print('Bonus Games dispatch was uncertain; waiting for authoritative readback', flush=True)
+        return {'status':'uncertain'}
+
+
 def main():
     import gspread
     p = argparse.ArgumentParser()
@@ -63,8 +74,10 @@ def main():
         http_client=gspread.BackOffHTTPClient).open_by_key(BOOKS[args.league]).worksheet('Reference')
     ref.update([[json.dumps(body)]], range_name='Z12', value_input_option='RAW')
     bridge = dict(league=args.league, operation='bonus_mfl', run_id=body['run_id'], timeout_seconds=90)
-    dispatch = request_bridge(**bridge)
-    for attempt in range(36):
+    dispatch_bonus_request(bridge)
+    # At most 60s dispatch + 290s polling + two 30s re-triggers: below
+    # the 8-minute step timeout even when every web response is lost.
+    for attempt in range(30):
         raw = ref.acell('Z13').value
         ack = json.loads(raw) if raw else {}
         if ack.get('run_id') == body['run_id'] and ack.get('source_sha256') == digest:
@@ -73,7 +86,7 @@ def main():
                 break
             if ack.get('status') == 'failure':
                 raise ValueError('MFL Bonus Games verification failed: '+str(ack.get('error')))
-        if attempt == 35:
+        if attempt == 29:
             raise TimeoutError('MFL Bonus Games readback timed out; completion is blocked')
         if attempt and attempt % 6 == 0:
             try:
