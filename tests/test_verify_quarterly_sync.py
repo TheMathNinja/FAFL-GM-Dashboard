@@ -32,7 +32,8 @@ class QuarterlySyncTests(unittest.TestCase):
         }
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            page = root / "week-02.html"
+            page = root / "docs" / "playoff-picture" / "week-02.html"
+            page.parent.mkdir(parents=True)
             page.write_text("const data = " + json.dumps(playoff), encoding="utf8")
             self.assertEqual(verify_snapshot(root, "FAFL", bonus, 1, page.name), 1)
 
