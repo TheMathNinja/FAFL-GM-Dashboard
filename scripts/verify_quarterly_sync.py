@@ -20,7 +20,9 @@ def verify_snapshot(root,league,bonus,week,page):
    # Playoff pages serialize probabilities to three decimal places while the
    # Bonus snapshot retains the simulation fraction. Compare what is actually
    # published instead of requiring unavailable floating-point precision.
-   if value is None or round(value,3)!=round(event['credit'],3):
+   # Compare the half-unit serialization error directly: rounding both sides
+   # separately can disagree at a rounding boundary despite identical inputs.
+   if value is None or abs(value-event['credit'])>0.0005+1e-12:
     raise ValueError(f"Quarterly mismatch: {league} week {week} {row['id']} {event['event']}: {value} vs {event['credit']}")
    count+=1
  return count
