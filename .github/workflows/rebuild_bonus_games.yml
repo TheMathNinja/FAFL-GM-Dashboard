@@ -5,10 +5,8 @@ on:
     branches: [main]
     paths:
       - scripts/forecast_byes.py
-      - data/forward_bye_exposure.csv
       - scripts/scoring_engine.py
       - scripts/fit_fafl_scoring.py
-      - data/fafl_scoring_model.json
       - data/scoring_history.csv
       - requirements.txt
       - scripts/bonus_predictor.py
