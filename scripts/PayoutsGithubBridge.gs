@@ -8,7 +8,8 @@ function installPayoutGithubBridge() {
     if (handlers.has(t.getHandlerFunction())) ScriptApp.deleteTrigger(t);
   }
   refreshGithubPayoutBridgeScheduled_();
-  console.log('Event-driven GitHub Sheets bridge configured; no recurring bridge trigger is installed.');
+  ScriptApp.newTrigger('refreshGithubPayoutBridgeScheduled_').timeBased().everyMinutes(5).create();
+  console.log('GitHub Sheets bridge configured with direct dispatch and a five-minute recovery trigger.');
 }
 
 // GitHub calls this after writing an explicit Sheet request. The workflow
@@ -35,7 +36,7 @@ function doPost(e) {
 }
 
 function refreshGithubPayoutBridgeScheduled_(targetLeague, targetOperation) {
-  const lock = LockService.getScriptLock();
+  const lock = LockService.getUserLock();
   if (!lock.tryLock(1000)) return false;
   try {
     for (const league of Object.keys(PAYOUTS.books)) {
