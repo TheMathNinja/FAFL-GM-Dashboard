@@ -50,7 +50,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           ref: main
@@ -110,7 +110,7 @@ jobs:
 
       - name: Preserve Elo chart range verification
         if: always() && steps.elo.outcome != 'skipped'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: elo-chart-range-${{ github.run_attempt }}
           path: artifacts/elo-range/
@@ -124,7 +124,7 @@ jobs:
 
       - name: Hand off exact Bonus Games verification source
         if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.schedule.outputs.score_status == 'official' && steps.elo.outcome == 'success'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: bonus-mfl-source-${{ github.run_id }}
           path: artifacts/bonus-mfl-source/bonus-mfl-source.json
