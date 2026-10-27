@@ -115,9 +115,13 @@ def draw_future_points(rng,mu,sigma,strength_sd,n_sims,remaining_weeks):
  # simulated ties occur naturally and receive the league's half-win credit.
  return np.round(np.maximum(0,mu[None,None,:]+weekly+offset),1)
 
-def playoff_swing_rows(qualified,future,opp,meta,week):
+def playoff_swing_rows(qualified,future,opp,meta,week,seeds=None):
  """Estimate next-week playoff-odds swings from the forecast's existing draws."""
  if week>=12 or future.shape[1]==0:return []
+ if seeds is None:raise ValueError('Conditional seed swing requires simulation seeds')
+ if np.asarray(seeds).shape!=qualified.shape or ((np.asarray(seeds)[qualified]<1)|(np.asarray(seeds)[qualified]>7)).any():raise ValueError('Invalid qualifying playoff seeds')
+ seeds=np.where(qualified,seeds,8)
+ if seeds.shape!=qualified.shape or not np.isfinite(seeds).all() or ((seeds<1)|(seeds>8)).any():raise ValueError('Invalid conditional playoff seeds')
  rows=[]
  for a in range(len(meta)):
   b=int(opp[week,a])
@@ -126,6 +130,8 @@ def playoff_swing_rows(qualified,future,opp,meta,week):
   if min(int(a_win.sum()),int(b_win.sum()))<100:raise ValueError('Insufficient conditional playoff samples')
   a_if_win=float(qualified[a_win,a].mean()*100);a_if_loss=float(qualified[b_win,a].mean()*100)
   b_if_win=float(qualified[b_win,b].mean()*100);b_if_loss=float(qualified[a_win,b].mean()*100)
+  a_seed_win=float(seeds[a_win,a].mean());a_seed_loss=float(seeds[b_win,a].mean())
+  b_seed_win=float(seeds[b_win,b].mean());b_seed_loss=float(seeds[a_win,b].mean())
   rows.append(dict(
    season=SEASON,through_week=week,target_week=week+1,
    team_a_id=meta[a]['id'],team_a=meta[a]['name'],team_b_id=meta[b]['id'],team_b=meta[b]['name'],
@@ -133,6 +139,10 @@ def playoff_swing_rows(qualified,future,opp,meta,week):
    team_b_playoff_if_win=b_if_win,team_b_playoff_if_loss=b_if_loss,
    team_a_swing=abs(a_if_win-a_if_loss),team_b_swing=abs(b_if_win-b_if_loss),
    combined_swing=abs(a_if_win-a_if_loss)+abs(b_if_win-b_if_loss),
+   team_a_seed_if_win=a_seed_win,team_a_seed_if_loss=a_seed_loss,
+   team_b_seed_if_win=b_seed_win,team_b_seed_if_loss=b_seed_loss,
+   team_a_seed_swing=abs(a_seed_win-a_seed_loss),team_b_seed_swing=abs(b_seed_win-b_seed_loss),
+   combined_seed_swing=abs(a_seed_win-a_seed_loss)+abs(b_seed_win-b_seed_loss),non_playoff_seed=8,
    team_a_win_samples=int(a_win.sum()),team_b_win_samples=int(b_win.sum())))
  return rows
 
@@ -196,7 +206,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   pmu=quarterly['future_potential'][:,:,shared_order].mean((0,1))
   q,dw,seed,wins,ap,credits=fafl_outcomes(scores,potentials,opp,conf,div,quarterly_credits=shared_credits,reg_season_credits=quarterly['reg_season_credits'][:,shared_order])
   swing_started=time.perf_counter()
-  swing=playoff_swing_rows(q,future,opp,meta,week)
+  swing=playoff_swing_rows(q,future,opp,meta,week,seed)
   details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
   details['weekly_sigma']=float(sigma)
   details['strength_uncertainty']={'model':'matched_prior_forward_errors_normal_persistent','sd':tau,'multiplier':1.0}
