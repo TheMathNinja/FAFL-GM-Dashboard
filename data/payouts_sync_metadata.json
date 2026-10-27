@@ -1,12 +1,12 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "through_week": 6,
-  "run_id": "39854956877",
+  "through_week": 7,
+  "run_id": "40446802531",
   "status": "success",
-  "verified_at": "2026-10-22T21:16:59.433801+00:00",
+  "verified_at": "2026-10-27T04:06:27.790557+00:00",
   "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "f1a94aea64a3638d2ad7510eb289f1f07433a42378bd14f4be06a06699132748",
+  "source_sha256": "2528553425053b89b28c54b1ee02df8e4b34121b21cd7a4b6783e581494ef4cc",
   "awards": {
     "Week 1": [
       "WAS",
@@ -69,14 +69,14 @@
       "LVR"
     ],
     "Week 7": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "PHI",
+      "PHI",
+      "CHI",
+      "PHI",
+      "BAL",
+      "BUF",
+      "LAC",
+      "JAC"
     ],
     "Week 8": [
       "",
@@ -240,14 +240,22 @@
     ]
   },
   "logos": {
-    "status": "queued",
-    "run_id": "39854956877",
-    "source_sha256": "f1a94aea64a3638d2ad7510eb289f1f07433a42378bd14f4be06a06699132748",
+    "status": "success",
+    "run_id": "40446802531",
+    "source_sha256": "2528553425053b89b28c54b1ee02df8e4b34121b21cd7a4b6783e581494ef4cc",
     "dispatch": {
-      "status": "uncertain",
+      "status": "success",
       "queued": true
+    },
+    "acknowledgement": {
+      "status": "success",
+      "run_id": "40446802531",
+      "source_sha256": "2528553425053b89b28c54b1ee02df8e4b34121b21cd7a4b6783e581494ef4cc",
+      "week": 7,
+      "images": 72,
+      "verified_at": "2026-10-27T04:06:19.822Z"
     }
   },
   "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
-  "published_images_verified": false
+  "published_images_verified": true
 }
