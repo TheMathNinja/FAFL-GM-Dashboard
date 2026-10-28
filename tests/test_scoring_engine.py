@@ -11,7 +11,7 @@ class ScoringEngineTests(unittest.TestCase):
  def current(self):return pd.read_csv(ROOT/'data/current_weekly.csv',dtype={'franchise_id':str})
  def test_mean_level_and_prior_only_noise(self):
   cur=self.current();mu,sd,tau,gap,meta=e.parameters(ROOT,cur,2026,4)
-  np.testing.assert_allclose(mu.mean(1),cur[cur.week<=4].points.mean(),atol=1e-10);self.assertEqual(mu.shape,(8,32));self.assertGreater(sd,0);self.assertGreaterEqual(tau,0);self.assertEqual(max(meta['innovation_training_years']),2025);self.assertEqual(meta['reg_season_model'],meta['version']);self.assertEqual(meta['growth_factor'],0.)
+  np.testing.assert_allclose(mu[1:].mean(1),cur[cur.week<=4].points.mean(),atol=1e-10);self.assertEqual(mu.shape,(8,32));self.assertGreater(sd,0);self.assertGreaterEqual(tau,0);self.assertEqual(max(meta['innovation_training_years']),2025);self.assertEqual(meta['reg_season_model'],meta['version']);self.assertEqual(meta['growth_factor'],0.)
  def test_later_current_scores_do_not_enter_forecast(self):
   cur=self.current();before=e.parameters(ROOT,cur,2026,3);cur.loc[cur.week>3,['points','potential']]=999999;after=e.parameters(ROOT,cur,2026,3)
   for x,y in zip(before[:4],after[:4]):np.testing.assert_array_equal(x,y)
@@ -47,7 +47,7 @@ class ScoringEngineTests(unittest.TestCase):
     def standardized_quantiles(shape):
      a,r=shape;rv=norminvgauss(a,a*r);mean,var=rv.stats(moments='mv')
      return (rv.ppf([.01,.025,.1,.5,.9,.975,.99])-mean)/np.sqrt(var)
-    deltas.append([float(np.max(abs(mu-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-row['tau']),max(sd,row['sd'])*float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
+    deltas.append([float(np.max(abs(np.asarray(meta['native_mean'])-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-row['tau']),max(sd,row['sd'])*float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
   maximum=np.max(deltas,axis=0)
   print('F315 cross-platform maximum differences in points: mean, weekly SD, strength SD, weekly-noise quantile',maximum)
   # Bounded regression/noise optimizers can stop at slightly different points.

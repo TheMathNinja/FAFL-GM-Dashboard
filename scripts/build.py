@@ -342,6 +342,9 @@ def main():
   calculate_bonus_games(current,meta).to_csv(ROOT/'data/bonus_games.csv',index=False)
   if args.stage=='bonus':return
  report_week=min(week,12);history=historical();regular=current[current.week<=12]
+ if report_week<12:
+  from upcoming_sharks import refresh
+  refresh(ROOT,SEASON,report_week+1)
  stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
  for prior in range(1,report_week):
   prior_data,_,_=forecast(history,regular[regular.week<=prior],meta,divmap,opp,home,prior,args.simulations)

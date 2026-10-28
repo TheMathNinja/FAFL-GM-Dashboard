@@ -5,7 +5,7 @@ import json
 import numpy as np
 DESCRIPTIONS={
  'ADL':'Quarterly and Reg Season forecasts estimate team scoring ability from Potential PPG using Empirical-Bayes estimates trained on normalized seasons beginning in 2018. The simulations include Normal weekly scoring variation and week-specific uncertainty about team strength. Bonus Games and Playoffs share these Bonus Game forecasts.',
- 'FAFL':'All forecasts use one scoring model. Current Potential PPG and prior GM performance estimate team scoring ability, anchored to league YTD PPG. Future-week bye adjustments use the selected week’s roster and estimated player scoring, allowing for eligible replacements. Weekly scores follow a fitted Normal-inverse-Gaussian distribution with a persistent team-strength offset. H2H, Playoffs and all five Bonus Games share the same simulated scores.'}
+ 'FAFL':'All forecasts use one scoring model. Current Potential PPG and prior GM performance estimate team scoring ability, anchored to league YTD PPG. The upcoming week blends that estimate equally with calibrated Fantasy Sharks projections for submitted starters, using calibrated YTD PPG when a Sharks projection is unavailable. Later weeks retain the underlying team forecast. Future-week bye adjustments use the selected week’s roster and estimated player scoring, allowing for eligible replacements. Weekly scores follow a fitted Normal-inverse-Gaussian distribution with a persistent team-strength offset. H2H, Playoffs and all five Bonus Games share the same simulated scores.'}
 
 def observed_weeks(ids,s,p):
  result={}

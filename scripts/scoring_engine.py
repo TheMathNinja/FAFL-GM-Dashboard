@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 from scipy.stats import norminvgauss
 
-MODEL_VERSION='fafl-f315-native-player-byes-nig-v1'
-MODEL_NAME='F315: native three-input regression + player forecast byes / matched NIG'
+MODEL_VERSION='fafl-f315-upcoming-sharks50-nig-v2'
+MODEL_NAME='F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty'
 
 def source_signature(root,season):
  import build as native
@@ -35,8 +35,11 @@ def parameters(root,current,season,week):
  loss=exposure_matrix(root,season,week,ids);centered_loss=loss-loss.mean(1,keepdims=True)
  mu=np.broadcast_to(pred[:,0]-pred[:,0].mean()+level,loss.shape).copy()-f['bye_coefficient']*centered_loss
  sigma=level*np.sqrt(f['weekly_variance']);tau=level*np.sqrt(f['posterior_variance'][str(week)]);gap=np.maximum(0,(p-s).mean(0))
+ native_mu=mu.copy()
+ from upcoming_sharks import apply
+ mu=apply(root,season,week,ids,mu)
  signature=hashlib.sha256((f['source_signature']+loss.tobytes().hex()).encode()).hexdigest()
- metadata=dict(source_signature=signature,fit_signature=f['source_signature'],version=MODEL_VERSION,model=MODEL_NAME,family='NIG',distribution='Normal-inverse-Gaussian',shape=f['shape'],growth_factor=0.,bye_coefficient=f['bye_coefficient'],training_years=f['mean_training_years'],innovation_training_years=f['noise_training_years'],uncertainty_training_years=f['uncertainty_training_years'],mean_method='week-specific native three-input regression centered on observed league YTD PPG; forecast-week same-roster bye losses',features=details['features'],coefficients=details['coefficients'],feature_means=details['feature_means'],feature_sd=details['feature_sd'],weekly_volatility='league-wide normalized weekly SD; residual-matched to the bye-adjusted mean',strength_uncertainty='week-specific persistent Normal team offset, residual-matched to the bye-adjusted mean',reg_season_model=MODEL_VERSION,reg_season_distribution='Normal-inverse-Gaussian',all_consumers=['H2H','All-Play','quarterly Bonus Games','Reg Season Bonus Game','playoff qualification'])
+ metadata=dict(native_mean=native_mu.tolist(),upcoming_sharks_weight=.5,source_signature=signature,fit_signature=f['source_signature'],version=MODEL_VERSION,model=MODEL_NAME,family='NIG',distribution='Normal-inverse-Gaussian',shape=f['shape'],growth_factor=0.,bye_coefficient=f['bye_coefficient'],training_years=f['mean_training_years'],innovation_training_years=f['noise_training_years'],uncertainty_training_years=f['uncertainty_training_years'],mean_method='week-specific native three-input regression centered on observed league YTD PPG; forecast-week same-roster bye losses',features=details['features'],coefficients=details['coefficients'],feature_means=details['feature_means'],feature_sd=details['feature_sd'],weekly_volatility='league-wide normalized weekly SD; residual-matched to the bye-adjusted mean',strength_uncertainty='week-specific persistent Normal team offset, residual-matched to the bye-adjusted mean',reg_season_model=MODEL_VERSION,reg_season_distribution='Normal-inverse-Gaussian',all_consumers=['H2H','All-Play','quarterly Bonus Games','Reg Season Bonus Game','playoff qualification'])
  return mu,float(sigma),float(tau),gap,metadata
 
 def future(mu,sigma,tau,model,season,week,n):

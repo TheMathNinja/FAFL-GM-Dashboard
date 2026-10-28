@@ -70,6 +70,9 @@ if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--root',type=Path,default=Path('.'));p.add_argument('--season',type=int,default=2026);p.add_argument('--all-seasons',action='store_true');a=p.parse_args();path=a.root/'data/fafl_scoring_model.json';saved=json.loads(path.read_text()) if path.exists() else {}
  for year in (range(2023,a.season+1) if a.all_seasons else [a.season]):
   signature=source_signature(a.root,year)
+  if saved.get(str(year),{}).get('version')=='fafl-f315-native-player-byes-nig-v1':
+   # Authorized mean-only migration: preserve every fitted uncertainty number.
+   old=saved[str(year)];old['retained_uncertainty_source_signature']=old['source_signature'];old.update(source_signature=signature,version=MODEL_VERSION,model=MODEL_NAME,upcoming_sharks_weight=.5);print('Preserved F315 uncertainty for Sharks mean migration',year,flush=True);continue
   if saved.get(str(year),{}).get('source_signature')==signature:continue
   saved[str(year)]=fit(a.root,year);print('Fitted F315',year,flush=True)
  path.write_text(json.dumps(saved,indent=2),encoding='utf8')
