@@ -1,8 +1,8 @@
 {
   "2023": {
-    "source_signature": "17da0bdd060886e87fa8d847057a12e5cfba9356b77bace8f20ef35cccec31d8",
-    "version": "fafl-f315-native-player-byes-nig-v1",
-    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "source_signature": "97f247e7de2f81656417c65104fd06292437e4643d2fa1c1891b8ecf6e3e3cd4",
+    "version": "fafl-f315-upcoming-sharks50-nig-v2",
+    "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
     "forecast_season": 2023,
     "mean_training_years": [
@@ -40,12 +40,14 @@
     ],
     "loss": -0.25928129437381264,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_uncertainty_source_signature": "17da0bdd060886e87fa8d847057a12e5cfba9356b77bace8f20ef35cccec31d8",
+    "upcoming_sharks_weight": 0.5
   },
   "2024": {
-    "source_signature": "12820640832f2ee14c70374d51d341d1e52f6352acfc8cd2aa833664b8807d6a",
-    "version": "fafl-f315-native-player-byes-nig-v1",
-    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "source_signature": "410bd7c67a6a172b40785cfa201d32bc5868d675b0a3a67656c95b585d67ee10",
+    "version": "fafl-f315-upcoming-sharks50-nig-v2",
+    "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
     "forecast_season": 2024,
     "mean_training_years": [
@@ -86,12 +88,14 @@
     ],
     "loss": -0.20326492528299275,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_uncertainty_source_signature": "12820640832f2ee14c70374d51d341d1e52f6352acfc8cd2aa833664b8807d6a",
+    "upcoming_sharks_weight": 0.5
   },
   "2025": {
-    "source_signature": "9502656595a0132eb3e99e0e85c1c4da66220446f06bd1c1bd7c6dba7ecbd760",
-    "version": "fafl-f315-native-player-byes-nig-v1",
-    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "source_signature": "466be34be83a7453a7da9429f32df4340a59d01db688c664386f445ce87cd789",
+    "version": "fafl-f315-upcoming-sharks50-nig-v2",
+    "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
     "forecast_season": 2025,
     "mean_training_years": [
@@ -135,12 +139,14 @@
     ],
     "loss": -0.21833068328492855,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_uncertainty_source_signature": "9502656595a0132eb3e99e0e85c1c4da66220446f06bd1c1bd7c6dba7ecbd760",
+    "upcoming_sharks_weight": 0.5
   },
   "2026": {
-    "source_signature": "11c4835d3e1d0a078ba9a1530e4372ec46e90274cb9332f4a38e31b27bc44821",
-    "version": "fafl-f315-native-player-byes-nig-v1",
-    "model": "F315: native three-input regression + player forecast byes / matched NIG",
+    "source_signature": "c42c2af75905a1b2819c0ab3e192ebf402261fc1956e0b17b8d67d7e6a08b8c4",
+    "version": "fafl-f315-upcoming-sharks50-nig-v2",
+    "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
     "forecast_season": 2026,
     "mean_training_years": [
@@ -187,6 +193,8 @@
     ],
     "loss": -0.19739538907093693,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_uncertainty_source_signature": "11c4835d3e1d0a078ba9a1530e4372ec46e90274cb9332f4a38e31b27bc44821",
+    "upcoming_sharks_weight": 0.5
   }
 }
