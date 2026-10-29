@@ -3,11 +3,11 @@
   "week": 7,
   "league_id": "22686",
   "status": "success",
-  "run_id": "40837945778",
-  "completed_at": "2026-10-29T08:01:07.038364+00:00",
+  "run_id": "40897559806",
+  "completed_at": "2026-10-29T15:12:04.078420+00:00",
   "bonus_mfl_verified": true,
   "payouts_verified": true,
   "process": "corrections",
-  "triggered_at": "2026-10-29T07:49:49.331516+00:00",
-  "trigger_run_id": "40837922079"
+  "triggered_at": "2026-10-29T15:02:49.404121+00:00",
+  "trigger_run_id": "40897512255"
 }
