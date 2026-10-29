@@ -18,6 +18,7 @@ def refresh(root,season,target_week):
  from collect_live_bonus import many,franchises,player_projection
  from player_availability import weekly_metadata
  from fs_pregame_calibration import load_calibration
+ from pooled_start_counts import with_start_counts
  root=Path(root);collector=MatchupCollector('FAFL',season)
  feed=collector.get('liveScoring',f'&W={target_week}&DETAILS=1',ttl=0)
  if int(feed.get('week',-1))!=target_week:raise ValueError('MFL has not supplied the requested upcoming-week lineup feed')
@@ -35,7 +36,7 @@ def refresh(root,season,target_week):
   for p in many(scores.get('playerScore')):
    if p.get('score') not in [None,'']:
     pid=p['id'];total[pid]=total.get(pid,0)+float(p['score']);count[pid]=count.get(pid,0)+1
- ytd={pid:total[pid]/count[pid] for pid in count};cal=load_calibration('FAFL');games=collector.game_states(target_week);rows=[]
+ ytd={pid:total[pid]/count[pid] for pid in count};cal=with_start_counts(load_calibration('FAFL'),collector,target_week,feed);games=collector.game_states(target_week);rows=[]
  # Reset all players to pregame: no live score/clock can enter the pregame mean.
  for fid,club in sorted(clubs.items()):
   starters=[p for p in many(club.get('players',{}).get('player')) if p.get('status')=='starter'];value=0.
