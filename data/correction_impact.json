@@ -1,94 +1,10 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "week": 6,
-  "run_id": "39854956877",
-  "score_revision": "14e0ecac9c81b0e4d37459b37c443f5df09623713725e9351f05049c3b4039c7",
+  "week": 7,
+  "run_id": "40837945778",
+  "score_revision": "04d7caec6b7ca784c606557dfdeeb0f34e35c38939b96c5c12f24d755af34309",
   "ext_pr": [],
-  "all_play": [
-    {
-      "franchise_id": "0008",
-      "franchise": "Minnesota Vikings",
-      "old_wins": 4,
-      "new_wins": 5,
-      "score_corrected": true
-    },
-    {
-      "franchise_id": "0009",
-      "franchise": "Atlanta Falcons",
-      "old_wins": 13,
-      "new_wins": 8,
-      "score_corrected": true
-    },
-    {
-      "franchise_id": "0013",
-      "franchise": "Arizona Cardinals",
-      "old_wins": 5,
-      "new_wins": 4,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0014",
-      "franchise": "Los Angeles Rams",
-      "old_wins": 11,
-      "new_wins": 12,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0016",
-      "franchise": "Seattle Seahawks",
-      "old_wins": 10,
-      "new_wins": 11,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0018",
-      "franchise": "Miami Dolphins",
-      "old_wins": 8,
-      "new_wins": 9,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0020",
-      "franchise": "New York Jets",
-      "old_wins": 28,
-      "new_wins": 27,
-      "score_corrected": true
-    },
-    {
-      "franchise_id": "0022",
-      "franchise": "Cincinnati Bengals",
-      "old_wins": 9,
-      "new_wins": 10,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0025",
-      "franchise": "Houston Texans",
-      "old_wins": 12,
-      "new_wins": 13,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0031",
-      "franchise": "Las Vegas Raiders",
-      "old_wins": 27,
-      "new_wins": 28,
-      "score_corrected": false
-    }
-  ],
-  "bonus_games": [
-    {
-      "franchise": "Atlanta Falcons",
-      "event": "Q2",
-      "old_result": "W",
-      "new_result": "T"
-    },
-    {
-      "franchise": "Buffalo Bills",
-      "event": "Q2",
-      "old_result": "T",
-      "new_result": "W"
-    }
-  ]
+  "all_play": [],
+  "bonus_games": []
 }

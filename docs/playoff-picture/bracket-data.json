@@ -861,12 +861,12 @@
       "title": "Bye",
       "teams": [
         {
-          "name": "Jacksonville Jaguars",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+          "name": "Las Vegas Raiders",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
           "seed": 1,
-          "record": "7-2",
-          "allPlayPct": 67.2811059907834,
-          "elo": 1580.156571058628,
+          "record": "6-2-1",
+          "allPlayPct": 70.50691244239631,
+          "elo": 1535.5850758043932,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
@@ -883,16 +883,16 @@
       "title": "Wild Card Round",
       "teams": [
         {
-          "name": "Las Vegas Raiders",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+          "name": "Jacksonville Jaguars",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
           "seed": 2,
-          "record": "6-2-1",
-          "allPlayPct": 70.50691244239631,
-          "elo": 1535.5850758043932,
+          "record": "7-2",
+          "allPlayPct": 67.2811059907834,
+          "elo": 1580.156571058628,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 55.6706188575145
+          "odds": 63.90708757438177
         },
         {
           "name": "Los Angeles Chargers",
@@ -904,7 +904,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 44.329381142485396
+          "odds": 36.092912425618074
         }
       ],
       "remainingWeeks": 2,
@@ -1039,19 +1039,19 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 55.89076495633603
+          "odds": 46.16967622095119
         },
         {
-          "name": "Kansas City Chiefs",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+          "name": "Miami Dolphins",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
           "seed": 11,
-          "record": "2-7",
-          "allPlayPct": 43.31797235023041,
-          "elo": 1451.6128624895969,
+          "record": "4-5",
+          "allPlayPct": 50.23041474654379,
+          "elo": 1519.4051387285303,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 44.10923504366397
+          "odds": 53.83032377904882
         }
       ],
       "remainingWeeks": 1,
@@ -1064,16 +1064,16 @@
       "title": "Consolation Game 3",
       "teams": [
         {
-          "name": "Miami Dolphins",
-          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+          "name": "Kansas City Chiefs",
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
           "seed": 12,
-          "record": "4-5",
-          "allPlayPct": 50.23041474654379,
-          "elo": 1519.4051387285303,
+          "record": "2-7",
+          "allPlayPct": 43.31797235023041,
+          "elo": 1451.6128624895969,
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 59.193562969016945
+          "odds": 49.54324398847738
         },
         {
           "name": "Baltimore Ravens",
@@ -1085,7 +1085,7 @@
           "points": null,
           "aggregate": null,
           "bankedPoints": 0,
-          "odds": 40.80643703098306
+          "odds": 50.45675601152263
         }
       ],
       "remainingWeeks": 1,
