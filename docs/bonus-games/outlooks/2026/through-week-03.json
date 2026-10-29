@@ -3521,8 +3521,8 @@
       ]
     ],
     "upcoming_sharks_weight": 0.5,
-    "source_signature": "3cf91c8c15adef151557ac8c4397c1b3d2fb239ca6e4124a3fcc71122d43305c",
-    "fit_signature": "c42c2af75905a1b2819c0ab3e192ebf402261fc1956e0b17b8d67d7e6a08b8c4",
+    "source_signature": "3f5e6f09336320d4c070cf31c3ea936e9d82c855f6b9c4b64ca96e4b3f9be2c7",
+    "fit_signature": "a6f3fe8eba6e2c52412ddc4bd6e2bca414ef7cc53b1078d665c02672983f6470",
     "version": "fafl-f315-upcoming-sharks50-nig-v2",
     "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
@@ -4538,8 +4538,8 @@
   },
   "outlooks": {
     "kind": "reconstructed",
-    "published_at": "2026-10-28T03:31:40.323129+00:00",
-    "status": "unofficial"
+    "published_at": "2026-10-29T21:18:48.826191+00:00",
+    "status": "official"
   },
   "league": "FAFL",
   "season": 2026,
