@@ -2,9 +2,45 @@
   "league": "FAFL",
   "season": 2026,
   "week": 7,
-  "run_id": "40837945778",
-  "score_revision": "04d7caec6b7ca784c606557dfdeeb0f34e35c38939b96c5c12f24d755af34309",
+  "run_id": "40897559806",
+  "score_revision": "aa98f5460ba471930202ed80c0efb05adf3e18495e3f1af2d4852f6ac180063d",
   "ext_pr": [],
-  "all_play": [],
+  "all_play": [
+    {
+      "franchise_id": "0002",
+      "franchise": "New York Giants",
+      "old_wins": 13,
+      "new_wins": 12,
+      "score_corrected": false
+    },
+    {
+      "franchise_id": "0010",
+      "franchise": "Carolina Panthers",
+      "old_wins": 10,
+      "new_wins": 9,
+      "score_corrected": false
+    },
+    {
+      "franchise_id": "0014",
+      "franchise": "Los Angeles Rams",
+      "old_wins": 12,
+      "new_wins": 14,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0025",
+      "franchise": "Houston Texans",
+      "old_wins": 14,
+      "new_wins": 13,
+      "score_corrected": false
+    },
+    {
+      "franchise_id": "0026",
+      "franchise": "Indianapolis Colts",
+      "old_wins": 9,
+      "new_wins": 10,
+      "score_corrected": true
+    }
+  ],
   "bonus_games": []
 }
