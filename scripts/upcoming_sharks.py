@@ -16,6 +16,7 @@ def apply(root,season,week,ids,mu):
 def refresh(root,season,target_week):
  from build_weekly_matchups import MatchupCollector
  from collect_live_bonus import many,franchises,player_projection
+ from player_availability import weekly_metadata
  from fs_pregame_calibration import load_calibration
  root=Path(root);collector=MatchupCollector('FAFL',season)
  feed=collector.get('liveScoring',f'&W={target_week}&DETAILS=1',ttl=0)
@@ -23,6 +24,7 @@ def refresh(root,season,target_week):
  clubs=franchises(feed)
  if len(clubs)!=32:raise ValueError('Incomplete upcoming-week franchise feed')
  metadata={p['id']:p for p in many(collector.get('players','&DETAILS=1',ttl=21600).get('player'))}
+ metadata=weekly_metadata(collector,metadata,target_week)
  fs=collector.get('projectedScores',f'&W={target_week}',ttl=0)
  if int(fs.get('week',target_week))!=target_week:raise ValueError('Wrong Sharks projection week')
  projections={p['id']:p.get('score') for p in many(fs.get('playerScore'))};available=sum(v not in [None,''] for v in projections.values())>=100

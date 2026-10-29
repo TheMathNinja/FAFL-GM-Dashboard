@@ -7,7 +7,7 @@ import pandas as pd
 def many(x):return x if isinstance(x,list) else [x] if x else []
 def status_code(value):
  value=(value or '').strip().upper().replace('(','').replace(')','')
- return {'SUSPENDED':'S','OUT':'O','BYE WEEK':'BYE','INJURED RESERVE - DESIGNATED FOR RETURN':'IR-R'}.get(value,value)
+ return {'HOLDOUT':'H','HOLD OUT':'H','INACTIVE':'I','SUSPENDED':'S','OUT':'O','BYE WEEK':'BYE','INJURED RESERVE - DESIGNATED FOR RETURN':'IR-R'}.get(value,value)
 
 def best_lineup(players,limits,totals):
  """Exact legal position-count optimization, independently by lineup group."""
@@ -63,7 +63,7 @@ def calculate(payload,week):
   flags={str(p['id']):status_code(p.get('status')) for p in many(payload['injuries'][str(w)]['injuries'].get('injury'))}
   for p in many(payload['scores'][str(w)]['playerScores'].get('playerScore')):
    pid=str(p['id']);score=float(p.get('score') or 0);team=players.get(pid,{}).get('team')
-   if score!=0 or (flags.get(pid,'') not in {'S','O','IR','IR-R'} and team in played[w]):samples.setdefault(pid,[]).append(score)
+   if score!=0 or (flags.get(pid,'') not in {'H','I','S','O','IR','IR-R','IR-PUP','IR-NFI','PUP','NFI'} and team in played[w]):samples.setdefault(pid,[]).append(score)
  output=[]
  for franchise in many(payload['rosters']['rosters']['franchise']):
   roster=[]
