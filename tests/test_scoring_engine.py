@@ -19,7 +19,7 @@ class ScoringEngineTests(unittest.TestCase):
   cur=self.current()
   with patch.object(q,'future_pairs',side_effect=lambda root,current,league,season,week,future:(np.stack([future,future+20],-1),{'method':'test'})):
    f=q.forecast(ROOT,cur,'FAFL',2026,4,1000,dict(ids=sorted(cur.franchise_id.unique()),mu=[9999]*32,sigma=0,tau=0))
-  self.assertIs(f['native_future'],f['future']);self.assertEqual(f['model']['version'],e.MODEL_VERSION)
+  self.assertIs(f['native_future'],f['future']);self.assertEqual(f['model']['version'],'fafl-f315-sharks50-relative-interval-lognormal-v3')
   np.testing.assert_array_equal(f['reg_season_credits'],b.segment_samples(f['s'],f['p'],4,f['future'],f['gap'],'FAFL',0,12,f['future_potential'])[1]/2)
   for label,start,end in b.EVENTS:
    credit=b.segment_samples(f['s'],f['p'],4,f['future'],f['gap'],'FAFL',start,end,f['future_potential'])[1]/2
@@ -47,7 +47,7 @@ class ScoringEngineTests(unittest.TestCase):
     def standardized_quantiles(shape):
      a,r=shape;rv=norminvgauss(a,a*r);mean,var=rv.stats(moments='mv')
      return (rv.ppf([.01,.025,.1,.5,.9,.975,.99])-mean)/np.sqrt(var)
-    deltas.append([float(np.max(abs(np.asarray(meta['native_mean'])-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-row['tau']),max(sd,row['sd'])*float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
+    deltas.append([float(np.max(abs(np.asarray(meta['native_mean'])-np.asarray(row['mu'])))),abs(sd-row['sd']),abs(tau-(float(np.mean(cur[cur.week<=row['week']].points))*np.sqrt(json.loads((ROOT/'data/fafl_uncertainty_selected.json').read_text())['team']['sd_by_week'][row['week']-1]**2) if year==2026 else row['tau'])),max(sd,row['sd'])*float(np.max(abs(standardized_quantiles(meta['shape'])-standardized_quantiles(row['shape']))))])
   maximum=np.max(deltas,axis=0)
   print('F315 cross-platform maximum differences in points: mean, weekly SD, strength SD, weekly-noise quantile',maximum)
   # Bounded regression/noise optimizers can stop at slightly different points.

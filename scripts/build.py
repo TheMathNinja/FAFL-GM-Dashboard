@@ -209,7 +209,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   swing=playoff_swing_rows(q,future,opp,meta,week,seed)
   details['playoff_swing_runtime_seconds']=round(time.perf_counter()-swing_started,3)
   details['weekly_sigma']=float(sigma)
-  details['strength_uncertainty']={'model':'matched_prior_forward_errors_normal_persistent','sd':tau,'multiplier':1.0}
+  details['strength_uncertainty']={'model':details.get('strength_uncertainty','matched_prior_forward_errors_normal_persistent'),'sd':tau,'multiplier':1.0}
  final_points=actual.sum(0)+(12-week)*mu;final_pot=pot.sum(0)+(12-week)*pmu
  projected_q,projected_dw,projected=rank_field(wins.mean(0)[None],ap.mean(0)[None],final_points[None],final_pot[None],credits.mean(0)[None],opp,conf,div)
  ap_week=((scores[:,:,:,None]>scores[:,:,None,:]).sum(-1)+.5*((scores[:,:,:,None]==scores[:,:,None,:]).sum(-1)-1))

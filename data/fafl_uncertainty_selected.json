@@ -1,0 +1,87 @@
+{
+  "version": "fafl-f315-sharks50-relative-interval-lognormal-v3",
+  "forecast_season": 2026,
+  "training_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "selection": {
+    "training_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "objective": "Interval",
+    "selected": "Linear",
+    "scores": {
+      "Linear": 0.454492376927487,
+      "Logistic": 0.4551060168233305,
+      "Half-life": 0.4564880344199338,
+      "Power": 0.4572748720266334,
+      "Quadratic": 0.45697959939980776
+    },
+    "fully_nested": true
+  },
+  "team": {
+    "training_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "family": "Linear",
+    "objective": "Interval",
+    "relative": true,
+    "coef": [
+      0.05000008951562938,
+      0.00872331774578311
+    ],
+    "success": true,
+    "loss": 0.4503309542315096,
+    "sd_by_week": [
+      0.05872340726141249,
+      0.05785107548683418,
+      0.056978743712255864,
+      0.056106411937677556,
+      0.05523408016309924,
+      0.05436174838852093,
+      0.053489416613942624,
+      0.05261708483936431,
+      0.051744753064786,
+      0.050872421290207685,
+      0.05000008951562938
+    ],
+    "seconds": 22.330281496047974,
+    "league_fixed": [
+      0.03191624548104216,
+      0.014500887422268531,
+      0.042451381139510164
+    ],
+    "weekly_nig_unchanged": true
+  },
+  "league": {
+    "training_years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "coef": [
+      0.03191624548104216,
+      0.014500887422268531,
+      0.042451381139510164
+    ],
+    "success": true,
+    "loss": -2.443350452262379,
+    "objective": "Gaussian trajectory moment likelihood with exact current-baseline/shared-lognormal covariance"
+  },
+  "scope": "Uncertainty only; retain deployed mean/player/weekly NIG parameters",
+  "approved_label": "Relative taper: interval selection"
+}

@@ -27,6 +27,9 @@ def forecast(root,current,league,season,week,n=DEFAULT_SIMULATIONS,primary=None)
   future=e.draw_future(mu,sigma,tau,league,season,week,n,model=model)
   pairs,pair_metadata=future_pairs(root,current,league,season,week,future)
   future_potential=pairs[...,1]
+  if league=='FAFL':
+   from selected_uncertainty import scale_pairs
+   future,future_potential=scale_pairs(future,future_potential,model,season,week)
   model={**model,"potential_points":pair_metadata}
  else:mu=s.mean(0);sigma=tau=0.;gap=np.zeros(32);model={'model':'completed','training_years':[]};future=np.zeros((n,0,32));future_potential=future.copy()
  events=e.event_forecasts(s,p,week,future,gap,league,future_potential)

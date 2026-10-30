@@ -1,6 +1,6 @@
 {
   "2023": {
-    "source_signature": "404537c7ccbb1d6db6bb52a57e04c508fd31809985dbcb2cd8ac1f41fd80c637",
+    "source_signature": "b8bcacd310d58e88a6672fd9f904c933f6aea1a1e892bb25e7d86b8144eaafd0",
     "version": "fafl-f315-upcoming-sharks50-nig-v2",
     "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
@@ -40,10 +40,11 @@
     ],
     "loss": -0.25928129437381264,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_pre_selected_uncertainty_signature": "404537c7ccbb1d6db6bb52a57e04c508fd31809985dbcb2cd8ac1f41fd80c637"
   },
   "2024": {
-    "source_signature": "49cafba15060c0cc1e16570eac452119e0125e2a76ea7ad7d93ecefb010c72d5",
+    "source_signature": "faae982c0ddcba2658f95515b7bfc174b9c6417fddca1c1c532b2554939ecba8",
     "version": "fafl-f315-upcoming-sharks50-nig-v2",
     "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
@@ -86,10 +87,11 @@
     ],
     "loss": -0.20326492528299275,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_pre_selected_uncertainty_signature": "49cafba15060c0cc1e16570eac452119e0125e2a76ea7ad7d93ecefb010c72d5"
   },
   "2025": {
-    "source_signature": "cd738d33b7313abca9254724883f4d9d8eaf3eb3b4007f6b9fbb0f68f9d0d1dc",
+    "source_signature": "d08d26d9df51934cab6bad6071a4ff414e1682eefa94dc201e1cc671eac5ee95",
     "version": "fafl-f315-upcoming-sharks50-nig-v2",
     "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
@@ -135,10 +137,11 @@
     ],
     "loss": -0.21833068328492855,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_pre_selected_uncertainty_signature": "cd738d33b7313abca9254724883f4d9d8eaf3eb3b4007f6b9fbb0f68f9d0d1dc"
   },
   "2026": {
-    "source_signature": "a6f3fe8eba6e2c52412ddc4bd6e2bca414ef7cc53b1078d665c02672983f6470",
+    "source_signature": "86ae4ede516a16dad68bb5f73e596212f270e51dd6c21ef9c6024f2858f5e8e5",
     "version": "fafl-f315-upcoming-sharks50-nig-v2",
     "model": "F315 + 50% upcoming-week calibrated Sharks / retained NIG uncertainty",
     "family": "NIG",
@@ -187,6 +190,7 @@
     ],
     "loss": -0.19739538907093693,
     "converged": true,
-    "growth_factor": 0.0
+    "growth_factor": 0.0,
+    "retained_pre_selected_uncertainty_signature": "a6f3fe8eba6e2c52412ddc4bd6e2bca414ef7cc53b1078d665c02672983f6470"
   }
 }

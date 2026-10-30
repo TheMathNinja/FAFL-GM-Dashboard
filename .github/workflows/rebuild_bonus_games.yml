@@ -7,6 +7,8 @@ on:
       - scripts/player_availability.py
       - scripts/forecast_byes.py
       - scripts/scoring_engine.py
+      - scripts/selected_uncertainty.py
+      - data/fafl_uncertainty_selected.json
       - scripts/fit_fafl_scoring.py
       - data/scoring_history.csv
       - requirements.txt
@@ -42,6 +44,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           python scripts/fit_fafl_scoring.py --root . --all-seasons
+          python -m unittest discover -s tests -p test_selected_uncertainty.py -v
           python -m unittest discover -s tests -p test_scoring_engine.py -v
           python -m unittest discover -s tests -p test_forecast_byes.py -v
           python -m unittest discover -s tests -p test_weekly_pairs.py -v
