@@ -27,3 +27,11 @@
 .gm-league-switch a:hover:not([aria-current]){background:light-dark(#eaf2fa,#2a3c52)!important}
 .gm-league-switch a:focus-visible{outline:3px solid #df9139!important;outline-offset:-4px}
 @media(max-width:560px){.gm-league-header{flex-wrap:wrap!important;row-gap:12px!important}.gm-header-actions{flex-basis:100%;gap:8px}.gm-league-switch a{min-height:42px;padding:8px 12px!important}}
+
+/* Match ADL's full-width module shell and 1380px content area. */
+body:has(#bonus-design),body:has(#fafl-playoff-design),body:has(:is(.app,.shell)>.mast){margin:0!important;padding:0!important}
+#bonus-design,#fafl-playoff-design,:is(.app,.shell):has(>.mast){max-width:none!important;width:100%;margin:0!important;box-sizing:border-box;border-radius:0!important}
+#bonus-design .gm-mast,#fafl-playoff-design .fafl-mast,:is(.app,.shell)>.mast{box-sizing:border-box;border-radius:0!important}
+#bonus-design .gm-main,#fafl-playoff-design .fafl-main,.app>main{max-width:1380px;box-sizing:border-box;width:100%;margin-left:auto;margin-right:auto}
+.shell:has(>.mast){padding:0!important}
+.shell:has(>.mast)>:not(.mast){max-width:1380px;margin-left:auto;margin-right:auto}
