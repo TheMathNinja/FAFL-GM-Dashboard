@@ -1,5 +1,5 @@
 name: Official FAFL Weekly League Update
-run-name: ${{ inputs.authorize_official_writes != true && 'FAFL manual preview' || inputs.score_revision != '' && format('Official FAFL correction update · Week {0} · {1}', inputs.ready_week, inputs.score_revision) || inputs.ready_week != '' && format('Official FAFL weekly update · Week {0}', inputs.ready_week) || 'Official FAFL weekly league update' }}
+run-name: ${{ inputs.authorize_official_writes != true && 'FAFL manual preview' || inputs.score_revision != '' && format('Official FAFL correction update · Week {0} · {1}', inputs.ready_week, inputs.score_revision) || inputs.ready_week != '' && format('Official FAFL weekly update · Week {0}', inputs.ready_week) || 'Official FAFL weekly league update' }}${{ inputs.preliminary_digest && format(' · {0}', inputs.preliminary_digest) || '' }}
 on:
   workflow_dispatch:
     inputs:
@@ -13,6 +13,10 @@ on:
         default: ""
       score_revision:
         description: "Player-score revision detected by Thursday correction poll"
+        type: string
+        default: ""
+      preliminary_digest:
+        description: "Validated Monday/Tuesday scoring inputs (retry identity only)"
         type: string
         default: ""
       ready_week:
