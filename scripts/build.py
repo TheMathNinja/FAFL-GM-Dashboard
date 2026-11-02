@@ -7,6 +7,7 @@ import pandas as pd
 import quarterly_bonus as shared
 from rules import fafl_outcomes,rank_field,orderkeys
 from weekly_system import calculate_elo,calculate_bonus_games
+from exact_clinching import certify_cached
 
 ROOT=Path(__file__).resolve().parents[1]
 SEASON=2026
@@ -240,6 +241,11 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   return f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png'
  actual_ap=((actual[:,:,None]>actual[:,None,:]).sum(-1)+.5*((actual[:,:,None]==actual[:,None,:]).sum(-1)-1))
  def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
+ # Score-coupled proofs do not consume or modify Monte Carlo forecasts.
+ clinch_request=dict(season=SEASON,week=week,teams=[dict(id=f['id'],conference=divmap[f['division']],division=f['division'],wins2=int(round(2*today[3][0,i]))) for i,f in enumerate(meta)],scores=actual.tolist(),potential=pot.tolist(),opp=np.asarray(opp,dtype=int).tolist())
+ clinch_proof=certify_cached(clinch_request,ROOT/'data/clinching'/str(SEASON))
+ details['clinching']={key:clinch_proof[key] for key in ['method','input_hash','complete']}
+ details['clinching']['unresolved_checks']=sum(q['status']=='unknown' for q in clinch_proof['queries'])
  rows=[];data={'NFC':[],'AFC':[]}
  for i,f in enumerate(meta):
   g=current[current.franchise_id==f['id']];win=float(today[3][0,i]);ties=int((today[5][0,:,i]==.5).sum())
@@ -252,7 +258,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   w=int(round(win-ties/2));loss=games-w-ties
   name=f['name']
   playoff=float(q[:,i].mean());division=float(dw[:,i].mean());bye=float((seed[:,i]==1).mean())
-  clinch='b' if bye==1 else 'd' if division==1 else 'p' if playoff==1 else 'e' if playoff==0 else ''
+  clinch=clinch_proof['teams'][f['id']]['clinch']
   matchups=[]
   for k in range(week,12):
    opponent=meta[opp[k,i]]
@@ -301,7 +307,7 @@ def render(data,week,status,n_sims,updated,through_week=None,write_index=True):
  replacements={'__GM_PROFILES__':json.dumps(profiles,allow_nan=False).replace('</','<\\/'),'__DATA__':json.dumps(data,allow_nan=False).replace('</','<\\/'),'__DRAFT__':'{}','__SHIELD__':'https://www43.myfantasyleague.com/fflnetdynamic2019/22686_league_logo.jpg','__SEASON__':str(SEASON),'__OUTLOOK__':str(week+1),'__WEEK__':str(week),'__STATUS__':status.lower(),'__SIMS__':f'{n_sims:,}','__TRAINING__':'2021–2025','__UPDATED__':updated,'__DROPDOWN__':dropdown,'__FULL_FILE__':f'week-{week+1:02}.csv'}
  for k,v in replacements.items():template=template.replace(k,v)
  if week==12:template=template.replace('Week 13 Outlook','Playoff Field')
- page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAFL Playoff Picture</title><style>:root{color-scheme:light dark}body{margin:0;padding:12px;background:light-dark(#f5f7fa,#151c25)}#fafl-playoff-design{max-width:1100px;margin:auto}a{color:light-dark(#235789,#89bce8)}</style></head><body>'+template+'</body></html>'
+ page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="clinch-method" content="score-coupled-clinch-v1-real"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAFL Playoff Picture</title><style>:root{color-scheme:light dark}body{margin:0;padding:12px;background:light-dark(#f5f7fa,#151c25)}#fafl-playoff-design{max-width:1100px;margin:auto}a{color:light-dark(#235789,#89bce8)}</style></head><body>'+template+'</body></html>'
  filenames=[f'week-{week+1:02}.html']+(['index.html'] if write_index else [])
  for filename in filenames:(out/filename).write_text(page,encoding='utf8')
  flat=[{k:v for k,v in r.items() if k!='ranks'} for c in data.values() for r in c]
@@ -362,3 +368,4 @@ def main():
  print(f'Built FAFL report through Week {week}: 32 teams, {args.simulations} simulations, {stamp}')
 
 if __name__=='__main__':main()
+

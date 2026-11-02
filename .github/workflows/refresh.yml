@@ -70,6 +70,7 @@ jobs:
         if: steps.schedule.outputs.should_run == 'true'
         run: |
           pip install -r requirements.txt
+          python -m unittest discover -s tests -p test_exact_clinching.py -v
           python scripts/fit_fafl_scoring.py --root . --all-seasons
           python scripts/check_weekly_workflow_order.py
           python -m unittest discover -s tests -v
@@ -350,3 +351,4 @@ jobs:
           gh workflow run email_weekly_completion.yml
           --repo TheMathNinja/ADL-Commissioner-Dashboard
           -f dry_run=false
+

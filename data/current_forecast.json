@@ -653,7 +653,13 @@
     "weekly_sigma": 37.799933207014604,
     "forecast_runtime_seconds": 12.269,
     "base_forecast_runtime_seconds": 12.252,
-    "playoff_swing_matchups": 16
+    "playoff_swing_matchups": 16,
+    "clinching": {
+      "method": "score-coupled-clinch-v1-real",
+      "input_hash": "63a32abffbb7fdd3ff95b3a8a5acae375f9a5d15e25426e2e12ddbc2a8cd2484",
+      "complete": true,
+      "unresolved_checks": 0
+    }
   },
   "conferences": {
     "NFC": [
@@ -4398,7 +4404,7 @@
         "name": "Minnesota Vikings",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
         "seed": 16,
-        "clinch": "e",
+        "clinch": "",
         "projectedQual": "",
         "qual": "",
         "record": "0-9",

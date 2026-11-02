@@ -20,6 +20,8 @@ on:
       - scripts/bonus_outlook_archive.py
       - tests/test_bonus_outlook_archive.py
       - scripts/build.py
+      - scripts/exact_clinching.py
+      - tests/test_exact_clinching.py
       - scripts/verify_quarterly_sync.py
       - data/historical_weekly.csv
       - data/predecessors.csv
@@ -43,6 +45,7 @@ jobs:
       - name: Build and validate selected module from published score cache
         run: |
           pip install -r requirements.txt
+          python -m unittest discover -s tests -p test_exact_clinching.py -v
           python scripts/fit_fafl_scoring.py --root . --all-seasons
           python -m unittest discover -s tests -p test_selected_uncertainty.py -v
           python -m unittest discover -s tests -p test_scoring_engine.py -v
@@ -61,7 +64,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add docs/bonus-games docs/playoff-picture data/current_forecast.json data/weekly_sharks_team_means.csv data/playoff_swing.csv data/fafl_scoring_model.json data/forward_bye_exposure.csv data/forecast_bye_inputs
+          git add data/clinching docs/bonus-games docs/playoff-picture data/current_forecast.json data/weekly_sharks_team_means.csv data/playoff_swing.csv data/fafl_scoring_model.json data/forward_bye_exposure.csv data/forecast_bye_inputs
           if ! git diff --cached --quiet; then
             git commit -m 'Rebuild selected Bonus Games dashboard'
             git push origin HEAD:main
@@ -70,3 +73,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api --method POST 'repos/${{ github.repository }}/pages/builds'
+
