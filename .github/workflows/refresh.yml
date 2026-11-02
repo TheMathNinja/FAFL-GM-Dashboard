@@ -71,6 +71,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m unittest discover -s tests -p test_exact_clinching.py -v
+          python -m unittest discover -s tests -p test_forecast_import_boundary.py -v
           python scripts/fit_fafl_scoring.py --root . --all-seasons
           python scripts/check_weekly_workflow_order.py
           python -m unittest discover -s tests -v

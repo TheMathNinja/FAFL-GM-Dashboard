@@ -7,7 +7,6 @@ import pandas as pd
 import quarterly_bonus as shared
 from rules import fafl_outcomes,rank_field,orderkeys
 from weekly_system import calculate_elo,calculate_bonus_games
-from exact_clinching import certify_cached
 
 ROOT=Path(__file__).resolve().parents[1]
 SEASON=2026
@@ -242,6 +241,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  actual_ap=((actual[:,:,None]>actual[:,None,:]).sum(-1)+.5*((actual[:,:,None]==actual[:,None,:]).sum(-1)-1))
  def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')
  # Score-coupled proofs do not consume or modify Monte Carlo forecasts.
+ from exact_clinching import certify_cached
  clinch_request=dict(season=SEASON,week=week,teams=[dict(id=f['id'],conference=divmap[f['division']],division=f['division'],wins2=int(round(2*today[3][0,i]))) for i,f in enumerate(meta)],scores=actual.tolist(),potential=pot.tolist(),opp=np.asarray(opp,dtype=int).tolist())
  clinch_proof=certify_cached(clinch_request,ROOT/'data/clinching'/str(SEASON))
  details['clinching']={key:clinch_proof[key] for key in ['method','input_hash','complete']}
