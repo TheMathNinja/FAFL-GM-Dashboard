@@ -1,7 +1,7 @@
 {
   "method": "score-coupled-clinch-v1-real",
   "solver": "Z3 4.15.4",
-  "input_hash": "7fec1a30b15f5a3a3207816e23097e54d9dc9d4682acc2967e4c838746202680",
+  "input_hash": "55ec8f1f4c991a08c73635355df3b165af367da19040a62f9d3110f8893bb4fd",
   "season": 2026,
   "week": 6,
   "teams": {
@@ -306,7 +306,7 @@
         "high": false
       },
       "witness_hash": "f9edb39870b92776ef9c486a823c7e1b7683ffc9788db99ad3c5a76a22f5191d",
-      "seconds": 0.0
+      "seconds": 0.0038420909999672404
     },
     {
       "team": "0002",
@@ -319,7 +319,7 @@
         "high": false
       },
       "witness_hash": "29752dcbb2855efe5727acdb31a6fece5c19ee31f20e663dd687a7f6e40a6132",
-      "seconds": 0.01500000013038516
+      "seconds": 0.0036486559999957535
     },
     {
       "team": "0003",
@@ -332,7 +332,7 @@
         "high": false
       },
       "witness_hash": "a4dae63f6deba92c02ae8e220b7f2f675708db27f4a2d456e1750e51a121a076",
-      "seconds": 0.0
+      "seconds": 0.0036063530000092214
     },
     {
       "team": "0004",
@@ -345,7 +345,7 @@
         "high": false
       },
       "witness_hash": "25c717f62c41bf726ddf64d2edbb6247441ef84d954a1a8fbfee578615b81892",
-      "seconds": 0.0
+      "seconds": 0.0036300480000477364
     },
     {
       "team": "0005",
@@ -358,7 +358,7 @@
         "high": false
       },
       "witness_hash": "7622673d6a3be917a6f05a40d2d5fda5f9a09083db966f25263903720329b28d",
-      "seconds": 0.0
+      "seconds": 0.0036163390000183426
     },
     {
       "team": "0006",
@@ -371,7 +371,7 @@
         "high": false
       },
       "witness_hash": "3316bf7bc384d27ee237b44749d04278966a5a651b85cc35793e555b3882b0ee",
-      "seconds": 0.0
+      "seconds": 0.0035971600000266335
     },
     {
       "team": "0007",
@@ -384,7 +384,7 @@
         "high": false
       },
       "witness_hash": "54e6046069812f097f85161c59ebdb7ad5111f20bb22ded3ddb791022933e9f0",
-      "seconds": 0.0
+      "seconds": 0.003612922999991497
     },
     {
       "team": "0008",
@@ -397,7 +397,7 @@
         "high": false
       },
       "witness_hash": "18d5fda94fb214eb661bfcc33eee24f295e00bdd77d1e17f6bd5e1b6bd999f86",
-      "seconds": 0.015999999828636646
+      "seconds": 0.003592874000048596
     },
     {
       "team": "0009",
@@ -410,7 +410,7 @@
         "high": false
       },
       "witness_hash": "928337f4b8ed0abdd04cfa35b179f1b2b31a91a35ee2712bd21ba536d5c8319d",
-      "seconds": 0.0
+      "seconds": 0.003573285000015858
     },
     {
       "team": "0010",
@@ -423,7 +423,7 @@
         "high": false
       },
       "witness_hash": "8a74b9cee4b30504d083b716f1aaad019cff378e21b42cffb9e19e22337b63b1",
-      "seconds": 0.0
+      "seconds": 0.003579733999970358
     },
     {
       "team": "0011",
@@ -436,7 +436,7 @@
         "high": false
       },
       "witness_hash": "418432ad205319651354699d339de753ba99938c5e58aec2fcd5e62cc6cec865",
-      "seconds": 0.0
+      "seconds": 0.0035811060000128236
     },
     {
       "team": "0012",
@@ -449,7 +449,7 @@
         "high": false
       },
       "witness_hash": "5d5bf401a431c78823c02ae58f7495414c0995ef4d9a1bb641cde6aabe2ecfc7",
-      "seconds": 0.0
+      "seconds": 0.003598401999965972
     },
     {
       "team": "0013",
@@ -462,7 +462,7 @@
         "high": false
       },
       "witness_hash": "f44e5be0a2eae0159c59222e0bcaecfeb5e107ff21df0edeea806351f7671af2",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003580134999992879
     },
     {
       "team": "0014",
@@ -475,7 +475,7 @@
         "high": false
       },
       "witness_hash": "42e2b8ed6c76d866238bdd4891aa38e2005b679d84cd5c75190db63cc870a4d2",
-      "seconds": 0.0
+      "seconds": 0.0035874359999752414
     },
     {
       "team": "0015",
@@ -488,7 +488,7 @@
         "high": false
       },
       "witness_hash": "db394235498bb4139b6b284dd6d63b31e48945b10e164a135d9cb0deda530602",
-      "seconds": 0.0
+      "seconds": 0.003620513999976538
     },
     {
       "team": "0016",
@@ -501,7 +501,7 @@
         "high": false
       },
       "witness_hash": "e2a4cf56c96b01d458c6acea101547151530c2812038ec62734dbb76e4ef1edf",
-      "seconds": 0.0
+      "seconds": 0.003642737000006946
     },
     {
       "team": "0017",
@@ -514,7 +514,7 @@
         "high": false
       },
       "witness_hash": "64122997bd12b232fd7cdaa896ebcc08dd156c8acaca2bca74ead25f5af1090a",
-      "seconds": 0.014999999897554517
+      "seconds": 0.003611110000008466
     },
     {
       "team": "0018",
@@ -527,7 +527,7 @@
         "high": false
       },
       "witness_hash": "c1f3a58ce2e888bba809e08b699c0f4bed23707542289a674b0fe2b8928ce3f6",
-      "seconds": 0.0
+      "seconds": 0.003594545999987986
     },
     {
       "team": "0019",
@@ -540,7 +540,7 @@
         "high": false
       },
       "witness_hash": "e7f158c2c4d85eeacefa4e8e2a4e49206f146372a8232055f25d2131bb8c3bf7",
-      "seconds": 0.0
+      "seconds": 0.00358496199999081
     },
     {
       "team": "0020",
@@ -553,7 +553,7 @@
         "high": false
       },
       "witness_hash": "fb85b63d044ba90f03d57a2e68991e6e639e8c53b20e11f1638ea32910de270b",
-      "seconds": 0.0
+      "seconds": 0.0035776099999793587
     },
     {
       "team": "0021",
@@ -566,7 +566,7 @@
         "high": false
       },
       "witness_hash": "d7811b1e83a654a548b8fcf5d912882a00b20801638b3f8904990a370a749d5d",
-      "seconds": 0.0
+      "seconds": 0.003551623000021209
     },
     {
       "team": "0022",
@@ -579,7 +579,7 @@
         "high": false
       },
       "witness_hash": "74c455f62d9ce596004da7daf13d902d52651e93688db23cdd45c7d3e3385705",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0035918920000312937
     },
     {
       "team": "0023",
@@ -592,7 +592,7 @@
         "high": false
       },
       "witness_hash": "46410e21d5bd3dc8cd1297fcc8f1fedc0a88d2f61ba7d2970d9034507e818745",
-      "seconds": 0.0
+      "seconds": 0.0036006849999807855
     },
     {
       "team": "0024",
@@ -605,7 +605,7 @@
         "high": false
       },
       "witness_hash": "e83b9134df3ee89a2c137f7891bd09dba3b61fed5cfaa9cc169cfdfa3ed78800",
-      "seconds": 0.0
+      "seconds": 0.0035663639999938823
     },
     {
       "team": "0025",
@@ -618,7 +618,7 @@
         "high": false
       },
       "witness_hash": "98d7a5438338b4a5408c19c435199b9ebd460bb53106344104d17b2c7ab17855",
-      "seconds": 0.0
+      "seconds": 0.0035834689999774128
     },
     {
       "team": "0026",
@@ -631,7 +631,7 @@
         "high": false
       },
       "witness_hash": "5378a7313074c2aeaa0a5048689316477ab6fe0531b54fa9233d14e1b2fb7705",
-      "seconds": 0.0
+      "seconds": 0.0035841000000118584
     },
     {
       "team": "0027",
@@ -644,7 +644,7 @@
         "high": false
       },
       "witness_hash": "23d6ef49008445162cfb6af1be79bd682e9bdf064db8f2e754d9e61a16885d15",
-      "seconds": 0.0
+      "seconds": 0.003597690999981751
     },
     {
       "team": "0028",
@@ -657,7 +657,7 @@
         "high": false
       },
       "witness_hash": "38c9a4329fe9d1229a936b79041eb8c5a5f5604bb5906e85c9a99de37f30960b",
-      "seconds": 0.01500000013038516
+      "seconds": 0.003592894000007618
     },
     {
       "team": "0029",
@@ -670,7 +670,7 @@
         "high": false
       },
       "witness_hash": "442da5cd3a03b55c363fe619f5a521f06c81b3b25331ca0ea5f045321757ce33",
-      "seconds": 0.0
+      "seconds": 0.003580765999970481
     },
     {
       "team": "0030",
@@ -683,7 +683,7 @@
         "high": false
       },
       "witness_hash": "cba21e2030acd109ccdd9fafcb09328c7c4d6e4dbea180aa9a4329e12be23626",
-      "seconds": 0.0
+      "seconds": 0.0035808549999956085
     },
     {
       "team": "0031",
@@ -696,7 +696,7 @@
         "high": false
       },
       "witness_hash": "bb47ae5e504ab6ebdb4b2a3fbbeb4ea019941f669123873c67e659e37bc4574e",
-      "seconds": 0.0
+      "seconds": 0.0035636900000213245
     },
     {
       "team": "0032",
@@ -709,7 +709,7 @@
         "high": false
       },
       "witness_hash": "5eaa663d5f31a45c2dd89b3361e34484ddd819e69745806378ed99396f237d6c",
-      "seconds": 0.0
+      "seconds": 0.0036064940000528622
     },
     {
       "team": "0001",
@@ -722,7 +722,7 @@
         "high": false
       },
       "witness_hash": "f9edb39870b92776ef9c486a823c7e1b7683ffc9788db99ad3c5a76a22f5191d",
-      "seconds": 0.015999999828636646
+      "seconds": 0.003576018999979169
     },
     {
       "team": "0002",
@@ -735,7 +735,7 @@
         "high": false
       },
       "witness_hash": "29752dcbb2855efe5727acdb31a6fece5c19ee31f20e663dd687a7f6e40a6132",
-      "seconds": 0.0
+      "seconds": 0.0035851619999789364
     },
     {
       "team": "0003",
@@ -748,7 +748,7 @@
         "high": false
       },
       "witness_hash": "a4dae63f6deba92c02ae8e220b7f2f675708db27f4a2d456e1750e51a121a076",
-      "seconds": 0.0
+      "seconds": 0.0035966490000305384
     },
     {
       "team": "0004",
@@ -761,7 +761,7 @@
         "high": false
       },
       "witness_hash": "25c717f62c41bf726ddf64d2edbb6247441ef84d954a1a8fbfee578615b81892",
-      "seconds": 0.0
+      "seconds": 0.003557951999994202
     },
     {
       "team": "0005",
@@ -774,7 +774,7 @@
         "high": false
       },
       "witness_hash": "9efd224e1d575fbc9bdf13135df9a4d3b165857c0099ec6b737685212eada428",
-      "seconds": 0.0
+      "seconds": 0.006038673999967159
     },
     {
       "team": "0006",
@@ -787,7 +787,7 @@
         "high": false
       },
       "witness_hash": "3316bf7bc384d27ee237b44749d04278966a5a651b85cc35793e555b3882b0ee",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0035709210000050007
     },
     {
       "team": "0007",
@@ -800,7 +800,7 @@
         "high": false
       },
       "witness_hash": "54e6046069812f097f85161c59ebdb7ad5111f20bb22ded3ddb791022933e9f0",
-      "seconds": 0.0
+      "seconds": 0.0035624779999920975
     },
     {
       "team": "0008",
@@ -813,7 +813,7 @@
         "high": false
       },
       "witness_hash": "18d5fda94fb214eb661bfcc33eee24f295e00bdd77d1e17f6bd5e1b6bd999f86",
-      "seconds": 0.0
+      "seconds": 0.0035746069999618157
     },
     {
       "team": "0009",
@@ -826,7 +826,7 @@
         "high": false
       },
       "witness_hash": "928337f4b8ed0abdd04cfa35b179f1b2b31a91a35ee2712bd21ba536d5c8319d",
-      "seconds": 0.01500000013038516
+      "seconds": 0.0035900889999993524
     },
     {
       "team": "0010",
@@ -839,7 +839,7 @@
         "high": false
       },
       "witness_hash": "8a74b9cee4b30504d083b716f1aaad019cff378e21b42cffb9e19e22337b63b1",
-      "seconds": 0.0
+      "seconds": 0.0035935840000433927
     },
     {
       "team": "0011",
@@ -852,7 +852,7 @@
         "high": false
       },
       "witness_hash": "418432ad205319651354699d339de753ba99938c5e58aec2fcd5e62cc6cec865",
-      "seconds": 0.0
+      "seconds": 0.00358102500001678
     },
     {
       "team": "0012",
@@ -865,7 +865,7 @@
         "high": false
       },
       "witness_hash": "5d5bf401a431c78823c02ae58f7495414c0995ef4d9a1bb641cde6aabe2ecfc7",
-      "seconds": 0.0
+      "seconds": 0.00365402299996731
     },
     {
       "team": "0013",
@@ -878,7 +878,7 @@
         "high": false
       },
       "witness_hash": "f44e5be0a2eae0159c59222e0bcaecfeb5e107ff21df0edeea806351f7671af2",
-      "seconds": 0.015999999828636646
+      "seconds": 0.0035843409999642972
     },
     {
       "team": "0014",
@@ -891,7 +891,7 @@
         "high": false
       },
       "witness_hash": "42e2b8ed6c76d866238bdd4891aa38e2005b679d84cd5c75190db63cc870a4d2",
-      "seconds": 0.0
+      "seconds": 0.0036206440000228213
     },
     {
       "team": "0015",
@@ -904,7 +904,7 @@
         "high": false
       },
       "witness_hash": "db394235498bb4139b6b284dd6d63b31e48945b10e164a135d9cb0deda530602",
-      "seconds": 0.0
+      "seconds": 0.0036185409999802687
     },
     {
       "team": "0016",
@@ -917,7 +917,7 @@
         "high": false
       },
       "witness_hash": "e2a4cf56c96b01d458c6acea101547151530c2812038ec62734dbb76e4ef1edf",
-      "seconds": 0.0
+      "seconds": 0.00360779499999353
     },
     {
       "team": "0017",
@@ -930,7 +930,7 @@
         "high": false
       },
       "witness_hash": "64122997bd12b232fd7cdaa896ebcc08dd156c8acaca2bca74ead25f5af1090a",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003585052000005362
     },
     {
       "team": "0018",
@@ -943,7 +943,7 @@
         "high": false
       },
       "witness_hash": "c1f3a58ce2e888bba809e08b699c0f4bed23707542289a674b0fe2b8928ce3f6",
-      "seconds": 0.0
+      "seconds": 0.0035866740000187747
     },
     {
       "team": "0019",
@@ -956,7 +956,7 @@
         "high": false
       },
       "witness_hash": "e7f158c2c4d85eeacefa4e8e2a4e49206f146372a8232055f25d2131bb8c3bf7",
-      "seconds": 0.0
+      "seconds": 0.0035973000000240063
     },
     {
       "team": "0020",
@@ -969,7 +969,7 @@
         "high": false
       },
       "witness_hash": "fb85b63d044ba90f03d57a2e68991e6e639e8c53b20e11f1638ea32910de270b",
-      "seconds": 0.0
+      "seconds": 0.003589637999994011
     },
     {
       "team": "0021",
@@ -982,7 +982,7 @@
         "high": false
       },
       "witness_hash": "d7811b1e83a654a548b8fcf5d912882a00b20801638b3f8904990a370a749d5d",
-      "seconds": 0.014999999897554517
+      "seconds": 0.003590019000000666
     },
     {
       "team": "0022",
@@ -995,7 +995,7 @@
         "high": false
       },
       "witness_hash": "74c455f62d9ce596004da7daf13d902d52651e93688db23cdd45c7d3e3385705",
-      "seconds": 0.0
+      "seconds": 0.0036950139999589737
     },
     {
       "team": "0023",
@@ -1008,7 +1008,7 @@
         "high": false
       },
       "witness_hash": "46410e21d5bd3dc8cd1297fcc8f1fedc0a88d2f61ba7d2970d9034507e818745",
-      "seconds": 0.0
+      "seconds": 0.0035996529999806626
     },
     {
       "team": "0024",
@@ -1021,7 +1021,7 @@
         "high": false
       },
       "witness_hash": "e83b9134df3ee89a2c137f7891bd09dba3b61fed5cfaa9cc169cfdfa3ed78800",
-      "seconds": 0.0
+      "seconds": 0.003604099999961363
     },
     {
       "team": "0025",
@@ -1034,7 +1034,7 @@
         "high": false
       },
       "witness_hash": "98d7a5438338b4a5408c19c435199b9ebd460bb53106344104d17b2c7ab17855",
-      "seconds": 0.0
+      "seconds": 0.00360590200000388
     },
     {
       "team": "0026",
@@ -1047,7 +1047,7 @@
         "high": false
       },
       "witness_hash": "5378a7313074c2aeaa0a5048689316477ab6fe0531b54fa9233d14e1b2fb7705",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003636698000036631
     },
     {
       "team": "0027",
@@ -1060,7 +1060,7 @@
         "high": false
       },
       "witness_hash": "23d6ef49008445162cfb6af1be79bd682e9bdf064db8f2e754d9e61a16885d15",
-      "seconds": 0.0
+      "seconds": 0.0036173100000382874
     },
     {
       "team": "0028",
@@ -1073,7 +1073,7 @@
         "high": false
       },
       "witness_hash": "38c9a4329fe9d1229a936b79041eb8c5a5f5604bb5906e85c9a99de37f30960b",
-      "seconds": 0.0
+      "seconds": 0.0035844810000185134
     },
     {
       "team": "0029",
@@ -1086,7 +1086,7 @@
         "high": false
       },
       "witness_hash": "442da5cd3a03b55c363fe619f5a521f06c81b3b25331ca0ea5f045321757ce33",
-      "seconds": 0.0
+      "seconds": 0.0036013360000310968
     },
     {
       "team": "0030",
@@ -1099,7 +1099,7 @@
         "high": false
       },
       "witness_hash": "cba21e2030acd109ccdd9fafcb09328c7c4d6e4dbea180aa9a4329e12be23626",
-      "seconds": 0.0
+      "seconds": 0.003593664999982593
     },
     {
       "team": "0031",
@@ -1112,7 +1112,7 @@
         "high": false
       },
       "witness_hash": "bb47ae5e504ab6ebdb4b2a3fbbeb4ea019941f669123873c67e659e37bc4574e",
-      "seconds": 0.01500000013038516
+      "seconds": 0.003593635000015638
     },
     {
       "team": "0032",
@@ -1125,7 +1125,7 @@
         "high": false
       },
       "witness_hash": "5eaa663d5f31a45c2dd89b3361e34484ddd819e69745806378ed99396f237d6c",
-      "seconds": 0.0
+      "seconds": 0.003607614999964426
     },
     {
       "team": "0001",
@@ -1138,7 +1138,7 @@
         "high": false
       },
       "witness_hash": "f9edb39870b92776ef9c486a823c7e1b7683ffc9788db99ad3c5a76a22f5191d",
-      "seconds": 0.0
+      "seconds": 0.003689666000013858
     },
     {
       "team": "0002",
@@ -1151,7 +1151,7 @@
         "high": false
       },
       "witness_hash": "29752dcbb2855efe5727acdb31a6fece5c19ee31f20e663dd687a7f6e40a6132",
-      "seconds": 0.0
+      "seconds": 0.0036119819999953506
     },
     {
       "team": "0003",
@@ -1164,7 +1164,7 @@
         "high": false
       },
       "witness_hash": "a4dae63f6deba92c02ae8e220b7f2f675708db27f4a2d456e1750e51a121a076",
-      "seconds": 0.0
+      "seconds": 0.003612282000005962
     },
     {
       "team": "0004",
@@ -1177,7 +1177,7 @@
         "high": false
       },
       "witness_hash": "25c717f62c41bf726ddf64d2edbb6247441ef84d954a1a8fbfee578615b81892",
-      "seconds": 0.015999999828636646
+      "seconds": 0.003587255000013556
     },
     {
       "team": "0005",
@@ -1190,7 +1190,7 @@
         "high": false
       },
       "witness_hash": "9efd224e1d575fbc9bdf13135df9a4d3b165857c0099ec6b737685212eada428",
-      "seconds": 0.0
+      "seconds": 0.006101757000010366
     },
     {
       "team": "0006",
@@ -1203,7 +1203,7 @@
         "high": false
       },
       "witness_hash": "3316bf7bc384d27ee237b44749d04278966a5a651b85cc35793e555b3882b0ee",
-      "seconds": 0.0
+      "seconds": 0.003586272999996254
     },
     {
       "team": "0007",
@@ -1216,7 +1216,7 @@
         "high": false
       },
       "witness_hash": "54e6046069812f097f85161c59ebdb7ad5111f20bb22ded3ddb791022933e9f0",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003592843000035373
     },
     {
       "team": "0008",
@@ -1229,7 +1229,7 @@
         "high": false
       },
       "witness_hash": "18d5fda94fb214eb661bfcc33eee24f295e00bdd77d1e17f6bd5e1b6bd999f86",
-      "seconds": 0.0
+      "seconds": 0.0036124220000033347
     },
     {
       "team": "0009",
@@ -1242,7 +1242,7 @@
         "high": false
       },
       "witness_hash": "928337f4b8ed0abdd04cfa35b179f1b2b31a91a35ee2712bd21ba536d5c8319d",
-      "seconds": 0.0
+      "seconds": 0.0036336339999820666
     },
     {
       "team": "0010",
@@ -1255,7 +1255,7 @@
         "high": false
       },
       "witness_hash": "8a74b9cee4b30504d083b716f1aaad019cff378e21b42cffb9e19e22337b63b1",
-      "seconds": 0.0
+      "seconds": 0.003634535000003325
     },
     {
       "team": "0011",
@@ -1268,7 +1268,7 @@
         "high": false
       },
       "witness_hash": "418432ad205319651354699d339de753ba99938c5e58aec2fcd5e62cc6cec865",
-      "seconds": 0.0
+      "seconds": 0.0036098379999884855
     },
     {
       "team": "0012",
@@ -1281,7 +1281,7 @@
         "high": false
       },
       "witness_hash": "5d5bf401a431c78823c02ae58f7495414c0995ef4d9a1bb641cde6aabe2ecfc7",
-      "seconds": 0.01500000013038516
+      "seconds": 0.003601385999957074
     },
     {
       "team": "0013",
@@ -1294,7 +1294,7 @@
         "high": false
       },
       "witness_hash": "f44e5be0a2eae0159c59222e0bcaecfeb5e107ff21df0edeea806351f7671af2",
-      "seconds": 0.0
+      "seconds": 0.0036187619999736853
     },
     {
       "team": "0014",
@@ -1307,7 +1307,7 @@
         "high": false
       },
       "witness_hash": "42e2b8ed6c76d866238bdd4891aa38e2005b679d84cd5c75190db63cc870a4d2",
-      "seconds": 0.0
+      "seconds": 0.0036026280000100996
     },
     {
       "team": "0015",
@@ -1320,7 +1320,7 @@
         "high": false
       },
       "witness_hash": "db394235498bb4139b6b284dd6d63b31e48945b10e164a135d9cb0deda530602",
-      "seconds": 0.0
+      "seconds": 0.0036235279999914383
     },
     {
       "team": "0016",
@@ -1333,7 +1333,7 @@
         "high": false
       },
       "witness_hash": "e2a4cf56c96b01d458c6acea101547151530c2812038ec62734dbb76e4ef1edf",
-      "seconds": 0.0
+      "seconds": 0.0036059029999933045
     },
     {
       "team": "0017",
@@ -1346,7 +1346,7 @@
         "high": false
       },
       "witness_hash": "64122997bd12b232fd7cdaa896ebcc08dd156c8acaca2bca74ead25f5af1090a",
-      "seconds": 0.0
+      "seconds": 0.003602336999961153
     },
     {
       "team": "0018",
@@ -1359,7 +1359,7 @@
         "high": false
       },
       "witness_hash": "c1f3a58ce2e888bba809e08b699c0f4bed23707542289a674b0fe2b8928ce3f6",
-      "seconds": 0.015999999828636646
+      "seconds": 0.0035987119999845163
     },
     {
       "team": "0019",
@@ -1372,7 +1372,7 @@
         "high": false
       },
       "witness_hash": "e7f158c2c4d85eeacefa4e8e2a4e49206f146372a8232055f25d2131bb8c3bf7",
-      "seconds": 0.0
+      "seconds": 0.0036190919999512516
     },
     {
       "team": "0020",
@@ -1385,7 +1385,7 @@
         "high": false
       },
       "witness_hash": "fb85b63d044ba90f03d57a2e68991e6e639e8c53b20e11f1638ea32910de270b",
-      "seconds": 0.0
+      "seconds": 0.0036154470000155925
     },
     {
       "team": "0021",
@@ -1398,7 +1398,7 @@
         "high": false
       },
       "witness_hash": "d7811b1e83a654a548b8fcf5d912882a00b20801638b3f8904990a370a749d5d",
-      "seconds": 0.0
+      "seconds": 0.0036158870000235765
     },
     {
       "team": "0022",
@@ -1411,7 +1411,7 @@
         "high": false
       },
       "witness_hash": "74c455f62d9ce596004da7daf13d902d52651e93688db23cdd45c7d3e3385705",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0036292969999749403
     },
     {
       "team": "0023",
@@ -1424,7 +1424,7 @@
         "high": false
       },
       "witness_hash": "46410e21d5bd3dc8cd1297fcc8f1fedc0a88d2f61ba7d2970d9034507e818745",
-      "seconds": 0.0
+      "seconds": 0.0036130830000047354
     },
     {
       "team": "0024",
@@ -1437,7 +1437,7 @@
         "high": false
       },
       "witness_hash": "e83b9134df3ee89a2c137f7891bd09dba3b61fed5cfaa9cc169cfdfa3ed78800",
-      "seconds": 0.0
+      "seconds": 0.0035916410000140786
     },
     {
       "team": "0025",
@@ -1450,7 +1450,7 @@
         "high": false
       },
       "witness_hash": "98d7a5438338b4a5408c19c435199b9ebd460bb53106344104d17b2c7ab17855",
-      "seconds": 0.0
+      "seconds": 0.0035810659999810923
     },
     {
       "team": "0026",
@@ -1463,7 +1463,7 @@
         "high": false
       },
       "witness_hash": "5378a7313074c2aeaa0a5048689316477ab6fe0531b54fa9233d14e1b2fb7705",
-      "seconds": 0.014999999897554517
+      "seconds": 0.003587544999959391
     },
     {
       "team": "0027",
@@ -1476,7 +1476,7 @@
         "high": false
       },
       "witness_hash": "23d6ef49008445162cfb6af1be79bd682e9bdf064db8f2e754d9e61a16885d15",
-      "seconds": 0.0
+      "seconds": 0.0036165189999906033
     },
     {
       "team": "0028",
@@ -1489,7 +1489,7 @@
         "high": false
       },
       "witness_hash": "38c9a4329fe9d1229a936b79041eb8c5a5f5604bb5906e85c9a99de37f30960b",
-      "seconds": 0.0
+      "seconds": 0.00364798499998642
     },
     {
       "team": "0029",
@@ -1502,7 +1502,7 @@
         "high": false
       },
       "witness_hash": "442da5cd3a03b55c363fe619f5a521f06c81b3b25331ca0ea5f045321757ce33",
-      "seconds": 0.0
+      "seconds": 0.0036185210000212464
     },
     {
       "team": "0030",
@@ -1515,7 +1515,7 @@
         "high": false
       },
       "witness_hash": "cba21e2030acd109ccdd9fafcb09328c7c4d6e4dbea180aa9a4329e12be23626",
-      "seconds": 0.0
+      "seconds": 0.0036052119999681054
     },
     {
       "team": "0031",
@@ -1528,7 +1528,7 @@
         "high": false
       },
       "witness_hash": "bb47ae5e504ab6ebdb4b2a3fbbeb4ea019941f669123873c67e659e37bc4574e",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0035969489999843063
     },
     {
       "team": "0032",
@@ -1541,7 +1541,7 @@
         "high": false
       },
       "witness_hash": "5eaa663d5f31a45c2dd89b3361e34484ddd819e69745806378ed99396f237d6c",
-      "seconds": 0.0
+      "seconds": 0.0036083569999618703
     },
     {
       "team": "0001",
@@ -1554,7 +1554,7 @@
         "high": true
       },
       "witness_hash": "8f1bcfc902d3aca2aa81c7c2dc0723f58d44722328aed26ea6d691c0e2cba388",
-      "seconds": 0.0
+      "seconds": 0.003614135000020724
     },
     {
       "team": "0002",
@@ -1567,7 +1567,7 @@
         "high": true
       },
       "witness_hash": "af2b54d9426dc07daf1e064740d4517d1818a9cadc7a2fedfaebba5224035451",
-      "seconds": 0.0
+      "seconds": 0.0036045209999997496
     },
     {
       "team": "0003",
@@ -1580,7 +1580,7 @@
         "high": true
       },
       "witness_hash": "fe4391cbd49445288e84a1013e202edcb64827442562dda3ea3ee6e20b0f3823",
-      "seconds": 0.0
+      "seconds": 0.0036184209999987615
     },
     {
       "team": "0004",
@@ -1593,7 +1593,7 @@
         "high": true
       },
       "witness_hash": "a2726e44949649a79a89dab4731bcc073f2d393e77c8ea79f36b5b25c34a1cec",
-      "seconds": 0.01500000013038516
+      "seconds": 0.003633111999988614
     },
     {
       "team": "0005",
@@ -1606,7 +1606,7 @@
         "high": true
       },
       "witness_hash": "af08a0b90839c9d8e6a17cb3c202ac8ca590e3a71e32d35a71ff750e54af93f7",
-      "seconds": 0.0
+      "seconds": 0.003614835000007588
     },
     {
       "team": "0006",
@@ -1619,7 +1619,7 @@
         "high": true
       },
       "witness_hash": "8ac593640597628a1b85cdaa1d29677887184a88c53ba2cc840784e5e0b7cf2e",
-      "seconds": 0.0
+      "seconds": 0.0036202139999659266
     },
     {
       "team": "0007",
@@ -1632,7 +1632,7 @@
         "high": true
       },
       "witness_hash": "0cdbb2df971ff012e6ea9b27371c1a00aa82832de4681da3dfa042c74166b7ba",
-      "seconds": 0.0
+      "seconds": 0.0036229579999940142
     },
     {
       "team": "0008",
@@ -1645,7 +1645,7 @@
         "high": true
       },
       "witness_hash": "b94938d494b51ac79bfe04af2a5d5f54471ab50797c891fe41b1406229a54e80",
-      "seconds": 0.0
+      "seconds": 0.003607434999992165
     },
     {
       "team": "0009",
@@ -1658,7 +1658,7 @@
         "high": true
       },
       "witness_hash": "22184f0898faebdc81a62c2fed4de64bb8393dec1c7cc9f0d2b1ca20cc8f79e5",
-      "seconds": 0.015999999828636646
+      "seconds": 0.003609156999971219
     },
     {
       "team": "0010",
@@ -1671,7 +1671,7 @@
         "high": true
       },
       "witness_hash": "1fa86bf49a9d752c6e55283218735734b5a452fda0f491f89f3efb4e62c5520b",
-      "seconds": 0.0
+      "seconds": 0.003603918999999678
     },
     {
       "team": "0011",
@@ -1684,7 +1684,7 @@
         "high": true
       },
       "witness_hash": "0b661caa1a4e791aefeed9d723dc5b691523ca0c050945b88bbe10c551c328f4",
-      "seconds": 0.0
+      "seconds": 0.003589459000011175
     },
     {
       "team": "0012",
@@ -1697,7 +1697,7 @@
         "high": true
       },
       "witness_hash": "2fd5c48f54c07287cff860eafc9481942454d8b81c340b62246eed8c93ded8bb",
-      "seconds": 0.0
+      "seconds": 0.003614005000031284
     },
     {
       "team": "0013",
@@ -1710,7 +1710,7 @@
         "high": true
       },
       "witness_hash": "9637ea1ce35eb53c4686ab0e90e610ddfc793fe8833b94c69ad1d089eea64a3c",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003606934000004003
     },
     {
       "team": "0014",
@@ -1723,7 +1723,7 @@
         "high": true
       },
       "witness_hash": "de3cb274625ae74f2a3692e85633d1918ee58b2939df3f88433c44d8183ed015",
-      "seconds": 0.0
+      "seconds": 0.0036122519999821634
     },
     {
       "team": "0015",
@@ -1736,7 +1736,7 @@
         "high": true
       },
       "witness_hash": "8e11034996f1b7fe1e5c2f80b7597855e1bcbaee485f1dea2b94254840d5cd2f",
-      "seconds": 0.0
+      "seconds": 0.0036116809999953148
     },
     {
       "team": "0016",
@@ -1749,7 +1749,7 @@
         "high": true
       },
       "witness_hash": "cbf3032897856ac1e79ab1997b92931d425911e2ecdbd1bb0a6af3e480d40393",
-      "seconds": 0.0
+      "seconds": 0.0036087670000028993
     },
     {
       "team": "0017",
@@ -1762,7 +1762,7 @@
         "high": true
       },
       "witness_hash": "14f84cda77dc65ce3f131714cad92df04e1ea60a2a6f28eafa31091ab3012a1f",
-      "seconds": 0.0
+      "seconds": 0.003746820999992906
     },
     {
       "team": "0018",
@@ -1775,7 +1775,7 @@
         "high": true
       },
       "witness_hash": "47b14ae0be4b31f1f4eafe714cc26bc9a38a16e657ac894f69416990498f88fa",
-      "seconds": 0.0
+      "seconds": 0.0036536329999989903
     },
     {
       "team": "0019",
@@ -1788,7 +1788,7 @@
         "high": true
       },
       "witness_hash": "04d3d768b3b73de74748278f8198cdf228f1a940878143f0d2b3a8901593b21a",
-      "seconds": 0.01500000013038516
+      "seconds": 0.006085052000003088
     },
     {
       "team": "0020",
@@ -1801,7 +1801,7 @@
         "high": true
       },
       "witness_hash": "f33093a664438075d7799fdd58b319476d1942a7cc6cb0f17bf1e5665d57dd07",
-      "seconds": 0.0
+      "seconds": 0.0036167979999959243
     },
     {
       "team": "0021",
@@ -1814,7 +1814,7 @@
         "high": true
       },
       "witness_hash": "6e802ef6240583495364b2dbdb48f1a18a6b3f9b15e0754c5b29e7f447e06758",
-      "seconds": 0.0
+      "seconds": 0.003603598999973201
     },
     {
       "team": "0022",
@@ -1827,7 +1827,7 @@
         "high": true
       },
       "witness_hash": "9d7578c660a50f4f5c20f823dc3722aa7c3b513bb77ecd7dff5c752688947e59",
-      "seconds": 0.0
+      "seconds": 0.003619952999997622
     },
     {
       "team": "0023",
@@ -1840,7 +1840,7 @@
         "high": true
       },
       "witness_hash": "e06c245f60ee591d48cd257a534d77a7fd62ecbda42491fce4cf33210fc8f207",
-      "seconds": 0.015999999828636646
+      "seconds": 0.0036136440000404946
     },
     {
       "team": "0024",
@@ -1853,7 +1853,7 @@
         "high": true
       },
       "witness_hash": "2902bdc51fe0d584cf15e39e735e65da813a3263e618c9c4322fd495fae21e5b",
-      "seconds": 0.0
+      "seconds": 0.003649727000038183
     },
     {
       "team": "0025",
@@ -1866,7 +1866,7 @@
         "high": true
       },
       "witness_hash": "281b1f05cb935cca45118820fb42c0d9848f1e97a7f6a0da7ef6e113c5ae46e4",
-      "seconds": 0.0
+      "seconds": 0.0036550650000322094
     },
     {
       "team": "0026",
@@ -1879,7 +1879,7 @@
         "high": true
       },
       "witness_hash": "57343eb37b73a8c9d34b876067bf7f53d27b90aa6370190701cbd6fee66e1fa3",
-      "seconds": 0.0
+      "seconds": 0.0036312299999963216
     },
     {
       "team": "0027",
@@ -1892,7 +1892,7 @@
         "high": true
       },
       "witness_hash": "8709b9725d600085839937771d02f9bc0a36ce613129b5c844c6ae722ccac2ca",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003700983000044289
     },
     {
       "team": "0028",
@@ -1905,7 +1905,7 @@
         "high": true
       },
       "witness_hash": "99c2b03c7881db91efb3251e33aa9d4b2dc95bfe116f14b32d123f80e4963256",
-      "seconds": 0.0
+      "seconds": 0.0036611240000183898
     },
     {
       "team": "0029",
@@ -1918,7 +1918,7 @@
         "high": true
       },
       "witness_hash": "876a6e23aa6b737a117b7ef62a01a7b5c54ae112794d41998dfb5430d82fedc6",
-      "seconds": 0.0
+      "seconds": 0.003614956000035363
     },
     {
       "team": "0030",
@@ -1931,7 +1931,7 @@
         "high": true
       },
       "witness_hash": "938a388d36a8d5b31ce7d7450c09ec29afc0b486da19c93222d0948b1aa9ed17",
-      "seconds": 0.014999999897554517
+      "seconds": 0.0060815470000079586
     },
     {
       "team": "0031",
@@ -1944,7 +1944,7 @@
         "high": true
       },
       "witness_hash": "410be76fc1464a6e0e5e79904bc5455778e799ca50f5c11c35315ad647c15448",
-      "seconds": 0.0
+      "seconds": 0.0036284050000290335
     },
     {
       "team": "0032",
@@ -1957,7 +1957,7 @@
         "high": true
       },
       "witness_hash": "d58ee26fd527ab950d4c2e400b0e4bac4c010e9c94cf2dbb7858ce83a62061f9",
-      "seconds": 0.0
+      "seconds": 0.003581645999986449
     },
     {
       "team": "0001",
@@ -1970,7 +1970,7 @@
         "high": true
       },
       "witness_hash": "8f1bcfc902d3aca2aa81c7c2dc0723f58d44722328aed26ea6d691c0e2cba388",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0036220960000150626
     },
     {
       "team": "0002",
@@ -1983,7 +1983,7 @@
         "high": true
       },
       "witness_hash": "af2b54d9426dc07daf1e064740d4517d1818a9cadc7a2fedfaebba5224035451",
-      "seconds": 0.0
+      "seconds": 0.0036120309999887468
     },
     {
       "team": "0003",
@@ -1996,7 +1996,7 @@
         "high": true
       },
       "witness_hash": "fe4391cbd49445288e84a1013e202edcb64827442562dda3ea3ee6e20b0f3823",
-      "seconds": 0.0
+      "seconds": 0.003605723000021044
     },
     {
       "team": "0004",
@@ -2009,7 +2009,7 @@
         "high": true
       },
       "witness_hash": "a2726e44949649a79a89dab4731bcc073f2d393e77c8ea79f36b5b25c34a1cec",
-      "seconds": 0.0
+      "seconds": 0.003588546999992559
     },
     {
       "team": "0005",
@@ -2022,7 +2022,7 @@
         "high": true
       },
       "witness_hash": "af08a0b90839c9d8e6a17cb3c202ac8ca590e3a71e32d35a71ff750e54af93f7",
-      "seconds": 0.0
+      "seconds": 0.0036460719999809044
     },
     {
       "team": "0006",
@@ -2035,7 +2035,7 @@
         "high": true
       },
       "witness_hash": "8ac593640597628a1b85cdaa1d29677887184a88c53ba2cc840784e5e0b7cf2e",
-      "seconds": 0.01500000013038516
+      "seconds": 0.0036382099999627826
     },
     {
       "team": "0007",
@@ -2048,7 +2048,7 @@
         "high": true
       },
       "witness_hash": "0cdbb2df971ff012e6ea9b27371c1a00aa82832de4681da3dfa042c74166b7ba",
-      "seconds": 0.0
+      "seconds": 0.003605212000024949
     },
     {
       "team": "0008",
@@ -2061,7 +2061,7 @@
         "high": true
       },
       "witness_hash": "b94938d494b51ac79bfe04af2a5d5f54471ab50797c891fe41b1406229a54e80",
-      "seconds": 0.0
+      "seconds": 0.0035893389999728242
     },
     {
       "team": "0009",
@@ -2074,7 +2074,7 @@
         "high": true
       },
       "witness_hash": "22184f0898faebdc81a62c2fed4de64bb8393dec1c7cc9f0d2b1ca20cc8f79e5",
-      "seconds": 0.0
+      "seconds": 0.003582518000030177
     },
     {
       "team": "0010",
@@ -2087,7 +2087,7 @@
         "high": true
       },
       "witness_hash": "1fa86bf49a9d752c6e55283218735734b5a452fda0f491f89f3efb4e62c5520b",
-      "seconds": 0.0
+      "seconds": 0.0035881270000004406
     },
     {
       "team": "0011",
@@ -2100,7 +2100,7 @@
         "high": true
       },
       "witness_hash": "0b661caa1a4e791aefeed9d723dc5b691523ca0c050945b88bbe10c551c328f4",
-      "seconds": 0.015999999828636646
+      "seconds": 0.0035756480000372903
     },
     {
       "team": "0012",
@@ -2113,7 +2113,7 @@
         "high": true
       },
       "witness_hash": "2fd5c48f54c07287cff860eafc9481942454d8b81c340b62246eed8c93ded8bb",
-      "seconds": 0.0
+      "seconds": 0.0035890480000375646
     },
     {
       "team": "0013",
@@ -2126,7 +2126,7 @@
         "high": true
       },
       "witness_hash": "9637ea1ce35eb53c4686ab0e90e610ddfc793fe8833b94c69ad1d089eea64a3c",
-      "seconds": 0.0
+      "seconds": 0.0035845810000409983
     },
     {
       "team": "0014",
@@ -2139,7 +2139,7 @@
         "high": true
       },
       "witness_hash": "de3cb274625ae74f2a3692e85633d1918ee58b2939df3f88433c44d8183ed015",
-      "seconds": 0.01600000006146729
+      "seconds": 0.003598861999989822
     },
     {
       "team": "0015",
@@ -2152,7 +2152,7 @@
         "high": true
       },
       "witness_hash": "8e11034996f1b7fe1e5c2f80b7597855e1bcbaee485f1dea2b94254840d5cd2f",
-      "seconds": 0.0
+      "seconds": 0.0035864139999830513
     },
     {
       "team": "0016",
@@ -2165,7 +2165,7 @@
         "high": true
       },
       "witness_hash": "cbf3032897856ac1e79ab1997b92931d425911e2ecdbd1bb0a6af3e480d40393",
-      "seconds": 0.0
+      "seconds": 0.0035917310000286307
     },
     {
       "team": "0017",
@@ -2178,7 +2178,7 @@
         "high": true
       },
       "witness_hash": "14f84cda77dc65ce3f131714cad92df04e1ea60a2a6f28eafa31091ab3012a1f",
-      "seconds": 0.01500000013038516
+      "seconds": 0.003609907999987172
     },
     {
       "team": "0018",
@@ -2191,7 +2191,7 @@
         "high": true
       },
       "witness_hash": "47b14ae0be4b31f1f4eafe714cc26bc9a38a16e657ac894f69416990498f88fa",
-      "seconds": 0.0
+      "seconds": 0.0035955079999894224
     },
     {
       "team": "0019",
@@ -2204,7 +2204,7 @@
         "high": true
       },
       "witness_hash": "04d3d768b3b73de74748278f8198cdf228f1a940878143f0d2b3a8901593b21a",
-      "seconds": 0.015999999828636646
+      "seconds": 0.006052223999972739
     },
     {
       "team": "0020",
@@ -2217,7 +2217,7 @@
         "high": true
       },
       "witness_hash": "f33093a664438075d7799fdd58b319476d1942a7cc6cb0f17bf1e5665d57dd07",
-      "seconds": 0.0
+      "seconds": 0.0035918519999995624
     },
     {
       "team": "0021",
@@ -2230,7 +2230,7 @@
         "high": true
       },
       "witness_hash": "6e802ef6240583495364b2dbdb48f1a18a6b3f9b15e0754c5b29e7f447e06758",
-      "seconds": 0.0
+      "seconds": 0.003604730999995809
     },
     {
       "team": "0022",
@@ -2243,7 +2243,7 @@
         "high": true
       },
       "witness_hash": "9d7578c660a50f4f5c20f823dc3722aa7c3b513bb77ecd7dff5c752688947e59",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0035859829999935755
     },
     {
       "team": "0023",
@@ -2256,7 +2256,7 @@
         "high": true
       },
       "witness_hash": "e06c245f60ee591d48cd257a534d77a7fd62ecbda42491fce4cf33210fc8f207",
-      "seconds": 0.0
+      "seconds": 0.0035953970000264235
     },
     {
       "team": "0024",
@@ -2269,7 +2269,7 @@
         "high": true
       },
       "witness_hash": "2902bdc51fe0d584cf15e39e735e65da813a3263e618c9c4322fd495fae21e5b",
-      "seconds": 0.0
+      "seconds": 0.003661104000002524
     },
     {
       "team": "0025",
@@ -2282,7 +2282,7 @@
         "high": true
       },
       "witness_hash": "281b1f05cb935cca45118820fb42c0d9848f1e97a7f6a0da7ef6e113c5ae46e4",
-      "seconds": 0.0
+      "seconds": 0.0036145949999877303
     },
     {
       "team": "0026",
@@ -2295,7 +2295,7 @@
         "high": true
       },
       "witness_hash": "57343eb37b73a8c9d34b876067bf7f53d27b90aa6370190701cbd6fee66e1fa3",
-      "seconds": 0.014999999897554517
+      "seconds": 0.0035960989999921367
     },
     {
       "team": "0027",
@@ -2308,7 +2308,7 @@
         "high": true
       },
       "witness_hash": "8709b9725d600085839937771d02f9bc0a36ce613129b5c844c6ae722ccac2ca",
-      "seconds": 0.0
+      "seconds": 0.0036489560000063648
     },
     {
       "team": "0028",
@@ -2321,7 +2321,7 @@
         "high": true
       },
       "witness_hash": "99c2b03c7881db91efb3251e33aa9d4b2dc95bfe116f14b32d123f80e4963256",
-      "seconds": 0.0
+      "seconds": 0.003608366000037222
     },
     {
       "team": "0029",
@@ -2334,7 +2334,7 @@
         "high": true
       },
       "witness_hash": "8a1db4dd4157fecc9ec19ead22cb3dc1f30d2c4244d7823343fff221f7df5e74",
-      "seconds": 0.0
+      "seconds": 0.006066324000016721
     },
     {
       "team": "0030",
@@ -2347,7 +2347,7 @@
         "high": true
       },
       "witness_hash": "9210ce0b06190fb27c6637520bd1922e76053dea9ba3d466f464c91fc1b65b78",
-      "seconds": 0.01600000006146729
+      "seconds": 0.008526877000008426
     },
     {
       "team": "0031",
@@ -2360,7 +2360,7 @@
         "high": true
       },
       "witness_hash": "410be76fc1464a6e0e5e79904bc5455778e799ca50f5c11c35315ad647c15448",
-      "seconds": 0.0
+      "seconds": 0.0036008350000429346
     },
     {
       "team": "0032",
@@ -2373,7 +2373,7 @@
         "high": true
       },
       "witness_hash": "365ec884560fb7c31c7a0015ab38904fc899b1532f63f6d95dcb2cec2bb9b94f",
-      "seconds": 0.0
+      "seconds": 0.006045314000004964
     },
     {
       "team": "0001",
@@ -2386,7 +2386,7 @@
         "high": true
       },
       "witness_hash": "8f1bcfc902d3aca2aa81c7c2dc0723f58d44722328aed26ea6d691c0e2cba388",
-      "seconds": 0.0
+      "seconds": 0.0036374890000274718
     },
     {
       "team": "0002",
@@ -2399,7 +2399,7 @@
         "high": true
       },
       "witness_hash": "af2b54d9426dc07daf1e064740d4517d1818a9cadc7a2fedfaebba5224035451",
-      "seconds": 0.01500000013038516
+      "seconds": 0.0036193820000107735
     },
     {
       "team": "0003",
@@ -2412,7 +2412,7 @@
         "high": true
       },
       "witness_hash": "fe4391cbd49445288e84a1013e202edcb64827442562dda3ea3ee6e20b0f3823",
-      "seconds": 0.0
+      "seconds": 0.0036058819999880143
     },
     {
       "team": "0004",
@@ -2425,7 +2425,7 @@
         "high": true
       },
       "witness_hash": "a2726e44949649a79a89dab4731bcc073f2d393e77c8ea79f36b5b25c34a1cec",
-      "seconds": 0.0
+      "seconds": 0.0036051309999720615
     },
     {
       "team": "0005",
@@ -2438,7 +2438,7 @@
         "high": true
       },
       "witness_hash": "af08a0b90839c9d8e6a17cb3c202ac8ca590e3a71e32d35a71ff750e54af93f7",
-      "seconds": 0.0
+      "seconds": 0.0036016060000179095
     },
     {
       "team": "0006",
@@ -2451,7 +2451,7 @@
         "high": true
       },
       "witness_hash": "8ac593640597628a1b85cdaa1d29677887184a88c53ba2cc840784e5e0b7cf2e",
-      "seconds": 0.0
+      "seconds": 0.003625051000028634
     },
     {
       "team": "0007",
@@ -2464,7 +2464,7 @@
         "high": true
       },
       "witness_hash": "0cdbb2df971ff012e6ea9b27371c1a00aa82832de4681da3dfa042c74166b7ba",
-      "seconds": 0.0
+      "seconds": 0.0036543439999832117
     },
     {
       "team": "0008",
@@ -2477,7 +2477,7 @@
         "high": true
       },
       "witness_hash": "b94938d494b51ac79bfe04af2a5d5f54471ab50797c891fe41b1406229a54e80",
-      "seconds": 0.015999999828636646
+      "seconds": 0.0036311590000082106
     },
     {
       "team": "0009",
@@ -2490,7 +2490,7 @@
         "high": true
       },
       "witness_hash": "22184f0898faebdc81a62c2fed4de64bb8393dec1c7cc9f0d2b1ca20cc8f79e5",
-      "seconds": 0.0
+      "seconds": 0.003619984000010845
     },
     {
       "team": "0010",
@@ -2503,7 +2503,7 @@
         "high": true
       },
       "witness_hash": "1fa86bf49a9d752c6e55283218735734b5a452fda0f491f89f3efb4e62c5520b",
-      "seconds": 0.0
+      "seconds": 0.003619261999972423
     },
     {
       "team": "0011",
@@ -2516,7 +2516,7 @@
         "high": true
       },
       "witness_hash": "0b661caa1a4e791aefeed9d723dc5b691523ca0c050945b88bbe10c551c328f4",
-      "seconds": 0.0
+      "seconds": 0.003624739999963822
     },
     {
       "team": "0012",
@@ -2529,7 +2529,7 @@
         "high": true
       },
       "witness_hash": "2fd5c48f54c07287cff860eafc9481942454d8b81c340b62246eed8c93ded8bb",
-      "seconds": 0.01600000006146729
+      "seconds": 0.0036194619999605493
     },
     {
       "team": "0013",
@@ -2542,7 +2542,7 @@
         "high": true
       },
       "witness_hash": "9637ea1ce35eb53c4686ab0e90e610ddfc793fe8833b94c69ad1d089eea64a3c",
-      "seconds": 0.0
+      "seconds": 0.003614394999999604
     },
     {
       "team": "0014",
@@ -2555,7 +2555,7 @@
         "high": true
       },
       "witness_hash": "de3cb274625ae74f2a3692e85633d1918ee58b2939df3f88433c44d8183ed015",
-      "seconds": 0.0
+      "seconds": 0.003623418000017864
     },
     {
       "team": "0015",
@@ -2568,7 +2568,7 @@
         "high": true
       },
       "witness_hash": "8e11034996f1b7fe1e5c2f80b7597855e1bcbaee485f1dea2b94254840d5cd2f",
-      "seconds": 0.0
+      "seconds": 0.003634013999999297
     },
     {
       "team": "0016",
@@ -2581,7 +2581,7 @@
         "high": true
       },
       "witness_hash": "cbf3032897856ac1e79ab1997b92931d425911e2ecdbd1bb0a6af3e480d40393",
-      "seconds": 0.0
+      "seconds": 0.0036457820000350694
     },
     {
       "team": "0017",
@@ -2594,7 +2594,7 @@
         "high": true
       },
       "witness_hash": "892e14b90ef18d48b4eb747c772fabdbe3a743d6172bde84d08efac745cec7ee",
-      "seconds": 0.01500000013038516
+      "seconds": 0.006094576000009511
     },
     {
       "team": "0018",
@@ -2607,7 +2607,7 @@
         "high": true
       },
       "witness_hash": "42690434649f11623532a908fc86d2b279ff4cc4a32784d43bb37fdb0ac3d022",
-      "seconds": 0.0
+      "seconds": 0.006154163999951834
     },
     {
       "team": "0019",
@@ -2620,7 +2620,7 @@
         "high": true
       },
       "witness_hash": "04d3d768b3b73de74748278f8198cdf228f1a940878143f0d2b3a8901593b21a",
-      "seconds": 0.015999999828636646
+      "seconds": 0.006117951000021549
     },
     {
       "team": "0020",
@@ -2633,7 +2633,7 @@
         "high": true
       },
       "witness_hash": "f33093a664438075d7799fdd58b319476d1942a7cc6cb0f17bf1e5665d57dd07",
-      "seconds": 0.0
+      "seconds": 0.003634263999970244
     },
     {
       "team": "0021",
@@ -2646,7 +2646,7 @@
         "high": true
       },
       "witness_hash": "2ada2649713b85a131d2e30df23a62bd78d0556f785cb97525f3ae974db59531",
-      "seconds": 0.0
+      "seconds": 0.006199670999990303
     },
     {
       "team": "0022",
@@ -2659,7 +2659,7 @@
         "high": true
       },
       "witness_hash": "320527544ffa704ac3e5d48fccb213cee58eae99a1825a39dca5f3903e008f7a",
-      "seconds": 0.01600000006146729
+      "seconds": 0.006188124000004791
     },
     {
       "team": "0023",
@@ -2672,7 +2672,7 @@
         "high": true
       },
       "witness_hash": "cfa171beee42380d16a2dea457bf7c8753c396493b241f87bc2a2f0ed7ad902c",
-      "seconds": 0.0
+      "seconds": 0.006209164999972927
     },
     {
       "team": "0024",
@@ -2685,7 +2685,7 @@
         "high": true
       },
       "witness_hash": "04f968eb53e96fce5758752a6a31066866dd564df64d919f5c845451f7c3d1e0",
-      "seconds": 0.0
+      "seconds": 0.006127173999971092
     },
     {
       "team": "0025",
@@ -2698,7 +2698,7 @@
         "high": true
       },
       "witness_hash": "281b1f05cb935cca45118820fb42c0d9848f1e97a7f6a0da7ef6e113c5ae46e4",
-      "seconds": 0.014999999897554517
+      "seconds": 0.003614835000007588
     },
     {
       "team": "0026",
@@ -2711,7 +2711,7 @@
         "high": true
       },
       "witness_hash": "ebf22d434c6339311222785d1e6fc2e7f130577431c3f05a43f75b562c2251ce",
-      "seconds": 0.0
+      "seconds": 0.006098532000009982
     },
     {
       "team": "0027",
@@ -2724,7 +2724,7 @@
         "high": true
       },
       "witness_hash": "8709b9725d600085839937771d02f9bc0a36ce613129b5c844c6ae722ccac2ca",
-      "seconds": 0.0
+      "seconds": 0.0036363169999731326
     },
     {
       "team": "0028",
@@ -2737,7 +2737,7 @@
         "high": true
       },
       "witness_hash": "4a28e110cc03a83eb72dbc7e55d240c871d6ffc805e0d3672fad0632d35953e2",
-      "seconds": 0.0
+      "seconds": 0.006124751000015749
     },
     {
       "team": "0029",
@@ -2750,7 +2750,7 @@
         "high": true
       },
       "witness_hash": "8a1db4dd4157fecc9ec19ead22cb3dc1f30d2c4244d7823343fff221f7df5e74",
-      "seconds": 0.01600000006146729
+      "seconds": 0.006086224000000584
     },
     {
       "team": "0030",
@@ -2763,7 +2763,7 @@
         "high": true
       },
       "witness_hash": "938a388d36a8d5b31ce7d7450c09ec29afc0b486da19c93222d0948b1aa9ed17",
-      "seconds": 0.0
+      "seconds": 0.006184910000001764
     },
     {
       "team": "0031",
@@ -2776,7 +2776,7 @@
         "high": true
       },
       "witness_hash": "410be76fc1464a6e0e5e79904bc5455778e799ca50f5c11c35315ad647c15448",
-      "seconds": 0.01500000013038516
+      "seconds": 0.0036480649999930392
     },
     {
       "team": "0032",
@@ -2789,14 +2789,14 @@
         "high": true
       },
       "witness_hash": "365ec884560fb7c31c7a0015ab38904fc899b1532f63f6d95dcb2cec2bb9b94f",
-      "seconds": 0.0
+      "seconds": 0.006134373999998388
     }
   ],
   "complete": true,
   "score_scale": 1000,
   "unresolved_ties": "All choices permitted; no franchise-ID fallback",
   "domain": "Unbounded rational score completions; future Potential >= PF; no roster-strength or NFL scoring ceiling",
-  "cache_key": "9198113759c24c506ffe29d0455a77bf289c506151e796610b03dd0531ef0df8",
+  "cache_key": "3b2f8474324de008ebd9bd1fb2d9f655a524a36d8455e3921475b29318836ebd",
   "engine_hash": "88e44dce5ce450557896bf6f22ef64160dce0278887e2700bd23a9a1cf4c8b3f",
   "input": {
     "season": 2026,
@@ -2804,224 +2804,192 @@
     "teams": [
       {
         "id": "0001",
-        "name": "Dallas Cowboys",
         "conference": "00",
         "division": "00",
         "wins2": 8
       },
       {
         "id": "0002",
-        "name": "New York Giants",
         "conference": "00",
         "division": "00",
         "wins2": 12
       },
       {
         "id": "0003",
-        "name": "Philadelphia Eagles",
         "conference": "00",
         "division": "00",
         "wins2": 6
       },
       {
         "id": "0004",
-        "name": "Washington Commanders",
         "conference": "00",
         "division": "00",
         "wins2": 10
       },
       {
         "id": "0005",
-        "name": "Chicago Bears",
         "conference": "00",
         "division": "01",
         "wins2": 16
       },
       {
         "id": "0006",
-        "name": "Detroit Lions",
         "conference": "00",
         "division": "01",
         "wins2": 6
       },
       {
         "id": "0007",
-        "name": "Green Bay Packers",
         "conference": "00",
         "division": "01",
         "wins2": 6
       },
       {
         "id": "0008",
-        "name": "Minnesota Vikings",
         "conference": "00",
         "division": "01",
         "wins2": 0
       },
       {
         "id": "0009",
-        "name": "Atlanta Falcons",
         "conference": "00",
         "division": "02",
         "wins2": 9
       },
       {
         "id": "0010",
-        "name": "Carolina Panthers",
         "conference": "00",
         "division": "02",
         "wins2": 12
       },
       {
         "id": "0011",
-        "name": "New Orleans Saints",
         "conference": "00",
         "division": "02",
         "wins2": 12
       },
       {
         "id": "0012",
-        "name": "Tampa Bay Buccaneers",
         "conference": "00",
         "division": "02",
         "wins2": 6
       },
       {
         "id": "0013",
-        "name": "Arizona Cardinals",
         "conference": "00",
         "division": "03",
         "wins2": 6
       },
       {
         "id": "0014",
-        "name": "Los Angeles Rams",
         "conference": "00",
         "division": "03",
         "wins2": 4
       },
       {
         "id": "0015",
-        "name": "San Francisco 49ers",
         "conference": "00",
         "division": "03",
         "wins2": 8
       },
       {
         "id": "0016",
-        "name": "Seattle Seahawks",
         "conference": "00",
         "division": "03",
         "wins2": 8
       },
       {
         "id": "0017",
-        "name": "Buffalo Bills",
         "conference": "01",
         "division": "04",
         "wins2": 9
       },
       {
         "id": "0018",
-        "name": "Miami Dolphins",
         "conference": "01",
         "division": "04",
         "wins2": 8
       },
       {
         "id": "0019",
-        "name": "New England Patriots",
         "conference": "01",
         "division": "04",
         "wins2": 2
       },
       {
         "id": "0020",
-        "name": "New York Jets",
         "conference": "01",
         "division": "04",
         "wins2": 12
       },
       {
         "id": "0021",
-        "name": "Baltimore Ravens",
         "conference": "01",
         "division": "05",
         "wins2": 4
       },
       {
         "id": "0022",
-        "name": "Cincinnati Bengals",
         "conference": "01",
         "division": "05",
         "wins2": 5
       },
       {
         "id": "0023",
-        "name": "Cleveland Browns",
         "conference": "01",
         "division": "05",
         "wins2": 10
       },
       {
         "id": "0024",
-        "name": "Pittsburgh Steelers",
         "conference": "01",
         "division": "05",
         "wins2": 4
       },
       {
         "id": "0025",
-        "name": "Houston Texans",
         "conference": "01",
         "division": "06",
         "wins2": 12
       },
       {
         "id": "0026",
-        "name": "Indianapolis Colts",
         "conference": "01",
         "division": "06",
         "wins2": 8
       },
       {
         "id": "0027",
-        "name": "Jacksonville Jaguars",
         "conference": "01",
         "division": "06",
         "wins2": 12
       },
       {
         "id": "0028",
-        "name": "Tennessee Titans",
         "conference": "01",
         "division": "06",
         "wins2": 8
       },
       {
         "id": "0029",
-        "name": "Denver Broncos",
         "conference": "01",
         "division": "07",
         "wins2": 6
       },
       {
         "id": "0030",
-        "name": "Kansas City Chiefs",
         "conference": "01",
         "division": "07",
         "wins2": 4
       },
       {
         "id": "0031",
-        "name": "Las Vegas Raiders",
         "conference": "01",
         "division": "07",
         "wins2": 13
       },
       {
         "id": "0032",
-        "name": "Los Angeles Chargers",
         "conference": "01",
         "division": "07",
         "wins2": 10
