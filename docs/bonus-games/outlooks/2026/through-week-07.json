@@ -3385,7 +3385,7 @@
       ]
     ],
     "upcoming_sharks_weight": 0.5,
-    "source_signature": "37505d8da57364b0e7d81130bacf246a7e93626b7d90bfdc3a74ef4606dbc2a6",
+    "source_signature": "236b9680752b76c563eec012d875a098f0ef46e250d60877e3b375d0cce362cf",
     "fit_signature": "e207c02d14216b554613e689df2557ab78e702dd93dd7f40bb618bfc7b235bc3",
     "version": "fafl-f315-sharks50-relative-interval-lognormal-v3",
     "model": "F315 + 50% Sharks / selected relative interval team + linear lognormal league uncertainty",
@@ -5602,9 +5602,9 @@
     ]
   },
   "outlooks": {
-    "kind": "published",
-    "published_at": "2026-11-02T20:12:35.221346+00:00",
-    "status": "official"
+    "kind": "reconstructed",
+    "published_at": "2026-11-03T05:31:17.974704+00:00",
+    "status": "unofficial"
   },
   "league": "FAFL",
   "season": 2026,
