@@ -1,9 +1,9 @@
 component,status,score_status,run_id
-source,success,unofficial,41582777341
-elo,success,unofficial,41582777341
-bonus_games,success,unofficial,41582777341
-playoff_forecast,success,unofficial,41582777341
-playoff_bracket,success,unofficial,41582777341
-bonus_dashboard,success,unofficial,41582777341
-bonus_mfl,skipped,unofficial,41582777341
-payouts,success,unofficial,41582777341
+source,success,official,41584732357
+elo,skipped,official,41584732357
+bonus_games,success,official,41584732357
+playoff_forecast,success,official,41584732357
+playoff_bracket,skipped,official,41584732357
+bonus_dashboard,success,official,41584732357
+bonus_mfl,skipped,official,41584732357
+payouts,skipped,official,41584732357
