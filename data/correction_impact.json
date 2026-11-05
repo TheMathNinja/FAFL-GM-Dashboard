@@ -1,44 +1,23 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "week": 7,
-  "run_id": "40897559806",
-  "score_revision": "aa98f5460ba471930202ed80c0efb05adf3e18495e3f1af2d4852f6ac180063d",
+  "week": 8,
+  "run_id": "42002193225",
+  "score_revision": "c0f8274ddd56b0f789c6d3ed3bd1acbd83dee75aef7f366b6c5392622bb782ee",
   "ext_pr": [],
   "all_play": [
     {
-      "franchise_id": "0002",
-      "franchise": "New York Giants",
-      "old_wins": 13,
-      "new_wins": 12,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0010",
-      "franchise": "Carolina Panthers",
-      "old_wins": 10,
-      "new_wins": 9,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0014",
-      "franchise": "Los Angeles Rams",
-      "old_wins": 12,
-      "new_wins": 14,
+      "franchise_id": "0016",
+      "franchise": "Seattle Seahawks",
+      "old_wins": 8,
+      "new_wins": 7,
       "score_corrected": true
     },
     {
-      "franchise_id": "0025",
-      "franchise": "Houston Texans",
-      "old_wins": 14,
-      "new_wins": 13,
-      "score_corrected": false
-    },
-    {
-      "franchise_id": "0026",
-      "franchise": "Indianapolis Colts",
-      "old_wins": 9,
-      "new_wins": 10,
+      "franchise_id": "0023",
+      "franchise": "Cleveland Browns",
+      "old_wins": 7,
+      "new_wins": 8,
       "score_corrected": true
     }
   ],
