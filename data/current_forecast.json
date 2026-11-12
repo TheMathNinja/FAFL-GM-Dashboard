@@ -603,63 +603,72 @@
               "points": 174.4,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 226.2
             },
             {
               "week": 2,
               "points": 236.1,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 290.3
             },
             {
               "week": 3,
               "points": 263.0,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 319.5
             },
             {
               "week": 4,
               "points": 224.3,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 255.6
             },
             {
               "week": 5,
               "points": 231.2,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 271.5
             },
             {
               "week": 6,
               "points": 235.8,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 240.3
             },
             {
               "week": 7,
               "points": 220.5,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 283.6
             },
             {
               "week": 8,
               "points": 183.8,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 246.4
             },
             {
               "week": 9,
               "points": 247.3,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 300.1
             }
           ],
           "matchups": [
@@ -796,7 +805,11 @@
             "rank": 2,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 201.118050464798,
+        "projectedPoints": 2619.754151394394
       },
       {
         "division": "00",
@@ -874,63 +887,72 @@
               "points": 236.0,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 258.2
             },
             {
               "week": 2,
               "points": 205.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
-              "allPlayPct": 0.5967741935483871
+              "allPlayPct": 0.5967741935483871,
+              "potentialPoints": 315.6
             },
             {
               "week": 3,
               "points": 185.5,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 237.8
             },
             {
               "week": 4,
               "points": 197.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 236.1
             },
             {
               "week": 5,
               "points": 187.7,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 218.2
             },
             {
               "week": 6,
               "points": 227.9,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 228.3
             },
             {
               "week": 7,
               "points": 245.5,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 285.4
             },
             {
               "week": 8,
               "points": 228.7,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 238.9
             },
             {
               "week": 9,
               "points": 220.0,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 249.7
             }
           ],
           "matchups": [
@@ -1067,7 +1089,11 @@
             "rank": 7,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 207.87158364389725,
+        "projectedPoints": 2557.714750931692
       },
       {
         "division": "03",
@@ -1145,63 +1171,72 @@
               "points": 189.9,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 265.3
             },
             {
               "week": 2,
               "points": 170.2,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 212.9
             },
             {
               "week": 3,
               "points": 222.5,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 282.4
             },
             {
               "week": 4,
               "points": 174.7,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 224.7
             },
             {
               "week": 5,
               "points": 228.2,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 268.9
             },
             {
               "week": 6,
               "points": 191.8,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 246.0
             },
             {
               "week": 7,
               "points": 230.2,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 246.0
             },
             {
               "week": 8,
               "points": 264.7,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 291.3
             },
             {
               "week": 9,
               "points": 290.2,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 312.6
             }
           ],
           "matchups": [
@@ -1338,7 +1373,11 @@
             "rank": 4,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 204.75600023843185,
+        "projectedPoints": 2576.6680007152954
       },
       {
         "division": "02",
@@ -1416,63 +1455,72 @@
               "points": 224.8,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 316.9
             },
             {
               "week": 2,
               "points": 236.8,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 297.1
             },
             {
               "week": 3,
               "points": 236.3,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 298.9
             },
             {
               "week": 4,
               "points": 191.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 275.0
             },
             {
               "week": 5,
               "points": 181.6,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 240.8
             },
             {
               "week": 6,
               "points": 211.6,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 244.8
             },
             {
               "week": 7,
               "points": 159.4,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 183.8
             },
             {
               "week": 8,
               "points": 259.4,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 284.5
             },
             {
               "week": 9,
               "points": 207.4,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 266.0
             }
           ],
           "matchups": [
@@ -1609,7 +1657,11 @@
             "rank": 3,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 207.62899867801374,
+        "projectedPoints": 2531.2869960340413
       },
       {
         "division": "00",
@@ -1687,63 +1739,72 @@
               "points": 262.1,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 320.0
             },
             {
               "week": 2,
               "points": 251.9,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 259.3
             },
             {
               "week": 3,
               "points": 197.8,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 273.4
             },
             {
               "week": 4,
               "points": 141.5,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 234.7
             },
             {
               "week": 5,
               "points": 196.5,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 229.4
             },
             {
               "week": 6,
               "points": 208.3,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 257.4
             },
             {
               "week": 7,
               "points": 227.5,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 234.9
             },
             {
               "week": 8,
               "points": 180.9,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 253.6
             },
             {
               "week": 9,
               "points": 197.4,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 213.6
             }
           ],
           "matchups": [
@@ -1880,7 +1941,11 @@
             "rank": 6,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 186.46271879629478,
+        "projectedPoints": 2423.2881563888845
       },
       {
         "division": "02",
@@ -1958,63 +2023,72 @@
               "points": 234.9,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 253.6
             },
             {
               "week": 2,
               "points": 183.9,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 228.4
             },
             {
               "week": 3,
               "points": 186.7,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 234.2
             },
             {
               "week": 4,
               "points": 191.8,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 229.9
             },
             {
               "week": 5,
               "points": 255.8,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 269.5
             },
             {
               "week": 6,
               "points": 201.7,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 253.1
             },
             {
               "week": 7,
               "points": 167.0,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 199.8
             },
             {
               "week": 8,
               "points": 256.0,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 264.4
             },
             {
               "week": 9,
               "points": 147.9,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 192.0
             }
           ],
           "matchups": [
@@ -2151,7 +2225,11 @@
             "rank": 17,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 192.03039126625026,
+        "projectedPoints": 2401.7911737987506
       },
       {
         "division": "00",
@@ -2229,63 +2307,72 @@
               "points": 269.8,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 305.4
             },
             {
               "week": 2,
               "points": 154.5,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 190.7
             },
             {
               "week": 3,
               "points": 240.4,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 278.2
             },
             {
               "week": 4,
               "points": 219.8,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 268.8
             },
             {
               "week": 5,
               "points": 201.4,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 256.6
             },
             {
               "week": 6,
               "points": 152.5,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 166.0
             },
             {
               "week": 7,
               "points": 154.8,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 249.9
             },
             {
               "week": 8,
               "points": 175.5,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 227.7
             },
             {
               "week": 9,
               "points": 198.2,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 270.0
             }
           ],
           "matchups": [
@@ -2422,7 +2509,11 @@
             "rank": 11,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 205.6845752634598,
+        "projectedPoints": 2383.9537257903794
       },
       {
         "division": "00",
@@ -2500,63 +2591,72 @@
               "points": 171.6,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 222.7
             },
             {
               "week": 2,
               "points": 225.8,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 257.9
             },
             {
               "week": 3,
               "points": 234.4,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 280.9
             },
             {
               "week": 4,
               "points": 177.1,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 255.9
             },
             {
               "week": 5,
               "points": 252.6,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 274.5
             },
             {
               "week": 6,
               "points": 178.9,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 231.5
             },
             {
               "week": 7,
               "points": 177.5,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 224.7
             },
             {
               "week": 8,
               "points": 166.6,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 214.6
             },
             {
               "week": 9,
               "points": 204.6,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 262.2
             }
           ],
           "matchups": [
@@ -2693,7 +2793,11 @@
             "rank": 10,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 192.77917950579285,
+        "projectedPoints": 2367.4375385173785
       },
       {
         "division": "02",
@@ -2771,63 +2875,72 @@
               "points": 191.5,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 214.9
             },
             {
               "week": 2,
               "points": 239.5,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 263.9
             },
             {
               "week": 3,
               "points": 185.8,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 219.5
             },
             {
               "week": 4,
               "points": 261.9,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 299.5
             },
             {
               "week": 5,
               "points": 195.0,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 208.7
             },
             {
               "week": 6,
               "points": 170.2,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 200.2
             },
             {
               "week": 7,
               "points": 200.6,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 214.3
             },
             {
               "week": 8,
               "points": 127.1,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 193.4
             },
             {
               "week": 9,
               "points": 170.6,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 186.0
             }
           ],
           "matchups": [
@@ -2964,7 +3077,11 @@
             "rank": 25,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 184.98054227123225,
+        "projectedPoints": 2297.1416268136963
       },
       {
         "division": "01",
@@ -3042,63 +3159,72 @@
               "points": 219.9,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 247.7
             },
             {
               "week": 2,
               "points": 133.7,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 174.2
             },
             {
               "week": 3,
               "points": 168.2,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 231.8
             },
             {
               "week": 4,
               "points": 163.1,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 267.7
             },
             {
               "week": 5,
               "points": 225.7,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 299.9
             },
             {
               "week": 6,
               "points": 165.6,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 233.3
             },
             {
               "week": 7,
               "points": 172.3,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 189.1
             },
             {
               "week": 8,
               "points": 206.8,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 228.6
             },
             {
               "week": 9,
               "points": 250.7,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 277.2
             }
           ],
           "matchups": [
@@ -3235,7 +3361,11 @@
             "rank": 15,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 185.5862703610792,
+        "projectedPoints": 2262.7588110832376
       },
       {
         "division": "02",
@@ -3313,63 +3443,72 @@
               "points": 209.3,
               "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
-              "allPlayPct": 0.532258064516129
+              "allPlayPct": 0.532258064516129,
+              "potentialPoints": 260.5
             },
             {
               "week": 2,
               "points": 194.5,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 264.7
             },
             {
               "week": 3,
               "points": 145.4,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 213.7
             },
             {
               "week": 4,
               "points": 232.0,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 272.5
             },
             {
               "week": 5,
               "points": 137.0,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 202.7
             },
             {
               "week": 6,
               "points": 236.0,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 247.0
             },
             {
               "week": 7,
               "points": 104.7,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 195.0
             },
             {
               "week": 8,
               "points": 154.8,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 181.9
             },
             {
               "week": 9,
               "points": 210.7,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 244.8
             }
           ],
           "matchups": [
@@ -3506,7 +3645,11 @@
             "rank": 19,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 191.35282485841904,
+        "projectedPoints": 2198.4584745752572
       },
       {
         "division": "03",
@@ -3584,63 +3727,72 @@
               "points": 119.7,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 173.0
             },
             {
               "week": 2,
               "points": 171.7,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 226.0
             },
             {
               "week": 3,
               "points": 222.8,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 268.2
             },
             {
               "week": 4,
               "points": 235.2,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 279.8
             },
             {
               "week": 5,
               "points": 203.0,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 246.6
             },
             {
               "week": 6,
               "points": 172.0,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 194.5
             },
             {
               "week": 7,
               "points": 210.4,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 231.6
             },
             {
               "week": 8,
               "points": 163.0,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 235.3
             },
             {
               "week": 9,
               "points": 151.5,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 175.5
             }
           ],
           "matchups": [
@@ -3777,7 +3929,11 @@
             "rank": 24,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 185.22275606997425,
+        "projectedPoints": 2204.968268209923
       },
       {
         "division": "03",
@@ -3855,63 +4011,72 @@
               "points": 184.8,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 223.0
             },
             {
               "week": 2,
               "points": 181.5,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 217.0
             },
             {
               "week": 3,
               "points": 222.2,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 246.3
             },
             {
               "week": 4,
               "points": 212.4,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 253.0
             },
             {
               "week": 5,
               "points": 156.6,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 224.9
             },
             {
               "week": 6,
               "points": 154.1,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 192.2
             },
             {
               "week": 7,
               "points": 237.2,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 250.4
             },
             {
               "week": 8,
               "points": 177.8,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 231.1
             },
             {
               "week": 9,
               "points": 140.0,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 215.1
             }
           ],
           "matchups": [
@@ -4048,7 +4213,11 @@
             "rank": 20,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 192.4796266720338,
+        "projectedPoints": 2244.0388800161018
       },
       {
         "division": "01",
@@ -4126,63 +4295,72 @@
               "points": 186.0,
               "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
-              "allPlayPct": 0.3709677419354839
+              "allPlayPct": 0.3709677419354839,
+              "potentialPoints": 234.3
             },
             {
               "week": 2,
               "points": 211.9,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 248.5
             },
             {
               "week": 3,
               "points": 209.4,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 223.8
             },
             {
               "week": 4,
               "points": 183.9,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 222.8
             },
             {
               "week": 5,
               "points": 156.7,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 176.7
             },
             {
               "week": 6,
               "points": 84.5,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 155.9
             },
             {
               "week": 7,
               "points": 202.0,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 221.4
             },
             {
               "week": 8,
               "points": 114.4,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 128.1
             },
             {
               "week": 9,
               "points": 182.6,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 223.9
             }
           ],
           "matchups": [
@@ -4319,7 +4497,11 @@
             "rank": 31,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 178.28636921635595,
+        "projectedPoints": 2066.2591076490676
       },
       {
         "division": "03",
@@ -4397,63 +4579,72 @@
               "points": 142.4,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 179.1
             },
             {
               "week": 2,
               "points": 193.0,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 248.0
             },
             {
               "week": 3,
               "points": 137.3,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 190.9
             },
             {
               "week": 4,
               "points": 156.8,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 205.0
             },
             {
               "week": 5,
               "points": 276.1,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 311.7
             },
             {
               "week": 6,
               "points": 172.6,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 214.8
             },
             {
               "week": 7,
               "points": 180.0,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 197.5
             },
             {
               "week": 8,
               "points": 117.1,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 132.1
             },
             {
               "week": 9,
               "points": 137.5,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 158.6
             }
           ],
           "matchups": [
@@ -4590,7 +4781,11 @@
             "rank": 30,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 177.3326117543331,
+        "projectedPoints": 2044.7978352629993
       },
       {
         "division": "01",
@@ -4668,63 +4863,72 @@
               "points": 138.0,
               "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
-              "allPlayPct": 0.04838709677419355
+              "allPlayPct": 0.04838709677419355,
+              "potentialPoints": 204.7
             },
             {
               "week": 2,
               "points": 103.4,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 167.5
             },
             {
               "week": 3,
               "points": 137.7,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 190.5
             },
             {
               "week": 4,
               "points": 129.4,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 202.9
             },
             {
               "week": 5,
               "points": 166.2,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 183.6
             },
             {
               "week": 6,
               "points": 154.4,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 163.8
             },
             {
               "week": 7,
               "points": 126.9,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 145.8
             },
             {
               "week": 8,
               "points": 119.6,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 167.6
             },
             {
               "week": 9,
               "points": 109.5,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
-              "allPlayPct": 0.0
+              "allPlayPct": 0.0,
+              "potentialPoints": 148.6
             }
           ],
           "matchups": [
@@ -4861,7 +5065,11 @@
             "rank": 32,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 165.84214914886863,
+        "projectedPoints": 1682.6264474466057
       }
     ],
     "AFC": [
@@ -4941,63 +5149,72 @@
               "points": 268.1,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 283.2
             },
             {
               "week": 2,
               "points": 170.7,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 192.3
             },
             {
               "week": 3,
               "points": 172.1,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 213.5
             },
             {
               "week": 4,
               "points": 270.7,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 333.0
             },
             {
               "week": 5,
               "points": 214.0,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 234.4
             },
             {
               "week": 6,
               "points": 234.9,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 259.6
             },
             {
               "week": 7,
               "points": 243.6,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 267.0
             },
             {
               "week": 8,
               "points": 200.9,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 227.5
             },
             {
               "week": 9,
               "points": 248.9,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 291.5
             }
           ],
           "matchups": [
@@ -5134,7 +5351,11 @@
             "rank": 5,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 198.98346767375915,
+        "projectedPoints": 2620.8504030212775
       },
       {
         "division": "06",
@@ -5212,63 +5433,72 @@
               "points": 205.4,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 269.0
             },
             {
               "week": 2,
               "points": 291.8,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 348.9
             },
             {
               "week": 3,
               "points": 252.4,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 311.2
             },
             {
               "week": 4,
               "points": 187.2,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 229.6
             },
             {
               "week": 5,
               "points": 225.1,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 268.6
             },
             {
               "week": 6,
               "points": 178.8,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 214.1
             },
             {
               "week": 7,
               "points": 214.7,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 272.0
             },
             {
               "week": 8,
               "points": 209.9,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 242.2
             },
             {
               "week": 9,
               "points": 241.0,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 308.1
             }
           ],
           "matchups": [
@@ -5405,7 +5635,11 @@
             "rank": 1,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 202.97150338851353,
+        "projectedPoints": 2615.2145101655406
       },
       {
         "division": "06",
@@ -5483,63 +5717,72 @@
               "points": 219.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 257.6
             },
             {
               "week": 2,
               "points": 214.3,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 250.9
             },
             {
               "week": 3,
               "points": 217.1,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 278.3
             },
             {
               "week": 4,
               "points": 214.7,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 292.9
             },
             {
               "week": 5,
               "points": 256.1,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 287.4
             },
             {
               "week": 6,
               "points": 173.7,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 199.2
             },
             {
               "week": 7,
               "points": 177.8,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 211.7
             },
             {
               "week": 8,
               "points": 223.7,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 231.2
             },
             {
               "week": 9,
               "points": 202.6,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 230.9
             }
           ],
           "matchups": [
@@ -5676,7 +5919,11 @@
             "rank": 8,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 193.8664159774044,
+        "projectedPoints": 2480.999247932213
       },
       {
         "division": "07",
@@ -5754,63 +6001,72 @@
               "points": 186.0,
               "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
-              "allPlayPct": 0.3709677419354839
+              "allPlayPct": 0.3709677419354839,
+              "potentialPoints": 237.9
             },
             {
               "week": 2,
               "points": 236.6,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 272.9
             },
             {
               "week": 3,
               "points": 276.8,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 302.6
             },
             {
               "week": 4,
               "points": 188.9,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 243.3
             },
             {
               "week": 5,
               "points": 198.4,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 236.5
             },
             {
               "week": 6,
               "points": 165.5,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 183.5
             },
             {
               "week": 7,
               "points": 226.6,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 233.9
             },
             {
               "week": 8,
               "points": 197.4,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 250.7
             },
             {
               "week": 9,
               "points": 193.7,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 207.3
             }
           ],
           "matchups": [
@@ -5947,7 +6203,11 @@
             "rank": 12,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 188.91777906941923,
+        "projectedPoints": 2436.6533372082577
       },
       {
         "division": "04",
@@ -6025,63 +6285,72 @@
               "points": 242.5,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 286.4
             },
             {
               "week": 2,
               "points": 177.5,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 259.5
             },
             {
               "week": 3,
               "points": 183.8,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 239.1
             },
             {
               "week": 4,
               "points": 221.1,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 252.1
             },
             {
               "week": 5,
               "points": 167.9,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 190.4
             },
             {
               "week": 6,
               "points": 192.8,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 221.7
             },
             {
               "week": 7,
               "points": 242.3,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 266.3
             },
             {
               "week": 8,
               "points": 204.5,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 252.7
             },
             {
               "week": 9,
               "points": 183.0,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 258.5
             }
           ],
           "matchups": [
@@ -6218,7 +6487,11 @@
             "rank": 9,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 185.7984719222958,
+        "projectedPoints": 2372.7954157668873
       },
       {
         "division": "07",
@@ -6296,63 +6569,72 @@
               "points": 229.4,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 298.6
             },
             {
               "week": 2,
               "points": 155.1,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 258.0
             },
             {
               "week": 3,
               "points": 202.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 236.1
             },
             {
               "week": 4,
               "points": 212.0,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 233.0
             },
             {
               "week": 5,
               "points": 211.7,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 237.2
             },
             {
               "week": 6,
               "points": 233.8,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 255.7
             },
             {
               "week": 7,
               "points": 156.4,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 193.5
             },
             {
               "week": 8,
               "points": 173.3,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 188.3
             },
             {
               "week": 9,
               "points": 214.1,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 262.3
             }
           ],
           "matchups": [
@@ -6489,7 +6771,11 @@
             "rank": 13,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 185.73429885637924,
+        "projectedPoints": 2345.1028965691376
       },
       {
         "division": "05",
@@ -6567,63 +6853,72 @@
               "points": 230.4,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
-              "allPlayPct": 0.7741935483870968
+              "allPlayPct": 0.7741935483870968,
+              "potentialPoints": 259.0
             },
             {
               "week": 2,
               "points": 187.2,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 247.3
             },
             {
               "week": 3,
               "points": 161.8,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 196.5
             },
             {
               "week": 4,
               "points": 217.9,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 320.5
             },
             {
               "week": 5,
               "points": 178.2,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 221.6
             },
             {
               "week": 6,
               "points": 174.1,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 228.0
             },
             {
               "week": 7,
               "points": 210.3,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 238.3
             },
             {
               "week": 8,
               "points": 163.1,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 174.3
             },
             {
               "week": 9,
               "points": 183.4,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 204.1
             }
           ],
           "matchups": [
@@ -6760,7 +7055,11 @@
             "rank": 18,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 196.64904640839222,
+        "projectedPoints": 2296.3471392251768
       },
       {
         "division": "04",
@@ -6838,63 +7137,72 @@
               "points": 179.2,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 246.8
             },
             {
               "week": 2,
               "points": 206.3,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 260.8
             },
             {
               "week": 3,
               "points": 235.7,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 261.8
             },
             {
               "week": 4,
               "points": 291.2,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 335.0
             },
             {
               "week": 5,
               "points": 203.3,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 226.6
             },
             {
               "week": 6,
               "points": 234.8,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
-              "allPlayPct": 0.8709677419354839
+              "allPlayPct": 0.8709677419354839,
+              "potentialPoints": 255.4
             },
             {
               "week": 7,
               "points": 160.3,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 178.6
             },
             {
               "week": 8,
               "points": 165.9,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 179.5
             },
             {
               "week": 9,
               "points": 167.0,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 209.8
             }
           ],
           "matchups": [
@@ -7031,7 +7339,11 @@
             "rank": 14,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 191.13238454226897,
+        "projectedPoints": 2417.097153626807
       },
       {
         "division": "06",
@@ -7109,63 +7421,72 @@
               "points": 149.0,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 185.2
             },
             {
               "week": 2,
               "points": 182.8,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 241.2
             },
             {
               "week": 3,
               "points": 141.2,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 192.3
             },
             {
               "week": 4,
               "points": 229.6,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 251.3
             },
             {
               "week": 5,
               "points": 268.6,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 284.0
             },
             {
               "week": 6,
               "points": 254.9,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 254.9
             },
             {
               "week": 7,
               "points": 147.0,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 178.5
             },
             {
               "week": 8,
               "points": 192.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 210.9
             },
             {
               "week": 9,
               "points": 206.9,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 250.7
             }
           ],
           "matchups": [
@@ -7302,7 +7623,11 @@
             "rank": 22,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 198.106069371265,
+        "projectedPoints": 2366.7182081137953
       },
       {
         "division": "04",
@@ -7380,63 +7705,72 @@
               "points": 252.1,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 268.3
             },
             {
               "week": 2,
               "points": 245.6,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
-              "allPlayPct": 0.9354838709677419
+              "allPlayPct": 0.9354838709677419,
+              "potentialPoints": 262.8
             },
             {
               "week": 3,
               "points": 274.7,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
-              "allPlayPct": 0.967741935483871
+              "allPlayPct": 0.967741935483871,
+              "potentialPoints": 310.7
             },
             {
               "week": 4,
               "points": 186.8,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
-              "allPlayPct": 0.3548387096774194
+              "allPlayPct": 0.3548387096774194,
+              "potentialPoints": 216.5
             },
             {
               "week": 5,
               "points": 141.7,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 205.3
             },
             {
               "week": 6,
               "points": 170.4,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 198.5
             },
             {
               "week": 7,
               "points": 123.7,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 137.7
             },
             {
               "week": 8,
               "points": 173.4,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 188.8
             },
             {
               "week": 9,
               "points": 221.2,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
-              "allPlayPct": 0.8387096774193549
+              "allPlayPct": 0.8387096774193549,
+              "potentialPoints": 249.8
             }
           ],
           "matchups": [
@@ -7573,7 +7907,11 @@
             "rank": 23,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 187.5985328005078,
+        "projectedPoints": 2352.395598401524
       },
       {
         "division": "05",
@@ -7651,63 +7989,72 @@
               "points": 177.4,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
-              "allPlayPct": 0.25806451612903225
+              "allPlayPct": 0.25806451612903225,
+              "potentialPoints": 223.9
             },
             {
               "week": 2,
               "points": 205.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
-              "allPlayPct": 0.5967741935483871
+              "allPlayPct": 0.5967741935483871,
+              "potentialPoints": 232.6
             },
             {
               "week": 3,
               "points": 204.2,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 260.2
             },
             {
               "week": 4,
               "points": 149.2,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 219.0
             },
             {
               "week": 5,
               "points": 173.3,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 228.0
             },
             {
               "week": 6,
               "points": 178.1,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 190.4
             },
             {
               "week": 7,
               "points": 249.1,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 263.5
             },
             {
               "week": 8,
               "points": 245.2,
               "weeklyMoney": true,
               "allPlayRecord": "28-3",
-              "allPlayPct": 0.9032258064516129
+              "allPlayPct": 0.9032258064516129,
+              "potentialPoints": 280.8
             },
             {
               "week": 9,
               "points": 193.2,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
-              "allPlayPct": 0.41935483870967744
+              "allPlayPct": 0.41935483870967744,
+              "potentialPoints": 240.4
             }
           ],
           "matchups": [
@@ -7844,7 +8191,11 @@
             "rank": 16,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 193.3700616407369,
+        "projectedPoints": 2355.210184922211
       },
       {
         "division": "06",
@@ -7922,63 +8273,72 @@
               "points": 222.0,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 252.2
             },
             {
               "week": 2,
               "points": 208.2,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 252.9
             },
             {
               "week": 3,
               "points": 206.2,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 229.7
             },
             {
               "week": 4,
               "points": 194.7,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 226.1
             },
             {
               "week": 5,
               "points": 215.7,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 252.2
             },
             {
               "week": 6,
               "points": 147.6,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
-              "allPlayPct": 0.06451612903225806
+              "allPlayPct": 0.06451612903225806,
+              "potentialPoints": 152.6
             },
             {
               "week": 7,
               "points": 167.7,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 189.8
             },
             {
               "week": 8,
               "points": 198.7,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayPct": 0.6451612903225806,
+              "potentialPoints": 211.1
             },
             {
               "week": 9,
               "points": 164.7,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 197.1
             }
           ],
           "matchups": [
@@ -8115,7 +8475,11 @@
             "rank": 28,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 187.53224533307136,
+        "projectedPoints": 2288.0967359992137
       },
       {
         "division": "07",
@@ -8193,63 +8557,72 @@
               "points": 219.6,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayPct": 0.6129032258064516,
+              "potentialPoints": 254.2
             },
             {
               "week": 2,
               "points": 122.8,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 173.0
             },
             {
               "week": 3,
               "points": 166.5,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 200.2
             },
             {
               "week": 4,
               "points": 189.9,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 216.0
             },
             {
               "week": 5,
               "points": 200.6,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
-              "allPlayPct": 0.45161290322580644
+              "allPlayPct": 0.45161290322580644,
+              "potentialPoints": 248.6
             },
             {
               "week": 6,
               "points": 230.9,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 258.7
             },
             {
               "week": 7,
               "points": 186.0,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 196.1
             },
             {
               "week": 8,
               "points": 183.0,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 200.8
             },
             {
               "week": 9,
               "points": 192.7,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
-              "allPlayPct": 0.3870967741935484
+              "allPlayPct": 0.3870967741935484,
+              "potentialPoints": 217.9
             }
           ],
           "matchups": [
@@ -8386,7 +8759,11 @@
             "rank": 26,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 193.23514351761006,
+        "projectedPoints": 2271.70543055283
       },
       {
         "division": "04",
@@ -8464,63 +8841,72 @@
               "points": 209.3,
               "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
-              "allPlayPct": 0.532258064516129
+              "allPlayPct": 0.532258064516129,
+              "potentialPoints": 229.7
             },
             {
               "week": 2,
               "points": 140.3,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 189.3
             },
             {
               "week": 3,
               "points": 175.6,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
-              "allPlayPct": 0.2903225806451613
+              "allPlayPct": 0.2903225806451613,
+              "potentialPoints": 215.7
             },
             {
               "week": 4,
               "points": 159.4,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 244.9
             },
             {
               "week": 5,
               "points": 192.6,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 221.9
             },
             {
               "week": 6,
               "points": 122.3,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
-              "allPlayPct": 0.03225806451612903
+              "allPlayPct": 0.03225806451612903,
+              "potentialPoints": 175.3
             },
             {
               "week": 7,
               "points": 199.9,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
-              "allPlayPct": 0.5161290322580645
+              "allPlayPct": 0.5161290322580645,
+              "potentialPoints": 250.7
             },
             {
               "week": 8,
               "points": 212.6,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
-              "allPlayPct": 0.8064516129032258
+              "allPlayPct": 0.8064516129032258,
+              "potentialPoints": 261.6
             },
             {
               "week": 9,
               "points": 198.4,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
-              "allPlayPct": 0.5483870967741935
+              "allPlayPct": 0.5483870967741935,
+              "potentialPoints": 263.7
             }
           ],
           "matchups": [
@@ -8657,7 +9043,11 @@
             "rank": 21,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 175.73715974052297,
+        "projectedPoints": 2137.611479221569
       },
       {
         "division": "05",
@@ -8735,63 +9125,72 @@
               "points": 146.2,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 238.7
             },
             {
               "week": 2,
               "points": 153.8,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 192.6
             },
             {
               "week": 3,
               "points": 208.2,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
-              "allPlayPct": 0.5806451612903226
+              "allPlayPct": 0.5806451612903226,
+              "potentialPoints": 240.4
             },
             {
               "week": 4,
               "points": 186.4,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 237.2
             },
             {
               "week": 5,
               "points": 224.2,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
-              "allPlayPct": 0.6774193548387096
+              "allPlayPct": 0.6774193548387096,
+              "potentialPoints": 257.0
             },
             {
               "week": 6,
               "points": 174.9,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
-              "allPlayPct": 0.4838709677419355
+              "allPlayPct": 0.4838709677419355,
+              "potentialPoints": 191.0
             },
             {
               "week": 7,
               "points": 128.8,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
-              "allPlayPct": 0.0967741935483871
+              "allPlayPct": 0.0967741935483871,
+              "potentialPoints": 181.0
             },
             {
               "week": 8,
               "points": 127.6,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
-              "allPlayPct": 0.12903225806451613
+              "allPlayPct": 0.12903225806451613,
+              "potentialPoints": 162.3
             },
             {
               "week": 9,
               "points": 207.7,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
-              "allPlayPct": 0.7096774193548387
+              "allPlayPct": 0.7096774193548387,
+              "potentialPoints": 245.3
             }
           ],
           "matchups": [
@@ -8928,7 +9327,11 @@
             "rank": 29,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 177.14571444253446,
+        "projectedPoints": 2089.2371433276035
       },
       {
         "division": "05",
@@ -9006,63 +9409,72 @@
               "points": 138.0,
               "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
-              "allPlayPct": 0.04838709677419355
+              "allPlayPct": 0.04838709677419355,
+              "potentialPoints": 189.1
             },
             {
               "week": 2,
               "points": 161.3,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 205.6
             },
             {
               "week": 3,
               "points": 165.4,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
-              "allPlayPct": 0.16129032258064516
+              "allPlayPct": 0.16129032258064516,
+              "potentialPoints": 237.1
             },
             {
               "week": 4,
               "points": 171.8,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 183.0
             },
             {
               "week": 5,
               "points": 288.5,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
-              "allPlayPct": 1.0
+              "allPlayPct": 1.0,
+              "potentialPoints": 306.3
             },
             {
               "week": 6,
               "points": 170.6,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
-              "allPlayPct": 0.3225806451612903
+              "allPlayPct": 0.3225806451612903,
+              "potentialPoints": 183.0
             },
             {
               "week": 7,
               "points": 222.9,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
-              "allPlayPct": 0.7419354838709677
+              "allPlayPct": 0.7419354838709677,
+              "potentialPoints": 252.7
             },
             {
               "week": 8,
               "points": 161.8,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
-              "allPlayPct": 0.1935483870967742
+              "allPlayPct": 0.1935483870967742,
+              "potentialPoints": 198.8
             },
             {
               "week": 9,
               "points": 169.9,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
-              "allPlayPct": 0.22580645161290322
+              "allPlayPct": 0.22580645161290322,
+              "potentialPoints": 209.6
             }
           ],
           "matchups": [
@@ -9199,7 +9611,11 @@
             "rank": 27,
             "tied": false
           }
-        }
+        },
+        "rosterStrength": null,
+        "rosterStrengthRank": null,
+        "projectedPPG": 187.59497066748133,
+        "projectedPoints": 2212.984912002444
       }
     ]
   }

@@ -271,13 +271,13 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   for k in range(week):
    apw=float(actual_ap[k,i]);apl=float(31-apw);ap_ties=int(((actual[k,i]==np.delete(actual[k],i))).sum());ap_wins=int(round(apw-.5*ap_ties));ap_losses=31-ap_wins-ap_ties
    conference_best=max(round(float(actual[k,j]),6) for j in conference_indices)
-   weeks.append(dict(week=k+1,points=float(actual[k,i]),weeklyMoney=round(float(actual[k,i]),6)==conference_best,allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
+   weeks.append(dict(week=k+1,points=float(actual[k,i]),potentialPoints=float(pot[k,i]),weeklyMoney=round(float(actual[k,i]),6)==conference_best,allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
   played_matchups=[]
   for k in range(week):
    opponent=meta[opp[k,i]];credit=float(today[5][0,k,i])
    played_matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),opponentAbbr=opponent['abbrev'],site='v.' if home[k,i] else '@',teamScore=float(actual[k,i]),opponentScore=float(actual[k,opp[k,i]]),result='W' if credit==1 else 'T' if credit==.5 else 'L'))
   played_bonuses=[dict(label=label,week=b,allPlayWins=float(completed_bonus_details[label][0][i]),rank=int(completed_bonus_details[label][1][i]),result='W' if bonus_prob[label][i]==1 else 'T' if bonus_prob[label][i]==.5 else 'L') for label,a,b in bonus_specs if b<=week]
-  r=dict(division=str(f['division']),potentialPointsTotal=float(g.potential.sum()),pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=team_logo(f),seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=projected_wins,predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPotentialPoints=float(final_pot[i]),winDetails=dict(currentWins=win,matchups=matchups,bonusGames=bonus_games),actualDetails=dict(weeks=weeks,matchups=played_matchups,bonusGames=played_bonuses))
+  r=dict(division=str(f['division']),potentialPointsTotal=float(g.potential.sum()),pointsTotal=float(g.points.sum()),franchise_id=f['id'],name=html.escape(name,quote=True),logo=team_logo(f),seed=int(today[2][0,i]),clinch=clinch,projectedQual='y' if projected_dw[0,i] else 'x' if projected_q[0,i] else '',qual='y' if today[1][0,i] else 'x' if today[0][0,i] else '',record=f'{w}-{loss}'+(f'-{ties}' if ties else ''),apPct=float(today[4][0,i]/(31*week)),ppg=f'{g.points.mean():.1f}',pot=float(g.potential.mean()),off=float(g.off.mean()),deff=float(g.deff.mean()),wins=projected_wins,predPct=float(ap[:,i].mean()/372*100),finish=int(projected[0,i]),playoffSeed=str(projected[0,i]) if projected[0,i]<=7 else 'NA',odds=f'{round(playoff*100)}%',div=f'{round(division*100)}%',bye=f'{round(bye*100)}%',playoffProbability=playoff,divisionProbability=division,byeProbability=bye,projectedPoints=float(final_points[i]),projectedPPG=float(mu[i]) if week<12 else None,projectedPotentialPoints=float(final_pot[i]),winDetails=dict(currentWins=win,matchups=matchups,bonusGames=bonus_games),actualDetails=dict(weeks=weeks,matchups=played_matchups,bonusGames=played_bonuses))
   h2h=today[5][0,:,i];hw=int((h2h==1).sum());hl=int((h2h==0).sum());ht=int((h2h==.5).sum())
   others=np.delete(actual,i,axis=1);own=actual[:,i,None]
   aw=int((own>others).sum());al=int((own<others).sum());at=int((own==others).sum())
@@ -299,12 +299,14 @@ def render(data,week,status,n_sims,updated,through_week=None,write_index=True):
  from gm_profiles import gm_profiles
  _,_,_,_,career_current,career_week,_=load_source()
  profiles=gm_profiles(ROOT,SEASON,career_week,career_current)
+ from playoff_display import display_payload
+ data,draft=display_payload(data,week,career_current)
  template=(ROOT/'scripts/templates/playoff.html').read_text(encoding='utf8')
  out=ROOT/'docs/playoff-picture';out.mkdir(parents=True,exist_ok=True)
  through_week=week if through_week is None else through_week
  options=''.join(f'<option value="week-{w+1:02}.html"'+(' selected' if w==week else '')+f'>Week {w+1} Outlook</option>' for w in range(through_week,0,-1))
  dropdown=f'<div class="fafl-outlook-nav"><select aria-label="Weekly outlook" onchange="location.href=this.value">{options}</select></div>'
- replacements={'__GM_PROFILES__':json.dumps(profiles,allow_nan=False).replace('</','<\\/'),'__DATA__':json.dumps(data,allow_nan=False).replace('</','<\\/'),'__DRAFT__':'{}','__SHIELD__':'https://www43.myfantasyleague.com/fflnetdynamic2019/22686_league_logo.jpg','__SEASON__':str(SEASON),'__OUTLOOK__':str(week+1),'__WEEK__':str(week),'__STATUS__':status.lower(),'__SIMS__':f'{n_sims:,}','__TRAINING__':'2021–2025','__UPDATED__':updated,'__DROPDOWN__':dropdown,'__FULL_FILE__':f'week-{week+1:02}.csv'}
+ replacements={'__GM_PROFILES__':json.dumps(profiles,allow_nan=False).replace('</','<\\/'),'__DATA__':json.dumps(data,allow_nan=False).replace('</','<\\/'),'__DRAFT__':json.dumps(draft,allow_nan=False).replace('</','<\\/'),'__SHIELD__':'https://www43.myfantasyleague.com/fflnetdynamic2019/22686_league_logo.jpg','__SEASON__':str(SEASON),'__OUTLOOK__':str(week+1),'__WEEK__':str(week),'__STATUS__':status.lower(),'__SIMS__':f'{n_sims:,}','__TRAINING__':'2021–2025','__UPDATED__':updated,'__DROPDOWN__':dropdown,'__FULL_FILE__':f'week-{week+1:02}.csv'}
  for k,v in replacements.items():template=template.replace(k,v)
  if week==12:template=template.replace('Week 13 Outlook','Playoff Field')
  page='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="clinch-method" content="score-coupled-clinch-v1-real"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FAFL Playoff Picture</title><style>:root{color-scheme:light dark}body{margin:0;padding:12px;background:light-dark(#f5f7fa,#151c25)}#fafl-playoff-design{max-width:1100px;margin:auto}a{color:light-dark(#235789,#89bce8)}</style></head><body>'+template+'</body></html>'
@@ -368,4 +370,5 @@ def main():
  print(f'Built FAFL report through Week {week}: 32 teams, {args.simulations} simulations, {stamp}')
 
 if __name__=='__main__':main()
+
 
