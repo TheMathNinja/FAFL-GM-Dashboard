@@ -1,24 +1,73 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "week": 8,
-  "run_id": "42002193225",
-  "score_revision": "c0f8274ddd56b0f789c6d3ed3bd1acbd83dee75aef7f366b6c5392622bb782ee",
+  "week": 9,
+  "run_id": "43191972886",
+  "score_revision": "9599a8f0b4269485504c55e48603ca3f584f5537fda8533a10af67c150466bd9",
   "ext_pr": [],
   "all_play": [
     {
-      "franchise_id": "0016",
-      "franchise": "Seattle Seahawks",
-      "old_wins": 8,
-      "new_wins": 7,
+      "franchise_id": "0003",
+      "franchise": "Philadelphia Eagles",
+      "old_wins": 25,
+      "new_wins": 25.5,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0007",
+      "franchise": "Green Bay Packers",
+      "old_wins": 9,
+      "new_wins": 11,
+      "score_corrected": false
+    },
+    {
+      "franchise_id": "0011",
+      "franchise": "New Orleans Saints",
+      "old_wins": 21,
+      "new_wins": 20,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0017",
+      "franchise": "Buffalo Bills",
+      "old_wins": 10,
+      "new_wins": 9,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0018",
+      "franchise": "Miami Dolphins",
+      "old_wins": 26,
+      "new_wins": 25.5,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0021",
+      "franchise": "Baltimore Ravens",
+      "old_wins": 13,
+      "new_wins": 12.5,
       "score_corrected": true
     },
     {
       "franchise_id": "0023",
       "franchise": "Cleveland Browns",
-      "old_wins": 7,
-      "new_wins": 8,
+      "old_wins": 11,
+      "new_wins": 10,
       "score_corrected": true
+    },
+    {
+      "franchise_id": "0028",
+      "franchise": "Tennessee Titans",
+      "old_wins": 20,
+      "new_wins": 21,
+      "score_corrected": true
+    },
+    {
+      "franchise_id": "0030",
+      "franchise": "Kansas City Chiefs",
+      "old_wins": 12,
+      "new_wins": 12.5,
+      "score_corrected": false
     }
   ],
   "bonus_games": []
