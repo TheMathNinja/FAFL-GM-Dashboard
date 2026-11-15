@@ -271,7 +271,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   for k in range(week):
    apw=float(actual_ap[k,i]);apl=float(31-apw);ap_ties=int(((actual[k,i]==np.delete(actual[k],i))).sum());ap_wins=int(round(apw-.5*ap_ties));ap_losses=31-ap_wins-ap_ties
    conference_best=max(round(float(actual[k,j]),6) for j in conference_indices)
-   weeks.append(dict(week=k+1,points=float(actual[k,i]),potentialPoints=float(pot[k,i]),weeklyMoney=round(float(actual[k,i]),6)==conference_best,allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
+   weeks.append(dict(week=k+1,points=float(actual[k,i]),potentialPoints=float(pot[k,i]),offensePoints=float(g.loc[g.week==k+1,'off'].iloc[0]),defensePoints=float(g.loc[g.week==k+1,'deff'].iloc[0]),weeklyMoney=round(float(actual[k,i]),6)==conference_best,allPlayRecord=record_text(ap_wins,ap_losses,ap_ties),allPlayPct=apw/31))
   played_matchups=[]
   for k in range(week):
    opponent=meta[opp[k,i]];credit=float(today[5][0,k,i])
