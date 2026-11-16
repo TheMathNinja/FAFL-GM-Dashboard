@@ -2,115 +2,115 @@
   "season": 2026,
   "through_week": 9,
   "status": "official",
-  "updated_at": "2026-11-12 09:32 UTC",
+  "updated_at": "2026-11-16 01:17 UTC",
   "simulations": 12000,
   "model": {
     "native_mean": [
       [
-        192.03165567170652,
-        200.58956354322603,
-        215.98348857059807,
-        208.29801246972727,
-        207.6189106181508,
-        194.89884981346017,
-        184.92795207493606,
-        175.71134828658847,
-        185.3501592700907,
-        196.44785624166948,
-        209.3480846833141,
-        195.45670284093467,
-        196.30049445700257,
-        181.3354642585923,
-        207.42299289578582,
-        189.50454785513077,
-        188.57647948136707,
-        189.7145641665746,
-        178.00382077708883,
-        189.98061325606403,
-        197.35179268741788,
-        193.80866808226506,
-        203.64326598604615,
-        187.5800233815959,
-        198.19692722342862,
-        189.78369100282114,
-        207.13228274839648,
-        202.82094284159217,
-        187.56090760102185,
-        198.26693905112347,
-        203.51369238838524,
-        188.25041688500906
+        191.28573004679646,
+        200.12890189216995,
+        215.63316487169303,
+        207.94688141995286,
+        207.8469192586913,
+        194.46509985805068,
+        185.4118909410757,
+        175.72487071282546,
+        186.56232862042742,
+        195.9871945906134,
+        208.6882764844732,
+        194.99604118987858,
+        196.47629440798858,
+        180.87480260753625,
+        206.96233124472974,
+        190.81467577762112,
+        189.7948385217025,
+        189.25390251551852,
+        177.54315912603272,
+        191.52962733024404,
+        199.71201497403862,
+        193.0250660834497,
+        203.18260433499003,
+        187.1193617305398,
+        197.73626557237256,
+        189.12352398137153,
+        207.74398488961836,
+        204.09204880539494,
+        187.10024594996582,
+        197.80627740006736,
+        203.05303073732915,
+        187.78975523395295
       ],
       [
-        186.53617649002013,
-        193.82355224025505,
-        212.20421627689487,
-        197.3939221498076,
-        209.35981873170022,
-        190.9215608360195,
-        180.9498108937999,
-        183.5672536283439,
-        190.0758734496888,
-        199.50139726132394,
-        209.58592974217467,
-        196.6013972883756,
-        195.91415263722425,
-        176.75317046113196,
-        210.287630898792,
-        192.40567897177328,
-        194.41399803830745,
-        190.8419603740916,
-        187.79555380179235,
-        199.87642299198305,
-        198.57653447846542,
-        190.32244065981587,
-        203.88546176903625,
-        185.18053721803147,
-        194.1851912755603,
-        190.5756841844759,
-        212.41699769940058,
-        198.2597469591792,
-        184.52687355599457,
-        196.43673243160785,
-        202.61055630654002,
-        189.62487740950385
+        188.39293224483828,
+        193.7167922354176,
+        212.0245255768551,
+        202.4661257457613,
+        209.92961875541832,
+        190.5481059273242,
+        180.5763559851046,
+        183.29444846136684,
+        187.62914150837926,
+        199.12794235262865,
+        211.1794207664055,
+        196.2279423796803,
+        195.54069772852893,
+        179.9945543154564,
+        209.84985703750135,
+        192.05315538191425,
+        192.67612016032945,
+        190.4685054653963,
+        187.42209889309703,
+        200.31866157833628,
+        197.96625664808002,
+        189.94898575112055,
+        203.51200686034093,
+        184.80708230933612,
+        193.81173636686503,
+        190.4087060568558,
+        211.9278224994249,
+        197.88629205048392,
+        184.15341864729933,
+        196.06327752291253,
+        202.23710139784473,
+        189.25142250080856
       ],
       [
-        191.91591872747952,
-        197.71024214663643,
-        215.41191235494372,
-        207.8417528699186,
-        209.88288521430073,
-        195.3131835678191,
-        183.20591582133147,
-        180.64326829481024,
-        186.39960904170943,
-        195.52805763529014,
-        208.1842717521302,
-        192.27294288734285,
-        196.23914903986577,
-        178.265181954977,
-        204.3435478005575,
-        190.76121768322835,
-        192.8192037791725,
-        187.3977794391801,
-        185.14135821711588,
-        197.4619433362787,
-        197.8818467330572,
-        193.7733202174624,
-        202.00329545322168,
-        187.40310718259897,
-        195.7855329348943,
-        189.43680822317617,
-        208.97683856789408,
-        201.96800484795259,
-        186.20391354792142,
-        195.08317909753166,
-        202.3894845026279,
-        187.76643823868437
+        191.9255172322602,
+        197.7198406514171,
+        215.42151085972435,
+        207.85135137469928,
+        209.89248371908138,
+        195.32278207259975,
+        183.21551432611213,
+        180.65286679959084,
+        186.4092075464901,
+        195.5376561400708,
+        208.19387025691088,
+        192.2825413921235,
+        196.2487475446464,
+        178.2747804597577,
+        204.35314630533819,
+        190.770816188009,
+        192.8288022839532,
+        187.4073779439608,
+        185.1509567218965,
+        197.47154184105935,
+        197.89144523783784,
+        193.45997837448382,
+        202.0128939580023,
+        187.4127056873796,
+        195.79513143967498,
+        189.46219492273613,
+        208.98643707267473,
+        201.97760335273324,
+        186.21351205270213,
+        195.09277760231228,
+        202.39908300740856,
+        187.77603674346503
       ]
     ],
     "upcoming_sharks_weight": 0.5,
-    "source_signature": "68e489ad31fb257179855bf790b98d700844612be249cdfeaa874d7e3412385c",
+    "source_signature": "de243721bd6d793af8cbd5ca8eafa2e00ea46c1d6015ea18f329e08b03bfb3f2",
     "fit_signature": "e207c02d14216b554613e689df2557ab78e702dd93dd7f40bb618bfc7b235bc3",
     "version": "fafl-f315-sharks50-relative-interval-lognormal-v3",
     "model": "F315 + 50% Sharks / selected relative interval team + linear lognormal league uncertainty",
@@ -155,19 +155,19 @@
     "coefficients": [
       [
         190.12395833333332,
-        224.83583333333337
+        224.8358333333332
       ],
       [
-        7.423414580296886,
-        8.684007201590227
+        7.4234145802968925,
+        8.684007201590223
       ],
       [
-        7.239374150089658,
-        4.211749096868391
+        7.239374150089645,
+        4.211749096868394
       ],
       [
-        -3.4396381646299794,
-        0.35022646787672557
+        -3.4396381646299714,
+        0.35022646787672507
       ]
     ],
     "feature_means": [
@@ -263,110 +263,110 @@
     "quarterly_bonus_model": {
       "native_mean": [
         [
-          192.03165567170652,
-          200.58956354322603,
-          215.98348857059807,
-          208.29801246972727,
-          207.6189106181508,
-          194.89884981346017,
-          184.92795207493606,
-          175.71134828658847,
-          185.3501592700907,
-          196.44785624166948,
-          209.3480846833141,
-          195.45670284093467,
-          196.30049445700257,
-          181.3354642585923,
-          207.42299289578582,
-          189.50454785513077,
-          188.57647948136707,
-          189.7145641665746,
-          178.00382077708883,
-          189.98061325606403,
-          197.35179268741788,
-          193.80866808226506,
-          203.64326598604615,
-          187.5800233815959,
-          198.19692722342862,
-          189.78369100282114,
-          207.13228274839648,
-          202.82094284159217,
-          187.56090760102185,
-          198.26693905112347,
-          203.51369238838524,
-          188.25041688500906
+          191.28573004679646,
+          200.12890189216995,
+          215.63316487169303,
+          207.94688141995286,
+          207.8469192586913,
+          194.46509985805068,
+          185.4118909410757,
+          175.72487071282546,
+          186.56232862042742,
+          195.9871945906134,
+          208.6882764844732,
+          194.99604118987858,
+          196.47629440798858,
+          180.87480260753625,
+          206.96233124472974,
+          190.81467577762112,
+          189.7948385217025,
+          189.25390251551852,
+          177.54315912603272,
+          191.52962733024404,
+          199.71201497403862,
+          193.0250660834497,
+          203.18260433499003,
+          187.1193617305398,
+          197.73626557237256,
+          189.12352398137153,
+          207.74398488961836,
+          204.09204880539494,
+          187.10024594996582,
+          197.80627740006736,
+          203.05303073732915,
+          187.78975523395295
         ],
         [
-          186.53617649002013,
-          193.82355224025505,
-          212.20421627689487,
-          197.3939221498076,
-          209.35981873170022,
-          190.9215608360195,
-          180.9498108937999,
-          183.5672536283439,
-          190.0758734496888,
-          199.50139726132394,
-          209.58592974217467,
-          196.6013972883756,
-          195.91415263722425,
-          176.75317046113196,
-          210.287630898792,
-          192.40567897177328,
-          194.41399803830745,
-          190.8419603740916,
-          187.79555380179235,
-          199.87642299198305,
-          198.57653447846542,
-          190.32244065981587,
-          203.88546176903625,
-          185.18053721803147,
-          194.1851912755603,
-          190.5756841844759,
-          212.41699769940058,
-          198.2597469591792,
-          184.52687355599457,
-          196.43673243160785,
-          202.61055630654002,
-          189.62487740950385
+          188.39293224483828,
+          193.7167922354176,
+          212.0245255768551,
+          202.4661257457613,
+          209.92961875541832,
+          190.5481059273242,
+          180.5763559851046,
+          183.29444846136684,
+          187.62914150837926,
+          199.12794235262865,
+          211.1794207664055,
+          196.2279423796803,
+          195.54069772852893,
+          179.9945543154564,
+          209.84985703750135,
+          192.05315538191425,
+          192.67612016032945,
+          190.4685054653963,
+          187.42209889309703,
+          200.31866157833628,
+          197.96625664808002,
+          189.94898575112055,
+          203.51200686034093,
+          184.80708230933612,
+          193.81173636686503,
+          190.4087060568558,
+          211.9278224994249,
+          197.88629205048392,
+          184.15341864729933,
+          196.06327752291253,
+          202.23710139784473,
+          189.25142250080856
         ],
         [
-          191.91591872747952,
-          197.71024214663643,
-          215.41191235494372,
-          207.8417528699186,
-          209.88288521430073,
-          195.3131835678191,
-          183.20591582133147,
-          180.64326829481024,
-          186.39960904170943,
-          195.52805763529014,
-          208.1842717521302,
-          192.27294288734285,
-          196.23914903986577,
-          178.265181954977,
-          204.3435478005575,
-          190.76121768322835,
-          192.8192037791725,
-          187.3977794391801,
-          185.14135821711588,
-          197.4619433362787,
-          197.8818467330572,
-          193.7733202174624,
-          202.00329545322168,
-          187.40310718259897,
-          195.7855329348943,
-          189.43680822317617,
-          208.97683856789408,
-          201.96800484795259,
-          186.20391354792142,
-          195.08317909753166,
-          202.3894845026279,
-          187.76643823868437
+          191.9255172322602,
+          197.7198406514171,
+          215.42151085972435,
+          207.85135137469928,
+          209.89248371908138,
+          195.32278207259975,
+          183.21551432611213,
+          180.65286679959084,
+          186.4092075464901,
+          195.5376561400708,
+          208.19387025691088,
+          192.2825413921235,
+          196.2487475446464,
+          178.2747804597577,
+          204.35314630533819,
+          190.770816188009,
+          192.8288022839532,
+          187.4073779439608,
+          185.1509567218965,
+          197.47154184105935,
+          197.89144523783784,
+          193.45997837448382,
+          202.0128939580023,
+          187.4127056873796,
+          195.79513143967498,
+          189.46219492273613,
+          208.98643707267473,
+          201.97760335273324,
+          186.21351205270213,
+          195.09277760231228,
+          202.39908300740856,
+          187.77603674346503
         ]
       ],
       "upcoming_sharks_weight": 0.5,
-      "source_signature": "68e489ad31fb257179855bf790b98d700844612be249cdfeaa874d7e3412385c",
+      "source_signature": "de243721bd6d793af8cbd5ca8eafa2e00ea46c1d6015ea18f329e08b03bfb3f2",
       "fit_signature": "e207c02d14216b554613e689df2557ab78e702dd93dd7f40bb618bfc7b235bc3",
       "version": "fafl-f315-sharks50-relative-interval-lognormal-v3",
       "model": "F315 + 50% Sharks / selected relative interval team + linear lognormal league uncertainty",
@@ -411,19 +411,19 @@
       "coefficients": [
         [
           190.12395833333332,
-          224.83583333333337
+          224.8358333333332
         ],
         [
-          7.423414580296886,
-          8.684007201590227
+          7.4234145802968925,
+          8.684007201590223
         ],
         [
-          7.239374150089658,
-          4.211749096868391
+          7.239374150089645,
+          4.211749096868394
         ],
         [
-          -3.4396381646299794,
-          0.35022646787672557
+          -3.4396381646299714,
+          0.35022646787672507
         ]
       ],
       "feature_means": [
@@ -513,7 +513,7 @@
         ]
       }
     },
-    "playoff_swing_runtime_seconds": 0.01,
+    "playoff_swing_runtime_seconds": 0.015,
     "weekly_sigma": 37.53495871696428,
     "clinching": {
       "method": "score-coupled-clinch-v1-real",
@@ -521,8 +521,8 @@
       "complete": false,
       "unresolved_checks": 9
     },
-    "forecast_runtime_seconds": 98.855,
-    "base_forecast_runtime_seconds": 98.845,
+    "forecast_runtime_seconds": 8.501,
+    "base_forecast_runtime_seconds": 8.486,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -544,19 +544,19 @@
         "pot": 270.4444444444444,
         "off": 100.24444444444445,
         "deff": 123.85555555555555,
-        "wins": 15.61625,
-        "predPct": 70.64376120071684,
+        "wins": 15.68575,
+        "predPct": 70.75349462365591,
         "finish": 1,
         "playoffSeed": "1",
         "odds": "100%",
         "div": "100%",
-        "bye": "65%",
+        "bye": "67%",
         "playoffProbability": 1.0,
         "divisionProbability": 1.0,
-        "byeProbability": 0.6483333333333333,
-        "projectedPoints": 2637.0704580755173,
-        "projectedPPG": 206.72348602517252,
-        "projectedPotentialPoints": 3155.106112800012,
+        "byeProbability": 0.66575,
+        "projectedPoints": 2641.868331028473,
+        "projectedPPG": 208.3227770094912,
+        "projectedPotentialPoints": 3158.9881416057547,
         "winDetails": {
           "currentWins": 12.0,
           "matchups": [
@@ -566,7 +566,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "v.",
-              "probability": 0.5959583333333334
+              "probability": 0.6524583333333334
             },
             {
               "week": 11,
@@ -574,7 +574,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
               "opponentAbbr": "NYG",
               "site": "@",
-              "probability": 0.6140416666666667
+              "probability": 0.6200833333333333
             },
             {
               "week": 12,
@@ -582,14 +582,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "probability": 0.6875416666666667
+              "probability": 0.6875833333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7187083333333333
+              "probability": 0.7256250000000001
             },
             {
               "label": "Regular Season Bonus Game",
@@ -604,6 +604,8 @@
               "week": 1,
               "points": 174.4,
               "potentialPoints": 226.2,
+              "offensePoints": 84.80000000000001,
+              "defensePoints": 89.6,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -612,6 +614,8 @@
               "week": 2,
               "points": 236.1,
               "potentialPoints": 290.3,
+              "offensePoints": 115.4,
+              "defensePoints": 120.7,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -620,6 +624,8 @@
               "week": 3,
               "points": 263.0,
               "potentialPoints": 319.5,
+              "offensePoints": 112.2,
+              "defensePoints": 150.8,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -628,6 +634,8 @@
               "week": 4,
               "points": 224.3,
               "potentialPoints": 255.6,
+              "offensePoints": 114.8,
+              "defensePoints": 109.5,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -636,6 +644,8 @@
               "week": 5,
               "points": 231.2,
               "potentialPoints": 271.5,
+              "offensePoints": 78.6,
+              "defensePoints": 152.6,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -644,6 +654,8 @@
               "week": 6,
               "points": 235.8,
               "potentialPoints": 240.3,
+              "offensePoints": 130.40000000000003,
+              "defensePoints": 105.4,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -652,6 +664,8 @@
               "week": 7,
               "points": 220.5,
               "potentialPoints": 283.6,
+              "offensePoints": 94.4,
+              "defensePoints": 126.1,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -660,6 +674,8 @@
               "week": 8,
               "points": 183.8,
               "potentialPoints": 246.4,
+              "offensePoints": 86.20000000000002,
+              "defensePoints": 97.6,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -668,6 +684,8 @@
               "week": 9,
               "points": 247.8,
               "potentialPoints": 300.6,
+              "offensePoints": 85.4,
+              "defensePoints": 162.4,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -826,19 +844,19 @@
         "pot": 252.13333333333333,
         "off": 118.5,
         "deff": 96.5111111111111,
-        "wins": 10.652416666666667,
-        "predPct": 66.76139112903226,
+        "wins": 10.635666666666667,
+        "predPct": 66.51663306451613,
         "finish": 2,
         "playoffSeed": "2",
         "odds": "88%",
-        "div": "35%",
-        "bye": "21%",
-        "playoffProbability": 0.8835833333333334,
-        "divisionProbability": 0.34608333333333335,
-        "byeProbability": 0.21391666666666667,
-        "projectedPoints": 2571.626003077781,
-        "projectedPPG": 212.1753343592603,
-        "projectedPotentialPoints": 3002.5136748404752,
+        "div": "34%",
+        "bye": "20%",
+        "playoffProbability": 0.883,
+        "divisionProbability": 0.34058333333333335,
+        "byeProbability": 0.19925,
+        "projectedPoints": 2570.3618867280984,
+        "projectedPPG": 211.7539622426995,
+        "projectedPotentialPoints": 3001.3786798718866,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -848,7 +866,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
               "opponentAbbr": "WAS",
               "site": "v.",
-              "probability": 0.5271666666666667
+              "probability": 0.5274166666666666
             },
             {
               "week": 11,
@@ -856,7 +874,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "probability": 0.7171666666666666
+              "probability": 0.718375
             },
             {
               "week": 12,
@@ -864,19 +882,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
               "opponentAbbr": "NYG",
               "site": "v.",
-              "probability": 0.6199583333333333
+              "probability": 0.62
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7881666666666667
+              "probability": 0.7700416666666666
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9999583333333334
+              "probability": 0.9998333333333334
             }
           ]
         },
@@ -886,6 +904,8 @@
               "week": 1,
               "points": 236.0,
               "potentialPoints": 258.2,
+              "offensePoints": 161.2,
+              "defensePoints": 74.8,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -894,6 +914,8 @@
               "week": 2,
               "points": 205.4,
               "potentialPoints": 315.6,
+              "offensePoints": 115.8,
+              "defensePoints": 89.6,
               "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
               "allPlayPct": 0.5967741935483871
@@ -902,6 +924,8 @@
               "week": 3,
               "points": 185.5,
               "potentialPoints": 237.8,
+              "offensePoints": 120.5,
+              "defensePoints": 65.0,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -910,6 +934,8 @@
               "week": 4,
               "points": 197.4,
               "potentialPoints": 236.1,
+              "offensePoints": 89.30000000000001,
+              "defensePoints": 108.1,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -918,6 +944,8 @@
               "week": 5,
               "points": 187.7,
               "potentialPoints": 218.2,
+              "offensePoints": 106.0,
+              "defensePoints": 81.7,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -926,6 +954,8 @@
               "week": 6,
               "points": 227.9,
               "potentialPoints": 228.3,
+              "offensePoints": 107.8,
+              "defensePoints": 120.1,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -934,6 +964,8 @@
               "week": 7,
               "points": 245.5,
               "potentialPoints": 285.4,
+              "offensePoints": 142.7,
+              "defensePoints": 102.8,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -942,6 +974,8 @@
               "week": 8,
               "points": 228.7,
               "potentialPoints": 238.9,
+              "offensePoints": 141.5,
+              "defensePoints": 87.2,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -950,6 +984,8 @@
               "week": 9,
               "points": 221.0,
               "potentialPoints": 250.7,
+              "offensePoints": 81.69999999999999,
+              "defensePoints": 139.3,
               "weeklyMoney": false,
               "allPlayRecord": "25-5-1",
               "allPlayPct": 0.8225806451612904
@@ -1108,19 +1144,19 @@
         "pot": 261.1222222222222,
         "off": 113.15555555555555,
         "deff": 104.88888888888889,
-        "wins": 11.632083333333334,
-        "predPct": 63.85527553763441,
+        "wins": 11.549291666666667,
+        "predPct": 63.717316308243724,
         "finish": 3,
         "playoffSeed": "3",
         "odds": "98%",
-        "div": "97%",
+        "div": "96%",
         "bye": "8%",
-        "playoffProbability": 0.9814166666666667,
-        "divisionProbability": 0.9695,
-        "byeProbability": 0.07908333333333334,
-        "projectedPoints": 2586.563285265874,
-        "projectedPPG": 208.05442842195797,
-        "projectedPotentialPoints": 3073.5538637779027,
+        "playoffProbability": 0.977,
+        "divisionProbability": 0.9636666666666667,
+        "byeProbability": 0.07591666666666666,
+        "projectedPoints": 2587.148666549291,
+        "projectedPPG": 208.24955551643032,
+        "projectedPotentialPoints": 3073.7644398600787,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -1130,7 +1166,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
               "opponentAbbr": "SEA",
               "site": "@",
-              "probability": 0.754375
+              "probability": 0.68225
             },
             {
               "week": 11,
@@ -1138,7 +1174,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
               "opponentAbbr": "TBB",
               "site": "v.",
-              "probability": 0.5947083333333333
+              "probability": 0.5942916666666667
             },
             {
               "week": 12,
@@ -1153,12 +1189,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.72725
+              "probability": 0.7175
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9987083333333333
+              "probability": 0.9982083333333334
             }
           ]
         },
@@ -1168,6 +1204,8 @@
               "week": 1,
               "points": 189.9,
               "potentialPoints": 265.3,
+              "offensePoints": 85.4,
+              "defensePoints": 104.5,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -1176,6 +1214,8 @@
               "week": 2,
               "points": 170.2,
               "potentialPoints": 212.9,
+              "offensePoints": 74.79999999999998,
+              "defensePoints": 95.4,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -1184,6 +1224,8 @@
               "week": 3,
               "points": 222.5,
               "potentialPoints": 282.4,
+              "offensePoints": 108.7,
+              "defensePoints": 113.8,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -1192,6 +1234,8 @@
               "week": 4,
               "points": 174.7,
               "potentialPoints": 224.7,
+              "offensePoints": 96.9,
+              "defensePoints": 77.8,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -1200,6 +1244,8 @@
               "week": 5,
               "points": 228.2,
               "potentialPoints": 268.9,
+              "offensePoints": 122.4,
+              "defensePoints": 105.8,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -1208,6 +1254,8 @@
               "week": 6,
               "points": 191.8,
               "potentialPoints": 246.0,
+              "offensePoints": 95.9,
+              "defensePoints": 95.9,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -1216,6 +1264,8 @@
               "week": 7,
               "points": 230.2,
               "potentialPoints": 246.0,
+              "offensePoints": 121.0,
+              "defensePoints": 109.2,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -1224,6 +1274,8 @@
               "week": 8,
               "points": 264.7,
               "potentialPoints": 291.3,
+              "offensePoints": 158.7,
+              "defensePoints": 106.0,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -1232,6 +1284,8 @@
               "week": 9,
               "points": 290.2,
               "potentialPoints": 312.6,
+              "offensePoints": 154.6,
+              "defensePoints": 135.6,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -1390,19 +1444,19 @@
         "pot": 267.40000000000003,
         "off": 97.35555555555555,
         "deff": 114.55555555555556,
-        "wins": 11.6555,
-        "predPct": 63.423476702508964,
+        "wins": 11.685041666666667,
+        "predPct": 63.290501792114696,
         "finish": 4,
         "playoffSeed": "4",
         "odds": "97%",
-        "div": "52%",
+        "div": "53%",
         "bye": "6%",
-        "playoffProbability": 0.9726666666666667,
-        "divisionProbability": 0.5155833333333333,
+        "playoffProbability": 0.9725833333333334,
+        "divisionProbability": 0.5313333333333333,
         "byeProbability": 0.056916666666666664,
-        "projectedPoints": 2537.0322578775726,
-        "projectedPPG": 209.94408595919086,
-        "projectedPotentialPoints": 3136.2204482619127,
+        "projectedPoints": 2537.501017628994,
+        "projectedPPG": 210.1003392096646,
+        "projectedPotentialPoints": 3137.1160751593325,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -1412,7 +1466,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
               "opponentAbbr": "TBB",
               "site": "@",
-              "probability": 0.6755
+              "probability": 0.701875
             },
             {
               "week": 11,
@@ -1420,7 +1474,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
               "opponentAbbr": "SEA",
               "site": "@",
-              "probability": 0.6245416666666667
+              "probability": 0.6382916666666667
             },
             {
               "week": 12,
@@ -1435,12 +1489,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.76075
+              "probability": 0.7502916666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.997375
+              "probability": 0.99725
             }
           ]
         },
@@ -1450,6 +1504,8 @@
               "week": 1,
               "points": 224.8,
               "potentialPoints": 316.9,
+              "offensePoints": 140.5,
+              "defensePoints": 84.3,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -1458,6 +1514,8 @@
               "week": 2,
               "points": 236.8,
               "potentialPoints": 297.1,
+              "offensePoints": 87.0,
+              "defensePoints": 149.8,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -1466,6 +1524,8 @@
               "week": 3,
               "points": 236.3,
               "potentialPoints": 298.9,
+              "offensePoints": 97.3,
+              "defensePoints": 139.0,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -1474,6 +1534,8 @@
               "week": 4,
               "points": 191.1,
               "potentialPoints": 275.0,
+              "offensePoints": 101.0,
+              "defensePoints": 90.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -1482,6 +1544,8 @@
               "week": 5,
               "points": 181.6,
               "potentialPoints": 240.8,
+              "offensePoints": 92.9,
+              "defensePoints": 88.7,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -1490,6 +1554,8 @@
               "week": 6,
               "points": 211.6,
               "potentialPoints": 244.8,
+              "offensePoints": 110.4,
+              "defensePoints": 101.2,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -1498,6 +1564,8 @@
               "week": 7,
               "points": 159.4,
               "potentialPoints": 183.8,
+              "offensePoints": 68.2,
+              "defensePoints": 91.2,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -1506,6 +1574,8 @@
               "week": 8,
               "points": 259.4,
               "potentialPoints": 284.5,
+              "offensePoints": 90.59999999999997,
+              "defensePoints": 168.8,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -1514,6 +1584,8 @@
               "week": 9,
               "points": 206.2,
               "potentialPoints": 264.8,
+              "offensePoints": 88.29999999999998,
+              "defensePoints": 117.9,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -1672,19 +1744,19 @@
         "pot": 252.86666666666665,
         "off": 98.28888888888889,
         "deff": 108.75555555555555,
-        "wins": 9.451583333333334,
-        "predPct": 55.089941756272395,
+        "wins": 9.579125,
+        "predPct": 55.51120071684588,
         "finish": 8,
         "playoffSeed": "NA",
-        "odds": "52%",
-        "div": "7%",
+        "odds": "56%",
+        "div": "9%",
         "bye": "0%",
-        "playoffProbability": 0.5205833333333333,
-        "divisionProbability": 0.07266666666666667,
-        "byeProbability": 0.0009166666666666666,
-        "projectedPoints": 2423.026580311259,
-        "projectedPPG": 186.54219343708633,
-        "projectedPotentialPoints": 2941.1930779714044,
+        "playoffProbability": 0.5641666666666667,
+        "divisionProbability": 0.08533333333333333,
+        "byeProbability": 0.0015,
+        "projectedPoints": 2433.174168096498,
+        "projectedPPG": 189.9247226988326,
+        "projectedPotentialPoints": 2950.1706817016884,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -1694,7 +1766,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
               "opponentAbbr": "NYG",
               "site": "v.",
-              "probability": 0.3604583333333333
+              "probability": 0.41754166666666664
             },
             {
               "week": 11,
@@ -1702,7 +1774,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "v.",
-              "probability": 0.46825
+              "probability": 0.48391666666666666
             },
             {
               "week": 12,
@@ -1717,12 +1789,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.38825
+              "probability": 0.42324999999999996
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.8474583333333333
+              "probability": 0.8672500000000001
             }
           ]
         },
@@ -1732,6 +1804,8 @@
               "week": 1,
               "points": 262.1,
               "potentialPoints": 320.0,
+              "offensePoints": 142.70000000000002,
+              "defensePoints": 119.4,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -1740,6 +1814,8 @@
               "week": 2,
               "points": 251.9,
               "potentialPoints": 259.3,
+              "offensePoints": 114.5,
+              "defensePoints": 137.4,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -1748,6 +1824,8 @@
               "week": 3,
               "points": 197.8,
               "potentialPoints": 273.4,
+              "offensePoints": 93.3,
+              "defensePoints": 104.5,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -1756,6 +1834,8 @@
               "week": 4,
               "points": 141.5,
               "potentialPoints": 234.7,
+              "offensePoints": 86.19999999999999,
+              "defensePoints": 55.3,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -1764,6 +1844,8 @@
               "week": 5,
               "points": 196.5,
               "potentialPoints": 229.4,
+              "offensePoints": 102.0,
+              "defensePoints": 94.5,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -1772,6 +1854,8 @@
               "week": 6,
               "points": 208.3,
               "potentialPoints": 257.4,
+              "offensePoints": 87.20000000000002,
+              "defensePoints": 121.1,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -1780,6 +1864,8 @@
               "week": 7,
               "points": 227.5,
               "potentialPoints": 234.9,
+              "offensePoints": 119.7,
+              "defensePoints": 107.8,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -1788,6 +1874,8 @@
               "week": 8,
               "points": 180.9,
               "potentialPoints": 253.6,
+              "offensePoints": 77.60000000000001,
+              "defensePoints": 103.3,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -1796,6 +1884,8 @@
               "week": 9,
               "points": 196.9,
               "potentialPoints": 213.1,
+              "offensePoints": 61.400000000000006,
+              "defensePoints": 135.5,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -1954,19 +2044,19 @@
         "pot": 236.15555555555557,
         "off": 103.82222222222224,
         "deff": 99.03333333333333,
-        "wins": 11.652375,
-        "predPct": 55.609307795698925,
+        "wins": 11.5735,
+        "predPct": 55.573543906810045,
         "finish": 5,
         "playoffSeed": "5",
-        "odds": "93%",
-        "div": "48%",
+        "odds": "92%",
+        "div": "47%",
         "bye": "0%",
-        "playoffProbability": 0.9259166666666667,
-        "divisionProbability": 0.48441666666666666,
-        "byeProbability": 0.0008333333333333334,
-        "projectedPoints": 2420.86291896682,
-        "projectedPPG": 198.38763965560665,
-        "projectedPotentialPoints": 2817.5745426446447,
+        "playoffProbability": 0.91825,
+        "divisionProbability": 0.4686666666666667,
+        "byeProbability": 0.0006666666666666666,
+        "projectedPoints": 2423.274764159494,
+        "projectedPPG": 199.19158805316468,
+        "projectedPotentialPoints": 2819.872489431782,
         "winDetails": {
           "currentWins": 8.5,
           "matchups": [
@@ -1976,7 +2066,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
               "opponentAbbr": "ATL",
               "site": "v.",
-              "probability": 0.63975
+              "probability": 0.5902083333333333
             },
             {
               "week": 11,
@@ -1984,7 +2074,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
               "opponentAbbr": "LAR",
               "site": "@",
-              "probability": 0.6562083333333333
+              "probability": 0.6312916666666667
             },
             {
               "week": 12,
@@ -1999,12 +2089,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.580375
+              "probability": 0.5778333333333334
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.873375
+              "probability": 0.8715
             }
           ]
         },
@@ -2014,6 +2104,8 @@
               "week": 1,
               "points": 234.9,
               "potentialPoints": 253.6,
+              "offensePoints": 138.5,
+              "defensePoints": 96.4,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -2022,6 +2114,8 @@
               "week": 2,
               "points": 183.9,
               "potentialPoints": 228.4,
+              "offensePoints": 104.6,
+              "defensePoints": 79.3,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -2030,6 +2124,8 @@
               "week": 3,
               "points": 186.7,
               "potentialPoints": 234.2,
+              "offensePoints": 73.89999999999999,
+              "defensePoints": 112.8,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -2038,6 +2134,8 @@
               "week": 4,
               "points": 191.8,
               "potentialPoints": 229.9,
+              "offensePoints": 82.20000000000002,
+              "defensePoints": 109.6,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -2046,6 +2144,8 @@
               "week": 5,
               "points": 255.8,
               "potentialPoints": 269.5,
+              "offensePoints": 158.60000000000002,
+              "defensePoints": 97.2,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -2054,6 +2154,8 @@
               "week": 6,
               "points": 201.7,
               "potentialPoints": 253.1,
+              "offensePoints": 112.5,
+              "defensePoints": 89.2,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -2062,6 +2164,8 @@
               "week": 7,
               "points": 167.0,
               "potentialPoints": 199.8,
+              "offensePoints": 48.7,
+              "defensePoints": 118.3,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -2070,6 +2174,8 @@
               "week": 8,
               "points": 256.0,
               "potentialPoints": 264.4,
+              "offensePoints": 141.7,
+              "defensePoints": 114.3,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -2078,6 +2184,8 @@
               "week": 9,
               "points": 147.9,
               "potentialPoints": 192.5,
+              "offensePoints": 73.7,
+              "defensePoints": 74.2,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -2236,19 +2344,19 @@
         "pot": 245.92222222222225,
         "off": 87.92222222222222,
         "deff": 108.39999999999999,
-        "wins": 10.971333333333334,
-        "predPct": 51.53306451612904,
+        "wins": 11.021166666666666,
+        "predPct": 51.60565636200717,
         "finish": 7,
         "playoffSeed": "7",
-        "odds": "78%",
-        "div": "46%",
+        "odds": "79%",
+        "div": "47%",
         "bye": "0%",
-        "playoffProbability": 0.7785833333333333,
-        "divisionProbability": 0.4615,
+        "playoffProbability": 0.7911666666666667,
+        "divisionProbability": 0.4663333333333333,
         "byeProbability": 0.0,
-        "projectedPoints": 2377.637919208576,
-        "projectedPPG": 203.57930640285858,
-        "projectedPotentialPoints": 2925.043132513554,
+        "projectedPoints": 2381.5702204747186,
+        "projectedPPG": 204.89007349157274,
+        "projectedPotentialPoints": 2929.320970333526,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -2258,7 +2366,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
               "opponentAbbr": "PHI",
               "site": "@",
-              "probability": 0.4728333333333333
+              "probability": 0.47258333333333336
             },
             {
               "week": 11,
@@ -2266,7 +2374,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
               "opponentAbbr": "MIN",
               "site": "v.",
-              "probability": 0.5978333333333333
+              "probability": 0.6375416666666667
             },
             {
               "week": 12,
@@ -2281,12 +2389,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.6705416666666667
+              "probability": 0.6749583333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.6172916666666667
+              "probability": 0.62325
             }
           ]
         },
@@ -2296,6 +2404,8 @@
               "week": 1,
               "points": 269.8,
               "potentialPoints": 305.4,
+              "offensePoints": 163.3,
+              "defensePoints": 106.5,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -2304,6 +2414,8 @@
               "week": 2,
               "points": 154.5,
               "potentialPoints": 190.7,
+              "offensePoints": 56.2,
+              "defensePoints": 98.3,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -2312,6 +2424,8 @@
               "week": 3,
               "points": 240.4,
               "potentialPoints": 278.2,
+              "offensePoints": 120.5,
+              "defensePoints": 119.9,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -2320,6 +2434,8 @@
               "week": 4,
               "points": 219.8,
               "potentialPoints": 268.8,
+              "offensePoints": 98.5,
+              "defensePoints": 121.3,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -2328,6 +2444,8 @@
               "week": 5,
               "points": 201.4,
               "potentialPoints": 256.6,
+              "offensePoints": 87.60000000000001,
+              "defensePoints": 113.8,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -2336,6 +2454,8 @@
               "week": 6,
               "points": 152.5,
               "potentialPoints": 166.0,
+              "offensePoints": 34.8,
+              "defensePoints": 117.7,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -2344,6 +2464,8 @@
               "week": 7,
               "points": 154.8,
               "potentialPoints": 249.9,
+              "offensePoints": 64.80000000000001,
+              "defensePoints": 90.0,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -2352,6 +2474,8 @@
               "week": 8,
               "points": 175.5,
               "potentialPoints": 227.7,
+              "offensePoints": 80.7,
+              "defensePoints": 94.8,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -2360,6 +2484,8 @@
               "week": 9,
               "points": 198.2,
               "potentialPoints": 270.0,
+              "offensePoints": 84.89999999999999,
+              "defensePoints": 113.3,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -2518,19 +2644,19 @@
         "pot": 247.21111111111108,
         "off": 112.93333333333334,
         "deff": 85.85555555555555,
-        "wins": 9.679375,
-        "predPct": 52.79911514336918,
+        "wins": 9.591583333333332,
+        "predPct": 52.651568100358425,
         "finish": 6,
         "playoffSeed": "6",
-        "odds": "58%",
-        "div": "12%",
+        "odds": "56%",
+        "div": "11%",
         "bye": "0%",
-        "playoffProbability": 0.5794166666666667,
-        "divisionProbability": 0.11975,
+        "playoffProbability": 0.5578333333333333,
+        "divisionProbability": 0.10775,
         "byeProbability": 0.0,
-        "projectedPoints": 2380.3043228973343,
-        "projectedPPG": 197.06810763244482,
-        "projectedPotentialPoints": 2919.475419722843,
+        "projectedPoints": 2380.9858527619854,
+        "projectedPPG": 197.29528425399508,
+        "projectedPotentialPoints": 2919.9773700431574,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -2540,7 +2666,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
               "opponentAbbr": "DAL",
               "site": "@",
-              "probability": 0.6395416666666667
+              "probability": 0.5824583333333333
             },
             {
               "week": 11,
@@ -2548,7 +2674,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
               "opponentAbbr": "CHI",
               "site": "v.",
-              "probability": 0.38595833333333335
+              "probability": 0.3799166666666667
             },
             {
               "week": 12,
@@ -2556,19 +2682,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
               "opponentAbbr": "PHI",
               "site": "@",
-              "probability": 0.38004166666666667
+              "probability": 0.38
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.57075
+              "probability": 0.5573333333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.7030833333333334
+              "probability": 0.691875
             }
           ]
         },
@@ -2578,6 +2704,8 @@
               "week": 1,
               "points": 171.6,
               "potentialPoints": 222.7,
+              "offensePoints": 72.19999999999999,
+              "defensePoints": 99.4,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -2586,6 +2714,8 @@
               "week": 2,
               "points": 225.8,
               "potentialPoints": 257.9,
+              "offensePoints": 80.80000000000001,
+              "defensePoints": 145.0,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -2594,6 +2724,8 @@
               "week": 3,
               "points": 234.4,
               "potentialPoints": 280.9,
+              "offensePoints": 137.0,
+              "defensePoints": 97.4,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -2602,6 +2734,8 @@
               "week": 4,
               "points": 177.1,
               "potentialPoints": 255.9,
+              "offensePoints": 100.6,
+              "defensePoints": 76.5,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -2610,6 +2744,8 @@
               "week": 5,
               "points": 252.6,
               "potentialPoints": 274.5,
+              "offensePoints": 173.6,
+              "defensePoints": 79.0,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -2618,6 +2754,8 @@
               "week": 6,
               "points": 178.9,
               "potentialPoints": 231.5,
+              "offensePoints": 101.9,
+              "defensePoints": 77.0,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -2626,6 +2764,8 @@
               "week": 7,
               "points": 177.5,
               "potentialPoints": 224.7,
+              "offensePoints": 124.1,
+              "defensePoints": 53.4,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -2634,6 +2774,8 @@
               "week": 8,
               "points": 166.6,
               "potentialPoints": 214.6,
+              "offensePoints": 99.8,
+              "defensePoints": 66.8,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -2642,6 +2784,8 @@
               "week": 9,
               "points": 204.6,
               "potentialPoints": 262.2,
+              "offensePoints": 126.4,
+              "defensePoints": 78.2,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -2800,19 +2944,19 @@
         "pot": 222.26666666666668,
         "off": 95.75555555555555,
         "deff": 97.82222222222224,
-        "wins": 6.346125,
-        "predPct": 46.049473566308244,
-        "finish": 10,
+        "wins": 6.418375,
+        "predPct": 46.32577284946237,
+        "finish": 9,
         "playoffSeed": "NA",
         "odds": "3%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.029333333333333333,
+        "playoffProbability": 0.030833333333333334,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2298.8555210352706,
-        "projectedPPG": 185.55184034509034,
-        "projectedPotentialPoints": 2656.6266142038,
+        "projectedPoints": 2306.6226805708625,
+        "projectedPPG": 188.14089352362092,
+        "projectedPotentialPoints": 2663.53476845532,
         "winDetails": {
           "currentWins": 4.5,
           "matchups": [
@@ -2822,7 +2966,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
               "opponentAbbr": "CAR",
               "site": "@",
-              "probability": 0.36025
+              "probability": 0.40979166666666667
             },
             {
               "week": 11,
@@ -2830,7 +2974,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
               "opponentAbbr": "ARI",
               "site": "@",
-              "probability": 0.45466666666666666
+              "probability": 0.43725
             },
             {
               "week": 12,
@@ -2838,19 +2982,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
               "opponentAbbr": "TBB",
               "site": "@",
-              "probability": 0.46191666666666664
+              "probability": 0.461875
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.38116666666666665
+              "probability": 0.4043333333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.188125
+              "probability": 0.205125
             }
           ]
         },
@@ -2860,6 +3004,8 @@
               "week": 1,
               "points": 191.5,
               "potentialPoints": 214.9,
+              "offensePoints": 129.8,
+              "defensePoints": 61.7,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -2868,6 +3014,8 @@
               "week": 2,
               "points": 239.5,
               "potentialPoints": 263.9,
+              "offensePoints": 131.0,
+              "defensePoints": 108.5,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -2876,6 +3024,8 @@
               "week": 3,
               "points": 185.8,
               "potentialPoints": 219.5,
+              "offensePoints": 121.4,
+              "defensePoints": 64.4,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -2884,6 +3034,8 @@
               "week": 4,
               "points": 261.9,
               "potentialPoints": 299.5,
+              "offensePoints": 141.89999999999998,
+              "defensePoints": 120.0,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -2892,6 +3044,8 @@
               "week": 5,
               "points": 195.0,
               "potentialPoints": 208.7,
+              "offensePoints": 70.3,
+              "defensePoints": 124.7,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -2900,6 +3054,8 @@
               "week": 6,
               "points": 170.2,
               "potentialPoints": 200.2,
+              "offensePoints": 44.49999999999999,
+              "defensePoints": 125.7,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -2908,6 +3064,8 @@
               "week": 7,
               "points": 200.6,
               "potentialPoints": 214.3,
+              "offensePoints": 97.3,
+              "defensePoints": 103.3,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -2916,6 +3074,8 @@
               "week": 8,
               "points": 127.1,
               "potentialPoints": 193.4,
+              "offensePoints": 60.1,
+              "defensePoints": 67.0,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -2924,6 +3084,8 @@
               "week": 9,
               "points": 170.6,
               "potentialPoints": 186.0,
+              "offensePoints": 65.5,
+              "defensePoints": 105.1,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -3082,19 +3244,19 @@
         "pot": 238.72222222222223,
         "off": 79.53333333333333,
         "deff": 109.91111111111111,
-        "wins": 8.229583333333334,
-        "predPct": 46.56655465949821,
-        "finish": 9,
+        "wins": 8.09325,
+        "predPct": 46.125481630824375,
+        "finish": 10,
         "playoffSeed": "NA",
-        "odds": "20%",
+        "odds": "17%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.19616666666666666,
+        "playoffProbability": 0.16908333333333334,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2278.616953202174,
-        "projectedPPG": 191.20565106739147,
-        "projectedPotentialPoints": 2827.21705324249,
+        "projectedPoints": 2274.622262956873,
+        "projectedPPG": 189.874087652291,
+        "projectedPotentialPoints": 2823.536309329945,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -3104,7 +3266,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
               "opponentAbbr": "CHI",
               "site": "@",
-              "probability": 0.4040416666666667
+              "probability": 0.3475416666666667
             },
             {
               "week": 11,
@@ -3112,7 +3274,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
               "opponentAbbr": "DAL",
               "site": "@",
-              "probability": 0.53175
+              "probability": 0.5160833333333333
             },
             {
               "week": 12,
@@ -3120,19 +3282,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
               "opponentAbbr": "MIN",
               "site": "v.",
-              "probability": 0.6047916666666666
+              "probability": 0.6049583333333334
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.47037500000000004
+              "probability": 0.43279166666666663
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.218625
+              "probability": 0.19187500000000002
             }
           ]
         },
@@ -3142,6 +3304,8 @@
               "week": 1,
               "points": 219.9,
               "potentialPoints": 247.7,
+              "offensePoints": 99.1,
+              "defensePoints": 120.8,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -3150,6 +3314,8 @@
               "week": 2,
               "points": 133.7,
               "potentialPoints": 174.2,
+              "offensePoints": 25.499999999999982,
+              "defensePoints": 108.2,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -3158,6 +3324,8 @@
               "week": 3,
               "points": 168.2,
               "potentialPoints": 231.8,
+              "offensePoints": 62.89999999999999,
+              "defensePoints": 105.3,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -3166,6 +3334,8 @@
               "week": 4,
               "points": 163.1,
               "potentialPoints": 267.7,
+              "offensePoints": 57.8,
+              "defensePoints": 105.3,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -3174,6 +3344,8 @@
               "week": 5,
               "points": 225.7,
               "potentialPoints": 299.9,
+              "offensePoints": 88.89999999999998,
+              "defensePoints": 136.8,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -3182,6 +3354,8 @@
               "week": 6,
               "points": 165.6,
               "potentialPoints": 233.3,
+              "offensePoints": 56.5,
+              "defensePoints": 109.1,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -3190,6 +3364,8 @@
               "week": 7,
               "points": 172.3,
               "potentialPoints": 189.1,
+              "offensePoints": 89.70000000000002,
+              "defensePoints": 82.6,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -3198,6 +3374,8 @@
               "week": 8,
               "points": 206.8,
               "potentialPoints": 228.6,
+              "offensePoints": 91.6,
+              "defensePoints": 115.2,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -3206,6 +3384,8 @@
               "week": 9,
               "points": 249.7,
               "potentialPoints": 276.2,
+              "offensePoints": 143.79999999999998,
+              "defensePoints": 105.9,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -3364,19 +3544,19 @@
         "pot": 231.42222222222225,
         "off": 75.24444444444445,
         "deff": 105.24444444444445,
-        "wins": 4.87775,
-        "predPct": 44.95594758064516,
+        "wins": 4.778041666666667,
+        "predPct": 44.39614695340502,
         "finish": 11,
         "playoffSeed": "NA",
         "odds": "0%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.00025,
+        "playoffProbability": 8.333333333333333e-05,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2201.102196079399,
-        "projectedPPG": 192.2340653597997,
-        "projectedPotentialPoints": 2764.0070526511045,
+        "projectedPoints": 2195.188515582522,
+        "projectedPPG": 190.26283852750726,
+        "projectedPotentialPoints": 2758.9024288049895,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3386,7 +3566,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
               "opponentAbbr": "NOS",
               "site": "v.",
-              "probability": 0.3245
+              "probability": 0.298125
             },
             {
               "week": 11,
@@ -3394,7 +3574,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
               "opponentAbbr": "SFO",
               "site": "@",
-              "probability": 0.40529166666666666
+              "probability": 0.40570833333333334
             },
             {
               "week": 12,
@@ -3402,19 +3582,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
               "opponentAbbr": "ATL",
               "site": "v.",
-              "probability": 0.5380833333333334
+              "probability": 0.538125
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.48554166666666665
+              "probability": 0.4340833333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.12433333333333332
+              "probability": 0.10200000000000001
             }
           ]
         },
@@ -3424,6 +3604,8 @@
               "week": 1,
               "points": 209.3,
               "potentialPoints": 260.5,
+              "offensePoints": 74.4,
+              "defensePoints": 134.9,
               "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
               "allPlayPct": 0.532258064516129
@@ -3432,6 +3614,8 @@
               "week": 2,
               "points": 194.5,
               "potentialPoints": 264.7,
+              "offensePoints": 110.8,
+              "defensePoints": 83.7,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -3440,6 +3624,8 @@
               "week": 3,
               "points": 145.4,
               "potentialPoints": 213.7,
+              "offensePoints": 77.60000000000001,
+              "defensePoints": 67.8,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -3448,6 +3634,8 @@
               "week": 4,
               "points": 232.0,
               "potentialPoints": 272.5,
+              "offensePoints": 89.6,
+              "defensePoints": 142.4,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -3456,6 +3644,8 @@
               "week": 5,
               "points": 137.0,
               "potentialPoints": 202.7,
+              "offensePoints": 13.099999999999994,
+              "defensePoints": 123.9,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -3464,6 +3654,8 @@
               "week": 6,
               "points": 236.0,
               "potentialPoints": 247.0,
+              "offensePoints": 108.4,
+              "defensePoints": 127.6,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -3472,6 +3664,8 @@
               "week": 7,
               "points": 104.7,
               "potentialPoints": 195.0,
+              "offensePoints": 55.400000000000006,
+              "defensePoints": 49.3,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -3480,6 +3674,8 @@
               "week": 8,
               "points": 154.8,
               "potentialPoints": 181.9,
+              "offensePoints": 65.80000000000001,
+              "defensePoints": 89.0,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -3488,6 +3684,8 @@
               "week": 9,
               "points": 210.7,
               "potentialPoints": 244.8,
+              "offensePoints": 82.1,
+              "defensePoints": 128.6,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -3646,19 +3844,19 @@
         "pot": 225.66666666666666,
         "off": 93.6888888888889,
         "deff": 89.6222222222222,
-        "wins": 6.634083333333334,
-        "predPct": 42.96021505376345,
+        "wins": 6.758166666666667,
+        "predPct": 43.52468637992832,
         "finish": 12,
         "playoffSeed": "NA",
-        "odds": "2%",
+        "odds": "3%",
         "div": "1%",
         "bye": "0%",
-        "playoffProbability": 0.021083333333333332,
-        "divisionProbability": 0.006666666666666667,
+        "playoffProbability": 0.028666666666666667,
+        "divisionProbability": 0.009416666666666667,
         "byeProbability": 0.0,
-        "projectedPoints": 2204.54353770944,
-        "projectedPPG": 184.9145125698133,
-        "projectedPotentialPoints": 2691.7428869050445,
+        "projectedPoints": 2217.3818131402827,
+        "projectedPPG": 189.19393771342752,
+        "projectedPotentialPoints": 2703.0472841221817,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -3668,7 +3866,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
               "opponentAbbr": "SFO",
               "site": "v.",
-              "probability": 0.245625
+              "probability": 0.31775
             },
             {
               "week": 11,
@@ -3676,7 +3874,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
               "opponentAbbr": "NOS",
               "site": "v.",
-              "probability": 0.37545833333333334
+              "probability": 0.36170833333333335
             },
             {
               "week": 12,
@@ -3684,19 +3882,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
               "opponentAbbr": "LAR",
               "site": "@",
-              "probability": 0.589
+              "probability": 0.5890416666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.36504166666666665
+              "probability": 0.41279166666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.058958333333333335
+              "probability": 0.076875
             }
           ]
         },
@@ -3706,6 +3904,8 @@
               "week": 1,
               "points": 119.7,
               "potentialPoints": 173.0,
+              "offensePoints": 32.3,
+              "defensePoints": 87.4,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -3714,6 +3914,8 @@
               "week": 2,
               "points": 171.7,
               "potentialPoints": 226.0,
+              "offensePoints": 111.4,
+              "defensePoints": 60.3,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -3722,6 +3924,8 @@
               "week": 3,
               "points": 222.8,
               "potentialPoints": 268.2,
+              "offensePoints": 135.5,
+              "defensePoints": 87.3,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -3730,6 +3934,8 @@
               "week": 4,
               "points": 235.2,
               "potentialPoints": 279.8,
+              "offensePoints": 113.5,
+              "defensePoints": 121.7,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -3738,6 +3944,8 @@
               "week": 5,
               "points": 203.0,
               "potentialPoints": 246.6,
+              "offensePoints": 101.5,
+              "defensePoints": 101.5,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -3746,6 +3954,8 @@
               "week": 6,
               "points": 172.0,
               "potentialPoints": 194.5,
+              "offensePoints": 79.6,
+              "defensePoints": 92.4,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -3754,6 +3964,8 @@
               "week": 7,
               "points": 210.4,
               "potentialPoints": 231.6,
+              "offensePoints": 112.4,
+              "defensePoints": 98.0,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -3762,6 +3974,8 @@
               "week": 8,
               "points": 163.0,
               "potentialPoints": 235.3,
+              "offensePoints": 71.3,
+              "defensePoints": 91.7,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -3770,6 +3984,8 @@
               "week": 9,
               "points": 152.0,
               "potentialPoints": 176.0,
+              "offensePoints": 85.7,
+              "defensePoints": 66.3,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -3928,19 +4144,19 @@
         "pot": 228.11111111111111,
         "off": 65.81111111111112,
         "deff": 119.36666666666669,
-        "wins": 8.128166666666667,
-        "predPct": 42.361279121863795,
+        "wins": 8.051958333333333,
+        "predPct": 42.18844086021505,
         "finish": 13,
         "playoffSeed": "NA",
         "odds": "11%",
-        "div": "2%",
+        "div": "3%",
         "bye": "0%",
-        "playoffProbability": 0.11091666666666666,
-        "divisionProbability": 0.023833333333333335,
+        "playoffProbability": 0.10725,
+        "divisionProbability": 0.026916666666666665,
         "byeProbability": 0.0,
-        "projectedPoints": 2241.921656684405,
-        "projectedPPG": 191.77388556146835,
-        "projectedPotentialPoints": 2732.66549943268,
+        "projectedPoints": 2242.2486557798593,
+        "projectedPPG": 191.8828852599532,
+        "projectedPotentialPoints": 2732.8347650152223,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -3950,7 +4166,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
               "opponentAbbr": "LAR",
               "site": "v.",
-              "probability": 0.615
+              "probability": 0.537375
             },
             {
               "week": 11,
@@ -3958,7 +4174,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
               "opponentAbbr": "ATL",
               "site": "v.",
-              "probability": 0.5453333333333333
+              "probability": 0.56275
             },
             {
               "week": 12,
@@ -3973,12 +4189,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.4805
+              "probability": 0.46649999999999997
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.044375
+              "probability": 0.042375
             }
           ]
         },
@@ -3988,6 +4204,8 @@
               "week": 1,
               "points": 184.8,
               "potentialPoints": 223.0,
+              "offensePoints": 60.400000000000006,
+              "defensePoints": 124.4,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -3996,6 +4214,8 @@
               "week": 2,
               "points": 181.5,
               "potentialPoints": 217.0,
+              "offensePoints": 87.0,
+              "defensePoints": 94.5,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -4004,6 +4224,8 @@
               "week": 3,
               "points": 222.2,
               "potentialPoints": 246.3,
+              "offensePoints": 108.4,
+              "defensePoints": 113.8,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -4012,6 +4234,8 @@
               "week": 4,
               "points": 212.4,
               "potentialPoints": 253.0,
+              "offensePoints": 72.4,
+              "defensePoints": 140.0,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -4020,6 +4244,8 @@
               "week": 5,
               "points": 156.6,
               "potentialPoints": 224.9,
+              "offensePoints": 26.0,
+              "defensePoints": 130.6,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -4028,6 +4254,8 @@
               "week": 6,
               "points": 154.1,
               "potentialPoints": 192.2,
+              "offensePoints": 58.39999999999999,
+              "defensePoints": 95.7,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -4036,6 +4264,8 @@
               "week": 7,
               "points": 237.2,
               "potentialPoints": 250.4,
+              "offensePoints": 117.29999999999998,
+              "defensePoints": 119.9,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -4044,6 +4274,8 @@
               "week": 8,
               "points": 177.8,
               "potentialPoints": 231.1,
+              "offensePoints": 64.30000000000001,
+              "defensePoints": 113.5,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -4052,6 +4284,8 @@
               "week": 9,
               "points": 140.0,
               "potentialPoints": 215.1,
+              "offensePoints": -1.9000000000000057,
+              "defensePoints": 141.9,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -4210,8 +4444,8 @@
         "pot": 203.93333333333334,
         "off": 82.21111111111111,
         "deff": 87.94444444444444,
-        "wins": 5.55475,
-        "predPct": 35.69699820788531,
+        "wins": 5.579583333333333,
+        "predPct": 35.73228046594982,
         "finish": 14,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -4220,9 +4454,9 @@
         "playoffProbability": 8.333333333333333e-05,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2079.744556441162,
-        "projectedPPG": 182.78151881372074,
-        "projectedPotentialPoints": 2485.217668426818,
+        "projectedPoints": 2083.5361002552922,
+        "projectedPPG": 184.04536675176413,
+        "projectedPotentialPoints": 2488.365678954815,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -4232,7 +4466,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
               "opponentAbbr": "MIN",
               "site": "@",
-              "probability": 0.6275416666666667
+              "probability": 0.6473333333333333
             },
             {
               "week": 11,
@@ -4240,7 +4474,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
               "opponentAbbr": "PHI",
               "site": "@",
-              "probability": 0.2828333333333333
+              "probability": 0.281625
             },
             {
               "week": 12,
@@ -4248,19 +4482,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
               "opponentAbbr": "CHI",
               "site": "@",
-              "probability": 0.31245833333333334
+              "probability": 0.3124166666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.33137500000000003
+              "probability": 0.33775
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.0005416666666666666
+              "probability": 0.0004583333333333333
             }
           ]
         },
@@ -4270,6 +4504,8 @@
               "week": 1,
               "points": 186.0,
               "potentialPoints": 234.3,
+              "offensePoints": 90.1,
+              "defensePoints": 95.9,
               "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
               "allPlayPct": 0.3709677419354839
@@ -4278,6 +4514,8 @@
               "week": 2,
               "points": 211.9,
               "potentialPoints": 248.5,
+              "offensePoints": 98.0,
+              "defensePoints": 113.9,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -4286,6 +4524,8 @@
               "week": 3,
               "points": 209.4,
               "potentialPoints": 223.8,
+              "offensePoints": 102.4,
+              "defensePoints": 107.0,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -4294,6 +4534,8 @@
               "week": 4,
               "points": 183.9,
               "potentialPoints": 222.8,
+              "offensePoints": 77.60000000000001,
+              "defensePoints": 106.3,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -4302,6 +4544,8 @@
               "week": 5,
               "points": 156.7,
               "potentialPoints": 176.7,
+              "offensePoints": 71.6,
+              "defensePoints": 85.1,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -4310,6 +4554,8 @@
               "week": 6,
               "points": 84.5,
               "potentialPoints": 155.9,
+              "offensePoints": 22.0,
+              "defensePoints": 62.5,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -4318,6 +4564,8 @@
               "week": 7,
               "points": 202.0,
               "potentialPoints": 221.4,
+              "offensePoints": 117.8,
+              "defensePoints": 84.2,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -4326,6 +4574,8 @@
               "week": 8,
               "points": 114.4,
               "potentialPoints": 128.1,
+              "offensePoints": 55.00000000000001,
+              "defensePoints": 59.4,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -4334,6 +4584,8 @@
               "week": 9,
               "points": 182.6,
               "potentialPoints": 223.9,
+              "offensePoints": 105.4,
+              "defensePoints": 77.2,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -4492,8 +4744,8 @@
         "pot": 204.18888888888887,
         "off": 75.5888888888889,
         "deff": 92.5,
-        "wins": 3.3615,
-        "predPct": 30.630129928315412,
+        "wins": 3.511833333333333,
+        "predPct": 31.29101702508961,
         "finish": 15,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -4502,9 +4754,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2036.1341033596925,
-        "projectedPPG": 174.44470111989753,
-        "projectedPotentialPoints": 2467.7169733528503,
+        "projectedPoints": 2050.6498050184564,
+        "projectedPPG": 179.2832683394855,
+        "projectedPotentialPoints": 2480.776380566015,
         "winDetails": {
           "currentWins": 2.0,
           "matchups": [
@@ -4514,7 +4766,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
               "opponentAbbr": "ARI",
               "site": "@",
-              "probability": 0.385
+              "probability": 0.462625
             },
             {
               "week": 11,
@@ -4522,7 +4774,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
               "opponentAbbr": "CAR",
               "site": "v.",
-              "probability": 0.34379166666666666
+              "probability": 0.36870833333333336
             },
             {
               "week": 12,
@@ -4530,14 +4782,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
               "opponentAbbr": "SEA",
               "site": "v.",
-              "probability": 0.411
+              "probability": 0.4109583333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.22170833333333334
+              "probability": 0.2695416666666667
             },
             {
               "label": "Regular Season Bonus Game",
@@ -4552,6 +4804,8 @@
               "week": 1,
               "points": 142.4,
               "potentialPoints": 179.1,
+              "offensePoints": 63.2,
+              "defensePoints": 79.2,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -4560,6 +4814,8 @@
               "week": 2,
               "points": 193.0,
               "potentialPoints": 248.0,
+              "offensePoints": 93.0,
+              "defensePoints": 100.0,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -4568,6 +4824,8 @@
               "week": 3,
               "points": 137.3,
               "potentialPoints": 190.9,
+              "offensePoints": 54.60000000000001,
+              "defensePoints": 82.7,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -4576,6 +4834,8 @@
               "week": 4,
               "points": 156.8,
               "potentialPoints": 205.0,
+              "offensePoints": 71.00000000000001,
+              "defensePoints": 85.8,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -4584,6 +4844,8 @@
               "week": 5,
               "points": 276.1,
               "potentialPoints": 311.7,
+              "offensePoints": 139.10000000000002,
+              "defensePoints": 137.0,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -4592,6 +4854,8 @@
               "week": 6,
               "points": 172.6,
               "potentialPoints": 214.8,
+              "offensePoints": 86.8,
+              "defensePoints": 85.8,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -4600,6 +4864,8 @@
               "week": 7,
               "points": 180.0,
               "potentialPoints": 197.5,
+              "offensePoints": 53.2,
+              "defensePoints": 126.8,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -4608,6 +4874,8 @@
               "week": 8,
               "points": 117.1,
               "potentialPoints": 132.1,
+              "offensePoints": 48.19999999999999,
+              "defensePoints": 68.9,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -4616,6 +4884,8 @@
               "week": 9,
               "points": 137.5,
               "potentialPoints": 158.6,
+              "offensePoints": 71.2,
+              "defensePoints": 66.3,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -4774,8 +5044,8 @@
         "pot": 174.99999999999997,
         "off": 53.166666666666664,
         "deff": 78.51111111111112,
-        "wins": 1.4203333333333332,
-        "predPct": 13.710696684587814,
+        "wins": 1.35325,
+        "predPct": 13.572379032258064,
         "finish": 16,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -4784,9 +5054,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 1715.491821303865,
-        "projectedPPG": 176.79727376795503,
-        "projectedPotentialPoints": 2214.5924940516375,
+        "projectedPoints": 1716.4103072518978,
+        "projectedPPG": 177.10343575063268,
+        "projectedPotentialPoints": 2215.0236477438125,
         "winDetails": {
           "currentWins": 0.0,
           "matchups": [
@@ -4796,7 +5066,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "probability": 0.37245833333333334
+              "probability": 0.3526666666666667
             },
             {
               "week": 11,
@@ -4804,7 +5074,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
               "opponentAbbr": "WAS",
               "site": "@",
-              "probability": 0.4021666666666667
+              "probability": 0.3624583333333333
             },
             {
               "week": 12,
@@ -4812,14 +5082,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "@",
-              "probability": 0.39520833333333333
+              "probability": 0.3950416666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.2505
+              "probability": 0.24308333333333332
             },
             {
               "label": "Regular Season Bonus Game",
@@ -4834,6 +5104,8 @@
               "week": 1,
               "points": 138.0,
               "potentialPoints": 204.7,
+              "offensePoints": 72.1,
+              "defensePoints": 65.9,
               "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
               "allPlayPct": 0.04838709677419355
@@ -4842,6 +5114,8 @@
               "week": 2,
               "points": 103.4,
               "potentialPoints": 167.5,
+              "offensePoints": 23.200000000000003,
+              "defensePoints": 80.2,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -4850,6 +5124,8 @@
               "week": 3,
               "points": 137.7,
               "potentialPoints": 190.5,
+              "offensePoints": 41.39999999999999,
+              "defensePoints": 96.3,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -4858,6 +5134,8 @@
               "week": 4,
               "points": 129.4,
               "potentialPoints": 202.9,
+              "offensePoints": 43.8,
+              "defensePoints": 85.60000000000001,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -4866,6 +5144,8 @@
               "week": 5,
               "points": 166.2,
               "potentialPoints": 183.6,
+              "offensePoints": 71.19999999999999,
+              "defensePoints": 95.0,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -4874,6 +5154,8 @@
               "week": 6,
               "points": 154.4,
               "potentialPoints": 163.8,
+              "offensePoints": 73.60000000000001,
+              "defensePoints": 80.8,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -4882,6 +5164,8 @@
               "week": 7,
               "points": 126.9,
               "potentialPoints": 145.8,
+              "offensePoints": 60.900000000000006,
+              "defensePoints": 66.0,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -4890,6 +5174,8 @@
               "week": 8,
               "points": 119.6,
               "potentialPoints": 167.6,
+              "offensePoints": 40.69999999999999,
+              "defensePoints": 78.9,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -4898,6 +5184,8 @@
               "week": 9,
               "points": 109.5,
               "potentialPoints": 148.6,
+              "offensePoints": 51.6,
+              "defensePoints": 57.9,
               "weeklyMoney": false,
               "allPlayRecord": "0-31",
               "allPlayPct": 0.0
@@ -5058,19 +5346,19 @@
         "pot": 255.77777777777777,
         "off": 110.34444444444443,
         "deff": 114.53333333333336,
-        "wins": 12.73075,
-        "predPct": 68.55377464157706,
-        "finish": 1,
-        "playoffSeed": "1",
+        "wins": 12.770791666666666,
+        "predPct": 68.25826612903225,
+        "finish": 2,
+        "playoffSeed": "2",
         "odds": "100%",
-        "div": "88%",
-        "bye": "48%",
-        "playoffProbability": 0.99925,
-        "divisionProbability": 0.8800833333333333,
-        "byeProbability": 0.4845833333333333,
-        "projectedPoints": 2628.1189892876873,
-        "projectedPPG": 201.40632976256248,
-        "projectedPotentialPoints": 3002.1346273368276,
+        "div": "89%",
+        "bye": "47%",
+        "playoffProbability": 0.9989166666666667,
+        "divisionProbability": 0.8908333333333334,
+        "byeProbability": 0.46808333333333335,
+        "projectedPoints": 2626.38639625185,
+        "projectedPPG": 200.82879875061656,
+        "projectedPotentialPoints": 3000.597739012202,
         "winDetails": {
           "currentWins": 9.5,
           "matchups": [
@@ -5080,7 +5368,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
               "opponentAbbr": "LAC",
               "site": "@",
-              "probability": 0.5622083333333333
+              "probability": 0.6274583333333333
             },
             {
               "week": 11,
@@ -5088,7 +5376,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
               "opponentAbbr": "JAC",
               "site": "@",
-              "probability": 0.4285
+              "probability": 0.42941666666666667
             },
             {
               "week": 12,
@@ -5096,14 +5384,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "@",
-              "probability": 0.609375
+              "probability": 0.6094166666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.6306666666666667
+              "probability": 0.6045
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5118,6 +5406,8 @@
               "week": 1,
               "points": 268.1,
               "potentialPoints": 283.2,
+              "offensePoints": 101.20000000000002,
+              "defensePoints": 166.9,
               "weeklyMoney": true,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -5126,6 +5416,8 @@
               "week": 2,
               "points": 170.7,
               "potentialPoints": 192.3,
+              "offensePoints": 80.69999999999999,
+              "defensePoints": 90.0,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -5134,6 +5426,8 @@
               "week": 3,
               "points": 172.1,
               "potentialPoints": 213.5,
+              "offensePoints": 80.5,
+              "defensePoints": 91.6,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -5142,6 +5436,8 @@
               "week": 4,
               "points": 270.7,
               "potentialPoints": 333.0,
+              "offensePoints": 149.5,
+              "defensePoints": 121.2,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -5150,6 +5446,8 @@
               "week": 5,
               "points": 214.0,
               "potentialPoints": 234.4,
+              "offensePoints": 101.7,
+              "defensePoints": 112.3,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -5158,6 +5456,8 @@
               "week": 6,
               "points": 234.9,
               "potentialPoints": 259.6,
+              "offensePoints": 127.6,
+              "defensePoints": 107.3,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -5166,6 +5466,8 @@
               "week": 7,
               "points": 243.6,
               "potentialPoints": 267.0,
+              "offensePoints": 112.29999999999998,
+              "defensePoints": 131.3,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -5174,6 +5476,8 @@
               "week": 8,
               "points": 200.9,
               "potentialPoints": 227.5,
+              "offensePoints": 87.60000000000001,
+              "defensePoints": 113.3,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -5182,6 +5486,8 @@
               "week": 9,
               "points": 248.9,
               "potentialPoints": 291.5,
+              "offensePoints": 152.0,
+              "defensePoints": 96.9,
               "weeklyMoney": true,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -5340,19 +5646,19 @@
         "pot": 273.7444444444444,
         "off": 117.36666666666666,
         "deff": 105.55555555555554,
-        "wins": 13.492458333333333,
-        "predPct": 68.38909050179211,
-        "finish": 2,
-        "playoffSeed": "2",
+        "wins": 13.485666666666667,
+        "predPct": 68.36171594982079,
+        "finish": 1,
+        "playoffSeed": "1",
         "odds": "100%",
         "div": "71%",
-        "bye": "46%",
+        "bye": "48%",
         "playoffProbability": 1.0,
-        "divisionProbability": 0.7079166666666666,
-        "byeProbability": 0.4646666666666667,
-        "projectedPoints": 2633.3351444080104,
-        "projectedPPG": 209.01171480267013,
-        "projectedPotentialPoints": 3190.975586282077,
+        "divisionProbability": 0.7134166666666667,
+        "byeProbability": 0.4841666666666667,
+        "projectedPoints": 2635.82062295623,
+        "projectedPPG": 209.8402076520767,
+        "projectedPotentialPoints": 3193.4513696512586,
         "winDetails": {
           "currentWins": 10.0,
           "matchups": [
@@ -5362,7 +5668,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
               "opponentAbbr": "TEN",
               "site": "v.",
-              "probability": 0.5764166666666667
+              "probability": 0.574375
             },
             {
               "week": 11,
@@ -5370,7 +5676,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
               "opponentAbbr": "LVR",
               "site": "v.",
-              "probability": 0.5715
+              "probability": 0.5705833333333333
             },
             {
               "week": 12,
@@ -5385,7 +5691,7 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7504166666666666
+              "probability": 0.7465833333333334
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5400,6 +5706,8 @@
               "week": 1,
               "points": 205.4,
               "potentialPoints": 269.0,
+              "offensePoints": 111.3,
+              "defensePoints": 94.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -5408,6 +5716,8 @@
               "week": 2,
               "points": 291.8,
               "potentialPoints": 348.9,
+              "offensePoints": 166.0,
+              "defensePoints": 125.8,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -5416,6 +5726,8 @@
               "week": 3,
               "points": 252.4,
               "potentialPoints": 311.2,
+              "offensePoints": 146.2,
+              "defensePoints": 106.2,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -5424,6 +5736,8 @@
               "week": 4,
               "points": 187.2,
               "potentialPoints": 229.6,
+              "offensePoints": 101.5,
+              "defensePoints": 85.7,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -5432,6 +5746,8 @@
               "week": 5,
               "points": 225.1,
               "potentialPoints": 268.6,
+              "offensePoints": 114.9,
+              "defensePoints": 110.2,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -5440,6 +5756,8 @@
               "week": 6,
               "points": 178.8,
               "potentialPoints": 214.1,
+              "offensePoints": 83.10000000000001,
+              "defensePoints": 95.7,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -5448,6 +5766,8 @@
               "week": 7,
               "points": 214.7,
               "potentialPoints": 272.0,
+              "offensePoints": 113.7,
+              "defensePoints": 101.0,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -5456,6 +5776,8 @@
               "week": 8,
               "points": 209.9,
               "potentialPoints": 242.2,
+              "offensePoints": 113.0,
+              "defensePoints": 96.9,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -5464,6 +5786,8 @@
               "week": 9,
               "points": 241.0,
               "potentialPoints": 308.1,
+              "offensePoints": 106.6,
+              "defensePoints": 134.4,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -5622,19 +5946,19 @@
         "pot": 248.89999999999998,
         "off": 111.72222222222223,
         "deff": 99.32222222222222,
-        "wins": 12.114666666666666,
-        "predPct": 61.77984991039427,
+        "wins": 12.081833333333334,
+        "predPct": 61.32756496415771,
         "finish": 3,
         "playoffSeed": "3",
         "odds": "99%",
         "div": "29%",
         "bye": "5%",
-        "playoffProbability": 0.9914166666666666,
-        "divisionProbability": 0.2920833333333333,
-        "byeProbability": 0.04975,
-        "projectedPoints": 2493.984262951556,
-        "projectedPPG": 198.19475431718533,
-        "projectedPotentialPoints": 2933.911032139622,
+        "playoffProbability": 0.9898333333333333,
+        "divisionProbability": 0.28658333333333336,
+        "byeProbability": 0.04641666666666667,
+        "projectedPoints": 2489.5326237584704,
+        "projectedPPG": 196.71087458615682,
+        "projectedPotentialPoints": 2930.0104615477076,
         "winDetails": {
           "currentWins": 9.0,
           "matchups": [
@@ -5644,7 +5968,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
               "opponentAbbr": "IND",
               "site": "@",
-              "probability": 0.559625
+              "probability": 0.570875
             },
             {
               "week": 11,
@@ -5652,7 +5976,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "v.",
-              "probability": 0.5724583333333333
+              "probability": 0.5723333333333334
             },
             {
               "week": 12,
@@ -5667,12 +5991,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.582
+              "probability": 0.5399166666666666
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9947083333333334
+              "probability": 0.9928333333333333
             }
           ]
         },
@@ -5682,6 +6006,8 @@
               "week": 1,
               "points": 219.4,
               "potentialPoints": 257.6,
+              "offensePoints": 175.9,
+              "defensePoints": 43.5,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -5690,6 +6016,8 @@
               "week": 2,
               "points": 214.3,
               "potentialPoints": 250.9,
+              "offensePoints": 115.1,
+              "defensePoints": 99.2,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -5698,6 +6026,8 @@
               "week": 3,
               "points": 217.1,
               "potentialPoints": 278.3,
+              "offensePoints": 100.1,
+              "defensePoints": 117.0,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -5706,6 +6036,8 @@
               "week": 4,
               "points": 214.7,
               "potentialPoints": 292.9,
+              "offensePoints": 94.4,
+              "defensePoints": 120.3,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -5714,6 +6046,8 @@
               "week": 5,
               "points": 256.1,
               "potentialPoints": 287.4,
+              "offensePoints": 173.70000000000002,
+              "defensePoints": 82.4,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -5722,6 +6056,8 @@
               "week": 6,
               "points": 173.7,
               "potentialPoints": 199.2,
+              "offensePoints": 62.1,
+              "defensePoints": 111.6,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -5730,6 +6066,8 @@
               "week": 7,
               "points": 177.8,
               "potentialPoints": 211.7,
+              "offensePoints": 89.50000000000001,
+              "defensePoints": 88.3,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -5738,6 +6076,8 @@
               "week": 8,
               "points": 223.7,
               "potentialPoints": 231.2,
+              "offensePoints": 113.59999999999998,
+              "defensePoints": 110.1,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -5746,6 +6086,8 @@
               "week": 9,
               "points": 202.6,
               "potentialPoints": 230.9,
+              "offensePoints": 81.1,
+              "defensePoints": 121.5,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -5904,19 +6246,19 @@
         "pot": 240.9555555555556,
         "off": 112.72222222222223,
         "deff": 95.04444444444444,
-        "wins": 9.604208333333334,
-        "predPct": 54.25367383512545,
+        "wins": 9.591625,
+        "predPct": 54.06167114695341,
         "finish": 4,
         "playoffSeed": "4",
         "odds": "61%",
         "div": "6%",
         "bye": "0%",
-        "playoffProbability": 0.6139166666666667,
-        "divisionProbability": 0.06408333333333334,
+        "playoffProbability": 0.6055833333333334,
+        "divisionProbability": 0.0625,
         "byeProbability": 0.0005,
-        "projectedPoints": 2440.7814330758492,
-        "projectedPPG": 190.29381102528313,
-        "projectedPotentialPoints": 2838.5327825751374,
+        "projectedPoints": 2440.6658191865235,
+        "projectedPPG": 190.2552730621744,
+        "projectedPotentialPoints": 2838.1099593513422,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -5926,7 +6268,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
               "opponentAbbr": "KCC",
               "site": "v.",
-              "probability": 0.5412083333333333
+              "probability": 0.55725
             },
             {
               "week": 11,
@@ -5934,7 +6276,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
               "opponentAbbr": "HOU",
               "site": "@",
-              "probability": 0.42754166666666665
+              "probability": 0.42766666666666664
             },
             {
               "week": 12,
@@ -5942,19 +6284,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
               "opponentAbbr": "LVR",
               "site": "v.",
-              "probability": 0.390625
+              "probability": 0.39058333333333334
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.44754166666666667
+              "probability": 0.433875
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.7972916666666666
+              "probability": 0.78225
             }
           ]
         },
@@ -5964,6 +6306,8 @@
               "week": 1,
               "points": 186.0,
               "potentialPoints": 237.9,
+              "offensePoints": 103.9,
+              "defensePoints": 82.1,
               "weeklyMoney": false,
               "allPlayRecord": "11-19-1",
               "allPlayPct": 0.3709677419354839
@@ -5972,6 +6316,8 @@
               "week": 2,
               "points": 236.6,
               "potentialPoints": 272.9,
+              "offensePoints": 165.5,
+              "defensePoints": 71.1,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -5980,6 +6326,8 @@
               "week": 3,
               "points": 276.8,
               "potentialPoints": 302.6,
+              "offensePoints": 163.20000000000002,
+              "defensePoints": 113.6,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -5988,6 +6336,8 @@
               "week": 4,
               "points": 188.9,
               "potentialPoints": 243.3,
+              "offensePoints": 100.5,
+              "defensePoints": 88.4,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -5996,6 +6346,8 @@
               "week": 5,
               "points": 198.4,
               "potentialPoints": 236.5,
+              "offensePoints": 108.7,
+              "defensePoints": 89.7,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -6004,6 +6356,8 @@
               "week": 6,
               "points": 165.5,
               "potentialPoints": 183.5,
+              "offensePoints": 78.0,
+              "defensePoints": 87.5,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -6012,6 +6366,8 @@
               "week": 7,
               "points": 226.6,
               "potentialPoints": 233.9,
+              "offensePoints": 130.3,
+              "defensePoints": 96.3,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -6020,6 +6376,8 @@
               "week": 8,
               "points": 197.4,
               "potentialPoints": 250.7,
+              "offensePoints": 88.80000000000001,
+              "defensePoints": 108.6,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -6028,6 +6386,8 @@
               "week": 9,
               "points": 193.7,
               "potentialPoints": 207.3,
+              "offensePoints": 75.6,
+              "defensePoints": 118.1,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -6186,19 +6546,19 @@
         "pot": 247.29999999999998,
         "off": 95.50000000000001,
         "deff": 106.10000000000001,
-        "wins": 10.01325,
-        "predPct": 52.9535394265233,
+        "wins": 10.174583333333333,
+        "predPct": 53.4512208781362,
         "finish": 5,
         "playoffSeed": "5",
-        "odds": "73%",
-        "div": "64%",
+        "odds": "75%",
+        "div": "66%",
         "bye": "0%",
-        "playoffProbability": 0.7275833333333334,
-        "divisionProbability": 0.6445,
-        "byeProbability": 0.00025,
-        "projectedPoints": 2369.7859978445167,
-        "projectedPPG": 185.12866594817226,
-        "projectedPotentialPoints": 2887.293676815093,
+        "playoffProbability": 0.75175,
+        "divisionProbability": 0.6556666666666666,
+        "byeProbability": 0.0003333333333333333,
+        "projectedPoints": 2381.5158594796767,
+        "projectedPPG": 189.03861982655903,
+        "projectedPotentialPoints": 2897.644860211452,
         "winDetails": {
           "currentWins": 7.5,
           "matchups": [
@@ -6208,7 +6568,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "v.",
-              "probability": 0.323
+              "probability": 0.41704166666666664
             },
             {
               "week": 11,
@@ -6216,7 +6576,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "@",
-              "probability": 0.5665416666666667
+              "probability": 0.5567916666666667
             },
             {
               "week": 12,
@@ -6224,19 +6584,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
               "opponentAbbr": "NEP",
               "site": "v.",
-              "probability": 0.5484166666666667
+              "probability": 0.548375
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.3690833333333333
+              "probability": 0.41070833333333334
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.7062083333333333
+              "probability": 0.7416666666666667
             }
           ]
         },
@@ -6246,6 +6606,8 @@
               "week": 1,
               "points": 242.5,
               "potentialPoints": 286.4,
+              "offensePoints": 137.4,
+              "defensePoints": 105.1,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -6254,6 +6616,8 @@
               "week": 2,
               "points": 177.5,
               "potentialPoints": 259.5,
+              "offensePoints": 60.0,
+              "defensePoints": 117.5,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -6262,6 +6626,8 @@
               "week": 3,
               "points": 183.8,
               "potentialPoints": 239.1,
+              "offensePoints": 83.9,
+              "defensePoints": 99.9,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -6270,6 +6636,8 @@
               "week": 4,
               "points": 221.1,
               "potentialPoints": 252.1,
+              "offensePoints": 105.4,
+              "defensePoints": 115.7,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -6278,6 +6646,8 @@
               "week": 5,
               "points": 167.9,
               "potentialPoints": 190.4,
+              "offensePoints": 61.400000000000006,
+              "defensePoints": 106.5,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -6286,6 +6656,8 @@
               "week": 6,
               "points": 192.8,
               "potentialPoints": 221.7,
+              "offensePoints": 116.20000000000002,
+              "defensePoints": 76.6,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -6294,6 +6666,8 @@
               "week": 7,
               "points": 242.3,
               "potentialPoints": 266.3,
+              "offensePoints": 151.60000000000002,
+              "defensePoints": 90.7,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -6302,6 +6676,8 @@
               "week": 8,
               "points": 204.5,
               "potentialPoints": 252.7,
+              "offensePoints": 75.1,
+              "defensePoints": 129.4,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -6310,6 +6686,8 @@
               "week": 9,
               "points": 182.0,
               "potentialPoints": 257.5,
+              "offensePoints": 68.5,
+              "defensePoints": 113.5,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -6468,19 +6846,19 @@
         "pot": 240.24444444444447,
         "off": 77.34444444444445,
         "deff": 121.25555555555555,
-        "wins": 9.367916666666666,
-        "predPct": 51.59846550179211,
+        "wins": 9.154625,
+        "predPct": 50.74423163082437,
         "finish": 6,
         "playoffSeed": "6",
-        "odds": "50%",
-        "div": "6%",
+        "odds": "44%",
+        "div": "5%",
         "bye": "0%",
-        "playoffProbability": 0.5040833333333333,
-        "divisionProbability": 0.05583333333333333,
+        "playoffProbability": 0.43925,
+        "divisionProbability": 0.04666666666666667,
         "byeProbability": 0.0,
-        "projectedPoints": 2355.8256185047912,
-        "projectedPPG": 189.47520616826378,
-        "projectedPotentialPoints": 2834.9174382205774,
+        "projectedPoints": 2344.92707848532,
+        "projectedPPG": 185.84235949510673,
+        "projectedPotentialPoints": 2825.545166464325,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -6490,7 +6868,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
               "opponentAbbr": "LVR",
               "site": "v.",
-              "probability": 0.4377916666666667
+              "probability": 0.37254166666666666
             },
             {
               "week": 11,
@@ -6498,7 +6876,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
               "opponentAbbr": "TEN",
               "site": "@",
-              "probability": 0.433375
+              "probability": 0.43354166666666666
             },
             {
               "week": 12,
@@ -6506,19 +6884,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
               "opponentAbbr": "KCC",
               "site": "@",
-              "probability": 0.45529166666666665
+              "probability": 0.45525
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.44025
+              "probability": 0.36904166666666666
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.6012083333333333
+              "probability": 0.52425
             }
           ]
         },
@@ -6528,6 +6906,8 @@
               "week": 1,
               "points": 229.4,
               "potentialPoints": 298.6,
+              "offensePoints": 94.5,
+              "defensePoints": 134.9,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -6536,6 +6916,8 @@
               "week": 2,
               "points": 155.1,
               "potentialPoints": 258.0,
+              "offensePoints": 70.1,
+              "defensePoints": 85.0,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -6544,6 +6926,8 @@
               "week": 3,
               "points": 202.1,
               "potentialPoints": 236.1,
+              "offensePoints": 59.29999999999998,
+              "defensePoints": 142.8,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -6552,6 +6936,8 @@
               "week": 4,
               "points": 212.0,
               "potentialPoints": 233.0,
+              "offensePoints": 126.0,
+              "defensePoints": 86.0,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -6560,6 +6946,8 @@
               "week": 5,
               "points": 211.7,
               "potentialPoints": 237.2,
+              "offensePoints": 55.29999999999998,
+              "defensePoints": 156.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -6568,6 +6956,8 @@
               "week": 6,
               "points": 233.8,
               "potentialPoints": 255.7,
+              "offensePoints": 118.5,
+              "defensePoints": 115.3,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -6576,6 +6966,8 @@
               "week": 7,
               "points": 156.4,
               "potentialPoints": 193.5,
+              "offensePoints": 24.700000000000017,
+              "defensePoints": 131.7,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -6584,6 +6976,8 @@
               "week": 8,
               "points": 173.3,
               "potentialPoints": 188.3,
+              "offensePoints": 75.70000000000002,
+              "defensePoints": 97.6,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -6592,6 +6986,8 @@
               "week": 9,
               "points": 213.6,
               "potentialPoints": 261.8,
+              "offensePoints": 72.0,
+              "defensePoints": 141.6,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -6742,7 +7138,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
         "seed": 7,
         "clinch": "",
-        "projectedQual": "y",
+        "projectedQual": "",
         "qual": "y",
         "record": "6-6",
         "apPct": 0.44086021505376344,
@@ -6750,19 +7146,19 @@
         "pot": 232.06666666666666,
         "off": 89.77777777777777,
         "deff": 99.71111111111111,
-        "wins": 8.645291666666667,
-        "predPct": 46.90679883512544,
-        "finish": 7,
-        "playoffSeed": "7",
-        "odds": "55%",
-        "div": "52%",
+        "wins": 8.460625,
+        "predPct": 46.49774865591397,
+        "finish": 12,
+        "playoffSeed": "NA",
+        "odds": "49%",
+        "div": "45%",
         "bye": "0%",
-        "playoffProbability": 0.5535833333333333,
-        "divisionProbability": 0.5153333333333333,
+        "playoffProbability": 0.48975,
+        "divisionProbability": 0.45175,
         "byeProbability": 0.0,
-        "projectedPoints": 2306.0326664770287,
-        "projectedPPG": 200.21088882567628,
-        "projectedPotentialPoints": 2791.312713226549,
+        "projectedPoints": 2302.436537065521,
+        "projectedPPG": 199.01217902184035,
+        "projectedPotentialPoints": 2788.118373909348,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -6772,7 +7168,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
               "opponentAbbr": "CIN",
               "site": "@",
-              "probability": 0.71775
+              "probability": 0.6025
             },
             {
               "week": 11,
@@ -6780,7 +7176,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
               "opponentAbbr": "NYJ",
               "site": "v.",
-              "probability": 0.5348333333333334
+              "probability": 0.5292916666666667
             },
             {
               "week": 12,
@@ -6788,19 +7184,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
               "opponentAbbr": "BAL",
               "site": "v.",
-              "probability": 0.5342916666666667
+              "probability": 0.53425
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.6177083333333333
+              "probability": 0.5795
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.24070833333333333
+              "probability": 0.21508333333333335
             }
           ]
         },
@@ -6810,6 +7206,8 @@
               "week": 1,
               "points": 230.4,
               "potentialPoints": 259.0,
+              "offensePoints": 131.60000000000002,
+              "defensePoints": 98.8,
               "weeklyMoney": false,
               "allPlayRecord": "24-7",
               "allPlayPct": 0.7741935483870968
@@ -6818,6 +7216,8 @@
               "week": 2,
               "points": 187.2,
               "potentialPoints": 247.3,
+              "offensePoints": 60.6,
+              "defensePoints": 126.6,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -6826,6 +7226,8 @@
               "week": 3,
               "points": 161.8,
               "potentialPoints": 196.5,
+              "offensePoints": 79.30000000000001,
+              "defensePoints": 82.5,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -6834,6 +7236,8 @@
               "week": 4,
               "points": 217.9,
               "potentialPoints": 320.5,
+              "offensePoints": 126.0,
+              "defensePoints": 91.9,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -6842,6 +7246,8 @@
               "week": 5,
               "points": 178.2,
               "potentialPoints": 221.6,
+              "offensePoints": 98.0,
+              "defensePoints": 80.2,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -6850,6 +7256,8 @@
               "week": 6,
               "points": 174.1,
               "potentialPoints": 228.0,
+              "offensePoints": 65.89999999999999,
+              "defensePoints": 108.2,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -6858,6 +7266,8 @@
               "week": 7,
               "points": 210.3,
               "potentialPoints": 238.3,
+              "offensePoints": 109.8,
+              "defensePoints": 100.5,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -6866,6 +7276,8 @@
               "week": 8,
               "points": 163.1,
               "potentialPoints": 174.3,
+              "offensePoints": 43.1,
+              "defensePoints": 120.0,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -6874,6 +7286,8 @@
               "week": 9,
               "points": 182.4,
               "potentialPoints": 203.1,
+              "offensePoints": 93.7,
+              "defensePoints": 88.7,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -7032,19 +7446,19 @@
         "pot": 239.42222222222225,
         "off": 96.73333333333335,
         "deff": 108.17777777777778,
-        "wins": 8.661291666666667,
-        "predPct": 52.82841621863798,
-        "finish": 9,
+        "wins": 8.956583333333333,
+        "predPct": 53.71560259856631,
+        "finish": 8,
         "playoffSeed": "NA",
-        "odds": "44%",
-        "div": "23%",
+        "odds": "51%",
+        "div": "25%",
         "bye": "0%",
-        "playoffProbability": 0.43683333333333335,
-        "divisionProbability": 0.22641666666666665,
-        "byeProbability": 8.333333333333333e-05,
-        "projectedPoints": 2415.7624957327093,
-        "projectedPPG": 190.5208319109031,
-        "projectedPotentialPoints": 2826.7496827014415,
+        "playoffProbability": 0.5115833333333333,
+        "divisionProbability": 0.24558333333333332,
+        "byeProbability": 0.00025,
+        "projectedPoints": 2433.593663103364,
+        "projectedPPG": 196.46455436778805,
+        "projectedPotentialPoints": 2842.459699346595,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -7054,7 +7468,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
               "opponentAbbr": "NEP",
               "site": "v.",
-              "probability": 0.45970833333333333
+              "probability": 0.608625
             },
             {
               "week": 11,
@@ -7062,7 +7476,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
               "opponentAbbr": "CLE",
               "site": "@",
-              "probability": 0.4651666666666667
+              "probability": 0.47070833333333334
             },
             {
               "week": 12,
@@ -7070,19 +7484,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "@",
-              "probability": 0.5760416666666667
+              "probability": 0.5760833333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.4545416666666667
+              "probability": 0.53425
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.7058333333333333
+              "probability": 0.7669166666666667
             }
           ]
         },
@@ -7092,6 +7506,8 @@
               "week": 1,
               "points": 179.2,
               "potentialPoints": 246.8,
+              "offensePoints": 78.1,
+              "defensePoints": 101.1,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -7100,6 +7516,8 @@
               "week": 2,
               "points": 206.3,
               "potentialPoints": 260.8,
+              "offensePoints": 88.80000000000001,
+              "defensePoints": 117.5,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -7108,6 +7526,8 @@
               "week": 3,
               "points": 235.7,
               "potentialPoints": 261.8,
+              "offensePoints": 92.7,
+              "defensePoints": 143.0,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -7116,6 +7536,8 @@
               "week": 4,
               "points": 291.2,
               "potentialPoints": 335.0,
+              "offensePoints": 130.6,
+              "defensePoints": 160.6,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -7124,6 +7546,8 @@
               "week": 5,
               "points": 203.3,
               "potentialPoints": 226.6,
+              "offensePoints": 76.70000000000002,
+              "defensePoints": 126.6,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -7132,6 +7556,8 @@
               "week": 6,
               "points": 234.8,
               "potentialPoints": 255.4,
+              "offensePoints": 138.9,
+              "defensePoints": 95.9,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -7140,6 +7566,8 @@
               "week": 7,
               "points": 160.3,
               "potentialPoints": 178.6,
+              "offensePoints": 60.30000000000001,
+              "defensePoints": 100.0,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -7148,6 +7576,8 @@
               "week": 8,
               "points": 165.9,
               "potentialPoints": 179.5,
+              "offensePoints": 93.9,
+              "defensePoints": 72.0,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -7156,6 +7586,8 @@
               "week": 9,
               "points": 167.5,
               "potentialPoints": 210.3,
+              "offensePoints": 110.6,
+              "defensePoints": 56.9,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -7314,19 +7746,19 @@
         "pot": 227.27777777777777,
         "off": 106.9,
         "deff": 90.0888888888889,
-        "wins": 8.415166666666666,
-        "predPct": 53.56418010752688,
-        "finish": 8,
+        "wins": 8.417916666666667,
+        "predPct": 53.552788978494625,
+        "finish": 9,
         "playoffSeed": "NA",
-        "odds": "36%",
+        "odds": "37%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.3635,
+        "playoffProbability": 0.36575,
         "divisionProbability": 0.0,
-        "byeProbability": 0.00016666666666666666,
-        "projectedPoints": 2368.812706337189,
-        "projectedPPG": 198.63756877906283,
-        "projectedPotentialPoints": 2737.3356237025846,
+        "byeProbability": 0.00025,
+        "projectedPoints": 2371.6612516263563,
+        "projectedPPG": 199.58708387545198,
+        "projectedPotentialPoints": 2739.9265488479205,
         "winDetails": {
           "currentWins": 5.5,
           "matchups": [
@@ -7336,7 +7768,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
               "opponentAbbr": "JAC",
               "site": "@",
-              "probability": 0.4235833333333333
+              "probability": 0.425625
             },
             {
               "week": 11,
@@ -7344,7 +7776,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
               "opponentAbbr": "LAC",
               "site": "v.",
-              "probability": 0.566625
+              "probability": 0.5664583333333333
             },
             {
               "week": 12,
@@ -7352,19 +7784,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
               "opponentAbbr": "IND",
               "site": "v.",
-              "probability": 0.5851666666666666
+              "probability": 0.585125
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.5908333333333334
+              "probability": 0.589
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.7489583333333334
+              "probability": 0.7517083333333333
             }
           ]
         },
@@ -7374,6 +7806,8 @@
               "week": 1,
               "points": 149.0,
               "potentialPoints": 185.2,
+              "offensePoints": 73.4,
+              "defensePoints": 75.6,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -7382,6 +7816,8 @@
               "week": 2,
               "points": 182.8,
               "potentialPoints": 241.2,
+              "offensePoints": 82.00000000000001,
+              "defensePoints": 100.8,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -7390,6 +7826,8 @@
               "week": 3,
               "points": 141.2,
               "potentialPoints": 192.3,
+              "offensePoints": 58.29999999999998,
+              "defensePoints": 82.9,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -7398,6 +7836,8 @@
               "week": 4,
               "points": 229.6,
               "potentialPoints": 251.3,
+              "offensePoints": 134.89999999999998,
+              "defensePoints": 94.7,
               "weeklyMoney": false,
               "allPlayRecord": "26-5",
               "allPlayPct": 0.8387096774193549
@@ -7406,6 +7846,8 @@
               "week": 5,
               "points": 268.6,
               "potentialPoints": 284.0,
+              "offensePoints": 164.90000000000003,
+              "defensePoints": 103.7,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -7414,6 +7856,8 @@
               "week": 6,
               "points": 254.9,
               "potentialPoints": 254.9,
+              "offensePoints": 141.10000000000002,
+              "defensePoints": 113.8,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -7422,6 +7866,8 @@
               "week": 7,
               "points": 147.0,
               "potentialPoints": 178.5,
+              "offensePoints": 88.7,
+              "defensePoints": 58.3,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -7430,6 +7876,8 @@
               "week": 8,
               "points": 192.4,
               "potentialPoints": 210.9,
+              "offensePoints": 127.0,
+              "defensePoints": 65.4,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -7438,6 +7886,8 @@
               "week": 9,
               "points": 207.4,
               "potentialPoints": 247.2,
+              "offensePoints": 91.8,
+              "defensePoints": 115.6,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -7596,19 +8046,19 @@
         "pot": 226.46666666666667,
         "off": 82.23333333333333,
         "deff": 116.58888888888889,
-        "wins": 7.588875,
-        "predPct": 51.384576612903224,
+        "wins": 7.467375,
+        "predPct": 51.22001568100358,
         "finish": 10,
         "playoffSeed": "NA",
-        "odds": "23%",
-        "div": "13%",
+        "odds": "21%",
+        "div": "10%",
         "bye": "0%",
-        "playoffProbability": 0.23333333333333334,
-        "divisionProbability": 0.12583333333333332,
+        "playoffProbability": 0.20716666666666667,
+        "divisionProbability": 0.09666666666666666,
         "byeProbability": 0.0,
-        "projectedPoints": 2360.557432371354,
-        "projectedPPG": 190.38581079045125,
-        "projectedPotentialPoints": 2707.1480730848625,
+        "projectedPoints": 2361.0401708295813,
+        "projectedPPG": 190.54672360986035,
+        "projectedPotentialPoints": 2707.962990402016,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -7618,7 +8068,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
               "opponentAbbr": "BUF",
               "site": "@",
-              "probability": 0.677
+              "probability": 0.5829583333333334
             },
             {
               "week": 11,
@@ -7626,7 +8076,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
               "opponentAbbr": "BAL",
               "site": "@",
-              "probability": 0.44445833333333334
+              "probability": 0.44604166666666667
             },
             {
               "week": 12,
@@ -7634,19 +8084,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
               "opponentAbbr": "NYJ",
               "site": "v.",
-              "probability": 0.4239583333333333
+              "probability": 0.42391666666666666
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.455
+              "probability": 0.43866666666666665
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.5884583333333334
+              "probability": 0.5757916666666667
             }
           ]
         },
@@ -7656,6 +8106,8 @@
               "week": 1,
               "points": 252.1,
               "potentialPoints": 268.3,
+              "offensePoints": 133.3,
+              "defensePoints": 118.8,
               "weeklyMoney": false,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -7664,6 +8116,8 @@
               "week": 2,
               "points": 245.6,
               "potentialPoints": 262.8,
+              "offensePoints": 102.79999999999998,
+              "defensePoints": 142.8,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -7672,6 +8126,8 @@
               "week": 3,
               "points": 274.7,
               "potentialPoints": 310.7,
+              "offensePoints": 123.5,
+              "defensePoints": 151.2,
               "weeklyMoney": false,
               "allPlayRecord": "30-1",
               "allPlayPct": 0.967741935483871
@@ -7680,6 +8136,8 @@
               "week": 4,
               "points": 186.8,
               "potentialPoints": 216.5,
+              "offensePoints": 50.5,
+              "defensePoints": 136.3,
               "weeklyMoney": false,
               "allPlayRecord": "11-20",
               "allPlayPct": 0.3548387096774194
@@ -7688,6 +8146,8 @@
               "week": 5,
               "points": 141.7,
               "potentialPoints": 205.3,
+              "offensePoints": 41.89999999999999,
+              "defensePoints": 99.8,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -7696,6 +8156,8 @@
               "week": 6,
               "points": 170.4,
               "potentialPoints": 198.5,
+              "offensePoints": 72.9,
+              "defensePoints": 97.5,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -7704,6 +8166,8 @@
               "week": 7,
               "points": 123.7,
               "potentialPoints": 137.7,
+              "offensePoints": 41.5,
+              "defensePoints": 82.2,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -7712,6 +8176,8 @@
               "week": 8,
               "points": 173.4,
               "potentialPoints": 188.8,
+              "offensePoints": 80.80000000000001,
+              "defensePoints": 92.6,
               "weeklyMoney": false,
               "allPlayRecord": "12-19",
               "allPlayPct": 0.3870967741935484
@@ -7720,6 +8186,8 @@
               "week": 9,
               "points": 221.0,
               "potentialPoints": 249.6,
+              "offensePoints": 92.9,
+              "defensePoints": 128.1,
               "weeklyMoney": false,
               "allPlayRecord": "25-5-1",
               "allPlayPct": 0.8225806451612904
@@ -7870,7 +8338,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
         "seed": 11,
         "clinch": "",
-        "projectedQual": "",
+        "projectedQual": "y",
         "qual": "",
         "record": "6-6",
         "apPct": 0.4946236559139785,
@@ -7878,19 +8346,19 @@
         "pot": 237.5888888888889,
         "off": 102.05555555555556,
         "deff": 95.12222222222222,
-        "wins": 8.6345,
-        "predPct": 49.65646281362007,
-        "finish": 11,
-        "playoffSeed": "NA",
-        "odds": "53%",
-        "div": "47%",
+        "wins": 8.847833333333334,
+        "predPct": 50.65125448028673,
+        "finish": 7,
+        "playoffSeed": "7",
+        "odds": "59%",
+        "div": "54%",
         "bye": "0%",
-        "playoffProbability": 0.5266666666666666,
-        "divisionProbability": 0.47491666666666665,
+        "playoffProbability": 0.59275,
+        "divisionProbability": 0.5366666666666666,
         "byeProbability": 0.0,
-        "projectedPoints": 2354.55398593146,
-        "projectedPPG": 193.31799531048668,
-        "projectedPotentialPoints": 2821.962696355282,
+        "projectedPoints": 2373.798127927421,
+        "projectedPPG": 199.7327093091403,
+        "projectedPotentialPoints": 2838.9126383395405,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -7900,7 +8368,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "v.",
-              "probability": 0.6560833333333334
+              "probability": 0.68975
             },
             {
               "week": 11,
@@ -7908,7 +8376,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "v.",
-              "probability": 0.5555416666666667
+              "probability": 0.5539583333333333
             },
             {
               "week": 12,
@@ -7916,19 +8384,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
               "opponentAbbr": "CLE",
               "site": "@",
-              "probability": 0.46570833333333334
+              "probability": 0.46575
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.505625
+              "probability": 0.5948749999999999
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.4515416666666667
+              "probability": 0.5435
             }
           ]
         },
@@ -7938,6 +8406,8 @@
               "week": 1,
               "points": 177.4,
               "potentialPoints": 223.9,
+              "offensePoints": 48.400000000000006,
+              "defensePoints": 129.0,
               "weeklyMoney": false,
               "allPlayRecord": "8-23",
               "allPlayPct": 0.25806451612903225
@@ -7946,6 +8416,8 @@
               "week": 2,
               "points": 205.4,
               "potentialPoints": 232.6,
+              "offensePoints": 95.7,
+              "defensePoints": 109.7,
               "weeklyMoney": false,
               "allPlayRecord": "18-12-1",
               "allPlayPct": 0.5967741935483871
@@ -7954,6 +8426,8 @@
               "week": 3,
               "points": 204.2,
               "potentialPoints": 260.2,
+              "offensePoints": 121.0,
+              "defensePoints": 83.2,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -7962,6 +8436,8 @@
               "week": 4,
               "points": 149.2,
               "potentialPoints": 219.0,
+              "offensePoints": 87.99999999999999,
+              "defensePoints": 61.2,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -7970,6 +8446,8 @@
               "week": 5,
               "points": 173.3,
               "potentialPoints": 228.0,
+              "offensePoints": 73.2,
+              "defensePoints": 100.1,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -7978,6 +8456,8 @@
               "week": 6,
               "points": 178.1,
               "potentialPoints": 190.4,
+              "offensePoints": 92.8,
+              "defensePoints": 85.3,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -7986,6 +8466,8 @@
               "week": 7,
               "points": 249.1,
               "potentialPoints": 263.5,
+              "offensePoints": 146.7,
+              "defensePoints": 102.4,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -7994,6 +8476,8 @@
               "week": 8,
               "points": 245.2,
               "potentialPoints": 280.8,
+              "offensePoints": 129.7,
+              "defensePoints": 115.5,
               "weeklyMoney": true,
               "allPlayRecord": "28-3",
               "allPlayPct": 0.9032258064516129
@@ -8002,6 +8486,8 @@
               "week": 9,
               "points": 192.7,
               "potentialPoints": 239.9,
+              "offensePoints": 123.0,
+              "defensePoints": 69.7,
               "weeklyMoney": false,
               "allPlayRecord": "12-18-1",
               "allPlayPct": 0.4032258064516129
@@ -8160,19 +8646,19 @@
         "pot": 218.29999999999998,
         "off": 89.04444444444442,
         "deff": 102.78888888888889,
-        "wins": 6.104041666666666,
-        "predPct": 48.03758960573477,
-        "finish": 12,
+        "wins": 6.007125,
+        "predPct": 47.499652777777776,
+        "finish": 11,
         "playoffSeed": "NA",
         "odds": "3%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.030666666666666665,
+        "playoffProbability": 0.02775,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2302.0098827942065,
-        "projectedPPG": 191.83662759806893,
-        "projectedPotentialPoints": 2637.210984888444,
+        "projectedPoints": 2296.3332179128747,
+        "projectedPPG": 189.94440597095823,
+        "projectedPotentialPoints": 2632.069549977022,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -8182,7 +8668,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
               "opponentAbbr": "HOU",
               "site": "v.",
-              "probability": 0.440375
+              "probability": 0.429125
             },
             {
               "week": 11,
@@ -8190,7 +8676,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
               "opponentAbbr": "KCC",
               "site": "v.",
-              "probability": 0.45075
+              "probability": 0.4527083333333333
             },
             {
               "week": 12,
@@ -8198,19 +8684,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
               "opponentAbbr": "TEN",
               "site": "@",
-              "probability": 0.41483333333333333
+              "probability": 0.414875
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.47962499999999997
+              "probability": 0.4326666666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.31845833333333334
+              "probability": 0.27775
             }
           ]
         },
@@ -8220,6 +8706,8 @@
               "week": 1,
               "points": 222.0,
               "potentialPoints": 252.2,
+              "offensePoints": 116.4,
+              "defensePoints": 105.6,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -8228,6 +8716,8 @@
               "week": 2,
               "points": 208.2,
               "potentialPoints": 252.9,
+              "offensePoints": 116.29999999999998,
+              "defensePoints": 91.9,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -8236,6 +8726,8 @@
               "week": 3,
               "points": 206.2,
               "potentialPoints": 229.7,
+              "offensePoints": 101.9,
+              "defensePoints": 104.3,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -8244,6 +8736,8 @@
               "week": 4,
               "points": 194.7,
               "potentialPoints": 226.1,
+              "offensePoints": 110.9,
+              "defensePoints": 83.8,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -8252,6 +8746,8 @@
               "week": 5,
               "points": 215.7,
               "potentialPoints": 252.2,
+              "offensePoints": 68.39999999999998,
+              "defensePoints": 147.3,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -8260,6 +8756,8 @@
               "week": 6,
               "points": 147.6,
               "potentialPoints": 152.6,
+              "offensePoints": 61.5,
+              "defensePoints": 86.1,
               "weeklyMoney": false,
               "allPlayRecord": "2-29",
               "allPlayPct": 0.06451612903225806
@@ -8268,6 +8766,8 @@
               "week": 7,
               "points": 167.7,
               "potentialPoints": 189.8,
+              "offensePoints": 94.5,
+              "defensePoints": 73.2,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -8276,6 +8776,8 @@
               "week": 8,
               "points": 198.7,
               "potentialPoints": 211.1,
+              "offensePoints": 79.69999999999999,
+              "defensePoints": 119.0,
               "weeklyMoney": false,
               "allPlayRecord": "20-11",
               "allPlayPct": 0.6451612903225806
@@ -8284,6 +8786,8 @@
               "week": 9,
               "points": 165.7,
               "potentialPoints": 198.1,
+              "offensePoints": 51.79999999999998,
+              "defensePoints": 113.9,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -8442,8 +8946,8 @@
         "pot": 218.38888888888889,
         "off": 99.66666666666667,
         "deff": 88.33333333333333,
-        "wins": 5.254291666666667,
-        "predPct": 45.793862007168464,
+        "wins": 5.191541666666667,
+        "predPct": 45.44754704301076,
         "finish": 13,
         "playoffSeed": "NA",
         "odds": "1%",
@@ -8452,9 +8956,9 @@
         "playoffProbability": 0.0055,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2276.3675360956786,
-        "projectedPPG": 194.78917869855957,
-        "projectedPotentialPoints": 2648.216048450158,
+        "projectedPoints": 2273.8389468714217,
+        "projectedPPG": 193.9463156238073,
+        "projectedPotentialPoints": 2645.9292506434695,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -8464,7 +8968,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "@",
-              "probability": 0.45879166666666665
+              "probability": 0.44275
             },
             {
               "week": 11,
@@ -8472,7 +8976,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
               "opponentAbbr": "IND",
               "site": "@",
-              "probability": 0.54925
+              "probability": 0.5472916666666666
             },
             {
               "week": 12,
@@ -8480,19 +8984,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
               "opponentAbbr": "LAC",
               "site": "v.",
-              "probability": 0.5447083333333333
+              "probability": 0.54475
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.5327916666666667
+              "probability": 0.5031666666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.16875
+              "probability": 0.15358333333333332
             }
           ]
         },
@@ -8502,6 +9006,8 @@
               "week": 1,
               "points": 219.6,
               "potentialPoints": 254.2,
+              "offensePoints": 129.5,
+              "defensePoints": 90.1,
               "weeklyMoney": false,
               "allPlayRecord": "19-12",
               "allPlayPct": 0.6129032258064516
@@ -8510,6 +9016,8 @@
               "week": 2,
               "points": 122.8,
               "potentialPoints": 173.0,
+              "offensePoints": 59.0,
+              "defensePoints": 63.8,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -8518,6 +9026,8 @@
               "week": 3,
               "points": 166.5,
               "potentialPoints": 200.2,
+              "offensePoints": 89.3,
+              "defensePoints": 77.2,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -8526,6 +9036,8 @@
               "week": 4,
               "points": 189.9,
               "potentialPoints": 216.0,
+              "offensePoints": 105.5,
+              "defensePoints": 84.4,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -8534,6 +9046,8 @@
               "week": 5,
               "points": 200.6,
               "potentialPoints": 248.6,
+              "offensePoints": 110.6,
+              "defensePoints": 90.0,
               "weeklyMoney": false,
               "allPlayRecord": "14-17",
               "allPlayPct": 0.45161290322580644
@@ -8542,6 +9056,8 @@
               "week": 6,
               "points": 230.9,
               "potentialPoints": 258.7,
+              "offensePoints": 104.4,
+              "defensePoints": 126.5,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -8550,6 +9066,8 @@
               "week": 7,
               "points": 186.0,
               "potentialPoints": 196.1,
+              "offensePoints": 101.9,
+              "defensePoints": 84.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -8558,6 +9076,8 @@
               "week": 8,
               "points": 183.0,
               "potentialPoints": 200.8,
+              "offensePoints": 84.1,
+              "defensePoints": 98.9,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -8566,6 +9086,8 @@
               "week": 9,
               "points": 192.7,
               "potentialPoints": 217.9,
+              "offensePoints": 112.7,
+              "defensePoints": 80.0,
               "weeklyMoney": false,
               "allPlayRecord": "12-18-1",
               "allPlayPct": 0.4032258064516129
@@ -8724,19 +9246,19 @@
         "pot": 228.08888888888885,
         "off": 79.42222222222223,
         "deff": 99.5111111111111,
-        "wins": 5.830125,
-        "predPct": 38.10793010752688,
+        "wins": 5.651708333333334,
+        "predPct": 37.72465277777778,
         "finish": 14,
         "playoffSeed": "NA",
         "odds": "0%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.003916666666666666,
-        "divisionProbability": 0.00325,
+        "playoffProbability": 0.0028333333333333335,
+        "divisionProbability": 0.0020833333333333333,
         "byeProbability": 0.0,
-        "projectedPoints": 2161.9011446523164,
-        "projectedPPG": 183.83371488410543,
-        "projectedPotentialPoints": 2712.634358863388,
+        "projectedPoints": 2158.8596904301767,
+        "projectedPPG": 182.81989681005894,
+        "projectedPotentialPoints": 2709.776953049031,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -8746,7 +9268,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
               "opponentAbbr": "NYJ",
               "site": "@",
-              "probability": 0.5402916666666666
+              "probability": 0.391375
             },
             {
               "week": 11,
@@ -8754,7 +9276,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
               "opponentAbbr": "CIN",
               "site": "@",
-              "probability": 0.4825833333333333
+              "probability": 0.4824583333333333
             },
             {
               "week": 12,
@@ -8762,19 +9284,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
               "opponentAbbr": "BUF",
               "site": "@",
-              "probability": 0.45158333333333334
+              "probability": 0.451625
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.3525416666666667
+              "probability": 0.32362500000000005
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.003125
+              "probability": 0.0026249999999999997
             }
           ]
         },
@@ -8784,6 +9306,8 @@
               "week": 1,
               "points": 209.3,
               "potentialPoints": 229.7,
+              "offensePoints": 112.4,
+              "defensePoints": 96.9,
               "weeklyMoney": false,
               "allPlayRecord": "16-14-1",
               "allPlayPct": 0.532258064516129
@@ -8792,6 +9316,8 @@
               "week": 2,
               "points": 140.3,
               "potentialPoints": 189.3,
+              "offensePoints": 45.80000000000001,
+              "defensePoints": 94.5,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -8800,6 +9326,8 @@
               "week": 3,
               "points": 175.6,
               "potentialPoints": 215.7,
+              "offensePoints": 59.39999999999999,
+              "defensePoints": 116.2,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -8808,6 +9336,8 @@
               "week": 4,
               "points": 159.4,
               "potentialPoints": 244.9,
+              "offensePoints": 113.0,
+              "defensePoints": 46.4,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -8816,6 +9346,8 @@
               "week": 5,
               "points": 192.6,
               "potentialPoints": 221.9,
+              "offensePoints": 92.7,
+              "defensePoints": 99.9,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -8824,6 +9356,8 @@
               "week": 6,
               "points": 122.3,
               "potentialPoints": 175.3,
+              "offensePoints": 38.89999999999999,
+              "defensePoints": 83.4,
               "weeklyMoney": false,
               "allPlayRecord": "1-30",
               "allPlayPct": 0.03225806451612903
@@ -8832,6 +9366,8 @@
               "week": 7,
               "points": 199.9,
               "potentialPoints": 250.7,
+              "offensePoints": 91.4,
+              "defensePoints": 108.5,
               "weeklyMoney": false,
               "allPlayRecord": "16-15",
               "allPlayPct": 0.5161290322580645
@@ -8840,6 +9376,8 @@
               "week": 8,
               "points": 212.6,
               "potentialPoints": 261.6,
+              "offensePoints": 78.1,
+              "defensePoints": 134.5,
               "weeklyMoney": false,
               "allPlayRecord": "25-6",
               "allPlayPct": 0.8064516129032258
@@ -8848,6 +9386,8 @@
               "week": 9,
               "points": 198.4,
               "potentialPoints": 263.7,
+              "offensePoints": 83.10000000000001,
+              "defensePoints": 115.3,
               "weeklyMoney": false,
               "allPlayRecord": "17-14",
               "allPlayPct": 0.5483870967741935
@@ -9006,19 +9546,19 @@
         "pot": 216.16666666666663,
         "off": 70.17777777777778,
         "deff": 102.91111111111111,
-        "wins": 4.499833333333333,
-        "predPct": 36.97782258064517,
+        "wins": 4.532041666666666,
+        "predPct": 37.59879032258065,
         "finish": 15,
         "playoffSeed": "NA",
         "odds": "0%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.0006666666666666666,
-        "divisionProbability": 0.0006666666666666666,
+        "playoffProbability": 0.001,
+        "divisionProbability": 0.001,
         "byeProbability": 0.0,
-        "projectedPoints": 2092.270764074173,
-        "projectedPPG": 178.1569213580576,
-        "projectedPotentialPoints": 2589.302304196177,
+        "projectedPoints": 2106.6630279537617,
+        "projectedPPG": 182.95434265125394,
+        "projectedPotentialPoints": 2601.795174712361,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -9028,7 +9568,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
               "opponentAbbr": "BAL",
               "site": "@",
-              "probability": 0.34391666666666665
+              "probability": 0.31025
             },
             {
               "week": 11,
@@ -9036,7 +9576,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
               "opponentAbbr": "BUF",
               "site": "v.",
-              "probability": 0.43345833333333333
+              "probability": 0.4432083333333333
             },
             {
               "week": 12,
@@ -9044,19 +9584,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
               "opponentAbbr": "CIN",
               "site": "@",
-              "probability": 0.4495
+              "probability": 0.45195833333333335
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.27137500000000003
+              "probability": 0.32399999999999995
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.0015833333333333333
+              "probability": 0.0026249999999999997
             }
           ]
         },
@@ -9066,6 +9606,8 @@
               "week": 1,
               "points": 146.2,
               "potentialPoints": 238.7,
+              "offensePoints": 61.8,
+              "defensePoints": 84.39999999999999,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -9074,6 +9616,8 @@
               "week": 2,
               "points": 153.8,
               "potentialPoints": 192.6,
+              "offensePoints": 64.00000000000001,
+              "defensePoints": 89.8,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -9082,6 +9626,8 @@
               "week": 3,
               "points": 208.2,
               "potentialPoints": 240.4,
+              "offensePoints": 126.29999999999998,
+              "defensePoints": 81.9,
               "weeklyMoney": false,
               "allPlayRecord": "18-13",
               "allPlayPct": 0.5806451612903226
@@ -9090,6 +9636,8 @@
               "week": 4,
               "points": 186.4,
               "potentialPoints": 237.2,
+              "offensePoints": 45.6,
+              "defensePoints": 140.8,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -9098,6 +9646,8 @@
               "week": 5,
               "points": 224.2,
               "potentialPoints": 257.0,
+              "offensePoints": 115.0,
+              "defensePoints": 109.2,
               "weeklyMoney": false,
               "allPlayRecord": "21-10",
               "allPlayPct": 0.6774193548387096
@@ -9106,6 +9656,8 @@
               "week": 6,
               "points": 174.9,
               "potentialPoints": 191.0,
+              "offensePoints": 62.80000000000001,
+              "defensePoints": 112.1,
               "weeklyMoney": false,
               "allPlayRecord": "15-16",
               "allPlayPct": 0.4838709677419355
@@ -9114,6 +9666,8 @@
               "week": 7,
               "points": 128.8,
               "potentialPoints": 181.0,
+              "offensePoints": 50.80000000000001,
+              "defensePoints": 78.0,
               "weeklyMoney": false,
               "allPlayRecord": "3-28",
               "allPlayPct": 0.0967741935483871
@@ -9122,6 +9676,8 @@
               "week": 8,
               "points": 127.6,
               "potentialPoints": 162.3,
+              "offensePoints": 27.69999999999999,
+              "defensePoints": 99.9,
               "weeklyMoney": false,
               "allPlayRecord": "4-27",
               "allPlayPct": 0.12903225806451613
@@ -9130,6 +9686,8 @@
               "week": 9,
               "points": 207.7,
               "potentialPoints": 245.3,
+              "offensePoints": 77.6,
+              "defensePoints": 130.1,
               "weeklyMoney": false,
               "allPlayRecord": "22-9",
               "allPlayPct": 0.7096774193548387
@@ -9288,19 +9846,19 @@
         "pot": 218.35555555555553,
         "off": 81.03333333333335,
         "deff": 102.32222222222222,
-        "wins": 5.180125,
-        "predPct": 36.567338709677415,
+        "wins": 5.3425416666666665,
+        "predPct": 37.1111559139785,
         "finish": 16,
         "playoffSeed": "NA",
         "odds": "1%",
         "div": "1%",
         "bye": "0%",
-        "playoffProbability": 0.009083333333333334,
-        "divisionProbability": 0.009083333333333334,
+        "playoffProbability": 0.010583333333333333,
+        "divisionProbability": 0.010583333333333333,
         "byeProbability": 0.0,
-        "projectedPoints": 2198.6119968042526,
-        "projectedPPG": 182.80399893475087,
-        "projectedPotentialPoints": 2616.9367065498304,
+        "projectedPoints": 2211.5398438211337,
+        "projectedPPG": 187.11328127371118,
+        "projectedPotentialPoints": 2628.6415649093105,
         "winDetails": {
           "currentWins": 3.5,
           "matchups": [
@@ -9310,7 +9868,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
               "opponentAbbr": "CLE",
               "site": "v.",
-              "probability": 0.28225
+              "probability": 0.3975
             },
             {
               "week": 11,
@@ -9318,7 +9876,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
               "opponentAbbr": "NEP",
               "site": "v.",
-              "probability": 0.5174166666666666
+              "probability": 0.5175416666666667
             },
             {
               "week": 12,
@@ -9326,19 +9884,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "v.",
-              "probability": 0.5505
+              "probability": 0.5480416666666666
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.329
+              "probability": 0.3779166666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.0009583333333333334
+              "probability": 0.0015416666666666667
             }
           ]
         },
@@ -9348,6 +9906,8 @@
               "week": 1,
               "points": 138.0,
               "potentialPoints": 189.1,
+              "offensePoints": 57.8,
+              "defensePoints": 80.2,
               "weeklyMoney": false,
               "allPlayRecord": "1-29-1",
               "allPlayPct": 0.04838709677419355
@@ -9356,6 +9916,8 @@
               "week": 2,
               "points": 161.3,
               "potentialPoints": 205.6,
+              "offensePoints": 82.00000000000001,
+              "defensePoints": 79.3,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
@@ -9364,6 +9926,8 @@
               "week": 3,
               "points": 165.4,
               "potentialPoints": 237.1,
+              "offensePoints": 72.7,
+              "defensePoints": 92.7,
               "weeklyMoney": false,
               "allPlayRecord": "5-26",
               "allPlayPct": 0.16129032258064516
@@ -9372,6 +9936,8 @@
               "week": 4,
               "points": 171.8,
               "potentialPoints": 183.0,
+              "offensePoints": 84.10000000000001,
+              "defensePoints": 87.7,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -9380,6 +9946,8 @@
               "week": 5,
               "points": 288.5,
               "potentialPoints": 306.3,
+              "offensePoints": 140.9,
+              "defensePoints": 147.6,
               "weeklyMoney": true,
               "allPlayRecord": "31-0",
               "allPlayPct": 1.0
@@ -9388,6 +9956,8 @@
               "week": 6,
               "points": 170.6,
               "potentialPoints": 183.0,
+              "offensePoints": 47.6,
+              "defensePoints": 123.0,
               "weeklyMoney": false,
               "allPlayRecord": "10-21",
               "allPlayPct": 0.3225806451612903
@@ -9396,6 +9966,8 @@
               "week": 7,
               "points": 222.9,
               "potentialPoints": 252.7,
+              "offensePoints": 100.6,
+              "defensePoints": 122.3,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -9404,6 +9976,8 @@
               "week": 8,
               "points": 161.8,
               "potentialPoints": 198.8,
+              "offensePoints": 72.70000000000002,
+              "defensePoints": 89.1,
               "weeklyMoney": false,
               "allPlayRecord": "6-25",
               "allPlayPct": 0.1935483870967742
@@ -9412,6 +9986,8 @@
               "week": 9,
               "points": 169.9,
               "potentialPoints": 209.6,
+              "offensePoints": 70.9,
+              "defensePoints": 99.0,
               "weeklyMoney": false,
               "allPlayRecord": "7-24",
               "allPlayPct": 0.22580645161290322
