@@ -62,12 +62,13 @@ jobs:
           python scripts/verify_quarterly_sync.py --league FAFL --root .
       - name: Save generated module
         run: |
+          python -m unittest discover -s tests -p test_push_generated.py -v
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/clinching docs/bonus-games docs/playoff-picture data/current_forecast.json data/weekly_sharks_team_means.csv data/playoff_swing.csv data/fafl_scoring_model.json data/forward_bye_exposure.csv data/forecast_bye_inputs
           if ! git diff --cached --quiet; then
             git commit -m 'Rebuild selected Bonus Games dashboard'
-            git push origin HEAD:main
+            python scripts/push_generated.py
           fi
       - name: Request Pages publication
         env:
