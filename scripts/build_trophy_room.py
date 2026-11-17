@@ -72,6 +72,7 @@ def build():
     roster_dir=ROOT/'docs/trophy-room/rosters';roster_dir.mkdir(exist_ok=True)
     for p in roster_files:(roster_dir/p.name).write_bytes(p.read_bytes())
     (ROOT/'docs/trophy-room/top-performances.json').write_bytes((ROOT/'data/trophy_room/top-performances.json').read_bytes())
+    (ROOT/'docs/trophy-room/seasonlong-performances.json').write_bytes((ROOT/'data/trophy_room/seasonlong-performances.json').read_bytes())
     print(f'Trophy Room: {len(champions)} seasons, {len(owners)} GM rows, {len(history)} canonical team-seasons')
     return result
 if __name__=='__main__':build()
