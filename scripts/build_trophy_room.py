@@ -67,6 +67,8 @@ def build():
     output=ROOT/'docs/trophy-room/data.json';output.parent.mkdir(exist_ok=True)
     output.write_text(json.dumps(result,indent=2)+'\n')
     (ROOT/'docs/trophy-room/lineups.json').write_bytes((ROOT/'data/trophy_room/super_bowl_lineups.json').read_bytes())
+    game_dir=ROOT/'docs/trophy-room/player-game-breakdowns';game_dir.mkdir(exist_ok=True)
+    for p in (ROOT/'data/trophy_room/player_game_breakdowns').glob('*.json'):(game_dir/p.name).write_bytes(p.read_bytes())
     roster_files=list((ROOT/'data/trophy_room/rosters').glob('*.json'))
     assert {p.stem for p in roster_files}=={str(c['year']) for c in champions}
     roster_dir=ROOT/'docs/trophy-room/rosters';roster_dir.mkdir(exist_ok=True)
