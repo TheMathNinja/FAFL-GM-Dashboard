@@ -3,11 +3,11 @@
     "year": 2014,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2014/export?TYPE=weeklyResults&JSON=1&L=37677&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "9f88abe7f622900a61818e6d101e2df06363ca2b2e6420150bbcd337cd57b48a"
+      "sha256": "831bbe83be7c50512d71332da86a231652769574720778063074d4667840fd6f"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2014/export?TYPE=players&JSON=1",
-      "sha256": "cd21a529a0cbbb39cf881e47f00deff8d7df0722a945c5fa32280f7f8a97590b"
+      "sha256": "5bce89f3e2a604318f12a906a527e8037f97341b72fe7665cfa69203d0f80d4c"
     },
     "report": "https://www43.myfantasyleague.com/2014/weekly?L=37677&W=16",
     "awards": {
@@ -126,7 +126,7 @@
     "year": 2015,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2015/export?TYPE=weeklyResults&JSON=1&L=27312&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "a04f307d016e5a7c2e3a00b3f16abbcce33903cf348c570135b84e62ddc9d137"
+      "sha256": "a325e7cb300865893f53a36966949ce12867d368a1f259750eb185ba87855242"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2015/export?TYPE=players&JSON=1",
@@ -285,7 +285,7 @@
     "year": 2016,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2016/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "44209111f10e1dcd03aba77b8bff0fe6ecb33d56ea8371bd74e50741e1d6ce8c"
+      "sha256": "bbce15c0c9f5baffd33f4c453bcc7fde065eda6ac63d1a6ce9accafbef8e002c"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2016/export?TYPE=players&JSON=1",
@@ -444,7 +444,7 @@
     "year": 2017,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2017/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "cb97d88afa040197a8e0679f737faa0a35fa80d6500bfde3c9b993fe51005119"
+      "sha256": "13adee11ee655c1da4808f5e8d964f89823de05183ea4bd36590a0e6b7bc4bad"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2017/export?TYPE=players&JSON=1",
@@ -603,7 +603,7 @@
     "year": 2018,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2018/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "ba1aa148ffb0a756684e78c3cfe725aca22067ac1a8d24176d83671b10c622b5"
+      "sha256": "0df5ddf94637911fcb8b26c4467068621b49e392a0813e2cf5d8ac9c10f33606"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2018/export?TYPE=players&JSON=1",
@@ -762,7 +762,7 @@
     "year": 2019,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2019/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "d8f0a56a6ef6708b8b836a39344b67c9e18c729b04f97e5883169bf1a0cc56e8"
+      "sha256": "94dd19d5f2ac74a48b5ef453f5ff92b84d7ed032e5b63032968d4525a1bf0019"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2019/export?TYPE=players&JSON=1",
@@ -921,7 +921,7 @@
     "year": 2020,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2020/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "da6df3d8c38e2b6ca4b9e5d67eb4cfccf855ca576cd848cd0a29c41fb9dcc5ac"
+      "sha256": "2d29baf9abfe623d66e19e9bda6c5af58e74e771b2f90f5656cea1fbf50df294"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2020/export?TYPE=players&JSON=1",
@@ -1080,7 +1080,7 @@
     "year": 2021,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2021/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "69f4a34a08a40db5d30f491634eace38621339258ef59bba39bbde5a8bb59ff0"
+      "sha256": "96ba9517696b763691e7ec9cfb467e8107f32f0b9aaa49f5a7ced73ddc9456bd"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2021/export?TYPE=players&JSON=1",
@@ -1239,7 +1239,7 @@
     "year": 2022,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2022/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "ddd106682bac434d91944f120e806f06f43bb746131f6313b6581c03c7ed88c8"
+      "sha256": "f07e37d009ee71b6e473ce87f168c84297945e43c33a4b9cf057dee5afc549d1"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2022/export?TYPE=players&JSON=1",
@@ -1398,7 +1398,7 @@
     "year": 2023,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2023/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "01796bd0b5f99a9156b5789d5e5168d2f31b2f670d4606420fe489314927c34f"
+      "sha256": "48680f1e96810195f3c5c92c00f8f827b3e26069ef7400721bbf2fed1d6ee31d"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2023/export?TYPE=players&JSON=1",
@@ -1557,7 +1557,7 @@
     "year": 2024,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2024/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "cd630d16677830bd6720326ff6566ed1f14c749359c706da6b8c7e16a2d6c844"
+      "sha256": "20e23bfd9ca9c39a5d36a6b920bd946e96f5d7f8aa64c5688f5a16a18c4967d2"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2024/export?TYPE=players&JSON=1",
@@ -1716,7 +1716,7 @@
     "year": 2025,
     "weeklyResults": {
       "url": "https://api.myfantasyleague.com/2025/export?TYPE=weeklyResults&JSON=1&L=22686&W=YTD&MISSING_AS_BYE=1",
-      "sha256": "40d09bca3019ae1f33b2a87124089ea4909d747eaa7f03bd75fae3d9f8581f6a"
+      "sha256": "712b856bad6c9ca642f8a51123eb15f3f03ce7118dbb7dfa813b2f846c61a277"
     },
     "players": {
       "url": "https://api.myfantasyleague.com/2025/export?TYPE=players&JSON=1",

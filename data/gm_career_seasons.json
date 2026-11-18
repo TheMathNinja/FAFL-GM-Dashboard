@@ -4909,7 +4909,7 @@
     "rs_ties": 0,
     "rs_losses": 230,
     "record_wins": 6,
-    "record_losses": 16,
+    "record_losses": 15,
     "record_ties": 0
   },
   {
@@ -4925,7 +4925,7 @@
     "rs_wins": 228,
     "rs_ties": 0,
     "rs_losses": 144,
-    "record_wins": 15,
+    "record_wins": 14,
     "record_losses": 5,
     "record_ties": 1
   },
@@ -4942,7 +4942,7 @@
     "rs_wins": 205,
     "rs_ties": 0,
     "rs_losses": 167,
-    "record_wins": 17,
+    "record_wins": 16,
     "record_losses": 5,
     "record_ties": 1
   },
@@ -4959,7 +4959,7 @@
     "rs_wins": 236,
     "rs_ties": 1,
     "rs_losses": 135,
-    "record_wins": 14,
+    "record_wins": 13,
     "record_losses": 9,
     "record_ties": 0
   },
@@ -4977,7 +4977,7 @@
     "rs_ties": 1,
     "rs_losses": 160,
     "record_wins": 13,
-    "record_losses": 10,
+    "record_losses": 9,
     "record_ties": 0
   },
   {
@@ -4993,7 +4993,7 @@
     "rs_wins": 172,
     "rs_ties": 1,
     "rs_losses": 199,
-    "record_wins": 15,
+    "record_wins": 14,
     "record_losses": 8,
     "record_ties": 0
   },
@@ -5010,7 +5010,7 @@
     "rs_wins": 179,
     "rs_ties": 0,
     "rs_losses": 193,
-    "record_wins": 7,
+    "record_wins": 6,
     "record_losses": 16,
     "record_ties": 0
   },
@@ -5027,7 +5027,7 @@
     "rs_wins": 197,
     "rs_ties": 0,
     "rs_losses": 175,
-    "record_wins": 12,
+    "record_wins": 11,
     "record_losses": 10,
     "record_ties": 1
   },
@@ -5045,7 +5045,7 @@
     "rs_ties": 1,
     "rs_losses": 211,
     "record_wins": 7,
-    "record_losses": 16,
+    "record_losses": 15,
     "record_ties": 0
   },
   {
@@ -5062,7 +5062,7 @@
     "rs_ties": 0,
     "rs_losses": 190,
     "record_wins": 9,
-    "record_losses": 14,
+    "record_losses": 13,
     "record_ties": 0
   },
   {
@@ -5079,7 +5079,7 @@
     "rs_ties": 0,
     "rs_losses": 188,
     "record_wins": 8,
-    "record_losses": 14,
+    "record_losses": 13,
     "record_ties": 1
   },
   {
@@ -5097,7 +5097,7 @@
     "rs_losses": 131,
     "record_wins": 15,
     "record_losses": 6,
-    "record_ties": 2
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -5114,7 +5114,7 @@
     "rs_losses": 175,
     "record_wins": 11,
     "record_losses": 8,
-    "record_ties": 4
+    "record_ties": 3
   },
   {
     "season": 2023,
@@ -5130,7 +5130,7 @@
     "rs_ties": 0,
     "rs_losses": 212,
     "record_wins": 8,
-    "record_losses": 14,
+    "record_losses": 13,
     "record_ties": 1
   },
   {
@@ -5147,7 +5147,7 @@
     "rs_ties": 0,
     "rs_losses": 305,
     "record_wins": 0,
-    "record_losses": 19,
+    "record_losses": 18,
     "record_ties": 0
   },
   {
@@ -5163,7 +5163,7 @@
     "rs_wins": 246,
     "rs_ties": 2,
     "rs_losses": 124,
-    "record_wins": 18,
+    "record_wins": 17,
     "record_losses": 2,
     "record_ties": 1
   },
@@ -5181,7 +5181,7 @@
     "rs_ties": 0,
     "rs_losses": 184,
     "record_wins": 15,
-    "record_losses": 5,
+    "record_losses": 4,
     "record_ties": 2
   },
   {
@@ -5197,7 +5197,7 @@
     "rs_wins": 169,
     "rs_ties": 0,
     "rs_losses": 203,
-    "record_wins": 12,
+    "record_wins": 11,
     "record_losses": 11,
     "record_ties": 0
   },
@@ -5215,7 +5215,7 @@
     "rs_ties": 0,
     "rs_losses": 134,
     "record_wins": 13,
-    "record_losses": 8,
+    "record_losses": 7,
     "record_ties": 0
   },
   {
@@ -5231,7 +5231,7 @@
     "rs_wins": 145,
     "rs_ties": 0,
     "rs_losses": 227,
-    "record_wins": 6,
+    "record_wins": 5,
     "record_losses": 17,
     "record_ties": 0
   },
@@ -5250,7 +5250,7 @@
     "rs_losses": 193,
     "record_wins": 8,
     "record_losses": 12,
-    "record_ties": 3
+    "record_ties": 2
   },
   {
     "season": 2023,
@@ -5267,7 +5267,7 @@
     "rs_losses": 143,
     "record_wins": 11,
     "record_losses": 10,
-    "record_ties": 2
+    "record_ties": 1
   },
   {
     "season": 2023,
@@ -5283,7 +5283,7 @@
     "rs_ties": 0,
     "rs_losses": 278,
     "record_wins": 5,
-    "record_losses": 17,
+    "record_losses": 16,
     "record_ties": 0
   },
   {
@@ -5300,7 +5300,7 @@
     "rs_ties": 0,
     "rs_losses": 189,
     "record_wins": 10,
-    "record_losses": 12,
+    "record_losses": 11,
     "record_ties": 1
   },
   {
@@ -5316,7 +5316,7 @@
     "rs_wins": 138,
     "rs_ties": 1,
     "rs_losses": 233,
-    "record_wins": 8,
+    "record_wins": 7,
     "record_losses": 14,
     "record_ties": 0
   },
@@ -5334,7 +5334,7 @@
     "rs_ties": 0,
     "rs_losses": 234,
     "record_wins": 7,
-    "record_losses": 13,
+    "record_losses": 12,
     "record_ties": 0
   },
   {
@@ -5350,7 +5350,7 @@
     "rs_wins": 237,
     "rs_ties": 0,
     "rs_losses": 135,
-    "record_wins": 14,
+    "record_wins": 13,
     "record_losses": 9,
     "record_ties": 0
   },
@@ -5367,7 +5367,7 @@
     "rs_wins": 211,
     "rs_ties": 0,
     "rs_losses": 161,
-    "record_wins": 15,
+    "record_wins": 14,
     "record_losses": 8,
     "record_ties": 0
   },
@@ -5385,7 +5385,7 @@
     "rs_ties": 0,
     "rs_losses": 173,
     "record_wins": 12,
-    "record_losses": 10,
+    "record_losses": 9,
     "record_ties": 1
   },
   {
@@ -5401,7 +5401,7 @@
     "rs_wins": 227,
     "rs_ties": 0,
     "rs_losses": 145,
-    "record_wins": 14,
+    "record_wins": 13,
     "record_losses": 8,
     "record_ties": 0
   },
@@ -5419,7 +5419,7 @@
     "rs_ties": 0,
     "rs_losses": 181,
     "record_wins": 13,
-    "record_losses": 10,
+    "record_losses": 9,
     "record_ties": 0
   },
   {
@@ -5435,7 +5435,7 @@
     "rs_wins": 176,
     "rs_ties": 2,
     "rs_losses": 194,
-    "record_wins": 9,
+    "record_wins": 8,
     "record_losses": 11,
     "record_ties": 3
   },

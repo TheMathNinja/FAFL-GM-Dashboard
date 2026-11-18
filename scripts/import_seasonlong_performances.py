@@ -225,9 +225,11 @@ def build(league,cache,history=False,overlay=None):
                     row=dict(key=f'{year}:{pid}',detail=key,year=year,name=player['name'],position=pos,nflTeam=player.get('team',''),score=value,average=value/len(scores),games=len(scores),partial=False,throughWeek=end)
                     modes[mode]['positions'][phase][pos].append(row)
                     details[key]=dict(kind='season-player',mode=mode,phase=phase,playerId=pid,leagueId=lid,**{k:v for k,v in row.items() if k not in ['key','detail']},weeks=scores,url=f'https://api.myfantasyleague.com/{year}/top?L={lid}&SEARCHTYPE=ADVANCED&START_WEEK={1 if phase!="playoffs" else 13}&END_WEEK={12 if phase=="regular" else end}&POSITION={pos}&COUNT=100&SORT=TOT')
-                    details[key]['weeks']=complete_player_weeks(details[key],report.weekly_labels[pid],status_archive)
         sources.append(dict(year=year,weekly=weekly_source,schedule=schedule_source,players=players_source,playerReport=dict(file=report_path.name,sha256=hashlib.sha256(report_path.read_bytes()).hexdigest())))
         compact(modes);keep=retained(modes);details={k:details[k] for k in keep}
+        for detail in details.values():
+            if detail['kind']=='season-player' and detail['year']==year:
+                detail['weeks']=complete_player_weeks(detail,report.weekly_labels[detail['playerId']],status_archive)
         print(league,year,'seasonlong scores built',flush=True)
     meta=dict(league=league,firstSeason=min(r['season'] for r in careers),scoringYear=season,throughSeason=season,throughWeek=through,
               teamRankingLimit=10,individualRankingLimit=25,regularSeasonWeeks=12,scoringRulesSignature=signature,coverage=dict(coverage),sources=sources,officialBonusDifferences=adjustments,

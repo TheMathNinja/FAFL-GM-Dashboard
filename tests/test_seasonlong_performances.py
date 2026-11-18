@@ -101,7 +101,7 @@ class SeasonlongTests(unittest.TestCase):
    year,fid=detail['year'],key.split(':')[-2];official=careers[year,fid]
    if detail['phase']=='regular' and year<=2018:self.assertEqual(detail['record'],{k:official['record_'+k] for k in ['wins','losses','ties']})
    if detail['phase']=='combined' and year>=2019 and any(w['week']>12 for w in detail['weeks']):self.assertEqual(detail['record'],{k:official['record_'+k] for k in ['wins','losses','ties']})
-  self.assertTrue(all(r['year']==2023 for r in d['meta']['officialBonusDifferences']))
+  self.assertFalse(d['meta']['officialBonusDifferences'],'Corrected MFL records must reconcile to the standard bonus format')
   if d['meta']['league']=='ADL':self.assertFalse(d['meta']['officialBonusDifferences'])
 
 if __name__=='__main__':unittest.main()

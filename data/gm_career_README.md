@@ -42,3 +42,5 @@ names and league results are retained, with no private contact details.
 Create the season-specific ownership file for each new season and update it for
 ownership changes. The runtime rejects a missing or wrong-season file rather
 than silently falling back to a completed-season roster.
+
+November 17, 2026: re-scraped MFL weekly results, schedules and standings for all 2014–2025 seasons (384 team-seasons). The commissioner’s 2023 duplicate-Q4 correction removes one result from each of the 32 teams; these corrected MFL W-L-T totals now feed Season Archive, GM career records and Native seasonlong rankings. All actual points and all-play counts are unchanged. The 2018 NEP/OAK correction and other documented historical finish reconstructions remain intact. Audit source URLs, hashes and the 32 record changes are in trophy_room/history_refresh_audit.json.

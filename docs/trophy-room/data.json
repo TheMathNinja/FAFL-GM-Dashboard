@@ -46,8 +46,8 @@
       "year": 2023,
       "champion": "Philadelphia Eagles",
       "runner": "New England Patriots",
-      "championRecord": "17-5-1",
-      "runnerRecord": "13-8-0",
+      "championRecord": "16-5-1",
+      "runnerRecord": "13-7-0",
       "gm": "Schuyler Ferguson",
       "score": "290.4 - 134.9",
       "awards": {
@@ -312,7 +312,7 @@
         2025
       ],
       "seasons": 3,
-      "record": "23-37-2",
+      "record": "23-36-2",
       "allTimeAllPlay": 0.39658444022770395,
       "wins": 626,
       "losses": 953,
@@ -321,7 +321,7 @@
         {
           "year": 2023,
           "franchise": "Indianapolis Colts",
-          "record": "7-13-0",
+          "record": "7-12-0",
           "rs": 0.3709677419354839,
           "all": 0.301707779886148,
           "finish": 30
@@ -365,7 +365,7 @@
         2025
       ],
       "seasons": 11,
-      "record": "105-92-7",
+      "record": "105-91-7",
       "allTimeAllPlay": 0.530791788856305,
       "wins": 2966,
       "losses": 2644,
@@ -438,7 +438,7 @@
         {
           "year": 2023,
           "franchise": "Carolina Panthers",
-          "record": "9-14-0",
+          "record": "9-13-0",
           "rs": 0.489247311827957,
           "all": 0.47438330170777987,
           "finish": 21
@@ -536,7 +536,7 @@
         2023
       ],
       "seasons": 2,
-      "record": "17-20-2",
+      "record": "17-19-2",
       "allTimeAllPlay": 0.48304079696394686,
       "wins": 493,
       "losses": 528,
@@ -553,7 +553,7 @@
         {
           "year": 2023,
           "franchise": "Pittsburgh Steelers",
-          "record": "10-12-1",
+          "record": "10-11-1",
           "rs": 0.49193548387096775,
           "all": 0.4781783681214421,
           "finish": 20
@@ -654,7 +654,7 @@
         2023
       ],
       "seasons": 3,
-      "record": "22-36-3",
+      "record": "22-35-3",
       "allTimeAllPlay": 0.36337760910815936,
       "wins": 574,
       "losses": 1006,
@@ -679,7 +679,7 @@
         {
           "year": 2023,
           "franchise": "San Francisco 49ers",
-          "record": "0-19-0",
+          "record": "0-18-0",
           "rs": 0.18010752688172044,
           "all": 0.18216318785578747,
           "finish": 32
@@ -726,7 +726,7 @@
         2023
       ],
       "seasons": 3,
-      "record": "38-28-0",
+      "record": "37-28-0",
       "allTimeAllPlay": 0.5506008855154966,
       "wins": 870,
       "losses": 710,
@@ -751,7 +751,7 @@
         {
           "year": 2023,
           "franchise": "Tennessee Titans",
-          "record": "15-8-0",
+          "record": "14-8-0",
           "rs": 0.5672043010752689,
           "all": 0.5844402277039848,
           "finish": 8
@@ -1138,7 +1138,7 @@
         2025
       ],
       "seasons": 10,
-      "record": "81-111-6",
+      "record": "81-110-6",
       "allTimeAllPlay": 0.4590962998102467,
       "wins": 2340,
       "losses": 2770,
@@ -1203,7 +1203,7 @@
         {
           "year": 2023,
           "franchise": "Los Angeles Rams",
-          "record": "8-14-1",
+          "record": "8-13-1",
           "rs": 0.43010752688172044,
           "all": 0.4459203036053131,
           "finish": 24
@@ -1245,7 +1245,7 @@
         2025
       ],
       "seasons": 9,
-      "record": "104-67-6",
+      "record": "103-67-6",
       "allTimeAllPlay": 0.6059060721062619,
       "wins": 2798,
       "losses": 1815,
@@ -1302,7 +1302,7 @@
         {
           "year": 2023,
           "franchise": "Jacksonville Jaguars",
-          "record": "14-9-0",
+          "record": "13-9-0",
           "rs": 0.6370967741935484,
           "all": 0.6869070208728653,
           "finish": 4
@@ -1366,7 +1366,7 @@
         2025
       ],
       "seasons": 4,
-      "record": "45-40-1",
+      "record": "45-39-1",
       "allTimeAllPlay": 0.5064041745730551,
       "wins": 1066,
       "losses": 1039,
@@ -1383,7 +1383,7 @@
         {
           "year": 2023,
           "franchise": "Cleveland Browns",
-          "record": "5-17-0",
+          "record": "5-16-0",
           "rs": 0.25268817204301075,
           "all": 0.31309297912713474,
           "finish": 29
@@ -1422,7 +1422,7 @@
         2025
       ],
       "seasons": 6,
-      "record": "42-84-4",
+      "record": "41-84-4",
       "allTimeAllPlay": 0.42425679949399114,
       "wins": 1327,
       "losses": 1799,
@@ -1455,7 +1455,7 @@
         {
           "year": 2023,
           "franchise": "Los Angeles Chargers",
-          "record": "9-11-3",
+          "record": "8-11-3",
           "rs": 0.47580645161290325,
           "all": 0.44022770398481975,
           "finish": 26
@@ -1785,7 +1785,7 @@
         2025
       ],
       "seasons": 11,
-      "record": "134-70-4",
+      "record": "134-69-4",
       "allTimeAllPlay": 0.6172912713472486,
       "wins": 3452,
       "losses": 2156,
@@ -1858,7 +1858,7 @@
         {
           "year": 2023,
           "franchise": "Denver Broncos",
-          "record": "12-10-1",
+          "record": "12-9-1",
           "rs": 0.5349462365591398,
           "all": 0.6299810246679317,
           "finish": 6
@@ -1922,7 +1922,7 @@
         2025
       ],
       "seasons": 4,
-      "record": "36-46-3",
+      "record": "35-46-3",
       "allTimeAllPlay": 0.49051233396584437,
       "wins": 1032,
       "losses": 1072,
@@ -1939,7 +1939,7 @@
         {
           "year": 2023,
           "franchise": "Houston Texans",
-          "record": "8-14-0",
+          "record": "7-14-0",
           "rs": 0.37231182795698925,
           "all": 0.38045540796963945,
           "finish": 28
@@ -2126,7 +2126,7 @@
         2025
       ],
       "seasons": 12,
-      "record": "101-113-11",
+      "record": "101-113-10",
       "allTimeAllPlay": 0.465004348513599,
       "wins": 2831,
       "losses": 3267,
@@ -2207,7 +2207,7 @@
         {
           "year": 2023,
           "franchise": "Arizona Cardinals",
-          "record": "11-8-4",
+          "record": "11-8-3",
           "rs": 0.5282258064516129,
           "all": 0.49240986717267554,
           "finish": 16
@@ -2273,7 +2273,7 @@
         2025
       ],
       "seasons": 6,
-      "record": "61-60-7",
+      "record": "61-59-7",
       "allTimeAllPlay": 0.5044967583807717,
       "wins": 1579,
       "losses": 1551,
@@ -2306,7 +2306,7 @@
         {
           "year": 2023,
           "franchise": "Las Vegas Raiders",
-          "record": "13-10-0",
+          "record": "13-9-0",
           "rs": 0.5134408602150538,
           "all": 0.5426944971537002,
           "finish": 18
@@ -2527,7 +2527,7 @@
         2025
       ],
       "seasons": 8,
-      "record": "94-65-7",
+      "record": "94-65-6",
       "allTimeAllPlay": 0.5705719283681214,
       "wins": 2349,
       "losses": 1771,
@@ -2576,7 +2576,7 @@
         {
           "year": 2023,
           "franchise": "Cincinnati Bengals",
-          "record": "11-10-2",
+          "record": "11-10-1",
           "rs": 0.6155913978494624,
           "all": 0.5559772296015181,
           "finish": 12
@@ -2700,7 +2700,7 @@
         2025
       ],
       "seasons": 10,
-      "record": "110-81-7",
+      "record": "110-81-6",
       "allTimeAllPlay": 0.49838709677419357,
       "wins": 2544,
       "losses": 2565,
@@ -2765,7 +2765,7 @@
         {
           "year": 2023,
           "franchise": "Tampa Bay Buccaneers",
-          "record": "15-6-2",
+          "record": "15-6-1",
           "rs": 0.6478494623655914,
           "all": 0.5502846299810247,
           "finish": 11
@@ -2993,7 +2993,7 @@
         2024
       ],
       "seasons": 6,
-      "record": "49-68-1",
+      "record": "49-67-1",
       "allTimeAllPlay": 0.4456238140417457,
       "wins": 1363,
       "losses": 1705,
@@ -3034,7 +3034,7 @@
         {
           "year": 2023,
           "franchise": "Dallas Cowboys",
-          "record": "6-16-0",
+          "record": "6-15-0",
           "rs": 0.3817204301075269,
           "all": 0.286527514231499,
           "finish": 31
@@ -3186,7 +3186,7 @@
         2023
       ],
       "seasons": 1,
-      "record": "7-16-0",
+      "record": "7-15-0",
       "allTimeAllPlay": 0.45445920303605314,
       "wins": 239,
       "losses": 287,
@@ -3195,7 +3195,7 @@
         {
           "year": 2023,
           "franchise": "Atlanta Falcons",
-          "record": "7-16-0",
+          "record": "7-15-0",
           "rs": 0.4314516129032258,
           "all": 0.45445920303605314,
           "finish": 23
@@ -3243,7 +3243,7 @@
         2023
       ],
       "seasons": 4,
-      "record": "27-55-2",
+      "record": "26-55-2",
       "allTimeAllPlay": 0.35812974383301704,
       "wins": 739,
       "losses": 1334,
@@ -3276,7 +3276,7 @@
         {
           "year": 2023,
           "franchise": "New York Jets",
-          "record": "6-17-0",
+          "record": "5-17-0",
           "rs": 0.3897849462365591,
           "all": 0.4240986717267552,
           "finish": 27
@@ -3345,7 +3345,7 @@
         2025
       ],
       "seasons": 7,
-      "record": "53-83-2",
+      "record": "53-82-2",
       "allTimeAllPlay": 0.4356278801843318,
       "wins": 1573,
       "losses": 2052,
@@ -3386,7 +3386,7 @@
         {
           "year": 2023,
           "franchise": "New Orleans Saints",
-          "record": "8-14-1",
+          "record": "8-13-1",
           "rs": 0.4946236559139785,
           "all": 0.444022770398482,
           "finish": 25
@@ -3816,7 +3816,7 @@
         2023
       ],
       "seasons": 1,
-      "record": "14-8-0",
+      "record": "13-8-0",
       "allTimeAllPlay": 0.5853889943074004,
       "wins": 308,
       "losses": 218,
@@ -3825,7 +3825,7 @@
         {
           "year": 2023,
           "franchise": "Kansas City Chiefs",
-          "record": "14-8-0",
+          "record": "13-8-0",
           "rs": 0.6102150537634409,
           "all": 0.5853889943074004,
           "finish": 13
@@ -3917,7 +3917,7 @@
         2025
       ],
       "seasons": 5,
-      "record": "53-56-1",
+      "record": "52-56-1",
       "allTimeAllPlay": 0.4910815939278937,
       "wins": 1292,
       "losses": 1339,
@@ -3942,7 +3942,7 @@
         {
           "year": 2023,
           "franchise": "Washington Commanders",
-          "record": "14-9-0",
+          "record": "13-9-0",
           "rs": 0.635752688172043,
           "all": 0.594876660341556,
           "finish": 10
@@ -4013,7 +4013,7 @@
         2024
       ],
       "seasons": 2,
-      "record": "21-23-1",
+      "record": "20-23-1",
       "allTimeAllPlay": 0.4468690702087286,
       "wins": 470,
       "losses": 582,
@@ -4022,7 +4022,7 @@
         {
           "year": 2023,
           "franchise": "Minnesota Vikings",
-          "record": "12-10-1",
+          "record": "11-10-1",
           "rs": 0.5295698924731183,
           "all": 0.5445920303605313,
           "finish": 17
@@ -4184,7 +4184,7 @@
         2025
       ],
       "seasons": 4,
-      "record": "47-35-3",
+      "record": "46-35-3",
       "allTimeAllPlay": 0.5417457305502846,
       "wins": 1139,
       "losses": 963,
@@ -4201,7 +4201,7 @@
         {
           "year": 2023,
           "franchise": "Detroit Lions",
-          "record": "15-8-0",
+          "record": "14-8-0",
           "rs": 0.4637096774193548,
           "all": 0.5398481973434535,
           "finish": 3
@@ -4292,7 +4292,7 @@
         2025
       ],
       "seasons": 4,
-      "record": "33-53-3",
+      "record": "32-53-3",
       "allTimeAllPlay": 0.4286053130929791,
       "wins": 902,
       "losses": 1203,
@@ -4309,7 +4309,7 @@
         {
           "year": 2023,
           "franchise": "Los Angeles Chargers",
-          "record": "9-11-3",
+          "record": "8-11-3",
           "rs": 0.47580645161290325,
           "all": 0.44022770398481975,
           "finish": 26
@@ -4615,7 +4615,7 @@
         2025
       ],
       "seasons": 12,
-      "record": "160-59-9",
+      "record": "160-58-9",
       "allTimeAllPlay": 0.6757985452245414,
       "wins": 4116,
       "losses": 1986,
@@ -4696,7 +4696,7 @@
         {
           "year": 2023,
           "franchise": "Chicago Bears",
-          "record": "13-10-0",
+          "record": "13-9-0",
           "rs": 0.5685483870967742,
           "all": 0.594876660341556,
           "finish": 7
@@ -4770,7 +4770,7 @@
         2025
       ],
       "seasons": 5,
-      "record": "57-47-3",
+      "record": "57-46-3",
       "allTimeAllPlay": 0.5282732447817837,
       "wins": 1390,
       "losses": 1241,
@@ -4795,7 +4795,7 @@
         {
           "year": 2023,
           "franchise": "Buffalo Bills",
-          "record": "15-5-2",
+          "record": "15-4-2",
           "rs": 0.5053763440860215,
           "all": 0.5768500948766604,
           "finish": 9
@@ -5101,7 +5101,7 @@
         2025
       ],
       "seasons": 12,
-      "record": "133-88-6",
+      "record": "132-88-6",
       "allTimeAllPlay": 0.5836594718532574,
       "wins": 3561,
       "losses": 2539,
@@ -5182,7 +5182,7 @@
         {
           "year": 2023,
           "franchise": "New York Giants",
-          "record": "15-5-1",
+          "record": "14-5-1",
           "rs": 0.6129032258064516,
           "all": 0.5521821631878557,
           "finish": 14
@@ -5218,7 +5218,7 @@
         2025
       ],
       "seasons": 3,
-      "record": "43-17-3",
+      "record": "42-17-3",
       "allTimeAllPlay": 0.6160657811511702,
       "wins": 973,
       "losses": 606,
@@ -5227,7 +5227,7 @@
         {
           "year": 2023,
           "franchise": "Seattle Seahawks",
-          "record": "18-2-1",
+          "record": "17-2-1",
           "rs": 0.6639784946236559,
           "all": 0.6622390891840607,
           "finish": 5
@@ -5353,7 +5353,7 @@
         2025
       ],
       "seasons": 12,
-      "record": "129-92-7",
+      "record": "128-92-7",
       "allTimeAllPlay": 0.5334143738140418,
       "wins": 3267,
       "losses": 2839,
@@ -5434,7 +5434,7 @@
         {
           "year": 2023,
           "franchise": "Philadelphia Eagles",
-          "record": "17-5-1",
+          "record": "16-5-1",
           "rs": 0.5510752688172043,
           "all": 0.603415559772296,
           "finish": 1
@@ -5551,7 +5551,7 @@
         2025
       ],
       "seasons": 3,
-      "record": "17-45-0",
+      "record": "16-45-0",
       "allTimeAllPlay": 0.38583175205566095,
       "wins": 610,
       "losses": 971,
@@ -5560,7 +5560,7 @@
         {
           "year": 2023,
           "franchise": "Green Bay Packers",
-          "record": "7-16-0",
+          "record": "6-16-0",
           "rs": 0.48118279569892475,
           "all": 0.5180265654648957,
           "finish": 19
@@ -5770,7 +5770,7 @@
         2025
       ],
       "seasons": 6,
-      "record": "62-62-6",
+      "record": "62-62-5",
       "allTimeAllPlay": 0.5226913345983555,
       "wins": 1631,
       "losses": 1493,
@@ -5803,7 +5803,7 @@
         {
           "year": 2023,
           "franchise": "Baltimore Ravens",
-          "record": "8-12-3",
+          "record": "8-12-2",
           "rs": 0.478494623655914,
           "all": 0.4648956356736243,
           "finish": 22
@@ -5848,7 +5848,7 @@
         2025
       ],
       "seasons": 12,
-      "record": "106-118-3",
+      "record": "105-118-3",
       "allTimeAllPlay": 0.4781190702087286,
       "wins": 2924,
       "losses": 3176,
@@ -5929,7 +5929,7 @@
         {
           "year": 2023,
           "franchise": "Miami Dolphins",
-          "record": "12-11-0",
+          "record": "11-11-0",
           "rs": 0.4543010752688172,
           "all": 0.5123339658444023,
           "finish": 15
@@ -6067,7 +6067,7 @@
         2025
       ],
       "seasons": 6,
-      "record": "54-70-4",
+      "record": "54-69-4",
       "allTimeAllPlay": 0.45611954459203036,
       "wins": 1430,
       "losses": 1700,
@@ -6100,7 +6100,7 @@
         {
           "year": 2023,
           "franchise": "New England Patriots",
-          "record": "13-8-0",
+          "record": "13-7-0",
           "rs": 0.6397849462365591,
           "all": 0.5825426944971537,
           "finish": 2

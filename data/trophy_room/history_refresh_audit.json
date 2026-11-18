@@ -1,0 +1,465 @@
+{
+  "league": "FAFL",
+  "auditedAt": "2026-11-18T00:53:52.123289+00:00",
+  "seasons": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "teamSeasons": 384,
+  "recordChanges": [
+    {
+      "year": 2023,
+      "franchise": "Dallas Cowboys",
+      "field": "record_losses",
+      "old": 16,
+      "new": 15
+    },
+    {
+      "year": 2023,
+      "franchise": "New York Giants",
+      "field": "record_wins",
+      "old": 15,
+      "new": 14
+    },
+    {
+      "year": 2023,
+      "franchise": "Philadelphia Eagles",
+      "field": "record_wins",
+      "old": 17,
+      "new": 16
+    },
+    {
+      "year": 2023,
+      "franchise": "Washington Commanders",
+      "field": "record_wins",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "Chicago Bears",
+      "field": "record_losses",
+      "old": 10,
+      "new": 9
+    },
+    {
+      "year": 2023,
+      "franchise": "Detroit Lions",
+      "field": "record_wins",
+      "old": 15,
+      "new": 14
+    },
+    {
+      "year": 2023,
+      "franchise": "Green Bay Packers",
+      "field": "record_wins",
+      "old": 7,
+      "new": 6
+    },
+    {
+      "year": 2023,
+      "franchise": "Minnesota Vikings",
+      "field": "record_wins",
+      "old": 12,
+      "new": 11
+    },
+    {
+      "year": 2023,
+      "franchise": "Atlanta Falcons",
+      "field": "record_losses",
+      "old": 16,
+      "new": 15
+    },
+    {
+      "year": 2023,
+      "franchise": "Carolina Panthers",
+      "field": "record_losses",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "New Orleans Saints",
+      "field": "record_losses",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "Tampa Bay Buccaneers",
+      "field": "record_ties",
+      "old": 2,
+      "new": 1
+    },
+    {
+      "year": 2023,
+      "franchise": "Arizona Cardinals",
+      "field": "record_ties",
+      "old": 4,
+      "new": 3
+    },
+    {
+      "year": 2023,
+      "franchise": "Los Angeles Rams",
+      "field": "record_losses",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "San Francisco 49ers",
+      "field": "record_losses",
+      "old": 19,
+      "new": 18
+    },
+    {
+      "year": 2023,
+      "franchise": "Seattle Seahawks",
+      "field": "record_wins",
+      "old": 18,
+      "new": 17
+    },
+    {
+      "year": 2023,
+      "franchise": "Buffalo Bills",
+      "field": "record_losses",
+      "old": 5,
+      "new": 4
+    },
+    {
+      "year": 2023,
+      "franchise": "Miami Dolphins",
+      "field": "record_wins",
+      "old": 12,
+      "new": 11
+    },
+    {
+      "year": 2023,
+      "franchise": "New England Patriots",
+      "field": "record_losses",
+      "old": 8,
+      "new": 7
+    },
+    {
+      "year": 2023,
+      "franchise": "New York Jets",
+      "field": "record_wins",
+      "old": 6,
+      "new": 5
+    },
+    {
+      "year": 2023,
+      "franchise": "Baltimore Ravens",
+      "field": "record_ties",
+      "old": 3,
+      "new": 2
+    },
+    {
+      "year": 2023,
+      "franchise": "Cincinnati Bengals",
+      "field": "record_ties",
+      "old": 2,
+      "new": 1
+    },
+    {
+      "year": 2023,
+      "franchise": "Cleveland Browns",
+      "field": "record_losses",
+      "old": 17,
+      "new": 16
+    },
+    {
+      "year": 2023,
+      "franchise": "Pittsburgh Steelers",
+      "field": "record_losses",
+      "old": 12,
+      "new": 11
+    },
+    {
+      "year": 2023,
+      "franchise": "Houston Texans",
+      "field": "record_wins",
+      "old": 8,
+      "new": 7
+    },
+    {
+      "year": 2023,
+      "franchise": "Indianapolis Colts",
+      "field": "record_losses",
+      "old": 13,
+      "new": 12
+    },
+    {
+      "year": 2023,
+      "franchise": "Jacksonville Jaguars",
+      "field": "record_wins",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "Tennessee Titans",
+      "field": "record_wins",
+      "old": 15,
+      "new": 14
+    },
+    {
+      "year": 2023,
+      "franchise": "Denver Broncos",
+      "field": "record_losses",
+      "old": 10,
+      "new": 9
+    },
+    {
+      "year": 2023,
+      "franchise": "Kansas City Chiefs",
+      "field": "record_wins",
+      "old": 14,
+      "new": 13
+    },
+    {
+      "year": 2023,
+      "franchise": "Las Vegas Raiders",
+      "field": "record_losses",
+      "old": 10,
+      "new": 9
+    },
+    {
+      "year": 2023,
+      "franchise": "Los Angeles Chargers",
+      "field": "record_wins",
+      "old": 9,
+      "new": 8
+    }
+  ],
+  "scoreOrAllPlayChanges": [],
+  "sources": [
+    {
+      "year": 2014,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2014/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=37677&JSON=1",
+      "sha256": "831bbe83be7c50512d71332da86a231652769574720778063074d4667840fd6f"
+    },
+    {
+      "year": 2014,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2014/export?TYPE=schedule&L=37677&JSON=1",
+      "sha256": "0c81d8c9cc98da231218461c25d58a3349ba342a3fc9a1276d0a9efd249bb634"
+    },
+    {
+      "year": 2014,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2014/export?TYPE=leagueStandings&L=37677&JSON=1",
+      "sha256": "9c6a3175cb9f5128589c52e9d394601567c18faf05744e20eb257caac0aa532f"
+    },
+    {
+      "year": 2015,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2015/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=27312&JSON=1",
+      "sha256": "a325e7cb300865893f53a36966949ce12867d368a1f259750eb185ba87855242"
+    },
+    {
+      "year": 2015,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2015/export?TYPE=schedule&L=27312&JSON=1",
+      "sha256": "6cf554499207652540043bf7d6ef518ee7d195cfbc749afd876a48bee461ba9d"
+    },
+    {
+      "year": 2015,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2015/export?TYPE=leagueStandings&L=27312&JSON=1",
+      "sha256": "3f598d828adae7538e302d7f69f3fbbdf22f8b617611aa0914c6f5e909231298"
+    },
+    {
+      "year": 2016,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2016/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "bbce15c0c9f5baffd33f4c453bcc7fde065eda6ac63d1a6ce9accafbef8e002c"
+    },
+    {
+      "year": 2016,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2016/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "aa282731b23d81e8edb90fb6b1a1e67c665fdc1d4b8ac23fba0e9575a0a76dc9"
+    },
+    {
+      "year": 2016,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2016/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "f89cdaaba499f7e127cfc9c3130438a08b923543212d327c516f24254ad500c2"
+    },
+    {
+      "year": 2017,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2017/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "13adee11ee655c1da4808f5e8d964f89823de05183ea4bd36590a0e6b7bc4bad"
+    },
+    {
+      "year": 2017,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2017/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "1aae9e488856b4a20c07d62b3e18978d8651e681a6bfea3313e96bf5b6d7e175"
+    },
+    {
+      "year": 2017,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2017/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "d3886afd5f05742249d99e15a6aa953281467cbd6e1f11546c20d77964725146"
+    },
+    {
+      "year": 2018,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2018/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "0df5ddf94637911fcb8b26c4467068621b49e392a0813e2cf5d8ac9c10f33606"
+    },
+    {
+      "year": 2018,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2018/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "fbcd7eb734f6a067e9ad8b21c1fd785215837c012e3867cc921d57ac9160a0b4"
+    },
+    {
+      "year": 2018,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2018/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "7738b613ccad5c7652d01f696abd95602386d49b75920532a2e2cd7ed0c46a4f"
+    },
+    {
+      "year": 2019,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2019/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "94dd19d5f2ac74a48b5ef453f5ff92b84d7ed032e5b63032968d4525a1bf0019"
+    },
+    {
+      "year": 2019,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2019/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "9ad3e1f7182594795de1b56f92ce16aadc57af86b39d539bacfd9107ec231523"
+    },
+    {
+      "year": 2019,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2019/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "45049f94c70f4561b1f6c1232449dc0f09f286275d22491e11ec1afd000cc0ff"
+    },
+    {
+      "year": 2020,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2020/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "2d29baf9abfe623d66e19e9bda6c5af58e74e771b2f90f5656cea1fbf50df294"
+    },
+    {
+      "year": 2020,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2020/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "21da2c54f1b9136fc06d7b050132d37262ff7b9c44c5c9ea0ee0cfb931ba0db7"
+    },
+    {
+      "year": 2020,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2020/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "c04db3eaf1b70c358fb8f5566251a4b17999802dddc86747e2664b423aff777a"
+    },
+    {
+      "year": 2021,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2021/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "96ba9517696b763691e7ec9cfb467e8107f32f0b9aaa49f5a7ced73ddc9456bd"
+    },
+    {
+      "year": 2021,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2021/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "91b3c559bb0c20b5ce5114931a9331105289745c425f922964da347d296b4d4b"
+    },
+    {
+      "year": 2021,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2021/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "0a7bf2692e97e7e3bd7f3c6f4689af431186891103e4ac3978b1e072d6e32595"
+    },
+    {
+      "year": 2022,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2022/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "f07e37d009ee71b6e473ce87f168c84297945e43c33a4b9cf057dee5afc549d1"
+    },
+    {
+      "year": 2022,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2022/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "8a7b8ad84e6e0acbb6a2fa81bede2213ff68414dcb7e96df097c3a0f3bd1e54a"
+    },
+    {
+      "year": 2022,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2022/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "a4f1a8ea6d3acb12170813a0541f63571ecfac94fb88d4d5a4443c4e1bb2f835"
+    },
+    {
+      "year": 2023,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2023/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "48680f1e96810195f3c5c92c00f8f827b3e26069ef7400721bbf2fed1d6ee31d"
+    },
+    {
+      "year": 2023,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2023/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "5635fc089a1d434a71088b88b617ff9512a9c4f98dd807cbf3fc969858247471"
+    },
+    {
+      "year": 2023,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2023/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "9a2f728044e34c8661d63b9a128ddcd429dd64ab57cba952036f23ff40cc0f21"
+    },
+    {
+      "year": 2024,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2024/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "20e23bfd9ca9c39a5d36a6b920bd946e96f5d7f8aa64c5688f5a16a18c4967d2"
+    },
+    {
+      "year": 2024,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2024/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "2d6c02277bb22682ed2d40d43144d8b2c21079dded4c6455fc3e4ab7ae36ed67"
+    },
+    {
+      "year": 2024,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2024/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "88d8c2f3e805d5cbd86990a98f25f314f5d74e4eae495b5eaaf9493299c58536"
+    },
+    {
+      "year": 2025,
+      "kind": "allWeeklyResults",
+      "url": "https://api.myfantasyleague.com/2025/export?TYPE=weeklyResults&W=YTD&MISSING_AS_BYE=1&L=22686&JSON=1",
+      "sha256": "712b856bad6c9ca642f8a51123eb15f3f03ce7118dbb7dfa813b2f846c61a277"
+    },
+    {
+      "year": 2025,
+      "kind": "schedule",
+      "url": "https://api.myfantasyleague.com/2025/export?TYPE=schedule&L=22686&JSON=1",
+      "sha256": "9ab7d6d82439bbc2f68a85e6f9870e0276870671117e414e5a03a54907411f4d"
+    },
+    {
+      "year": 2025,
+      "kind": "leagueStandings",
+      "url": "https://api.myfantasyleague.com/2025/export?TYPE=leagueStandings&L=22686&JSON=1",
+      "sha256": "9172fbfc3a0323d8e6284ccccd2a9353bddb8f71d40ec3dfaf23bee3aa1c8770"
+    }
+  ],
+  "reason": "Commissioner corrected duplicated 2023 Q4 result in published MFL standings; re-scraped all completed seasons and reconciled every franchise."
+}
