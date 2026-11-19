@@ -1,6 +1,7 @@
 import json,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+LEAGUE='FAFL'
 class FullPlayerBreakdownsTests(unittest.TestCase):
  def test_all_banks_and_season_weeks(self):
   banks={}
@@ -23,7 +24,7 @@ class FullPlayerBreakdownsTests(unittest.TestCase):
     self.assertAlmostEqual(s['total'] if d['mode']=='current' else s['recordedTotal'],w['score'],places=5)
  def test_watson_native_and_current_details(self):
   g=json.loads((ROOT/'data/trophy_room/player_game_breakdowns/2019.json').read_bytes())['games']['5:13113']
-  self.assertEqual(g['native']['total'],105.1 if ROOT.name=='FAFL' else 99.4)
+  self.assertEqual(g['native']['total'],105.1)
   stats={r['eventCode']:r for r in g['native']['rows']}
   self.assertEqual(stats['FD']['value'],23);self.assertEqual(stats['FUO']['value'],2);self.assertEqual(stats['OFC']['value'],2)
   self.assertEqual([r['eventCode'] for r in g['native']['rows'][:4]],['PC','PA','PY','#P'])
@@ -36,7 +37,7 @@ class FullPlayerBreakdownsTests(unittest.TestCase):
   key=next(k for k,d in raw['details'].items() if d['kind']=='player' and d['year']==2019 and d['mode']=='native')
   d=raw['details'][key];d['scoring']={'referenceOnly':True,'total':d['score'],'rows':[]};d.pop('ownership',None)
   with tempfile.TemporaryDirectory() as cache:
-   result=add_scoring_details({'meta':{'scoringYear':2026},'details':{key:d}},cache,ROOT.name,ROOT)
+   result=add_scoring_details({'meta':{'scoringYear':2026},'details':{key:d}},cache,LEAGUE,ROOT)
   self.assertFalse(result['details'][key]['scoring'].get('referenceOnly'));self.assertIn('ownership',d)
  def test_weekly_payload_has_ownership_and_no_reference_fallback(self):
   payload=json.loads((ROOT/'docs/trophy-room/top-performances.json').read_bytes())
