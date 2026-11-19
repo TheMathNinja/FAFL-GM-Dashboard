@@ -1,9 +1,9 @@
 {
-  "run_id": "43191972886",
-  "source_sha256": "31c81ac85fcd6d6fc644fea5d903cd1ce9770ac9c523866bc0610409ffac805d",
+  "run_id": "44568649789",
+  "source_sha256": "869080601731cfe7c80c4320fe9bac12092a5f222b05ff477034b3c89372fc4d",
   "league": "FAFL",
   "season": 2026,
-  "week": 9,
+  "week": 10,
   "mode": "official",
   "status": "success",
   "due_weeks": [
@@ -796,8 +796,8 @@
           "note": "Q3 Bonus Game (#32 - 4 APW)"
         }
       ],
-      "missing_before": 32
+      "missing_before": 0
     }
   ],
-  "verified_at": "2026-11-12T09:31:32.431Z"
+  "verified_at": "2026-11-19T17:43:31.581Z"
 }

@@ -1,78 +1,78 @@
 {
   "season": 2026,
   "through_week": 10,
-  "status": "unofficial",
-  "updated_at": "2026-11-19 00:44 UTC",
+  "status": "official",
+  "updated_at": "2026-11-19 17:44 UTC",
   "simulations": 12000,
   "model": {
     "native_mean": [
       [
-        191.748818705449,
-        199.2227544584484,
-        216.4593744143252,
-        200.55342490415106,
-        218.31715832501044,
-        186.02770301885877,
-        177.1589138759725,
-        173.05969942817813,
-        182.87975576235388,
-        203.20475954727232,
-        218.05896985677032,
-        196.48188357190307,
-        193.328902493926,
-        179.31523340012606,
-        219.37193478143757,
-        193.13199363064925,
-        196.7875607074005,
-        193.2349317375886,
-        184.64696858725472,
-        202.34805883182537,
-        205.59333587939324,
-        184.51771969362093,
-        197.22014336258684,
-        182.3651909430025,
-        193.52039008662894,
-        187.97852080233378,
-        220.17041861520096,
-        199.81249952554663,
-        196.00746128009632,
-        192.84489746338073,
-        208.38109734664258,
-        192.48952496266452
+        191.75947571560258,
+        199.233411468602,
+        216.2944646523439,
+        200.56408191430464,
+        218.35707646385325,
+        186.03836002901235,
+        177.16957088612608,
+        173.15813982439911,
+        182.89041277250746,
+        203.2154165574259,
+        218.13985357577786,
+        196.49254058205665,
+        193.33955950407957,
+        179.3258904102796,
+        219.38259179159118,
+        193.14265064080283,
+        196.8274788462432,
+        193.24558874774218,
+        184.6576255974083,
+        202.35871584197898,
+        205.67421959840078,
+        184.52837670377448,
+        197.23080037274036,
+        182.37584795315607,
+        193.53104709678254,
+        187.98917781248736,
+        220.18107562535457,
+        199.82315653570018,
+        196.01811829024996,
+        192.94333785960177,
+        208.39175435679616,
+        192.50018197281807
       ],
       [
-        195.0468930945538,
-        197.66181006649396,
-        222.3830510118357,
-        207.33545003430993,
-        218.03380930652338,
-        192.23814615989684,
-        180.22711753142926,
-        170.8159455139013,
-        182.50181213366903,
-        199.92008367179795,
-        215.27426843358373,
-        192.509613872658,
-        194.00411817248687,
-        177.8611060134756,
-        214.06161557464344,
-        191.64894364664968,
-        196.70489604787812,
-        190.6559702276203,
-        182.461037441263,
-        199.43745552583877,
-        205.31402361525318,
-        188.01905213956772,
-        195.19539832257627,
-        185.39698905462618,
-        195.73063393392997,
-        185.9285011948284,
-        217.11666003931646,
-        203.3545359111589,
-        199.0290927511424,
-        191.48014680816104,
-        207.90667528906462,
-        190.98514745986503
+        195.0575501047074,
+        197.67246707664754,
+        222.2181412498544,
+        207.3461070444635,
+        218.0737274453662,
+        192.24880317005042,
+        180.23777454158284,
+        170.9143859101223,
+        182.5124691438226,
+        199.9307406819515,
+        215.35515215259127,
+        192.5202708828116,
+        194.01477518264045,
+        177.87176302362914,
+        214.07227258479705,
+        191.65960065680326,
+        196.74481418672082,
+        190.66662723777387,
+        182.47169445141657,
+        199.44811253599238,
+        205.39490733426072,
+        188.02970914972127,
+        195.2060553327298,
+        185.40764606477975,
+        195.74129094408357,
+        185.939158204982,
+        217.12731704947007,
+        203.36519292131246,
+        199.03974976129604,
+        191.57858720438207,
+        207.9173322992182,
+        190.99580447001858
       ]
     ],
     "upcoming_sharks_weight": 0.5,
@@ -124,16 +124,16 @@
         227.6621875
       ],
       [
-        10.58602621277101,
-        10.93439327533935
+        10.586026212771024,
+        10.934393275339346
       ],
       [
-        6.275290860862152,
-        2.9137487169811065
+        6.275290860862145,
+        2.9137487169811056
       ],
       [
-        -4.078594585597152,
-        0.6653110180201575
+        -4.078594585597147,
+        0.6653110180201693
       ]
     ],
     "feature_means": [
@@ -149,7 +149,7 @@
     "weekly_volatility": "league-wide normalized weekly SD; residual-matched to the bye-adjusted mean",
     "strength_uncertainty": {
       "model": "training-selected relative persistent Normal SD; shared weekly/persistent mean-one lognormal league factors",
-      "sd": 9.993632800354849,
+      "sd": 9.994491272464122,
       "multiplier": 1.0
     },
     "reg_season_model": "fafl-f315-sharks50-relative-interval-lognormal-v3",
@@ -229,72 +229,72 @@
     "quarterly_bonus_model": {
       "native_mean": [
         [
-          191.748818705449,
-          199.2227544584484,
-          216.4593744143252,
-          200.55342490415106,
-          218.31715832501044,
-          186.02770301885877,
-          177.1589138759725,
-          173.05969942817813,
-          182.87975576235388,
-          203.20475954727232,
-          218.05896985677032,
-          196.48188357190307,
-          193.328902493926,
-          179.31523340012606,
-          219.37193478143757,
-          193.13199363064925,
-          196.7875607074005,
-          193.2349317375886,
-          184.64696858725472,
-          202.34805883182537,
-          205.59333587939324,
-          184.51771969362093,
-          197.22014336258684,
-          182.3651909430025,
-          193.52039008662894,
-          187.97852080233378,
-          220.17041861520096,
-          199.81249952554663,
-          196.00746128009632,
-          192.84489746338073,
-          208.38109734664258,
-          192.48952496266452
+          191.75947571560258,
+          199.233411468602,
+          216.2944646523439,
+          200.56408191430464,
+          218.35707646385325,
+          186.03836002901235,
+          177.16957088612608,
+          173.15813982439911,
+          182.89041277250746,
+          203.2154165574259,
+          218.13985357577786,
+          196.49254058205665,
+          193.33955950407957,
+          179.3258904102796,
+          219.38259179159118,
+          193.14265064080283,
+          196.8274788462432,
+          193.24558874774218,
+          184.6576255974083,
+          202.35871584197898,
+          205.67421959840078,
+          184.52837670377448,
+          197.23080037274036,
+          182.37584795315607,
+          193.53104709678254,
+          187.98917781248736,
+          220.18107562535457,
+          199.82315653570018,
+          196.01811829024996,
+          192.94333785960177,
+          208.39175435679616,
+          192.50018197281807
         ],
         [
-          195.0468930945538,
-          197.66181006649396,
-          222.3830510118357,
-          207.33545003430993,
-          218.03380930652338,
-          192.23814615989684,
-          180.22711753142926,
-          170.8159455139013,
-          182.50181213366903,
-          199.92008367179795,
-          215.27426843358373,
-          192.509613872658,
-          194.00411817248687,
-          177.8611060134756,
-          214.06161557464344,
-          191.64894364664968,
-          196.70489604787812,
-          190.6559702276203,
-          182.461037441263,
-          199.43745552583877,
-          205.31402361525318,
-          188.01905213956772,
-          195.19539832257627,
-          185.39698905462618,
-          195.73063393392997,
-          185.9285011948284,
-          217.11666003931646,
-          203.3545359111589,
-          199.0290927511424,
-          191.48014680816104,
-          207.90667528906462,
-          190.98514745986503
+          195.0575501047074,
+          197.67246707664754,
+          222.2181412498544,
+          207.3461070444635,
+          218.0737274453662,
+          192.24880317005042,
+          180.23777454158284,
+          170.9143859101223,
+          182.5124691438226,
+          199.9307406819515,
+          215.35515215259127,
+          192.5202708828116,
+          194.01477518264045,
+          177.87176302362914,
+          214.07227258479705,
+          191.65960065680326,
+          196.74481418672082,
+          190.66662723777387,
+          182.47169445141657,
+          199.44811253599238,
+          205.39490733426072,
+          188.02970914972127,
+          195.2060553327298,
+          185.40764606477975,
+          195.74129094408357,
+          185.939158204982,
+          217.12731704947007,
+          203.36519292131246,
+          199.03974976129604,
+          191.57858720438207,
+          207.9173322992182,
+          190.99580447001858
         ]
       ],
       "upcoming_sharks_weight": 0.5,
@@ -346,16 +346,16 @@
           227.6621875
         ],
         [
-          10.58602621277101,
-          10.93439327533935
+          10.586026212771024,
+          10.934393275339346
         ],
         [
-          6.275290860862152,
-          2.9137487169811065
+          6.275290860862145,
+          2.9137487169811056
         ],
         [
-          -4.078594585597152,
-          0.6653110180201575
+          -4.078594585597147,
+          0.6653110180201693
         ]
       ],
       "feature_means": [
@@ -445,24 +445,24 @@
         ]
       }
     },
-    "playoff_swing_runtime_seconds": 0.018,
-    "weekly_sigma": 37.78034058721098,
+    "playoff_swing_runtime_seconds": 0.014,
+    "weekly_sigma": 37.78358599049134,
     "clinching": {
       "method": "score-coupled-clinch-v1-real",
-      "input_hash": "94ce46b77776772ca10bcaa93cf98a4a3ab32cab66975aa4cf3c86fd5150c9ab",
+      "input_hash": "5ab9c6f197b72df82617734ad647d2b5e4f81ffccc774dbc8090160ef7f6f2fd",
       "complete": false,
-      "unresolved_checks": 21
+      "unresolved_checks": 22
     },
-    "forecast_runtime_seconds": 8.38,
-    "base_forecast_runtime_seconds": 8.362,
+    "forecast_runtime_seconds": 234.563,
+    "base_forecast_runtime_seconds": 234.549,
     "playoff_swing_matchups": 16
   },
   "conferences": {
     "NFC": [
       {
         "division": "01",
-        "potentialPointsTotal": 2723.8999999999996,
-        "pointsTotal": 2298.7999999999997,
+        "potentialPointsTotal": 2724.3999999999996,
+        "pointsTotal": 2299.2999999999997,
         "franchise_id": "0005",
         "name": "Chicago Bears",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
@@ -473,11 +473,11 @@
         "record": "13-0",
         "apPct": 0.7548387096774194,
         "ppg": "229.9",
-        "pot": 272.39,
+        "pot": 272.43999999999994,
         "off": 108.28,
-        "deff": 121.6,
-        "wins": 16.28804166666667,
-        "predPct": 73.97513440860214,
+        "deff": 121.65,
+        "wins": 16.35,
+        "predPct": 74.00245295698925,
         "finish": 1,
         "playoffSeed": "1",
         "odds": "100%",
@@ -485,10 +485,10 @@
         "bye": "77%",
         "playoffProbability": 1.0,
         "divisionProbability": 1.0,
-        "byeProbability": 0.7706666666666667,
-        "projectedPoints": 2721.964510374408,
-        "projectedPPG": 211.58225518720397,
-        "projectedPotentialPoints": 3214.8876567571483,
+        "byeProbability": 0.773,
+        "projectedPoints": 2729.1408909257157,
+        "projectedPPG": 214.92044546285803,
+        "projectedPotentialPoints": 3221.282748405542,
         "winDetails": {
           "currentWins": 13.0,
           "matchups": [
@@ -498,7 +498,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
               "opponentAbbr": "NYG",
               "site": "@",
-              "probability": 0.5739166666666666
+              "probability": 0.6357083333333333
             },
             {
               "week": 12,
@@ -506,7 +506,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "probability": 0.7575
+              "probability": 0.7576666666666667
             }
           ],
           "bonusGames": [
@@ -616,10 +616,10 @@
             },
             {
               "week": 10,
-              "points": 281.9,
-              "potentialPoints": 289.9,
+              "points": 282.4,
+              "potentialPoints": 290.4,
               "offensePoints": 180.6,
-              "defensePoints": 101.3,
+              "defensePoints": 101.8,
               "weeklyMoney": false,
               "allPlayRecord": "27-4",
               "allPlayPct": 0.8709677419354839
@@ -722,7 +722,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "v.",
-              "teamScore": 281.9,
+              "teamScore": 282.4,
               "opponentScore": 155.2,
               "result": "W"
             }
@@ -751,7 +751,7 @@
             }
           ]
         },
-        "potentialApRecord": "242-68",
+        "potentialApRecord": "243-67",
         "h2hRecord": "10-0",
         "bonusRecord": "3-0",
         "apRecord": "234-76",
@@ -773,7 +773,7 @@
       },
       {
         "division": "00",
-        "potentialPointsTotal": 2609.1,
+        "potentialPointsTotal": 2606.1,
         "pointsTotal": 2259.4,
         "franchise_id": "0003",
         "name": "Philadelphia Eagles",
@@ -785,22 +785,22 @@
         "record": "8-5",
         "apPct": 0.7096774193548387,
         "ppg": "225.9",
-        "pot": 260.90999999999997,
+        "pot": 260.61,
         "off": 126.17,
         "deff": 99.77,
-        "wins": 11.407,
-        "predPct": 70.04217069892474,
+        "wins": 11.302,
+        "predPct": 70.02995071684587,
         "finish": 2,
         "playoffSeed": "2",
         "odds": "100%",
-        "div": "69%",
-        "bye": "19%",
-        "playoffProbability": 0.998,
-        "divisionProbability": 0.6908333333333333,
-        "byeProbability": 0.18508333333333332,
-        "projectedPoints": 2679.78121888489,
-        "projectedPPG": 210.19060944244512,
-        "projectedPotentialPoints": 3095.7562211748304,
+        "div": "67%",
+        "bye": "18%",
+        "playoffProbability": 0.9974166666666666,
+        "divisionProbability": 0.67025,
+        "byeProbability": 0.18258333333333332,
+        "projectedPoints": 2685.631163537589,
+        "projectedPPG": 213.11558176879456,
+        "projectedPotentialPoints": 3098.176267536048,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -810,7 +810,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "probability": 0.7569166666666667
+              "probability": 0.6535833333333333
             },
             {
               "week": 12,
@@ -818,14 +818,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
               "opponentAbbr": "NYG",
               "site": "v.",
-              "probability": 0.675375
+              "probability": 0.6742916666666666
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.9747083333333333
+              "probability": 0.974125
             },
             {
               "label": "Regular Season Bonus Game",
@@ -929,7 +929,7 @@
             {
               "week": 10,
               "points": 324.3,
-              "potentialPoints": 339.9,
+              "potentialPoints": 336.9,
               "offensePoints": 195.2,
               "defensePoints": 129.1,
               "weeklyMoney": true,
@@ -1100,8 +1100,8 @@
         "pot": 268.1,
         "off": 119.54,
         "deff": 107.45,
-        "wins": 12.241958333333333,
-        "predPct": 67.0643817204301,
+        "wins": 12.279041666666666,
+        "predPct": 67.0895497311828,
         "finish": 3,
         "playoffSeed": "3",
         "odds": "100%",
@@ -1109,10 +1109,10 @@
         "bye": "4%",
         "playoffProbability": 1.0,
         "divisionProbability": 1.0,
-        "byeProbability": 0.03883333333333333,
-        "projectedPoints": 2690.1700017454496,
-        "projectedPPG": 210.1350008727248,
-        "projectedPotentialPoints": 3169.087585193557,
+        "byeProbability": 0.03841666666666667,
+        "projectedPoints": 2696.697786232884,
+        "projectedPPG": 213.39889311644208,
+        "projectedPotentialPoints": 3175.205081704644,
         "winDetails": {
           "currentWins": 9.0,
           "matchups": [
@@ -1122,7 +1122,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
               "opponentAbbr": "TBB",
               "site": "v.",
-              "probability": 0.6445833333333333
+              "probability": 0.6809166666666666
             },
             {
               "week": 12,
@@ -1130,14 +1130,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
               "opponentAbbr": "ARI",
               "site": "@",
-              "probability": 0.6400416666666666
+              "probability": 0.6399583333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.9573333333333334
+              "probability": 0.9581666666666667
             },
             {
               "label": "Regular Season Bonus Game",
@@ -1397,8 +1397,8 @@
       },
       {
         "division": "02",
-        "potentialPointsTotal": 2673.7000000000003,
-        "pointsTotal": 2143.4,
+        "potentialPointsTotal": 2674.9000000000005,
+        "pointsTotal": 2144.6,
         "franchise_id": "0011",
         "name": "New Orleans Saints",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
@@ -1408,23 +1408,23 @@
         "qual": "x",
         "record": "9-4",
         "apPct": 0.6483870967741936,
-        "ppg": "214.3",
-        "pot": 267.37,
+        "ppg": "214.5",
+        "pot": 267.49000000000007,
         "off": 101.42999999999999,
-        "deff": 112.91,
-        "wins": 12.278166666666667,
-        "predPct": 64.74917114695342,
+        "deff": 113.03,
+        "wins": 12.356166666666667,
+        "predPct": 65.00106406810036,
         "finish": 4,
         "playoffSeed": "4",
         "odds": "100%",
-        "div": "52%",
+        "div": "55%",
         "bye": "1%",
-        "playoffProbability": 0.99925,
-        "divisionProbability": 0.5158333333333334,
-        "byeProbability": 0.005416666666666667,
-        "projectedPoints": 2561.2981513972118,
-        "projectedPPG": 208.94907569860584,
-        "projectedPotentialPoints": 3159.9444701608695,
+        "playoffProbability": 0.9996666666666667,
+        "divisionProbability": 0.5495,
+        "byeProbability": 0.006,
+        "projectedPoints": 2573.3310082013277,
+        "projectedPPG": 214.365504100664,
+        "projectedPotentialPoints": 3171.133721395782,
         "winDetails": {
           "currentWins": 9.0,
           "matchups": [
@@ -1434,7 +1434,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
               "opponentAbbr": "SEA",
               "site": "@",
-              "probability": 0.7602916666666667
+              "probability": 0.8237083333333334
             },
             {
               "week": 12,
@@ -1442,14 +1442,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
               "opponentAbbr": "CAR",
               "site": "v.",
-              "probability": 0.6159583333333334
+              "probability": 0.6166666666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.9019166666666667
+              "probability": 0.9157916666666667
             },
             {
               "label": "Regular Season Bonus Game",
@@ -1552,10 +1552,10 @@
             },
             {
               "week": 10,
-              "points": 236.2,
-              "potentialPoints": 267.1,
-              "offensePoints": 138.1,
-              "defensePoints": 98.1,
+              "points": 237.4,
+              "potentialPoints": 268.3,
+              "offensePoints": 138.10000000000002,
+              "defensePoints": 99.3,
               "weeklyMoney": false,
               "allPlayRecord": "23-8",
               "allPlayPct": 0.7419354838709677
@@ -1658,7 +1658,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
               "opponentAbbr": "TBB",
               "site": "@",
-              "teamScore": 236.2,
+              "teamScore": 237.4,
               "opponentScore": 179.8,
               "result": "W"
             }
@@ -1724,19 +1724,19 @@
         "pot": 241.45999999999998,
         "off": 113.48000000000002,
         "deff": 95.66,
-        "wins": 12.542708333333334,
-        "predPct": 59.01534498207886,
+        "wins": 12.484416666666666,
+        "predPct": 58.91484094982079,
         "finish": 5,
         "playoffSeed": "5",
         "odds": "100%",
-        "div": "48%",
+        "div": "45%",
         "bye": "0%",
-        "playoffProbability": 0.9995,
-        "divisionProbability": 0.4841666666666667,
+        "playoffProbability": 0.9995833333333334,
+        "divisionProbability": 0.4505,
         "byeProbability": 0.0,
-        "projectedPoints": 2494.474379099194,
-        "projectedPPG": 201.5371895495969,
-        "projectedPotentialPoints": 2883.8920283207162,
+        "projectedPoints": 2498.781716422179,
+        "projectedPPG": 203.69085821108956,
+        "projectedPotentialPoints": 2888.1293081208396,
         "winDetails": {
           "currentWins": 9.5,
           "matchups": [
@@ -1746,7 +1746,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
               "opponentAbbr": "LAR",
               "site": "@",
-              "probability": 0.7666666666666667
+              "probability": 0.71425
             },
             {
               "week": 12,
@@ -1754,19 +1754,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
               "opponentAbbr": "NOS",
               "site": "@",
-              "probability": 0.38404166666666667
+              "probability": 0.38333333333333336
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.8975000000000001
+              "probability": 0.8921666666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9944999999999999
+              "probability": 0.9946666666666667
             }
           ]
         },
@@ -2036,19 +2036,19 @@
         "pot": 241.62999999999997,
         "off": 109.77000000000001,
         "deff": 86.74000000000001,
-        "wins": 9.889625,
-        "predPct": 51.44417562724014,
+        "wins": 9.728041666666666,
+        "predPct": 50.98382616487454,
         "finish": 6,
         "playoffSeed": "6",
-        "odds": "75%",
-        "div": "19%",
+        "odds": "71%",
+        "div": "17%",
         "bye": "0%",
-        "playoffProbability": 0.7515833333333334,
-        "divisionProbability": 0.1905,
+        "playoffProbability": 0.7141666666666666,
+        "divisionProbability": 0.16933333333333334,
         "byeProbability": 0.0,
-        "projectedPoints": 2357.4958943260876,
-        "projectedPPG": 196.19794716304395,
-        "projectedPotentialPoints": 2878.722884992807,
+        "projectedPoints": 2355.631618346358,
+        "projectedPPG": 195.26580917317912,
+        "projectedPotentialPoints": 2876.983621322046,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -2058,7 +2058,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
               "opponentAbbr": "CHI",
               "site": "v.",
-              "probability": 0.4260833333333333
+              "probability": 0.3642916666666667
             },
             {
               "week": 12,
@@ -2066,19 +2066,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
               "opponentAbbr": "PHI",
               "site": "@",
-              "probability": 0.324625
+              "probability": 0.3257083333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.46687500000000004
+              "probability": 0.41200000000000003
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.6720416666666666
+              "probability": 0.6260416666666666
             }
           ]
         },
@@ -2348,19 +2348,19 @@
         "pot": 242.68,
         "off": 86.50999999999999,
         "deff": 106.67999999999999,
-        "wins": 9.917125,
-        "predPct": 48.34594534050179,
+        "wins": 10.093375,
+        "predPct": 48.8457997311828,
         "finish": 7,
         "playoffSeed": "7",
-        "odds": "68%",
-        "div": "11%",
+        "odds": "73%",
+        "div": "16%",
         "bye": "0%",
-        "playoffProbability": 0.6760833333333334,
-        "divisionProbability": 0.11433333333333333,
+        "playoffProbability": 0.7256666666666667,
+        "divisionProbability": 0.15558333333333332,
         "byeProbability": 0.0,
-        "projectedPoints": 2320.906079141864,
-        "projectedPPG": 194.50303957093215,
-        "projectedPotentialPoints": 2887.7972746765304,
+        "projectedPoints": 2335.314130932136,
+        "projectedPPG": 201.70706546606792,
+        "projectedPotentialPoints": 2900.9547979406198,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -2370,7 +2370,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
               "opponentAbbr": "MIN",
               "site": "v.",
-              "probability": 0.5868333333333333
+              "probability": 0.6538333333333334
             },
             {
               "week": 12,
@@ -2378,19 +2378,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
               "opponentAbbr": "DAL",
               "site": "v.",
-              "probability": 0.5839583333333334
+              "probability": 0.5839166666666666
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.3932083333333334
+              "probability": 0.44625
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.353125
+              "probability": 0.409375
             }
           ]
         },
@@ -2627,7 +2627,7 @@
         "h2hRecord": "7-3",
         "bonusRecord": "1-2",
         "apRecord": "146-164",
-        "remainingSos": 32.66129032258065,
+        "remainingSos": 32.822580645161295,
         "ranks": {
           "off": {
             "rank": 20,
@@ -2660,19 +2660,19 @@
         "pot": 245.71999999999997,
         "off": 95.26,
         "deff": 106.58999999999999,
-        "wins": 8.719291666666667,
-        "predPct": 52.301512096774196,
+        "wins": 8.608208333333334,
+        "predPct": 51.96023745519713,
         "finish": 8,
         "playoffSeed": "NA",
-        "odds": "46%",
+        "odds": "43%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.457,
-        "divisionProbability": 0.004333333333333333,
+        "playoffProbability": 0.4349166666666667,
+        "divisionProbability": 0.004833333333333334,
         "byeProbability": 0.0,
-        "projectedPoints": 2374.8819306052346,
-        "projectedPPG": 178.19096530261737,
-        "projectedPotentialPoints": 2887.5761850823437,
+        "projectedPoints": 2374.4529425637143,
+        "projectedPPG": 177.97647128185713,
+        "projectedPotentialPoints": 2887.4066820438993,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -2682,7 +2682,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "v.",
-              "probability": 0.41370833333333334
+              "probability": 0.358625
             },
             {
               "week": 12,
@@ -2690,19 +2690,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
               "opponentAbbr": "WAS",
               "site": "@",
-              "probability": 0.41604166666666664
+              "probability": 0.41608333333333336
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.15279166666666666
+              "probability": 0.12445833333333332
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.73675
+              "probability": 0.7090416666666667
             }
           ]
         },
@@ -2972,8 +2972,8 @@
         "pot": 220.24,
         "off": 94.8,
         "deff": 98.25000000000001,
-        "wins": 5.877083333333333,
-        "predPct": 45.65950940860215,
+        "wins": 5.757708333333333,
+        "predPct": 45.304737903225806,
         "finish": 9,
         "playoffSeed": "NA",
         "odds": "1%",
@@ -2982,9 +2982,9 @@
         "playoffProbability": 0.01375,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2284.2006346414514,
-        "projectedPPG": 176.85031732072585,
-        "projectedPotentialPoints": 2626.2881038880605,
+        "projectedPoints": 2283.9493433479815,
+        "projectedPPG": 176.72467167399103,
+        "projectedPotentialPoints": 2625.9862940981748,
         "winDetails": {
           "currentWins": 4.5,
           "matchups": [
@@ -2994,7 +2994,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
               "opponentAbbr": "ARI",
               "site": "@",
-              "probability": 0.48741666666666666
+              "probability": 0.42391666666666666
             },
             {
               "week": 12,
@@ -3009,12 +3009,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.32108333333333333
+              "probability": 0.28237500000000004
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.135375
+              "probability": 0.11820833333333333
             }
           ]
         },
@@ -3262,7 +3262,7 @@
             "tied": false
           },
           "pot": {
-            "rank": 25,
+            "rank": 26,
             "tied": false
           }
         }
@@ -3284,19 +3284,19 @@
         "pot": 227.44,
         "off": 92.6,
         "deff": 93.39999999999999,
-        "wins": 6.341208333333333,
-        "predPct": 43.884968637992834,
-        "finish": 11,
+        "wins": 6.222166666666666,
+        "predPct": 43.49740143369176,
+        "finish": 12,
         "playoffSeed": "NA",
         "odds": "1%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.014083333333333333,
+        "playoffProbability": 0.01075,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2215.4945282086815,
-        "projectedPPG": 177.7472641043407,
-        "projectedPotentialPoints": 2703.0256657558707,
+        "projectedPoints": 2214.309577060055,
+        "projectedPPG": 177.15478853002736,
+        "projectedPotentialPoints": 2702.458959602595,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -3306,7 +3306,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
               "opponentAbbr": "NOS",
               "site": "v.",
-              "probability": 0.23970833333333333
+              "probability": 0.17629166666666668
             },
             {
               "week": 12,
@@ -3314,19 +3314,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
               "opponentAbbr": "LAR",
               "site": "@",
-              "probability": 0.6005416666666666
+              "probability": 0.600625
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.44445833333333334
+              "probability": 0.3998333333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.0565
+              "probability": 0.04541666666666666
             }
           ]
         },
@@ -3596,19 +3596,19 @@
         "pot": 234.0,
         "off": 77.8,
         "deff": 108.22,
-        "wins": 7.482291666666667,
-        "predPct": 43.61010304659498,
-        "finish": 12,
+        "wins": 7.544083333333333,
+        "predPct": 43.70730286738352,
+        "finish": 11,
         "playoffSeed": "NA",
         "odds": "8%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.07516666666666667,
+        "playoffProbability": 0.084,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2225.1052530087636,
-        "projectedPPG": 182.4526265043819,
-        "projectedPotentialPoints": 2777.8970134254632,
+        "projectedPoints": 2232.694011574504,
+        "projectedPPG": 186.24700578725225,
+        "projectedPotentialPoints": 2785.049093724895,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -3618,7 +3618,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
               "opponentAbbr": "DAL",
               "site": "@",
-              "probability": 0.5862916666666667
+              "probability": 0.641375
             },
             {
               "week": 12,
@@ -3626,19 +3626,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
               "opponentAbbr": "MIN",
               "site": "v.",
-              "probability": 0.6508333333333334
+              "probability": 0.6503333333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.19754166666666667
+              "probability": 0.2016666666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.047625
+              "probability": 0.05070833333333333
             }
           ]
         },
@@ -3843,7 +3843,7 @@
               "opponentAbbr": "CHI",
               "site": "@",
               "teamScore": 155.2,
-              "opponentScore": 281.9,
+              "opponentScore": 282.4,
               "result": "L"
             }
           ],
@@ -3875,7 +3875,7 @@
         "h2hRecord": "5-5",
         "bonusRecord": "1-2",
         "apRecord": "134-176",
-        "remainingSos": 32.66129032258065,
+        "remainingSos": 32.822580645161295,
         "ranks": {
           "off": {
             "rank": 26,
@@ -3908,8 +3908,8 @@
         "pot": 230.36000000000004,
         "off": 76.13000000000001,
         "deff": 104.29,
-        "wins": 4.378458333333334,
-        "predPct": 44.02354390681003,
+        "wins": 4.302333333333333,
+        "predPct": 43.742540322580645,
         "finish": 10,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -3918,9 +3918,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2182.342389055304,
-        "projectedPPG": 189.07119452765193,
-        "projectedPotentialPoints": 2754.8349232743017,
+        "projectedPoints": 2183.5417667803563,
+        "projectedPPG": 189.67088339017806,
+        "projectedPotentialPoints": 2756.020114733453,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -3930,7 +3930,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
               "opponentAbbr": "SFO",
               "site": "@",
-              "probability": 0.35541666666666666
+              "probability": 0.31908333333333333
             },
             {
               "week": 12,
@@ -3945,12 +3945,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.40125
+              "probability": 0.3672916666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.05499999999999999
+              "probability": 0.04916666666666667
             }
           ]
         },
@@ -4155,7 +4155,7 @@
               "opponentAbbr": "NOS",
               "site": "v.",
               "teamScore": 179.8,
-              "opponentScore": 236.2,
+              "opponentScore": 237.4,
               "result": "L"
             }
           ],
@@ -4220,19 +4220,19 @@
         "pot": 222.89000000000001,
         "off": 62.580000000000005,
         "deff": 118.93000000000002,
-        "wins": 7.031875,
-        "predPct": 38.63073476702509,
+        "wins": 7.109083333333333,
+        "predPct": 38.80847894265232,
         "finish": 13,
         "playoffSeed": "NA",
         "odds": "2%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.015583333333333333,
+        "playoffProbability": 0.020083333333333335,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2181.52996892018,
-        "projectedPPG": 183.21498446009014,
-        "projectedPotentialPoints": 2668.29210562113,
+        "projectedPoints": 2190.3426879208355,
+        "projectedPPG": 187.62134396041785,
+        "projectedPotentialPoints": 2676.4771742938833,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -4242,7 +4242,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
               "opponentAbbr": "ATL",
               "site": "v.",
-              "probability": 0.5125833333333333
+              "probability": 0.5760833333333333
             },
             {
               "week": 12,
@@ -4250,19 +4250,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
               "opponentAbbr": "SFO",
               "site": "v.",
-              "probability": 0.3599583333333333
+              "probability": 0.36004166666666665
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.15920833333333334
+              "probability": 0.172625
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.000125
+              "probability": 0.0003333333333333333
             }
           ]
         },
@@ -4532,8 +4532,8 @@
         "pot": 204.66000000000003,
         "off": 85.96000000000001,
         "deff": 86.53,
-        "wins": 4.7515833333333335,
-        "predPct": 35.31490815412186,
+        "wins": 4.951333333333333,
+        "predPct": 36.25723566308244,
         "finish": 14,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -4542,9 +4542,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2064.0048673501415,
-        "projectedPPG": 169.5524336750709,
-        "projectedPotentialPoints": 2459.418521126227,
+        "projectedPoints": 2086.129027160044,
+        "projectedPPG": 180.61451358002225,
+        "projectedPotentialPoints": 2479.143970880718,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -4554,7 +4554,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
               "opponentAbbr": "PHI",
               "site": "@",
-              "probability": 0.24308333333333335
+              "probability": 0.34641666666666665
             },
             {
               "week": 12,
@@ -4562,14 +4562,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
               "opponentAbbr": "CHI",
               "site": "@",
-              "probability": 0.2425
+              "probability": 0.24233333333333335
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.266
+              "probability": 0.36258333333333337
             },
             {
               "label": "Regular Season Bonus Game",
@@ -4779,7 +4779,7 @@
               "opponentAbbr": "MIN",
               "site": "@",
               "teamScore": 193.5,
-              "opponentScore": 211.7,
+              "opponentScore": 213.2,
               "result": "L"
             }
           ],
@@ -4844,8 +4844,8 @@
         "pot": 209.01999999999998,
         "off": 78.07000000000001,
         "deff": 97.24,
-        "wins": 4.150083333333333,
-        "predPct": 34.13446460573476,
+        "wins": 4.24925,
+        "predPct": 34.556395609319,
         "finish": 15,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -4854,9 +4854,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2093.68743572233,
-        "projectedPPG": 170.2937178611651,
-        "projectedPotentialPoints": 2503.737740292096,
+        "projectedPoints": 2106.9902911659283,
+        "projectedPPG": 176.9451455829642,
+        "projectedPotentialPoints": 2515.5914125004056,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -4866,7 +4866,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
               "opponentAbbr": "CAR",
               "site": "v.",
-              "probability": 0.23333333333333334
+              "probability": 0.28575
             },
             {
               "week": 12,
@@ -4874,14 +4874,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
               "opponentAbbr": "SEA",
               "site": "v.",
-              "probability": 0.39945833333333336
+              "probability": 0.399375
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.5172916666666667
+              "probability": 0.564125
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5141,8 +5141,8 @@
       },
       {
         "division": "01",
-        "potentialPointsTotal": 1793.3999999999999,
-        "pointsTotal": 1396.8,
+        "potentialPointsTotal": 1794.8999999999999,
+        "pointsTotal": 1398.3,
         "franchise_id": "0008",
         "name": "Minnesota Vikings",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
@@ -5151,13 +5151,13 @@
         "projectedQual": "",
         "qual": "",
         "record": "1-12",
-        "apPct": 0.11129032258064517,
-        "ppg": "139.7",
-        "pot": 179.33999999999997,
+        "apPct": 0.11451612903225807,
+        "ppg": "139.8",
+        "pot": 179.48999999999998,
         "off": 56.129999999999995,
-        "deff": 83.55,
-        "wins": 2.1410833333333334,
-        "predPct": 15.53788082437276,
+        "deff": 83.7,
+        "wins": 2.0865416666666667,
+        "predPct": 15.711279121863797,
         "finish": 16,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -5166,9 +5166,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 1738.292017823424,
-        "projectedPPG": 170.746008911712,
-        "projectedPotentialPoints": 2210.0558570015273,
+        "projectedPoints": 1744.0048061521604,
+        "projectedPPG": 172.85240307608026,
+        "projectedPotentialPoints": 2215.636490440253,
         "winDetails": {
           "currentWins": 1.0,
           "matchups": [
@@ -5178,7 +5178,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
               "opponentAbbr": "WAS",
               "site": "@",
-              "probability": 0.4131666666666667
+              "probability": 0.3461666666666667
             },
             {
               "week": 12,
@@ -5186,14 +5186,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
               "opponentAbbr": "DET",
               "site": "@",
-              "probability": 0.3491666666666667
+              "probability": 0.3496666666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.37875000000000003
+              "probability": 0.3907083333333333
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5296,13 +5296,13 @@
             },
             {
               "week": 10,
-              "points": 211.7,
-              "potentialPoints": 218.4,
+              "points": 213.2,
+              "potentialPoints": 219.9,
               "offensePoints": 82.79999999999998,
-              "defensePoints": 128.9,
+              "defensePoints": 130.4,
               "weeklyMoney": false,
-              "allPlayRecord": "19-12",
-              "allPlayPct": 0.6129032258064516
+              "allPlayRecord": "20-11",
+              "allPlayPct": 0.6451612903225806
             }
           ],
           "matchups": [
@@ -5402,7 +5402,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
               "opponentAbbr": "GBP",
               "site": "v.",
-              "teamScore": 211.7,
+              "teamScore": 213.2,
               "opponentScore": 193.5,
               "result": "W"
             }
@@ -5434,7 +5434,7 @@
         "potentialApRecord": "24-286",
         "h2hRecord": "1-9",
         "bonusRecord": "0-3",
-        "apRecord": "34-275-1",
+        "apRecord": "35-274-1",
         "remainingSos": 45.16129032258064,
         "ranks": {
           "off": {
@@ -5470,19 +5470,19 @@
         "pot": 272.88,
         "off": 120.07000000000001,
         "deff": 103.78999999999999,
-        "wins": 14.060583333333334,
-        "predPct": 69.67528001792115,
+        "wins": 14.168708333333333,
+        "predPct": 70.13909050179211,
         "finish": 1,
         "playoffSeed": "1",
         "odds": "100%",
-        "div": "93%",
-        "bye": "56%",
+        "div": "94%",
+        "bye": "62%",
         "playoffProbability": 1.0,
-        "divisionProbability": 0.9286666666666666,
-        "byeProbability": 0.5593333333333333,
-        "projectedPoints": 2656.817833571998,
-        "projectedPPG": 209.10891678599904,
-        "projectedPotentialPoints": 3215.82118199657,
+        "divisionProbability": 0.9425,
+        "byeProbability": 0.6161666666666666,
+        "projectedPoints": 2671.5095132350643,
+        "projectedPPG": 216.45475661753215,
+        "projectedPotentialPoints": 3229.7726744177476,
         "winDetails": {
           "currentWins": 11.0,
           "matchups": [
@@ -5492,7 +5492,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
               "opponentAbbr": "LVR",
               "site": "v.",
-              "probability": 0.5175833333333333
+              "probability": 0.6000416666666667
             },
             {
               "week": 12,
@@ -5500,14 +5500,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
               "opponentAbbr": "HOU",
               "site": "v.",
-              "probability": 0.6449166666666667
+              "probability": 0.6449583333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.8980833333333333
+              "probability": 0.9237083333333332
             },
             {
               "label": "Regular Season Bonus Game",
@@ -5782,19 +5782,19 @@
         "pot": 256.77,
         "off": 109.78,
         "deff": 112.72000000000003,
-        "wins": 13.287625,
-        "predPct": 69.06270161290323,
+        "wins": 13.185458333333333,
+        "predPct": 68.89056899641577,
         "finish": 2,
         "playoffSeed": "2",
         "odds": "100%",
-        "div": "93%",
-        "bye": "44%",
+        "div": "92%",
+        "bye": "38%",
         "playoffProbability": 1.0,
-        "divisionProbability": 0.9289166666666666,
-        "byeProbability": 0.43675,
-        "projectedPoints": 2632.016644641233,
-        "projectedPPG": 203.50832232061668,
-        "projectedPotentialPoints": 3042.8771994794542,
+        "divisionProbability": 0.92125,
+        "byeProbability": 0.381,
+        "projectedPoints": 2635.0442555135787,
+        "projectedPPG": 205.02212775678936,
+        "projectedPotentialPoints": 3045.8682521848523,
         "winDetails": {
           "currentWins": 10.5,
           "matchups": [
@@ -5804,7 +5804,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
               "opponentAbbr": "JAC",
               "site": "@",
-              "probability": 0.48241666666666666
+              "probability": 0.39995833333333336
             },
             {
               "week": 12,
@@ -5812,14 +5812,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "@",
-              "probability": 0.560875
+              "probability": 0.5607916666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7443333333333334
+              "probability": 0.7247083333333334
             },
             {
               "label": "Regular Season Bonus Game",
@@ -6094,19 +6094,19 @@
         "pot": 252.20000000000005,
         "off": 120.44000000000001,
         "deff": 98.13,
-        "wins": 10.940791666666666,
-        "predPct": 59.99679659498208,
+        "wins": 10.920041666666666,
+        "predPct": 59.87816980286739,
         "finish": 3,
         "playoffSeed": "3",
-        "odds": "96%",
-        "div": "7%",
+        "odds": "95%",
+        "div": "8%",
         "bye": "0%",
-        "playoffProbability": 0.9604166666666667,
-        "divisionProbability": 0.07108333333333333,
-        "byeProbability": 0.00325,
-        "projectedPoints": 2583.691756768303,
-        "projectedPPG": 198.99587838415133,
-        "projectedPotentialPoints": 2988.0144214835664,
+        "playoffProbability": 0.9476666666666667,
+        "divisionProbability": 0.07875,
+        "byeProbability": 0.00225,
+        "projectedPoints": 2587.6290606581256,
+        "projectedPPG": 200.96453032906263,
+        "projectedPotentialPoints": 2991.775448208033,
         "winDetails": {
           "currentWins": 8.0,
           "matchups": [
@@ -6116,7 +6116,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
               "opponentAbbr": "HOU",
               "site": "@",
-              "probability": 0.5755416666666666
+              "probability": 0.559625
             },
             {
               "week": 12,
@@ -6124,19 +6124,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
               "opponentAbbr": "LVR",
               "site": "v.",
-              "probability": 0.439125
+              "probability": 0.4392083333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.9284583333333334
+              "probability": 0.9237916666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9976666666666667
+              "probability": 0.9974166666666666
             }
           ]
         },
@@ -6341,7 +6341,7 @@
               "opponentAbbr": "KCC",
               "site": "v.",
               "teamScore": 315.8,
-              "opponentScore": 184.2,
+              "opponentScore": 185.7,
               "result": "W"
             }
           ],
@@ -6406,19 +6406,19 @@
         "pot": 241.11999999999998,
         "off": 107.35999999999999,
         "deff": 98.03999999999999,
-        "wins": 11.040583333333334,
-        "predPct": 58.31350806451613,
+        "wins": 11.054708333333334,
+        "predPct": 58.32424955197133,
         "finish": 4,
         "playoffSeed": "4",
-        "odds": "97%",
-        "div": "7%",
+        "odds": "96%",
+        "div": "6%",
         "bye": "0%",
-        "playoffProbability": 0.973,
-        "divisionProbability": 0.07133333333333333,
-        "byeProbability": 0.0005,
-        "projectedPoints": 2439.136341373329,
-        "projectedPPG": 192.56817068666442,
-        "projectedPotentialPoints": 2866.670073885346,
+        "playoffProbability": 0.9628333333333333,
+        "divisionProbability": 0.0575,
+        "byeProbability": 0.0004166666666666667,
+        "projectedPoints": 2445.3480366745925,
+        "projectedPPG": 195.67401833729616,
+        "projectedPotentialPoints": 2872.130213432635,
         "winDetails": {
           "currentWins": 9.0,
           "matchups": [
@@ -6428,7 +6428,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "v.",
-              "probability": 0.4244583333333333
+              "probability": 0.440375
             },
             {
               "week": 12,
@@ -6436,19 +6436,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
               "opponentAbbr": "JAC",
               "site": "@",
-              "probability": 0.3550833333333333
+              "probability": 0.35504166666666664
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.2700416666666667
+              "probability": 0.2680416666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.991
+              "probability": 0.99125
             }
           ]
         },
@@ -6718,19 +6718,19 @@
         "pot": 240.32000000000002,
         "off": 99.54,
         "deff": 107.25,
-        "wins": 9.504333333333333,
-        "predPct": 54.685024641577066,
+        "wins": 9.858833333333333,
+        "predPct": 55.8719982078853,
         "finish": 5,
         "playoffSeed": "5",
-        "odds": "60%",
-        "div": "37%",
+        "odds": "69%",
+        "div": "36%",
         "bye": "0%",
-        "playoffProbability": 0.5963333333333334,
-        "divisionProbability": 0.36633333333333334,
+        "playoffProbability": 0.6874166666666667,
+        "divisionProbability": 0.35975,
         "byeProbability": 8.333333333333333e-05,
-        "projectedPoints": 2442.376819793683,
-        "projectedPPG": 187.2384098968414,
-        "projectedPotentialPoints": 2846.8338492972994,
+        "projectedPoints": 2468.5251945842447,
+        "projectedPPG": 200.31259729212226,
+        "projectedPotentialPoints": 2870.966721454498,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -6740,7 +6740,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
               "opponentAbbr": "CLE",
               "site": "@",
-              "probability": 0.38658333333333333
+              "probability": 0.5770416666666667
             },
             {
               "week": 12,
@@ -6748,19 +6748,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "@",
-              "probability": 0.557375
+              "probability": 0.5572916666666666
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.6570833333333334
+              "probability": 0.7734166666666668
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9032916666666666
+              "probability": 0.9510833333333333
             }
           ]
         },
@@ -7015,8 +7015,8 @@
       },
       {
         "division": "05",
-        "potentialPointsTotal": 2479.5,
-        "pointsTotal": 2084.6000000000004,
+        "potentialPointsTotal": 2480.7000000000003,
+        "pointsTotal": 2085.8,
         "franchise_id": "0021",
         "name": "Baltimore Ravens",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
@@ -7026,23 +7026,23 @@
         "qual": "y",
         "record": "7-6",
         "apPct": 0.5387096774193548,
-        "ppg": "208.5",
-        "pot": 247.95,
+        "ppg": "208.6",
+        "pot": 248.07000000000002,
         "off": 112.7,
-        "deff": 95.76,
-        "wins": 9.713041666666667,
-        "predPct": 53.64935035842294,
+        "deff": 95.88000000000001,
+        "wins": 9.673458333333333,
+        "predPct": 53.3051747311828,
         "finish": 6,
         "playoffSeed": "6",
-        "odds": "87%",
-        "div": "87%",
+        "odds": "88%",
+        "div": "88%",
         "bye": "0%",
-        "playoffProbability": 0.86925,
-        "divisionProbability": 0.8665833333333334,
+        "playoffProbability": 0.8808333333333334,
+        "divisionProbability": 0.87925,
         "byeProbability": 0.0,
-        "projectedPoints": 2468.1711748678613,
-        "projectedPPG": 191.7855874339307,
-        "projectedPotentialPoints": 2933.9378376338027,
+        "projectedPoints": 2469.4515938987024,
+        "projectedPPG": 191.82579694935134,
+        "projectedPotentialPoints": 2934.91640571134,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -7052,7 +7052,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "v.",
-              "probability": 0.41075
+              "probability": 0.4049583333333333
             },
             {
               "week": 12,
@@ -7060,19 +7060,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
               "opponentAbbr": "CLE",
               "site": "@",
-              "probability": 0.5740833333333333
+              "probability": 0.5745833333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.878375
+              "probability": 0.86075
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.8498333333333333
+              "probability": 0.8331666666666667
             }
           ]
         },
@@ -7170,10 +7170,10 @@
             },
             {
               "week": 10,
-              "points": 310.0,
-              "potentialPoints": 341.2,
+              "points": 311.2,
+              "potentialPoints": 342.4,
               "offensePoints": 208.5,
-              "defensePoints": 101.5,
+              "defensePoints": 102.7,
               "weeklyMoney": false,
               "allPlayRecord": "29-2",
               "allPlayPct": 0.9354838709677419
@@ -7276,7 +7276,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "v.",
-              "teamScore": 310.0,
+              "teamScore": 311.2,
               "opponentScore": 206.9,
               "result": "W"
             }
@@ -7316,8 +7316,8 @@
             "tied": false
           },
           "deff": {
-            "rank": 25,
-            "tied": false
+            "rank": 24,
+            "tied": true
           },
           "pot": {
             "rank": 8,
@@ -7327,8 +7327,8 @@
       },
       {
         "division": "04",
-        "potentialPointsTotal": 2448.1,
-        "pointsTotal": 1989.7,
+        "potentialPointsTotal": 2448.6,
+        "pointsTotal": 1989.2,
         "franchise_id": "0017",
         "name": "Buffalo Bills",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
@@ -7338,23 +7338,23 @@
         "qual": "y",
         "record": "7-5-1",
         "apPct": 0.532258064516129,
-        "ppg": "199.0",
-        "pot": 244.81,
+        "ppg": "198.9",
+        "pot": 244.85999999999999,
         "off": 95.94000000000001,
-        "deff": 103.03000000000002,
-        "wins": 9.704666666666666,
-        "predPct": 51.78884408602151,
+        "deff": 102.98000000000002,
+        "wins": 10.103875,
+        "predPct": 53.026456093189964,
         "finish": 7,
         "playoffSeed": "7",
-        "odds": "57%",
-        "div": "44%",
+        "odds": "67%",
+        "div": "51%",
         "bye": "0%",
-        "playoffProbability": 0.56575,
-        "divisionProbability": 0.4374166666666667,
+        "playoffProbability": 0.6696666666666666,
+        "divisionProbability": 0.50875,
         "byeProbability": 0.0,
-        "projectedPoints": 2351.289810131187,
-        "projectedPPG": 180.79490506559358,
-        "projectedPotentialPoints": 2883.275124516428,
+        "projectedPoints": 2377.7720753367116,
+        "projectedPPG": 194.28603766835587,
+        "projectedPotentialPoints": 2908.0667805911235,
         "winDetails": {
           "currentWins": 7.5,
           "matchups": [
@@ -7364,7 +7364,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "@",
-              "probability": 0.6635
+              "probability": 0.82575
             },
             {
               "week": 12,
@@ -7372,19 +7372,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
               "opponentAbbr": "NEP",
               "site": "v.",
-              "probability": 0.6030833333333333
+              "probability": 0.6034166666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.248875
+              "probability": 0.3737083333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.6892083333333333
+              "probability": 0.801
             }
           ]
         },
@@ -7482,10 +7482,10 @@
             },
             {
               "week": 10,
-              "points": 175.3,
-              "potentialPoints": 222.4,
+              "points": 174.8,
+              "potentialPoints": 222.9,
               "offensePoints": 99.9,
-              "defensePoints": 75.4,
+              "defensePoints": 74.9,
               "weeklyMoney": false,
               "allPlayRecord": "9-22",
               "allPlayPct": 0.2903225806451613
@@ -7588,7 +7588,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
               "opponentAbbr": "MIA",
               "site": "v.",
-              "teamScore": 175.3,
+              "teamScore": 174.8,
               "opponentScore": 243.8,
               "result": "L"
             }
@@ -7654,19 +7654,19 @@
         "pot": 232.82,
         "off": 84.9,
         "deff": 118.42,
-        "wins": 8.732041666666667,
-        "predPct": 54.742529121863804,
-        "finish": 9,
+        "wins": 8.695916666666667,
+        "predPct": 54.441028225806456,
+        "finish": 8,
         "playoffSeed": "NA",
-        "odds": "36%",
-        "div": "20%",
+        "odds": "31%",
+        "div": "13%",
         "bye": "0%",
-        "playoffProbability": 0.36083333333333334,
-        "divisionProbability": 0.19625,
+        "playoffProbability": 0.3094166666666667,
+        "divisionProbability": 0.1315,
         "byeProbability": 8.333333333333333e-05,
-        "projectedPoints": 2415.2127250621415,
-        "projectedPPG": 191.0063625310706,
-        "projectedPotentialPoints": 2778.826874063057,
+        "projectedPoints": 2416.094796065937,
+        "projectedPPG": 191.4473980329683,
+        "projectedPotentialPoints": 2779.33909824569,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -7676,7 +7676,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
               "opponentAbbr": "BAL",
               "site": "@",
-              "probability": 0.58925
+              "probability": 0.5950416666666667
             },
             {
               "week": 12,
@@ -7684,19 +7684,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
               "opponentAbbr": "NYJ",
               "site": "v.",
-              "probability": 0.442625
+              "probability": 0.4427083333333333
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7956666666666666
+              "probability": 0.76875
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9045000000000001
+              "probability": 0.8894166666666666
             }
           ]
         },
@@ -7901,7 +7901,7 @@
               "opponentAbbr": "BUF",
               "site": "@",
               "teamScore": 243.8,
-              "opponentScore": 175.3,
+              "opponentScore": 174.8,
               "result": "W"
             }
           ],
@@ -7929,7 +7929,7 @@
             }
           ]
         },
-        "potentialApRecord": "150-160",
+        "potentialApRecord": "149-161",
         "h2hRecord": "5-5",
         "bonusRecord": "1-2",
         "apRecord": "171-138-1",
@@ -7961,24 +7961,24 @@
         "projectedQual": "",
         "qual": "",
         "record": "5-7-1",
-        "apPct": 0.5451612903225806,
+        "apPct": 0.5419354838709678,
         "ppg": "198.6",
         "pot": 230.21999999999997,
         "off": 108.47999999999999,
         "deff": 90.09,
-        "wins": 8.460541666666666,
-        "predPct": 54.96102150537635,
-        "finish": 8,
+        "wins": 8.384166666666667,
+        "predPct": 54.37475358422938,
+        "finish": 9,
         "playoffSeed": "NA",
-        "odds": "23%",
+        "odds": "17%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.23191666666666666,
+        "playoffProbability": 0.17391666666666666,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2382.5327015404946,
-        "projectedPPG": 198.4163507702472,
-        "projectedPotentialPoints": 2766.745306439811,
+        "projectedPoints": 2383.1883034530947,
+        "projectedPPG": 198.74415172654733,
+        "projectedPotentialPoints": 2767.291275055904,
         "winDetails": {
           "currentWins": 5.5,
           "matchups": [
@@ -7988,7 +7988,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
               "opponentAbbr": "LAC",
               "site": "v.",
-              "probability": 0.6584166666666667
+              "probability": 0.66075
             },
             {
               "week": 12,
@@ -8003,12 +8003,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.7668333333333334
+              "probability": 0.7132499999999999
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.9116249999999999
+              "probability": 0.8865
             }
           ]
         },
@@ -8111,8 +8111,8 @@
               "offensePoints": 122.70000000000002,
               "defensePoints": 90.1,
               "weeklyMoney": false,
-              "allPlayRecord": "20-11",
-              "allPlayPct": 0.6451612903225806
+              "allPlayRecord": "19-12",
+              "allPlayPct": 0.6129032258064516
             }
           ],
           "matchups": [
@@ -8244,7 +8244,7 @@
         "potentialApRecord": "140-170",
         "h2hRecord": "4-6",
         "bonusRecord": "1-1-1",
-        "apRecord": "169-141",
+        "apRecord": "168-142",
         "remainingSos": 48.38709677419355,
         "ranks": {
           "off": {
@@ -8278,19 +8278,19 @@
         "pot": 237.92000000000002,
         "off": 75.17999999999999,
         "deff": 121.67,
-        "wins": 8.732291666666667,
-        "predPct": 50.51093189964158,
+        "wins": 8.6585,
+        "predPct": 50.19363799283154,
         "finish": 10,
         "playoffSeed": "NA",
-        "odds": "30%",
+        "odds": "24%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.2985,
+        "playoffProbability": 0.2415,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2330.7327252936725,
-        "projectedPPG": 181.11636264683636,
-        "projectedPotentialPoints": 2814.8310833303235,
+        "projectedPoints": 2331.120292651558,
+        "projectedPPG": 181.31014632577904,
+        "projectedPotentialPoints": 2815.0786937680205,
         "winDetails": {
           "currentWins": 7.0,
           "matchups": [
@@ -8300,7 +8300,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
               "opponentAbbr": "TEN",
               "site": "@",
-              "probability": 0.34158333333333335
+              "probability": 0.33925
             },
             {
               "week": 12,
@@ -8308,19 +8308,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
               "opponentAbbr": "KCC",
               "site": "@",
-              "probability": 0.50025
+              "probability": 0.499375
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.33037500000000003
+              "probability": 0.2927916666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.5600833333333334
+              "probability": 0.5270833333333333
             }
           ]
         },
@@ -8557,7 +8557,7 @@
         "h2hRecord": "6-4",
         "bonusRecord": "1-2",
         "apRecord": "160-150",
-        "remainingSos": 49.11290322580645,
+        "remainingSos": 48.95161290322581,
         "ranks": {
           "off": {
             "rank": 29,
@@ -8590,19 +8590,19 @@
         "pot": 218.67999999999998,
         "off": 90.33999999999999,
         "deff": 98.57000000000001,
-        "wins": 6.1146666666666665,
-        "predPct": 44.56002464157706,
+        "wins": 6.087291666666666,
+        "predPct": 44.280365143369174,
         "finish": 11,
         "playoffSeed": "NA",
-        "odds": "1%",
+        "odds": "0%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.006416666666666667,
+        "playoffProbability": 0.00375,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2242.287116539101,
-        "projectedPPG": 176.59355826955056,
-        "projectedPotentialPoints": 2611.706660191741,
+        "projectedPoints": 2243.2385185601656,
+        "projectedPPG": 177.06925928008295,
+        "projectedPotentialPoints": 2612.278899775453,
         "winDetails": {
           "currentWins": 5.0,
           "matchups": [
@@ -8612,7 +8612,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
               "opponentAbbr": "KCC",
               "site": "v.",
-              "probability": 0.4865833333333333
+              "probability": 0.49270833333333336
             },
             {
               "week": 12,
@@ -8627,12 +8627,12 @@
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.170875
+              "probability": 0.14920833333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.080875
+              "probability": 0.06904166666666667
             }
           ]
         },
@@ -8869,7 +8869,7 @@
         "h2hRecord": "4-6",
         "bonusRecord": "1-2",
         "apRecord": "140-170",
-        "remainingSos": 49.11290322580645,
+        "remainingSos": 48.95161290322581,
         "ranks": {
           "off": {
             "rank": 19,
@@ -8887,8 +8887,8 @@
       },
       {
         "division": "07",
-        "potentialPointsTotal": 2201.3,
-        "pointsTotal": 1876.2,
+        "potentialPointsTotal": 2202.8,
+        "pointsTotal": 1877.7,
         "franchise_id": "0030",
         "name": "Kansas City Chiefs",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
@@ -8898,12 +8898,12 @@
         "qual": "",
         "record": "3-10",
         "apPct": 0.43709677419354837,
-        "ppg": "187.6",
-        "pot": 220.13000000000002,
+        "ppg": "187.8",
+        "pot": 220.28000000000003,
         "off": 97.4,
-        "deff": 90.22,
-        "wins": 4.399166666666667,
-        "predPct": 43.72488799283155,
+        "deff": 90.37,
+        "wins": 4.347916666666666,
+        "predPct": 43.40498431899641,
         "finish": 12,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -8912,9 +8912,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2236.0646211242956,
-        "projectedPPG": 179.9323105621477,
-        "projectedPotentialPoints": 2632.397786251558,
+        "projectedPoints": 2237.766336225146,
+        "projectedPPG": 180.03316811257298,
+        "projectedPotentialPoints": 2633.753347291176,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -8924,7 +8924,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
               "opponentAbbr": "IND",
               "site": "@",
-              "probability": 0.5134166666666666
+              "probability": 0.5072916666666667
             },
             {
               "week": 12,
@@ -8932,19 +8932,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
               "opponentAbbr": "LAC",
               "site": "v.",
-              "probability": 0.49975
+              "probability": 0.500625
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.3344166666666667
+              "probability": 0.2965416666666667
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.051583333333333335
+              "probability": 0.043458333333333335
             }
           ]
         },
@@ -9042,10 +9042,10 @@
             },
             {
               "week": 10,
-              "points": 184.2,
-              "potentialPoints": 235.8,
+              "points": 185.7,
+              "potentialPoints": 237.3,
               "offensePoints": 76.99999999999999,
-              "defensePoints": 107.2,
+              "defensePoints": 108.7,
               "weeklyMoney": false,
               "allPlayRecord": "13-18",
               "allPlayPct": 0.41935483870967744
@@ -9148,7 +9148,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
               "opponentAbbr": "DEN",
               "site": "@",
-              "teamScore": 184.2,
+              "teamScore": 185.7,
               "opponentScore": 315.8,
               "result": "L"
             }
@@ -9192,7 +9192,7 @@
             "tied": false
           },
           "pot": {
-            "rank": 26,
+            "rank": 25,
             "tied": false
           }
         }
@@ -9214,19 +9214,19 @@
         "pot": 223.51999999999998,
         "off": 86.31,
         "deff": 95.88,
-        "wins": 7.226541666666667,
-        "predPct": 41.964628136200716,
+        "wins": 7.0092083333333335,
+        "predPct": 41.6054435483871,
         "finish": 13,
         "playoffSeed": "NA",
-        "odds": "14%",
-        "div": "13%",
+        "odds": "12%",
+        "div": "12%",
         "bye": "0%",
-        "playoffProbability": 0.13708333333333333,
-        "divisionProbability": 0.13291666666666666,
+        "playoffProbability": 0.12241666666666666,
+        "divisionProbability": 0.12016666666666667,
         "byeProbability": 0.0,
-        "projectedPoints": 2208.3100672007163,
-        "projectedPPG": 193.2050336003582,
-        "projectedPotentialPoints": 2691.931616928634,
+        "projectedPoints": 2208.246593410402,
+        "projectedPPG": 193.17329670520104,
+        "projectedPotentialPoints": 2691.8541860222617,
         "winDetails": {
           "currentWins": 6.0,
           "matchups": [
@@ -9236,7 +9236,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
               "opponentAbbr": "NYJ",
               "site": "v.",
-              "probability": 0.6134166666666667
+              "probability": 0.4229583333333333
             },
             {
               "week": 12,
@@ -9244,19 +9244,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
               "opponentAbbr": "BAL",
               "site": "v.",
-              "probability": 0.42591666666666667
+              "probability": 0.42541666666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.17804166666666665
+              "probability": 0.15325
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.009166666666666667
+              "probability": 0.007583333333333333
             }
           ]
         },
@@ -9501,7 +9501,7 @@
           },
           "deff": {
             "rank": 24,
-            "tied": false
+            "tied": true
           },
           "pot": {
             "rank": 22,
@@ -9526,8 +9526,8 @@
         "pot": 217.25,
         "off": 72.07000000000001,
         "deff": 104.4,
-        "wins": 4.06125,
-        "predPct": 37.23175403225807,
+        "wins": 3.8662083333333332,
+        "predPct": 36.94217069892473,
         "finish": 14,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -9536,9 +9536,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2092.741712500268,
-        "projectedPPG": 164.02085625013393,
-        "projectedPotentialPoints": 2577.0257528781644,
+        "projectedPoints": 2091.990311294322,
+        "projectedPPG": 163.6451556471609,
+        "projectedPotentialPoints": 2576.3602091898406,
         "winDetails": {
           "currentWins": 3.0,
           "matchups": [
@@ -9548,7 +9548,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
               "opponentAbbr": "BUF",
               "site": "v.",
-              "probability": 0.3365
+              "probability": 0.17425
             },
             {
               "week": 12,
@@ -9556,19 +9556,19 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
               "opponentAbbr": "CIN",
               "site": "@",
-              "probability": 0.4771666666666667
+              "probability": 0.47720833333333335
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.24745833333333334
+              "probability": 0.21470833333333333
             },
             {
               "label": "Regular Season Bonus Game",
               "week": 12,
-              "probability": 0.000125
+              "probability": 4.1666666666666665e-05
             }
           ]
         },
@@ -9773,7 +9773,7 @@
               "opponentAbbr": "BAL",
               "site": "@",
               "teamScore": 206.9,
-              "opponentScore": 310.0,
+              "opponentScore": 311.2,
               "result": "L"
             }
           ],
@@ -9838,8 +9838,8 @@
         "pot": 221.79999999999995,
         "off": 77.24000000000001,
         "deff": 98.41,
-        "wins": 5.258333333333334,
-        "predPct": 35.07236783154122,
+        "wins": 5.257958333333334,
+        "predPct": 34.84585573476703,
         "finish": 15,
         "playoffSeed": "NA",
         "odds": "0%",
@@ -9848,9 +9848,9 @@
         "playoffProbability": 0.0,
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
-        "projectedPoints": 2120.62307388164,
-        "projectedPPG": 182.0615369408199,
-        "projectedPotentialPoints": 2654.4472473084634,
+        "projectedPoints": 2122.817252020967,
+        "projectedPPG": 183.15862601048352,
+        "projectedPotentialPoints": 2656.08238500518,
         "winDetails": {
           "currentWins": 4.0,
           "matchups": [
@@ -9860,7 +9860,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
               "opponentAbbr": "CIN",
               "site": "@",
-              "probability": 0.7474166666666666
+              "probability": 0.75875
             },
             {
               "week": 12,
@@ -9868,14 +9868,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
               "opponentAbbr": "BUF",
               "site": "@",
-              "probability": 0.39691666666666664
+              "probability": 0.39658333333333334
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.11399999999999999
+              "probability": 0.10262500000000001
             },
             {
               "label": "Regular Season Bonus Game",
@@ -10150,19 +10150,19 @@
         "pot": 212.07,
         "off": 82.19000000000001,
         "deff": 97.6,
-        "wins": 5.325958333333333,
-        "predPct": 32.326400089605734,
+        "wins": 5.304,
+        "predPct": 32.06295922939068,
         "finish": 16,
         "playoffSeed": "NA",
         "odds": "0%",
         "div": "0%",
         "bye": "0%",
-        "playoffProbability": 0.0005,
-        "divisionProbability": 0.0005,
+        "playoffProbability": 0.0005833333333333334,
+        "divisionProbability": 0.0005833333333333334,
         "byeProbability": 0.0,
-        "projectedPoints": 2131.1776416190937,
-        "projectedPPG": 166.63882080954681,
-        "projectedPotentialPoints": 2528.0492646696603,
+        "projectedPoints": 2131.193627134324,
+        "projectedPPG": 166.64681356716198,
+        "projectedPotentialPoints": 2527.99002297145,
         "winDetails": {
           "currentWins": 4.5,
           "matchups": [
@@ -10172,7 +10172,7 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
               "opponentAbbr": "NEP",
               "site": "v.",
-              "probability": 0.2525833333333333
+              "probability": 0.24125
             },
             {
               "week": 12,
@@ -10180,14 +10180,14 @@
               "opponentLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
               "opponentAbbr": "PIT",
               "site": "v.",
-              "probability": 0.5228333333333334
+              "probability": 0.5227916666666667
             }
           ],
           "bonusGames": [
             {
               "label": "Q4 Bonus Game",
               "week": 12,
-              "probability": 0.050541666666666665
+              "probability": 0.03995833333333333
             },
             {
               "label": "Regular Season Bonus Game",
