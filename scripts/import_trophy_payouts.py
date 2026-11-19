@@ -1,10 +1,11 @@
 import json,re,hashlib,math,sys,os
 from pathlib import Path
 import openpyxl
+from nfl_teams import mfl_team
 ROOT=Path(__file__).resolve().parents[1]; CACHE=Path(sys.argv[1])
 RAW=Path(sys.argv[2])
 codes='DAL NYG PHI WAS CHI DET GBP MIN ATL CAR NOS TBB ARI SFO SEA LAR BUF MIA NEP NYJ BAL CIN CLE PIT HOU IND JAC TEN DEN KCC LVR LAC'.split()
-norm=lambda x: {'OAK':'LVR','NOR':'NOS','SDC':'LAC','STL':'LAR'}.get(x,x)
+norm=mfl_team
 history=json.loads((ROOT/'data/gm_career_seasons.json').read_text())
 seasons={}; champions=[]; records=[]; metrics=json.loads((ROOT/'data/trophy_room/award_metrics.json').read_text())
 arr=lambda x: x if isinstance(x,list) else ([] if x is None else [x])

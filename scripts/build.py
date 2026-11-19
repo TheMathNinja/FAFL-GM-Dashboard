@@ -2,6 +2,7 @@
 import argparse,json,html,os,time,urllib.request
 from datetime import date,datetime,timedelta,timezone
 from pathlib import Path
+from nfl_teams import provider_team
 import numpy as np
 import pandas as pd
 import quarterly_bonus as shared
@@ -236,7 +237,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
  if not np.isclose(bonus_prob['Regular Season Bonus Game'].sum(),16,atol=1e-9):
   raise ValueError('Regular Season Bonus Game does not have 16 adjusted wins')
  def team_logo(f):
-  abbr=f['abbrev'];slug={'GBP':'gb','JAC':'jax','KCC':'kc','LAR':'lar','LVR':'lv','NEP':'ne','NOS':'no','SFO':'sf','TBB':'tb','WAS':'wsh'}.get(abbr,abbr.lower())
+  abbr=f['abbrev'];slug=provider_team(abbr,'espn').lower()
   return f'https://a.espncdn.com/i/teamlogos/nfl/500/{slug}.png'
  actual_ap=((actual[:,:,None]>actual[:,None,:]).sum(-1)+.5*((actual[:,:,None]==actual[:,None,:]).sum(-1)-1))
  def record_text(w,l,t):return f'{w}-{l}'+(f'-{t}' if t else '')

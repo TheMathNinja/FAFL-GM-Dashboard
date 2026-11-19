@@ -1,5 +1,9 @@
 # Coordinated League Changes
 
+## NFL Team Identity
+
+Use MFL three-letter NFL teams internally; normalize aliases with config/nfl_teams.json and scripts/nfl_teams.py. External provider codes belong only at named API/asset boundaries. FA is a non-team sentinel. Do not add ad hoc maps or edit historical raw sources/franchise IDs. Shared dictionary changes require synchronized copies, all-32-team/provider round-trip tests, Commissioner's scripts/check_nfl_team_codes.py across all four checkouts, and the full pre-publication contract gate.
+
 Shared probability labels and tie-display thresholds are owned by the
 Commissioner repository's `contracts/live_display.json`. Follow its
 `contracts/README.md`: update the versioned policy and reviewed examples, then
