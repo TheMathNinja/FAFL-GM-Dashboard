@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 10,
   "status": "official",
-  "updated_at": "2026-11-23 07:28 UTC",
+  "updated_at": "2026-11-23 07:51 UTC",
   "simulations": 12000,
   "model": {
     "native_mean": [
@@ -453,8 +453,8 @@
       "complete": false,
       "unresolved_checks": 5
     },
-    "forecast_runtime_seconds": 6.531,
-    "base_forecast_runtime_seconds": 6.516,
+    "forecast_runtime_seconds": 6.596,
+    "base_forecast_runtime_seconds": 6.581,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -6729,7 +6729,7 @@
         "divisionProbability": 0.3839166666666667,
         "byeProbability": 8.333333333333333e-05,
         "projectedPoints": 2468.779125223456,
-        "projectedPPG": 200.43956261172795,
+        "projectedPPG": 200.43956261172798,
         "projectedPotentialPoints": 2871.4138553816965,
         "winDetails": {
           "currentWins": 7.0,
@@ -8289,7 +8289,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2346.90386546109,
-        "projectedPPG": 189.20193273054505,
+        "projectedPPG": 189.20193273054508,
         "projectedPotentialPoints": 2829.2363806298686,
         "winDetails": {
           "currentWins": 7.0,
@@ -9849,7 +9849,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2127.674681269899,
-        "projectedPPG": 185.58734063494947,
+        "projectedPPG": 185.58734063494944,
         "projectedPotentialPoints": 2660.8676294949464,
         "winDetails": {
           "currentWins": 4.0,

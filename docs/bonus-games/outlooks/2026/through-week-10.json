@@ -3450,8 +3450,8 @@
       "0016": 191.86643720488166,
       "0017": 194.0965041925844,
       "0018": 191.16681808092733,
-      "0019": 185.58734063494947,
-      "0020": 200.43956261172795,
+      "0019": 185.58734063494944,
+      "0020": 200.43956261172798,
       "0021": 206.18652737892427,
       "0022": 185.79383014826868,
       "0023": 192.1769290750808,
@@ -3463,7 +3463,7 @@
       "0029": 200.94559573707608,
       "0030": 188.0902706318809,
       "0031": 204.32643907543041,
-      "0032": 189.20193273054505
+      "0032": 189.20193273054508
     },
     "description": "All forecasts use one scoring model. Current Potential PPG and prior GM performance estimate team scoring ability, anchored to league YTD PPG. The upcoming week blends that estimate equally with calibrated Fantasy Sharks projections for submitted starters, using calibrated YTD PPG when a Sharks projection is unavailable. Later weeks retain the underlying team forecast. Future-week bye adjustments use the selected week\u2019s roster and estimated player scoring, allowing for eligible replacements. Weekly scores follow a fitted Normal-inverse-Gaussian distribution with a persistent team-strength offset. H2H, Playoffs and all five Bonus Games share the same simulated scores."
   },
@@ -6371,7 +6371,7 @@
   },
   "outlooks": {
     "kind": "published",
-    "published_at": "2026-11-23T07:30:51.102773+00:00",
+    "published_at": "2026-11-23T07:54:02.604258+00:00",
     "status": "official"
   },
   "league": "FAFL",
