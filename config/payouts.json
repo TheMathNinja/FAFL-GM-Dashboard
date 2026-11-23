@@ -1,0 +1,316 @@
+{
+  "league": "FAFL",
+  "season": 2026,
+  "payIn": 3200,
+  "teams": [
+    [
+      "Arizona Cardinals",
+      "ARI",
+      "NFC"
+    ],
+    [
+      "Atlanta Falcons",
+      "ATL",
+      "NFC"
+    ],
+    [
+      "Baltimore Ravens",
+      "BAL",
+      "AFC"
+    ],
+    [
+      "Buffalo Bills",
+      "BUF",
+      "AFC"
+    ],
+    [
+      "Carolina Panthers",
+      "CAR",
+      "NFC"
+    ],
+    [
+      "Chicago Bears",
+      "CHI",
+      "NFC"
+    ],
+    [
+      "Cincinnati Bengals",
+      "CIN",
+      "AFC"
+    ],
+    [
+      "Cleveland Browns",
+      "CLE",
+      "AFC"
+    ],
+    [
+      "Dallas Cowboys",
+      "DAL",
+      "NFC"
+    ],
+    [
+      "Denver Broncos",
+      "DEN",
+      "AFC"
+    ],
+    [
+      "Detroit Lions",
+      "DET",
+      "NFC"
+    ],
+    [
+      "Green Bay Packers",
+      "GBP",
+      "NFC"
+    ],
+    [
+      "Houston Texans",
+      "HOU",
+      "AFC"
+    ],
+    [
+      "Indianapolis Colts",
+      "IND",
+      "AFC"
+    ],
+    [
+      "Jacksonville Jaguars",
+      "JAC",
+      "AFC"
+    ],
+    [
+      "Kansas City Chiefs",
+      "KCC",
+      "AFC"
+    ],
+    [
+      "Las Vegas Raiders",
+      "LVR",
+      "AFC"
+    ],
+    [
+      "Los Angeles Chargers",
+      "LAC",
+      "AFC"
+    ],
+    [
+      "Los Angeles Rams",
+      "LAR",
+      "NFC"
+    ],
+    [
+      "Miami Dolphins",
+      "MIA",
+      "AFC"
+    ],
+    [
+      "Minnesota Vikings",
+      "MIN",
+      "NFC"
+    ],
+    [
+      "New England Patriots",
+      "NEP",
+      "AFC"
+    ],
+    [
+      "New Orleans Saints",
+      "NOS",
+      "NFC"
+    ],
+    [
+      "New York Giants",
+      "NYG",
+      "NFC"
+    ],
+    [
+      "New York Jets",
+      "NYJ",
+      "AFC"
+    ],
+    [
+      "Philadelphia Eagles",
+      "PHI",
+      "NFC"
+    ],
+    [
+      "Pittsburgh Steelers",
+      "PIT",
+      "AFC"
+    ],
+    [
+      "San Francisco 49ers",
+      "SFO",
+      "NFC"
+    ],
+    [
+      "Seattle Seahawks",
+      "SEA",
+      "NFC"
+    ],
+    [
+      "Tampa Bay Buccaneers",
+      "TBB",
+      "NFC"
+    ],
+    [
+      "Tennessee Titans",
+      "TEN",
+      "AFC"
+    ],
+    [
+      "Washington Commanders",
+      "WAS",
+      "NFC"
+    ]
+  ],
+  "prizes": [
+    [
+      "Super Bowl Champion",
+      300.0
+    ],
+    [
+      "Super Bowl Runner-Up",
+      200.0
+    ],
+    [
+      "Conference Champ Runner-Up",
+      100.0
+    ],
+    [
+      "Third Place Winner",
+      50.0
+    ],
+    [
+      "Third Place Runner-Up",
+      25.0
+    ],
+    [
+      "Fifth Place Winner",
+      10.0
+    ],
+    [
+      "Fifth Place Runner-Up",
+      5.0
+    ],
+    [
+      "Playoff Participant 1",
+      85.0
+    ],
+    [
+      "Playoff Participant 2",
+      85.0
+    ],
+    [
+      "Playoff Participant 3",
+      85.0
+    ],
+    [
+      "Playoff Participant 4",
+      85.0
+    ],
+    [
+      "Playoff Participant 5",
+      85.0
+    ],
+    [
+      "Playoff Participant 6",
+      85.0
+    ],
+    [
+      "Playoff Participant 7",
+      85.0
+    ],
+    [
+      "Consolation Ladder Champ",
+      50.0
+    ],
+    [
+      "Head Coach of the Year",
+      70.0
+    ],
+    [
+      "Offensive Coordinator of the Year",
+      30.0
+    ],
+    [
+      "Defensive Coordinator of the Year",
+      30.0
+    ],
+    [
+      "General Manager of the Year",
+      30.0
+    ],
+    [
+      "Week 1 High Score",
+      15.0
+    ],
+    [
+      "Week 2 High Score",
+      15.0
+    ],
+    [
+      "Week 3 High Score",
+      15.0
+    ],
+    [
+      "Week 4 High Score",
+      15.0
+    ],
+    [
+      "Week 5 High Score",
+      15.0
+    ],
+    [
+      "Week 6 High Score",
+      15.0
+    ],
+    [
+      "Week 7 High Score",
+      15.0
+    ],
+    [
+      "Week 8 High Score",
+      15.0
+    ],
+    [
+      "Week 9 High Score",
+      15.0
+    ],
+    [
+      "Week 10 High Score",
+      15.0
+    ],
+    [
+      "Week 11 High Score",
+      15.0
+    ],
+    [
+      "Week 12 High Score",
+      15.0
+    ],
+    [
+      "Week 13 High Score",
+      15.0
+    ],
+    [
+      "Week 14 High Score",
+      15.0
+    ],
+    [
+      "Week 15 High Score",
+      15.0
+    ],
+    [
+      "Week 16 High Score",
+      15.0
+    ],
+    [
+      "Week 17 High Score",
+      15.0
+    ]
+  ],
+  "adjustments": {
+    "CHI": 200.0
+  }
+}
