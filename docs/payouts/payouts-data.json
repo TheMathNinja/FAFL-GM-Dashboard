@@ -618,7 +618,9 @@
       "scope": "conference",
       "group": "Postseason",
       "recipients": {
-        "NFC": [],
+        "NFC": [
+          "CHI"
+        ],
         "AFC": []
       },
       "settled": false
@@ -1028,9 +1030,9 @@
       "name": "Chicago Bears",
       "conference": "NFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-      "earned": 15.0,
+      "earned": 100.0,
       "adjustment": 200.0,
-      "payout": 215.0,
+      "payout": 300.0,
       "adjustmentNote": "Hosting fee reimbursement"
     },
     {
@@ -1297,10 +1299,10 @@
   "totals": {
     "payIn": 3200.0,
     "pool": 3000.0,
-    "earned": 300.0,
+    "hostingFee": 200.0,
+    "earned": 385.0,
     "adjustments": 200.0,
-    "payout": 500.0,
-    "remaining": 2700.0,
-    "hostingFee": 200
+    "payout": 585.0,
+    "remaining": 2615.0
   }
 }

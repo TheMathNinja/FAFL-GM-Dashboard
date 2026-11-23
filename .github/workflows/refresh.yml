@@ -222,7 +222,7 @@ jobs:
       - name: Build and reconcile dashboard Payouts
         id: payouts
         continue-on-error: true
-        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.bracket.outcome == 'success'
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true && steps.bracket.outcome == 'success' && steps.playoffs.outcome == 'success'
         run: |
           python -m unittest discover -s tests -p test_payouts.py -v
           python scripts/build_payouts.py --league FAFL
