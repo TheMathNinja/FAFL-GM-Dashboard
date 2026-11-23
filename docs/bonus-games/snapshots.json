@@ -3,7 +3,7 @@
   "season": 2026,
   "through_week": 10,
   "status": "official",
-  "updated_at": "2026-11-23T07:22:35.925634+00:00",
+  "updated_at": "2026-11-23T07:30:51.102773+00:00",
   "simulations": 12000,
   "weeks": {
     "1": [
@@ -36192,31 +36192,31 @@
         "0005": 215.07303037688536,
         "0006": 186.75006714486017,
         "0007": 182.69619871368775,
-        "0008": 173.19036441420158,
-        "0009": 184.52347853353024,
+        "0008": 173.19036441420155,
+        "0009": 184.52347853353027,
         "0010": 202.69151571678123,
         "0011": 213.21780068182326,
         "0012": 194.14733860036733,
         "0013": 188.3414885691093,
         "0014": 177.6429302684715,
-        "0015": 211.77076317516708,
+        "0015": 211.77076317516705,
         "0016": 191.86643720488166,
         "0017": 194.0965041925844,
         "0018": 191.16681808092733,
         "0019": 185.58734063494947,
-        "0020": 200.43956261172798,
+        "0020": 200.43956261172795,
         "0021": 206.18652737892427,
         "0022": 185.79383014826868,
         "0023": 192.1769290750808,
         "0024": 163.29861260289317,
         "0025": 195.97361648162712,
-        "0026": 186.0232584987707,
+        "0026": 186.02325849877076,
         "0027": 216.4925123327625,
         "0028": 197.73795996494215,
         "0029": 200.94559573707608,
         "0030": 188.0902706318809,
         "0031": 204.32643907543041,
-        "0032": 189.20193273054508
+        "0032": 189.20193273054505
       },
       "description": "All forecasts use one scoring model. Current Potential PPG and prior GM performance estimate team scoring ability, anchored to league YTD PPG. The upcoming week blends that estimate equally with calibrated Fantasy Sharks projections for submitted starters, using calibrated YTD PPG when a Sharks projection is unavailable. Later weeks retain the underlying team forecast. Future-week bye adjustments use the selected week\u2019s roster and estimated player scoring, allowing for eligible replacements. Weekly scores follow a fitted Normal-inverse-Gaussian distribution with a persistent team-strength offset. H2H, Playoffs and all five Bonus Games share the same simulated scores."
     }
@@ -52196,37 +52196,37 @@
   "outlooks": {
     "1": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "2": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "3": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "4": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "5": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "6": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "7": {
       "kind": "reconstructed",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     },
     "8": {
@@ -52241,7 +52241,7 @@
     },
     "10": {
       "kind": "published",
-      "published_at": "2026-11-23T07:22:35.925634+00:00",
+      "published_at": "2026-11-23T07:30:51.102773+00:00",
       "status": "official"
     }
   }

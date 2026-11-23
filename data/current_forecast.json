@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 10,
   "status": "official",
-  "updated_at": "2026-11-23 07:17 UTC",
+  "updated_at": "2026-11-23 07:28 UTC",
   "simulations": 12000,
   "model": {
     "native_mean": [
@@ -453,8 +453,8 @@
       "complete": false,
       "unresolved_checks": 5
     },
-    "forecast_runtime_seconds": 73.835,
-    "base_forecast_runtime_seconds": 73.82,
+    "forecast_runtime_seconds": 6.531,
+    "base_forecast_runtime_seconds": 6.516,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -1111,7 +1111,7 @@
         "divisionProbability": 1.0,
         "byeProbability": 0.03791666666666667,
         "projectedPoints": 2693.4415263503342,
-        "projectedPPG": 211.77076317516708,
+        "projectedPPG": 211.77076317516705,
         "projectedPotentialPoints": 3172.1321131759883,
         "winDetails": {
           "currentWins": 9.0,
@@ -2983,7 +2983,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2299.5469570670602,
-        "projectedPPG": 184.52347853353024,
+        "projectedPPG": 184.52347853353027,
         "projectedPotentialPoints": 2640.509845626334,
         "winDetails": {
           "currentWins": 4.5,
@@ -5167,7 +5167,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 1744.680728828403,
-        "projectedPPG": 173.19036441420158,
+        "projectedPPG": 173.19036441420155,
         "projectedPotentialPoints": 2215.9648695287324,
         "winDetails": {
           "currentWins": 1.0,
@@ -6729,7 +6729,7 @@
         "divisionProbability": 0.3839166666666667,
         "byeProbability": 8.333333333333333e-05,
         "projectedPoints": 2468.779125223456,
-        "projectedPPG": 200.43956261172798,
+        "projectedPPG": 200.43956261172795,
         "projectedPotentialPoints": 2871.4138553816965,
         "winDetails": {
           "currentWins": 7.0,
@@ -8289,7 +8289,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2346.90386546109,
-        "projectedPPG": 189.20193273054508,
+        "projectedPPG": 189.20193273054505,
         "projectedPotentialPoints": 2829.2363806298686,
         "winDetails": {
           "currentWins": 7.0,
@@ -8601,7 +8601,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2261.1465169975413,
-        "projectedPPG": 186.0232584987707,
+        "projectedPPG": 186.02325849877076,
         "projectedPotentialPoints": 2628.6713340381184,
         "winDetails": {
           "currentWins": 5.0,
