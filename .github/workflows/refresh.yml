@@ -274,6 +274,14 @@ jobs:
           SCORE_REVISION: ${{ inputs.score_revision }}
         run: python3 scripts/correction_impact.py compare --league FAFL --week "$READY_WEEK"
 
+      - name: Test generated Playoff Picture in Chromium
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true
+        timeout-minutes: 6
+        run: |
+          python -m pip install playwright==1.56.1
+          python -m playwright install --with-deps chromium
+          python scripts/check_playoff_picture_browser.py
+
       - name: Save published snapshots
         if: steps.schedule.outputs.should_run == 'true'
         run: |
@@ -297,6 +305,11 @@ jobs:
         id: deploy
         with:
           artifact_name: github-pages-${{ github.run_attempt }}
+
+      - name: Verify published Playoff Picture in Chromium
+        if: steps.schedule.outputs.should_run == 'true' && inputs.authorize_official_writes == true
+        timeout-minutes: 7
+        run: python scripts/check_playoff_picture_browser.py --live-url https://themathninja.github.io/FAFL-GM-Dashboard/playoff-picture/
 
       - name: Confirm weekly publication and record processed scores
         if: inputs.ready_week != '' && inputs.authorize_official_writes == true && success()
