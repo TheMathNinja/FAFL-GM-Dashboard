@@ -1031,7 +1031,7 @@
       "earned": 15.0,
       "adjustment": 200.0,
       "payout": 215.0,
-      "adjustmentNote": "Commissioner League Fee reimbursement ($200)"
+      "adjustmentNote": "Hosting fee reimbursement"
     },
     {
       "code": "CIN",
@@ -1300,6 +1300,7 @@
     "earned": 300.0,
     "adjustments": 200.0,
     "payout": 500.0,
-    "remaining": 2700.0
+    "remaining": 2700.0,
+    "hostingFee": 200
   }
 }

@@ -313,7 +313,8 @@
   "adjustments": {
     "CHI": 200.0
   },
+  "hostingFee": 200,
   "adjustmentNotes": {
-    "CHI": "Commissioner League Fee reimbursement ($200)"
+    "CHI": "Hosting fee reimbursement"
   }
 }
