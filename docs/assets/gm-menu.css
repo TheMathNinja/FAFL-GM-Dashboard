@@ -58,3 +58,5 @@ header:is(.gm-mast,.adl-mast,.fafl-mast,.mast) :is(.gm-overline,.adl-overline,.f
  header:is(.gm-mast,.adl-mast,.fafl-mast,.mast):has([data-gm-menu]) > img{width:48px!important;height:59px!important}
  header:is(.gm-mast,.adl-mast,.fafl-mast,.mast):has([data-gm-menu]) h1{font-size:23px!important}
 }
+[data-gm-menu] .gm-menu-heading{margin:0!important;padding:12px 15px 5px!important;font:750 10px/1.5 Inter,system-ui,sans-serif!important;letter-spacing:1.2px!important;text-transform:uppercase!important;color:#667085!important}
+[data-gm-menu] .gm-menu-section+.gm-menu-section{border-top:1px solid #e7ebf0;margin-top:6px;padding-top:2px}

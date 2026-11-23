@@ -1,6 +1,33 @@
 /* Native details menu with keyboard and outside-click dismissal. */
 (()=>{const menus=[...document.querySelectorAll('[data-gm-menu]')];for(const menu of menus){const button=menu.querySelector('summary');button.setAttribute('aria-expanded',String(menu.open));menu.addEventListener('toggle',()=>{button.setAttribute('aria-expanded',String(menu.open));if(menu.open)for(const other of menus)if(other!==menu)other.open=false});menu.addEventListener('click',e=>{if(e.target.closest('nav a'))menu.open=false})}document.addEventListener('click',e=>{for(const menu of menus)if(!menu.contains(e.target))menu.open=false});document.addEventListener('keydown',e=>{if(e.key==='Escape')for(const menu of menus)if(menu.open){menu.open=false;menu.querySelector('summary').focus()}})})();
 
+// Every module exposes the same league-specific dashboard directory.
+document.querySelectorAll('[data-gm-menu] nav').forEach(nav=>{
+  const overview=nav.querySelector('.gm-overview-link');
+  nav.replaceChildren();
+  if(overview)nav.append(overview);
+  const section=document.createElement('div');
+  section.className='gm-menu-section';
+  section.setAttribute('role','group');
+  section.setAttribute('aria-label','Team Tracking');
+  const heading=document.createElement('h2');
+  heading.className='gm-menu-heading';
+  heading.textContent='Team Tracking';
+  section.append(heading);
+  const modules=[['Bonus Games','bonus-games'],['Gameday','gameday'],['Payouts','payouts'],['Playoff Picture','playoff-picture'],['Trophy Room','trophy-room']];
+  for(const [label,slug] of modules){
+    const link=document.createElement('a');
+    link.href='https://themathninja.github.io/FAFL-GM-Dashboard/'+slug+'/';
+    link.textContent=label;
+    section.append(link);
+  }
+  const league=document.createElement('a');
+  league.href='https://www43.myfantasyleague.com/2026/home/22686';
+  league.textContent='FAFL league ↗';
+  section.append(league);
+  nav.append(section);
+});
+
 // Keep the current shared module and tab when changing leagues.
 (()=>{
  const initial=new URL(location.href),match=initial.pathname.match(/\/(ADL|FAFL)-GM-Dashboard\/(bonus-games|gameday|payouts|playoff-picture|trophy-room)(?:\/|$)/i);
@@ -52,11 +79,3 @@
  window.addEventListener('hashchange',syncLinks);
 })();
 
-// Keep Payouts reachable from every FAFL module's existing menu.
-document.querySelectorAll('[data-gm-menu] nav').forEach(nav => {
-  if ([...nav.querySelectorAll('a')].some(link => link.textContent === 'Payouts')) return;
-  const link = document.createElement('a');
-  link.href = 'https://themathninja.github.io/FAFL-GM-Dashboard/payouts/';
-  link.textContent = 'Payouts';
-  nav.append(link);
-});
