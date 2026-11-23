@@ -1,5 +1,6 @@
 import copy,itertools,json,unittest,sys
 from pathlib import Path
+from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from exact_clinching import ClinchModel,certify,normalize,adjudicate,z3
 
@@ -48,6 +49,18 @@ class ExactTests(unittest.TestCase):
  def test_no_false_tag_on_timeout(self):
   r=toy([[200,100],[0,0]],wins2=[2,0],week=1);m=ClinchModel(r,1);m.feasibility();result=m.check('playoffs',0)
   self.assertFalse(result['certified'])
+ def test_fafl_week_ten_resolves_previous_timeouts_without_solver_search(self):
+  source=Path(__file__).resolve().parents[1]/'data/clinching/2026/week-10.json'
+  model=ClinchModel(json.loads(source.read_text(encoding='utf-8'))['input'],1)
+  model.feasibility()
+  cases={('0027','playoffs'):'proved',('0016','eliminated_division'):'proved',
+         ('0030','eliminated_bye'):'proved',('0003','playoffs'):'counterexample',
+         ('0011','playoffs'):'counterexample'}
+  with patch.object(model.solver,'check',side_effect=AssertionError('Solver query not needed')):
+   for (team,claim),expected in cases.items():
+    with self.subTest(team=team,claim=claim):
+     i=model.r['ids'].index(team)
+     self.assertEqual(model.check(claim,i)['status'],expected)
  def test_wildcard_omits_head_to_head(self):
   r=toy([[150,100,140,101],[200,180,50,0]],wins2=[3,2,4,2]);r['opp']=[[2,3,0,1],[1,0,3,2]]
   r['teams'][2]['division']='E';r['teams'][3]['division']='E';r['wild_cards']=1
