@@ -20,6 +20,7 @@ on:
       - scripts/bonus_outlook_archive.py
       - tests/test_bonus_outlook_archive.py
       - scripts/build.py
+      - scripts/templates/playoff.html
       - scripts/exact_clinching.py
       - tests/test_exact_clinching.py
       - scripts/verify_quarterly_sync.py
