@@ -2,7 +2,7 @@
   "season": 2026,
   "through_week": 10,
   "status": "official",
-  "updated_at": "2026-11-23 06:15 UTC",
+  "updated_at": "2026-11-23 07:17 UTC",
   "simulations": 12000,
   "model": {
     "native_mean": [
@@ -451,10 +451,10 @@
       "method": "score-coupled-clinch-v1-real",
       "input_hash": "5ab9c6f197b72df82617734ad647d2b5e4f81ffccc774dbc8090160ef7f6f2fd",
       "complete": false,
-      "unresolved_checks": 22
+      "unresolved_checks": 5
     },
-    "forecast_runtime_seconds": 6.62,
-    "base_forecast_runtime_seconds": 6.605,
+    "forecast_runtime_seconds": 73.835,
+    "base_forecast_runtime_seconds": 73.82,
     "playoff_swing_matchups": 16
   },
   "conferences": {
@@ -1091,7 +1091,7 @@
         "name": "San Francisco 49ers",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
         "seed": 3,
-        "clinch": "",
+        "clinch": "d",
         "projectedQual": "y",
         "qual": "y",
         "record": "9-4",
@@ -1111,7 +1111,7 @@
         "divisionProbability": 1.0,
         "byeProbability": 0.03791666666666667,
         "projectedPoints": 2693.4415263503342,
-        "projectedPPG": 211.77076317516705,
+        "projectedPPG": 211.77076317516708,
         "projectedPotentialPoints": 3172.1321131759883,
         "winDetails": {
           "currentWins": 9.0,
@@ -5167,7 +5167,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 1744.680728828403,
-        "projectedPPG": 173.19036441420155,
+        "projectedPPG": 173.19036441420158,
         "projectedPotentialPoints": 2215.9648695287324,
         "winDetails": {
           "currentWins": 1.0,
@@ -5461,7 +5461,7 @@
         "name": "Jacksonville Jaguars",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
         "seed": 1,
-        "clinch": "",
+        "clinch": "p",
         "projectedQual": "y",
         "qual": "y",
         "record": "11-2",
@@ -6729,7 +6729,7 @@
         "divisionProbability": 0.3839166666666667,
         "byeProbability": 8.333333333333333e-05,
         "projectedPoints": 2468.779125223456,
-        "projectedPPG": 200.43956261172795,
+        "projectedPPG": 200.43956261172798,
         "projectedPotentialPoints": 2871.4138553816965,
         "winDetails": {
           "currentWins": 7.0,
@@ -8601,7 +8601,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2261.1465169975413,
-        "projectedPPG": 186.02325849877076,
+        "projectedPPG": 186.0232584987707,
         "projectedPotentialPoints": 2628.6713340381184,
         "winDetails": {
           "currentWins": 5.0,
@@ -9829,7 +9829,7 @@
         "name": "New England Patriots",
         "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
         "seed": 15,
-        "clinch": "",
+        "clinch": "e",
         "projectedQual": "",
         "qual": "",
         "record": "4-9",
@@ -9849,7 +9849,7 @@
         "divisionProbability": 0.0,
         "byeProbability": 0.0,
         "projectedPoints": 2127.674681269899,
-        "projectedPPG": 185.58734063494944,
+        "projectedPPG": 185.58734063494947,
         "projectedPotentialPoints": 2660.8676294949464,
         "winDetails": {
           "currentWins": 4.0,
