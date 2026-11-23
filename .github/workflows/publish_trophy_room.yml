@@ -1,6 +1,13 @@
-name: Publish Trophy Room
+name: Publish GM Dashboard pages
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/payouts/index.html'
+      - 'docs/payouts/payouts.css'
+      - 'docs/payouts/payouts.js'
+      - '.github/workflows/publish_trophy_room.yml'
 permissions:
   contents: read
   pages: write
@@ -21,6 +28,7 @@ jobs:
           python-version: '3.12'
       - run: python3 -m unittest discover -s tests -p test_trophy_room.py
       - run: node --check docs/trophy-room/trophy.js
+      - run: node --check docs/payouts/payouts.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
