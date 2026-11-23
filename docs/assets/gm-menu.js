@@ -3,7 +3,7 @@
 
 // Keep the current shared module and tab when changing leagues.
 (()=>{
- const initial=new URL(location.href),match=initial.pathname.match(/\/(ADL|FAFL)-GM-Dashboard\/(bonus-games|playoff-picture|trophy-room)(?:\/|$)/i);
+ const initial=new URL(location.href),match=initial.pathname.match(/\/(ADL|FAFL)-GM-Dashboard\/(bonus-games|gameday|playoff-picture|trophy-room)(?:\/|$)/i);
  if(!match)return;
  const league=match[1].toUpperCase(),module=match[2].toLowerCase(),switches=[];
  function tabs(){return [...document.querySelectorAll(module==='bonus-games'?'[role="tab"][data-race]':module==='playoff-picture'?'[role="tab"][data-view]':'.tabs [role="tab"]')];}
@@ -34,7 +34,7 @@
   const toggle=document.createElement('nav');toggle.className='gm-league-switch';toggle.setAttribute('data-gm-league-switch','');toggle.setAttribute('aria-label','League');
   for(const value of ['ADL','FAFL']){
    const link=document.createElement('a');link.textContent=value;link.dataset.league=value;
-   link.setAttribute('aria-label',value+' '+({'bonus-games':'Bonus Games','playoff-picture':'Playoff Picture','trophy-room':'Trophy Room'}[module]));
+   link.setAttribute('aria-label',value+' '+({'bonus-games':'Bonus Games',gameday:'Gameday','playoff-picture':'Playoff Picture','trophy-room':'Trophy Room'}[module]));
    if(value===league)link.setAttribute('aria-current','page');toggle.append(link);
   }
   menu.before(group);group.append(toggle,menu);header.classList.add('gm-league-header');switches.push(toggle);
