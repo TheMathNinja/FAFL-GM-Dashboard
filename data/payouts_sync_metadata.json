@@ -1,12 +1,11 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "through_week": 10,
-  "run_id": "44568649789",
+  "through_week": 11,
+  "run_id": "45336514175",
   "status": "success",
-  "verified_at": "2026-11-19T17:56:31.515240+00:00",
-  "spreadsheet_id": "1E-N1YK-udh88c7LFbB57itbMIEAzt6z1N4M5s_J1XBA",
-  "source_sha256": "22f7a3f730aaf9ef6b903acc71412d7113d244d890bf8482f9a57454540cc2c7",
+  "verified_at": "2026-11-24T06:05:55.652747+00:00",
+  "source_sha256": "155f3045bce8ae3403b70eba305c6329c3ff1135325d1f288c4055259d02921e",
   "awards": {
     "Week 1": [
       "WAS",
@@ -109,14 +108,14 @@
       "DEN"
     ],
     "Week 11": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "TBB",
+      "CHI",
+      "SEA",
+      "TBB",
+      "JAC",
+      "JAC",
+      "JAC",
+      "JAC"
     ],
     "Week 12": [
       "",
@@ -239,23 +238,6 @@
       ""
     ]
   },
-  "logos": {
-    "status": "success",
-    "run_id": "44568649789",
-    "source_sha256": "22f7a3f730aaf9ef6b903acc71412d7113d244d890bf8482f9a57454540cc2c7",
-    "dispatch": {
-      "status": "success",
-      "queued": true
-    },
-    "acknowledgement": {
-      "status": "success",
-      "run_id": "44568649789",
-      "source_sha256": "22f7a3f730aaf9ef6b903acc71412d7113d244d890bf8482f9a57454540cc2c7",
-      "week": 10,
-      "images": 104,
-      "verified_at": "2026-11-19T17:56:27.173Z"
-    }
-  },
-  "published_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzJ6YMO_7eh-G8x4vk-DC9aLsjPJUI2qoe1yRwpj8W6mh2vxtSc5z6gATMl8Ef6AkRaQg1BcNl1-TD/pubhtml/sheet?headers=false&gid=155860916",
-  "published_images_verified": true
+  "published_url": "https://themathninja.github.io/FAFL-GM-Dashboard/payouts/",
+  "mode": "dashboard"
 }

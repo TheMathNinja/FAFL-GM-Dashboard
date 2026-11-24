@@ -1,7 +1,7 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "throughWeek": 10,
+  "throughWeek": 11,
   "awards": [
     {
       "period": "Week 1",
@@ -395,16 +395,32 @@
     },
     {
       "period": "Week 11",
-      "settled": false,
+      "settled": true,
       "winners": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        []
+        [
+          "TBB"
+        ],
+        [
+          "CHI"
+        ],
+        [
+          "SEA"
+        ],
+        [
+          "TBB"
+        ],
+        [
+          "JAC"
+        ],
+        [
+          "JAC"
+        ],
+        [
+          "JAC"
+        ],
+        [
+          "JAC"
+        ]
       ]
     },
     {
@@ -621,9 +637,11 @@
         "NFC": [
           "CHI"
         ],
-        "AFC": []
+        "AFC": [
+          "JAC"
+        ]
       },
-      "settled": false
+      "settled": true
     },
     {
       "label": "Playoff Participant 2",
@@ -631,10 +649,14 @@
       "scope": "conference",
       "group": "Postseason",
       "recipients": {
-        "NFC": [],
-        "AFC": []
+        "NFC": [
+          "PHI"
+        ],
+        "AFC": [
+          "LVR"
+        ]
       },
-      "settled": false
+      "settled": true
     },
     {
       "label": "Playoff Participant 3",
@@ -642,10 +664,14 @@
       "scope": "conference",
       "group": "Postseason",
       "recipients": {
-        "NFC": [],
-        "AFC": []
+        "NFC": [
+          "SFO"
+        ],
+        "AFC": [
+          "DEN"
+        ]
       },
-      "settled": false
+      "settled": true
     },
     {
       "label": "Playoff Participant 4",
@@ -653,7 +679,9 @@
       "scope": "conference",
       "group": "Postseason",
       "recipients": {
-        "NFC": [],
+        "NFC": [
+          "CAR"
+        ],
         "AFC": []
       },
       "settled": false
@@ -902,10 +930,14 @@
       "scope": "conference",
       "group": "Weekly",
       "recipients": {
-        "NFC": [],
-        "AFC": []
+        "NFC": [
+          "TBB"
+        ],
+        "AFC": [
+          "JAC"
+        ]
       },
-      "settled": false
+      "settled": true
     },
     {
       "label": "Week 12 High Score",
@@ -1020,9 +1052,9 @@
       "name": "Carolina Panthers",
       "conference": "NFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-      "earned": 0.0,
+      "earned": 85.0,
       "adjustment": 0.0,
-      "payout": 0.0,
+      "payout": 85.0,
       "adjustmentNote": null
     },
     {
@@ -1070,9 +1102,9 @@
       "name": "Denver Broncos",
       "conference": "AFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-      "earned": 30.0,
+      "earned": 115.0,
       "adjustment": 0.0,
-      "payout": 30.0,
+      "payout": 115.0,
       "adjustmentNote": null
     },
     {
@@ -1120,9 +1152,9 @@
       "name": "Jacksonville Jaguars",
       "conference": "AFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-      "earned": 15.0,
+      "earned": 115.0,
       "adjustment": 0.0,
-      "payout": 15.0,
+      "payout": 115.0,
       "adjustmentNote": null
     },
     {
@@ -1140,9 +1172,9 @@
       "name": "Las Vegas Raiders",
       "conference": "AFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-      "earned": 30.0,
+      "earned": 115.0,
       "adjustment": 0.0,
-      "payout": 30.0,
+      "payout": 115.0,
       "adjustmentNote": null
     },
     {
@@ -1230,9 +1262,9 @@
       "name": "Philadelphia Eagles",
       "conference": "NFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-      "earned": 30.0,
+      "earned": 115.0,
       "adjustment": 0.0,
-      "payout": 30.0,
+      "payout": 115.0,
       "adjustmentNote": null
     },
     {
@@ -1250,9 +1282,9 @@
       "name": "San Francisco 49ers",
       "conference": "NFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-      "earned": 30.0,
+      "earned": 115.0,
       "adjustment": 0.0,
-      "payout": 30.0,
+      "payout": 115.0,
       "adjustmentNote": null
     },
     {
@@ -1270,9 +1302,9 @@
       "name": "Tampa Bay Buccaneers",
       "conference": "NFC",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-      "earned": 15.0,
+      "earned": 30.0,
       "adjustment": 0.0,
-      "payout": 15.0,
+      "payout": 30.0,
       "adjustmentNote": null
     },
     {
@@ -1300,9 +1332,9 @@
     "payIn": 3200.0,
     "pool": 3000.0,
     "hostingFee": 200.0,
-    "earned": 385.0,
+    "earned": 925.0,
     "adjustments": 200.0,
-    "payout": 585.0,
-    "remaining": 2615.0
+    "payout": 1125.0,
+    "remaining": 2075.0
   }
 }

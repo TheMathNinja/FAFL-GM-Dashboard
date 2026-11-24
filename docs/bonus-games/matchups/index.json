@@ -1,8 +1,8 @@
 {
   "league": "FAFL",
   "season": 2026,
-  "currentWeek": 11,
-  "publishedThroughWeek": 10,
+  "currentWeek": 12,
+  "publishedThroughWeek": 11,
   "weeks": [
     1,
     2,
@@ -14,7 +14,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
-  "generatedAt": "2026-11-23T07:56:11.076169+00:00"
+  "generatedAt": "2026-11-24T06:03:49.810967+00:00"
 }
