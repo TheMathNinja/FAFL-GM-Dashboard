@@ -1,20 +1,57 @@
-"""Publish a generated commit without force-pushing or resolving conflicts."""
+"""Publish verified output, regenerating once if its source branch advances."""
 import subprocess
-import time
+import sys
+
+GENERATED = (
+    'data/clinching', 'docs/bonus-games', 'docs/playoff-picture',
+    'data/current_forecast.json', 'data/weekly_sharks_team_means.csv', 'data/playoff_swing.csv',
+    'data/fafl_scoring_model.json', 'data/forward_bye_exposure.csv', 'data/forecast_bye_inputs',
+)
 
 
-def publish(run=subprocess.run, sleep=time.sleep):
-    for attempt in range(3):
-        run(['git', 'fetch', 'origin', 'main'], check=True)
-        result = run(['git', 'rebase', 'origin/main'])
-        if result.returncode:
-            run(['git', 'rebase', '--abort'], check=True)
-            raise RuntimeError('Generated output conflicts with newer changes; rebuild from current main')
-        if run(['git', 'push', 'origin', 'HEAD:main']).returncode == 0:
-            return
-        if attempt < 2:
-            sleep(2 ** (attempt + 1))
-    raise RuntimeError('Generated publication still rejected after three attempts')
+def publish(run=subprocess.run):
+    def git(*args, **kwargs):
+        return run(['git', *args], **kwargs)
+
+    def output(*args):
+        return git(*args, check=True, capture_output=True, text=True).stdout.strip()
+
+    def tip():
+        git('fetch', 'origin', '+refs/heads/main:refs/remotes/origin/main', check=True)
+        return output('rev-parse', 'origin/main')
+
+    base = output('rev-parse', 'HEAD')
+    for attempt in range(2):
+        git('add', '--', *GENERATED, check=True)
+        changed = git('diff', '--cached', '--quiet').returncode
+        if changed == 1:
+            git('commit', '-m', 'Rebuild selected Bonus Games dashboard', check=True)
+        elif changed:
+            raise RuntimeError('Could not inspect staged generated output')
+        if output('status', '--porcelain', '--untracked-files=no'):
+            raise RuntimeError('Rebuild modified tracked files outside the generated publication paths')
+        candidate = output('rev-parse', 'HEAD')
+        latest = tip()
+        if latest == candidate:
+            return  # No change, or this exact verified commit is already published.
+        if latest == base:
+            pushed = git('push', 'origin', 'HEAD:main')
+            if pushed.returncode == 0:
+                return
+            latest = tip()
+            if latest == candidate:
+                return  # The server accepted the push despite a failed response.
+            if latest == base:
+                raise RuntimeError('Generated publication rejected without a branch advance')
+        if attempt:
+            raise RuntimeError('Main advanced again during the regenerated build; no stale output was pushed')
+        print('Main advanced during the build; regenerating once from the latest source.', flush=True)
+        requirements_changed = output('diff', '--name-only', base, latest, '--', 'requirements.txt')
+        git('switch', '--detach', latest, check=True)
+        if requirements_changed:
+            run([sys.executable, '-m', 'pip', 'install', '-r', 'requirements.txt'], check=True)
+        base = latest
+        run(['bash', 'scripts/rebuild_bonus_games.sh'], check=True)
 
 
 if __name__ == '__main__':
