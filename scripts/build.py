@@ -200,6 +200,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   shared_order=[quarterly['ids'].index(t) for t in ids]
   mu=np.asarray(quarterly['mu']).mean(0)[shared_order]
   future=quarterly['native_future'][:,:,shared_order]
+  weekly_projected_scores=future.mean(axis=0)
   shared_credits=quarterly['quarterly_credits'][:,:,shared_order]
   details['quarterly_bonus_model']=quarterly['model']
   scores=np.concatenate([np.broadcast_to(actual,(n_sims,week,32)),future],axis=1)
@@ -263,7 +264,7 @@ def forecast(history,current,meta,divmap,opp,home,week,n_sims=DEFAULT_SIMULATION
   matchups=[]
   for k in range(week,12):
    opponent=meta[opp[k,i]]
-   matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),opponentAbbr=opponent['abbrev'],site='v.' if home[k,i] else '@',probability=float(credits[:,k,i].mean())))
+   matchups.append(dict(week=k+1,opponent=html.escape(opponent['name'],quote=True),opponentLogo=team_logo(opponent),opponentAbbr=opponent['abbrev'],site='v.' if home[k,i] else '@',projectedScore=float(weekly_projected_scores[k-week,i]),opponentProjectedScore=float(weekly_projected_scores[k-week,opp[k,i]]),probability=float(credits[:,k,i].mean())))
   bonus_games=[dict(label=label,week=b,probability=float(bonus_prob[label][i])) for label,a,b in bonus_specs if b>week]
   projected_wins=float(wins[:,i].mean());calculated=win+sum(x['probability'] for x in matchups)+sum(x['probability'] for x in bonus_games)
   if not np.isclose(projected_wins,calculated,atol=1e-9):raise ValueError('Projected-win components do not add to the forecast')
@@ -371,5 +372,3 @@ def main():
  print(f'Built FAFL report through Week {week}: 32 teams, {args.simulations} simulations, {stamp}')
 
 if __name__=='__main__':main()
-
-
