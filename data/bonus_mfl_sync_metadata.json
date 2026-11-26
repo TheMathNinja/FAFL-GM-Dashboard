@@ -1,9 +1,9 @@
 {
-  "run_id": "44568649789",
-  "source_sha256": "869080601731cfe7c80c4320fe9bac12092a5f222b05ff477034b3c89372fc4d",
+  "run_id": "45792546042",
+  "source_sha256": "000fb61a4c5f41c20e22f8b8aa15d159435707112dc2638ad12435547751bc5d",
   "league": "FAFL",
   "season": 2026,
-  "week": 10,
+  "week": 11,
   "mode": "official",
   "status": "success",
   "due_weeks": [
@@ -799,5 +799,5 @@
       "missing_before": 0
     }
   ],
-  "verified_at": "2026-11-19T17:43:31.581Z"
+  "verified_at": "2026-11-26T09:32:09.656Z"
 }
