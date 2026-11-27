@@ -83,12 +83,22 @@ class PublicationTests(unittest.TestCase):
         self.rebuild.assert_called_once()
         self.assertEqual(self.git(self.origin, 'show', 'main:page.txt'), 'generated from raced source')
 
-    def test_second_advance_stops_without_pushing_stale_output(self):
+    def test_second_advance_rebuilds_from_newest_source(self):
         self.advance('new source', 'new page')
-        self.rebuild.side_effect = lambda: self.advance('newest source', 'newest page')
+        def race_once():
+            if self.rebuild.call_count == 1:
+                self.advance('newest source', 'newest page')
+        self.rebuild.side_effect = race_once
+        self.publish()
+        self.assertEqual(self.rebuild.call_count, 2)
+        self.assertEqual(self.git(self.origin, 'show', 'main:page.txt'), 'generated from newest source')
+
+    def test_persistent_advances_stop_without_pushing_stale_output(self):
+        self.advance('new source', 'new page')
+        self.rebuild.side_effect = lambda: self.advance('source ' + str(self.rebuild.call_count), 'newest page')
         with self.assertRaisesRegex(RuntimeError, 'advanced again'):
             self.publish()
-        self.rebuild.assert_called_once()
+        self.assertEqual(self.rebuild.call_count, 2)
         self.assertEqual(self.git(self.origin, 'show', 'main:page.txt'), 'newest page')
 
     def test_validation_failure_makes_no_publication(self):

@@ -1,4 +1,4 @@
-"""Publish verified output, regenerating once if its source branch advances."""
+"""Publish verified output with bounded regeneration after source advances."""
 import subprocess
 import sys
 
@@ -7,6 +7,7 @@ GENERATED = (
     'data/current_forecast.json', 'data/weekly_sharks_team_means.csv', 'data/playoff_swing.csv',
     'data/fafl_scoring_model.json', 'data/forward_bye_exposure.csv', 'data/forecast_bye_inputs',
 )
+MAX_REBUILDS = 2
 
 
 def publish(run=subprocess.run):
@@ -21,7 +22,7 @@ def publish(run=subprocess.run):
         return output('rev-parse', 'origin/main')
 
     base = output('rev-parse', 'HEAD')
-    for attempt in range(2):
+    for attempt in range(MAX_REBUILDS + 1):
         git('add', '--', *GENERATED, check=True)
         changed = git('diff', '--cached', '--quiet').returncode
         if changed == 1:
@@ -43,9 +44,9 @@ def publish(run=subprocess.run):
                 return  # The server accepted the push despite a failed response.
             if latest == base:
                 raise RuntimeError('Generated publication rejected without a branch advance')
-        if attempt:
+        if attempt == MAX_REBUILDS:
             raise RuntimeError('Main advanced again during the regenerated build; no stale output was pushed')
-        print('Main advanced during the build; regenerating once from the latest source.', flush=True)
+        print(f'Main advanced during the build; regenerating from latest source ({attempt + 1}/{MAX_REBUILDS}).', flush=True)
         requirements_changed = output('diff', '--name-only', base, latest, '--', 'requirements.txt')
         git('switch', '--detach', latest, check=True)
         if requirements_changed:
