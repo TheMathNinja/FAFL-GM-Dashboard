@@ -2837,44 +2837,58 @@
   },
   "gamesOfTheWeek": [
     {
+      "week": 3,
+      "team_a": "Indianapolis Colts",
+      "team_b": "Houston Texans",
+      "blurb": "Undefeated rivals clash for the outright AFC South lead."
+    },
+    {
       "week": 4,
       "team_a": "Pittsburgh Steelers",
-      "team_b": "Tennessee Titans"
+      "team_b": "Tennessee Titans",
+      "blurb": "Arpad Elo has slandered them. Now they're out for blood."
     },
     {
       "week": 5,
       "team_a": "Philadelphia Eagles",
-      "team_b": "New York Giants"
+      "team_b": "New York Giants",
+      "blurb": "Can one of these powerhouses claw their way into the playoff picture?"
     },
     {
       "week": 6,
       "team_a": "Jacksonville Jaguars",
-      "team_b": "Denver Broncos"
+      "team_b": "Denver Broncos",
+      "blurb": "Elo's two darlings look to prove themselves in the Win column"
     },
     {
       "week": 7,
       "team_a": "Philadelphia Eagles",
-      "team_b": "New Orleans Saints"
+      "team_b": "New Orleans Saints",
+      "blurb": "The Eagles' uphill playoff climb runs through a Bayou Buzzsaw"
     },
     {
       "week": 8,
       "team_a": "Seattle Seahawks",
-      "team_b": "Arizona Cardinals"
+      "team_b": "Arizona Cardinals",
+      "blurb": "The NFC West is up for grabs and these two are fighting for their playoff lives"
     },
     {
       "week": 9,
       "team_a": "New York Jets",
-      "team_b": "Los Angeles Chargers"
+      "team_b": "Los Angeles Chargers",
+      "blurb": "The playoffs doesn't have room for both of them."
     },
     {
       "week": 10,
       "team_a": "New York Giants",
-      "team_b": "Dallas Cowboys"
+      "team_b": "Dallas Cowboys",
+      "blurb": "The NFC's last great playoff battle happens this week"
     },
     {
       "week": 11,
       "team_a": "Miami Dolphins",
-      "team_b": "Baltimore Ravens"
+      "team_b": "Baltimore Ravens",
+      "blurb": "The resurgent Dolphins face a tough Ravens squad in a must-win game"
     },
     {
       "week": 12,
