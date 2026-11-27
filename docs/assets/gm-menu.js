@@ -2,6 +2,7 @@
 (()=>{const menus=[...document.querySelectorAll('[data-gm-menu]')];for(const menu of menus){const button=menu.querySelector('summary');button.setAttribute('aria-expanded',String(menu.open));menu.addEventListener('toggle',()=>{button.setAttribute('aria-expanded',String(menu.open));if(menu.open)for(const other of menus)if(other!==menu)other.open=false});menu.addEventListener('click',e=>{if(e.target.closest('nav a'))menu.open=false})}document.addEventListener('click',e=>{for(const menu of menus)if(!menu.contains(e.target))menu.open=false});document.addEventListener('keydown',e=>{if(e.key==='Escape')for(const menu of menus)if(menu.open){menu.open=false;menu.querySelector('summary').focus()}})})();
 
 // Every module exposes the same league-specific dashboard directory.
+const currentModulePath = location.pathname.split('/');
 document.querySelectorAll('[data-gm-menu] nav').forEach(nav=>{
   const overview=nav.querySelector('.gm-overview-link');
   nav.replaceChildren();
@@ -16,6 +17,7 @@ document.querySelectorAll('[data-gm-menu] nav').forEach(nav=>{
   section.append(heading);
   const modules=[['Bonus Games','bonus-games'],['Gameday','gameday'],['Payouts','payouts'],['Playoff Picture','playoff-picture'],['Trophy Room','trophy-room']];
   for(const [label,slug] of modules){
+    if (currentModulePath.includes(slug)) continue;
     const link=document.createElement('a');
     link.href='https://themathninja.github.io/FAFL-GM-Dashboard/'+slug+'/';
     link.textContent=label;
